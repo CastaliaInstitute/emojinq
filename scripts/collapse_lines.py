@@ -4,12 +4,16 @@
 from __future__ import annotations
 
 import argparse
+import math
+import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 SVG_NS = "http://www.w3.org/2000/svg"
 SHAPES = {"path", "circle", "ellipse", "rect", "polygon", "polyline", "line"}
 ECHO_CLASSES = {"ink-echo", "ink-echo-two", "ink-pencil"}
+TOKEN_RE = re.compile(r"[AaCcHhLlMmQqSsTtVvZz]|[-+]?(?:\d*\.\d+|\d+\.?)(?:[eE][-+]?\d+)?")
+ARITY = {"M": 2, "L": 2, "T": 2, "H": 1, "V": 1, "C": 6, "S": 4, "Q": 4, "A": 7}
 ET.register_namespace("", SVG_NS)
 
 
@@ -17,8 +21,34 @@ def local(tag: str) -> str:
     return tag.rsplit("}", 1)[-1]
 
 
+def roughen_path(d: str, seed: int, amount: float = 0.32) -> str:
+    """Add deterministic sub-pixel hand wobble to path coordinates."""
+    tokens = TOKEN_RE.findall(d)
+    command = None
+    parameter = 0
+    result = []
+    for index, token in enumerate(tokens):
+        if token.isalpha():
+            command = token
+            parameter = 0
+            result.append(token)
+            continue
+        value = float(token)
+        upper = command.upper() if command else ""
+        arity = ARITY.get(upper, 0)
+        slot = parameter % arity if arity else -1
+        eligible = upper not in {"A"} or slot in {5, 6}
+        if arity and eligible:
+            phase = math.sin((seed + index * 17.0) * 12.9898) * 43758.5453
+            wobble = (phase - math.floor(phase) - 0.5) * 2.0 * amount
+            value += wobble
+        result.append(f"{value:.3f}".rstrip("0").rstrip("."))
+        parameter += 1
+    return " ".join(result)
+
+
 def collapse(root: ET.Element) -> None:
-    root.set("data-castalia-style", "naturalist-line-v1")
+    root.set("data-castalia-style", "davinci-line-v2")
     weight_index = 0
     for parent in root.iter():
         for element in list(parent):
@@ -34,24 +64,33 @@ def collapse(root: ET.Element) -> None:
                 # windows, and mechanical details.
                 if element.get("fill") == "none" and element.get("stroke-width"):
                     try:
-                        if float(element.get("stroke-width", "1")) < 0.7 and element.get("data-ink-keep") != "true":
+                        if float(element.get("stroke-width", "1")) < 0.7 and len(element.get("d", "")) < 100:
                             parent.remove(element)
                             continue
                     except ValueError:
                         pass
                 element.set("fill", "none")
+                try:
+                    base_width = float(element.get("stroke-width", "0.95"))
+                except ValueError:
+                    base_width = 0.95
+                if not element.get("stroke-width"):
+                    base_width = 0.95
+                element.set("stroke-width", f"{base_width * 0.82:.2f}")
+                element.set("stroke-linecap", "round")
+                element.set("stroke-linejoin", "round")
+                if element.get("d"):
+                    element.set("d", roughen_path(element.get("d", ""), weight_index))
                 if local(element.tag) == "path" and element.get("d"):
-                    try:
-                        base_width = float(element.get("stroke-width", "1.0"))
-                    except ValueError:
-                        base_width = 1.0
+                    base_width = float(element.get("stroke-width", "0.78"))
                     weighted = ET.fromstring(ET.tostring(element, encoding="unicode"))
                     weighted.set("fill", "none")
+                    weighted.set("d", element.get("d", ""))
                     weighted.set("stroke", "#262522")
-                    weighted.set("stroke-width", f"{base_width * 1.55:.2f}")
-                    weighted.set("stroke-dasharray", "31 5 12 7 24 4 9 6")
+                    weighted.set("stroke-width", f"{base_width * 1.75:.2f}")
+                    weighted.set("stroke-dasharray", "44 12 27 18 39 14")
                     weighted.set("stroke-dashoffset", str((weight_index * 7) % 23))
-                    weighted.set("opacity", ".78")
+                    weighted.set("opacity", ".52")
                     rotation = ((weight_index % 5) - 2) * 0.16
                     weighted.set("transform", f"translate(.18 .12) rotate({rotation:.2f} 64 64)")
                     parent.insert(list(parent).index(element) + 1, weighted)
