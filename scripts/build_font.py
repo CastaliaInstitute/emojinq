@@ -4,8 +4,6 @@
 from __future__ import annotations
 
 import argparse
-import re
-import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -32,15 +30,16 @@ GLYPHS = {
 SVG_NS = "http://www.w3.org/2000/svg"
 
 
-def paths(svg: Path):
-    root = ET.parse(svg).getroot()
-    for element in root.iter(f"{{{SVG_NS}}}path"):
+def paths(svg: Path, element: ET.Element | None = None, in_clip: bool = False):
+    if element is None:
+        element = ET.parse(svg).getroot()
+    in_clip = in_clip or element.tag == f"{{{SVG_NS}}}clipPath"
+    if element.tag == f"{{{SVG_NS}}}path" and not in_clip:
         d = element.get("d")
-        # The SVG preview has expressive outline/echo paths with fill="none".
-        # A monochrome TTF should contain only the filled source contours.
         if d and element.get("fill", "black") != "none":
             yield d
-
+    for child in element:
+        yield from paths(svg, child, in_clip)
 
 def make_glyph(svg: Path, upm: int):
     pen = TTGlyphPen(None)

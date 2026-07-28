@@ -11,7 +11,7 @@ This is an independent derivative-art project. It is not affiliated with or endo
 - `scripts/import_noto_svg.py` — deterministic source-to-ink converter.
 - `docs/ESP32-S3.md` — rendering and integration notes.
 
-The visual treatment uses fine offset contours and clipped cross-hatching rather than blur or turbulence filters. This gives the SVG preview an engraved, hand-inked quality while keeping the generated TTF as clean filled outlines.
+The visual treatment uses pale washes, fine offset contours, clipped cross-hatching, and sparse stippling rather than blur or turbulence filters. This gives the SVG preview a 19th-century hand-inked field-plate quality while keeping the generated TTF as clean filled outlines.
 
 The starter set includes person, pin/place, light bulb, heart, star, sun, moon, coffee, sunflower, house, book, and leaf. The same pipeline can process any Noto SVG whose source file is available.
 

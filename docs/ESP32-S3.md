@@ -12,6 +12,10 @@ Recommended constraints:
 - test at 64, 128, and 240 px because small details disappear quickly;
 - cache the rasterized result in flash and avoid SVG parsing on every wake.
 
-The generated art uses fills, strokes, opacity, and simple transforms only. The import script intentionally does not emit turbulence, blur, masks, or blend modes.
+The generated art uses fills, strokes, opacity, simple transforms, clip paths,
+and primitive line/circle texture. The import script intentionally does not
+emit turbulence, blur, masks, or blend modes. If the target SVG/rasterizer does
+not support clip paths, use the TTF or flatten the SVG on the host first; the
+ink contour remains the essential mark.
 
 For the current Einq firmware, the clean handoff is a generated bitmap or a renderer-specific path asset in the separate `einq` repository; this repository should remain platform-neutral.
