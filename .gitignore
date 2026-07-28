@@ -3,4 +3,5 @@ __pycache__/
 *.pyc
 assets/generated/
 assets/line-all/
+assets/gray-all/
 .cache/noto-emoji/

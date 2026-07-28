@@ -76,24 +76,12 @@ def collapse(root: ET.Element) -> None:
                     base_width = 0.95
                 if not element.get("stroke-width"):
                     base_width = 0.95
-                element.set("stroke-width", f"{base_width * 0.82:.2f}")
+                variation = 0.72 + ((weight_index * 13) % 7) * 0.075
+                element.set("stroke-width", f"{base_width * variation:.2f}")
                 element.set("stroke-linecap", "round")
                 element.set("stroke-linejoin", "round")
                 if element.get("d"):
                     element.set("d", roughen_path(element.get("d", ""), weight_index))
-                if local(element.tag) == "path" and element.get("d"):
-                    base_width = float(element.get("stroke-width", "0.78"))
-                    weighted = ET.fromstring(ET.tostring(element, encoding="unicode"))
-                    weighted.set("fill", "none")
-                    weighted.set("d", element.get("d", ""))
-                    weighted.set("stroke", "#262522")
-                    weighted.set("stroke-width", f"{base_width * 1.75:.2f}")
-                    weighted.set("stroke-dasharray", "44 12 27 18 39 14")
-                    weighted.set("stroke-dashoffset", str((weight_index * 7) % 23))
-                    weighted.set("opacity", ".52")
-                    rotation = ((weight_index % 5) - 2) * 0.16
-                    weighted.set("transform", f"translate(.18 .12) rotate({rotation:.2f} 64 64)")
-                    parent.insert(list(parent).index(element) + 1, weighted)
                     weight_index += 1
 
 

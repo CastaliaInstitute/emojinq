@@ -16,19 +16,47 @@ import xml.etree.ElementTree as ET
 CODEPOINTS = re.compile(r"^emoji_u([0-9a-f]+(?:[_-][0-9a-f]+)*)\.svg$", re.IGNORECASE)
 
 
+def group_for(codepoints: list[int]) -> str:
+    cp = codepoints[0]
+    if 0x1F1E6 <= cp <= 0x1F1FF:
+        return "Flags"
+    if cp in {0x23, 0x2A} or 0x30 <= cp <= 0x39:
+        return "Keycaps & Digits"
+    if 0x1F300 <= cp <= 0x1F5FF:
+        if 0x1F32D <= cp <= 0x1F37F:
+            return "Food & Drink"
+        if 0x1F3A0 <= cp <= 0x1F3FF:
+            return "Activities"
+        if 0x1F400 <= cp <= 0x1F43F:
+            return "Animals & Nature"
+        return "People & Objects"
+    if 0x1F600 <= cp <= 0x1F64F:
+        return "Smileys & Emotion"
+    if 0x1F680 <= cp <= 0x1F6FF:
+        return "Travel & Places"
+    if 0x1F900 <= cp <= 0x1FAFF:
+        return "People & Objects"
+    if 0x2300 <= cp <= 0x27BF:
+        return "Symbols"
+    return "Other"
+
+
 def entry(source: Path) -> dict[str, object] | None:
     match = CODEPOINTS.match(source.name)
     if not match:
         return None
     codepoints = [int(value, 16) for value in re.split(r"[_-]", match.group(1))]
-    return {"name": source.stem.removeprefix("emoji_u"), "source": source.name, "codepoints": codepoints}
+    return {"name": source.stem.removeprefix("emoji_u"), "source": source.name, "codepoints": codepoints, "group": group_for(codepoints)}
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source-dir", type=Path, required=True)
-    parser.add_argument("--output-dir", type=Path, default=Path("assets/line-all"))
+    parser.add_argument("--output-dir", type=Path)
+    parser.add_argument("--mode", choices=("grayscale", "line"), default="grayscale")
     args = parser.parse_args()
+    if args.output_dir is None:
+        args.output_dir = Path("assets/gray-all" if args.mode == "grayscale" else "assets/line-all")
     args.output_dir.mkdir(parents=True, exist_ok=True)
     entries = []
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -41,7 +69,8 @@ def main() -> None:
             target = args.output_dir / source.name
             convert(source, area, str(metadata["name"]))
             tree = ET.parse(area)
-            collapse(tree.getroot())
+            if args.mode == "line":
+                collapse(tree.getroot())
             tree.write(target, encoding="utf-8", xml_declaration=True)
             entries.append(metadata)
     (args.output_dir / "manifest.json").write_text(json.dumps(entries, indent=2) + "\n")

@@ -12,31 +12,55 @@
     h1 { margin:0; font:400 clamp(3rem,8vw,7rem)/.8 "SignPainter","Bradley Hand",cursive; }
     p { color:var(--quiet); }
     #status { font:700 .72rem/1 sans-serif; letter-spacing:.12em; text-transform:uppercase; }
+    .controls { display:flex; flex-wrap:wrap; gap:1rem; align-items:center; margin:1.5rem 0; padding:1rem; background:#f5f3ed; border:1px solid #d0cdc4; font:14px/1.2 ui-sans-serif,sans-serif; }
+    label { display:flex; gap:.5rem; align-items:center; }
+    select, input { accent-color:#292826; }
+    output { min-width:3.5ch; color:var(--quiet); font:12px ui-monospace,monospace; }
     .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(128px,1fr)); gap:.55rem; height:75vh; overflow:auto; padding:.6rem; background:#d0cdc4; }
     figure { margin:0; padding:.6rem; background:#f5f3ed; border:1px solid #d0cdc4; }
-    img { display:block; width:100%; aspect-ratio:1; object-fit:contain; }
+    img { display:block; width:100%; aspect-ratio:1; object-fit:contain; opacity:var(--gallery-opacity,1); }
     figcaption { overflow:hidden; color:var(--quiet); font:10px/1.2 ui-monospace,monospace; text-overflow:ellipsis; white-space:nowrap; }
   </style>
 </head>
 <body><main>
   <h1>iNQ</h1>
-  <p>Castalia Emoji · full Noto Color Emoji line-art build</p>
+  <p>Castalia Emoji · full Noto Color Emoji grayscale build</p>
   <div id="status">Loading manifest…</div>
+  <div class="controls" aria-label="Gallery controls">
+    <label>Group <select id="group"><option value="all">All groups</option></select></label>
+    <label>Opacity <input id="opacity" type="range" min="0.15" max="1" step="0.05" value="1"><output id="opacity-value">100%</output></label>
+  </div>
   <section class="grid" id="grid" aria-label="Full Castalia Emoji gallery"></section>
   <script>
     fetch("../assets/line-all/manifest.json").then(r => r.json()).then(items => {
       const grid = document.getElementById("grid");
-      document.getElementById("status").textContent = `${items.length} scalable line glyphs`;
-      for (const item of items) {
+      const group = document.getElementById("group");
+      const opacity = document.getElementById("opacity");
+      const opacityValue = document.getElementById("opacity-value");
+      [...new Set(items.map(item => item.group))].sort().forEach(name => group.add(new Option(name, name)));
+      const render = () => {
+        const selected = group.value;
+        const visible = selected === "all" ? items : items.filter(item => item.group === selected);
+        grid.replaceChildren();
+        document.getElementById("status").textContent = `${visible.length} of ${items.length} scalable line glyphs`;
+        for (const item of visible) {
         const figure = document.createElement("figure");
         const image = document.createElement("img");
-        image.src = `../assets/line-all/${item.source}`;
+        image.src = `../assets/gray-all/${item.source}`;
         image.alt = item.name;
         const caption = document.createElement("figcaption");
         caption.textContent = item.name;
         figure.append(image, caption);
         grid.append(figure);
-      }
+        }
+      };
+      group.addEventListener("change", render);
+      opacity.addEventListener("input", () => {
+        grid.style.setProperty("--gallery-opacity", opacity.value);
+        opacityValue.value = `${Math.round(Number(opacity.value) * 100)}%`;
+        opacityValue.textContent = opacityValue.value;
+      });
+      render();
     }).catch(error => { document.getElementById("status").textContent = `Build the full set first: ${error}`; });
   </script>
 </main></body>

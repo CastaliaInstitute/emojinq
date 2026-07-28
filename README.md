@@ -14,7 +14,7 @@ This is an independent derivative-art project. It is not affiliated with or endo
 - `scripts/build_set.py` — batch-applies the shared treatment to the manifest.
 - `scripts/collapse_lines.py` — removes area fills while preserving scalable pen lines.
 - `scripts/fetch_noto.py` — sparse-fetches the upstream Noto SVG directory.
-- `scripts/build_all.py` — applies the line treatment to the full Noto SVG set.
+- `scripts/build_all.py` — builds the full Noto SVG set in grayscale or line mode.
 - `scripts/import_noto_svg.py` — deterministic source-to-ink converter.
 - `docs/ESP32-S3.md` — rendering and integration notes.
 
@@ -33,12 +33,14 @@ make lines
 make font
 ```
 
-To build the complete Noto Color Emoji line set locally (currently 3,731 SVG glyphs, including multi-codepoint sequences):
+To build the complete Noto Color Emoji grayscale set locally (currently 3,731 SVG glyphs, including multi-codepoint sequences):
 
 ```sh
-make all-lines
+make all-gray
 open http://localhost:8000/docs/all.html
 ```
+
+Use `make all-lines` when a fill-free line-only corpus is needed for rasterization or path conversion.
 
 The full upstream source and generated output are intentionally ignored; the manifest and deterministic build scripts are the shareable source of truth.
 

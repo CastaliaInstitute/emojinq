@@ -2,8 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Person" data-castalia-style="davinci-line-v2">
   <title>Person — Castalia Emoji canonical ink glyph</title>
   <g fill="#efeee8" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="1.19" d="M 20.558 116.308 c 0.628 -11.879 9.631 -19.783 27.572 -24.966 1.894 -0.458 4.736 -1.108 6.882 -1.203 -9.077 -5.284 -15.076 -15.096 -14.669 -26.046 -0.126 -15.682 9.033 -27.907 22.698 -28.632 15.348 -0.624 26.371 10.526 26.2 26.276 -0.24 12.367 -4.991 22.707 -15.003 28.181 20.907 4.544 34.008 13.549 34.669 26.292 H 20.657 Z" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-    <path stroke-width="2.08" d="M 20.558 116.308 c 0.628 -11.879 9.631 -19.783 27.572 -24.966 1.894 -0.458 4.736 -1.108 6.882 -1.203 -9.077 -5.284 -15.076 -15.096 -14.669 -26.046 -0.126 -15.682 9.033 -27.907 22.698 -28.632 15.348 -0.624 26.371 10.526 26.2 26.276 -0.24 12.367 -4.991 22.707 -15.003 28.181 20.907 4.544 34.008 13.549 34.669 26.292 H 20.657 Z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#262522" stroke-dasharray="44 12 27 18 39 14" stroke-dashoffset="0" opacity=".52" transform="translate(.18 .12) rotate(-0.32 64 64)" /><circle cx="35.6" cy="101.4" r=".7" fill="none" opacity=".45" stroke-width="0.78" stroke-linecap="round" stroke-linejoin="round" />
-    <circle cx="91.5" cy="103.2" r=".55" fill="none" opacity=".4" stroke-width="0.78" stroke-linecap="round" stroke-linejoin="round" />
+    <path stroke-width="1.04" d="M 20.558 116.308 c 0.628 -11.879 9.631 -19.783 27.572 -24.966 1.894 -0.458 4.736 -1.108 6.882 -1.203 -9.077 -5.284 -15.076 -15.096 -14.669 -26.046 -0.126 -15.682 9.033 -27.907 22.698 -28.632 15.348 -0.624 26.371 10.526 26.2 26.276 -0.24 12.367 -4.991 22.707 -15.003 28.181 20.907 4.544 34.008 13.549 34.669 26.292 H 20.657 Z" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="35.6" cy="101.4" r=".7" fill="none" opacity=".45" stroke-width="1.11" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="91.5" cy="103.2" r=".55" fill="none" opacity=".4" stroke-width="1.11" stroke-linecap="round" stroke-linejoin="round" />
     </g>
 </svg>
