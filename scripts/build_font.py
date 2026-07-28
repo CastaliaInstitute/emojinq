@@ -54,12 +54,14 @@ def make_glyph(svg: Path, upm: int):
 
 def build(source_dir: Path, output: Path) -> None:
     upm = 1000
+    canonical_dir = source_dir.parent / "canonical"
     glyph_order = [".notdef"] + [item[0] for item in GLYPHS.values()]
     glyphs = {".notdef": TTGlyphPen(None).glyph()}
     cmap = {}
     metrics = {".notdef": (600, 0)}
     for filename, (glyph_name, codepoint) in GLYPHS.items():
-        glyphs[glyph_name] = make_glyph(source_dir / filename, upm)
+        source = canonical_dir / filename if (canonical_dir / filename).exists() else source_dir / filename
+        glyphs[glyph_name] = make_glyph(source, upm)
         cmap[codepoint] = glyph_name
         metrics[glyph_name] = (upm, 0)
 

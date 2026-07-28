@@ -62,8 +62,7 @@ def convert(source: Path, target: Path, name: str) -> None:
 
     defs = ET.Element(f"{{{SVG_NS}}}defs")
     style = ET.SubElement(defs, f"{{{SVG_NS}}}style")
-    style.text = """.ink-outline{stroke:#292929;stroke-width:1.7;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke}.ink-echo{fill:none;stroke:#464646;stroke-width:1.15;stroke-linejoin:round;stroke-linecap:round;opacity:.62;transform:translate(1.7px,1.1px) rotate(.45deg 64px 64px);vector-effect:non-scaling-stroke}.ink-echo-two{fill:none;stroke:#6b6b6b;stroke-width:.72;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:17 3 5 2 11 4;opacity:.58;transform:translate(-1.3px,.8px) rotate(-.7deg 64px 64px);vector-effect:non-scaling-stroke}.ink-pencil{fill:none;stroke:#888;stroke-width:.48;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:3 2 12 2;opacity:.52;transform:translate(.4px,-1.6px);vector-effect:non-scaling-stroke}.ink-hatch{fill:none;stroke:#353535;stroke-width:.55;stroke-linecap:round;opacity:.17;vector-effect:non-scaling-stroke}.ink-hatch-cross{fill:none;stroke:#353535;stroke-width:.45;stroke-linecap:round;opacity:.08;vector-effect:non-scaling-stroke}.ink-stipple{fill:#353535;opacity:.16}"""
-    hatch_count = 0
+    style.text = """.ink-outline{stroke:#292929;stroke-width:1.7;stroke-linejoin:round;stroke-linecap:round}.ink-echo{fill:none;stroke:#464646;stroke-width:1.15;stroke-linejoin:round;stroke-linecap:round;opacity:.62;transform:translate(1.7px,1.1px) rotate(.45deg 64px 64px)}.ink-echo-two{fill:none;stroke:#6b6b6b;stroke-width:.72;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:17 3 5 2 11 4;opacity:.58;transform:translate(-1.3px,.8px) rotate(-.7deg 64px 64px)}.ink-pencil{fill:none;stroke:#888;stroke-width:.48;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:3 2 12 2;opacity:.52;transform:translate(.4px,-1.6px)}"""
     root.insert(0, defs)
 
     for element in list(root.iter()):
@@ -89,23 +88,6 @@ def convert(source: Path, target: Path, name: str) -> None:
                 parent.insert(index + 1, echo)
                 parent.insert(index + 2, echo_two)
                 parent.insert(index + 3, pencil)
-                if hatch_count < 4:
-                    clip_id = f"ink-clip-{hatch_count}"
-                    clip = ET.SubElement(defs, f"{{{SVG_NS}}}clipPath", {"id": clip_id})
-                    clip.append(ET.fromstring(ET.tostring(element, encoding="unicode")))
-                    hatch = ET.Element(f"{{{SVG_NS}}}g", {"class": "ink-hatch", "clip-path": f"url(#{clip_id})"})
-                    for offset in range(-128, 257, 16):
-                        ET.SubElement(hatch, f"{{{SVG_NS}}}line", {"x1": str(offset), "y1": "0", "x2": str(offset + 128), "y2": "128"})
-                    cross = ET.Element(f"{{{SVG_NS}}}g", {"class": "ink-hatch-cross"})
-                    for offset in range(-128, 257, 24):
-                        ET.SubElement(cross, f"{{{SVG_NS}}}line", {"x1": str(offset), "y1": "128", "x2": str(offset + 128), "y2": "0"})
-                    hatch.append(cross)
-                    stipple = ET.Element(f"{{{SVG_NS}}}g", {"class": "ink-stipple"})
-                    for x, y in ((18, 27), (43, 39), (76, 24), (104, 49), (28, 79), (62, 93), (94, 82), (113, 108)):
-                        ET.SubElement(stipple, f"{{{SVG_NS}}}circle", {"cx": str(x), "cy": str(y), "r": "1.1"})
-                    hatch.append(stipple)
-                    parent.insert(index + 3, hatch)
-                    hatch_count += 1
 
     root.set("data-castalia-style", "naturalist-pen-v2")
     target.parent.mkdir(parents=True, exist_ok=True)
