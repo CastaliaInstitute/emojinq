@@ -12,8 +12,9 @@
     main { max-width: 980px; margin: auto; padding: 8vw 6vw; }
     h1 { margin: 0; font-size: clamp(2.5rem, 8vw, 6rem); font-weight: 400; letter-spacing: -.06em; }
     p { max-width: 38rem; color: var(--quiet); }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-top: 3rem; }
-    article { min-height: 220px; display: grid; place-items: center; padding: 1.5rem; background: #f5f3ed; border: 1px solid #d0cdc4; }
+    .gallery { max-height: min(70vh, 700px); margin-top: 3rem; padding: .75rem; overflow-y: auto; overscroll-behavior: contain; background: #d0cdc4; border: 1px solid #bbb7ad; scrollbar-color: #858179 #dedbd3; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: .75rem; }
+    article { min-height: 220px; display: grid; place-items: center; align-content: center; padding: 1.5rem; background: #f5f3ed; border: 1px solid #d0cdc4; scroll-snap-align: start; }
     .emoji { width: 100%; max-width: 180px; aspect-ratio: 1; object-fit: contain; }
     .label { margin-top: 1rem; font: 700 .8rem/1 sans-serif; letter-spacing: .1em; text-transform: uppercase; }
     .font-sample { margin-top: 3rem; padding: 2rem; background: #252525; color: #f5f3ed; font: 8rem/1 CastaliaEmoji, sans-serif; letter-spacing: .08em; overflow: auto; white-space: nowrap; }
@@ -24,10 +25,21 @@
   <main>
     <h1>Castalia Emoji</h1>
     <p>A grayscale, hand-drawn pass over Noto Emoji for quiet screens and full-screen glyphs.</p>
-    <section class="grid" aria-label="SVG specimen">
-      <article><img class="emoji" src="../assets/ink/person.svg" alt="Person"><div class="label">Person</div></article>
-      <article><img class="emoji" src="../assets/ink/place.svg" alt="Place"><div class="label">Place</div></article>
-      <article><img class="emoji" src="../assets/ink/thing.svg" alt="Thing"><div class="label">Thing</div></article>
+    <section class="gallery" aria-label="Scrollable SVG emoji gallery">
+      <div class="grid">
+        <article><img class="emoji" src="../assets/ink/person.svg" alt="Person"><div class="label">Person</div></article>
+        <article><img class="emoji" src="../assets/ink/place.svg" alt="Place"><div class="label">Place</div></article>
+        <article><img class="emoji" src="../assets/ink/thing.svg" alt="Thing"><div class="label">Thing</div></article>
+        <article><img class="emoji" src="../assets/ink/heart.svg" alt="Heart"><div class="label">Heart</div></article>
+        <article><img class="emoji" src="../assets/ink/star.svg" alt="Star"><div class="label">Star</div></article>
+        <article><img class="emoji" src="../assets/ink/sun.svg" alt="Sun"><div class="label">Sun</div></article>
+        <article><img class="emoji" src="../assets/ink/moon.svg" alt="Moon"><div class="label">Moon</div></article>
+        <article><img class="emoji" src="../assets/ink/coffee.svg" alt="Coffee"><div class="label">Coffee</div></article>
+        <article><img class="emoji" src="../assets/ink/sunflower.svg" alt="Sunflower"><div class="label">Sunflower</div></article>
+        <article><img class="emoji" src="../assets/ink/house.svg" alt="House"><div class="label">House</div></article>
+        <article><img class="emoji" src="../assets/ink/book.svg" alt="Book"><div class="label">Book</div></article>
+        <article><img class="emoji" src="../assets/ink/leaf.svg" alt="Leaf"><div class="label">Leaf</div></article>
+      </div>
     </section>
     <div class="font-sample" aria-label="Font sample">👤 📍 💡</div>
     <small>SVG artwork above · OpenType sample below · generated assets are intended to be rasterized before embedded deployment</small>

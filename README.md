@@ -11,7 +11,7 @@ This is an independent derivative-art project. It is not affiliated with or endo
 - `scripts/import_noto_svg.py` — deterministic source-to-ink converter.
 - `docs/ESP32-S3.md` — rendering and integration notes.
 
-The first sample set is intentionally small: person, pin/place, and light bulb. The same pipeline can process any Noto SVG whose source file is available.
+The starter set includes person, pin/place, light bulb, heart, star, sun, moon, coffee, sunflower, house, book, and leaf. The same pipeline can process any Noto SVG whose source file is available.
 
 ## Quick start
 
@@ -25,7 +25,7 @@ python3 scripts/import_noto_svg.py --input assets/source/emoji_u1f4a1.svg --outp
 make font
 ```
 
-The resulting `fonts/CastaliaEmoji-Regular.ttf` is a conventional monochrome TrueType font. It maps `👤`, `📍`, and `💡` to the starter glyphs, so normal Unicode text rendering works in browsers and font stacks that support the supplementary plane. The font build converts the SVG curves to TrueType quadratic outlines for embedded compatibility.
+The resulting `fonts/CastaliaEmoji-Regular.ttf` is a conventional monochrome TrueType font. It maps the starter set to their normal Unicode code points, so normal Unicode text rendering works in browsers and font stacks that support the supplementary plane. The font build converts the SVG curves to TrueType quadratic outlines for embedded compatibility.
 
 To view the specimen locally:
 

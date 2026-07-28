@@ -19,6 +19,15 @@ GLYPHS = {
     "person.svg": ("castalia_person", 0x1F464),
     "place.svg": ("castalia_place", 0x1F4CD),
     "thing.svg": ("castalia_thing", 0x1F4A1),
+    "heart.svg": ("castalia_heart", 0x2764),
+    "star.svg": ("castalia_star", 0x2B50),
+    "sun.svg": ("castalia_sun", 0x2600),
+    "moon.svg": ("castalia_moon", 0x1F319),
+    "coffee.svg": ("castalia_coffee", 0x2615),
+    "sunflower.svg": ("castalia_sunflower", 0x1F33B),
+    "house.svg": ("castalia_house", 0x1F3E0),
+    "book.svg": ("castalia_book", 0x1F4D6),
+    "leaf.svg": ("castalia_leaf", 0x1F343),
 }
 SVG_NS = "http://www.w3.org/2000/svg"
 
