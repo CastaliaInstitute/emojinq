@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Castalia Emoji specimen</title>
+  <style>
+    @font-face { font-family: CastaliaEmoji; src: url("../fonts/CastaliaEmoji-Regular.ttf") format("truetype"); }
+    :root { color-scheme: light; --ink: #252525; --paper: #e9e7e1; --quiet: #87847d; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font: 16px/1.5 Georgia, serif; }
+    main { max-width: 980px; margin: auto; padding: 8vw 6vw; }
+    h1 { margin: 0; font-size: clamp(2.5rem, 8vw, 6rem); font-weight: 400; letter-spacing: -.06em; }
+    p { max-width: 38rem; color: var(--quiet); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-top: 3rem; }
+    article { min-height: 220px; display: grid; place-items: center; padding: 1.5rem; background: #f5f3ed; border: 1px solid #d0cdc4; }
+    .emoji { width: 100%; max-width: 180px; aspect-ratio: 1; object-fit: contain; }
+    .label { margin-top: 1rem; font: 700 .8rem/1 sans-serif; letter-spacing: .1em; text-transform: uppercase; }
+    .font-sample { margin-top: 3rem; padding: 2rem; background: #252525; color: #f5f3ed; font: 8rem/1 CastaliaEmoji, sans-serif; letter-spacing: .08em; overflow: auto; white-space: nowrap; }
+    small { display: block; margin-top: .8rem; color: var(--quiet); font-family: sans-serif; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Castalia Emoji</h1>
+    <p>A grayscale, hand-drawn pass over Noto Emoji for quiet screens and full-screen glyphs.</p>
+    <section class="grid" aria-label="SVG specimen">
+      <article><img class="emoji" src="../assets/ink/person.svg" alt="Person"><div class="label">Person</div></article>
+      <article><img class="emoji" src="../assets/ink/place.svg" alt="Place"><div class="label">Place</div></article>
+      <article><img class="emoji" src="../assets/ink/thing.svg" alt="Thing"><div class="label">Thing</div></article>
+    </section>
+    <div class="font-sample" aria-label="Font sample">👤 📍 💡</div>
+    <small>SVG artwork above · OpenType sample below · generated assets are intended to be rasterized before embedded deployment</small>
+  </main>
+</body>
+</html>
