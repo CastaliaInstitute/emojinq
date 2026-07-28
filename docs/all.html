@@ -15,7 +15,6 @@
     .controls { display:flex; flex-wrap:wrap; gap:1rem; align-items:center; margin:1.5rem 0; padding:1rem; background:#f5f3ed; border:1px solid #d0cdc4; font:14px/1.2 ui-sans-serif,sans-serif; }
     label { display:flex; gap:.5rem; align-items:center; }
     select, input { accent-color:#292826; }
-    output { min-width:3.5ch; color:var(--quiet); font:12px ui-monospace,monospace; }
     .search { flex:1 1 18rem; min-width:16rem; padding:.55rem .7rem; border:1px solid #bdb9af; background:#fffefa; color:var(--ink); font:14px ui-sans-serif,sans-serif; }
     .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(128px,1fr)); gap:.55rem; height:75vh; overflow:auto; padding:.6rem; background:#d0cdc4; }
     figure { margin:0; padding:.6rem; background:#f5f3ed; border:1px solid #d0cdc4; }
@@ -25,12 +24,11 @@
 </head>
 <body><main>
   <h1>iNQ</h1>
-  <p>Castalia Emoji · full Noto Color Emoji grayscale build</p>
+  <p>Castalia Emoji · full Noto Color Emoji calligraphic line build</p>
   <div id="status">Loading manifest…</div>
   <div class="controls" aria-label="Gallery controls">
     <input class="search" id="search" type="search" placeholder="Search emoji, code point, or group…" aria-label="Search emoji">
     <label>Group <select id="group"><option value="all">All groups</option></select></label>
-    <label>Opacity <input id="opacity" type="range" min="0.15" max="1" step="0.05" value="1"><output id="opacity-value">100%</output></label>
   </div>
   <section class="grid" id="grid" aria-label="Full Castalia Emoji gallery"></section>
   <script>
@@ -56,12 +54,10 @@
     };
     const expandQuery = query => query.split(/\s+/).filter(Boolean).flatMap(token => [token, ...(SYNONYMS[token] || [])]);
 
-    fetch("../assets/gray-all/manifest.json").then(r => r.json()).then(items => {
+    fetch("../assets/line-all/manifest.json").then(r => r.json()).then(items => {
       const grid = document.getElementById("grid");
       const group = document.getElementById("group");
       const search = document.getElementById("search");
-      const opacity = document.getElementById("opacity");
-      const opacityValue = document.getElementById("opacity-value");
       [...new Set(items.map(item => item.group))].sort().forEach(name => group.add(new Option(name, name)));
       const render = () => {
         const selected = group.value;
@@ -72,11 +68,11 @@
           return inGroup && (!query.length || query.some(term => haystack.includes(term)));
         });
         grid.replaceChildren();
-        document.getElementById("status").textContent = `${visible.length} of ${items.length} searchable glyphs`;
+        document.getElementById("status").textContent = `${visible.length} of ${items.length} searchable line glyphs`;
         for (const item of visible) {
         const figure = document.createElement("figure");
         const image = document.createElement("img");
-        image.src = `../assets/gray-all/${item.source}`;
+        image.src = `../assets/line-all/${item.source}`;
         image.loading = "lazy";
         image.decoding = "async";
         image.alt = item.name;
@@ -88,11 +84,6 @@
       };
       group.addEventListener("change", render);
       search.addEventListener("input", render);
-      opacity.addEventListener("input", () => {
-        grid.style.setProperty("--gallery-opacity", opacity.value);
-        opacityValue.value = `${Math.round(Number(opacity.value) * 100)}%`;
-        opacityValue.textContent = opacityValue.value;
-      });
       render();
     }).catch(error => { document.getElementById("status").textContent = `Build the full set first: ${error}`; });
   </script>

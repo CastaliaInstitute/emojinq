@@ -50,14 +50,18 @@ def roughen_path(d: str, seed: int, amount: float = 0.32) -> str:
 def collapse(root: ET.Element) -> None:
     root.set("data-castalia-style", "davinci-line-v2")
     weight_index = 0
-    for parent in root.iter():
+    def visit(parent: ET.Element, inside_clip: bool = False) -> None:
+        nonlocal weight_index
         for element in list(parent):
+            tag = local(element.tag)
+            clipped = inside_clip or tag == "clipPath" or "clip-path" in element.attrib or "clip-path" in element.get("style", "")
             class_names = set(element.get("class", "").split())
             is_echo = bool(class_names & ECHO_CLASSES) or element.get("stroke-dasharray")
-            if is_echo:
+            clipped_wash = clipped and tag in SHAPES and len(element.get("d", "")) > 300
+            if is_echo or clipped_wash:
                 parent.remove(element)
                 continue
-            if local(element.tag) in SHAPES:
+            if tag in SHAPES:
                 # Short, thin unmarked paths are usually decorative arcs from
                 # the area illustration rather than semantic line structure.
                 # Keep thicker/explicit geometry such as veins, text, steam,
@@ -83,6 +87,10 @@ def collapse(root: ET.Element) -> None:
                 if element.get("d"):
                     element.set("d", roughen_path(element.get("d", ""), weight_index))
                     weight_index += 1
+            if tag != "defs":
+                visit(element, clipped)
+
+    visit(root)
 
 
 def convert(source: Path, output: Path) -> None:

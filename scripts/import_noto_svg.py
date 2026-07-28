@@ -65,16 +65,27 @@ def convert(source: Path, target: Path, name: str) -> None:
     style.text = """.ink-outline{stroke:#292929;stroke-width:1.7;stroke-linejoin:round;stroke-linecap:round}"""
     root.insert(0, defs)
 
-    def decorate(parent: ET.Element) -> None:
+    shape_index = 0
+
+    def decorate(parent: ET.Element, inside_clip: bool = False) -> None:
+        nonlocal shape_index
         for element in list(parent):
-            if local(element.tag) in {"path", "circle", "ellipse", "rect", "polygon", "polyline"}:
+            tag = local(element.tag)
+            clipped = inside_clip or tag == "clipPath"
+            if tag in {"path", "circle", "ellipse", "rect", "polygon", "polyline"}:
                 fill = fill_value(element)
                 if fill and fill != "none":
                     element.set("fill", gray(fill))
                     element.attrib.pop("style", None)
-                    element.set("class", "ink-outline")
-            if local(element.tag) != "defs":
-                decorate(element)
+                    if not clipped:
+                        # One outline per visible geometry, with restrained
+                        # broad-nib variation. Clipped color layers stay fill
+                        # only so stacked Noto layers cannot double the edge.
+                        element.set("class", "ink-outline")
+                        element.set("stroke-width", f"{1.15 + (shape_index % 5) * 0.18:.2f}")
+                    shape_index += 1
+            if tag != "defs":
+                decorate(element, clipped)
 
     decorate(root)
 
