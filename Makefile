@@ -1,15 +1,15 @@
 PYTHON ?= python3
 
-.PHONY: assets fetch-noto all-lines all-gray lines font
+.PHONY: assets fetch-openmoji all-lines all-gray lines font
 
-fetch-noto:
-	$(PYTHON) scripts/fetch_noto.py
+fetch-openmoji:
+	$(PYTHON) scripts/fetch_openmoji.py
 
-all-lines: fetch-noto
-	$(PYTHON) scripts/build_all.py --source-dir .cache/noto-emoji/svg --mode line
+all-lines: fetch-openmoji
+	$(PYTHON) scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode line
 
-all-gray: fetch-noto
-	$(PYTHON) scripts/build_all.py --source-dir .cache/noto-emoji/svg --mode grayscale
+all-gray: fetch-openmoji
+	$(PYTHON) scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode grayscale
 
 assets:
 	$(PYTHON) scripts/build_set.py

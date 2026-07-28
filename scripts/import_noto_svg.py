@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a restrained grayscale, hand-drawn pass from a Noto SVG.
+"""Create a restrained grayscale, hand-drawn pass from an emoji SVG.
 
 This intentionally uses only widely supported SVG primitives. It is an asset
 preprocessor, not an SVG renderer for the ESP32.
@@ -28,9 +28,9 @@ def gray(value: str) -> str:
     if len(digits) == 3:
         digits = "".join(ch * 2 for ch in digits)
     r, g, b = (int(digits[i : i + 2], 16) for i in (0, 2, 4))
-    # Luma keeps dark Noto details dark while removing chroma.
+    # Luma keeps dark source details dark while removing chroma.
     # Naturalist plates leave the paper visible: preserve tonal hierarchy but
-    # lift Noto's saturated fills into pale wash rather than solid ink blocks.
+    # lift saturated fills into pale wash rather than solid ink blocks.
     y = 170 + round((0.2126 * r + 0.7152 * g + 0.0722 * b) * 0.33)
     return f"#{y:02x}{y:02x}{y:02x}"
 
@@ -73,7 +73,7 @@ def grayscale_attributes(root: ET.Element) -> None:
 
 def convert(source: Path, target: Path, name: str) -> None:
     root = ET.parse(source).getroot()
-    root.set("id", f"castalia-emoji-{name}")
+    root.set("id", f"emojinq-{name}")
     root.set("role", "img")
     root.set("aria-label", name.replace("-", " "))
     grayscale_attributes(root)
@@ -99,7 +99,7 @@ def convert(source: Path, target: Path, name: str) -> None:
                     if not clipped:
                         # One outline per visible geometry, with restrained
                         # broad-nib variation. Clipped color layers stay fill
-                        # only so stacked Noto layers cannot double the edge.
+                        # only so stacked source layers cannot double the edge.
                         bounds = path_bounds(element.get("d", ""))
                         duplicate = bounds is not None and any(overlaps(bounds, previous) for previous in outlined_bounds)
                         if not duplicate:

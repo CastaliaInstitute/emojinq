@@ -1,26 +1,26 @@
-# Castalia Emoji
+# Emojinq
 
-An artistic, grayscale treatment of [Noto Color Emoji](https://github.com/googlefonts/noto-emoji) with the character of a 19th-century naturalist's field plate, for calm, low-power displays and full-screen glyphs on ESP32-S3 devices.
+An artistic, grayscale treatment of [OpenMoji Black](https://openmoji.org/) with the character of a 19th-century naturalist's field plate, for calm, low-power displays and full-screen glyphs on ESP32-S3 devices.
 
-This is an independent derivative-art project. It is not affiliated with or endorsed by Google or the Noto project.
+This is an independent derivative-art project. It is not affiliated with or endorsed by OpenMoji.
 
 ## What is here
 
-- `assets/source/` — selected Noto SVG inputs, stored with upstream attribution.
+- `assets/source/` — selected OpenMoji Black SVG inputs, stored with upstream attribution.
 - `assets/manifest.json` — names, Unicode code points, and semantic exceptions for the set.
 - `assets/canonical/` — reviewed authored vector glyphs for the full 12-glyph set.
 - `assets/line/` — generated fill-free line-art output for the specimen and scalable rendering.
 - `assets/ink/` — generated grayscale, hand-drawn-style SVG output.
 - `scripts/build_set.py` — batch-applies the shared treatment to the manifest.
 - `scripts/collapse_lines.py` — removes area fills while preserving scalable pen lines.
-- `scripts/fetch_noto.py` — sparse-fetches the upstream Noto SVG directory.
-- `scripts/build_all.py` — builds the full Noto SVG set in grayscale or line mode.
-- `scripts/import_noto_svg.py` — deterministic source-to-ink converter.
+- `scripts/fetch_openmoji.py` — sparse-fetches the upstream OpenMoji Black SVG directory.
+- `scripts/build_all.py` — builds the full OpenMoji set in grayscale or line mode.
+- `scripts/import_noto_svg.py` — deterministic source-to-ink converter retained for compatibility.
 - `docs/ESP32-S3.md` — rendering and integration notes.
 
 The canonical treatment uses pale washes, asymmetric pen contours, and a few selective interior marks rather than hatch fills or filters. This keeps the SVGs scalable and gives the set a quieter 19th-century ink quality while keeping the generated TTF as clean filled outlines. See [docs/STYLE.md](docs/STYLE.md).
 
-The starter set includes person, pin/place, light bulb, heart, star, sun, moon, coffee, sunflower, house, book, and leaf. The same pipeline can process any Noto SVG whose source file is available.
+The starter set includes person, pin/place, light bulb, heart, star, sun, moon, coffee, sunflower, house, book, and leaf. The same pipeline can process any OpenMoji Black SVG whose source file is available.
 
 ## Quick start
 
@@ -33,7 +33,7 @@ make lines
 make font
 ```
 
-To build the complete Noto Color Emoji grayscale set locally (currently 3,731 SVG glyphs, including multi-codepoint sequences):
+To build the complete OpenMoji Black grayscale set locally:
 
 ```sh
 make all-gray
@@ -44,7 +44,7 @@ Use `make all-lines` when a fill-free line-only corpus is needed for rasterizati
 
 The full upstream source and generated output are intentionally ignored; the manifest and deterministic build scripts are the shareable source of truth.
 
-The resulting `fonts/CastaliaEmoji-Regular.ttf` is a conventional monochrome TrueType font. It maps the starter set to their normal Unicode code points, so normal Unicode text rendering works in browsers and font stacks that support the supplementary plane. The font build converts the SVG curves to TrueType quadratic outlines for embedded compatibility.
+The resulting `fonts/Emojinq-Regular.ttf` is a conventional monochrome TrueType font. It maps the starter set to their normal Unicode code points, so normal Unicode text rendering works in browsers and font stacks that support the supplementary plane. The font build converts the SVG curves to TrueType quadratic outlines for embedded compatibility.
 
 To view the specimen locally:
 
@@ -57,7 +57,7 @@ open http://localhost:8000/docs/
 
 ```sh
 python3 scripts/import_noto_svg.py \
-  --input assets/source/emoji_u1f464.svg \
+  --input .cache/openmoji/black/svg/1F464.svg \
   --output assets/ink/person.svg \
   --name person
 ```
@@ -72,9 +72,9 @@ See [docs/ESP32-S3.md](docs/ESP32-S3.md).
 
 ## Provenance and licensing
 
-Noto SVG artwork is copyright Google and is distributed under the Apache License 2.0. The upstream license is preserved in `LICENSE-NOTO-EMOJI`.
+OpenMoji Black artwork is distributed under CC BY-SA 4.0. The upstream license boundary is documented in `LICENSE-OPENMOJI`.
 
-The generated derivative artwork in this repository is also released under Apache-2.0. See `LICENSE` and `NOTICE` for the project boundary and attribution. Castalia Emoji is an independent project name; do not imply endorsement by Noto or Google.
+The generated derivative artwork in this repository is released under the applicable upstream share-alike terms. See `LICENSE`, `LICENSE-OPENMOJI`, and `NOTICE` for the project boundary and attribution. Emojinq is an independent project name; do not imply endorsement by OpenMoji.
 
 ## Roadmap
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the line-only Castalia treatment for every Noto SVG input."""
+"""Build the Emojinq treatment for every OpenMoji Black SVG input."""
 
 from __future__ import annotations
 
@@ -14,7 +14,7 @@ from collapse_lines import collapse
 from import_noto_svg import convert
 import xml.etree.ElementTree as ET
 
-CODEPOINTS = re.compile(r"^emoji_u([0-9a-f]+(?:[_-][0-9a-f]+)*)\.svg$", re.IGNORECASE)
+CODEPOINTS = re.compile(r"^(?:emoji_u)?([0-9a-f]+(?:[_-][0-9a-f]+)*)\.svg$", re.IGNORECASE)
 
 
 def group_for(codepoints: list[int]) -> str:
@@ -67,7 +67,7 @@ def main() -> None:
     entries = []
     with tempfile.TemporaryDirectory() as temp_dir:
         temp = Path(temp_dir)
-        for source in sorted(args.source_dir.glob("emoji_u*.svg")):
+        for source in sorted(args.source_dir.glob("*.svg")):
             metadata = entry(source)
             if metadata is None:
                 continue
@@ -80,7 +80,7 @@ def main() -> None:
             tree.write(target, encoding="utf-8", xml_declaration=True)
             entries.append(metadata)
     (args.output_dir / "manifest.json").write_text(json.dumps(entries, indent=2) + "\n")
-    print(f"built {len(entries)} line glyphs in {args.output_dir}")
+    print(f"built {len(entries)} Emojinq glyphs in {args.output_dir}")
 
 
 if __name__ == "__main__":

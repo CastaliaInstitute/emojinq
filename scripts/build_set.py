@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply the Castalia pen treatment to a manifest of Noto SVG inputs."""
+"""Apply the Emojinq pen treatment to a manifest of OpenMoji SVG inputs."""
 
 from __future__ import annotations
 

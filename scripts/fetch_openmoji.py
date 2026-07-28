@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch the upstream Noto Color Emoji SVG directory for local generation."""
+"""Fetch the OpenMoji Black SVG directory for local generation."""
 
 from __future__ import annotations
 
@@ -7,13 +7,13 @@ import argparse
 import subprocess
 from pathlib import Path
 
-UPSTREAM = "https://github.com/googlefonts/noto-emoji.git"
+UPSTREAM = "https://github.com/hfg-gmuend/openmoji.git"
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--repo-dir", type=Path, default=Path(".cache/noto-emoji"))
-    parser.add_argument("--ref", default="main")
+    parser.add_argument("--repo-dir", type=Path, default=Path(".cache/openmoji"))
+    parser.add_argument("--ref", default="master")
     args = parser.parse_args()
     repo = args.repo_dir
     if not (repo / ".git").exists():
@@ -22,9 +22,9 @@ def main() -> None:
             "git", "clone", "--depth", "1", "--filter=blob:none", "--sparse",
             "--branch", args.ref, UPSTREAM, str(repo)
         ], check=True)
-    subprocess.run(["git", "-C", str(repo), "sparse-checkout", "set", "svg"], check=True)
+    subprocess.run(["git", "-C", str(repo), "sparse-checkout", "set", "black"], check=True)
     subprocess.run(["git", "-C", str(repo), "checkout", args.ref], check=True)
-    print(repo / "svg")
+    print(repo / "black" / "svg")
 
 
 if __name__ == "__main__":

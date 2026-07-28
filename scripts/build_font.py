@@ -14,18 +14,18 @@ from fontTools.pens.transformPen import TransformPen
 from fontTools.svgLib.path.parser import parse_path
 
 GLYPHS = {
-    "person.svg": ("castalia_person", 0x1F464),
-    "place.svg": ("castalia_place", 0x1F4CD),
-    "thing.svg": ("castalia_thing", 0x1F4A1),
-    "heart.svg": ("castalia_heart", 0x2764),
-    "star.svg": ("castalia_star", 0x2B50),
-    "sun.svg": ("castalia_sun", 0x2600),
-    "moon.svg": ("castalia_moon", 0x1F319),
-    "coffee.svg": ("castalia_coffee", 0x2615),
-    "sunflower.svg": ("castalia_sunflower", 0x1F33B),
-    "house.svg": ("castalia_house", 0x1F3E0),
-    "book.svg": ("castalia_book", 0x1F4D6),
-    "leaf.svg": ("castalia_leaf", 0x1F343),
+    "person.svg": ("emojinq_person", 0x1F464),
+    "place.svg": ("emojinq_place", 0x1F4CD),
+    "thing.svg": ("emojinq_thing", 0x1F4A1),
+    "heart.svg": ("emojinq_heart", 0x2764),
+    "star.svg": ("emojinq_star", 0x2B50),
+    "sun.svg": ("emojinq_sun", 0x2600),
+    "moon.svg": ("emojinq_moon", 0x1F319),
+    "coffee.svg": ("emojinq_coffee", 0x2615),
+    "sunflower.svg": ("emojinq_sunflower", 0x1F33B),
+    "house.svg": ("emojinq_house", 0x1F3E0),
+    "book.svg": ("emojinq_book", 0x1F4D6),
+    "leaf.svg": ("emojinq_leaf", 0x1F343),
 }
 SVG_NS = "http://www.w3.org/2000/svg"
 
@@ -72,11 +72,11 @@ def build(source_dir: Path, output: Path) -> None:
     fb.setupHorizontalMetrics(metrics)
     fb.setupHorizontalHeader(ascent=880, descent=-120)
     fb.setupNameTable({
-        "familyName": "Castalia Emoji",
+        "familyName": "Emojinq",
         "styleName": "Regular",
-        "fullName": "Castalia Emoji Regular",
-        "psName": "CastaliaEmoji-Regular",
-        "uniqueFontIdentifier": "Castalia Emoji Regular 1.0",
+        "fullName": "Emojinq Regular",
+        "psName": "Emojinq-Regular",
+        "uniqueFontIdentifier": "Emojinq Regular 1.0",
         "version": "Version 1.0",
     })
     fb.setupOS2(sTypoAscender=880, sTypoDescender=-120, usWinAscent=880, usWinDescent=120)
@@ -89,7 +89,7 @@ def build(source_dir: Path, output: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source-dir", type=Path, default=Path("assets/ink"))
-    parser.add_argument("--output", type=Path, default=Path("fonts/CastaliaEmoji-Regular.ttf"))
+    parser.add_argument("--output", type=Path, default=Path("fonts/Emojinq-Regular.ttf"))
     args = parser.parse_args()
     build(args.source_dir, args.output)
 
