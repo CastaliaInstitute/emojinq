@@ -19,6 +19,7 @@ def local(tag: str) -> str:
 
 def collapse(root: ET.Element) -> None:
     root.set("data-castalia-style", "naturalist-line-v1")
+    weight_index = 0
     for parent in root.iter():
         for element in list(parent):
             class_names = set(element.get("class", "").split())
@@ -27,7 +28,34 @@ def collapse(root: ET.Element) -> None:
                 parent.remove(element)
                 continue
             if local(element.tag) in SHAPES:
+                # Short, thin unmarked paths are usually decorative arcs from
+                # the area illustration rather than semantic line structure.
+                # Keep thicker/explicit geometry such as veins, text, steam,
+                # windows, and mechanical details.
+                if element.get("fill") == "none" and element.get("stroke-width"):
+                    try:
+                        if float(element.get("stroke-width", "1")) < 0.7:
+                            parent.remove(element)
+                            continue
+                    except ValueError:
+                        pass
                 element.set("fill", "none")
+                if local(element.tag) == "path" and element.get("d"):
+                    try:
+                        base_width = float(element.get("stroke-width", "1.0"))
+                    except ValueError:
+                        base_width = 1.0
+                    weighted = ET.fromstring(ET.tostring(element, encoding="unicode"))
+                    weighted.set("fill", "none")
+                    weighted.set("stroke", "#262522")
+                    weighted.set("stroke-width", f"{base_width * 1.55:.2f}")
+                    weighted.set("stroke-dasharray", "31 5 12 7 24 4 9 6")
+                    weighted.set("stroke-dashoffset", str((weight_index * 7) % 23))
+                    weighted.set("opacity", ".78")
+                    rotation = ((weight_index % 5) - 2) * 0.16
+                    weighted.set("transform", f"translate(.18 .12) rotate({rotation:.2f} 64 64)")
+                    parent.insert(list(parent).index(element) + 1, weighted)
+                    weight_index += 1
 
 
 def convert(source: Path, output: Path) -> None:

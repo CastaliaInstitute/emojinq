@@ -13,8 +13,9 @@ Recommended constraints:
 - cache the rasterized result in flash and avoid SVG parsing on every wake.
 
 The canonical art uses fills, strokes, opacity, and simple paths. The line-art
-pass removes fills and decorative echo contours without rasterizing. The tools
-intentionally do not emit turbulence, blur, masks, clip paths, or blend modes.
+pass removes fills and decorative echo contours, then adds intermittent heavier
+pressure marks without rasterizing. The tools intentionally do not emit
+turbulence, blur, masks, clip paths, or blend modes.
 The SVGs can be rasterized at any target size; the current TTF build keeps the
 filled contours for embedded font renderers.
 
