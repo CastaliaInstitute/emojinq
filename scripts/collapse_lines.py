@@ -11,7 +11,7 @@ from pathlib import Path
 
 SVG_NS = "http://www.w3.org/2000/svg"
 SHAPES = {"path", "circle", "ellipse", "rect", "polygon", "polyline", "line"}
-ECHO_CLASSES = {"ink-echo", "ink-echo-two", "ink-pencil"}
+ECHO_CLASSES = {"ink-echo", "ink-echo-two", "ink-pencil", "ink-texture"}
 TOKEN_RE = re.compile(r"[AaCcHhLlMmQqSsTtVvZz]|[-+]?(?:\d*\.\d+|\d+\.?)(?:[eE][-+]?\d+)?")
 ARITY = {"M": 2, "L": 2, "T": 2, "H": 1, "V": 1, "C": 6, "S": 4, "Q": 4, "A": 7}
 ET.register_namespace("", SVG_NS)

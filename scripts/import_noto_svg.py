@@ -63,6 +63,29 @@ def convert(source: Path, target: Path, name: str) -> None:
     defs = ET.Element(f"{{{SVG_NS}}}defs")
     style = ET.SubElement(defs, f"{{{SVG_NS}}}style")
     style.text = """.ink-outline{stroke:#292929;stroke-width:1.7;stroke-linejoin:round;stroke-linecap:round}"""
+    pattern = ET.SubElement(defs, f"{{{SVG_NS}}}pattern", {
+        "id": "castalia-brush-wash",
+        "width": "32",
+        "height": "18",
+        "patternUnits": "userSpaceOnUse",
+        "patternTransform": "rotate(-7)",
+    })
+    ET.SubElement(pattern, f"{{{SVG_NS}}}path", {
+        "d": "M-8 4 C2 2 9 5 18 3 S30 5 40 2",
+        "fill": "none",
+        "stroke": "#55514b",
+        "stroke-width": "1.2",
+        "stroke-linecap": "round",
+        "opacity": ".15",
+    })
+    ET.SubElement(pattern, f"{{{SVG_NS}}}path", {
+        "d": "M-5 12 C5 10 13 13 22 11 S30 13 38 10",
+        "fill": "none",
+        "stroke": "#55514b",
+        "stroke-width": "2.4",
+        "stroke-linecap": "round",
+        "opacity": ".07",
+    })
     root.insert(0, defs)
 
     shape_index = 0
@@ -82,7 +105,13 @@ def convert(source: Path, target: Path, name: str) -> None:
                         # broad-nib variation. Clipped color layers stay fill
                         # only so stacked Noto layers cannot double the edge.
                         element.set("class", "ink-outline")
-                        element.set("stroke-width", f"{1.15 + (shape_index % 5) * 0.18:.2f}")
+                        element.set("stroke-width", f"{2.15 + (shape_index % 5) * 0.22:.2f}")
+                        texture = ET.fromstring(ET.tostring(element, encoding="unicode"))
+                        texture.set("class", "ink-texture")
+                        texture.set("fill", "url(#castalia-brush-wash)")
+                        texture.set("stroke", "none")
+                        texture.set("opacity", ".72")
+                        parent.insert(list(parent).index(element) + 1, texture)
                     shape_index += 1
             if tag != "defs":
                 decorate(element, clipped)
