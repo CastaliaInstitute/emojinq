@@ -13,6 +13,8 @@ This is an independent derivative-art project. It is not affiliated with or endo
 - `assets/ink/` — generated grayscale, hand-drawn-style SVG output.
 - `scripts/build_set.py` — batch-applies the shared treatment to the manifest.
 - `scripts/collapse_lines.py` — removes area fills while preserving scalable pen lines.
+- `scripts/fetch_noto.py` — sparse-fetches the upstream Noto SVG directory.
+- `scripts/build_all.py` — applies the line treatment to the full Noto SVG set.
 - `scripts/import_noto_svg.py` — deterministic source-to-ink converter.
 - `docs/ESP32-S3.md` — rendering and integration notes.
 
@@ -30,6 +32,15 @@ make assets
 make lines
 make font
 ```
+
+To build the complete Noto Color Emoji line set locally (currently 3,731 SVG glyphs, including multi-codepoint sequences):
+
+```sh
+make all-lines
+open http://localhost:8000/docs/all.html
+```
+
+The full upstream source and generated output are intentionally ignored; the manifest and deterministic build scripts are the shareable source of truth.
 
 The resulting `fonts/CastaliaEmoji-Regular.ttf` is a conventional monochrome TrueType font. It maps the starter set to their normal Unicode code points, so normal Unicode text rendering works in browsers and font stacks that support the supplementary plane. The font build converts the SVG curves to TrueType quadratic outlines for embedded compatibility.
 

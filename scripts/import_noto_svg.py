@@ -65,29 +65,31 @@ def convert(source: Path, target: Path, name: str) -> None:
     style.text = """.ink-outline{stroke:#292929;stroke-width:1.7;stroke-linejoin:round;stroke-linecap:round}.ink-echo{fill:none;stroke:#464646;stroke-width:1.15;stroke-linejoin:round;stroke-linecap:round;opacity:.62;transform:translate(1.7px,1.1px) rotate(.45deg 64px 64px)}.ink-echo-two{fill:none;stroke:#6b6b6b;stroke-width:.72;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:17 3 5 2 11 4;opacity:.58;transform:translate(-1.3px,.8px) rotate(-.7deg 64px 64px)}.ink-pencil{fill:none;stroke:#888;stroke-width:.48;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:3 2 12 2;opacity:.52;transform:translate(.4px,-1.6px)}"""
     root.insert(0, defs)
 
-    for element in list(root.iter()):
-        if local(element.tag) not in {"path", "circle", "ellipse", "rect", "polygon", "polyline"}:
-            continue
-        fill = fill_value(element)
-        if fill and fill != "none":
-            element.set("fill", gray(fill))
-            element.attrib.pop("style", None)
-            element.set("class", "ink-outline")
-            echo = ET.fromstring(ET.tostring(element, encoding="unicode"))
-            echo.set("class", "ink-echo")
-            echo.set("fill", "none")
-            echo_two = ET.fromstring(ET.tostring(element, encoding="unicode"))
-            echo_two.set("class", "ink-echo-two")
-            echo_two.set("fill", "none")
-            pencil = ET.fromstring(ET.tostring(element, encoding="unicode"))
-            pencil.set("class", "ink-pencil")
-            pencil.set("fill", "none")
-            parent = next((p for p in root.iter() if element in list(p)), None)
-            if parent is not None:
-                index = list(parent).index(element)
-                parent.insert(index + 1, echo)
-                parent.insert(index + 2, echo_two)
-                parent.insert(index + 3, pencil)
+    def decorate(parent: ET.Element) -> None:
+        for element in list(parent):
+            if local(element.tag) in {"path", "circle", "ellipse", "rect", "polygon", "polyline"}:
+                fill = fill_value(element)
+                if fill and fill != "none":
+                    element.set("fill", gray(fill))
+                    element.attrib.pop("style", None)
+                    element.set("class", "ink-outline")
+                    echo = ET.fromstring(ET.tostring(element, encoding="unicode"))
+                    echo.set("class", "ink-echo")
+                    echo.set("fill", "none")
+                    echo_two = ET.fromstring(ET.tostring(element, encoding="unicode"))
+                    echo_two.set("class", "ink-echo-two")
+                    echo_two.set("fill", "none")
+                    pencil = ET.fromstring(ET.tostring(element, encoding="unicode"))
+                    pencil.set("class", "ink-pencil")
+                    pencil.set("fill", "none")
+                    index = list(parent).index(element)
+                    parent.insert(index + 1, echo)
+                    parent.insert(index + 2, echo_two)
+                    parent.insert(index + 3, pencil)
+            if local(element.tag) != "defs":
+                decorate(element)
+
+    decorate(root)
 
     root.set("data-castalia-style", "naturalist-pen-v2")
     target.parent.mkdir(parents=True, exist_ok=True)

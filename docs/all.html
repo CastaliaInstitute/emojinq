@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Castalia Emoji — full Noto set</title>
+  <style>
+    :root { color-scheme: light; --paper:#e9e7e1; --ink:#292826; --quiet:#77746d; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:16px/1.4 Georgia,serif; }
+    main { max-width:1200px; margin:auto; padding:5vw; }
+    h1 { margin:0; font:400 clamp(3rem,8vw,7rem)/.8 "SignPainter","Bradley Hand",cursive; }
+    p { color:var(--quiet); }
+    #status { font:700 .72rem/1 sans-serif; letter-spacing:.12em; text-transform:uppercase; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(128px,1fr)); gap:.55rem; height:75vh; overflow:auto; padding:.6rem; background:#d0cdc4; }
+    figure { margin:0; padding:.6rem; background:#f5f3ed; border:1px solid #d0cdc4; }
+    img { display:block; width:100%; aspect-ratio:1; object-fit:contain; }
+    figcaption { overflow:hidden; color:var(--quiet); font:10px/1.2 ui-monospace,monospace; text-overflow:ellipsis; white-space:nowrap; }
+  </style>
+</head>
+<body><main>
+  <h1>iNQ</h1>
+  <p>Castalia Emoji · full Noto Color Emoji line-art build</p>
+  <div id="status">Loading manifest…</div>
+  <section class="grid" id="grid" aria-label="Full Castalia Emoji gallery"></section>
+  <script>
+    fetch("../assets/line-all/manifest.json").then(r => r.json()).then(items => {
+      const grid = document.getElementById("grid");
+      document.getElementById("status").textContent = `${items.length} scalable line glyphs`;
+      for (const item of items) {
+        const figure = document.createElement("figure");
+        const image = document.createElement("img");
+        image.src = `../assets/line-all/${item.source}`;
+        image.alt = item.name;
+        const caption = document.createElement("figcaption");
+        caption.textContent = item.name;
+        figure.append(image, caption);
+        grid.append(figure);
+      }
+    }).catch(error => { document.getElementById("status").textContent = `Build the full set first: ${error}`; });
+  </script>
+</main></body>
+</html>
