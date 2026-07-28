@@ -60,7 +60,8 @@ def convert(source: Path, target: Path, name: str) -> None:
 
     defs = ET.Element(f"{{{SVG_NS}}}defs")
     style = ET.SubElement(defs, f"{{{SVG_NS}}}style")
-    style.text = """.ink-outline{stroke:#303030;stroke-width:3.2;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke}.ink-echo{fill:none;stroke:#777;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round;opacity:.34;transform:translate(1.4px,1px);vector-effect:non-scaling-stroke}"""
+    style.text = """.ink-outline{stroke:#292929;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;vector-effect:non-scaling-stroke}.ink-echo{fill:none;stroke:#4a4a4a;stroke-width:1.3;stroke-linejoin:round;stroke-linecap:round;opacity:.48;transform:translate(1.7px,1.1px);vector-effect:non-scaling-stroke}.ink-echo-two{fill:none;stroke:#777;stroke-width:.9;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:8 3 1 4;opacity:.42;transform:translate(-1.3px,.8px);vector-effect:non-scaling-stroke}.ink-hatch{fill:none;stroke:#353535;stroke-width:.8;stroke-linecap:round;opacity:.25;vector-effect:non-scaling-stroke}"""
+    hatch_count = 0
     root.insert(0, defs)
 
     for element in list(root.iter()):
@@ -74,10 +75,25 @@ def convert(source: Path, target: Path, name: str) -> None:
             echo = ET.fromstring(ET.tostring(element, encoding="unicode"))
             echo.set("class", "ink-echo")
             echo.set("fill", "none")
+            echo_two = ET.fromstring(ET.tostring(element, encoding="unicode"))
+            echo_two.set("class", "ink-echo-two")
+            echo_two.set("fill", "none")
             parent = next((p for p in root.iter() if element in list(p)), None)
             if parent is not None:
                 index = list(parent).index(element)
                 parent.insert(index + 1, echo)
+                parent.insert(index + 2, echo_two)
+                if hatch_count < 6:
+                    clip_id = f"ink-clip-{hatch_count}"
+                    clip = ET.SubElement(defs, f"{{{SVG_NS}}}clipPath", {"id": clip_id})
+                    clip.append(ET.fromstring(ET.tostring(element, encoding="unicode")))
+                    hatch = ET.Element(f"{{{SVG_NS}}}g", {"class": "ink-hatch", "clip-path": f"url(#{clip_id})"})
+                    for offset in range(-128, 257, 12):
+                        ET.SubElement(hatch, f"{{{SVG_NS}}}line", {"x1": str(offset), "y1": "0", "x2": str(offset + 128), "y2": "128"})
+                    for offset in range(-128, 257, 20):
+                        ET.SubElement(hatch, f"{{{SVG_NS}}}line", {"x1": str(offset), "y1": "128", "x2": str(offset + 128), "y2": "0"})
+                    parent.insert(index + 3, hatch)
+                    hatch_count += 1
 
     root.set("data-castalia-style", "ink-grayscale-v1")
     target.parent.mkdir(parents=True, exist_ok=True)

@@ -36,7 +36,9 @@ def paths(svg: Path):
     root = ET.parse(svg).getroot()
     for element in root.iter(f"{{{SVG_NS}}}path"):
         d = element.get("d")
-        if d:
+        # The SVG preview has expressive outline/echo paths with fill="none".
+        # A monochrome TTF should contain only the filled source contours.
+        if d and element.get("fill", "black") != "none":
             yield d
 
 

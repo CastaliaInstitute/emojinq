@@ -1,6 +1,6 @@
 # Castalia Emoji
 
-An artistic, grayscale treatment of [Noto Color Emoji](https://github.com/googlefonts/noto-emoji) for calm, low-power displays and full-screen glyphs on ESP32-S3 devices.
+An artistic, grayscale treatment of [Noto Color Emoji](https://github.com/googlefonts/noto-emoji) with the character of a 19th-century naturalist's field plate, for calm, low-power displays and full-screen glyphs on ESP32-S3 devices.
 
 This is an independent derivative-art project. It is not affiliated with or endorsed by Google or the Noto project.
 
@@ -10,6 +10,8 @@ This is an independent derivative-art project. It is not affiliated with or endo
 - `assets/ink/` — generated grayscale, hand-drawn-style SVG output.
 - `scripts/import_noto_svg.py` — deterministic source-to-ink converter.
 - `docs/ESP32-S3.md` — rendering and integration notes.
+
+The visual treatment uses fine offset contours and clipped cross-hatching rather than blur or turbulence filters. This gives the SVG preview an engraved, hand-inked quality while keeping the generated TTF as clean filled outlines.
 
 The starter set includes person, pin/place, light bulb, heart, star, sun, moon, coffee, sunflower, house, book, and leaf. The same pipeline can process any Noto SVG whose source file is available.
 
