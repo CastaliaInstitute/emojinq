@@ -7,6 +7,7 @@ import argparse
 import json
 import re
 import tempfile
+import unicodedata
 from pathlib import Path
 
 from collapse_lines import collapse
@@ -46,7 +47,12 @@ def entry(source: Path) -> dict[str, object] | None:
     if not match:
         return None
     codepoints = [int(value, 16) for value in re.split(r"[_-]", match.group(1))]
-    return {"name": source.stem.removeprefix("emoji_u"), "source": source.name, "codepoints": codepoints, "group": group_for(codepoints)}
+    label = " ".join(
+        unicodedata.name(chr(cp), "")
+        for cp in codepoints
+        if cp not in {0xFE0E, 0xFE0F} and cp <= 0x10FFFF
+    ).title()
+    return {"name": source.stem.removeprefix("emoji_u"), "label": label, "source": source.name, "codepoints": codepoints, "group": group_for(codepoints)}
 
 
 def main() -> None:
