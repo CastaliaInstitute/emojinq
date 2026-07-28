@@ -12,9 +12,10 @@ Recommended constraints:
 - test at 64, 128, and 240 px because small details disappear quickly;
 - cache the rasterized result in flash and avoid SVG parsing on every wake.
 
-The canonical art uses fills, strokes, opacity, and simple paths. The import
-script intentionally does not emit turbulence, blur, masks, clip paths, or
-blend modes. The SVGs can be rasterized at any target size; the TTF build keeps
-only the filled contours for embedded font renderers.
+The canonical art uses fills, strokes, opacity, and simple paths. The line-art
+pass removes fills and decorative echo contours without rasterizing. The tools
+intentionally do not emit turbulence, blur, masks, clip paths, or blend modes.
+The SVGs can be rasterized at any target size; the current TTF build keeps the
+filled contours for embedded font renderers.
 
 For the current Einq firmware, the clean handoff is a generated bitmap or a renderer-specific path asset in the separate `einq` repository; this repository should remain platform-neutral.

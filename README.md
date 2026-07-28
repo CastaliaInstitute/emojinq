@@ -9,8 +9,10 @@ This is an independent derivative-art project. It is not affiliated with or endo
 - `assets/source/` — selected Noto SVG inputs, stored with upstream attribution.
 - `assets/manifest.json` — names, Unicode code points, and semantic exceptions for the set.
 - `assets/canonical/` — reviewed authored vector glyphs for the full 12-glyph set.
+- `assets/line/` — generated fill-free line-art output for the specimen and scalable rendering.
 - `assets/ink/` — generated grayscale, hand-drawn-style SVG output.
 - `scripts/build_set.py` — batch-applies the shared treatment to the manifest.
+- `scripts/collapse_lines.py` — removes area fills while preserving scalable pen lines.
 - `scripts/import_noto_svg.py` — deterministic source-to-ink converter.
 - `docs/ESP32-S3.md` — rendering and integration notes.
 
@@ -25,6 +27,7 @@ Install the one build dependency, generate the batch comparison set, then build 
 ```sh
 python3 -m pip install -r requirements-build.txt
 make assets
+make lines
 make font
 ```
 
