@@ -7,24 +7,24 @@ This is an independent derivative-art project. It is not affiliated with or endo
 ## What is here
 
 - `assets/source/` — selected Noto SVG inputs, stored with upstream attribution.
-- `assets/canonical/` — authored person, place, and thing vector glyphs; the style anchors for the set.
+- `assets/manifest.json` — names, Unicode code points, and semantic exceptions for the set.
+- `assets/canonical/` — reviewed authored vector glyphs for the full 12-glyph set.
 - `assets/ink/` — generated grayscale, hand-drawn-style SVG output.
+- `scripts/build_set.py` — batch-applies the shared treatment to the manifest.
 - `scripts/import_noto_svg.py` — deterministic source-to-ink converter.
 - `docs/ESP32-S3.md` — rendering and integration notes.
 
-The canonical treatment uses pale washes, asymmetric pen contours, and a few selective interior marks rather than hatch fills or filters. This keeps the SVGs scalable and gives the hero glyphs a quieter 19th-century ink quality while keeping the generated TTF as clean filled outlines.
+The canonical treatment uses pale washes, asymmetric pen contours, and a few selective interior marks rather than hatch fills or filters. This keeps the SVGs scalable and gives the set a quieter 19th-century ink quality while keeping the generated TTF as clean filled outlines. See [docs/STYLE.md](docs/STYLE.md).
 
 The starter set includes person, pin/place, light bulb, heart, star, sun, moon, coffee, sunflower, house, book, and leaf. The same pipeline can process any Noto SVG whose source file is available.
 
 ## Quick start
 
-Install the one build dependency, regenerate the SVG pass, then build the font:
+Install the one build dependency, generate the batch comparison set, then build the font:
 
 ```sh
 python3 -m pip install -r requirements-build.txt
-python3 scripts/import_noto_svg.py --input assets/source/emoji_u1f464.svg --output assets/ink/person.svg --name person
-python3 scripts/import_noto_svg.py --input assets/source/emoji_u1f4cd.svg --output assets/ink/place.svg --name place
-python3 scripts/import_noto_svg.py --input assets/source/emoji_u1f4a1.svg --output assets/ink/thing.svg --name thing
+make assets
 make font
 ```
 

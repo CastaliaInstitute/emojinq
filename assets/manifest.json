@@ -1,0 +1,14 @@
+[
+  {"name": "person", "source": "emoji_u1f464.svg", "codepoint": "1F464"},
+  {"name": "place", "source": "emoji_u1f4cd.svg", "codepoint": "1F4CD", "semantic": "pin"},
+  {"name": "thing", "source": "emoji_u1f4a1.svg", "codepoint": "1F4A1"},
+  {"name": "heart", "source": "emoji_u2764.svg", "codepoint": "2764"},
+  {"name": "star", "source": "emoji_u2b50.svg", "codepoint": "2B50"},
+  {"name": "sun", "source": "emoji_u2600.svg", "codepoint": "2600"},
+  {"name": "moon", "source": "emoji_u1f319.svg", "codepoint": "1F319"},
+  {"name": "coffee", "source": "emoji_u2615.svg", "codepoint": "2615"},
+  {"name": "sunflower", "source": "emoji_u1f33b.svg", "codepoint": "1F33B"},
+  {"name": "house", "source": "emoji_u1f3e0.svg", "codepoint": "1F3E0"},
+  {"name": "book", "source": "emoji_u1f4d6.svg", "codepoint": "1F4D6"},
+  {"name": "leaf", "source": "emoji_u1f343.svg", "codepoint": "1F343"}
+]
