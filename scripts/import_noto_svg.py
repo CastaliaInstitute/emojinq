@@ -47,6 +47,24 @@ def fill_value(element: ET.Element) -> str | None:
     return style.group(1).strip() if style else None
 
 
+def path_bounds(d: str) -> tuple[float, float, float, float] | None:
+    values = [float(value) for value in re.findall(r"[-+]?(?:\d*\.\d+|\d+\.?)(?:[eE][-+]?\d+)?", d)]
+    if len(values) < 4:
+        return None
+    points = list(zip(values[0::2], values[1::2]))
+    xs, ys = zip(*points)
+    return min(xs), min(ys), max(xs), max(ys)
+
+
+def overlaps(a: tuple[float, float, float, float], b: tuple[float, float, float, float]) -> bool:
+    ix = max(0.0, min(a[2], b[2]) - max(a[0], b[0]))
+    iy = max(0.0, min(a[3], b[3]) - max(a[1], b[1]))
+    intersection = ix * iy
+    area_a = max(1.0, (a[2] - a[0]) * (a[3] - a[1]))
+    area_b = max(1.0, (b[2] - b[0]) * (b[3] - b[1]))
+    return intersection / min(area_a, area_b) > 0.78
+
+
 def grayscale_attributes(root: ET.Element) -> None:
     for element in root.iter():
         for key, value in list(element.attrib.items()):
@@ -66,6 +84,7 @@ def convert(source: Path, target: Path, name: str) -> None:
     root.insert(0, defs)
 
     shape_index = 0
+    outlined_bounds: list[tuple[float, float, float, float]] = []
 
     def decorate(parent: ET.Element, inside_clip: bool = False) -> None:
         nonlocal shape_index
@@ -81,8 +100,13 @@ def convert(source: Path, target: Path, name: str) -> None:
                         # One outline per visible geometry, with restrained
                         # broad-nib variation. Clipped color layers stay fill
                         # only so stacked Noto layers cannot double the edge.
-                        element.set("class", "ink-outline")
-                        element.set("stroke-width", f"{2.15 + (shape_index % 5) * 0.22:.2f}")
+                        bounds = path_bounds(element.get("d", ""))
+                        duplicate = bounds is not None and any(overlaps(bounds, previous) for previous in outlined_bounds)
+                        if not duplicate:
+                            element.set("class", "ink-outline")
+                            element.set("stroke-width", f"{2.15 + (shape_index % 5) * 0.22:.2f}")
+                            if bounds is not None:
+                                outlined_bounds.append(bounds)
                     shape_index += 1
             if tag != "defs":
                 decorate(element, clipped)

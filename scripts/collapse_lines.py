@@ -21,7 +21,7 @@ def local(tag: str) -> str:
     return tag.rsplit("}", 1)[-1]
 
 
-def roughen_path(d: str, seed: int, amount: float = 0.32) -> str:
+def roughen_path(d: str, seed: int, amount: float = 0.58) -> str:
     """Add deterministic sub-pixel hand wobble to path coordinates."""
     tokens = TOKEN_RE.findall(d)
     command = None
@@ -80,7 +80,10 @@ def collapse(root: ET.Element) -> None:
                     base_width = 0.95
                 if not element.get("stroke-width"):
                     base_width = 0.95
-                variation = 0.72 + ((weight_index * 13) % 7) * 0.075
+                # A broad-nib rhythm: neighboring marks are related, but not
+                # mechanically identical. This is intentionally per-mark
+                # pressure rather than a second offset contour.
+                variation = 0.62 + ((weight_index * 17) % 9) * 0.105
                 element.set("stroke-width", f"{base_width * variation:.2f}")
                 element.set("stroke-linecap", "round")
                 element.set("stroke-linejoin", "round")

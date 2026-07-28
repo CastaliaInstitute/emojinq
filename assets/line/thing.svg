@@ -2,8 +2,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Thing" data-castalia-style="davinci-line-v2">
   <title>Thing — Castalia Emoji canonical ink glyph</title>
   <g fill="#efeee8" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="1.08" d="M 63.958 11.308 c -17.172 -0.079 -29.069 12.917 -29.028 29.834 -0.306 9.342 3.436 15.592 8.082 21.397 3.723 4.216 6.424 8.204 7.631 15.654 h 26.718 c 0.793 -7.602 3.568 -11.552 7.476 -15.529 4.826 -5.4 7.876 -11.94 8.267 -20.591 C 92.797 23.981 81.307 11.544 63.808 11.549 Z" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-    <path fill="none" stroke-width="1.29" d="M 50.892 78.249 h 26.49 l -1.614 7.351 H 52.114 l -1.328 -7.41 Z M 52.531 87.96 h 23.298 l -1.863 6.907 H 53.924 l -1.732 -6.874 Z M 55.784 97.589 h 17.249 l -3.074 8.31 H 58.836 l -3.095 -8.154 Z" stroke-linecap="round" stroke-linejoin="round" />
-    <path fill="none" stroke-width="0.82" d="M 51.386 80.208 c 4.115 1.109 8.398 1.768 12.708 1.551 4.432 -0.532 7.953 0.052 12.108 0.808 M 53.312 89.947 c 6.674 1.622 13.144 1.413 19.915 0.123 M 56.49 99.342 c 5.794 1.272 10.695 0.741 16.012 0.156" stroke-linecap="round" stroke-linejoin="round" />
+    <path stroke-width="0.93" d="M 63.924 11.153 c -17.23 -0.143 -29.288 13.174 -29.213 29.944 -0.555 9.457 3.627 15.586 8.148 21.638 3.741 4.148 6.281 8.125 7.818 15.78 h 26.57 c 0.707 -7.847 3.379 -11.513 7.538 -15.308 4.929 -5.318 7.775 -12.135 8.483 -20.42 C 92.713 23.803 81.556 11.579 63.652 11.589 Z" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <path fill="none" stroke-width="1.61" d="M 50.967 78.288 h 26.401 l -1.788 7.231 H 52.126 l -1.351 -7.338 Z M 52.719 87.846 h 23.214 l -1.751 6.75 H 53.781 l -1.677 -6.691 Z M 56.015 97.662 h 17.37 l -2.972 8.48 H 58.946 l -3.01 -8.198 Z" stroke-linecap="round" stroke-linejoin="round" />
+    <path fill="none" stroke-width="1.02" d="M 51.294 80.459 c 4.047 1.035 8.397 1.905 12.877 1.755 4.62 -0.721 7.833 0.176 12.195 0.733 M 53.322 90.067 c 6.571 1.559 13.099 1.262 19.847 0.303 M 56.726 99.213 c 5.789 1.493 10.61 0.531 15.94 0.363" stroke-linecap="round" stroke-linejoin="round" />
     </g>
 </svg>
