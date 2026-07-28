@@ -34,7 +34,7 @@ def collapse(root: ET.Element) -> None:
                 # windows, and mechanical details.
                 if element.get("fill") == "none" and element.get("stroke-width"):
                     try:
-                        if float(element.get("stroke-width", "1")) < 0.7:
+                        if float(element.get("stroke-width", "1")) < 0.7 and element.get("data-ink-keep") != "true":
                             parent.remove(element)
                             continue
                     except ValueError:
