@@ -47,6 +47,14 @@ def fill_value(element: ET.Element) -> str | None:
     return style.group(1).strip() if style else None
 
 
+def stroke_value(element: ET.Element) -> str | None:
+    value = element.get("stroke")
+    if value:
+        return value
+    match = re.search(r"(?:^|;)\s*stroke\s*:\s*([^;]+)", element.get("style", ""))
+    return match.group(1).strip() if match else None
+
+
 def path_bounds(d: str) -> tuple[float, float, float, float] | None:
     values = [float(value) for value in re.findall(r"[-+]?(?:\d*\.\d+|\d+\.?)(?:[eE][-+]?\d+)?", d)]
     if len(values) < 4:
@@ -93,7 +101,24 @@ def convert(source: Path, target: Path, name: str) -> None:
             clipped = inside_clip or tag == "clipPath"
             if tag in {"path", "circle", "ellipse", "rect", "polygon", "polyline"}:
                 fill = fill_value(element)
-                if fill and fill != "none":
+                stroke = stroke_value(element)
+                if stroke and stroke != "none":
+                    # OpenMoji Black is already a line drawing. Preserve its
+                    # paths as single marks, but vary pressure between marks
+                    # so the result reads as pen work instead of a uniform
+                    # digital outline.
+                    element.set("stroke", "#292929")
+                    element.attrib.pop("style", None)
+                    try:
+                        base_width = float(element.get("stroke-width", "2"))
+                    except ValueError:
+                        base_width = 2.0
+                    pressure = 0.58 + ((shape_index * 17) % 8) * 0.075
+                    element.set("stroke-width", f"{base_width * pressure:.2f}")
+                    element.set("stroke-linecap", "round")
+                    element.set("stroke-linejoin", "round")
+                    shape_index += 1
+                elif fill and fill != "none":
                     element.set("fill", gray(fill))
                     element.attrib.pop("style", None)
                     if not clipped:
