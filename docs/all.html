@@ -54,7 +54,7 @@
     };
     const expandQuery = query => query.split(/\s+/).filter(Boolean).flatMap(token => [token, ...(SYNONYMS[token] || [])]);
     const assetRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/gray-all/" : "assets/gray-all/";
-    const assetVersion = "calligraphy-2026-07-29";
+    const assetVersion = "calligraphy-pressure-2026-07-29";
 
     fetch(`${assetRoot}manifest.json`).then(r => {
       if (!r.ok) throw new Error(`manifest request failed (${r.status})`);

@@ -8,9 +8,12 @@ preprocessor, not an SVG renderer for the ESP32.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
+
+from collapse_lines import roughen_path
 
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
@@ -53,6 +56,17 @@ def stroke_value(element: ET.Element) -> str | None:
         return value
     match = re.search(r"(?:^|;)\s*stroke\s*:\s*([^;]+)", element.get("style", ""))
     return match.group(1).strip() if match else None
+
+
+def pressure_for(element: ET.Element, index: int) -> float:
+    """Return stable, non-cyclic pen pressure for one source mark."""
+    geometry = "|".join(
+        element.get(key, "")
+        for key in ("d", "x1", "x2", "y1", "y2", "cx", "cy", "rx", "ry", "points")
+    )
+    digest = hashlib.sha1(f"{index}|{geometry}".encode()).hexdigest()
+    noise = int(digest[:8], 16) / 0xFFFFFFFF
+    return 0.56 + noise * 0.56
 
 
 def path_bounds(d: str) -> tuple[float, float, float, float] | None:
@@ -109,7 +123,7 @@ def convert(source: Path, target: Path, name: str) -> None:
                     # paths as single marks, but vary pressure between marks
                     # so the result reads as pen work instead of a uniform
                     # digital outline.
-                    element.set("stroke", "#292929")
+                    element.set("stroke", "#262421")
                     element.attrib.pop("style", None)
                     try:
                         base_width = float(element.get("stroke-width", "2"))
@@ -119,10 +133,15 @@ def convert(source: Path, target: Path, name: str) -> None:
                     # strokes. Normalize those first so they become pressure
                     # variation, not chunky bars.
                     base_width = min(base_width, 2.0)
-                    pressure = 0.58 + ((shape_index * 17) % 8) * 0.075
+                    pressure = pressure_for(element, shape_index)
                     element.set("stroke-width", f"{base_width * pressure:.2f}")
                     element.set("stroke-linecap", "round")
                     element.set("stroke-linejoin", "round")
+                    if element.get("d"):
+                        # A restrained coordinate wobble keeps curves from
+                        # looking plotter-perfect while preserving their
+                        # recognizable construction at full-screen scale.
+                        element.set("d", roughen_path(element.get("d", ""), shape_index, amount=0.12))
                     shape_index += 1
                 elif fill and fill != "none":
                     element.set("fill", gray(fill))
@@ -144,7 +163,7 @@ def convert(source: Path, target: Path, name: str) -> None:
 
     decorate(root)
 
-    root.set("data-castalia-style", "naturalist-pen-v2")
+    root.set("data-castalia-style", "sumi-e-ink-v1")
     target.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(root).write(target, encoding="utf-8", xml_declaration=True)
 
