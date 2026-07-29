@@ -53,8 +53,9 @@
       no: ["cross", "wrong", "forbidden"]
     };
     const expandQuery = query => query.split(/\s+/).filter(Boolean).flatMap(token => [token, ...(SYNONYMS[token] || [])]);
+    const assetRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/gray-all/" : "assets/gray-all/";
 
-    fetch("../assets/gray-all/manifest.json").then(r => {
+    fetch(`${assetRoot}manifest.json`).then(r => {
       if (!r.ok) throw new Error(`manifest request failed (${r.status})`);
       return r.json();
     }).then(items => {
@@ -80,7 +81,7 @@
         for (const item of visible) {
         const figure = document.createElement("figure");
         const image = document.createElement("img");
-        image.src = `../assets/gray-all/${item.source}`;
+        image.src = `${assetRoot}${item.source}`;
         image.loading = "lazy";
         image.decoding = "async";
         image.alt = item.name;
