@@ -94,14 +94,16 @@ def convert(source: Path, target: Path, name: str) -> None:
     shape_index = 0
     outlined_bounds: list[tuple[float, float, float, float]] = []
 
-    def decorate(parent: ET.Element, inside_clip: bool = False) -> None:
+    def decorate(parent: ET.Element, inside_clip: bool = False, inherited_stroke: str | None = None) -> None:
         nonlocal shape_index
+        parent_stroke = stroke_value(parent) or inherited_stroke
         for element in list(parent):
             tag = local(element.tag)
             clipped = inside_clip or tag == "clipPath"
-            if tag in {"path", "circle", "ellipse", "rect", "polygon", "polyline"}:
+            stroke = None
+            if tag in {"path", "circle", "ellipse", "rect", "polygon", "polyline", "line"}:
                 fill = fill_value(element)
-                stroke = stroke_value(element)
+                stroke = stroke_value(element) or parent_stroke
                 if stroke and stroke != "none":
                     # OpenMoji Black is already a line drawing. Preserve its
                     # paths as single marks, but vary pressure between marks
@@ -113,6 +115,10 @@ def convert(source: Path, target: Path, name: str) -> None:
                         base_width = float(element.get("stroke-width", "2"))
                     except ValueError:
                         base_width = 2.0
+                    # Some OpenMoji construction marks use very wide source
+                    # strokes. Normalize those first so they become pressure
+                    # variation, not chunky bars.
+                    base_width = min(base_width, 2.0)
                     pressure = 0.58 + ((shape_index * 17) % 8) * 0.075
                     element.set("stroke-width", f"{base_width * pressure:.2f}")
                     element.set("stroke-linecap", "round")
@@ -134,7 +140,7 @@ def convert(source: Path, target: Path, name: str) -> None:
                                 outlined_bounds.append(bounds)
                     shape_index += 1
             if tag != "defs":
-                decorate(element, clipped)
+                decorate(element, clipped, stroke or parent_stroke)
 
     decorate(root)
 
