@@ -54,11 +54,19 @@
     };
     const expandQuery = query => query.split(/\s+/).filter(Boolean).flatMap(token => [token, ...(SYNONYMS[token] || [])]);
 
-    fetch("../assets/gray-all/manifest.json").then(r => r.json()).then(items => {
+    fetch("../assets/gray-all/manifest.json").then(r => {
+      if (!r.ok) throw new Error(`manifest request failed (${r.status})`);
+      return r.json();
+    }).then(items => {
       const grid = document.getElementById("grid");
       const group = document.getElementById("group");
       const search = document.getElementById("search");
-      [...new Set(items.map(item => item.group))].sort().forEach(name => group.add(new Option(name, name)));
+      [...new Set(items.map(item => item.group))].sort().forEach(name => {
+        const option = document.createElement("option");
+        option.value = name;
+        option.textContent = name;
+        group.appendChild(option);
+      });
       const render = () => {
         const selected = group.value;
         const query = expandQuery(search.value.trim().toLowerCase());
@@ -67,7 +75,7 @@
           const haystack = `${item.label || ""} ${item.name} ${item.group} ${item.codepoints.map(cp => cp.toString(16)).join(" ")}`.toLowerCase();
           return inGroup && (!query.length || query.some(term => haystack.includes(term)));
         });
-        grid.replaceChildren();
+        while (grid.firstChild) grid.removeChild(grid.firstChild);
         document.getElementById("status").textContent = `${visible.length} of ${items.length} searchable brush glyphs`;
         for (const item of visible) {
         const figure = document.createElement("figure");
@@ -85,7 +93,10 @@
       group.addEventListener("change", render);
       search.addEventListener("input", render);
       render();
-    }).catch(error => { document.getElementById("status").textContent = `Build the full set first: ${error}`; });
+    }).catch(error => {
+      console.error("Emojinq gallery failed to initialize", error);
+      document.getElementById("status").textContent = `Gallery failed to load: ${error.message || error}`;
+    });
   </script>
 </main></body>
 </html>
