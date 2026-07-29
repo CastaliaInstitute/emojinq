@@ -1,0 +1,53 @@
+name: Deploy Emojinq gallery
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Emojinq
+        uses: actions/checkout@v4
+
+      - name: Build OpenMoji Black grayscale gallery
+        run: |
+          python3 scripts/fetch_openmoji.py
+          python3 scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode grayscale
+
+      - name: Assemble Pages artifact
+        run: |
+          mkdir -p _site/docs _site/assets
+          cp -R docs/* _site/docs/
+          cp -R assets/gray-all _site/assets/
+          cp docs/all.html _site/index.html
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
