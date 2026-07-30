@@ -1,0 +1,442 @@
+[
+  {
+    "name": "zodiac-aries",
+    "label": "Aries",
+    "group": "Astrology",
+    "source": "zodiac-aries.svg",
+    "codepoints": [
+      57614
+    ],
+    "private_use": true
+  },
+  {
+    "name": "zodiac-taurus",
+    "label": "Taurus",
+    "group": "Astrology",
+    "source": "zodiac-taurus.svg",
+    "codepoints": [
+      57615
+    ],
+    "private_use": true
+  },
+  {
+    "name": "zodiac-gemini",
+    "label": "Gemini",
+    "group": "Astrology",
+    "source": "zodiac-gemini.svg",
+    "codepoints": [
+      57616
+    ],
+    "private_use": true
+  },
+  {
+    "name": "zodiac-cancer",
+    "label": "Cancer",
+    "group": "Astrology",
+    "source": "zodiac-cancer.svg",
+    "codepoints": [
+      57617
+    ],
+    "private_use": true
+  },
+  {
+    "name": "zodiac-leo",
+    "label": "Leo",
+    "group": "Astrology",
+    "source": "zodiac-leo.svg",
+    "codepoints": [
+      57618
+    ],
+    "private_use": true
+  },
+  {
+    "name": "zodiac-virgo",
+    "label": "Virgo",
+    "group": "Astrology",
+    "source": "zodiac-virgo.svg",
+    "codepoints": [
+      57619
+    ],
+    "private_use": true
+  },
+  {
+    "name": "zodiac-libra",
+    "label": "Libra",
+    "group": "Astrology",
+    "source": "zodiac-libra.svg",
+    "codepoints": [
+      57620
+    ],
+    "private_use": true
+  },
+  {
+    "name": "zodiac-scorpio",
+    "label": "Scorpio",
+    "group": "Astrology",
+    "source": "zodiac-scorpio.svg",
+    "codepoints": [
+      57621
+    ],
+    "private_use": true
+  },
+  {
+    "name": "zodiac-sagittarius",
+    "label": "Sagittarius",
+    "group": "Astrology",
+    "source": "zodiac-sagittarius.svg",
+    "codepoints": [
+      57622
+    ],
+    "private_use": true
+  },
+  {
+    "name": "zodiac-capricorn",
+    "label": "Capricorn",
+    "group": "Astrology",
+    "source": "zodiac-capricorn.svg",
+    "codepoints": [
+      57623
+    ],
+    "private_use": true
+  },
+  {
+    "name": "zodiac-aquarius",
+    "label": "Aquarius",
+    "group": "Astrology",
+    "source": "zodiac-aquarius.svg",
+    "codepoints": [
+      57624
+    ],
+    "private_use": true
+  },
+  {
+    "name": "zodiac-pisces",
+    "label": "Pisces",
+    "group": "Astrology",
+    "source": "zodiac-pisces.svg",
+    "codepoints": [
+      57625
+    ],
+    "private_use": true
+  },
+  {
+    "name": "planet-sun",
+    "label": "Sun",
+    "group": "Astrology",
+    "source": "planet-sun.svg",
+    "codepoints": [
+      57626
+    ],
+    "private_use": true
+  },
+  {
+    "name": "planet-moon",
+    "label": "Moon",
+    "group": "Astrology",
+    "source": "planet-moon.svg",
+    "codepoints": [
+      57627
+    ],
+    "private_use": true
+  },
+  {
+    "name": "planet-mercury",
+    "label": "Mercury",
+    "group": "Astrology",
+    "source": "planet-mercury.svg",
+    "codepoints": [
+      57628
+    ],
+    "private_use": true
+  },
+  {
+    "name": "planet-venus",
+    "label": "Venus",
+    "group": "Astrology",
+    "source": "planet-venus.svg",
+    "codepoints": [
+      57629
+    ],
+    "private_use": true
+  },
+  {
+    "name": "planet-mars",
+    "label": "Mars",
+    "group": "Astrology",
+    "source": "planet-mars.svg",
+    "codepoints": [
+      57630
+    ],
+    "private_use": true
+  },
+  {
+    "name": "planet-jupiter",
+    "label": "Jupiter",
+    "group": "Astrology",
+    "source": "planet-jupiter.svg",
+    "codepoints": [
+      57631
+    ],
+    "private_use": true
+  },
+  {
+    "name": "planet-saturn",
+    "label": "Saturn",
+    "group": "Astrology",
+    "source": "planet-saturn.svg",
+    "codepoints": [
+      57632
+    ],
+    "private_use": true
+  },
+  {
+    "name": "planet-uranus",
+    "label": "Uranus",
+    "group": "Astrology",
+    "source": "planet-uranus.svg",
+    "codepoints": [
+      57633
+    ],
+    "private_use": true
+  },
+  {
+    "name": "planet-neptune",
+    "label": "Neptune",
+    "group": "Astrology",
+    "source": "planet-neptune.svg",
+    "codepoints": [
+      57634
+    ],
+    "private_use": true
+  },
+  {
+    "name": "planet-pluto",
+    "label": "Pluto",
+    "group": "Astrology",
+    "source": "planet-pluto.svg",
+    "codepoints": [
+      57635
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-fool",
+    "label": "The Fool",
+    "group": "Tarot",
+    "source": "tarot-the-fool.svg",
+    "codepoints": [
+      57636
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-magician",
+    "label": "The Magician",
+    "group": "Tarot",
+    "source": "tarot-the-magician.svg",
+    "codepoints": [
+      57637
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-high-priestess",
+    "label": "The High Priestess",
+    "group": "Tarot",
+    "source": "tarot-the-high-priestess.svg",
+    "codepoints": [
+      57638
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-empress",
+    "label": "The Empress",
+    "group": "Tarot",
+    "source": "tarot-the-empress.svg",
+    "codepoints": [
+      57639
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-emperor",
+    "label": "The Emperor",
+    "group": "Tarot",
+    "source": "tarot-the-emperor.svg",
+    "codepoints": [
+      57640
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-hierophant",
+    "label": "The Hierophant",
+    "group": "Tarot",
+    "source": "tarot-the-hierophant.svg",
+    "codepoints": [
+      57641
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-lovers",
+    "label": "The Lovers",
+    "group": "Tarot",
+    "source": "tarot-the-lovers.svg",
+    "codepoints": [
+      57642
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-chariot",
+    "label": "The Chariot",
+    "group": "Tarot",
+    "source": "tarot-the-chariot.svg",
+    "codepoints": [
+      57643
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-strength",
+    "label": "Strength",
+    "group": "Tarot",
+    "source": "tarot-strength.svg",
+    "codepoints": [
+      57644
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-hermit",
+    "label": "The Hermit",
+    "group": "Tarot",
+    "source": "tarot-the-hermit.svg",
+    "codepoints": [
+      57645
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-wheel-of-fortune",
+    "label": "Wheel Of Fortune",
+    "group": "Tarot",
+    "source": "tarot-wheel-of-fortune.svg",
+    "codepoints": [
+      57646
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-justice",
+    "label": "Justice",
+    "group": "Tarot",
+    "source": "tarot-justice.svg",
+    "codepoints": [
+      57647
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-hanged-man",
+    "label": "The Hanged Man",
+    "group": "Tarot",
+    "source": "tarot-the-hanged-man.svg",
+    "codepoints": [
+      57648
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-death",
+    "label": "Death",
+    "group": "Tarot",
+    "source": "tarot-death.svg",
+    "codepoints": [
+      57649
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-temperance",
+    "label": "Temperance",
+    "group": "Tarot",
+    "source": "tarot-temperance.svg",
+    "codepoints": [
+      57650
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-devil",
+    "label": "The Devil",
+    "group": "Tarot",
+    "source": "tarot-the-devil.svg",
+    "codepoints": [
+      57651
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-tower",
+    "label": "The Tower",
+    "group": "Tarot",
+    "source": "tarot-the-tower.svg",
+    "codepoints": [
+      57652
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-star",
+    "label": "The Star",
+    "group": "Tarot",
+    "source": "tarot-the-star.svg",
+    "codepoints": [
+      57653
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-moon",
+    "label": "The Moon",
+    "group": "Tarot",
+    "source": "tarot-the-moon.svg",
+    "codepoints": [
+      57654
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-sun",
+    "label": "The Sun",
+    "group": "Tarot",
+    "source": "tarot-the-sun.svg",
+    "codepoints": [
+      57655
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-judgement",
+    "label": "Judgement",
+    "group": "Tarot",
+    "source": "tarot-judgement.svg",
+    "codepoints": [
+      57656
+    ],
+    "private_use": true
+  },
+  {
+    "name": "tarot-the-world",
+    "label": "The World",
+    "group": "Tarot",
+    "source": "tarot-the-world.svg",
+    "codepoints": [
+      57657
+    ],
+    "private_use": true
+  }
+]
