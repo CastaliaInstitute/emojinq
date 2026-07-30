@@ -5,3 +5,8 @@ distributed under the Creative Commons Attribution-ShareAlike 4.0 license.
 See LICENSE-OPENMOJI.
 
 Emojinq is not affiliated with, sponsored by, or endorsed by OpenMoji.
+
+The alphanumeric source geometry is based on Yuji Boku by the Yuji Project
+Authors, distributed under the SIL Open Font License 1.1. The source font is
+fetched from Google Fonts during the reproducible build:
+https://github.com/google/fonts/tree/main/ofl/yujiboku
