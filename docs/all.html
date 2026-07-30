@@ -18,6 +18,12 @@
     .search { flex:1 1 18rem; min-width:16rem; padding:.55rem .7rem; border:1px solid #bdb9af; background:#fffefa; color:var(--ink); font:14px ui-sans-serif,sans-serif; }
     .type-sample { margin:1.5rem 0; padding:1rem 1.2rem; background:#f5f3ed; border:1px solid #d0cdc4; overflow:auto; color:#262421; font:clamp(1.4rem,3vw,2.4rem)/1.25 "Emojinq", sans-serif; white-space:nowrap; }
     .type-sample small { display:block; margin-bottom:.4rem; color:var(--quiet); font:10px/1.2 ui-monospace,monospace; letter-spacing:.08em; text-transform:uppercase; }
+    .alpha-section { margin:1.5rem 0; }
+    .alpha-section h2 { margin:0 0 .6rem; color:var(--quiet); font:700 .72rem/1 sans-serif; letter-spacing:.12em; text-transform:uppercase; }
+    .alpha-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(64px,1fr)); gap:.45rem; padding:.6rem; background:#d0cdc4; }
+    .alpha-card { min-height:88px; display:grid; place-items:center; align-content:center; gap:.35rem; padding:.45rem; background:#f5f3ed; border:1px solid #d0cdc4; }
+    .alpha-glyph { color:#262421; font:normal 3.6rem/.8 "Emojinq", sans-serif; }
+    .alpha-card code { color:var(--quiet); font:10px/1 ui-monospace,monospace; }
     .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(128px,1fr)); gap:.55rem; height:75vh; overflow:auto; padding:.6rem; background:#d0cdc4; }
     figure { margin:0; padding:.6rem; background:#f5f3ed; border:1px solid #d0cdc4; }
     .glyph { display:grid; width:100%; aspect-ratio:1; place-items:center; color:#262421; font:normal 5.2rem/1 "Emojinq", sans-serif; font-variant-ligatures:common-ligatures; }
@@ -33,6 +39,10 @@
     <label>Group <select id="group"><option value="all">All groups</option></select></label>
   </div>
   <div class="type-sample" aria-label="Emojinq alphabet specimen"><small>Emojinq brush alphabet</small>ABCDEFGHIJKLMNOPQRSTUVWXYZ · abcdefghijklmnopqrstuvwxyz · 0123456789</div>
+  <section class="alpha-section" aria-labelledby="alpha-title">
+    <h2 id="alpha-title">Alphanumerics · TTF font glyphs</h2>
+    <div class="alpha-grid" id="alpha-grid"></div>
+  </section>
   <section class="grid" id="grid" aria-label="Full Emojinq gallery"></section>
   <script>
     const SYNONYMS = {
@@ -56,11 +66,25 @@
       no: ["cross", "wrong", "forbidden"]
     };
     const expandQuery = query => query.split(/\s+/).filter(Boolean).flatMap(token => [token, ...(SYNONYMS[token] || [])]);
+    const ALPHANUMERICS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
     const assetRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/gray-all/" : "assets/gray-all/";
     const fontRoot = location.pathname.endsWith("/docs/all.html") ? "../fonts/" : "fonts/";
     const fontStyle = document.createElement("style");
     fontStyle.textContent = `@font-face { font-family: Emojinq; src: url("${fontRoot}Emojinq-Regular.ttf?v=yuji-boku-1") format("truetype"); font-display: swap; }`;
     document.head.append(fontStyle);
+    const alphaGrid = document.getElementById("alpha-grid");
+    for (const character of ALPHANUMERICS) {
+      const card = document.createElement("div");
+      card.className = "alpha-card";
+      card.setAttribute("aria-label", `Letter or digit ${character}`);
+      const glyph = document.createElement("span");
+      glyph.className = "alpha-glyph";
+      glyph.textContent = character;
+      const code = document.createElement("code");
+      code.textContent = `U+${character.codePointAt(0).toString(16).toUpperCase().padStart(4, "0")}`;
+      card.append(glyph, code);
+      alphaGrid.append(card);
+    }
 
     fetch(`${assetRoot}manifest.json`).then(r => {
       if (!r.ok) throw new Error(`manifest request failed (${r.status})`);
