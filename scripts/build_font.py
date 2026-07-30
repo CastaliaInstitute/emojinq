@@ -163,11 +163,21 @@ def make_glyph(svg: Path, upm: int) -> object:
     return pen.glyph()
 
 
-def build(source_dir: Path, manifest_path: Path, output: Path, alpha_dir: Path | None = None, alpha_manifest: Path | None = None) -> None:
+def build(
+    source_dir: Path,
+    manifest_path: Path,
+    output: Path,
+    alpha_dir: Path | None = None,
+    alpha_manifest: Path | None = None,
+    extra_dir: Path | None = None,
+    extra_manifest: Path | None = None,
+) -> None:
     upm = 1000
     entries = json.loads(manifest_path.read_text())
     if alpha_dir and alpha_manifest:
         entries.extend({**item, "source_dir": str(alpha_dir), "alpha": True} for item in json.loads(alpha_manifest.read_text()))
+    if extra_dir and extra_manifest:
+        entries.extend({**item, "source_dir": str(extra_dir)} for item in json.loads(extra_manifest.read_text()))
     glyphs = {".notdef": TTGlyphPen(None).glyph()}
     glyph_order = [".notdef"]
     metrics = {".notdef": (upm, 0)}
@@ -262,8 +272,10 @@ def main() -> None:
     parser.add_argument("--output", type=Path, default=Path("fonts/Emojinq-Regular.ttf"))
     parser.add_argument("--alpha-dir", type=Path)
     parser.add_argument("--alpha-manifest", type=Path)
+    parser.add_argument("--extra-dir", type=Path)
+    parser.add_argument("--extra-manifest", type=Path)
     args = parser.parse_args()
-    build(args.source_dir, args.manifest, args.output, args.alpha_dir, args.alpha_manifest)
+    build(args.source_dir, args.manifest, args.output, args.alpha_dir, args.alpha_manifest, args.extra_dir, args.extra_manifest)
 
 
 if __name__ == "__main__":
