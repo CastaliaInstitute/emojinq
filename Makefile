@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: assets fetch-openmoji all-lines all-gray lines font
+.PHONY: assets fetch-openmoji all-lines all-gray lines font check
 
 fetch-openmoji:
 	$(PYTHON) scripts/fetch_openmoji.py
@@ -17,5 +17,9 @@ assets:
 lines:
 	$(PYTHON) scripts/collapse_lines.py
 
-font:
-	$(PYTHON) scripts/build_font.py
+font: all-gray
+	$(PYTHON) scripts/build_font.py --source-dir assets/gray-all --manifest assets/gray-all/manifest.json --output fonts/Emojinq-Regular.ttf
+
+check:
+	$(PYTHON) scripts/check_quality.py
+	$(PYTHON) scripts/check_font.py

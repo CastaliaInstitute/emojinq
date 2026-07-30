@@ -8,7 +8,7 @@ This is an independent derivative-art project. It is not affiliated with or endo
 
 - `assets/source/` — selected OpenMoji Black SVG inputs, stored with upstream attribution.
 - `assets/manifest.json` — names, Unicode code points, and semantic exceptions for the set.
-- `assets/canonical/` — reviewed authored vector glyphs for the full 12-glyph set.
+- `assets/canonical/` — reviewed authored vector glyphs for the original starter specimens.
 - `assets/line/` — generated fill-free line-art output for the specimen and scalable rendering.
 - `assets/ink/` — generated grayscale, hand-drawn-style SVG output.
 - `scripts/build_set.py` — batch-applies the shared treatment to the manifest.
@@ -20,7 +20,7 @@ This is an independent derivative-art project. It is not affiliated with or endo
 
 The canonical treatment uses pale washes, asymmetric pen contours, and a few selective interior marks rather than hatch fills or filters. This keeps the SVGs scalable and gives the set a quieter 19th-century ink quality while keeping the generated TTF as clean filled outlines. See [docs/STYLE.md](docs/STYLE.md).
 
-The starter set includes person, pin/place, light bulb, heart, star, sun, moon, coffee, sunflower, house, book, and leaf. The same pipeline can process any OpenMoji Black SVG whose source file is available.
+The original authored specimens include person, pin/place, light bulb, heart, star, sun, moon, coffee, sunflower, house, book, and leaf. The batch pipeline now processes the complete OpenMoji Black source set.
 
 ## Quick start
 
@@ -44,7 +44,7 @@ Use `make all-lines` when a fill-free line-only corpus is needed for rasterizati
 
 The full upstream source and generated output are intentionally ignored; the manifest and deterministic build scripts are the shareable source of truth.
 
-The resulting `fonts/Emojinq-Regular.ttf` is a conventional monochrome TrueType font. It maps the starter set to their normal Unicode code points, so normal Unicode text rendering works in browsers and font stacks that support the supplementary plane. The font build converts the SVG curves to TrueType quadratic outlines for embedded compatibility.
+The resulting `fonts/Emojinq-Regular.ttf` is a conventional monochrome TrueType font containing the complete generated set. It maps direct Unicode code points and includes OpenType ligature substitutions for supported emoji sequences. Centerline SVG strokes are sampled into tapered filled contours, then converted to TrueType quadratic outlines for embedded compatibility.
 
 To view the specimen locally:
 
@@ -62,7 +62,7 @@ python3 scripts/import_noto_svg.py \
   --name person
 ```
 
-The converter keeps the original viewBox, removes color, adds a restrained ink outline and offset sketch pass, and avoids SVG filters so the result remains portable to embedded renderers. Preview the output in any browser or vector editor.
+The converter keeps the original viewBox, removes color, adds restrained sumi-e pressure variation and organic curve wobble, and avoids SVG filters so the result remains portable to embedded renderers. Preview the output in any browser or vector editor.
 
 ## ESP32-S3 target
 
@@ -78,6 +78,5 @@ The generated derivative artwork in this repository is released under the applic
 
 ## Roadmap
 
-- Add a batch manifest for the full emoji set.
 - Add optional 1-bit and 4-bit PNG export for firmware packaging.
 - Tune stroke weights against the exact ESP32-S3 display geometry.

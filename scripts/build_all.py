@@ -64,6 +64,10 @@ def main() -> None:
     if args.output_dir is None:
         args.output_dir = Path("assets/gray-all" if args.mode == "grayscale" else "assets/line-all")
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    # Generated directories are disposable build products. Remove only SVG
+    # outputs so renamed/removed upstream glyphs cannot linger in the gallery.
+    for stale in args.output_dir.glob("*.svg"):
+        stale.unlink()
     entries = []
     with tempfile.TemporaryDirectory() as temp_dir:
         temp = Path(temp_dir)

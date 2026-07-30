@@ -23,14 +23,19 @@ jobs:
 
       - name: Build OpenMoji Black grayscale gallery
         run: |
+          python3 -m pip install -r requirements-build.txt
           python3 scripts/fetch_openmoji.py
           python3 scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode grayscale
+          python3 scripts/build_font.py --source-dir assets/gray-all --manifest assets/gray-all/manifest.json --output fonts/Emojinq-Regular.ttf
+          python3 scripts/check_quality.py --source-dir assets/gray-all --sample 12
+          python3 scripts/check_font.py fonts/Emojinq-Regular.ttf
 
       - name: Assemble Pages artifact
         run: |
-          mkdir -p _site/docs _site/assets
+          mkdir -p _site/docs _site/assets _site/fonts
           cp -R docs/* _site/docs/
           cp -R assets/gray-all _site/assets/
+          cp fonts/Emojinq-Regular.ttf _site/fonts/
           cp docs/all.html _site/index.html
 
       - name: Configure Pages

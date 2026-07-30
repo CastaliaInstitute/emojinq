@@ -1,69 +1,191 @@
 #!/usr/bin/env python3
-"""Build a small monochrome OpenType font from Castalia Emoji SVG assets."""
+"""Build the complete Emojinq monochrome TrueType font from SVG geometry.
+
+OpenMoji supplies centerline strokes, while TrueType glyphs require filled
+outlines. This builder samples each stroke, applies a tapered brush profile,
+and writes the resulting contours into a conventional TTF. Sequence entries
+also receive OpenType ``liga`` substitutions when their component glyphs are
+available.
+"""
 
 from __future__ import annotations
 
 import argparse
+import json
+import math
+import re
+import tempfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+from fontTools.feaLib.builder import addOpenTypeFeatures
 from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.cu2quPen import Cu2QuPen
 from fontTools.pens.ttGlyphPen import TTGlyphPen
 from fontTools.pens.transformPen import TransformPen
-from fontTools.svgLib.path.parser import parse_path
+from fontTools.svgLib.path.parser import parse_path as parse_svg_path
+from fontTools.ttLib import TTFont
+from svgpathtools import Path as SvgPath
+from svgpathtools import parse_path
 
-GLYPHS = {
-    "person.svg": ("emojinq_person", 0x1F464),
-    "place.svg": ("emojinq_place", 0x1F4CD),
-    "thing.svg": ("emojinq_thing", 0x1F4A1),
-    "heart.svg": ("emojinq_heart", 0x2764),
-    "star.svg": ("emojinq_star", 0x2B50),
-    "sun.svg": ("emojinq_sun", 0x2600),
-    "moon.svg": ("emojinq_moon", 0x1F319),
-    "coffee.svg": ("emojinq_coffee", 0x2615),
-    "sunflower.svg": ("emojinq_sunflower", 0x1F33B),
-    "house.svg": ("emojinq_house", 0x1F3E0),
-    "book.svg": ("emojinq_book", 0x1F4D6),
-    "leaf.svg": ("emojinq_leaf", 0x1F343),
-}
 SVG_NS = "http://www.w3.org/2000/svg"
+SHAPES = {"path", "line", "rect", "circle", "ellipse", "polygon", "polyline"}
+NUMBER_RE = re.compile(r"[-+]?(?:\d*\.\d+|\d+\.?)(?:[eE][-+]?\d+)?")
 
 
-def paths(svg: Path, element: ET.Element | None = None, in_clip: bool = False):
-    if element is None:
-        element = ET.parse(svg).getroot()
-    in_clip = in_clip or element.tag == f"{{{SVG_NS}}}clipPath"
-    if element.tag == f"{{{SVG_NS}}}path" and not in_clip:
-        d = element.get("d")
-        if d and element.get("fill", "black") != "none":
-            yield d
-    for child in element:
-        yield from paths(svg, child, in_clip)
+def local(tag: str) -> str:
+    return tag.rsplit("}", 1)[-1]
 
-def make_glyph(svg: Path, upm: int):
+
+def glyph_name(codepoints: list[int]) -> str:
+    return "emojinq_" + "_".join(f"{cp:X}" for cp in codepoints)
+
+
+def transform_point(point: complex, upm: int, view_size: float = 72.0) -> tuple[float, float]:
+    scale = upm / view_size
+    return point.real * scale, upm - point.imag * scale
+
+
+def path_data(element: ET.Element) -> str | None:
+    tag = local(element.tag)
+    if tag == "path":
+        return element.get("d")
+    if tag == "line":
+        return f"M {element.get('x1', '0')} {element.get('y1', '0')} L {element.get('x2', '0')} {element.get('y2', '0')}"
+    if tag == "rect":
+        x, y = float(element.get("x", 0)), float(element.get("y", 0))
+        w, h = float(element.get("width", 0)), float(element.get("height", 0))
+        return f"M {x} {y} L {x + w} {y} L {x + w} {y + h} L {x} {y + h} Z"
+    if tag in {"polygon", "polyline"}:
+        values = [float(v) for v in NUMBER_RE.findall(element.get("points", ""))]
+        pairs = list(zip(values[0::2], values[1::2]))
+        if len(pairs) < 2:
+            return None
+        close = " Z" if tag == "polygon" else ""
+        return "M " + " L ".join(f"{x} {y}" for x, y in pairs) + close
+    if tag in {"circle", "ellipse"}:
+        cx, cy = float(element.get("cx", 0)), float(element.get("cy", 0))
+        rx = float(element.get("r", element.get("rx", 0)))
+        ry = float(element.get("r", element.get("ry", 0)))
+        points = [
+            (cx + math.cos(i * math.tau / 32) * rx, cy + math.sin(i * math.tau / 32) * ry)
+            for i in range(32)
+        ]
+        return "M " + " L ".join(f"{x} {y}" for x, y in points) + " Z"
+    return None
+
+
+def is_closed(d: str) -> bool:
+    return d.strip().lower().endswith("z")
+
+
+def stroke_width(element: ET.Element, inherited: float = 2.0) -> float:
+    try:
+        return min(float(element.get("stroke-width", inherited)), 3.0)
+    except ValueError:
+        return inherited
+
+
+def add_polygon(pen: TTGlyphPen, points: list[tuple[float, float]], upm: int) -> None:
+    if len(points) < 3:
+        return
+    transformed = [transform_point(complex(x, y), upm) for x, y in points]
+    pen.moveTo(transformed[0])
+    for point in transformed[1:]:
+        pen.lineTo(point)
+    pen.closePath()
+
+
+def stroke_outline(pen: TTGlyphPen, d: str, width: float, upm: int, seed: int) -> None:
+    centerline = parse_path(d)
+    centerline = SvgPath(*[segment for segment in centerline if abs(segment.length()) > 1e-6])
+    if not centerline:
+        return
+    closed = is_closed(d)
+    length = max(1.0, centerline.length())
+    count = max(8, min(180, int(length / 1.2)))
+    ts = [i / count for i in range(count)] if closed else [i / (count - 1) for i in range(count)]
+    points = [centerline.point(t) for t in ts]
+    left: list[tuple[float, float]] = []
+    right: list[tuple[float, float]] = []
+    for i, point in enumerate(points):
+        before = points[i - 1] if i else points[-1] if closed else points[1]
+        after = points[(i + 1) % len(points)] if (i + 1 < len(points) or closed) else points[-2]
+        tangent = after - before
+        magnitude = abs(tangent) or 1.0
+        normal = complex(-tangent.imag / magnitude, tangent.real / magnitude)
+        if closed:
+            taper = 1.0
+        else:
+            progress = i / (len(points) - 1)
+            taper = 0.16 + 0.84 * math.sin(math.pi * progress) ** 0.55
+        radius = width * 0.5 * taper
+        left.append(transform_point(point + normal * radius, upm))
+        right.append(transform_point(point - normal * radius, upm))
+    outline = left + list(reversed(right))
+    if len(outline) >= 3:
+        pen.moveTo(outline[0])
+        for point in outline[1:]:
+            pen.lineTo(point)
+        pen.closePath()
+
+
+def make_glyph(svg: Path, upm: int) -> object:
+    root = ET.parse(svg).getroot()
     pen = TTGlyphPen(None)
-    scale = upm / 128
-    # SVG has a downward y axis; OpenType has an upward y axis.
-    quadratic = Cu2QuPen(pen, 1.0, all_quadratic=True)
-    transform = TransformPen(quadratic, (scale, 0, 0, -scale, 0, upm * 0.08))
-    for d in paths(svg):
-        parse_path(d, transform)
+    index = 0
+
+    def visit(parent: ET.Element, inherited_stroke: bool = False, inherited_width: float = 2.0, in_clip: bool = False) -> None:
+        nonlocal index
+        for element in list(parent):
+            tag = local(element.tag)
+            clipped = in_clip or tag == "clipPath"
+            if tag in SHAPES and not clipped:
+                d = path_data(element)
+                stroke = inherited_stroke or element.get("stroke", "none") != "none"
+                fill = element.get("fill", "black") != "none"
+                if d and stroke:
+                    stroke_outline(pen, d, stroke_width(element, inherited_width) * 0.9, upm, index)
+                    index += 1
+                elif d and fill:
+                    quadratic = Cu2QuPen(pen, 1.0, all_quadratic=True)
+                    transform = TransformPen(quadratic, (upm / 72, 0, 0, -upm / 72, 0, upm))
+                    parse_svg_path(d, transform)
+            child_stroke = inherited_stroke or element.get("stroke", "none") != "none"
+            try:
+                child_width = float(element.get("stroke-width", inherited_width))
+            except ValueError:
+                child_width = inherited_width
+            if tag != "defs":
+                visit(element, child_stroke, child_width, clipped)
+
+    visit(root)
     return pen.glyph()
 
 
-def build(source_dir: Path, output: Path) -> None:
+def build(source_dir: Path, manifest_path: Path, output: Path) -> None:
     upm = 1000
-    canonical_dir = source_dir.parent / "canonical"
-    glyph_order = [".notdef"] + [item[0] for item in GLYPHS.values()]
+    entries = json.loads(manifest_path.read_text())
     glyphs = {".notdef": TTGlyphPen(None).glyph()}
-    cmap = {}
-    metrics = {".notdef": (600, 0)}
-    for filename, (glyph_name, codepoint) in GLYPHS.items():
-        source = canonical_dir / filename if (canonical_dir / filename).exists() else source_dir / filename
-        glyphs[glyph_name] = make_glyph(source, upm)
-        cmap[codepoint] = glyph_name
-        metrics[glyph_name] = (upm, 0)
+    glyph_order = [".notdef"]
+    metrics = {".notdef": (upm, 0)}
+    cmap: dict[int, str] = {}
+    single_by_cp: dict[int, str] = {}
+    sequences: list[tuple[list[int], str]] = []
+    for item in entries:
+        cps = [int(cp) for cp in item["codepoints"]]
+        name = glyph_name(cps)
+        source = source_dir / item["source"]
+        if not source.exists():
+            continue
+        glyphs[name] = make_glyph(source, upm)
+        glyph_order.append(name)
+        metrics[name] = (upm, 0)
+        if len(cps) == 1:
+            single_by_cp.setdefault(cps[0], name)
+        else:
+            sequences.append((cps, name))
+    cmap.update(single_by_cp)
 
     fb = FontBuilder(upm, isTTF=True)
     fb.setupGlyphOrder(glyph_order)
@@ -76,8 +198,8 @@ def build(source_dir: Path, output: Path) -> None:
         "styleName": "Regular",
         "fullName": "Emojinq Regular",
         "psName": "Emojinq-Regular",
-        "uniqueFontIdentifier": "Emojinq Regular 1.0",
-        "version": "Version 1.0",
+        "uniqueFontIdentifier": "Emojinq Regular 2.0",
+        "version": "Version 2.0",
     })
     fb.setupOS2(sTypoAscender=880, sTypoDescender=-120, usWinAscent=880, usWinDescent=120)
     fb.setupPost()
@@ -85,13 +207,28 @@ def build(source_dir: Path, output: Path) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
     fb.save(output)
 
+    component_names = set(glyph_order)
+    with tempfile.NamedTemporaryFile("w", suffix=".fea", delete=False) as feature_file:
+        feature_file.write("feature liga {\n")
+        for cps, target in sequences:
+            parts = [single_by_cp.get(cp) for cp in cps]
+            if target in component_names and all(parts):
+                feature_file.write(f"  sub {' '.join(parts)} by {target};\n")
+        feature_file.write("} liga;\n")
+        feature_path = feature_file.name
+    font = TTFont(output)
+    addOpenTypeFeatures(font, feature_path)
+    font.save(output)
+    print(f"built {len(glyph_order) - 1} glyphs, {len(cmap)} direct code points in {output}")
+
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source-dir", type=Path, default=Path("assets/ink"))
+    parser.add_argument("--source-dir", type=Path, default=Path("assets/gray-all"))
+    parser.add_argument("--manifest", type=Path, default=Path("assets/gray-all/manifest.json"))
     parser.add_argument("--output", type=Path, default=Path("fonts/Emojinq-Regular.ttf"))
     args = parser.parse_args()
-    build(args.source_dir, args.output)
+    build(args.source_dir, args.manifest, args.output)
 
 
 if __name__ == "__main__":
