@@ -10,11 +10,14 @@ from __future__ import annotations
 import argparse
 import copy
 import hashlib
+import math
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from collapse_lines import roughen_path
+from svgpathtools import Path as SvgPath
+from svgpathtools import parse_path
 
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
@@ -68,6 +71,36 @@ def pressure_for(element: ET.Element, index: int) -> float:
     digest = hashlib.sha1(f"{index}|{geometry}".encode()).hexdigest()
     noise = int(digest[:8], 16) / 0xFFFFFFFF
     return 0.56 + noise * 0.56
+
+
+def tapered_outline(d: str, width: float) -> str | None:
+    """Convert a centerline into one filled, tapered brush contour."""
+    centerline = parse_path(d)
+    centerline = SvgPath(*[segment for segment in centerline if abs(segment.length()) > 1e-6])
+    if not centerline:
+        return None
+    closed = d.strip().lower().endswith("z")
+    length = max(1.0, centerline.length())
+    count = max(8, min(180, int(length / 1.2)))
+    ts = [i / count for i in range(count)] if closed else [i / (count - 1) for i in range(count)]
+    points = [centerline.point(t) for t in ts]
+    left, right = [], []
+    for i, point in enumerate(points):
+        before = points[i - 1] if i else points[-1] if closed else points[1]
+        after = points[(i + 1) % len(points)] if (i + 1 < len(points) or closed) else points[-2]
+        tangent = after - before
+        magnitude = abs(tangent) or 1.0
+        normal = complex(-tangent.imag / magnitude, tangent.real / magnitude)
+        progress = i / (len(points) - 1) if len(points) > 1 else 0.5
+        taper = 1.0 if closed else 0.16 + 0.84 * math.sin(math.pi * progress) ** 0.55
+        radius = width * 0.5 * taper
+        left.append(point + normal * radius)
+        right.append(point - normal * radius)
+    outline = left + list(reversed(right))
+    if len(outline) < 3:
+        return None
+    values = [f"{point.real:.3f} {point.imag:.3f}" for point in outline]
+    return "M " + " L ".join(values) + " Z"
 
 
 def path_bounds(d: str) -> tuple[float, float, float, float] | None:
@@ -152,7 +185,6 @@ def convert(source: Path, target: Path, name: str) -> None:
                     # paths as single marks, but vary pressure between marks
                     # so the result reads as pen work instead of a uniform
                     # digital outline.
-                    element.set("stroke", "#262421")
                     element.attrib.pop("style", None)
                     try:
                         base_width = float(element.get("stroke-width", "2"))
@@ -163,14 +195,27 @@ def convert(source: Path, target: Path, name: str) -> None:
                     # variation, not chunky bars.
                     base_width = min(base_width, 2.0)
                     pressure = pressure_for(element, shape_index)
-                    element.set("stroke-width", f"{base_width * pressure:.2f}")
-                    element.set("stroke-linecap", "round")
-                    element.set("stroke-linejoin", "round")
-                    if element.get("d"):
+                    source_d = element.get("d", "")
+                    if tag == "line":
+                        source_d = f"M {element.get('x1', '0')} {element.get('y1', '0')} L {element.get('x2', '0')} {element.get('y2', '0')}"
+                    if source_d:
                         # A restrained coordinate wobble keeps curves from
                         # looking plotter-perfect while preserving their
                         # recognizable construction at full-screen scale.
-                        element.set("d", roughen_path(element.get("d", ""), shape_index, amount=0.22))
+                        source_d = roughen_path(source_d, shape_index, amount=0.22)
+                        outline = tapered_outline(source_d, base_width * pressure)
+                    else:
+                        outline = None
+                    if outline:
+                        if tag == "line":
+                            element.tag = f"{{{SVG_NS}}}path"
+                            for key in ("x1", "x2", "y1", "y2"):
+                                element.attrib.pop(key, None)
+                        element.set("d", outline)
+                        element.set("fill", "#262421")
+                        element.set("data-ink-stroke", "tapered")
+                        for key in ("stroke", "stroke-width", "stroke-linecap", "stroke-linejoin", "stroke-miterlimit"):
+                            element.attrib.pop(key, None)
                     shape_index += 1
                 elif fill and fill != "none":
                     element.set("fill", gray(fill))

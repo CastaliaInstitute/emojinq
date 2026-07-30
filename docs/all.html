@@ -18,7 +18,7 @@
     .search { flex:1 1 18rem; min-width:16rem; padding:.55rem .7rem; border:1px solid #bdb9af; background:#fffefa; color:var(--ink); font:14px ui-sans-serif,sans-serif; }
     .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(128px,1fr)); gap:.55rem; height:75vh; overflow:auto; padding:.6rem; background:#d0cdc4; }
     figure { margin:0; padding:.6rem; background:#f5f3ed; border:1px solid #d0cdc4; }
-    img { display:block; width:100%; aspect-ratio:1; object-fit:contain; opacity:var(--gallery-opacity,1); }
+    .glyph { display:grid; width:100%; aspect-ratio:1; place-items:center; color:#262421; font:normal 5.2rem/1 "Emojinq", sans-serif; font-variant-ligatures:common-ligatures; }
     figcaption { overflow:hidden; color:var(--quiet); font:10px/1.2 ui-monospace,monospace; text-overflow:ellipsis; white-space:nowrap; }
   </style>
 </head>
@@ -54,7 +54,10 @@
     };
     const expandQuery = query => query.split(/\s+/).filter(Boolean).flatMap(token => [token, ...(SYNONYMS[token] || [])]);
     const assetRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/gray-all/" : "assets/gray-all/";
-    const assetVersion = "sumi-e-wobble-2026-07-30";
+    const fontRoot = location.pathname.endsWith("/docs/all.html") ? "../fonts/" : "fonts/";
+    const fontStyle = document.createElement("style");
+    fontStyle.textContent = `@font-face { font-family: Emojinq; src: url("${fontRoot}Emojinq-Regular.ttf") format("truetype"); font-display: swap; }`;
+    document.head.append(fontStyle);
 
     fetch(`${assetRoot}manifest.json`).then(r => {
       if (!r.ok) throw new Error(`manifest request failed (${r.status})`);
@@ -81,14 +84,14 @@
         document.getElementById("status").textContent = `${visible.length} of ${items.length} searchable brush glyphs`;
         for (const item of visible) {
         const figure = document.createElement("figure");
-        const image = document.createElement("img");
-        image.src = `${assetRoot}${item.source}?v=${assetVersion}`;
-        image.loading = "lazy";
-        image.decoding = "async";
-        image.alt = item.name;
+        const glyph = document.createElement("span");
+        glyph.className = "glyph";
+        glyph.setAttribute("role", "img");
+        glyph.setAttribute("aria-label", item.name);
+        glyph.textContent = String.fromCodePoint(...item.codepoints);
         const caption = document.createElement("figcaption");
         caption.textContent = item.label ? `${item.label} · ${item.name}` : item.name;
-        figure.append(image, caption);
+        figure.append(glyph, caption);
         grid.append(figure);
         }
       };
