@@ -147,7 +147,7 @@ def make_glyph(svg: Path, upm: int) -> object:
                 if d and stroke:
                     stroke_outline(pen, d, stroke_width(element, inherited_width) * 0.9, upm, index)
                     index += 1
-                elif d and fill:
+                elif d and fill and element.get("data-ink-wash") != "true":
                     quadratic = Cu2QuPen(pen, 1.0, all_quadratic=True)
                     transform = TransformPen(quadratic, (upm / 72, 0, 0, -upm / 72, 0, upm))
                     parse_svg_path(d, transform)

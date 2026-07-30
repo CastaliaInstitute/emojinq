@@ -8,6 +8,7 @@ preprocessor, not an SVG renderer for the ESP32.
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import re
 import xml.etree.ElementTree as ET
@@ -111,7 +112,35 @@ def convert(source: Path, target: Path, name: str) -> None:
     def decorate(parent: ET.Element, inside_clip: bool = False, inherited_stroke: str | None = None) -> None:
         nonlocal shape_index
         parent_stroke = stroke_value(parent) or inherited_stroke
+        if not inside_clip:
+            candidates = []
+            for candidate in list(parent):
+                candidate_tag = local(candidate.tag)
+                candidate_stroke = stroke_value(candidate) or parent_stroke
+                candidate_d = candidate.get("d", "").strip()
+                bounds = path_bounds(candidate_d)
+                if (
+                    candidate_tag == "path"
+                    and candidate_stroke
+                    and candidate_stroke != "none"
+                    and candidate_d.lower().endswith("z")
+                    and bounds is not None
+                    and (bounds[2] - bounds[0]) * (bounds[3] - bounds[1]) > 900
+                ):
+                    candidates.append((bounds, candidate))
+            if candidates:
+                _, source = max(candidates, key=lambda item: (item[0][2] - item[0][0]) * (item[0][3] - item[0][1]))
+                wash = copy.deepcopy(source)
+                wash.set("fill", "#dedbd4")
+                wash.set("stroke", "none")
+                wash.set("data-ink-wash", "true")
+                wash.attrib.pop("class", None)
+                wash.attrib.pop("style", None)
+                wash.attrib.pop("stroke-width", None)
+                parent.insert(0, wash)
         for element in list(parent):
+            if element.get("data-ink-wash") == "true":
+                continue
             tag = local(element.tag)
             clipped = inside_clip or tag == "clipPath"
             stroke = None
@@ -163,7 +192,7 @@ def convert(source: Path, target: Path, name: str) -> None:
 
     decorate(root)
 
-    root.set("data-castalia-style", "sumi-e-ink-wobble-v2")
+    root.set("data-castalia-style", "sumi-e-ink-wash-v1")
     target.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(root).write(target, encoding="utf-8", xml_declaration=True)
 
