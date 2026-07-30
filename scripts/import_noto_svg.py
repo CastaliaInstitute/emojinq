@@ -103,6 +103,20 @@ def convert(source: Path, target: Path, name: str) -> None:
     defs = ET.Element(f"{{{SVG_NS}}}defs")
     style = ET.SubElement(defs, f"{{{SVG_NS}}}style")
     style.text = """.ink-outline{stroke:#292929;stroke-width:1.7;stroke-linejoin:round;stroke-linecap:round}"""
+    taper = ET.SubElement(defs, f"{{{SVG_NS}}}marker", {
+        "id": "emojinq-taper",
+        "viewBox": "0 0 4 4",
+        "markerWidth": "4",
+        "markerHeight": "4",
+        "refX": "4",
+        "refY": "2",
+        "orient": "auto-start-reverse",
+        "markerUnits": "strokeWidth",
+    })
+    ET.SubElement(taper, f"{{{SVG_NS}}}path", {
+        "d": "M 0 0.35 Q 1.4 2 0 3.65 L 4 2 Z",
+        "fill": "#262421",
+    })
     root.insert(0, defs)
 
     shape_index = 0
@@ -141,7 +155,11 @@ def convert(source: Path, target: Path, name: str) -> None:
                         # A restrained coordinate wobble keeps curves from
                         # looking plotter-perfect while preserving their
                         # recognizable construction at full-screen scale.
-                        element.set("d", roughen_path(element.get("d", ""), shape_index, amount=0.12))
+                        element.set("d", roughen_path(element.get("d", ""), shape_index, amount=0.22))
+                    path_data = element.get("d", "").strip()
+                    if tag == "line" or (path_data and not path_data.lower().endswith("z")):
+                        element.set("marker-start", "url(#emojinq-taper)")
+                        element.set("marker-end", "url(#emojinq-taper)")
                     shape_index += 1
                 elif fill and fill != "none":
                     element.set("fill", gray(fill))
@@ -163,7 +181,7 @@ def convert(source: Path, target: Path, name: str) -> None:
 
     decorate(root)
 
-    root.set("data-castalia-style", "sumi-e-ink-v1")
+    root.set("data-castalia-style", "sumi-e-ink-taper-v1")
     target.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(root).write(target, encoding="utf-8", xml_declaration=True)
 
