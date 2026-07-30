@@ -30,6 +30,7 @@ jobs:
           python3 scripts/build_alpha_svg.py
           python3 scripts/build_font.py --source-dir assets/gray-all --manifest assets/gray-all/manifest.json --alpha-dir assets/alpha-ink --alpha-manifest assets/alpha-ink/manifest.json --output fonts/Emojinq-Regular.ttf
           python3 scripts/check_quality.py --source-dir assets/gray-all --sample 12
+          python3 scripts/check_svg_set.py --source-dir assets/gray-all
           python3 scripts/check_font.py fonts/Emojinq-Regular.ttf
 
       - name: Assemble Pages artifact

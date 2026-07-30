@@ -167,12 +167,13 @@ def build(source_dir: Path, manifest_path: Path, output: Path, alpha_dir: Path |
     upm = 1000
     entries = json.loads(manifest_path.read_text())
     if alpha_dir and alpha_manifest:
-        entries.extend({**item, "source_dir": str(alpha_dir)} for item in json.loads(alpha_manifest.read_text()))
+        entries.extend({**item, "source_dir": str(alpha_dir), "alpha": True} for item in json.loads(alpha_manifest.read_text()))
     glyphs = {".notdef": TTGlyphPen(None).glyph()}
     glyph_order = [".notdef"]
     metrics = {".notdef": (upm, 0)}
     cmap: dict[int, str] = {}
     single_by_cp: dict[int, str] = {}
+    alpha_by_cp: dict[int, str] = {}
     sequences: list[tuple[list[int], str]] = []
     for item in entries:
         cps = [int(cp) for cp in item["codepoints"]]
@@ -187,9 +188,21 @@ def build(source_dir: Path, manifest_path: Path, output: Path, alpha_dir: Path |
             continue
         glyphs[name] = make_glyph(source, upm)
         glyph_order.append(name)
-        metrics[name] = (upm, 0)
+        if item.get("alpha"):
+            # Optical spacing from the actual painted bounds. This avoids the
+            # disconnected, typewriter rhythm of identical 1000-unit cells.
+            if getattr(glyphs[name], "numberOfContours", 0) > 0:
+                glyphs[name].recalcBounds(None)
+                advance = max(500, min(1000, glyphs[name].xMax + 120))
+            else:
+                advance = 400
+            metrics[name] = (advance, 0)
+        else:
+            metrics[name] = (upm, 0)
         if len(cps) == 1:
             single_by_cp.setdefault(cps[0], name)
+            if item.get("alpha"):
+                alpha_by_cp[cps[0]] = name
         else:
             sequences.append((cps, name))
     cmap.update(single_by_cp)
@@ -216,6 +229,19 @@ def build(source_dir: Path, manifest_path: Path, output: Path, alpha_dir: Path |
 
     component_names = set(glyph_order)
     with tempfile.NamedTemporaryFile("w", suffix=".fea", delete=False) as feature_file:
+        feature_file.write("feature kern {\n")
+        for left, right, value in (
+            ("A", "V", -90), ("A", "W", -80), ("A", "Y", -90),
+            ("V", "A", -70), ("V", "o", -55), ("W", "A", -65),
+            ("W", "o", -45), ("Y", "a", -45), ("Y", "o", -45),
+            ("T", "a", -60), ("T", "e", -55), ("T", "o", -60),
+            ("L", "T", -35), ("P", "a", -35), ("R", "a", -30),
+        ):
+            left_name = alpha_by_cp.get(ord(left))
+            right_name = alpha_by_cp.get(ord(right))
+            if left_name and right_name:
+                feature_file.write(f"  pos {left_name} {right_name} {value};\n")
+        feature_file.write("} kern;\n")
         feature_file.write("feature liga {\n")
         for cps, target in sequences:
             parts = [single_by_cp.get(cp) for cp in cps]

@@ -10,6 +10,7 @@ from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import TTFont
 
+from collapse_lines import roughen_path
 from import_noto_svg import convert
 
 
@@ -33,12 +34,15 @@ def main() -> None:
         # Emojinq's font builder interprets SVG coordinates in a 72-unit
         # viewBox. Normalize the Yuji font's native units here and flip the
         # font's upward-positive Y axis into SVG's downward-positive axis.
-        pen = TransformPen(raw, (scale, 0, 0, -scale, 0, 72))
+        pen = TransformPen(raw, (scale * 0.92, 0, 0, -scale, 0, 72))
         glyph_set[glyph_name].draw(pen)
+        # Break up the mathematically perfect font outline very lightly. The
+        # goal is a dry-brush edge, not visible distortion of the letter.
+        path_data = roughen_path(raw.getCommands(), codepoint * 17, amount=0.11)
         source_svg = output / f"source-{codepoint:04X}.svg"
         source_svg.write_text(
             f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">'
-            f'<path fill="#000000" d="{raw.getCommands()}"/></svg>\n'
+            f'<path fill="#000000" d="{path_data}"/></svg>\n'
         )
         target = output / f"U+{codepoint:04X}.svg"
         convert(source_svg, target, f"U+{codepoint:04X}")

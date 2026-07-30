@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: assets fetch-openmoji all-lines all-gray lines font check
+.PHONY: assets fetch-openmoji all-lines all-gray lines font check check-svg
 
 fetch-openmoji:
 	$(PYTHON) scripts/fetch_openmoji.py
@@ -25,3 +25,6 @@ font: all-gray
 check:
 	$(PYTHON) scripts/check_quality.py
 	$(PYTHON) scripts/check_font.py
+
+check-svg:
+	$(PYTHON) scripts/check_svg_set.py --source-dir assets/gray-all

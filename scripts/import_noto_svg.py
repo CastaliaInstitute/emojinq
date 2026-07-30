@@ -112,6 +112,51 @@ def path_bounds(d: str) -> tuple[float, float, float, float] | None:
     return min(xs), min(ys), max(xs), max(ys)
 
 
+def primitive_path(element: ET.Element, tag: str) -> str:
+    """Express stroked SVG primitives as centerline paths before tapering."""
+    def number(key: str, default: float = 0.0) -> float:
+        try:
+            return float(element.get(key, default))
+        except (TypeError, ValueError):
+            return default
+
+    if tag == "line":
+        return f"M {number('x1')} {number('y1')} L {number('x2')} {number('y2')}"
+    if tag in {"polyline", "polygon"}:
+        values = re.findall(r"[-+]?(?:\d*\.\d+|\d+\.?)(?:[eE][-+]?\d+)?", element.get("points", ""))
+        pairs = list(zip(values[::2], values[1::2]))
+        if len(pairs) < 2:
+            return ""
+        path = "M " + " L ".join(f"{x} {y}" for x, y in pairs)
+        return path + (" Z" if tag == "polygon" else "")
+    if tag == "rect":
+        x, y, w, h = number("x"), number("y"), number("width"), number("height")
+        rx = min(abs(number("rx")), abs(w) / 2, abs(h) / 2)
+        ry = min(abs(number("ry", rx)), abs(w) / 2, abs(h) / 2)
+        if not rx or not ry:
+            return f"M {x} {y} H {x + w} V {y + h} H {x} Z"
+        k = 0.5522848
+        return (
+            f"M {x + rx} {y} H {x + w - rx} "
+            f"C {x + w - rx + k * rx} {y} {x + w} {y + ry - k * ry} {x + w} {y + ry} "
+            f"V {y + h - ry} C {x + w} {y + h - ry + k * ry} {x + w - rx + k * rx} {y + h} {x + w - rx} {y + h} "
+            f"H {x + rx} C {x + rx - k * rx} {y + h} {x} {y + h - ry + k * ry} {x} {y + h - ry} "
+            f"V {y + ry} C {x} {y + ry - k * ry} {x + rx - k * rx} {y} {x + rx} {y} Z"
+        )
+    if tag in {"circle", "ellipse"}:
+        cx, cy = number("cx"), number("cy")
+        rx = number("r") if tag == "circle" else number("rx")
+        ry = rx if tag == "circle" else number("ry")
+        k = 0.5522848
+        return (
+            f"M {cx + rx} {cy} C {cx + rx} {cy + k * ry} {cx + k * rx} {cy + ry} {cx} {cy + ry} "
+            f"C {cx - k * rx} {cy + ry} {cx - rx} {cy + k * ry} {cx - rx} {cy} "
+            f"C {cx - rx} {cy - k * ry} {cx - k * rx} {cy - ry} {cx} {cy - ry} "
+            f"C {cx + k * rx} {cy - ry} {cx + rx} {cy - k * ry} {cx + rx} {cy} Z"
+        )
+    return element.get("d", "")
+
+
 def overlaps(a: tuple[float, float, float, float], b: tuple[float, float, float, float]) -> bool:
     ix = max(0.0, min(a[2], b[2]) - max(a[0], b[0]))
     iy = max(0.0, min(a[3], b[3]) - max(a[1], b[1]))
@@ -195,9 +240,7 @@ def convert(source: Path, target: Path, name: str) -> None:
                     # variation, not chunky bars.
                     base_width = min(base_width, 2.0)
                     pressure = pressure_for(element, shape_index)
-                    source_d = element.get("d", "")
-                    if tag == "line":
-                        source_d = f"M {element.get('x1', '0')} {element.get('y1', '0')} L {element.get('x2', '0')} {element.get('y2', '0')}"
+                    source_d = primitive_path(element, tag)
                     if source_d:
                         # A restrained coordinate wobble keeps curves from
                         # looking plotter-perfect while preserving their
@@ -207,10 +250,9 @@ def convert(source: Path, target: Path, name: str) -> None:
                     else:
                         outline = None
                     if outline:
-                        if tag == "line":
-                            element.tag = f"{{{SVG_NS}}}path"
-                            for key in ("x1", "x2", "y1", "y2"):
-                                element.attrib.pop(key, None)
+                        element.tag = f"{{{SVG_NS}}}path"
+                        for key in ("x", "y", "x1", "x2", "y1", "y2", "cx", "cy", "r", "rx", "ry", "width", "height", "points"):
+                            element.attrib.pop(key, None)
                         element.set("d", outline)
                         element.set("fill", "#262421")
                         element.set("data-ink-stroke", "tapered")
@@ -232,12 +274,30 @@ def convert(source: Path, target: Path, name: str) -> None:
                             if bounds is not None:
                                 outlined_bounds.append(bounds)
                     shape_index += 1
+                elif element.get("color") or (tag == "path" and not fill and not stroke):
+                    # OpenMoji Black encodes many of its already-filled brush
+                    # marks with `color` or the SVG default fill rather than
+                    # an explicit `fill` or `stroke`.
+                    # Preserve those single marks as tapered ink geometry
+                    # instead of silently leaving them as unclassified paths.
+                    element.set("fill", "#262421")
+                    element.set("data-ink-stroke", "tapered")
+                    element.attrib.pop("color", None)
+                    element.attrib.pop("style", None)
+                    shape_index += 1
             if tag != "defs":
                 decorate(element, clipped, stroke or parent_stroke)
 
     decorate(root)
 
     root.set("data-castalia-style", "sumi-e-ink-wash-v1")
+    root.set("data-ink-stroke-system", "tapered-v1")
+    has_geometry = any(
+        element.get("data-ink-stroke") == "tapered"
+        or (local(element.tag) in {"path", "circle", "ellipse", "rect", "polygon", "polyline", "line"} and fill_value(element) not in {None, "none"})
+        for element in root.iter()
+    )
+    root.set("data-ink-coverage", "complete" if has_geometry else "upstream-empty")
     target.parent.mkdir(parents=True, exist_ok=True)
     ET.ElementTree(root).write(target, encoding="utf-8", xml_declaration=True)
 
