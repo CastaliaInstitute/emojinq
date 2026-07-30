@@ -16,6 +16,8 @@
     label { display:flex; gap:.5rem; align-items:center; }
     select, input { accent-color:#292826; }
     .search { flex:1 1 18rem; min-width:16rem; padding:.55rem .7rem; border:1px solid #bdb9af; background:#fffefa; color:var(--ink); font:14px ui-sans-serif,sans-serif; }
+    .type-sample { margin:1.5rem 0; padding:1rem 1.2rem; background:#f5f3ed; border:1px solid #d0cdc4; overflow:auto; color:#262421; font:clamp(1.4rem,3vw,2.4rem)/1.25 "Emojinq", sans-serif; white-space:nowrap; }
+    .type-sample small { display:block; margin-bottom:.4rem; color:var(--quiet); font:10px/1.2 ui-monospace,monospace; letter-spacing:.08em; text-transform:uppercase; }
     .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(128px,1fr)); gap:.55rem; height:75vh; overflow:auto; padding:.6rem; background:#d0cdc4; }
     figure { margin:0; padding:.6rem; background:#f5f3ed; border:1px solid #d0cdc4; }
     .glyph { display:grid; width:100%; aspect-ratio:1; place-items:center; color:#262421; font:normal 5.2rem/1 "Emojinq", sans-serif; font-variant-ligatures:common-ligatures; }
@@ -30,6 +32,7 @@
     <input class="search" id="search" type="search" placeholder="Search emoji, code point, or group…" aria-label="Search emoji">
     <label>Group <select id="group"><option value="all">All groups</option></select></label>
   </div>
+  <div class="type-sample" aria-label="Emojinq alphabet specimen"><small>Emojinq brush alphabet</small>ABCDEFGHIJKLMNOPQRSTUVWXYZ · abcdefghijklmnopqrstuvwxyz · 0123456789</div>
   <section class="grid" id="grid" aria-label="Full Emojinq gallery"></section>
   <script>
     const SYNONYMS = {
@@ -56,7 +59,7 @@
     const assetRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/gray-all/" : "assets/gray-all/";
     const fontRoot = location.pathname.endsWith("/docs/all.html") ? "../fonts/" : "fonts/";
     const fontStyle = document.createElement("style");
-    fontStyle.textContent = `@font-face { font-family: Emojinq; src: url("${fontRoot}Emojinq-Regular.ttf") format("truetype"); font-display: swap; }`;
+    fontStyle.textContent = `@font-face { font-family: Emojinq; src: url("${fontRoot}Emojinq-Regular.ttf?v=yuji-boku-1") format("truetype"); font-display: swap; }`;
     document.head.append(fontStyle);
 
     fetch(`${assetRoot}manifest.json`).then(r => {

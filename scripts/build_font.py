@@ -163,9 +163,11 @@ def make_glyph(svg: Path, upm: int) -> object:
     return pen.glyph()
 
 
-def build(source_dir: Path, manifest_path: Path, output: Path) -> None:
+def build(source_dir: Path, manifest_path: Path, output: Path, alpha_dir: Path | None = None, alpha_manifest: Path | None = None) -> None:
     upm = 1000
     entries = json.loads(manifest_path.read_text())
+    if alpha_dir and alpha_manifest:
+        entries.extend({**item, "source_dir": str(alpha_dir)} for item in json.loads(alpha_manifest.read_text()))
     glyphs = {".notdef": TTGlyphPen(None).glyph()}
     glyph_order = [".notdef"]
     metrics = {".notdef": (upm, 0)}
@@ -175,7 +177,12 @@ def build(source_dir: Path, manifest_path: Path, output: Path) -> None:
     for item in entries:
         cps = [int(cp) for cp in item["codepoints"]]
         name = glyph_name(cps)
-        source = source_dir / item["source"]
+        # The upstream emoji manifest contains one repeated alias. Keep the
+        # first occurrence so glyph order and glyph data remain synchronized
+        # when the Yuji alphabet is appended.
+        if name in glyphs:
+            continue
+        source = Path(item.get("source_dir", source_dir)) / item["source"]
         if not source.exists():
             continue
         glyphs[name] = make_glyph(source, upm)
@@ -227,8 +234,10 @@ def main() -> None:
     parser.add_argument("--source-dir", type=Path, default=Path("assets/gray-all"))
     parser.add_argument("--manifest", type=Path, default=Path("assets/gray-all/manifest.json"))
     parser.add_argument("--output", type=Path, default=Path("fonts/Emojinq-Regular.ttf"))
+    parser.add_argument("--alpha-dir", type=Path)
+    parser.add_argument("--alpha-manifest", type=Path)
     args = parser.parse_args()
-    build(args.source_dir, args.manifest, args.output)
+    build(args.source_dir, args.manifest, args.output, args.alpha_dir, args.alpha_manifest)
 
 
 if __name__ == "__main__":

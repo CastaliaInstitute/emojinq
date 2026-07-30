@@ -16,6 +16,8 @@ This is an independent derivative-art project. It is not affiliated with or endo
 - `scripts/fetch_openmoji.py` — sparse-fetches the upstream OpenMoji Black SVG directory.
 - `scripts/build_all.py` — builds the full OpenMoji set in grayscale or line mode.
 - `scripts/import_noto_svg.py` — deterministic source-to-ink converter retained for compatibility.
+- `scripts/fetch_yuji_boku.py` — fetches the open Yuji Boku base font for alphabet coverage.
+- `scripts/build_alpha_svg.py` — converts the Yuji Boku alphabet into the same Emojinq SVG treatment.
 - `docs/ESP32-S3.md` — rendering and integration notes.
 
 The canonical treatment uses pale washes, asymmetric pen contours, and a few selective interior marks rather than hatch fills or filters. This keeps the SVGs scalable and gives the set a quieter 19th-century ink quality while keeping the generated TTF as clean filled outlines. See [docs/STYLE.md](docs/STYLE.md).
@@ -44,7 +46,9 @@ Use `make all-lines` when a fill-free line-only corpus is needed for rasterizati
 
 The full upstream source and generated output are intentionally ignored; the manifest and deterministic build scripts are the shareable source of truth.
 
-The resulting `fonts/Emojinq-Regular.ttf` is a conventional monochrome TrueType font containing the complete generated set. It maps direct Unicode code points and includes OpenType ligature substitutions for supported emoji sequences. Centerline SVG strokes are sampled into tapered filled contours, then converted to TrueType quadratic outlines for embedded compatibility.
+The resulting `fonts/Emojinq-Regular.ttf` is a conventional monochrome TrueType font containing the complete generated emoji set plus the ASCII alphabet and digits. The alphabet is based on Yuji Boku and passes through the same SVG conversion, pressure variation, and outline-building pipeline. It maps direct Unicode code points and includes OpenType ligature substitutions for supported emoji sequences. Centerline SVG strokes are sampled into tapered filled contours, then converted to TrueType quadratic outlines for embedded compatibility.
+
+Yuji Boku was selected after comparing Yuji Boku, Yuji Syuku, and Yuji Mai: Boku has the most gestural brush character for the small type specimen while remaining legible at display scale. The build can be extended to the other Yuji families later without changing the emoji pipeline.
 
 To view the specimen locally:
 

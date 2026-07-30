@@ -1,0 +1,15 @@
+Yuji Boku source font
+=====================
+
+The Yuji Boku source font is licensed under the SIL Open Font License 1.1.
+Copyright 2021 The Yuji Project Authors.
+
+Source:
+https://github.com/google/fonts/tree/main/ofl/yujiboku
+
+License text:
+https://scripts.sil.org/OFL
+
+The source font is fetched during the reproducible build by
+scripts/fetch_yuji_boku.py. Emojinq's generated alphabet is a derivative
+processed through the project's SVG and TrueType build pipeline.

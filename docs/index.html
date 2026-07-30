@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Emojinq specimen</title>
   <style>
-    @font-face { font-family: Emojinq; src: url("../fonts/Emojinq-Regular.ttf") format("truetype"); }
+    @font-face { font-family: Emojinq; src: url("../fonts/Emojinq-Regular.ttf?v=yuji-boku-1") format("truetype"); }
     :root { color-scheme: light; --ink: #252525; --paper: #e9e7e1; --quiet: #87847d; }
     * { box-sizing: border-box; }
     body { margin: 0; color: var(--ink); background: var(--paper); font: 16px/1.5 Georgia, serif; }
@@ -20,6 +20,7 @@
     .emoji { width: 100%; max-width: 180px; aspect-ratio: 1; object-fit: contain; }
     .label { margin-top: 1rem; font: 700 .8rem/1 sans-serif; letter-spacing: .1em; text-transform: uppercase; }
     .font-sample { margin-top: 3rem; padding: 2rem; background: #252525; color: #f5f3ed; font: 8rem/1 Emojinq, sans-serif; letter-spacing: .08em; overflow: auto; white-space: nowrap; }
+    .alphabet-sample { margin-top: 1rem; padding: 1rem; background: #252525; color: #f5f3ed; font: clamp(1.4rem,4vw,3rem)/1.25 Emojinq, sans-serif; letter-spacing: .04em; overflow:auto; white-space:nowrap; }
     small { display: block; margin-top: .8rem; color: var(--quiet); font-family: sans-serif; }
   </style>
 </head>
@@ -45,7 +46,8 @@
         <article><img class="emoji" src="../assets/line/leaf.svg" alt="Leaf"><div class="label">Leaf</div></article>
       </div>
     </section>
-    <div class="font-sample" aria-label="Font sample">👤 📍 💡</div>
+  <div class="font-sample" aria-label="Font sample">👤 📍 💡</div>
+  <div class="alphabet-sample" aria-label="Emojinq alphabet sample">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789</div>
     <small>SVG artwork above · OpenType sample below · generated assets are intended to be rasterized before embedded deployment</small>
   </main>
 </body>

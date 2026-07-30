@@ -26,7 +26,9 @@ jobs:
           python3 -m pip install -r requirements-build.txt
           python3 scripts/fetch_openmoji.py
           python3 scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode grayscale
-          python3 scripts/build_font.py --source-dir assets/gray-all --manifest assets/gray-all/manifest.json --output fonts/Emojinq-Regular.ttf
+          python3 scripts/fetch_yuji_boku.py
+          python3 scripts/build_alpha_svg.py
+          python3 scripts/build_font.py --source-dir assets/gray-all --manifest assets/gray-all/manifest.json --alpha-dir assets/alpha-ink --alpha-manifest assets/alpha-ink/manifest.json --output fonts/Emojinq-Regular.ttf
           python3 scripts/check_quality.py --source-dir assets/gray-all --sample 12
           python3 scripts/check_font.py fonts/Emojinq-Regular.ttf
 

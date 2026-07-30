@@ -20,6 +20,12 @@ def main() -> None:
         raise SystemExit(f"expected full-set font, found only {glyph_count} glyphs")
     if cmap_count < 1000:
         raise SystemExit(f"unexpectedly small Unicode cmap: {cmap_count}")
+    cmap = font.getBestCmap() or {}
+    missing_ascii = [chr(cp) for cp in range(48, 58) if cp not in cmap]
+    missing_ascii += [chr(cp) for cp in range(65, 91) if cp not in cmap]
+    missing_ascii += [chr(cp) for cp in range(97, 123) if cp not in cmap]
+    if missing_ascii:
+        raise SystemExit(f"ASCII alphanumerics missing: {''.join(missing_ascii)}")
     if "GSUB" not in font:
         raise SystemExit("sequence substitutions missing: GSUB table not found")
     print(f"font checked: {glyph_count} glyphs, {cmap_count} direct code points, GSUB present")
