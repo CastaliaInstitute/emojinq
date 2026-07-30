@@ -40,6 +40,7 @@ jobs:
           cp -R docs/* _site/docs/
           cp -R assets/gray-all _site/assets/
           cp -R assets/divination _site/assets/
+          cp -R assets/pua _site/assets/
           cp fonts/Emojinq-Regular.ttf _site/fonts/
           cp docs/all.html _site/index.html
 
