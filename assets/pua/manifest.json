@@ -1,5593 +1,5593 @@
 [
   {
-    "name": "E000",
+    "name": "F0000",
     "source": "animals/calf.svg",
     "codepoints": [
-      57344
+      983040
     ],
     "label": "animals/calf"
   },
   {
-    "name": "E001",
+    "name": "F0001",
     "source": "animals/colony.svg",
     "codepoints": [
-      57345
+      983041
     ],
     "label": "animals/colony"
   },
   {
-    "name": "E002",
+    "name": "F0002",
     "source": "animals/flock.svg",
     "codepoints": [
-      57346
+      983042
     ],
     "label": "animals/flock"
   },
   {
-    "name": "E003",
+    "name": "F0003",
     "source": "animals/herd.svg",
     "codepoints": [
-      57347
+      983043
     ],
     "label": "animals/herd"
   },
   {
-    "name": "E004",
+    "name": "F0004",
     "source": "animals/lamb.svg",
     "codepoints": [
-      57348
+      983044
     ],
     "label": "animals/lamb"
   },
   {
-    "name": "E005",
+    "name": "F0005",
     "source": "animals/migration.svg",
     "codepoints": [
-      57349
+      983045
     ],
     "label": "animals/migration"
   },
   {
-    "name": "E006",
+    "name": "F0006",
     "source": "animals/pack.svg",
     "codepoints": [
-      57350
+      983046
     ],
     "label": "animals/pack"
   },
   {
-    "name": "E007",
+    "name": "F0007",
     "source": "animals/predator.svg",
     "codepoints": [
-      57351
+      983047
     ],
     "label": "animals/predator"
   },
   {
-    "name": "E008",
+    "name": "F0008",
     "source": "animals/prey.svg",
     "codepoints": [
-      57352
+      983048
     ],
     "label": "animals/prey"
   },
   {
-    "name": "E009",
+    "name": "F0009",
     "source": "animals/squirrel.svg",
     "codepoints": [
-      57353
+      983049
     ],
     "label": "animals/squirrel"
   },
   {
-    "name": "E200",
+    "name": "F0200",
     "source": "body/blood.svg",
     "codepoints": [
-      57856
+      983552
     ],
     "label": "body/blood"
   },
   {
-    "name": "E201",
+    "name": "F0201",
     "source": "body/bones.svg",
     "codepoints": [
-      57857
+      983553
     ],
     "label": "body/bones"
   },
   {
-    "name": "E202",
+    "name": "F0202",
     "source": "body/bounce.svg",
     "codepoints": [
-      57858
+      983554
     ],
     "label": "body/bounce"
   },
   {
-    "name": "E203",
+    "name": "F0203",
     "source": "body/breath.svg",
     "codepoints": [
-      57859
+      983555
     ],
     "label": "body/breath"
   },
   {
-    "name": "E204",
+    "name": "F0204",
     "source": "body/clap.svg",
     "codepoints": [
-      57860
+      983556
     ],
     "label": "body/clap"
   },
   {
-    "name": "E205",
+    "name": "F0205",
     "source": "body/crawl.svg",
     "codepoints": [
-      57861
+      983557
     ],
     "label": "body/crawl"
   },
   {
-    "name": "E206",
+    "name": "F0206",
     "source": "body/digestion.svg",
     "codepoints": [
-      57862
+      983558
     ],
     "label": "body/digestion"
   },
   {
-    "name": "E207",
+    "name": "F0207",
     "source": "body/grab.svg",
     "codepoints": [
-      57863
+      983559
     ],
     "label": "body/grab"
   },
   {
-    "name": "E208",
+    "name": "F0208",
     "source": "body/kick.svg",
     "codepoints": [
-      57864
+      983560
     ],
     "label": "body/kick"
   },
   {
-    "name": "E209",
+    "name": "F0209",
     "source": "body/muscles.svg",
     "codepoints": [
-      57865
+      983561
     ],
     "label": "body/muscles"
   },
   {
-    "name": "E20A",
+    "name": "F020A",
     "source": "body/nerves.svg",
     "codepoints": [
-      57866
+      983562
     ],
     "label": "body/nerves"
   },
   {
-    "name": "E20B",
+    "name": "F020B",
     "source": "body/pull.svg",
     "codepoints": [
-      57867
+      983563
     ],
     "label": "body/pull"
   },
   {
-    "name": "E20C",
+    "name": "F020C",
     "source": "body/pulse.svg",
     "codepoints": [
-      57868
+      983564
     ],
     "label": "body/pulse"
   },
   {
-    "name": "E20D",
+    "name": "F020D",
     "source": "body/push.svg",
     "codepoints": [
-      57869
+      983565
     ],
     "label": "body/push"
   },
   {
-    "name": "E20E",
+    "name": "F020E",
     "source": "body/reach.svg",
     "codepoints": [
-      57870
+      983566
     ],
     "label": "body/reach"
   },
   {
-    "name": "E20F",
+    "name": "F020F",
     "source": "body/roll.svg",
     "codepoints": [
-      57871
+      983567
     ],
     "label": "body/roll"
   },
   {
-    "name": "E210",
+    "name": "F0210",
     "source": "body/shake.svg",
     "codepoints": [
-      57872
+      983568
     ],
     "label": "body/shake"
   },
   {
-    "name": "E211",
+    "name": "F0211",
     "source": "body/skin.svg",
     "codepoints": [
-      57873
+      983569
     ],
     "label": "body/skin"
   },
   {
-    "name": "E212",
+    "name": "F0212",
     "source": "body/stomach.svg",
     "codepoints": [
-      57874
+      983570
     ],
     "label": "body/stomach"
   },
   {
-    "name": "E213",
+    "name": "F0213",
     "source": "body/walk.svg",
     "codepoints": [
-      57875
+      983571
     ],
     "label": "body/walk"
   },
   {
-    "name": "E214",
+    "name": "F0214",
     "source": "body/wave.svg",
     "codepoints": [
-      57876
+      983572
     ],
     "label": "body/wave"
   },
   {
-    "name": "E400",
+    "name": "F0400",
     "source": "locations/academy.svg",
     "codepoints": [
-      58368
+      984064
     ],
     "label": "locations/academy"
   },
   {
-    "name": "E401",
+    "name": "F0401",
     "source": "locations/archive.svg",
     "codepoints": [
-      58369
+      984065
     ],
     "label": "locations/archive"
   },
   {
-    "name": "E402",
+    "name": "F0402",
     "source": "locations/bakery.svg",
     "codepoints": [
-      58370
+      984066
     ],
     "label": "locations/bakery"
   },
   {
-    "name": "E403",
+    "name": "F0403",
     "source": "locations/barn.svg",
     "codepoints": [
-      58371
+      984067
     ],
     "label": "locations/barn"
   },
   {
-    "name": "E404",
+    "name": "F0404",
     "source": "locations/bench.svg",
     "codepoints": [
-      58372
+      984068
     ],
     "label": "locations/bench"
   },
   {
-    "name": "E405",
+    "name": "F0405",
     "source": "locations/burrow.svg",
     "codepoints": [
-      58373
+      984069
     ],
     "label": "locations/burrow"
   },
   {
-    "name": "E406",
+    "name": "F0406",
     "source": "locations/cafe.svg",
     "codepoints": [
-      58374
+      984070
     ],
     "label": "locations/cafe"
   },
   {
-    "name": "E407",
+    "name": "F0407",
     "source": "locations/canyon.svg",
     "codepoints": [
-      58375
+      984071
     ],
     "label": "locations/canyon"
   },
   {
-    "name": "E408",
+    "name": "F0408",
     "source": "locations/cave.svg",
     "codepoints": [
-      58376
+      984072
     ],
     "label": "locations/cave"
   },
   {
-    "name": "E409",
+    "name": "F0409",
     "source": "locations/ceiling.svg",
     "codepoints": [
-      58377
+      984073
     ],
     "label": "locations/ceiling"
   },
   {
-    "name": "E40A",
+    "name": "F040A",
     "source": "locations/china.svg",
     "codepoints": [
-      58378
+      984074
     ],
     "label": "locations/china"
   },
   {
-    "name": "E40B",
+    "name": "F040B",
     "source": "locations/coast.svg",
     "codepoints": [
-      58379
+      984075
     ],
     "label": "locations/coast"
   },
   {
-    "name": "E40C",
+    "name": "F040C",
     "source": "locations/crossing.svg",
     "codepoints": [
-      58380
+      984076
     ],
     "label": "locations/crossing"
   },
   {
-    "name": "E40D",
+    "name": "F040D",
     "source": "locations/delta.svg",
     "codepoints": [
-      58381
+      984077
     ],
     "label": "locations/delta"
   },
   {
-    "name": "E40E",
+    "name": "F040E",
     "source": "locations/den.svg",
     "codepoints": [
-      58382
+      984078
     ],
     "label": "locations/den"
   },
   {
-    "name": "E40F",
+    "name": "F040F",
     "source": "locations/dock.svg",
     "codepoints": [
-      58383
+      984079
     ],
     "label": "locations/dock"
   },
   {
-    "name": "E410",
+    "name": "F0410",
     "source": "locations/egypt.svg",
     "codepoints": [
-      58384
+      984080
     ],
     "label": "locations/egypt"
   },
   {
-    "name": "E411",
+    "name": "F0411",
     "source": "locations/encyclopedia.svg",
     "codepoints": [
-      58385
+      984081
     ],
     "label": "locations/encyclopedia"
   },
   {
-    "name": "E412",
+    "name": "F0412",
     "source": "locations/europe.svg",
     "codepoints": [
-      58386
+      984082
     ],
     "label": "locations/europe"
   },
   {
-    "name": "E413",
+    "name": "F0413",
     "source": "locations/forum.svg",
     "codepoints": [
-      58387
+      984083
     ],
     "label": "locations/forum"
   },
   {
-    "name": "E414",
+    "name": "F0414",
     "source": "locations/glacier.svg",
     "codepoints": [
-      58388
+      984084
     ],
     "label": "locations/glacier"
   },
   {
-    "name": "E415",
+    "name": "F0415",
     "source": "locations/graph.svg",
     "codepoints": [
-      58389
+      984085
     ],
     "label": "locations/graph"
   },
   {
-    "name": "E416",
+    "name": "F0416",
     "source": "locations/greece.svg",
     "codepoints": [
-      58390
+      984086
     ],
     "label": "locations/greece"
   },
   {
-    "name": "E417",
+    "name": "F0417",
     "source": "locations/hive.svg",
     "codepoints": [
-      58391
+      984087
     ],
     "label": "locations/hive"
   },
   {
-    "name": "E418",
+    "name": "F0418",
     "source": "locations/inca.svg",
     "codepoints": [
-      58392
+      984088
     ],
     "label": "locations/inca"
   },
   {
-    "name": "E419",
+    "name": "F0419",
     "source": "locations/india.svg",
     "codepoints": [
-      58393
+      984089
     ],
     "label": "locations/india"
   },
   {
-    "name": "E41A",
+    "name": "F041A",
     "source": "locations/japan.svg",
     "codepoints": [
-      58394
+      984090
     ],
     "label": "locations/japan"
   },
   {
-    "name": "E41B",
+    "name": "F041B",
     "source": "locations/jungle.svg",
     "codepoints": [
-      58395
+      984091
     ],
     "label": "locations/jungle"
   },
   {
-    "name": "E41C",
+    "name": "F041C",
     "source": "locations/laboratory.svg",
     "codepoints": [
-      58396
+      984092
     ],
     "label": "locations/laboratory"
   },
   {
-    "name": "E41D",
+    "name": "F041D",
     "source": "locations/lake.svg",
     "codepoints": [
-      58397
+      984093
     ],
     "label": "locations/lake"
   },
   {
-    "name": "E41E",
+    "name": "F041E",
     "source": "locations/library.svg",
     "codepoints": [
-      58398
+      984094
     ],
     "label": "locations/library"
   },
   {
-    "name": "E41F",
+    "name": "F041F",
     "source": "locations/mali.svg",
     "codepoints": [
-      58399
+      984095
     ],
     "label": "locations/mali"
   },
   {
-    "name": "E420",
+    "name": "F0420",
     "source": "locations/market.svg",
     "codepoints": [
-      58400
+      984096
     ],
     "label": "locations/market"
   },
   {
-    "name": "E421",
+    "name": "F0421",
     "source": "locations/maya.svg",
     "codepoints": [
-      58401
+      984097
     ],
     "label": "locations/maya"
   },
   {
-    "name": "E422",
+    "name": "F0422",
     "source": "locations/museum.svg",
     "codepoints": [
-      58402
+      984098
     ],
     "label": "locations/museum"
   },
   {
-    "name": "E423",
+    "name": "F0423",
     "source": "locations/net.svg",
     "codepoints": [
-      58403
+      984099
     ],
     "label": "locations/net"
   },
   {
-    "name": "E424",
+    "name": "F0424",
     "source": "locations/network.svg",
     "codepoints": [
-      58404
+      984100
     ],
     "label": "locations/network"
   },
   {
-    "name": "E425",
+    "name": "F0425",
     "source": "locations/park.svg",
     "codepoints": [
-      58405
+      984101
     ],
     "label": "locations/park"
   },
   {
-    "name": "E426",
+    "name": "F0426",
     "source": "locations/pasture.svg",
     "codepoints": [
-      58406
+      984102
     ],
     "label": "locations/pasture"
   },
   {
-    "name": "E427",
+    "name": "F0427",
     "source": "locations/persia.svg",
     "codepoints": [
-      58407
+      984103
     ],
     "label": "locations/persia"
   },
   {
-    "name": "E428",
+    "name": "F0428",
     "source": "locations/plateau.svg",
     "codepoints": [
-      58408
+      984104
     ],
     "label": "locations/plateau"
   },
   {
-    "name": "E429",
+    "name": "F0429",
     "source": "locations/post.svg",
     "codepoints": [
-      58409
+      984105
     ],
     "label": "locations/post"
   },
   {
-    "name": "E42A",
+    "name": "F042A",
     "source": "locations/reef.svg",
     "codepoints": [
-      58410
+      984106
     ],
     "label": "locations/reef"
   },
   {
-    "name": "E42B",
+    "name": "F042B",
     "source": "locations/rome.svg",
     "codepoints": [
-      58411
+      984107
     ],
     "label": "locations/rome"
   },
   {
-    "name": "E42C",
+    "name": "F042C",
     "source": "locations/rug.svg",
     "codepoints": [
-      58412
+      984108
     ],
     "label": "locations/rug"
   },
   {
-    "name": "E42D",
+    "name": "F042D",
     "source": "locations/sand.svg",
     "codepoints": [
-      58413
+      984109
     ],
     "label": "locations/sand"
   },
   {
-    "name": "E42E",
+    "name": "F042E",
     "source": "locations/savanna.svg",
     "codepoints": [
-      58414
+      984110
     ],
     "label": "locations/savanna"
   },
   {
-    "name": "E42F",
+    "name": "F042F",
     "source": "locations/shell.svg",
     "codepoints": [
-      58415
+      984111
     ],
     "label": "locations/shell"
   },
   {
-    "name": "E430",
+    "name": "F0430",
     "source": "locations/sidewalk.svg",
     "codepoints": [
-      58416
+      984112
     ],
     "label": "locations/sidewalk"
   },
   {
-    "name": "E431",
+    "name": "F0431",
     "source": "locations/sign.svg",
     "codepoints": [
-      58417
+      984113
     ],
     "label": "locations/sign"
   },
   {
-    "name": "E432",
+    "name": "F0432",
     "source": "locations/silo.svg",
     "codepoints": [
-      58418
+      984114
     ],
     "label": "locations/silo"
   },
   {
-    "name": "E433",
+    "name": "F0433",
     "source": "locations/spring.svg",
     "codepoints": [
-      58419
+      984115
     ],
     "label": "locations/spring"
   },
   {
-    "name": "E434",
+    "name": "F0434",
     "source": "locations/store.svg",
     "codepoints": [
-      58420
+      984116
     ],
     "label": "locations/store"
   },
   {
-    "name": "E435",
+    "name": "F0435",
     "source": "locations/street.svg",
     "codepoints": [
-      58421
+      984117
     ],
     "label": "locations/street"
   },
   {
-    "name": "E436",
+    "name": "F0436",
     "source": "locations/theater.svg",
     "codepoints": [
-      58422
+      984118
     ],
     "label": "locations/theater"
   },
   {
-    "name": "E437",
+    "name": "F0437",
     "source": "locations/tide.svg",
     "codepoints": [
-      58423
+      984119
     ],
     "label": "locations/tide"
   },
   {
-    "name": "E438",
+    "name": "F0438",
     "source": "locations/tower.svg",
     "codepoints": [
-      58424
+      984120
     ],
     "label": "locations/tower"
   },
   {
-    "name": "E439",
+    "name": "F0439",
     "source": "locations/tradition.svg",
     "codepoints": [
-      58425
+      984121
     ],
     "label": "locations/tradition"
   },
   {
-    "name": "E43A",
+    "name": "F043A",
     "source": "locations/tundra.svg",
     "codepoints": [
-      58426
+      984122
     ],
     "label": "locations/tundra"
   },
   {
-    "name": "E43B",
+    "name": "F043B",
     "source": "locations/valley.svg",
     "codepoints": [
-      58427
+      984123
     ],
     "label": "locations/valley"
   },
   {
-    "name": "E43C",
+    "name": "F043C",
     "source": "locations/viking.svg",
     "codepoints": [
-      58428
+      984124
     ],
     "label": "locations/viking"
   },
   {
-    "name": "E43D",
+    "name": "F043D",
     "source": "locations/wave.svg",
     "codepoints": [
-      58429
+      984125
     ],
     "label": "locations/wave"
   },
   {
-    "name": "E43E",
+    "name": "F043E",
     "source": "locations/workshop.svg",
     "codepoints": [
-      58430
+      984126
     ],
     "label": "locations/workshop"
   },
   {
-    "name": "E600",
+    "name": "F0600",
     "source": "materials/clay.svg",
     "codepoints": [
-      58880
+      984576
     ],
     "label": "materials/clay"
   },
   {
-    "name": "E601",
+    "name": "F0601",
     "source": "materials/cloth.svg",
     "codepoints": [
-      58881
+      984577
     ],
     "label": "materials/cloth"
   },
   {
-    "name": "E602",
+    "name": "F0602",
     "source": "materials/fiber.svg",
     "codepoints": [
-      58882
+      984578
     ],
     "label": "materials/fiber"
   },
   {
-    "name": "E603",
+    "name": "F0603",
     "source": "materials/glass.svg",
     "codepoints": [
-      58883
+      984579
     ],
     "label": "materials/glass"
   },
   {
-    "name": "E604",
+    "name": "F0604",
     "source": "materials/leather.svg",
     "codepoints": [
-      58884
+      984580
     ],
     "label": "materials/leather"
   },
   {
-    "name": "E605",
+    "name": "F0605",
     "source": "materials/metal.svg",
     "codepoints": [
-      58885
+      984581
     ],
     "label": "materials/metal"
   },
   {
-    "name": "E606",
+    "name": "F0606",
     "source": "materials/paper.svg",
     "codepoints": [
-      58886
+      984582
     ],
     "label": "materials/paper"
   },
   {
-    "name": "E607",
+    "name": "F0607",
     "source": "materials/plastic.svg",
     "codepoints": [
-      58887
+      984583
     ],
     "label": "materials/plastic"
   },
   {
-    "name": "E608",
+    "name": "F0608",
     "source": "materials/sand.svg",
     "codepoints": [
-      58888
+      984584
     ],
     "label": "materials/sand"
   },
   {
-    "name": "E609",
+    "name": "F0609",
     "source": "materials/stone.svg",
     "codepoints": [
-      58889
+      984585
     ],
     "label": "materials/stone"
   },
   {
-    "name": "E60A",
+    "name": "F060A",
     "source": "materials/thread.svg",
     "codepoints": [
-      58890
+      984586
     ],
     "label": "materials/thread"
   },
   {
-    "name": "E800",
+    "name": "F0800",
     "source": "objects/arch.svg",
     "codepoints": [
-      59392
+      985088
     ],
     "label": "objects/arch"
   },
   {
-    "name": "E801",
+    "name": "F0801",
     "source": "objects/audience.svg",
     "codepoints": [
-      59393
+      985089
     ],
     "label": "objects/audience"
   },
   {
-    "name": "E802",
+    "name": "F0802",
     "source": "objects/axle.svg",
     "codepoints": [
-      59394
+      985090
     ],
     "label": "objects/axle"
   },
   {
-    "name": "E803",
+    "name": "F0803",
     "source": "objects/baking.svg",
     "codepoints": [
-      59395
+      985091
     ],
     "label": "objects/baking"
   },
   {
-    "name": "E804",
+    "name": "F0804",
     "source": "objects/beam.svg",
     "codepoints": [
-      59396
+      985092
     ],
     "label": "objects/beam"
   },
   {
-    "name": "E805",
+    "name": "F0805",
     "source": "objects/bill.svg",
     "codepoints": [
-      59397
+      985093
     ],
     "label": "objects/bill"
   },
   {
-    "name": "E806",
+    "name": "F0806",
     "source": "objects/board.svg",
     "codepoints": [
-      59398
+      985094
     ],
     "label": "objects/board"
   },
   {
-    "name": "E807",
+    "name": "F0807",
     "source": "objects/bowl.svg",
     "codepoints": [
-      59399
+      985095
     ],
     "label": "objects/bowl"
   },
   {
-    "name": "E808",
+    "name": "F0808",
     "source": "objects/brewing.svg",
     "codepoints": [
-      59400
+      985096
     ],
     "label": "objects/brewing"
   },
   {
-    "name": "E809",
+    "name": "F0809",
     "source": "objects/brush.svg",
     "codepoints": [
-      59401
+      985097
     ],
     "label": "objects/brush"
   },
   {
-    "name": "E80A",
+    "name": "F080A",
     "source": "objects/build.svg",
     "codepoints": [
-      59402
+      985098
     ],
     "label": "objects/build"
   },
   {
-    "name": "E80B",
+    "name": "F080B",
     "source": "objects/canvas.svg",
     "codepoints": [
-      59403
+      985099
     ],
     "label": "objects/canvas"
   },
   {
-    "name": "E80C",
+    "name": "F080C",
     "source": "objects/caravan.svg",
     "codepoints": [
-      59404
+      985100
     ],
     "label": "objects/caravan"
   },
   {
-    "name": "E80D",
+    "name": "F080D",
     "source": "objects/carving.svg",
     "codepoints": [
-      59405
+      985101
     ],
     "label": "objects/carving"
   },
   {
-    "name": "E80E",
+    "name": "F080E",
     "source": "objects/castle.svg",
     "codepoints": [
-      59406
+      985102
     ],
     "label": "objects/castle"
   },
   {
-    "name": "E80F",
+    "name": "F080F",
     "source": "objects/chalk.svg",
     "codepoints": [
-      59407
+      985103
     ],
     "label": "objects/chalk"
   },
   {
-    "name": "E810",
+    "name": "F0810",
     "source": "objects/choir.svg",
     "codepoints": [
-      59408
+      985104
     ],
     "label": "objects/choir"
   },
   {
-    "name": "E811",
+    "name": "F0811",
     "source": "objects/circuit.svg",
     "codepoints": [
-      59409
+      985105
     ],
     "label": "objects/circuit"
   },
   {
-    "name": "E812",
+    "name": "F0812",
     "source": "objects/clay.svg",
     "codepoints": [
-      59410
+      985106
     ],
     "label": "objects/clay"
   },
   {
-    "name": "E813",
+    "name": "F0813",
     "source": "objects/computer.svg",
     "codepoints": [
-      59411
+      985107
     ],
     "label": "objects/computer"
   },
   {
-    "name": "E814",
+    "name": "F0814",
     "source": "objects/connect.svg",
     "codepoints": [
-      59412
+      985108
     ],
     "label": "objects/connect"
   },
   {
-    "name": "E815",
+    "name": "F0815",
     "source": "objects/crawl.svg",
     "codepoints": [
-      59413
+      985109
     ],
     "label": "objects/crawl"
   },
   {
-    "name": "E816",
+    "name": "F0816",
     "source": "objects/create.svg",
     "codepoints": [
-      59414
+      985110
     ],
     "label": "objects/create"
   },
   {
-    "name": "E817",
+    "name": "F0817",
     "source": "objects/currency.svg",
     "codepoints": [
-      59415
+      985111
     ],
     "label": "objects/currency"
   },
   {
-    "name": "E818",
+    "name": "F0818",
     "source": "objects/dance.svg",
     "codepoints": [
-      59416
+      985112
     ],
     "label": "objects/dance"
   },
   {
-    "name": "E819",
+    "name": "F0819",
     "source": "objects/design.svg",
     "codepoints": [
-      59417
+      985113
     ],
     "label": "objects/design"
   },
   {
-    "name": "E81A",
+    "name": "F081A",
     "source": "objects/doll.svg",
     "codepoints": [
-      59418
+      985114
     ],
     "label": "objects/doll"
   },
   {
-    "name": "E81B",
+    "name": "F081B",
     "source": "objects/doorframe.svg",
     "codepoints": [
-      59419
+      985115
     ],
     "label": "objects/doorframe"
   },
   {
-    "name": "E81C",
+    "name": "F081C",
     "source": "objects/drawing.svg",
     "codepoints": [
-      59420
+      985116
     ],
     "label": "objects/drawing"
   },
   {
-    "name": "E81D",
+    "name": "F081D",
     "source": "objects/drum.svg",
     "codepoints": [
-      59421
+      985117
     ],
     "label": "objects/drum"
   },
   {
-    "name": "E81E",
+    "name": "F081E",
     "source": "objects/dyeing.svg",
     "codepoints": [
-      59422
+      985118
     ],
     "label": "objects/dyeing"
   },
   {
-    "name": "E81F",
+    "name": "F081F",
     "source": "objects/earn.svg",
     "codepoints": [
-      59423
+      985119
     ],
     "label": "objects/earn"
   },
   {
-    "name": "E820",
+    "name": "F0820",
     "source": "objects/echo.svg",
     "codepoints": [
-      59424
+      985120
     ],
     "label": "objects/echo"
   },
   {
-    "name": "E821",
+    "name": "F0821",
     "source": "objects/electricity.svg",
     "codepoints": [
-      59425
+      985121
     ],
     "label": "objects/electricity"
   },
   {
-    "name": "E822",
+    "name": "F0822",
     "source": "objects/engine.svg",
     "codepoints": [
-      59426
+      985122
     ],
     "label": "objects/engine"
   },
   {
-    "name": "E823",
+    "name": "F0823",
     "source": "objects/engraving.svg",
     "codepoints": [
-      59427
+      985123
     ],
     "label": "objects/engraving"
   },
   {
-    "name": "E824",
+    "name": "F0824",
     "source": "objects/exchange.svg",
     "codepoints": [
-      59428
+      985124
     ],
     "label": "objects/exchange"
   },
   {
-    "name": "E825",
+    "name": "F0825",
     "source": "objects/explore.svg",
     "codepoints": [
-      59429
+      985125
     ],
     "label": "objects/explore"
   },
   {
-    "name": "E826",
+    "name": "F0826",
     "source": "objects/flavor.svg",
     "codepoints": [
-      59430
+      985126
     ],
     "label": "objects/flavor"
   },
   {
-    "name": "E827",
+    "name": "F0827",
     "source": "objects/forest.svg",
     "codepoints": [
-      59431
+      985127
     ],
     "label": "objects/forest"
   },
   {
-    "name": "E828",
+    "name": "F0828",
     "source": "objects/forging.svg",
     "codepoints": [
-      59432
+      985128
     ],
     "label": "objects/forging"
   },
   {
-    "name": "E829",
+    "name": "F0829",
     "source": "objects/fork.svg",
     "codepoints": [
-      59433
+      985129
     ],
     "label": "objects/fork"
   },
   {
-    "name": "E82A",
+    "name": "F082A",
     "source": "objects/foundation.svg",
     "codepoints": [
-      59434
+      985130
     ],
     "label": "objects/foundation"
   },
   {
-    "name": "E82B",
+    "name": "F082B",
     "source": "objects/frame.svg",
     "codepoints": [
-      59435
+      985131
     ],
     "label": "objects/frame"
   },
   {
-    "name": "E82C",
+    "name": "F082C",
     "source": "objects/gallery.svg",
     "codepoints": [
-      59436
+      985132
     ],
     "label": "objects/gallery"
   },
   {
-    "name": "E82D",
+    "name": "F082D",
     "source": "objects/game.svg",
     "codepoints": [
-      59437
+      985133
     ],
     "label": "objects/game"
   },
   {
-    "name": "E82E",
+    "name": "F082E",
     "source": "objects/giant.svg",
     "codepoints": [
-      59438
+      985134
     ],
     "label": "objects/giant"
   },
   {
-    "name": "E82F",
+    "name": "F082F",
     "source": "objects/gift.svg",
     "codepoints": [
-      59439
+      985135
     ],
     "label": "objects/gift"
   },
   {
-    "name": "E830",
+    "name": "F0830",
     "source": "objects/goods.svg",
     "codepoints": [
-      59440
+      985136
     ],
     "label": "objects/goods"
   },
   {
-    "name": "E831",
+    "name": "F0831",
     "source": "objects/grow.svg",
     "codepoints": [
-      59441
+      985137
     ],
     "label": "objects/grow"
   },
   {
-    "name": "E832",
+    "name": "F0832",
     "source": "objects/handle.svg",
     "codepoints": [
-      59442
+      985138
     ],
     "label": "objects/handle"
   },
   {
-    "name": "E833",
+    "name": "F0833",
     "source": "objects/hero.svg",
     "codepoints": [
-      59443
+      985139
     ],
     "label": "objects/hero"
   },
   {
-    "name": "E834",
+    "name": "F0834",
     "source": "objects/imagine.svg",
     "codepoints": [
-      59444
+      985140
     ],
     "label": "objects/imagine"
   },
   {
-    "name": "E835",
+    "name": "F0835",
     "source": "objects/internet.svg",
     "codepoints": [
-      59445
+      985141
     ],
     "label": "objects/internet"
   },
   {
-    "name": "E836",
+    "name": "F0836",
     "source": "objects/joinery.svg",
     "codepoints": [
-      59446
+      985142
     ],
     "label": "objects/joinery"
   },
   {
-    "name": "E837",
+    "name": "F0837",
     "source": "objects/journey.svg",
     "codepoints": [
-      59447
+      985143
     ],
     "label": "objects/journey"
   },
   {
-    "name": "E838",
+    "name": "F0838",
     "source": "objects/king.svg",
     "codepoints": [
-      59448
+      985144
     ],
     "label": "objects/king"
   },
   {
-    "name": "E839",
+    "name": "F0839",
     "source": "objects/knife.svg",
     "codepoints": [
-      59449
+      985145
     ],
     "label": "objects/knife"
   },
   {
-    "name": "E83A",
+    "name": "F083A",
     "source": "objects/language.svg",
     "codepoints": [
-      59450
+      985146
     ],
     "label": "objects/language"
   },
   {
-    "name": "E83B",
+    "name": "F083B",
     "source": "objects/letter.svg",
     "codepoints": [
-      59451
+      985147
     ],
     "label": "objects/letter"
   },
   {
-    "name": "E83C",
+    "name": "F083C",
     "source": "objects/lever.svg",
     "codepoints": [
-      59452
+      985148
     ],
     "label": "objects/lever"
   },
   {
-    "name": "E83D",
+    "name": "F083D",
     "source": "objects/merchant.svg",
     "codepoints": [
-      59453
+      985149
     ],
     "label": "objects/merchant"
   },
   {
-    "name": "E83E",
+    "name": "F083E",
     "source": "objects/message.svg",
     "codepoints": [
-      59454
+      985150
     ],
     "label": "objects/message"
   },
   {
-    "name": "E83F",
+    "name": "F083F",
     "source": "objects/mortar.svg",
     "codepoints": [
-      59455
+      985151
     ],
     "label": "objects/mortar"
   },
   {
-    "name": "E840",
+    "name": "F0840",
     "source": "objects/motor.svg",
     "codepoints": [
-      59456
+      985152
     ],
     "label": "objects/motor"
   },
   {
-    "name": "E841",
+    "name": "F0841",
     "source": "objects/mural.svg",
     "codepoints": [
-      59457
+      985153
     ],
     "label": "objects/mural"
   },
   {
-    "name": "E842",
+    "name": "F0842",
     "source": "objects/nail.svg",
     "codepoints": [
-      59458
+      985154
     ],
     "label": "objects/nail"
   },
   {
-    "name": "E843",
+    "name": "F0843",
     "source": "objects/note.svg",
     "codepoints": [
-      59459
+      985155
     ],
     "label": "objects/note"
   },
   {
-    "name": "E844",
+    "name": "F0844",
     "source": "objects/observe.svg",
     "codepoints": [
-      59460
+      985156
     ],
     "label": "objects/observe"
   },
   {
-    "name": "E845",
+    "name": "F0845",
     "source": "objects/oven.svg",
     "codepoints": [
-      59461
+      985157
     ],
     "label": "objects/oven"
   },
   {
-    "name": "E846",
+    "name": "F0846",
     "source": "objects/paint.svg",
     "codepoints": [
-      59462
+      985158
     ],
     "label": "objects/paint"
   },
   {
-    "name": "E847",
+    "name": "F0847",
     "source": "objects/pan.svg",
     "codepoints": [
-      59463
+      985159
     ],
     "label": "objects/pan"
   },
   {
-    "name": "E848",
+    "name": "F0848",
     "source": "objects/pattern.svg",
     "codepoints": [
-      59464
+      985160
     ],
     "label": "objects/pattern"
   },
   {
-    "name": "E849",
+    "name": "F0849",
     "source": "objects/port.svg",
     "codepoints": [
-      59465
+      985161
     ],
     "label": "objects/port"
   },
   {
-    "name": "E84A",
+    "name": "F084A",
     "source": "objects/pot.svg",
     "codepoints": [
-      59466
+      985162
     ],
     "label": "objects/pot"
   },
   {
-    "name": "E84B",
+    "name": "F084B",
     "source": "objects/pottery.svg",
     "codepoints": [
-      59467
+      985163
     ],
     "label": "objects/pottery"
   },
   {
-    "name": "E84C",
+    "name": "F084C",
     "source": "objects/price.svg",
     "codepoints": [
-      59468
+      985164
     ],
     "label": "objects/price"
   },
   {
-    "name": "E84D",
+    "name": "F084D",
     "source": "objects/print.svg",
     "codepoints": [
-      59469
+      985165
     ],
     "label": "objects/print"
   },
   {
-    "name": "E84E",
+    "name": "F084E",
     "source": "objects/printing.svg",
     "codepoints": [
-      59470
+      985166
     ],
     "label": "objects/printing"
   },
   {
-    "name": "E84F",
+    "name": "F084F",
     "source": "objects/pulley.svg",
     "codepoints": [
-      59471
+      985167
     ],
     "label": "objects/pulley"
   },
   {
-    "name": "E850",
+    "name": "F0850",
     "source": "objects/pump.svg",
     "codepoints": [
-      59472
+      985168
     ],
     "label": "objects/pump"
   },
   {
-    "name": "E851",
+    "name": "F0851",
     "source": "objects/puzzle.svg",
     "codepoints": [
-      59473
+      985169
     ],
     "label": "objects/puzzle"
   },
   {
-    "name": "E852",
+    "name": "F0852",
     "source": "objects/queen.svg",
     "codepoints": [
-      59474
+      985170
     ],
     "label": "objects/queen"
   },
   {
-    "name": "E853",
+    "name": "F0853",
     "source": "objects/question.svg",
     "codepoints": [
-      59475
+      985171
     ],
     "label": "objects/question"
   },
   {
-    "name": "E854",
+    "name": "F0854",
     "source": "objects/recipe.svg",
     "codepoints": [
-      59476
+      985172
     ],
     "label": "objects/recipe"
   },
   {
-    "name": "E855",
+    "name": "F0855",
     "source": "objects/repair.svg",
     "codepoints": [
-      59477
+      985173
     ],
     "label": "objects/repair"
   },
   {
-    "name": "E856",
+    "name": "F0856",
     "source": "objects/rhythm.svg",
     "codepoints": [
-      59478
+      985174
     ],
     "label": "objects/rhythm"
   },
   {
-    "name": "E857",
+    "name": "F0857",
     "source": "objects/robot.svg",
     "codepoints": [
-      59479
+      985175
     ],
     "label": "objects/robot"
   },
   {
-    "name": "E858",
+    "name": "F0858",
     "source": "objects/roof.svg",
     "codepoints": [
-      59480
+      985176
     ],
     "label": "objects/roof"
   },
   {
-    "name": "E859",
+    "name": "F0859",
     "source": "objects/rope.svg",
     "codepoints": [
-      59481
+      985177
     ],
     "label": "objects/rope"
   },
   {
-    "name": "E85A",
+    "name": "F085A",
     "source": "objects/route.svg",
     "codepoints": [
-      59482
+      985178
     ],
     "label": "objects/route"
   },
   {
-    "name": "E85B",
+    "name": "F085B",
     "source": "objects/sandbox.svg",
     "codepoints": [
-      59483
+      985179
     ],
     "label": "objects/sandbox"
   },
   {
-    "name": "E85C",
+    "name": "F085C",
     "source": "objects/save.svg",
     "codepoints": [
-      59484
+      985180
     ],
     "label": "objects/save"
   },
   {
-    "name": "E85D",
+    "name": "F085D",
     "source": "objects/screw.svg",
     "codepoints": [
-      59485
+      985181
     ],
     "label": "objects/screw"
   },
   {
-    "name": "E85E",
+    "name": "F085E",
     "source": "objects/sculpture.svg",
     "codepoints": [
-      59486
+      985182
     ],
     "label": "objects/sculpture"
   },
   {
-    "name": "E85F",
+    "name": "F085F",
     "source": "objects/sewing.svg",
     "codepoints": [
-      59487
+      985183
     ],
     "label": "objects/sewing"
   },
   {
-    "name": "E860",
+    "name": "F0860",
     "source": "objects/share.svg",
     "codepoints": [
-      59488
+      985184
     ],
     "label": "objects/share"
   },
   {
-    "name": "E861",
+    "name": "F0861",
     "source": "objects/sign.svg",
     "codepoints": [
-      59489
+      985185
     ],
     "label": "objects/sign"
   },
   {
-    "name": "E862",
+    "name": "F0862",
     "source": "objects/signal.svg",
     "codepoints": [
-      59490
+      985186
     ],
     "label": "objects/signal"
   },
   {
-    "name": "E863",
+    "name": "F0863",
     "source": "objects/slide.svg",
     "codepoints": [
-      59491
+      985187
     ],
     "label": "objects/slide"
   },
   {
-    "name": "E864",
+    "name": "F0864",
     "source": "objects/smithing.svg",
     "codepoints": [
-      59492
+      985188
     ],
     "label": "objects/smithing"
   },
   {
-    "name": "E865",
+    "name": "F0865",
     "source": "objects/sock.svg",
     "codepoints": [
-      59493
+      985189
     ],
     "label": "objects/sock"
   },
   {
-    "name": "E866",
+    "name": "F0866",
     "source": "objects/spend.svg",
     "codepoints": [
-      59494
+      985190
     ],
     "label": "objects/spend"
   },
   {
-    "name": "E867",
+    "name": "F0867",
     "source": "objects/spice.svg",
     "codepoints": [
-      59495
+      985191
     ],
     "label": "objects/spice"
   },
   {
-    "name": "E868",
+    "name": "F0868",
     "source": "objects/spinning.svg",
     "codepoints": [
-      59496
+      985192
     ],
     "label": "objects/spinning"
   },
   {
-    "name": "E869",
+    "name": "F0869",
     "source": "objects/stage.svg",
     "codepoints": [
-      59497
+      985193
     ],
     "label": "objects/stage"
   },
   {
-    "name": "E86A",
+    "name": "F086A",
     "source": "objects/steam.svg",
     "codepoints": [
-      59498
+      985194
     ],
     "label": "objects/steam"
   },
   {
-    "name": "E86B",
+    "name": "F086B",
     "source": "objects/story.svg",
     "codepoints": [
-      59499
+      985195
     ],
     "label": "objects/story"
   },
   {
-    "name": "E86C",
+    "name": "F086C",
     "source": "objects/stove.svg",
     "codepoints": [
-      59500
+      985196
     ],
     "label": "objects/stove"
   },
   {
-    "name": "E86D",
+    "name": "F086D",
     "source": "objects/swing.svg",
     "codepoints": [
-      59501
+      985197
     ],
     "label": "objects/swing"
   },
   {
-    "name": "E86E",
+    "name": "F086E",
     "source": "objects/switch.svg",
     "codepoints": [
-      59502
+      985198
     ],
     "label": "objects/switch"
   },
   {
-    "name": "E86F",
+    "name": "F086F",
     "source": "objects/symbol.svg",
     "codepoints": [
-      59503
+      985199
     ],
     "label": "objects/symbol"
   },
   {
-    "name": "E870",
+    "name": "F0870",
     "source": "objects/teach.svg",
     "codepoints": [
-      59504
+      985200
     ],
     "label": "objects/teach"
   },
   {
-    "name": "E871",
+    "name": "F0871",
     "source": "objects/toll.svg",
     "codepoints": [
-      59505
+      985201
     ],
     "label": "objects/toll"
   },
   {
-    "name": "E872",
+    "name": "F0872",
     "source": "objects/tower.svg",
     "codepoints": [
-      59506
+      985202
     ],
     "label": "objects/tower"
   },
   {
-    "name": "E873",
+    "name": "F0873",
     "source": "objects/trade.svg",
     "codepoints": [
-      59507
+      985203
     ],
     "label": "objects/trade"
   },
   {
-    "name": "E874",
+    "name": "F0874",
     "source": "objects/traveler.svg",
     "codepoints": [
-      59508
+      985204
     ],
     "label": "objects/traveler"
   },
   {
-    "name": "E875",
+    "name": "F0875",
     "source": "objects/treasure.svg",
     "codepoints": [
-      59509
+      985205
     ],
     "label": "objects/treasure"
   },
   {
-    "name": "E876",
+    "name": "F0876",
     "source": "objects/tune.svg",
     "codepoints": [
-      59510
+      985206
     ],
     "label": "objects/tune"
   },
   {
-    "name": "E877",
+    "name": "F0877",
     "source": "objects/value.svg",
     "codepoints": [
-      59511
+      985207
     ],
     "label": "objects/value"
   },
   {
-    "name": "E878",
+    "name": "F0878",
     "source": "objects/valve.svg",
     "codepoints": [
-      59512
+      985208
     ],
     "label": "objects/valve"
   },
   {
-    "name": "E879",
+    "name": "F0879",
     "source": "objects/villager.svg",
     "codepoints": [
-      59513
+      985209
     ],
     "label": "objects/villager"
   },
   {
-    "name": "E87A",
+    "name": "F087A",
     "source": "objects/voice.svg",
     "codepoints": [
-      59514
+      985210
     ],
     "label": "objects/voice"
   },
   {
-    "name": "E87B",
+    "name": "F087B",
     "source": "objects/wagon.svg",
     "codepoints": [
-      59515
+      985211
     ],
     "label": "objects/wagon"
   },
   {
-    "name": "E87C",
+    "name": "F087C",
     "source": "objects/weaving.svg",
     "codepoints": [
-      59516
+      985212
     ],
     "label": "objects/weaving"
   },
   {
-    "name": "E87D",
+    "name": "F087D",
     "source": "objects/whistle.svg",
     "codepoints": [
-      59517
+      985213
     ],
     "label": "objects/whistle"
   },
   {
-    "name": "E87E",
+    "name": "F087E",
     "source": "objects/windowpane.svg",
     "codepoints": [
-      59518
+      985214
     ],
     "label": "objects/windowpane"
   },
   {
-    "name": "E87F",
+    "name": "F087F",
     "source": "objects/wizard.svg",
     "codepoints": [
-      59519
+      985215
     ],
     "label": "objects/wizard"
   },
   {
-    "name": "E880",
+    "name": "F0880",
     "source": "objects/wonder.svg",
     "codepoints": [
-      59520
+      985216
     ],
     "label": "objects/wonder"
   },
   {
-    "name": "E881",
+    "name": "F0881",
     "source": "objects/word.svg",
     "codepoints": [
-      59521
+      985217
     ],
     "label": "objects/word"
   },
   {
-    "name": "E882",
+    "name": "F0882",
     "source": "objects/work.svg",
     "codepoints": [
-      59522
+      985218
     ],
     "label": "objects/work"
   },
   {
-    "name": "E883",
+    "name": "F0883",
     "source": "objects/writing.svg",
     "codepoints": [
-      59523
+      985219
     ],
     "label": "objects/writing"
   },
   {
-    "name": "EA00",
+    "name": "F0A00",
     "source": "patterns/black.svg",
     "codepoints": [
-      59904
+      985600
     ],
     "label": "patterns/black"
   },
   {
-    "name": "EA01",
+    "name": "F0A01",
     "source": "patterns/blue.svg",
     "codepoints": [
-      59905
+      985601
     ],
     "label": "patterns/blue"
   },
   {
-    "name": "EA02",
+    "name": "F0A02",
     "source": "patterns/brown.svg",
     "codepoints": [
-      59906
+      985602
     ],
     "label": "patterns/brown"
   },
   {
-    "name": "EA03",
+    "name": "F0A03",
     "source": "patterns/circle.svg",
     "codepoints": [
-      59907
+      985603
     ],
     "label": "patterns/circle"
   },
   {
-    "name": "EA04",
+    "name": "F0A04",
     "source": "patterns/corner.svg",
     "codepoints": [
-      59908
+      985604
     ],
     "label": "patterns/corner"
   },
   {
-    "name": "EA05",
+    "name": "F0A05",
     "source": "patterns/cube.svg",
     "codepoints": [
-      59909
+      985605
     ],
     "label": "patterns/cube"
   },
   {
-    "name": "EA06",
+    "name": "F0A06",
     "source": "patterns/curve.svg",
     "codepoints": [
-      59910
+      985606
     ],
     "label": "patterns/curve"
   },
   {
-    "name": "EA07",
+    "name": "F0A07",
     "source": "patterns/edge.svg",
     "codepoints": [
-      59911
+      985607
     ],
     "label": "patterns/edge"
   },
   {
-    "name": "EA08",
+    "name": "F0A08",
     "source": "patterns/gold.svg",
     "codepoints": [
-      59912
+      985608
     ],
     "label": "patterns/gold"
   },
   {
-    "name": "EA09",
+    "name": "F0A09",
     "source": "patterns/gray.svg",
     "codepoints": [
-      59913
+      985609
     ],
     "label": "patterns/gray"
   },
   {
-    "name": "EA0A",
+    "name": "F0A0A",
     "source": "patterns/green.svg",
     "codepoints": [
-      59914
+      985610
     ],
     "label": "patterns/green"
   },
   {
-    "name": "EA0B",
+    "name": "F0A0B",
     "source": "patterns/line.svg",
     "codepoints": [
-      59915
+      985611
     ],
     "label": "patterns/line"
   },
   {
-    "name": "EA0C",
+    "name": "F0A0C",
     "source": "patterns/orange.svg",
     "codepoints": [
-      59916
+      985612
     ],
     "label": "patterns/orange"
   },
   {
-    "name": "EA0D",
+    "name": "F0A0D",
     "source": "patterns/oval.svg",
     "codepoints": [
-      59917
+      985613
     ],
     "label": "patterns/oval"
   },
   {
-    "name": "EA0E",
+    "name": "F0A0E",
     "source": "patterns/pattern.svg",
     "codepoints": [
-      59918
+      985614
     ],
     "label": "patterns/pattern"
   },
   {
-    "name": "EA0F",
+    "name": "F0A0F",
     "source": "patterns/purple.svg",
     "codepoints": [
-      59919
+      985615
     ],
     "label": "patterns/purple"
   },
   {
-    "name": "EA10",
+    "name": "F0A10",
     "source": "patterns/red.svg",
     "codepoints": [
-      59920
+      985616
     ],
     "label": "patterns/red"
   },
   {
-    "name": "EA11",
+    "name": "F0A11",
     "source": "patterns/silver.svg",
     "codepoints": [
-      59921
+      985617
     ],
     "label": "patterns/silver"
   },
   {
-    "name": "EA12",
+    "name": "F0A12",
     "source": "patterns/sphere.svg",
     "codepoints": [
-      59922
+      985618
     ],
     "label": "patterns/sphere"
   },
   {
-    "name": "EA13",
+    "name": "F0A13",
     "source": "patterns/square.svg",
     "codepoints": [
-      59923
+      985619
     ],
     "label": "patterns/square"
   },
   {
-    "name": "EA14",
+    "name": "F0A14",
     "source": "patterns/triangle.svg",
     "codepoints": [
-      59924
+      985620
     ],
     "label": "patterns/triangle"
   },
   {
-    "name": "EA15",
+    "name": "F0A15",
     "source": "patterns/white.svg",
     "codepoints": [
-      59925
+      985621
     ],
     "label": "patterns/white"
   },
   {
-    "name": "EA16",
+    "name": "F0A16",
     "source": "patterns/yellow.svg",
     "codepoints": [
-      59926
+      985622
     ],
     "label": "patterns/yellow"
   },
   {
-    "name": "EC00",
+    "name": "F0C00",
     "source": "people/alliance.svg",
     "codepoints": [
-      60416
+      986112
     ],
     "label": "people/alliance"
   },
   {
-    "name": "EC01",
+    "name": "F0C01",
     "source": "people/ancestor.svg",
     "codepoints": [
-      60417
+      986113
     ],
     "label": "people/ancestor"
   },
   {
-    "name": "EC02",
+    "name": "F0C02",
     "source": "people/aristotle.svg",
     "codepoints": [
-      60418
+      986114
     ],
     "label": "people/aristotle"
   },
   {
-    "name": "EC03",
+    "name": "F0C03",
     "source": "people/art.svg",
     "codepoints": [
-      60419
+      986115
     ],
     "label": "people/art"
   },
   {
-    "name": "EC04",
+    "name": "F0C04",
     "source": "people/artist.svg",
     "codepoints": [
-      60420
+      986116
     ],
     "label": "people/artist"
   },
   {
-    "name": "EC05",
+    "name": "F0C05",
     "source": "people/astronaut.svg",
     "codepoints": [
-      60421
+      986117
     ],
     "label": "people/astronaut"
   },
   {
-    "name": "EC06",
+    "name": "F0C06",
     "source": "people/babysitter.svg",
     "codepoints": [
-      60422
+      986118
     ],
     "label": "people/babysitter"
   },
   {
-    "name": "EC07",
+    "name": "F0C07",
     "source": "people/baker.svg",
     "codepoints": [
-      60423
+      986119
     ],
     "label": "people/baker"
   },
   {
-    "name": "EC08",
+    "name": "F0C08",
     "source": "people/buddha.svg",
     "codepoints": [
-      60424
+      986120
     ],
     "label": "people/buddha"
   },
   {
-    "name": "EC09",
+    "name": "F0C09",
     "source": "people/builder.svg",
     "codepoints": [
-      60425
+      986121
     ],
     "label": "people/builder"
   },
   {
-    "name": "EC0A",
+    "name": "F0C0A",
     "source": "people/care.svg",
     "codepoints": [
-      60426
+      986122
     ],
     "label": "people/care"
   },
   {
-    "name": "EC0B",
+    "name": "F0C0B",
     "source": "people/choice.svg",
     "codepoints": [
-      60427
+      986123
     ],
     "label": "people/choice"
   },
   {
-    "name": "EC0C",
+    "name": "F0C0C",
     "source": "people/circle.svg",
     "codepoints": [
-      60428
+      986124
     ],
     "label": "people/circle"
   },
   {
-    "name": "EC0D",
+    "name": "F0C0D",
     "source": "people/citizen.svg",
     "codepoints": [
-      60429
+      986125
     ],
     "label": "people/citizen"
   },
   {
-    "name": "EC0E",
+    "name": "F0C0E",
     "source": "people/city.svg",
     "codepoints": [
-      60430
+      986126
     ],
     "label": "people/city"
   },
   {
-    "name": "EC0F",
+    "name": "F0C0F",
     "source": "people/cleaner.svg",
     "codepoints": [
-      60431
+      986127
     ],
     "label": "people/cleaner"
   },
   {
-    "name": "EC10",
+    "name": "F0C10",
     "source": "people/clothing.svg",
     "codepoints": [
-      60432
+      986128
     ],
     "label": "people/clothing"
   },
   {
-    "name": "EC11",
+    "name": "F0C11",
     "source": "people/community.svg",
     "codepoints": [
-      60433
+      986129
     ],
     "label": "people/community"
   },
   {
-    "name": "EC12",
+    "name": "F0C12",
     "source": "people/compassion.svg",
     "codepoints": [
-      60434
+      986130
     ],
     "label": "people/compassion"
   },
   {
-    "name": "EC13",
+    "name": "F0C13",
     "source": "people/conflict.svg",
     "codepoints": [
-      60435
+      986131
     ],
     "label": "people/conflict"
   },
   {
-    "name": "EC14",
+    "name": "F0C14",
     "source": "people/confucius.svg",
     "codepoints": [
-      60436
+      986132
     ],
     "label": "people/confucius"
   },
   {
-    "name": "EC15",
+    "name": "F0C15",
     "source": "people/constitution.svg",
     "codepoints": [
-      60437
+      986133
     ],
     "label": "people/constitution"
   },
   {
-    "name": "EC16",
+    "name": "F0C16",
     "source": "people/cook.svg",
     "codepoints": [
-      60438
+      986134
     ],
     "label": "people/cook"
   },
   {
-    "name": "EC17",
+    "name": "F0C17",
     "source": "people/cooperation.svg",
     "codepoints": [
-      60439
+      986135
     ],
     "label": "people/cooperation"
   },
   {
-    "name": "EC18",
+    "name": "F0C18",
     "source": "people/council.svg",
     "codepoints": [
-      60440
+      986136
     ],
     "label": "people/council"
   },
   {
-    "name": "EC19",
+    "name": "F0C19",
     "source": "people/courage.svg",
     "codepoints": [
-      60441
+      986137
     ],
     "label": "people/courage"
   },
   {
-    "name": "EC1A",
+    "name": "F0C1A",
     "source": "people/cousin.svg",
     "codepoints": [
-      60442
+      986138
     ],
     "label": "people/cousin"
   },
   {
-    "name": "EC1B",
+    "name": "F0C1B",
     "source": "people/creator.svg",
     "codepoints": [
-      60443
+      986139
     ],
     "label": "people/creator"
   },
   {
-    "name": "EC1C",
+    "name": "F0C1C",
     "source": "people/culture.svg",
     "codepoints": [
-      60444
+      986140
     ],
     "label": "people/culture"
   },
   {
-    "name": "EC1D",
+    "name": "F0C1D",
     "source": "people/curie.svg",
     "codepoints": [
-      60445
+      986141
     ],
     "label": "people/curie"
   },
   {
-    "name": "EC1E",
+    "name": "F0C1E",
     "source": "people/destroyer.svg",
     "codepoints": [
-      60446
+      986142
     ],
     "label": "people/destroyer"
   },
   {
-    "name": "EC1F",
+    "name": "F0C1F",
     "source": "people/diaper.svg",
     "codepoints": [
-      60447
+      986143
     ],
     "label": "people/diaper"
   },
   {
-    "name": "EC20",
+    "name": "F0C20",
     "source": "people/diversity.svg",
     "codepoints": [
-      60448
+      986144
     ],
     "label": "people/diversity"
   },
   {
-    "name": "EC21",
+    "name": "F0C21",
     "source": "people/dream.svg",
     "codepoints": [
-      60449
+      986145
     ],
     "label": "people/dream"
   },
   {
-    "name": "EC22",
+    "name": "F0C22",
     "source": "people/duty.svg",
     "codepoints": [
-      60450
+      986146
     ],
     "label": "people/duty"
   },
   {
-    "name": "EC23",
+    "name": "F0C23",
     "source": "people/empathy.svg",
     "codepoints": [
-      60451
+      986147
     ],
     "label": "people/empathy"
   },
   {
-    "name": "EC24",
+    "name": "F0C24",
     "source": "people/faith.svg",
     "codepoints": [
-      60452
+      986148
     ],
     "label": "people/faith"
   },
   {
-    "name": "EC25",
+    "name": "F0C25",
     "source": "people/farmer.svg",
     "codepoints": [
-      60453
+      986149
     ],
     "label": "people/farmer"
   },
   {
-    "name": "EC26",
+    "name": "F0C26",
     "source": "people/festival.svg",
     "codepoints": [
-      60454
+      986150
     ],
     "label": "people/festival"
   },
   {
-    "name": "EC27",
+    "name": "F0C27",
     "source": "people/firefighter.svg",
     "codepoints": [
-      60455
+      986151
     ],
     "label": "people/firefighter"
   },
   {
-    "name": "EC28",
+    "name": "F0C28",
     "source": "people/food.svg",
     "codepoints": [
-      60456
+      986152
     ],
     "label": "people/food"
   },
   {
-    "name": "EC29",
+    "name": "F0C29",
     "source": "people/fool.svg",
     "codepoints": [
-      60457
+      986153
     ],
     "label": "people/fool"
   },
   {
-    "name": "EC2A",
+    "name": "F0C2A",
     "source": "people/friend.svg",
     "codepoints": [
-      60458
+      986154
     ],
     "label": "people/friend"
   },
   {
-    "name": "EC2B",
+    "name": "F0C2B",
     "source": "people/game.svg",
     "codepoints": [
-      60459
+      986155
     ],
     "label": "people/game"
   },
   {
-    "name": "EC2C",
+    "name": "F0C2C",
     "source": "people/gift.svg",
     "codepoints": [
-      60460
+      986156
     ],
     "label": "people/gift"
   },
   {
-    "name": "EC2D",
+    "name": "F0C2D",
     "source": "people/grandparent.svg",
     "codepoints": [
-      60461
+      986157
     ],
     "label": "people/grandparent"
   },
   {
-    "name": "EC2E",
+    "name": "F0C2E",
     "source": "people/group.svg",
     "codepoints": [
-      60462
+      986158
     ],
     "label": "people/group"
   },
   {
-    "name": "EC2F",
+    "name": "F0C2F",
     "source": "people/guardian.svg",
     "codepoints": [
-      60463
+      986159
     ],
     "label": "people/guardian"
   },
   {
-    "name": "EC30",
+    "name": "F0C30",
     "source": "people/healer.svg",
     "codepoints": [
-      60464
+      986160
     ],
     "label": "people/healer"
   },
   {
-    "name": "EC31",
+    "name": "F0C31",
     "source": "people/health.svg",
     "codepoints": [
-      60465
+      986161
     ],
     "label": "people/health"
   },
   {
-    "name": "EC32",
+    "name": "F0C32",
     "source": "people/help.svg",
     "codepoints": [
-      60466
+      986162
     ],
     "label": "people/help"
   },
   {
-    "name": "EC33",
+    "name": "F0C33",
     "source": "people/hero.svg",
     "codepoints": [
-      60467
+      986163
     ],
     "label": "people/hero"
   },
   {
-    "name": "EC34",
+    "name": "F0C34",
     "source": "people/hildegard.svg",
     "codepoints": [
-      60468
+      986164
     ],
     "label": "people/hildegard"
   },
   {
-    "name": "EC35",
+    "name": "F0C35",
     "source": "people/humility.svg",
     "codepoints": [
-      60469
+      986165
     ],
     "label": "people/humility"
   },
   {
-    "name": "EC36",
+    "name": "F0C36",
     "source": "people/hypatia.svg",
     "codepoints": [
-      60470
+      986166
     ],
     "label": "people/hypatia"
   },
   {
-    "name": "EC37",
+    "name": "F0C37",
     "source": "people/ibnsina.svg",
     "codepoints": [
-      60471
+      986167
     ],
     "label": "people/ibnsina"
   },
   {
-    "name": "EC38",
+    "name": "F0C38",
     "source": "people/identity.svg",
     "codepoints": [
-      60472
+      986168
     ],
     "label": "people/identity"
   },
   {
-    "name": "EC39",
+    "name": "F0C39",
     "source": "people/invite.svg",
     "codepoints": [
-      60473
+      986169
     ],
     "label": "people/invite"
   },
   {
-    "name": "EC3A",
+    "name": "F0C3A",
     "source": "people/justice.svg",
     "codepoints": [
-      60474
+      986170
     ],
     "label": "people/justice"
   },
   {
-    "name": "EC3B",
+    "name": "F0C3B",
     "source": "people/kindness.svg",
     "codepoints": [
-      60475
+      986171
     ],
     "label": "people/kindness"
   },
   {
-    "name": "EC3C",
+    "name": "F0C3C",
     "source": "people/language.svg",
     "codepoints": [
-      60476
+      986172
     ],
     "label": "people/language"
   },
   {
-    "name": "EC3D",
+    "name": "F0C3D",
     "source": "people/laozi.svg",
     "codepoints": [
-      60477
+      986173
     ],
     "label": "people/laozi"
   },
   {
-    "name": "EC3E",
+    "name": "F0C3E",
     "source": "people/law.svg",
     "codepoints": [
-      60478
+      986174
     ],
     "label": "people/law"
   },
   {
-    "name": "EC3F",
+    "name": "F0C3F",
     "source": "people/leader.svg",
     "codepoints": [
-      60479
+      986175
     ],
     "label": "people/leader"
   },
   {
-    "name": "EC40",
+    "name": "F0C40",
     "source": "people/leadership.svg",
     "codepoints": [
-      60480
+      986176
     ],
     "label": "people/leadership"
   },
   {
-    "name": "EC41",
+    "name": "F0C41",
     "source": "people/learning.svg",
     "codepoints": [
-      60481
+      986177
     ],
     "label": "people/learning"
   },
   {
-    "name": "EC42",
+    "name": "F0C42",
     "source": "people/legacy.svg",
     "codepoints": [
-      60482
+      986178
     ],
     "label": "people/legacy"
   },
   {
-    "name": "EC43",
+    "name": "F0C43",
     "source": "people/maimonides.svg",
     "codepoints": [
-      60483
+      986179
     ],
     "label": "people/maimonides"
   },
   {
-    "name": "EC44",
+    "name": "F0C44",
     "source": "people/meaning.svg",
     "codepoints": [
-      60484
+      986180
     ],
     "label": "people/meaning"
   },
   {
-    "name": "EC45",
+    "name": "F0C45",
     "source": "people/mechanic.svg",
     "codepoints": [
-      60485
+      986181
     ],
     "label": "people/mechanic"
   },
   {
-    "name": "EC46",
+    "name": "F0C46",
     "source": "people/memory.svg",
     "codepoints": [
-      60486
+      986182
     ],
     "label": "people/memory"
   },
   {
-    "name": "EC47",
+    "name": "F0C47",
     "source": "people/mentor.svg",
     "codepoints": [
-      60487
+      986183
     ],
     "label": "people/mentor"
   },
   {
-    "name": "EC48",
+    "name": "F0C48",
     "source": "people/migration.svg",
     "codepoints": [
-      60488
+      986184
     ],
     "label": "people/migration"
   },
   {
-    "name": "EC49",
+    "name": "F0C49",
     "source": "people/myth.svg",
     "codepoints": [
-      60489
+      986185
     ],
     "label": "people/myth"
   },
   {
-    "name": "EC4A",
+    "name": "F0C4A",
     "source": "people/name.svg",
     "codepoints": [
-      60490
+      986186
     ],
     "label": "people/name"
   },
   {
-    "name": "EC4B",
+    "name": "F0C4B",
     "source": "people/nation.svg",
     "codepoints": [
-      60491
+      986187
     ],
     "label": "people/nation"
   },
   {
-    "name": "EC4C",
+    "name": "F0C4C",
     "source": "people/neighbor.svg",
     "codepoints": [
-      60492
+      986188
     ],
     "label": "people/neighbor"
   },
   {
-    "name": "EC4D",
+    "name": "F0C4D",
     "source": "people/newton.svg",
     "codepoints": [
-      60493
+      986189
     ],
     "label": "people/newton"
   },
   {
-    "name": "EC4E",
+    "name": "F0C4E",
     "source": "people/nurse.svg",
     "codepoints": [
-      60494
+      986190
     ],
     "label": "people/nurse"
   },
   {
-    "name": "EC4F",
+    "name": "F0C4F",
     "source": "people/offering.svg",
     "codepoints": [
-      60495
+      986191
     ],
     "label": "people/offering"
   },
   {
-    "name": "EC50",
+    "name": "F0C50",
     "source": "people/orphan.svg",
     "codepoints": [
-      60496
+      986192
     ],
     "label": "people/orphan"
   },
   {
-    "name": "EC51",
+    "name": "F0C51",
     "source": "people/path.svg",
     "codepoints": [
-      60497
+      986193
     ],
     "label": "people/path"
   },
   {
-    "name": "EC52",
+    "name": "F0C52",
     "source": "people/peace.svg",
     "codepoints": [
-      60498
+      986194
     ],
     "label": "people/peace"
   },
   {
-    "name": "EC53",
+    "name": "F0C53",
     "source": "people/pilgrimage.svg",
     "codepoints": [
-      60499
+      986195
     ],
     "label": "people/pilgrimage"
   },
   {
-    "name": "EC54",
+    "name": "F0C54",
     "source": "people/place.svg",
     "codepoints": [
-      60500
+      986196
     ],
     "label": "people/place"
   },
   {
-    "name": "EC55",
+    "name": "F0C55",
     "source": "people/police.svg",
     "codepoints": [
-      60501
+      986197
     ],
     "label": "people/police"
   },
   {
-    "name": "EC56",
+    "name": "F0C56",
     "source": "people/prayer.svg",
     "codepoints": [
-      60502
+      986198
     ],
     "label": "people/prayer"
   },
   {
-    "name": "EC57",
+    "name": "F0C57",
     "source": "people/progress.svg",
     "codepoints": [
-      60503
+      986199
     ],
     "label": "people/progress"
   },
   {
-    "name": "EC58",
+    "name": "F0C58",
     "source": "people/promise.svg",
     "codepoints": [
-      60504
+      986200
     ],
     "label": "people/promise"
   },
   {
-    "name": "EC59",
+    "name": "F0C59",
     "source": "people/protection.svg",
     "codepoints": [
-      60505
+      986201
     ],
     "label": "people/protection"
   },
   {
-    "name": "EC5A",
+    "name": "F0C5A",
     "source": "people/purpose.svg",
     "codepoints": [
-      60506
+      986202
     ],
     "label": "people/purpose"
   },
   {
-    "name": "EC5B",
+    "name": "F0C5B",
     "source": "people/repair.svg",
     "codepoints": [
-      60507
+      986203
     ],
     "label": "people/repair"
   },
   {
-    "name": "EC5C",
+    "name": "F0C5C",
     "source": "people/rest.svg",
     "codepoints": [
-      60508
+      986204
     ],
     "label": "people/rest"
   },
   {
-    "name": "EC5D",
+    "name": "F0C5D",
     "source": "people/rights.svg",
     "codepoints": [
-      60509
+      986205
     ],
     "label": "people/rights"
   },
   {
-    "name": "EC5E",
+    "name": "F0C5E",
     "source": "people/ritual.svg",
     "codepoints": [
-      60510
+      986206
     ],
     "label": "people/ritual"
   },
   {
-    "name": "EC5F",
+    "name": "F0C5F",
     "source": "people/role.svg",
     "codepoints": [
-      60511
+      986207
     ],
     "label": "people/role"
   },
   {
-    "name": "EC60",
+    "name": "F0C60",
     "source": "people/rule.svg",
     "codepoints": [
-      60512
+      986208
     ],
     "label": "people/rule"
   },
   {
-    "name": "EC61",
+    "name": "F0C61",
     "source": "people/rumi.svg",
     "codepoints": [
-      60513
+      986209
     ],
     "label": "people/rumi"
   },
   {
-    "name": "EC62",
+    "name": "F0C62",
     "source": "people/safety.svg",
     "codepoints": [
-      60514
+      986210
     ],
     "label": "people/safety"
   },
   {
-    "name": "EC63",
+    "name": "F0C63",
     "source": "people/sage.svg",
     "codepoints": [
-      60515
+      986211
     ],
     "label": "people/sage"
   },
   {
-    "name": "EC64",
+    "name": "F0C64",
     "source": "people/science.svg",
     "codepoints": [
-      60516
+      986212
     ],
     "label": "people/science"
   },
   {
-    "name": "EC65",
+    "name": "F0C65",
     "source": "people/secret.svg",
     "codepoints": [
-      60517
+      986213
     ],
     "label": "people/secret"
   },
   {
-    "name": "EC66",
+    "name": "F0C66",
     "source": "people/seeker.svg",
     "codepoints": [
-      60518
+      986214
     ],
     "label": "people/seeker"
   },
   {
-    "name": "EC67",
+    "name": "F0C67",
     "source": "people/service.svg",
     "codepoints": [
-      60519
+      986215
     ],
     "label": "people/service"
   },
   {
-    "name": "EC68",
+    "name": "F0C68",
     "source": "people/shadow.svg",
     "codepoints": [
-      60520
+      986216
     ],
     "label": "people/shadow"
   },
   {
-    "name": "EC69",
+    "name": "F0C69",
     "source": "people/share.svg",
     "codepoints": [
-      60521
+      986217
     ],
     "label": "people/share"
   },
   {
-    "name": "EC6A",
+    "name": "F0C6A",
     "source": "people/shelter.svg",
     "codepoints": [
-      60522
+      986218
     ],
     "label": "people/shelter"
   },
   {
-    "name": "EC6B",
+    "name": "F0C6B",
     "source": "people/shrine.svg",
     "codepoints": [
-      60523
+      986219
     ],
     "label": "people/shrine"
   },
   {
-    "name": "EC6C",
+    "name": "F0C6C",
     "source": "people/socrates.svg",
     "codepoints": [
-      60524
+      986220
     ],
     "label": "people/socrates"
   },
   {
-    "name": "EC6D",
+    "name": "F0C6D",
     "source": "people/spirit.svg",
     "codepoints": [
-      60525
+      986221
     ],
     "label": "people/spirit"
   },
   {
-    "name": "EC6E",
+    "name": "F0C6E",
     "source": "people/stewardship.svg",
     "codepoints": [
-      60526
+      986222
     ],
     "label": "people/stewardship"
   },
   {
-    "name": "EC6F",
+    "name": "F0C6F",
     "source": "people/story.svg",
     "codepoints": [
-      60527
+      986223
     ],
     "label": "people/story"
   },
   {
-    "name": "EC70",
+    "name": "F0C70",
     "source": "people/stroller.svg",
     "codepoints": [
-      60528
+      986224
     ],
     "label": "people/stroller"
   },
   {
-    "name": "EC71",
+    "name": "F0C71",
     "source": "people/symbol.svg",
     "codepoints": [
-      60529
+      986225
     ],
     "label": "people/symbol"
   },
   {
-    "name": "EC72",
+    "name": "F0C72",
     "source": "people/team.svg",
     "codepoints": [
-      60530
+      986226
     ],
     "label": "people/team"
   },
   {
-    "name": "EC73",
+    "name": "F0C73",
     "source": "people/temple.svg",
     "codepoints": [
-      60531
+      986227
     ],
     "label": "people/temple"
   },
   {
-    "name": "EC74",
+    "name": "F0C74",
     "source": "people/trade.svg",
     "codepoints": [
-      60532
+      986228
     ],
     "label": "people/trade"
   },
   {
-    "name": "EC75",
+    "name": "F0C75",
     "source": "people/treaty.svg",
     "codepoints": [
-      60533
+      986229
     ],
     "label": "people/treaty"
   },
   {
-    "name": "EC76",
+    "name": "F0C76",
     "source": "people/tribe.svg",
     "codepoints": [
-      60534
+      986230
     ],
     "label": "people/tribe"
   },
   {
-    "name": "EC77",
+    "name": "F0C77",
     "source": "people/trickster.svg",
     "codepoints": [
-      60535
+      986231
     ],
     "label": "people/trickster"
   },
   {
-    "name": "EC78",
+    "name": "F0C78",
     "source": "people/trust.svg",
     "codepoints": [
-      60536
+      986232
     ],
     "label": "people/trust"
   },
   {
-    "name": "EC79",
+    "name": "F0C79",
     "source": "people/value.svg",
     "codepoints": [
-      60537
+      986233
     ],
     "label": "people/value"
   },
   {
-    "name": "EC7A",
+    "name": "F0C7A",
     "source": "people/village.svg",
     "codepoints": [
-      60538
+      986234
     ],
     "label": "people/village"
   },
   {
-    "name": "EC7B",
+    "name": "F0C7B",
     "source": "people/vote.svg",
     "codepoints": [
-      60539
+      986235
     ],
     "label": "people/vote"
   },
   {
-    "name": "EC7C",
+    "name": "F0C7C",
     "source": "people/welcome.svg",
     "codepoints": [
-      60540
+      986236
     ],
     "label": "people/welcome"
   },
   {
-    "name": "EC7D",
+    "name": "F0C7D",
     "source": "people/work.svg",
     "codepoints": [
-      60541
+      986237
     ],
     "label": "people/work"
   },
   {
-    "name": "EE00",
+    "name": "F0E00",
     "source": "plants/bloom.svg",
     "codepoints": [
-      60928
+      986624
     ],
     "label": "plants/bloom"
   },
   {
-    "name": "EE01",
+    "name": "F0E01",
     "source": "plants/bud.svg",
     "codepoints": [
-      60929
+      986625
     ],
     "label": "plants/bud"
   },
   {
-    "name": "EE02",
+    "name": "F0E02",
     "source": "plants/compost.svg",
     "codepoints": [
-      60930
+      986626
     ],
     "label": "plants/compost"
   },
   {
-    "name": "EE03",
+    "name": "F0E03",
     "source": "plants/dirt.svg",
     "codepoints": [
-      60931
+      986627
     ],
     "label": "plants/dirt"
   },
   {
-    "name": "EE04",
+    "name": "F0E04",
     "source": "plants/fruit.svg",
     "codepoints": [
-      60932
+      986628
     ],
     "label": "plants/fruit"
   },
   {
-    "name": "EE05",
+    "name": "F0E05",
     "source": "plants/log.svg",
     "codepoints": [
-      60933
+      986629
     ],
     "label": "plants/log"
   },
   {
-    "name": "EE06",
+    "name": "F0E06",
     "source": "plants/moss.svg",
     "codepoints": [
-      60934
+      986630
     ],
     "label": "plants/moss"
   },
   {
-    "name": "EE07",
+    "name": "F0E07",
     "source": "plants/nest.svg",
     "codepoints": [
-      60935
+      986631
     ],
     "label": "plants/nest"
   },
   {
-    "name": "EE08",
+    "name": "F0E08",
     "source": "plants/oak.svg",
     "codepoints": [
-      60936
+      986632
     ],
     "label": "plants/oak"
   },
   {
-    "name": "EE09",
+    "name": "F0E09",
     "source": "plants/pine.svg",
     "codepoints": [
-      60937
+      986633
     ],
     "label": "plants/pine"
   },
   {
-    "name": "EE0A",
+    "name": "F0E0A",
     "source": "plants/root.svg",
     "codepoints": [
-      60938
+      986634
     ],
     "label": "plants/root"
   },
   {
-    "name": "EE0B",
+    "name": "F0E0B",
     "source": "plants/seed.svg",
     "codepoints": [
-      60939
+      986635
     ],
     "label": "plants/seed"
   },
   {
-    "name": "EE0C",
+    "name": "F0E0C",
     "source": "plants/soil.svg",
     "codepoints": [
-      60940
+      986636
     ],
     "label": "plants/soil"
   },
   {
-    "name": "EE0D",
+    "name": "F0E0D",
     "source": "plants/sprout.svg",
     "codepoints": [
-      60941
+      986637
     ],
     "label": "plants/sprout"
   },
   {
-    "name": "EE0E",
+    "name": "F0E0E",
     "source": "plants/stem.svg",
     "codepoints": [
-      60942
+      986638
     ],
     "label": "plants/stem"
   },
   {
-    "name": "EE0F",
+    "name": "F0E0F",
     "source": "plants/stream.svg",
     "codepoints": [
-      60943
+      986639
     ],
     "label": "plants/stream"
   },
   {
-    "name": "EE10",
+    "name": "F0E10",
     "source": "plants/tool.svg",
     "codepoints": [
-      60944
+      986640
     ],
     "label": "plants/tool"
   },
   {
-    "name": "EE11",
+    "name": "F0E11",
     "source": "plants/watering.svg",
     "codepoints": [
-      60945
+      986641
     ],
     "label": "plants/watering"
   },
   {
-    "name": "F000",
+    "name": "F1000",
     "source": "science/adaptation.svg",
     "codepoints": [
-      61440
+      987136
     ],
     "label": "science/adaptation"
   },
   {
-    "name": "F001",
+    "name": "F1001",
     "source": "science/add.svg",
     "codepoints": [
-      61441
+      987137
     ],
     "label": "science/add"
   },
   {
-    "name": "F002",
+    "name": "F1002",
     "source": "science/algorithm.svg",
     "codepoints": [
-      61442
+      987138
     ],
     "label": "science/algorithm"
   },
   {
-    "name": "F003",
+    "name": "F1003",
     "source": "science/ancestor.svg",
     "codepoints": [
-      61443
+      987139
     ],
     "label": "science/ancestor"
   },
   {
-    "name": "F004",
+    "name": "F1004",
     "source": "science/anger.svg",
     "codepoints": [
-      61444
+      987140
     ],
     "label": "science/anger"
   },
   {
-    "name": "F005",
+    "name": "F1005",
     "source": "science/architecture.svg",
     "codepoints": [
-      61445
+      987141
     ],
     "label": "science/architecture"
   },
   {
-    "name": "F006",
+    "name": "F1006",
     "source": "science/archive.svg",
     "codepoints": [
-      61446
+      987142
     ],
     "label": "science/archive"
   },
   {
-    "name": "F007",
+    "name": "F1007",
     "source": "science/argument.svg",
     "codepoints": [
-      61447
+      987143
     ],
     "label": "science/argument"
   },
   {
-    "name": "F008",
+    "name": "F1008",
     "source": "science/art.svg",
     "codepoints": [
-      61448
+      987144
     ],
     "label": "science/art"
   },
   {
-    "name": "F009",
+    "name": "F1009",
     "source": "science/awe.svg",
     "codepoints": [
-      61449
+      987145
     ],
     "label": "science/awe"
   },
   {
-    "name": "F00A",
+    "name": "F100A",
     "source": "science/balance.svg",
     "codepoints": [
-      61450
+      987146
     ],
     "label": "science/balance"
   },
   {
-    "name": "F00B",
+    "name": "F100B",
     "source": "science/beauty.svg",
     "codepoints": [
-      61451
+      987147
     ],
     "label": "science/beauty"
   },
   {
-    "name": "F00C",
+    "name": "F100C",
     "source": "science/because.svg",
     "codepoints": [
-      61452
+      987148
     ],
     "label": "science/because"
   },
   {
-    "name": "F00D",
+    "name": "F100D",
     "source": "science/being.svg",
     "codepoints": [
-      61453
+      987149
     ],
     "label": "science/being"
   },
   {
-    "name": "F00E",
+    "name": "F100E",
     "source": "science/belief.svg",
     "codepoints": [
-      61454
+      987150
     ],
     "label": "science/belief"
   },
   {
-    "name": "F00F",
+    "name": "F100F",
     "source": "science/body.svg",
     "codepoints": [
-      61455
+      987151
     ],
     "label": "science/body"
   },
   {
-    "name": "F010",
+    "name": "F1010",
     "source": "science/border.svg",
     "codepoints": [
-      61456
+      987152
     ],
     "label": "science/border"
   },
   {
-    "name": "F011",
+    "name": "F1011",
     "source": "science/calm.svg",
     "codepoints": [
-      61457
+      987153
     ],
     "label": "science/calm"
   },
   {
-    "name": "F012",
+    "name": "F1012",
     "source": "science/capital.svg",
     "codepoints": [
-      61458
+      987154
     ],
     "label": "science/capital"
   },
   {
-    "name": "F013",
+    "name": "F1013",
     "source": "science/care.svg",
     "codepoints": [
-      61459
+      987155
     ],
     "label": "science/care"
   },
   {
-    "name": "F014",
+    "name": "F1014",
     "source": "science/cause.svg",
     "codepoints": [
-      61460
+      987156
     ],
     "label": "science/cause"
   },
   {
-    "name": "F015",
+    "name": "F1015",
     "source": "science/century.svg",
     "codepoints": [
-      61461
+      987157
     ],
     "label": "science/century"
   },
   {
-    "name": "F016",
+    "name": "F1016",
     "source": "science/chaos.svg",
     "codepoints": [
-      61462
+      987158
     ],
     "label": "science/chaos"
   },
   {
-    "name": "F017",
+    "name": "F1017",
     "source": "science/climate.svg",
     "codepoints": [
-      61463
+      987159
     ],
     "label": "science/climate"
   },
   {
-    "name": "F018",
+    "name": "F1018",
     "source": "science/clinic.svg",
     "codepoints": [
-      61464
+      987160
     ],
     "label": "science/clinic"
   },
   {
-    "name": "F019",
+    "name": "F1019",
     "source": "science/code.svg",
     "codepoints": [
-      61465
+      987161
     ],
     "label": "science/code"
   },
   {
-    "name": "F01A",
+    "name": "F101A",
     "source": "science/community.svg",
     "codepoints": [
-      61466
+      987162
     ],
     "label": "science/community"
   },
   {
-    "name": "F01B",
+    "name": "F101B",
     "source": "science/compare.svg",
     "codepoints": [
-      61467
+      987163
     ],
     "label": "science/compare"
   },
   {
-    "name": "F01C",
+    "name": "F101C",
     "source": "science/conclusion.svg",
     "codepoints": [
-      61468
+      987164
     ],
     "label": "science/conclusion"
   },
   {
-    "name": "F01D",
+    "name": "F101D",
     "source": "science/conservation.svg",
     "codepoints": [
-      61469
+      987165
     ],
     "label": "science/conservation"
   },
   {
-    "name": "F01E",
+    "name": "F101E",
     "source": "science/constellation.svg",
     "codepoints": [
-      61470
+      987166
     ],
     "label": "science/constellation"
   },
   {
-    "name": "F01F",
+    "name": "F101F",
     "source": "science/contradiction.svg",
     "codepoints": [
-      61471
+      987167
     ],
     "label": "science/contradiction"
   },
   {
-    "name": "F020",
+    "name": "F1020",
     "source": "science/cosmos.svg",
     "codepoints": [
-      61472
+      987168
     ],
     "label": "science/cosmos"
   },
   {
-    "name": "F021",
+    "name": "F1021",
     "source": "science/count.svg",
     "codepoints": [
-      61473
+      987169
     ],
     "label": "science/count"
   },
   {
-    "name": "F022",
+    "name": "F1022",
     "source": "science/courage.svg",
     "codepoints": [
-      61474
+      987170
     ],
     "label": "science/courage"
   },
   {
-    "name": "F023",
+    "name": "F1023",
     "source": "science/craft.svg",
     "codepoints": [
-      61475
+      987171
     ],
     "label": "science/craft"
   },
   {
-    "name": "F024",
+    "name": "F1024",
     "source": "science/culture.svg",
     "codepoints": [
-      61476
+      987172
     ],
     "label": "science/culture"
   },
   {
-    "name": "F025",
+    "name": "F1025",
     "source": "science/curiosity.svg",
     "codepoints": [
-      61477
+      987173
     ],
     "label": "science/curiosity"
   },
   {
-    "name": "F026",
+    "name": "F1026",
     "source": "science/current.svg",
     "codepoints": [
-      61478
+      987174
     ],
     "label": "science/current"
   },
   {
-    "name": "F027",
+    "name": "F1027",
     "source": "science/cycle.svg",
     "codepoints": [
-      61479
+      987175
     ],
     "label": "science/cycle"
   },
   {
-    "name": "F028",
+    "name": "F1028",
     "source": "science/data.svg",
     "codepoints": [
-      61480
+      987176
     ],
     "label": "science/data"
   },
   {
-    "name": "F029",
+    "name": "F1029",
     "source": "science/day.svg",
     "codepoints": [
-      61481
+      987177
     ],
     "label": "science/day"
   },
   {
-    "name": "F02A",
+    "name": "F102A",
     "source": "science/death.svg",
     "codepoints": [
-      61482
+      987178
     ],
     "label": "science/death"
   },
   {
-    "name": "F02B",
+    "name": "F102B",
     "source": "science/decay.svg",
     "codepoints": [
-      61483
+      987179
     ],
     "label": "science/decay"
   },
   {
-    "name": "F02C",
+    "name": "F102C",
     "source": "science/demand.svg",
     "codepoints": [
-      61484
+      987180
     ],
     "label": "science/demand"
   },
   {
-    "name": "F02D",
+    "name": "F102D",
     "source": "science/design.svg",
     "codepoints": [
-      61485
+      987181
     ],
     "label": "science/design"
   },
   {
-    "name": "F02E",
+    "name": "F102E",
     "source": "science/destiny.svg",
     "codepoints": [
-      61486
+      987182
     ],
     "label": "science/destiny"
   },
   {
-    "name": "F02F",
+    "name": "F102F",
     "source": "science/dialogue.svg",
     "codepoints": [
-      61487
+      987183
     ],
     "label": "science/dialogue"
   },
   {
-    "name": "F030",
+    "name": "F1030",
     "source": "science/disaster.svg",
     "codepoints": [
-      61488
+      987184
     ],
     "label": "science/disaster"
   },
   {
-    "name": "F031",
+    "name": "F1031",
     "source": "science/discipline.svg",
     "codepoints": [
-      61489
+      987185
     ],
     "label": "science/discipline"
   },
   {
-    "name": "F032",
+    "name": "F1032",
     "source": "science/discovery.svg",
     "codepoints": [
-      61490
+      987186
     ],
     "label": "science/discovery"
   },
   {
-    "name": "F033",
+    "name": "F1033",
     "source": "science/diversity.svg",
     "codepoints": [
-      61491
+      987187
     ],
     "label": "science/diversity"
   },
   {
-    "name": "F034",
+    "name": "F1034",
     "source": "science/divide.svg",
     "codepoints": [
-      61492
+      987188
     ],
     "label": "science/divide"
   },
   {
-    "name": "F035",
+    "name": "F1035",
     "source": "science/doubt.svg",
     "codepoints": [
-      61493
+      987189
     ],
     "label": "science/doubt"
   },
   {
-    "name": "F036",
+    "name": "F1036",
     "source": "science/duty.svg",
     "codepoints": [
-      61494
+      987190
     ],
     "label": "science/duty"
   },
   {
-    "name": "F037",
+    "name": "F1037",
     "source": "science/east.svg",
     "codepoints": [
-      61495
+      987191
     ],
     "label": "science/east"
   },
   {
-    "name": "F038",
+    "name": "F1038",
     "source": "science/eclipse.svg",
     "codepoints": [
-      61496
+      987192
     ],
     "label": "science/eclipse"
   },
   {
-    "name": "F039",
+    "name": "F1039",
     "source": "science/ecosystem.svg",
     "codepoints": [
-      61497
+      987193
     ],
     "label": "science/ecosystem"
   },
   {
-    "name": "F03A",
+    "name": "F103A",
     "source": "science/effect.svg",
     "codepoints": [
-      61498
+      987194
     ],
     "label": "science/effect"
   },
   {
-    "name": "F03B",
+    "name": "F103B",
     "source": "science/eight.svg",
     "codepoints": [
-      61499
+      987195
     ],
     "label": "science/eight"
   },
   {
-    "name": "F03C",
+    "name": "F103C",
     "source": "science/emergence.svg",
     "codepoints": [
-      61500
+      987196
     ],
     "label": "science/emergence"
   },
   {
-    "name": "F03D",
+    "name": "F103D",
     "source": "science/empire.svg",
     "codepoints": [
-      61501
+      987197
     ],
     "label": "science/empire"
   },
   {
-    "name": "F03E",
+    "name": "F103E",
     "source": "science/engine.svg",
     "codepoints": [
-      61502
+      987198
     ],
     "label": "science/engine"
   },
   {
-    "name": "F03F",
+    "name": "F103F",
     "source": "science/engineering.svg",
     "codepoints": [
-      61503
+      987199
     ],
     "label": "science/engineering"
   },
   {
-    "name": "F040",
+    "name": "F1040",
     "source": "science/equal.svg",
     "codepoints": [
-      61504
+      987200
     ],
     "label": "science/equal"
   },
   {
-    "name": "F041",
+    "name": "F1041",
     "source": "science/era.svg",
     "codepoints": [
-      61505
+      987201
     ],
     "label": "science/era"
   },
   {
-    "name": "F042",
+    "name": "F1042",
     "source": "science/evaporation.svg",
     "codepoints": [
-      61506
+      987202
     ],
     "label": "science/evaporation"
   },
   {
-    "name": "F043",
+    "name": "F1043",
     "source": "science/evening.svg",
     "codepoints": [
-      61507
+      987203
     ],
     "label": "science/evening"
   },
   {
-    "name": "F044",
+    "name": "F1044",
     "source": "science/evidence.svg",
     "codepoints": [
-      61508
+      987204
     ],
     "label": "science/evidence"
   },
   {
-    "name": "F045",
+    "name": "F1045",
     "source": "science/evolution.svg",
     "codepoints": [
-      61509
+      987205
     ],
     "label": "science/evolution"
   },
   {
-    "name": "F046",
+    "name": "F1046",
     "source": "science/example.svg",
     "codepoints": [
-      61510
+      987206
     ],
     "label": "science/example"
   },
   {
-    "name": "F047",
+    "name": "F1047",
     "source": "science/exercise.svg",
     "codepoints": [
-      61511
+      987207
     ],
     "label": "science/exercise"
   },
   {
-    "name": "F048",
+    "name": "F1048",
     "source": "science/experiment.svg",
     "codepoints": [
-      61512
+      987208
     ],
     "label": "science/experiment"
   },
   {
-    "name": "F049",
+    "name": "F1049",
     "source": "science/explanation.svg",
     "codepoints": [
-      61513
+      987209
     ],
     "label": "science/explanation"
   },
   {
-    "name": "F04A",
+    "name": "F104A",
     "source": "science/exploration.svg",
     "codepoints": [
-      61514
+      987210
     ],
     "label": "science/exploration"
   },
   {
-    "name": "F04B",
+    "name": "F104B",
     "source": "science/expression.svg",
     "codepoints": [
-      61515
+      987211
     ],
     "label": "science/expression"
   },
   {
-    "name": "F04C",
+    "name": "F104C",
     "source": "science/extinction.svg",
     "codepoints": [
-      61516
+      987212
     ],
     "label": "science/extinction"
   },
   {
-    "name": "F04D",
+    "name": "F104D",
     "source": "science/fairness.svg",
     "codepoints": [
-      61517
+      987213
     ],
     "label": "science/fairness"
   },
   {
-    "name": "F04E",
+    "name": "F104E",
     "source": "science/fall.svg",
     "codepoints": [
-      61518
+      987214
     ],
     "label": "science/fall"
   },
   {
-    "name": "F04F",
+    "name": "F104F",
     "source": "science/fear.svg",
     "codepoints": [
-      61519
+      987215
     ],
     "label": "science/fear"
   },
   {
-    "name": "F050",
+    "name": "F1050",
     "source": "science/feedback.svg",
     "codepoints": [
-      61520
+      987216
     ],
     "label": "science/feedback"
   },
   {
-    "name": "F051",
+    "name": "F1051",
     "source": "science/five.svg",
     "codepoints": [
-      61521
+      987217
     ],
     "label": "science/five"
   },
   {
-    "name": "F052",
+    "name": "F1052",
     "source": "science/flow.svg",
     "codepoints": [
-      61522
+      987218
     ],
     "label": "science/flow"
   },
   {
-    "name": "F053",
+    "name": "F1053",
     "source": "science/foodchain.svg",
     "codepoints": [
-      61523
+      987219
     ],
     "label": "science/foodchain"
   },
   {
-    "name": "F054",
+    "name": "F1054",
     "source": "science/force.svg",
     "codepoints": [
-      61524
+      987220
     ],
     "label": "science/force"
   },
   {
-    "name": "F055",
+    "name": "F1055",
     "source": "science/fossil.svg",
     "codepoints": [
-      61525
+      987221
     ],
     "label": "science/fossil"
   },
   {
-    "name": "F056",
+    "name": "F1056",
     "source": "science/four.svg",
     "codepoints": [
-      61526
+      987222
     ],
     "label": "science/four"
   },
   {
-    "name": "F057",
+    "name": "F1057",
     "source": "science/fraction.svg",
     "codepoints": [
-      61527
+      987223
     ],
     "label": "science/fraction"
   },
   {
-    "name": "F058",
+    "name": "F1058",
     "source": "science/freeze.svg",
     "codepoints": [
-      61528
+      987224
     ],
     "label": "science/freeze"
   },
   {
-    "name": "F059",
+    "name": "F1059",
     "source": "science/frontier.svg",
     "codepoints": [
-      61529
+      987225
     ],
     "label": "science/frontier"
   },
   {
-    "name": "F05A",
+    "name": "F105A",
     "source": "science/future.svg",
     "codepoints": [
-      61530
+      987226
     ],
     "label": "science/future"
   },
   {
-    "name": "F05B",
+    "name": "F105B",
     "source": "science/galaxy.svg",
     "codepoints": [
-      61531
+      987227
     ],
     "label": "science/galaxy"
   },
   {
-    "name": "F05C",
+    "name": "F105C",
     "source": "science/generation.svg",
     "codepoints": [
-      61532
+      987228
     ],
     "label": "science/generation"
   },
   {
-    "name": "F05D",
+    "name": "F105D",
     "source": "science/generosity.svg",
     "codepoints": [
-      61533
+      987229
     ],
     "label": "science/generosity"
   },
   {
-    "name": "F05E",
+    "name": "F105E",
     "source": "science/gift.svg",
     "codepoints": [
-      61534
+      987230
     ],
     "label": "science/gift"
   },
   {
-    "name": "F05F",
+    "name": "F105F",
     "source": "science/globe.svg",
     "codepoints": [
-      61535
+      987231
     ],
     "label": "science/globe"
   },
   {
-    "name": "F060",
+    "name": "F1060",
     "source": "science/grammar.svg",
     "codepoints": [
-      61536
+      987232
     ],
     "label": "science/grammar"
   },
   {
-    "name": "F061",
+    "name": "F1061",
     "source": "science/grow.svg",
     "codepoints": [
-      61537
+      987233
     ],
     "label": "science/grow"
   },
   {
-    "name": "F062",
+    "name": "F1062",
     "source": "science/growth.svg",
     "codepoints": [
-      61538
+      987234
     ],
     "label": "science/growth"
   },
   {
-    "name": "F063",
+    "name": "F1063",
     "source": "science/guide.svg",
     "codepoints": [
-      61539
+      987235
     ],
     "label": "science/guide"
   },
   {
-    "name": "F064",
+    "name": "F1064",
     "source": "science/habitat.svg",
     "codepoints": [
-      61540
+      987236
     ],
     "label": "science/habitat"
   },
   {
-    "name": "F065",
+    "name": "F1065",
     "source": "science/harm.svg",
     "codepoints": [
-      61541
+      987237
     ],
     "label": "science/harm"
   },
   {
-    "name": "F066",
+    "name": "F1066",
     "source": "science/harmony.svg",
     "codepoints": [
-      61542
+      987238
     ],
     "label": "science/harmony"
   },
   {
-    "name": "F067",
+    "name": "F1067",
     "source": "science/harvest.svg",
     "codepoints": [
-      61543
+      987239
     ],
     "label": "science/harvest"
   },
   {
-    "name": "F068",
+    "name": "F1068",
     "source": "science/heat.svg",
     "codepoints": [
-      61544
+      987240
     ],
     "label": "science/heat"
   },
   {
-    "name": "F069",
+    "name": "F1069",
     "source": "science/hero.svg",
     "codepoints": [
-      61545
+      987241
     ],
     "label": "science/hero"
   },
   {
-    "name": "F06A",
+    "name": "F106A",
     "source": "science/history.svg",
     "codepoints": [
-      61546
+      987242
     ],
     "label": "science/history"
   },
   {
-    "name": "F06B",
+    "name": "F106B",
     "source": "science/holiday.svg",
     "codepoints": [
-      61547
+      987243
     ],
     "label": "science/holiday"
   },
   {
-    "name": "F06C",
+    "name": "F106C",
     "source": "science/honesty.svg",
     "codepoints": [
-      61548
+      987244
     ],
     "label": "science/honesty"
   },
   {
-    "name": "F06D",
+    "name": "F106D",
     "source": "science/hope.svg",
     "codepoints": [
-      61549
+      987245
     ],
     "label": "science/hope"
   },
   {
-    "name": "F06E",
+    "name": "F106E",
     "source": "science/horizon.svg",
     "codepoints": [
-      61550
+      987246
     ],
     "label": "science/horizon"
   },
   {
-    "name": "F06F",
+    "name": "F106F",
     "source": "science/how.svg",
     "codepoints": [
-      61551
+      987247
     ],
     "label": "science/how"
   },
   {
-    "name": "F070",
+    "name": "F1070",
     "source": "science/hygiene.svg",
     "codepoints": [
-      61552
+      987248
     ],
     "label": "science/hygiene"
   },
   {
-    "name": "F071",
+    "name": "F1071",
     "source": "science/hypothesis.svg",
     "codepoints": [
-      61553
+      987249
     ],
     "label": "science/hypothesis"
   },
   {
-    "name": "F072",
+    "name": "F1072",
     "source": "science/idea.svg",
     "codepoints": [
-      61554
+      987250
     ],
     "label": "science/idea"
   },
   {
-    "name": "F073",
+    "name": "F1073",
     "source": "science/if.svg",
     "codepoints": [
-      61555
+      987251
     ],
     "label": "science/if"
   },
   {
-    "name": "F074",
+    "name": "F1074",
     "source": "science/imagination.svg",
     "codepoints": [
-      61556
+      987252
     ],
     "label": "science/imagination"
   },
   {
-    "name": "F075",
+    "name": "F1075",
     "source": "science/infinity.svg",
     "codepoints": [
-      61557
+      987253
     ],
     "label": "science/infinity"
   },
   {
-    "name": "F076",
+    "name": "F1076",
     "source": "science/innovation.svg",
     "codepoints": [
-      61558
+      987254
     ],
     "label": "science/innovation"
   },
   {
-    "name": "F077",
+    "name": "F1077",
     "source": "science/inquiry.svg",
     "codepoints": [
-      61559
+      987255
     ],
     "label": "science/inquiry"
   },
   {
-    "name": "F078",
+    "name": "F1078",
     "source": "science/insight.svg",
     "codepoints": [
-      61560
+      987256
     ],
     "label": "science/insight"
   },
   {
-    "name": "F079",
+    "name": "F1079",
     "source": "science/interface.svg",
     "codepoints": [
-      61561
+      987257
     ],
     "label": "science/interface"
   },
   {
-    "name": "F07A",
+    "name": "F107A",
     "source": "science/invention.svg",
     "codepoints": [
-      61562
+      987258
     ],
     "label": "science/invention"
   },
   {
-    "name": "F07B",
+    "name": "F107B",
     "source": "science/journey.svg",
     "codepoints": [
-      61563
+      987259
     ],
     "label": "science/journey"
   },
   {
-    "name": "F07C",
+    "name": "F107C",
     "source": "science/joy.svg",
     "codepoints": [
-      61564
+      987260
     ],
     "label": "science/joy"
   },
   {
-    "name": "F07D",
+    "name": "F107D",
     "source": "science/justice.svg",
     "codepoints": [
-      61565
+      987261
     ],
     "label": "science/justice"
   },
   {
-    "name": "F07E",
+    "name": "F107E",
     "source": "science/knowledge.svg",
     "codepoints": [
-      61566
+      987262
     ],
     "label": "science/knowledge"
   },
   {
-    "name": "F07F",
+    "name": "F107F",
     "source": "science/labor.svg",
     "codepoints": [
-      61567
+      987263
     ],
     "label": "science/labor"
   },
   {
-    "name": "F080",
+    "name": "F1080",
     "source": "science/learning.svg",
     "codepoints": [
-      61568
+      987264
     ],
     "label": "science/learning"
   },
   {
-    "name": "F081",
+    "name": "F1081",
     "source": "science/legend.svg",
     "codepoints": [
-      61569
+      987265
     ],
     "label": "science/legend"
   },
   {
-    "name": "F082",
+    "name": "F1082",
     "source": "science/less.svg",
     "codepoints": [
-      61570
+      987266
     ],
     "label": "science/less"
   },
   {
-    "name": "F083",
+    "name": "F1083",
     "source": "science/lie.svg",
     "codepoints": [
-      61571
+      987267
     ],
     "label": "science/lie"
   },
   {
-    "name": "F084",
+    "name": "F1084",
     "source": "science/love.svg",
     "codepoints": [
-      61572
+      987268
     ],
     "label": "science/love"
   },
   {
-    "name": "F085",
+    "name": "F1085",
     "source": "science/many.svg",
     "codepoints": [
-      61573
+      987269
     ],
     "label": "science/many"
   },
   {
-    "name": "F086",
+    "name": "F1086",
     "source": "science/mastery.svg",
     "codepoints": [
-      61574
+      987270
     ],
     "label": "science/mastery"
   },
   {
-    "name": "F087",
+    "name": "F1087",
     "source": "science/meaning.svg",
     "codepoints": [
-      61575
+      987271
     ],
     "label": "science/meaning"
   },
   {
-    "name": "F088",
+    "name": "F1088",
     "source": "science/measure.svg",
     "codepoints": [
-      61576
+      987272
     ],
     "label": "science/measure"
   },
   {
-    "name": "F089",
+    "name": "F1089",
     "source": "science/medicine.svg",
     "codepoints": [
-      61577
+      987273
     ],
     "label": "science/medicine"
   },
   {
-    "name": "F08A",
+    "name": "F108A",
     "source": "science/melt.svg",
     "codepoints": [
-      61578
+      987274
     ],
     "label": "science/melt"
   },
   {
-    "name": "F08B",
+    "name": "F108B",
     "source": "science/memory.svg",
     "codepoints": [
-      61579
+      987275
     ],
     "label": "science/memory"
   },
   {
-    "name": "F08C",
+    "name": "F108C",
     "source": "science/mentor.svg",
     "codepoints": [
-      61580
+      987276
     ],
     "label": "science/mentor"
   },
   {
-    "name": "F08D",
+    "name": "F108D",
     "source": "science/metaphor.svg",
     "codepoints": [
-      61581
+      987277
     ],
     "label": "science/metaphor"
   },
   {
-    "name": "F08E",
+    "name": "F108E",
     "source": "science/migration.svg",
     "codepoints": [
-      61582
+      987278
     ],
     "label": "science/migration"
   },
   {
-    "name": "F08F",
+    "name": "F108F",
     "source": "science/mind.svg",
     "codepoints": [
-      61583
+      987279
     ],
     "label": "science/mind"
   },
   {
-    "name": "F090",
+    "name": "F1090",
     "source": "science/mist.svg",
     "codepoints": [
-      61584
+      987280
     ],
     "label": "science/mist"
   },
   {
-    "name": "F091",
+    "name": "F1091",
     "source": "science/mistake.svg",
     "codepoints": [
-      61585
+      987281
     ],
     "label": "science/mistake"
   },
   {
-    "name": "F092",
+    "name": "F1092",
     "source": "science/model.svg",
     "codepoints": [
-      61586
+      987282
     ],
     "label": "science/model"
   },
   {
-    "name": "F093",
+    "name": "F1093",
     "source": "science/month.svg",
     "codepoints": [
-      61587
+      987283
     ],
     "label": "science/month"
   },
   {
-    "name": "F094",
+    "name": "F1094",
     "source": "science/more.svg",
     "codepoints": [
-      61588
+      987284
     ],
     "label": "science/more"
   },
   {
-    "name": "F095",
+    "name": "F1095",
     "source": "science/morning.svg",
     "codepoints": [
-      61589
+      987285
     ],
     "label": "science/morning"
   },
   {
-    "name": "F096",
+    "name": "F1096",
     "source": "science/motion.svg",
     "codepoints": [
-      61590
+      987286
     ],
     "label": "science/motion"
   },
   {
-    "name": "F097",
+    "name": "F1097",
     "source": "science/multiply.svg",
     "codepoints": [
-      61591
+      987287
     ],
     "label": "science/multiply"
   },
   {
-    "name": "F098",
+    "name": "F1098",
     "source": "science/music.svg",
     "codepoints": [
-      61592
+      987288
     ],
     "label": "science/music"
   },
   {
-    "name": "F099",
+    "name": "F1099",
     "source": "science/mystery.svg",
     "codepoints": [
-      61593
+      987289
     ],
     "label": "science/mystery"
   },
   {
-    "name": "F09A",
+    "name": "F109A",
     "source": "science/nature.svg",
     "codepoints": [
-      61594
+      987290
     ],
     "label": "science/nature"
   },
   {
-    "name": "F09B",
+    "name": "F109B",
     "source": "science/network.svg",
     "codepoints": [
-      61595
+      987291
     ],
     "label": "science/network"
   },
   {
-    "name": "F09C",
+    "name": "F109C",
     "source": "science/night.svg",
     "codepoints": [
-      61596
+      987292
     ],
     "label": "science/night"
   },
   {
-    "name": "F09D",
+    "name": "F109D",
     "source": "science/nine.svg",
     "codepoints": [
-      61597
+      987293
     ],
     "label": "science/nine"
   },
   {
-    "name": "F09E",
+    "name": "F109E",
     "source": "science/none.svg",
     "codepoints": [
-      61598
+      987294
     ],
     "label": "science/none"
   },
   {
-    "name": "F09F",
+    "name": "F109F",
     "source": "science/north.svg",
     "codepoints": [
-      61599
+      987295
     ],
     "label": "science/north"
   },
   {
-    "name": "F0A0",
+    "name": "F10A0",
     "source": "science/noun.svg",
     "codepoints": [
-      61600
+      987296
     ],
     "label": "science/noun"
   },
   {
-    "name": "F0A1",
+    "name": "F10A1",
     "source": "science/nutrition.svg",
     "codepoints": [
-      61601
+      987297
     ],
     "label": "science/nutrition"
   },
   {
-    "name": "F0A2",
+    "name": "F10A2",
     "source": "science/observe.svg",
     "codepoints": [
-      61602
+      987298
     ],
     "label": "science/observe"
   },
   {
-    "name": "F0A3",
+    "name": "F10A3",
     "source": "science/one.svg",
     "codepoints": [
-      61603
+      987299
     ],
     "label": "science/one"
   },
   {
-    "name": "F0A4",
+    "name": "F10A4",
     "source": "science/orbit.svg",
     "codepoints": [
-      61604
+      987300
     ],
     "label": "science/orbit"
   },
   {
-    "name": "F0A5",
+    "name": "F10A5",
     "source": "science/origin.svg",
     "codepoints": [
-      61605
+      987301
     ],
     "label": "science/origin"
   },
   {
-    "name": "F0A6",
+    "name": "F10A6",
     "source": "science/other.svg",
     "codepoints": [
-      61606
+      987302
     ],
     "label": "science/other"
   },
   {
-    "name": "F0A7",
+    "name": "F10A7",
     "source": "science/painting.svg",
     "codepoints": [
-      61607
+      987303
     ],
     "label": "science/painting"
   },
   {
-    "name": "F0A8",
+    "name": "F10A8",
     "source": "science/paradox.svg",
     "codepoints": [
-      61608
+      987304
     ],
     "label": "science/paradox"
   },
   {
-    "name": "F0A9",
+    "name": "F10A9",
     "source": "science/past.svg",
     "codepoints": [
-      61609
+      987305
     ],
     "label": "science/past"
   },
   {
-    "name": "F0AA",
+    "name": "F10AA",
     "source": "science/path.svg",
     "codepoints": [
-      61610
+      987306
     ],
     "label": "science/path"
   },
   {
-    "name": "F0AB",
+    "name": "F10AB",
     "source": "science/pattern.svg",
     "codepoints": [
-      61611
+      987307
     ],
     "label": "science/pattern"
   },
   {
-    "name": "F0AC",
+    "name": "F10AC",
     "source": "science/performance.svg",
     "codepoints": [
-      61612
+      987308
     ],
     "label": "science/performance"
   },
   {
-    "name": "F0AD",
+    "name": "F10AD",
     "source": "science/plan.svg",
     "codepoints": [
-      61613
+      987309
     ],
     "label": "science/plan"
   },
   {
-    "name": "F0AE",
+    "name": "F10AE",
     "source": "science/planet.svg",
     "codepoints": [
-      61614
+      987310
     ],
     "label": "science/planet"
   },
   {
-    "name": "F0AF",
+    "name": "F10AF",
     "source": "science/poetry.svg",
     "codepoints": [
-      61615
+      987311
     ],
     "label": "science/poetry"
   },
   {
-    "name": "F0B0",
+    "name": "F10B0",
     "source": "science/pollution.svg",
     "codepoints": [
-      61616
+      987312
     ],
     "label": "science/pollution"
   },
   {
-    "name": "F0B1",
+    "name": "F10B1",
     "source": "science/possibility.svg",
     "codepoints": [
-      61617
+      987313
     ],
     "label": "science/possibility"
   },
   {
-    "name": "F0B2",
+    "name": "F10B2",
     "source": "science/poverty.svg",
     "codepoints": [
-      61618
+      987314
     ],
     "label": "science/poverty"
   },
   {
-    "name": "F0B3",
+    "name": "F10B3",
     "source": "science/practice.svg",
     "codepoints": [
-      61619
+      987315
     ],
     "label": "science/practice"
   },
   {
-    "name": "F0B4",
+    "name": "F10B4",
     "source": "science/present.svg",
     "codepoints": [
-      61620
+      987316
     ],
     "label": "science/present"
   },
   {
-    "name": "F0B5",
+    "name": "F10B5",
     "source": "science/prevention.svg",
     "codepoints": [
-      61621
+      987317
     ],
     "label": "science/prevention"
   },
   {
-    "name": "F0B6",
+    "name": "F10B6",
     "source": "science/price.svg",
     "codepoints": [
-      61622
+      987318
     ],
     "label": "science/price"
   },
   {
-    "name": "F0B7",
+    "name": "F10B7",
     "source": "science/pride.svg",
     "codepoints": [
-      61623
+      987319
     ],
     "label": "science/pride"
   },
   {
-    "name": "F0B8",
+    "name": "F10B8",
     "source": "science/production.svg",
     "codepoints": [
-      61624
+      987320
     ],
     "label": "science/production"
   },
   {
-    "name": "F0B9",
+    "name": "F10B9",
     "source": "science/program.svg",
     "codepoints": [
-      61625
+      987321
     ],
     "label": "science/program"
   },
   {
-    "name": "F0BA",
+    "name": "F10BA",
     "source": "science/promise.svg",
     "codepoints": [
-      61626
+      987322
     ],
     "label": "science/promise"
   },
   {
-    "name": "F0BB",
+    "name": "F10BB",
     "source": "science/proof.svg",
     "codepoints": [
-      61627
+      987323
     ],
     "label": "science/proof"
   },
   {
-    "name": "F0BC",
+    "name": "F10BC",
     "source": "science/protection.svg",
     "codepoints": [
-      61628
+      987324
     ],
     "label": "science/protection"
   },
   {
-    "name": "F0BD",
+    "name": "F10BD",
     "source": "science/question.svg",
     "codepoints": [
-      61629
+      987325
     ],
     "label": "science/question"
   },
   {
-    "name": "F0BE",
+    "name": "F10BE",
     "source": "science/reason.svg",
     "codepoints": [
-      61630
+      987326
     ],
     "label": "science/reason"
   },
   {
-    "name": "F0BF",
+    "name": "F10BF",
     "source": "science/record.svg",
     "codepoints": [
-      61631
+      987327
     ],
     "label": "science/record"
   },
   {
-    "name": "F0C0",
+    "name": "F10C0",
     "source": "science/recovery.svg",
     "codepoints": [
-      61632
+      987328
     ],
     "label": "science/recovery"
   },
   {
-    "name": "F0C1",
+    "name": "F10C1",
     "source": "science/relic.svg",
     "codepoints": [
-      61633
+      987329
     ],
     "label": "science/relic"
   },
   {
-    "name": "F0C2",
+    "name": "F10C2",
     "source": "science/renewal.svg",
     "codepoints": [
-      61634
+      987330
     ],
     "label": "science/renewal"
   },
   {
-    "name": "F0C3",
+    "name": "F10C3",
     "source": "science/repair.svg",
     "codepoints": [
-      61635
+      987331
     ],
     "label": "science/repair"
   },
   {
-    "name": "F0C4",
+    "name": "F10C4",
     "source": "science/research.svg",
     "codepoints": [
-      61636
+      987332
     ],
     "label": "science/research"
   },
   {
-    "name": "F0C5",
+    "name": "F10C5",
     "source": "science/reservoir.svg",
     "codepoints": [
-      61637
+      987333
     ],
     "label": "science/reservoir"
   },
   {
-    "name": "F0C6",
+    "name": "F10C6",
     "source": "science/resilience.svg",
     "codepoints": [
-      61638
+      987334
     ],
     "label": "science/resilience"
   },
   {
-    "name": "F0C7",
+    "name": "F10C7",
     "source": "science/resource.svg",
     "codepoints": [
-      61639
+      987335
     ],
     "label": "science/resource"
   },
   {
-    "name": "F0C8",
+    "name": "F10C8",
     "source": "science/respect.svg",
     "codepoints": [
-      61640
+      987336
     ],
     "label": "science/respect"
   },
   {
-    "name": "F0C9",
+    "name": "F10C9",
     "source": "science/responsibility.svg",
     "codepoints": [
-      61641
+      987337
     ],
     "label": "science/responsibility"
   },
   {
-    "name": "F0CA",
+    "name": "F10CA",
     "source": "science/result.svg",
     "codepoints": [
-      61642
+      987338
     ],
     "label": "science/result"
   },
   {
-    "name": "F0CB",
+    "name": "F10CB",
     "source": "science/return.svg",
     "codepoints": [
-      61643
+      987339
     ],
     "label": "science/return"
   },
   {
-    "name": "F0CC",
+    "name": "F10CC",
     "source": "science/revision.svg",
     "codepoints": [
-      61644
+      987340
     ],
     "label": "science/revision"
   },
   {
-    "name": "F0CD",
+    "name": "F10CD",
     "source": "science/rhyme.svg",
     "codepoints": [
-      61645
+      987341
     ],
     "label": "science/rhyme"
   },
   {
-    "name": "F0CE",
+    "name": "F10CE",
     "source": "science/risk.svg",
     "codepoints": [
-      61646
+      987342
     ],
     "label": "science/risk"
   },
   {
-    "name": "F0CF",
+    "name": "F10CF",
     "source": "science/ritual.svg",
     "codepoints": [
-      61647
+      987343
     ],
     "label": "science/ritual"
   },
   {
-    "name": "F0D0",
+    "name": "F10D0",
     "source": "science/rule.svg",
     "codepoints": [
-      61648
+      987344
     ],
     "label": "science/rule"
   },
   {
-    "name": "F0D1",
+    "name": "F10D1",
     "source": "science/sadness.svg",
     "codepoints": [
-      61649
+      987345
     ],
     "label": "science/sadness"
   },
   {
-    "name": "F0D2",
+    "name": "F10D2",
     "source": "science/scale.svg",
     "codepoints": [
-      61650
+      987346
     ],
     "label": "science/scale"
   },
   {
-    "name": "F0D3",
+    "name": "F10D3",
     "source": "science/scarcity.svg",
     "codepoints": [
-      61651
+      987347
     ],
     "label": "science/scarcity"
   },
   {
-    "name": "F0D4",
+    "name": "F10D4",
     "source": "science/scenario.svg",
     "codepoints": [
-      61652
+      987348
     ],
     "label": "science/scenario"
   },
   {
-    "name": "F0D5",
+    "name": "F10D5",
     "source": "science/science.svg",
     "codepoints": [
-      61653
+      987349
     ],
     "label": "science/science"
   },
   {
-    "name": "F0D6",
+    "name": "F10D6",
     "source": "science/search.svg",
     "codepoints": [
-      61654
+      987350
     ],
     "label": "science/search"
   },
   {
-    "name": "F0D7",
+    "name": "F10D7",
     "source": "science/season.svg",
     "codepoints": [
-      61655
+      987351
     ],
     "label": "science/season"
   },
   {
-    "name": "F0D8",
+    "name": "F10D8",
     "source": "science/self.svg",
     "codepoints": [
-      61656
+      987352
     ],
     "label": "science/self"
   },
   {
-    "name": "F0D9",
+    "name": "F10D9",
     "source": "science/sensor.svg",
     "codepoints": [
-      61657
+      987353
     ],
     "label": "science/sensor"
   },
   {
-    "name": "F0DA",
+    "name": "F10DA",
     "source": "science/sentence.svg",
     "codepoints": [
-      61658
+      987354
     ],
     "label": "science/sentence"
   },
   {
-    "name": "F0DB",
+    "name": "F10DB",
     "source": "science/sequence.svg",
     "codepoints": [
-      61659
+      987355
     ],
     "label": "science/sequence"
   },
   {
-    "name": "F0DC",
+    "name": "F10DC",
     "source": "science/server.svg",
     "codepoints": [
-      61660
+      987356
     ],
     "label": "science/server"
   },
   {
-    "name": "F0DD",
+    "name": "F10DD",
     "source": "science/seven.svg",
     "codepoints": [
-      61661
+      987357
     ],
     "label": "science/seven"
   },
   {
-    "name": "F0DE",
+    "name": "F10DE",
     "source": "science/shadow.svg",
     "codepoints": [
-      61662
+      987358
     ],
     "label": "science/shadow"
   },
   {
-    "name": "F0DF",
+    "name": "F10DF",
     "source": "science/shame.svg",
     "codepoints": [
-      61663
+      987359
     ],
     "label": "science/shame"
   },
   {
-    "name": "F0E0",
+    "name": "F10E0",
     "source": "science/shape.svg",
     "codepoints": [
-      61664
+      987360
     ],
     "label": "science/shape"
   },
   {
-    "name": "F0E1",
+    "name": "F10E1",
     "source": "science/signal.svg",
     "codepoints": [
-      61665
+      987361
     ],
     "label": "science/signal"
   },
   {
-    "name": "F0E2",
+    "name": "F10E2",
     "source": "science/six.svg",
     "codepoints": [
-      61666
+      987362
     ],
     "label": "science/six"
   },
   {
-    "name": "F0E3",
+    "name": "F10E3",
     "source": "science/skill.svg",
     "codepoints": [
-      61667
+      987363
     ],
     "label": "science/skill"
   },
   {
-    "name": "F0E4",
+    "name": "F10E4",
     "source": "science/solar.svg",
     "codepoints": [
-      61668
+      987364
     ],
     "label": "science/solar"
   },
   {
-    "name": "F0E5",
+    "name": "F10E5",
     "source": "science/south.svg",
     "codepoints": [
-      61669
+      987365
     ],
     "label": "science/south"
   },
   {
-    "name": "F0E6",
+    "name": "F10E6",
     "source": "science/spark.svg",
     "codepoints": [
-      61670
+      987366
     ],
     "label": "science/spark"
   },
   {
-    "name": "F0E7",
+    "name": "F10E7",
     "source": "science/species.svg",
     "codepoints": [
-      61671
+      987367
     ],
     "label": "science/species"
   },
   {
-    "name": "F0E8",
+    "name": "F10E8",
     "source": "science/spirit.svg",
     "codepoints": [
-      61672
+      987368
     ],
     "label": "science/spirit"
   },
   {
-    "name": "F0E9",
+    "name": "F10E9",
     "source": "science/stewardship.svg",
     "codepoints": [
-      61673
+      987369
     ],
     "label": "science/stewardship"
   },
   {
-    "name": "F0EA",
+    "name": "F10EA",
     "source": "science/story.svg",
     "codepoints": [
-      61674
+      987370
     ],
     "label": "science/story"
   },
   {
-    "name": "F0EB",
+    "name": "F10EB",
     "source": "science/storytelling.svg",
     "codepoints": [
-      61675
+      987371
     ],
     "label": "science/storytelling"
   },
   {
-    "name": "F0EC",
+    "name": "F10EC",
     "source": "science/study.svg",
     "codepoints": [
-      61676
+      987372
     ],
     "label": "science/study"
   },
   {
-    "name": "F0ED",
+    "name": "F10ED",
     "source": "science/style.svg",
     "codepoints": [
-      61677
+      987373
     ],
     "label": "science/style"
   },
   {
-    "name": "F0EE",
+    "name": "F10EE",
     "source": "science/subtract.svg",
     "codepoints": [
-      61678
+      987374
     ],
     "label": "science/subtract"
   },
   {
-    "name": "F0EF",
+    "name": "F10EF",
     "source": "science/sunset.svg",
     "codepoints": [
-      61679
+      987375
     ],
     "label": "science/sunset"
   },
   {
-    "name": "F0F0",
+    "name": "F10F0",
     "source": "science/supply.svg",
     "codepoints": [
-      61680
+      987376
     ],
     "label": "science/supply"
   },
   {
-    "name": "F0F1",
+    "name": "F10F1",
     "source": "science/surplus.svg",
     "codepoints": [
-      61681
+      987377
     ],
     "label": "science/surplus"
   },
   {
-    "name": "F0F2",
+    "name": "F10F2",
     "source": "science/surprise.svg",
     "codepoints": [
-      61682
+      987378
     ],
     "label": "science/surprise"
   },
   {
-    "name": "F0F3",
+    "name": "F10F3",
     "source": "science/sustainability.svg",
     "codepoints": [
-      61683
+      987379
     ],
     "label": "science/sustainability"
   },
   {
-    "name": "F0F4",
+    "name": "F10F4",
     "source": "science/symbol.svg",
     "codepoints": [
-      61684
+      987380
     ],
     "label": "science/symbol"
   },
   {
-    "name": "F0F5",
+    "name": "F10F5",
     "source": "science/synthesis.svg",
     "codepoints": [
-      61685
+      987381
     ],
     "label": "science/synthesis"
   },
   {
-    "name": "F0F6",
+    "name": "F10F6",
     "source": "science/technology.svg",
     "codepoints": [
-      61686
+      987382
     ],
     "label": "science/technology"
   },
   {
-    "name": "F0F7",
+    "name": "F10F7",
     "source": "science/ten.svg",
     "codepoints": [
-      61687
+      987383
     ],
     "label": "science/ten"
   },
   {
-    "name": "F0F8",
+    "name": "F10F8",
     "source": "science/test.svg",
     "codepoints": [
-      61688
+      987384
     ],
     "label": "science/test"
   },
   {
-    "name": "F0F9",
+    "name": "F10F9",
     "source": "science/thaw.svg",
     "codepoints": [
-      61689
+      987385
     ],
     "label": "science/thaw"
   },
   {
-    "name": "F0FA",
+    "name": "F10FA",
     "source": "science/then.svg",
     "codepoints": [
-      61690
+      987386
     ],
     "label": "science/then"
   },
   {
-    "name": "F0FB",
+    "name": "F10FB",
     "source": "science/theory.svg",
     "codepoints": [
-      61691
+      987387
     ],
     "label": "science/theory"
   },
   {
-    "name": "F0FC",
+    "name": "F10FC",
     "source": "science/therapy.svg",
     "codepoints": [
-      61692
+      987388
     ],
     "label": "science/therapy"
   },
   {
-    "name": "F0FD",
+    "name": "F10FD",
     "source": "science/three.svg",
     "codepoints": [
-      61693
+      987389
     ],
     "label": "science/three"
   },
   {
-    "name": "F0FE",
+    "name": "F10FE",
     "source": "science/threshold.svg",
     "codepoints": [
-      61694
+      987390
     ],
     "label": "science/threshold"
   },
   {
-    "name": "F0FF",
+    "name": "F10FF",
     "source": "science/timeline.svg",
     "codepoints": [
-      61695
+      987391
     ],
     "label": "science/timeline"
   },
   {
-    "name": "F100",
+    "name": "F1100",
     "source": "science/today.svg",
     "codepoints": [
-      61696
+      987392
     ],
     "label": "science/today"
   },
   {
-    "name": "F101",
+    "name": "F1101",
     "source": "science/tomorrow.svg",
     "codepoints": [
-      61697
+      987393
     ],
     "label": "science/tomorrow"
   },
   {
-    "name": "F102",
+    "name": "F1102",
     "source": "science/tool.svg",
     "codepoints": [
-      61698
+      987394
     ],
     "label": "science/tool"
   },
   {
-    "name": "F103",
+    "name": "F1103",
     "source": "science/tradition.svg",
     "codepoints": [
-      61699
+      987395
     ],
     "label": "science/tradition"
   },
   {
-    "name": "F104",
+    "name": "F1104",
     "source": "science/transformation.svg",
     "codepoints": [
-      61700
+      987396
     ],
     "label": "science/transformation"
   },
   {
-    "name": "F105",
+    "name": "F1105",
     "source": "science/translation.svg",
     "codepoints": [
-      61701
+      987397
     ],
     "label": "science/translation"
   },
   {
-    "name": "F106",
+    "name": "F1106",
     "source": "science/trust.svg",
     "codepoints": [
-      61702
+      987398
     ],
     "label": "science/trust"
   },
   {
-    "name": "F107",
+    "name": "F1107",
     "source": "science/truth.svg",
     "codepoints": [
-      61703
+      987399
     ],
     "label": "science/truth"
   },
   {
-    "name": "F108",
+    "name": "F1108",
     "source": "science/two.svg",
     "codepoints": [
-      61704
+      987400
     ],
     "label": "science/two"
   },
   {
-    "name": "F109",
+    "name": "F1109",
     "source": "science/universe.svg",
     "codepoints": [
-      61705
+      987401
     ],
     "label": "science/universe"
   },
   {
-    "name": "F10A",
+    "name": "F110A",
     "source": "science/vaccine.svg",
     "codepoints": [
-      61706
+      987402
     ],
     "label": "science/vaccine"
   },
   {
-    "name": "F10B",
+    "name": "F110B",
     "source": "science/verb.svg",
     "codepoints": [
-      61707
+      987403
     ],
     "label": "science/verb"
   },
   {
-    "name": "F10C",
+    "name": "F110C",
     "source": "science/village.svg",
     "codepoints": [
-      61708
+      987404
     ],
     "label": "science/village"
   },
   {
-    "name": "F10D",
+    "name": "F110D",
     "source": "science/voice.svg",
     "codepoints": [
-      61709
+      987405
     ],
     "label": "science/voice"
   },
   {
-    "name": "F10E",
+    "name": "F110E",
     "source": "science/wealth.svg",
     "codepoints": [
-      61710
+      987406
     ],
     "label": "science/wealth"
   },
   {
-    "name": "F10F",
+    "name": "F110F",
     "source": "science/week.svg",
     "codepoints": [
-      61711
+      987407
     ],
     "label": "science/week"
   },
   {
-    "name": "F110",
+    "name": "F1110",
     "source": "science/well.svg",
     "codepoints": [
-      61712
+      987408
     ],
     "label": "science/well"
   },
   {
-    "name": "F111",
+    "name": "F1111",
     "source": "science/west.svg",
     "codepoints": [
-      61713
+      987409
     ],
     "label": "science/west"
   },
   {
-    "name": "F112",
+    "name": "F1112",
     "source": "science/what.svg",
     "codepoints": [
-      61714
+      987410
     ],
     "label": "science/what"
   },
   {
-    "name": "F113",
+    "name": "F1113",
     "source": "science/when.svg",
     "codepoints": [
-      61715
+      987411
     ],
     "label": "science/when"
   },
   {
-    "name": "F114",
+    "name": "F1114",
     "source": "science/where.svg",
     "codepoints": [
-      61716
+      987412
     ],
     "label": "science/where"
   },
   {
-    "name": "F115",
+    "name": "F1115",
     "source": "science/who.svg",
     "codepoints": [
-      61717
+      987413
     ],
     "label": "science/who"
   },
   {
-    "name": "F116",
+    "name": "F1116",
     "source": "science/why.svg",
     "codepoints": [
-      61718
+      987414
     ],
     "label": "science/why"
   },
   {
-    "name": "F117",
+    "name": "F1117",
     "source": "science/windmill.svg",
     "codepoints": [
-      61719
+      987415
     ],
     "label": "science/windmill"
   },
   {
-    "name": "F118",
+    "name": "F1118",
     "source": "science/wisdom.svg",
     "codepoints": [
-      61720
+      987416
     ],
     "label": "science/wisdom"
   },
   {
-    "name": "F119",
+    "name": "F1119",
     "source": "science/wonder.svg",
     "codepoints": [
-      61721
+      987417
     ],
     "label": "science/wonder"
   },
   {
-    "name": "F11A",
+    "name": "F111A",
     "source": "science/year.svg",
     "codepoints": [
-      61722
+      987418
     ],
     "label": "science/year"
   },
   {
-    "name": "F11B",
+    "name": "F111B",
     "source": "science/yesterday.svg",
     "codepoints": [
-      61723
+      987419
     ],
     "label": "science/yesterday"
   },
   {
-    "name": "F200",
+    "name": "F1200",
     "source": "weather_sky/breeze.svg",
     "codepoints": [
-      61952
+      987648
     ],
     "label": "weather_sky/breeze"
   },
   {
-    "name": "F201",
+    "name": "F1201",
     "source": "weather_sky/drizzle.svg",
     "codepoints": [
-      61953
+      987649
     ],
     "label": "weather_sky/drizzle"
   },
   {
-    "name": "F202",
+    "name": "F1202",
     "source": "weather_sky/frost.svg",
     "codepoints": [
-      61954
+      987650
     ],
     "label": "weather_sky/frost"
   },
   {
-    "name": "F203",
+    "name": "F1203",
     "source": "weather_sky/heat.svg",
     "codepoints": [
-      61955
+      987651
     ],
     "label": "weather_sky/heat"
   },
   {
-    "name": "F204",
+    "name": "F1204",
     "source": "weather_sky/ice.svg",
     "codepoints": [
-      61956
+      987652
     ],
     "label": "weather_sky/ice"
   },
   {
-    "name": "F205",
+    "name": "F1205",
     "source": "weather_sky/lightning.svg",
     "codepoints": [
-      61957
+      987653
     ],
     "label": "weather_sky/lightning"
   },
   {
-    "name": "F206",
+    "name": "F1206",
     "source": "weather_sky/puddle.svg",
     "codepoints": [
-      61958
+      987654
     ],
     "label": "weather_sky/puddle"
   },
   {
-    "name": "F207",
+    "name": "F1207",
     "source": "weather_sky/shade.svg",
     "codepoints": [
-      61959
+      987655
     ],
     "label": "weather_sky/shade"
   },
   {
-    "name": "F208",
+    "name": "F1208",
     "source": "weather_sky/sky.svg",
     "codepoints": [
-      61960
+      987656
     ],
     "label": "weather_sky/sky"
   },
   {
-    "name": "F209",
+    "name": "F1209",
     "source": "weather_sky/storm.svg",
     "codepoints": [
-      61961
+      987657
     ],
     "label": "weather_sky/storm"
   },
   {
-    "name": "F20A",
+    "name": "F120A",
     "source": "weather_sky/thunder.svg",
     "codepoints": [
-      61962
+      987658
     ],
     "label": "weather_sky/thunder"
   }

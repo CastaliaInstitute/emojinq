@@ -14,7 +14,7 @@ from pathlib import Path
 
 
 INK = "#262421"
-PUA_START = 0xF300  # kept clear of the existing PUA study corpus (U+E000–U+F20A)
+PUA_START = 0xF1300  # follows the existing Supplementary PUA corpus (U+F0000–U+F120A)
 
 
 def svg(name: str, body: str) -> str:

@@ -5,7 +5,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "zodiac-aries.svg",
     "codepoints": [
-      62208
+      987904
     ],
     "private_use": true
   },
@@ -15,7 +15,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "zodiac-taurus.svg",
     "codepoints": [
-      62209
+      987905
     ],
     "private_use": true
   },
@@ -25,7 +25,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "zodiac-gemini.svg",
     "codepoints": [
-      62210
+      987906
     ],
     "private_use": true
   },
@@ -35,7 +35,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "zodiac-cancer.svg",
     "codepoints": [
-      62211
+      987907
     ],
     "private_use": true
   },
@@ -45,7 +45,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "zodiac-leo.svg",
     "codepoints": [
-      62212
+      987908
     ],
     "private_use": true
   },
@@ -55,7 +55,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "zodiac-virgo.svg",
     "codepoints": [
-      62213
+      987909
     ],
     "private_use": true
   },
@@ -65,7 +65,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "zodiac-libra.svg",
     "codepoints": [
-      62214
+      987910
     ],
     "private_use": true
   },
@@ -75,7 +75,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "zodiac-scorpio.svg",
     "codepoints": [
-      62215
+      987911
     ],
     "private_use": true
   },
@@ -85,7 +85,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "zodiac-sagittarius.svg",
     "codepoints": [
-      62216
+      987912
     ],
     "private_use": true
   },
@@ -95,7 +95,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "zodiac-capricorn.svg",
     "codepoints": [
-      62217
+      987913
     ],
     "private_use": true
   },
@@ -105,7 +105,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "zodiac-aquarius.svg",
     "codepoints": [
-      62218
+      987914
     ],
     "private_use": true
   },
@@ -115,7 +115,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "zodiac-pisces.svg",
     "codepoints": [
-      62219
+      987915
     ],
     "private_use": true
   },
@@ -125,7 +125,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "planet-sun.svg",
     "codepoints": [
-      62220
+      987916
     ],
     "private_use": true
   },
@@ -135,7 +135,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "planet-moon.svg",
     "codepoints": [
-      62221
+      987917
     ],
     "private_use": true
   },
@@ -145,7 +145,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "planet-mercury.svg",
     "codepoints": [
-      62222
+      987918
     ],
     "private_use": true
   },
@@ -155,7 +155,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "planet-venus.svg",
     "codepoints": [
-      62223
+      987919
     ],
     "private_use": true
   },
@@ -165,7 +165,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "planet-mars.svg",
     "codepoints": [
-      62224
+      987920
     ],
     "private_use": true
   },
@@ -175,7 +175,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "planet-jupiter.svg",
     "codepoints": [
-      62225
+      987921
     ],
     "private_use": true
   },
@@ -185,7 +185,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "planet-saturn.svg",
     "codepoints": [
-      62226
+      987922
     ],
     "private_use": true
   },
@@ -195,7 +195,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "planet-uranus.svg",
     "codepoints": [
-      62227
+      987923
     ],
     "private_use": true
   },
@@ -205,7 +205,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "planet-neptune.svg",
     "codepoints": [
-      62228
+      987924
     ],
     "private_use": true
   },
@@ -215,7 +215,7 @@
     "group": "PUA \u00b7 Astrology",
     "source": "planet-pluto.svg",
     "codepoints": [
-      62229
+      987925
     ],
     "private_use": true
   },
@@ -225,7 +225,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-fool.svg",
     "codepoints": [
-      62230
+      987926
     ],
     "private_use": true
   },
@@ -235,7 +235,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-magician.svg",
     "codepoints": [
-      62231
+      987927
     ],
     "private_use": true
   },
@@ -245,7 +245,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-high-priestess.svg",
     "codepoints": [
-      62232
+      987928
     ],
     "private_use": true
   },
@@ -255,7 +255,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-empress.svg",
     "codepoints": [
-      62233
+      987929
     ],
     "private_use": true
   },
@@ -265,7 +265,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-emperor.svg",
     "codepoints": [
-      62234
+      987930
     ],
     "private_use": true
   },
@@ -275,7 +275,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-hierophant.svg",
     "codepoints": [
-      62235
+      987931
     ],
     "private_use": true
   },
@@ -285,7 +285,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-lovers.svg",
     "codepoints": [
-      62236
+      987932
     ],
     "private_use": true
   },
@@ -295,7 +295,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-chariot.svg",
     "codepoints": [
-      62237
+      987933
     ],
     "private_use": true
   },
@@ -305,7 +305,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-strength.svg",
     "codepoints": [
-      62238
+      987934
     ],
     "private_use": true
   },
@@ -315,7 +315,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-hermit.svg",
     "codepoints": [
-      62239
+      987935
     ],
     "private_use": true
   },
@@ -325,7 +325,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-wheel-of-fortune.svg",
     "codepoints": [
-      62240
+      987936
     ],
     "private_use": true
   },
@@ -335,7 +335,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-justice.svg",
     "codepoints": [
-      62241
+      987937
     ],
     "private_use": true
   },
@@ -345,7 +345,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-hanged-man.svg",
     "codepoints": [
-      62242
+      987938
     ],
     "private_use": true
   },
@@ -355,7 +355,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-death.svg",
     "codepoints": [
-      62243
+      987939
     ],
     "private_use": true
   },
@@ -365,7 +365,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-temperance.svg",
     "codepoints": [
-      62244
+      987940
     ],
     "private_use": true
   },
@@ -375,7 +375,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-devil.svg",
     "codepoints": [
-      62245
+      987941
     ],
     "private_use": true
   },
@@ -385,7 +385,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-tower.svg",
     "codepoints": [
-      62246
+      987942
     ],
     "private_use": true
   },
@@ -395,7 +395,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-star.svg",
     "codepoints": [
-      62247
+      987943
     ],
     "private_use": true
   },
@@ -405,7 +405,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-moon.svg",
     "codepoints": [
-      62248
+      987944
     ],
     "private_use": true
   },
@@ -415,7 +415,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-sun.svg",
     "codepoints": [
-      62249
+      987945
     ],
     "private_use": true
   },
@@ -425,7 +425,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-judgement.svg",
     "codepoints": [
-      62250
+      987946
     ],
     "private_use": true
   },
@@ -435,7 +435,7 @@
     "group": "PUA \u00b7 Tarot",
     "source": "tarot-the-world.svg",
     "codepoints": [
-      62251
+      987947
     ],
     "private_use": true
   }
