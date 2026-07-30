@@ -14,7 +14,7 @@ from pathlib import Path
 
 
 INK = "#262421"
-PUA_START = 0xE10E  # first 44-codepoint gap in the OpenMoji-derived corpus
+PUA_START = 0xF300  # kept clear of the existing PUA study corpus (U+E000–U+F20A)
 
 
 def svg(name: str, body: str) -> str:
@@ -94,7 +94,7 @@ def main() -> None:
         path = args.output / f"{key}.svg"
         path.write_text(svg(key.replace("-", " ").title(), body), encoding="utf-8")
         family, label = key.split("-", 1)
-        group = "Tarot" if family == "tarot" else "Astrology"
+        group = "PUA · Tarot" if family == "tarot" else "PUA · Astrology"
         entries.append({
             "name": key,
             "label": label.replace("-", " ").title(),

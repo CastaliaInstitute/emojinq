@@ -1,0 +1,5594 @@
+[
+  {
+    "name": "E000",
+    "source": "animals/calf.svg",
+    "codepoints": [
+      57344
+    ],
+    "label": "animals/calf"
+  },
+  {
+    "name": "E001",
+    "source": "animals/colony.svg",
+    "codepoints": [
+      57345
+    ],
+    "label": "animals/colony"
+  },
+  {
+    "name": "E002",
+    "source": "animals/flock.svg",
+    "codepoints": [
+      57346
+    ],
+    "label": "animals/flock"
+  },
+  {
+    "name": "E003",
+    "source": "animals/herd.svg",
+    "codepoints": [
+      57347
+    ],
+    "label": "animals/herd"
+  },
+  {
+    "name": "E004",
+    "source": "animals/lamb.svg",
+    "codepoints": [
+      57348
+    ],
+    "label": "animals/lamb"
+  },
+  {
+    "name": "E005",
+    "source": "animals/migration.svg",
+    "codepoints": [
+      57349
+    ],
+    "label": "animals/migration"
+  },
+  {
+    "name": "E006",
+    "source": "animals/pack.svg",
+    "codepoints": [
+      57350
+    ],
+    "label": "animals/pack"
+  },
+  {
+    "name": "E007",
+    "source": "animals/predator.svg",
+    "codepoints": [
+      57351
+    ],
+    "label": "animals/predator"
+  },
+  {
+    "name": "E008",
+    "source": "animals/prey.svg",
+    "codepoints": [
+      57352
+    ],
+    "label": "animals/prey"
+  },
+  {
+    "name": "E009",
+    "source": "animals/squirrel.svg",
+    "codepoints": [
+      57353
+    ],
+    "label": "animals/squirrel"
+  },
+  {
+    "name": "E200",
+    "source": "body/blood.svg",
+    "codepoints": [
+      57856
+    ],
+    "label": "body/blood"
+  },
+  {
+    "name": "E201",
+    "source": "body/bones.svg",
+    "codepoints": [
+      57857
+    ],
+    "label": "body/bones"
+  },
+  {
+    "name": "E202",
+    "source": "body/bounce.svg",
+    "codepoints": [
+      57858
+    ],
+    "label": "body/bounce"
+  },
+  {
+    "name": "E203",
+    "source": "body/breath.svg",
+    "codepoints": [
+      57859
+    ],
+    "label": "body/breath"
+  },
+  {
+    "name": "E204",
+    "source": "body/clap.svg",
+    "codepoints": [
+      57860
+    ],
+    "label": "body/clap"
+  },
+  {
+    "name": "E205",
+    "source": "body/crawl.svg",
+    "codepoints": [
+      57861
+    ],
+    "label": "body/crawl"
+  },
+  {
+    "name": "E206",
+    "source": "body/digestion.svg",
+    "codepoints": [
+      57862
+    ],
+    "label": "body/digestion"
+  },
+  {
+    "name": "E207",
+    "source": "body/grab.svg",
+    "codepoints": [
+      57863
+    ],
+    "label": "body/grab"
+  },
+  {
+    "name": "E208",
+    "source": "body/kick.svg",
+    "codepoints": [
+      57864
+    ],
+    "label": "body/kick"
+  },
+  {
+    "name": "E209",
+    "source": "body/muscles.svg",
+    "codepoints": [
+      57865
+    ],
+    "label": "body/muscles"
+  },
+  {
+    "name": "E20A",
+    "source": "body/nerves.svg",
+    "codepoints": [
+      57866
+    ],
+    "label": "body/nerves"
+  },
+  {
+    "name": "E20B",
+    "source": "body/pull.svg",
+    "codepoints": [
+      57867
+    ],
+    "label": "body/pull"
+  },
+  {
+    "name": "E20C",
+    "source": "body/pulse.svg",
+    "codepoints": [
+      57868
+    ],
+    "label": "body/pulse"
+  },
+  {
+    "name": "E20D",
+    "source": "body/push.svg",
+    "codepoints": [
+      57869
+    ],
+    "label": "body/push"
+  },
+  {
+    "name": "E20E",
+    "source": "body/reach.svg",
+    "codepoints": [
+      57870
+    ],
+    "label": "body/reach"
+  },
+  {
+    "name": "E20F",
+    "source": "body/roll.svg",
+    "codepoints": [
+      57871
+    ],
+    "label": "body/roll"
+  },
+  {
+    "name": "E210",
+    "source": "body/shake.svg",
+    "codepoints": [
+      57872
+    ],
+    "label": "body/shake"
+  },
+  {
+    "name": "E211",
+    "source": "body/skin.svg",
+    "codepoints": [
+      57873
+    ],
+    "label": "body/skin"
+  },
+  {
+    "name": "E212",
+    "source": "body/stomach.svg",
+    "codepoints": [
+      57874
+    ],
+    "label": "body/stomach"
+  },
+  {
+    "name": "E213",
+    "source": "body/walk.svg",
+    "codepoints": [
+      57875
+    ],
+    "label": "body/walk"
+  },
+  {
+    "name": "E214",
+    "source": "body/wave.svg",
+    "codepoints": [
+      57876
+    ],
+    "label": "body/wave"
+  },
+  {
+    "name": "E400",
+    "source": "locations/academy.svg",
+    "codepoints": [
+      58368
+    ],
+    "label": "locations/academy"
+  },
+  {
+    "name": "E401",
+    "source": "locations/archive.svg",
+    "codepoints": [
+      58369
+    ],
+    "label": "locations/archive"
+  },
+  {
+    "name": "E402",
+    "source": "locations/bakery.svg",
+    "codepoints": [
+      58370
+    ],
+    "label": "locations/bakery"
+  },
+  {
+    "name": "E403",
+    "source": "locations/barn.svg",
+    "codepoints": [
+      58371
+    ],
+    "label": "locations/barn"
+  },
+  {
+    "name": "E404",
+    "source": "locations/bench.svg",
+    "codepoints": [
+      58372
+    ],
+    "label": "locations/bench"
+  },
+  {
+    "name": "E405",
+    "source": "locations/burrow.svg",
+    "codepoints": [
+      58373
+    ],
+    "label": "locations/burrow"
+  },
+  {
+    "name": "E406",
+    "source": "locations/cafe.svg",
+    "codepoints": [
+      58374
+    ],
+    "label": "locations/cafe"
+  },
+  {
+    "name": "E407",
+    "source": "locations/canyon.svg",
+    "codepoints": [
+      58375
+    ],
+    "label": "locations/canyon"
+  },
+  {
+    "name": "E408",
+    "source": "locations/cave.svg",
+    "codepoints": [
+      58376
+    ],
+    "label": "locations/cave"
+  },
+  {
+    "name": "E409",
+    "source": "locations/ceiling.svg",
+    "codepoints": [
+      58377
+    ],
+    "label": "locations/ceiling"
+  },
+  {
+    "name": "E40A",
+    "source": "locations/china.svg",
+    "codepoints": [
+      58378
+    ],
+    "label": "locations/china"
+  },
+  {
+    "name": "E40B",
+    "source": "locations/coast.svg",
+    "codepoints": [
+      58379
+    ],
+    "label": "locations/coast"
+  },
+  {
+    "name": "E40C",
+    "source": "locations/crossing.svg",
+    "codepoints": [
+      58380
+    ],
+    "label": "locations/crossing"
+  },
+  {
+    "name": "E40D",
+    "source": "locations/delta.svg",
+    "codepoints": [
+      58381
+    ],
+    "label": "locations/delta"
+  },
+  {
+    "name": "E40E",
+    "source": "locations/den.svg",
+    "codepoints": [
+      58382
+    ],
+    "label": "locations/den"
+  },
+  {
+    "name": "E40F",
+    "source": "locations/dock.svg",
+    "codepoints": [
+      58383
+    ],
+    "label": "locations/dock"
+  },
+  {
+    "name": "E410",
+    "source": "locations/egypt.svg",
+    "codepoints": [
+      58384
+    ],
+    "label": "locations/egypt"
+  },
+  {
+    "name": "E411",
+    "source": "locations/encyclopedia.svg",
+    "codepoints": [
+      58385
+    ],
+    "label": "locations/encyclopedia"
+  },
+  {
+    "name": "E412",
+    "source": "locations/europe.svg",
+    "codepoints": [
+      58386
+    ],
+    "label": "locations/europe"
+  },
+  {
+    "name": "E413",
+    "source": "locations/forum.svg",
+    "codepoints": [
+      58387
+    ],
+    "label": "locations/forum"
+  },
+  {
+    "name": "E414",
+    "source": "locations/glacier.svg",
+    "codepoints": [
+      58388
+    ],
+    "label": "locations/glacier"
+  },
+  {
+    "name": "E415",
+    "source": "locations/graph.svg",
+    "codepoints": [
+      58389
+    ],
+    "label": "locations/graph"
+  },
+  {
+    "name": "E416",
+    "source": "locations/greece.svg",
+    "codepoints": [
+      58390
+    ],
+    "label": "locations/greece"
+  },
+  {
+    "name": "E417",
+    "source": "locations/hive.svg",
+    "codepoints": [
+      58391
+    ],
+    "label": "locations/hive"
+  },
+  {
+    "name": "E418",
+    "source": "locations/inca.svg",
+    "codepoints": [
+      58392
+    ],
+    "label": "locations/inca"
+  },
+  {
+    "name": "E419",
+    "source": "locations/india.svg",
+    "codepoints": [
+      58393
+    ],
+    "label": "locations/india"
+  },
+  {
+    "name": "E41A",
+    "source": "locations/japan.svg",
+    "codepoints": [
+      58394
+    ],
+    "label": "locations/japan"
+  },
+  {
+    "name": "E41B",
+    "source": "locations/jungle.svg",
+    "codepoints": [
+      58395
+    ],
+    "label": "locations/jungle"
+  },
+  {
+    "name": "E41C",
+    "source": "locations/laboratory.svg",
+    "codepoints": [
+      58396
+    ],
+    "label": "locations/laboratory"
+  },
+  {
+    "name": "E41D",
+    "source": "locations/lake.svg",
+    "codepoints": [
+      58397
+    ],
+    "label": "locations/lake"
+  },
+  {
+    "name": "E41E",
+    "source": "locations/library.svg",
+    "codepoints": [
+      58398
+    ],
+    "label": "locations/library"
+  },
+  {
+    "name": "E41F",
+    "source": "locations/mali.svg",
+    "codepoints": [
+      58399
+    ],
+    "label": "locations/mali"
+  },
+  {
+    "name": "E420",
+    "source": "locations/market.svg",
+    "codepoints": [
+      58400
+    ],
+    "label": "locations/market"
+  },
+  {
+    "name": "E421",
+    "source": "locations/maya.svg",
+    "codepoints": [
+      58401
+    ],
+    "label": "locations/maya"
+  },
+  {
+    "name": "E422",
+    "source": "locations/museum.svg",
+    "codepoints": [
+      58402
+    ],
+    "label": "locations/museum"
+  },
+  {
+    "name": "E423",
+    "source": "locations/net.svg",
+    "codepoints": [
+      58403
+    ],
+    "label": "locations/net"
+  },
+  {
+    "name": "E424",
+    "source": "locations/network.svg",
+    "codepoints": [
+      58404
+    ],
+    "label": "locations/network"
+  },
+  {
+    "name": "E425",
+    "source": "locations/park.svg",
+    "codepoints": [
+      58405
+    ],
+    "label": "locations/park"
+  },
+  {
+    "name": "E426",
+    "source": "locations/pasture.svg",
+    "codepoints": [
+      58406
+    ],
+    "label": "locations/pasture"
+  },
+  {
+    "name": "E427",
+    "source": "locations/persia.svg",
+    "codepoints": [
+      58407
+    ],
+    "label": "locations/persia"
+  },
+  {
+    "name": "E428",
+    "source": "locations/plateau.svg",
+    "codepoints": [
+      58408
+    ],
+    "label": "locations/plateau"
+  },
+  {
+    "name": "E429",
+    "source": "locations/post.svg",
+    "codepoints": [
+      58409
+    ],
+    "label": "locations/post"
+  },
+  {
+    "name": "E42A",
+    "source": "locations/reef.svg",
+    "codepoints": [
+      58410
+    ],
+    "label": "locations/reef"
+  },
+  {
+    "name": "E42B",
+    "source": "locations/rome.svg",
+    "codepoints": [
+      58411
+    ],
+    "label": "locations/rome"
+  },
+  {
+    "name": "E42C",
+    "source": "locations/rug.svg",
+    "codepoints": [
+      58412
+    ],
+    "label": "locations/rug"
+  },
+  {
+    "name": "E42D",
+    "source": "locations/sand.svg",
+    "codepoints": [
+      58413
+    ],
+    "label": "locations/sand"
+  },
+  {
+    "name": "E42E",
+    "source": "locations/savanna.svg",
+    "codepoints": [
+      58414
+    ],
+    "label": "locations/savanna"
+  },
+  {
+    "name": "E42F",
+    "source": "locations/shell.svg",
+    "codepoints": [
+      58415
+    ],
+    "label": "locations/shell"
+  },
+  {
+    "name": "E430",
+    "source": "locations/sidewalk.svg",
+    "codepoints": [
+      58416
+    ],
+    "label": "locations/sidewalk"
+  },
+  {
+    "name": "E431",
+    "source": "locations/sign.svg",
+    "codepoints": [
+      58417
+    ],
+    "label": "locations/sign"
+  },
+  {
+    "name": "E432",
+    "source": "locations/silo.svg",
+    "codepoints": [
+      58418
+    ],
+    "label": "locations/silo"
+  },
+  {
+    "name": "E433",
+    "source": "locations/spring.svg",
+    "codepoints": [
+      58419
+    ],
+    "label": "locations/spring"
+  },
+  {
+    "name": "E434",
+    "source": "locations/store.svg",
+    "codepoints": [
+      58420
+    ],
+    "label": "locations/store"
+  },
+  {
+    "name": "E435",
+    "source": "locations/street.svg",
+    "codepoints": [
+      58421
+    ],
+    "label": "locations/street"
+  },
+  {
+    "name": "E436",
+    "source": "locations/theater.svg",
+    "codepoints": [
+      58422
+    ],
+    "label": "locations/theater"
+  },
+  {
+    "name": "E437",
+    "source": "locations/tide.svg",
+    "codepoints": [
+      58423
+    ],
+    "label": "locations/tide"
+  },
+  {
+    "name": "E438",
+    "source": "locations/tower.svg",
+    "codepoints": [
+      58424
+    ],
+    "label": "locations/tower"
+  },
+  {
+    "name": "E439",
+    "source": "locations/tradition.svg",
+    "codepoints": [
+      58425
+    ],
+    "label": "locations/tradition"
+  },
+  {
+    "name": "E43A",
+    "source": "locations/tundra.svg",
+    "codepoints": [
+      58426
+    ],
+    "label": "locations/tundra"
+  },
+  {
+    "name": "E43B",
+    "source": "locations/valley.svg",
+    "codepoints": [
+      58427
+    ],
+    "label": "locations/valley"
+  },
+  {
+    "name": "E43C",
+    "source": "locations/viking.svg",
+    "codepoints": [
+      58428
+    ],
+    "label": "locations/viking"
+  },
+  {
+    "name": "E43D",
+    "source": "locations/wave.svg",
+    "codepoints": [
+      58429
+    ],
+    "label": "locations/wave"
+  },
+  {
+    "name": "E43E",
+    "source": "locations/workshop.svg",
+    "codepoints": [
+      58430
+    ],
+    "label": "locations/workshop"
+  },
+  {
+    "name": "E600",
+    "source": "materials/clay.svg",
+    "codepoints": [
+      58880
+    ],
+    "label": "materials/clay"
+  },
+  {
+    "name": "E601",
+    "source": "materials/cloth.svg",
+    "codepoints": [
+      58881
+    ],
+    "label": "materials/cloth"
+  },
+  {
+    "name": "E602",
+    "source": "materials/fiber.svg",
+    "codepoints": [
+      58882
+    ],
+    "label": "materials/fiber"
+  },
+  {
+    "name": "E603",
+    "source": "materials/glass.svg",
+    "codepoints": [
+      58883
+    ],
+    "label": "materials/glass"
+  },
+  {
+    "name": "E604",
+    "source": "materials/leather.svg",
+    "codepoints": [
+      58884
+    ],
+    "label": "materials/leather"
+  },
+  {
+    "name": "E605",
+    "source": "materials/metal.svg",
+    "codepoints": [
+      58885
+    ],
+    "label": "materials/metal"
+  },
+  {
+    "name": "E606",
+    "source": "materials/paper.svg",
+    "codepoints": [
+      58886
+    ],
+    "label": "materials/paper"
+  },
+  {
+    "name": "E607",
+    "source": "materials/plastic.svg",
+    "codepoints": [
+      58887
+    ],
+    "label": "materials/plastic"
+  },
+  {
+    "name": "E608",
+    "source": "materials/sand.svg",
+    "codepoints": [
+      58888
+    ],
+    "label": "materials/sand"
+  },
+  {
+    "name": "E609",
+    "source": "materials/stone.svg",
+    "codepoints": [
+      58889
+    ],
+    "label": "materials/stone"
+  },
+  {
+    "name": "E60A",
+    "source": "materials/thread.svg",
+    "codepoints": [
+      58890
+    ],
+    "label": "materials/thread"
+  },
+  {
+    "name": "E800",
+    "source": "objects/arch.svg",
+    "codepoints": [
+      59392
+    ],
+    "label": "objects/arch"
+  },
+  {
+    "name": "E801",
+    "source": "objects/audience.svg",
+    "codepoints": [
+      59393
+    ],
+    "label": "objects/audience"
+  },
+  {
+    "name": "E802",
+    "source": "objects/axle.svg",
+    "codepoints": [
+      59394
+    ],
+    "label": "objects/axle"
+  },
+  {
+    "name": "E803",
+    "source": "objects/baking.svg",
+    "codepoints": [
+      59395
+    ],
+    "label": "objects/baking"
+  },
+  {
+    "name": "E804",
+    "source": "objects/beam.svg",
+    "codepoints": [
+      59396
+    ],
+    "label": "objects/beam"
+  },
+  {
+    "name": "E805",
+    "source": "objects/bill.svg",
+    "codepoints": [
+      59397
+    ],
+    "label": "objects/bill"
+  },
+  {
+    "name": "E806",
+    "source": "objects/board.svg",
+    "codepoints": [
+      59398
+    ],
+    "label": "objects/board"
+  },
+  {
+    "name": "E807",
+    "source": "objects/bowl.svg",
+    "codepoints": [
+      59399
+    ],
+    "label": "objects/bowl"
+  },
+  {
+    "name": "E808",
+    "source": "objects/brewing.svg",
+    "codepoints": [
+      59400
+    ],
+    "label": "objects/brewing"
+  },
+  {
+    "name": "E809",
+    "source": "objects/brush.svg",
+    "codepoints": [
+      59401
+    ],
+    "label": "objects/brush"
+  },
+  {
+    "name": "E80A",
+    "source": "objects/build.svg",
+    "codepoints": [
+      59402
+    ],
+    "label": "objects/build"
+  },
+  {
+    "name": "E80B",
+    "source": "objects/canvas.svg",
+    "codepoints": [
+      59403
+    ],
+    "label": "objects/canvas"
+  },
+  {
+    "name": "E80C",
+    "source": "objects/caravan.svg",
+    "codepoints": [
+      59404
+    ],
+    "label": "objects/caravan"
+  },
+  {
+    "name": "E80D",
+    "source": "objects/carving.svg",
+    "codepoints": [
+      59405
+    ],
+    "label": "objects/carving"
+  },
+  {
+    "name": "E80E",
+    "source": "objects/castle.svg",
+    "codepoints": [
+      59406
+    ],
+    "label": "objects/castle"
+  },
+  {
+    "name": "E80F",
+    "source": "objects/chalk.svg",
+    "codepoints": [
+      59407
+    ],
+    "label": "objects/chalk"
+  },
+  {
+    "name": "E810",
+    "source": "objects/choir.svg",
+    "codepoints": [
+      59408
+    ],
+    "label": "objects/choir"
+  },
+  {
+    "name": "E811",
+    "source": "objects/circuit.svg",
+    "codepoints": [
+      59409
+    ],
+    "label": "objects/circuit"
+  },
+  {
+    "name": "E812",
+    "source": "objects/clay.svg",
+    "codepoints": [
+      59410
+    ],
+    "label": "objects/clay"
+  },
+  {
+    "name": "E813",
+    "source": "objects/computer.svg",
+    "codepoints": [
+      59411
+    ],
+    "label": "objects/computer"
+  },
+  {
+    "name": "E814",
+    "source": "objects/connect.svg",
+    "codepoints": [
+      59412
+    ],
+    "label": "objects/connect"
+  },
+  {
+    "name": "E815",
+    "source": "objects/crawl.svg",
+    "codepoints": [
+      59413
+    ],
+    "label": "objects/crawl"
+  },
+  {
+    "name": "E816",
+    "source": "objects/create.svg",
+    "codepoints": [
+      59414
+    ],
+    "label": "objects/create"
+  },
+  {
+    "name": "E817",
+    "source": "objects/currency.svg",
+    "codepoints": [
+      59415
+    ],
+    "label": "objects/currency"
+  },
+  {
+    "name": "E818",
+    "source": "objects/dance.svg",
+    "codepoints": [
+      59416
+    ],
+    "label": "objects/dance"
+  },
+  {
+    "name": "E819",
+    "source": "objects/design.svg",
+    "codepoints": [
+      59417
+    ],
+    "label": "objects/design"
+  },
+  {
+    "name": "E81A",
+    "source": "objects/doll.svg",
+    "codepoints": [
+      59418
+    ],
+    "label": "objects/doll"
+  },
+  {
+    "name": "E81B",
+    "source": "objects/doorframe.svg",
+    "codepoints": [
+      59419
+    ],
+    "label": "objects/doorframe"
+  },
+  {
+    "name": "E81C",
+    "source": "objects/drawing.svg",
+    "codepoints": [
+      59420
+    ],
+    "label": "objects/drawing"
+  },
+  {
+    "name": "E81D",
+    "source": "objects/drum.svg",
+    "codepoints": [
+      59421
+    ],
+    "label": "objects/drum"
+  },
+  {
+    "name": "E81E",
+    "source": "objects/dyeing.svg",
+    "codepoints": [
+      59422
+    ],
+    "label": "objects/dyeing"
+  },
+  {
+    "name": "E81F",
+    "source": "objects/earn.svg",
+    "codepoints": [
+      59423
+    ],
+    "label": "objects/earn"
+  },
+  {
+    "name": "E820",
+    "source": "objects/echo.svg",
+    "codepoints": [
+      59424
+    ],
+    "label": "objects/echo"
+  },
+  {
+    "name": "E821",
+    "source": "objects/electricity.svg",
+    "codepoints": [
+      59425
+    ],
+    "label": "objects/electricity"
+  },
+  {
+    "name": "E822",
+    "source": "objects/engine.svg",
+    "codepoints": [
+      59426
+    ],
+    "label": "objects/engine"
+  },
+  {
+    "name": "E823",
+    "source": "objects/engraving.svg",
+    "codepoints": [
+      59427
+    ],
+    "label": "objects/engraving"
+  },
+  {
+    "name": "E824",
+    "source": "objects/exchange.svg",
+    "codepoints": [
+      59428
+    ],
+    "label": "objects/exchange"
+  },
+  {
+    "name": "E825",
+    "source": "objects/explore.svg",
+    "codepoints": [
+      59429
+    ],
+    "label": "objects/explore"
+  },
+  {
+    "name": "E826",
+    "source": "objects/flavor.svg",
+    "codepoints": [
+      59430
+    ],
+    "label": "objects/flavor"
+  },
+  {
+    "name": "E827",
+    "source": "objects/forest.svg",
+    "codepoints": [
+      59431
+    ],
+    "label": "objects/forest"
+  },
+  {
+    "name": "E828",
+    "source": "objects/forging.svg",
+    "codepoints": [
+      59432
+    ],
+    "label": "objects/forging"
+  },
+  {
+    "name": "E829",
+    "source": "objects/fork.svg",
+    "codepoints": [
+      59433
+    ],
+    "label": "objects/fork"
+  },
+  {
+    "name": "E82A",
+    "source": "objects/foundation.svg",
+    "codepoints": [
+      59434
+    ],
+    "label": "objects/foundation"
+  },
+  {
+    "name": "E82B",
+    "source": "objects/frame.svg",
+    "codepoints": [
+      59435
+    ],
+    "label": "objects/frame"
+  },
+  {
+    "name": "E82C",
+    "source": "objects/gallery.svg",
+    "codepoints": [
+      59436
+    ],
+    "label": "objects/gallery"
+  },
+  {
+    "name": "E82D",
+    "source": "objects/game.svg",
+    "codepoints": [
+      59437
+    ],
+    "label": "objects/game"
+  },
+  {
+    "name": "E82E",
+    "source": "objects/giant.svg",
+    "codepoints": [
+      59438
+    ],
+    "label": "objects/giant"
+  },
+  {
+    "name": "E82F",
+    "source": "objects/gift.svg",
+    "codepoints": [
+      59439
+    ],
+    "label": "objects/gift"
+  },
+  {
+    "name": "E830",
+    "source": "objects/goods.svg",
+    "codepoints": [
+      59440
+    ],
+    "label": "objects/goods"
+  },
+  {
+    "name": "E831",
+    "source": "objects/grow.svg",
+    "codepoints": [
+      59441
+    ],
+    "label": "objects/grow"
+  },
+  {
+    "name": "E832",
+    "source": "objects/handle.svg",
+    "codepoints": [
+      59442
+    ],
+    "label": "objects/handle"
+  },
+  {
+    "name": "E833",
+    "source": "objects/hero.svg",
+    "codepoints": [
+      59443
+    ],
+    "label": "objects/hero"
+  },
+  {
+    "name": "E834",
+    "source": "objects/imagine.svg",
+    "codepoints": [
+      59444
+    ],
+    "label": "objects/imagine"
+  },
+  {
+    "name": "E835",
+    "source": "objects/internet.svg",
+    "codepoints": [
+      59445
+    ],
+    "label": "objects/internet"
+  },
+  {
+    "name": "E836",
+    "source": "objects/joinery.svg",
+    "codepoints": [
+      59446
+    ],
+    "label": "objects/joinery"
+  },
+  {
+    "name": "E837",
+    "source": "objects/journey.svg",
+    "codepoints": [
+      59447
+    ],
+    "label": "objects/journey"
+  },
+  {
+    "name": "E838",
+    "source": "objects/king.svg",
+    "codepoints": [
+      59448
+    ],
+    "label": "objects/king"
+  },
+  {
+    "name": "E839",
+    "source": "objects/knife.svg",
+    "codepoints": [
+      59449
+    ],
+    "label": "objects/knife"
+  },
+  {
+    "name": "E83A",
+    "source": "objects/language.svg",
+    "codepoints": [
+      59450
+    ],
+    "label": "objects/language"
+  },
+  {
+    "name": "E83B",
+    "source": "objects/letter.svg",
+    "codepoints": [
+      59451
+    ],
+    "label": "objects/letter"
+  },
+  {
+    "name": "E83C",
+    "source": "objects/lever.svg",
+    "codepoints": [
+      59452
+    ],
+    "label": "objects/lever"
+  },
+  {
+    "name": "E83D",
+    "source": "objects/merchant.svg",
+    "codepoints": [
+      59453
+    ],
+    "label": "objects/merchant"
+  },
+  {
+    "name": "E83E",
+    "source": "objects/message.svg",
+    "codepoints": [
+      59454
+    ],
+    "label": "objects/message"
+  },
+  {
+    "name": "E83F",
+    "source": "objects/mortar.svg",
+    "codepoints": [
+      59455
+    ],
+    "label": "objects/mortar"
+  },
+  {
+    "name": "E840",
+    "source": "objects/motor.svg",
+    "codepoints": [
+      59456
+    ],
+    "label": "objects/motor"
+  },
+  {
+    "name": "E841",
+    "source": "objects/mural.svg",
+    "codepoints": [
+      59457
+    ],
+    "label": "objects/mural"
+  },
+  {
+    "name": "E842",
+    "source": "objects/nail.svg",
+    "codepoints": [
+      59458
+    ],
+    "label": "objects/nail"
+  },
+  {
+    "name": "E843",
+    "source": "objects/note.svg",
+    "codepoints": [
+      59459
+    ],
+    "label": "objects/note"
+  },
+  {
+    "name": "E844",
+    "source": "objects/observe.svg",
+    "codepoints": [
+      59460
+    ],
+    "label": "objects/observe"
+  },
+  {
+    "name": "E845",
+    "source": "objects/oven.svg",
+    "codepoints": [
+      59461
+    ],
+    "label": "objects/oven"
+  },
+  {
+    "name": "E846",
+    "source": "objects/paint.svg",
+    "codepoints": [
+      59462
+    ],
+    "label": "objects/paint"
+  },
+  {
+    "name": "E847",
+    "source": "objects/pan.svg",
+    "codepoints": [
+      59463
+    ],
+    "label": "objects/pan"
+  },
+  {
+    "name": "E848",
+    "source": "objects/pattern.svg",
+    "codepoints": [
+      59464
+    ],
+    "label": "objects/pattern"
+  },
+  {
+    "name": "E849",
+    "source": "objects/port.svg",
+    "codepoints": [
+      59465
+    ],
+    "label": "objects/port"
+  },
+  {
+    "name": "E84A",
+    "source": "objects/pot.svg",
+    "codepoints": [
+      59466
+    ],
+    "label": "objects/pot"
+  },
+  {
+    "name": "E84B",
+    "source": "objects/pottery.svg",
+    "codepoints": [
+      59467
+    ],
+    "label": "objects/pottery"
+  },
+  {
+    "name": "E84C",
+    "source": "objects/price.svg",
+    "codepoints": [
+      59468
+    ],
+    "label": "objects/price"
+  },
+  {
+    "name": "E84D",
+    "source": "objects/print.svg",
+    "codepoints": [
+      59469
+    ],
+    "label": "objects/print"
+  },
+  {
+    "name": "E84E",
+    "source": "objects/printing.svg",
+    "codepoints": [
+      59470
+    ],
+    "label": "objects/printing"
+  },
+  {
+    "name": "E84F",
+    "source": "objects/pulley.svg",
+    "codepoints": [
+      59471
+    ],
+    "label": "objects/pulley"
+  },
+  {
+    "name": "E850",
+    "source": "objects/pump.svg",
+    "codepoints": [
+      59472
+    ],
+    "label": "objects/pump"
+  },
+  {
+    "name": "E851",
+    "source": "objects/puzzle.svg",
+    "codepoints": [
+      59473
+    ],
+    "label": "objects/puzzle"
+  },
+  {
+    "name": "E852",
+    "source": "objects/queen.svg",
+    "codepoints": [
+      59474
+    ],
+    "label": "objects/queen"
+  },
+  {
+    "name": "E853",
+    "source": "objects/question.svg",
+    "codepoints": [
+      59475
+    ],
+    "label": "objects/question"
+  },
+  {
+    "name": "E854",
+    "source": "objects/recipe.svg",
+    "codepoints": [
+      59476
+    ],
+    "label": "objects/recipe"
+  },
+  {
+    "name": "E855",
+    "source": "objects/repair.svg",
+    "codepoints": [
+      59477
+    ],
+    "label": "objects/repair"
+  },
+  {
+    "name": "E856",
+    "source": "objects/rhythm.svg",
+    "codepoints": [
+      59478
+    ],
+    "label": "objects/rhythm"
+  },
+  {
+    "name": "E857",
+    "source": "objects/robot.svg",
+    "codepoints": [
+      59479
+    ],
+    "label": "objects/robot"
+  },
+  {
+    "name": "E858",
+    "source": "objects/roof.svg",
+    "codepoints": [
+      59480
+    ],
+    "label": "objects/roof"
+  },
+  {
+    "name": "E859",
+    "source": "objects/rope.svg",
+    "codepoints": [
+      59481
+    ],
+    "label": "objects/rope"
+  },
+  {
+    "name": "E85A",
+    "source": "objects/route.svg",
+    "codepoints": [
+      59482
+    ],
+    "label": "objects/route"
+  },
+  {
+    "name": "E85B",
+    "source": "objects/sandbox.svg",
+    "codepoints": [
+      59483
+    ],
+    "label": "objects/sandbox"
+  },
+  {
+    "name": "E85C",
+    "source": "objects/save.svg",
+    "codepoints": [
+      59484
+    ],
+    "label": "objects/save"
+  },
+  {
+    "name": "E85D",
+    "source": "objects/screw.svg",
+    "codepoints": [
+      59485
+    ],
+    "label": "objects/screw"
+  },
+  {
+    "name": "E85E",
+    "source": "objects/sculpture.svg",
+    "codepoints": [
+      59486
+    ],
+    "label": "objects/sculpture"
+  },
+  {
+    "name": "E85F",
+    "source": "objects/sewing.svg",
+    "codepoints": [
+      59487
+    ],
+    "label": "objects/sewing"
+  },
+  {
+    "name": "E860",
+    "source": "objects/share.svg",
+    "codepoints": [
+      59488
+    ],
+    "label": "objects/share"
+  },
+  {
+    "name": "E861",
+    "source": "objects/sign.svg",
+    "codepoints": [
+      59489
+    ],
+    "label": "objects/sign"
+  },
+  {
+    "name": "E862",
+    "source": "objects/signal.svg",
+    "codepoints": [
+      59490
+    ],
+    "label": "objects/signal"
+  },
+  {
+    "name": "E863",
+    "source": "objects/slide.svg",
+    "codepoints": [
+      59491
+    ],
+    "label": "objects/slide"
+  },
+  {
+    "name": "E864",
+    "source": "objects/smithing.svg",
+    "codepoints": [
+      59492
+    ],
+    "label": "objects/smithing"
+  },
+  {
+    "name": "E865",
+    "source": "objects/sock.svg",
+    "codepoints": [
+      59493
+    ],
+    "label": "objects/sock"
+  },
+  {
+    "name": "E866",
+    "source": "objects/spend.svg",
+    "codepoints": [
+      59494
+    ],
+    "label": "objects/spend"
+  },
+  {
+    "name": "E867",
+    "source": "objects/spice.svg",
+    "codepoints": [
+      59495
+    ],
+    "label": "objects/spice"
+  },
+  {
+    "name": "E868",
+    "source": "objects/spinning.svg",
+    "codepoints": [
+      59496
+    ],
+    "label": "objects/spinning"
+  },
+  {
+    "name": "E869",
+    "source": "objects/stage.svg",
+    "codepoints": [
+      59497
+    ],
+    "label": "objects/stage"
+  },
+  {
+    "name": "E86A",
+    "source": "objects/steam.svg",
+    "codepoints": [
+      59498
+    ],
+    "label": "objects/steam"
+  },
+  {
+    "name": "E86B",
+    "source": "objects/story.svg",
+    "codepoints": [
+      59499
+    ],
+    "label": "objects/story"
+  },
+  {
+    "name": "E86C",
+    "source": "objects/stove.svg",
+    "codepoints": [
+      59500
+    ],
+    "label": "objects/stove"
+  },
+  {
+    "name": "E86D",
+    "source": "objects/swing.svg",
+    "codepoints": [
+      59501
+    ],
+    "label": "objects/swing"
+  },
+  {
+    "name": "E86E",
+    "source": "objects/switch.svg",
+    "codepoints": [
+      59502
+    ],
+    "label": "objects/switch"
+  },
+  {
+    "name": "E86F",
+    "source": "objects/symbol.svg",
+    "codepoints": [
+      59503
+    ],
+    "label": "objects/symbol"
+  },
+  {
+    "name": "E870",
+    "source": "objects/teach.svg",
+    "codepoints": [
+      59504
+    ],
+    "label": "objects/teach"
+  },
+  {
+    "name": "E871",
+    "source": "objects/toll.svg",
+    "codepoints": [
+      59505
+    ],
+    "label": "objects/toll"
+  },
+  {
+    "name": "E872",
+    "source": "objects/tower.svg",
+    "codepoints": [
+      59506
+    ],
+    "label": "objects/tower"
+  },
+  {
+    "name": "E873",
+    "source": "objects/trade.svg",
+    "codepoints": [
+      59507
+    ],
+    "label": "objects/trade"
+  },
+  {
+    "name": "E874",
+    "source": "objects/traveler.svg",
+    "codepoints": [
+      59508
+    ],
+    "label": "objects/traveler"
+  },
+  {
+    "name": "E875",
+    "source": "objects/treasure.svg",
+    "codepoints": [
+      59509
+    ],
+    "label": "objects/treasure"
+  },
+  {
+    "name": "E876",
+    "source": "objects/tune.svg",
+    "codepoints": [
+      59510
+    ],
+    "label": "objects/tune"
+  },
+  {
+    "name": "E877",
+    "source": "objects/value.svg",
+    "codepoints": [
+      59511
+    ],
+    "label": "objects/value"
+  },
+  {
+    "name": "E878",
+    "source": "objects/valve.svg",
+    "codepoints": [
+      59512
+    ],
+    "label": "objects/valve"
+  },
+  {
+    "name": "E879",
+    "source": "objects/villager.svg",
+    "codepoints": [
+      59513
+    ],
+    "label": "objects/villager"
+  },
+  {
+    "name": "E87A",
+    "source": "objects/voice.svg",
+    "codepoints": [
+      59514
+    ],
+    "label": "objects/voice"
+  },
+  {
+    "name": "E87B",
+    "source": "objects/wagon.svg",
+    "codepoints": [
+      59515
+    ],
+    "label": "objects/wagon"
+  },
+  {
+    "name": "E87C",
+    "source": "objects/weaving.svg",
+    "codepoints": [
+      59516
+    ],
+    "label": "objects/weaving"
+  },
+  {
+    "name": "E87D",
+    "source": "objects/whistle.svg",
+    "codepoints": [
+      59517
+    ],
+    "label": "objects/whistle"
+  },
+  {
+    "name": "E87E",
+    "source": "objects/windowpane.svg",
+    "codepoints": [
+      59518
+    ],
+    "label": "objects/windowpane"
+  },
+  {
+    "name": "E87F",
+    "source": "objects/wizard.svg",
+    "codepoints": [
+      59519
+    ],
+    "label": "objects/wizard"
+  },
+  {
+    "name": "E880",
+    "source": "objects/wonder.svg",
+    "codepoints": [
+      59520
+    ],
+    "label": "objects/wonder"
+  },
+  {
+    "name": "E881",
+    "source": "objects/word.svg",
+    "codepoints": [
+      59521
+    ],
+    "label": "objects/word"
+  },
+  {
+    "name": "E882",
+    "source": "objects/work.svg",
+    "codepoints": [
+      59522
+    ],
+    "label": "objects/work"
+  },
+  {
+    "name": "E883",
+    "source": "objects/writing.svg",
+    "codepoints": [
+      59523
+    ],
+    "label": "objects/writing"
+  },
+  {
+    "name": "EA00",
+    "source": "patterns/black.svg",
+    "codepoints": [
+      59904
+    ],
+    "label": "patterns/black"
+  },
+  {
+    "name": "EA01",
+    "source": "patterns/blue.svg",
+    "codepoints": [
+      59905
+    ],
+    "label": "patterns/blue"
+  },
+  {
+    "name": "EA02",
+    "source": "patterns/brown.svg",
+    "codepoints": [
+      59906
+    ],
+    "label": "patterns/brown"
+  },
+  {
+    "name": "EA03",
+    "source": "patterns/circle.svg",
+    "codepoints": [
+      59907
+    ],
+    "label": "patterns/circle"
+  },
+  {
+    "name": "EA04",
+    "source": "patterns/corner.svg",
+    "codepoints": [
+      59908
+    ],
+    "label": "patterns/corner"
+  },
+  {
+    "name": "EA05",
+    "source": "patterns/cube.svg",
+    "codepoints": [
+      59909
+    ],
+    "label": "patterns/cube"
+  },
+  {
+    "name": "EA06",
+    "source": "patterns/curve.svg",
+    "codepoints": [
+      59910
+    ],
+    "label": "patterns/curve"
+  },
+  {
+    "name": "EA07",
+    "source": "patterns/edge.svg",
+    "codepoints": [
+      59911
+    ],
+    "label": "patterns/edge"
+  },
+  {
+    "name": "EA08",
+    "source": "patterns/gold.svg",
+    "codepoints": [
+      59912
+    ],
+    "label": "patterns/gold"
+  },
+  {
+    "name": "EA09",
+    "source": "patterns/gray.svg",
+    "codepoints": [
+      59913
+    ],
+    "label": "patterns/gray"
+  },
+  {
+    "name": "EA0A",
+    "source": "patterns/green.svg",
+    "codepoints": [
+      59914
+    ],
+    "label": "patterns/green"
+  },
+  {
+    "name": "EA0B",
+    "source": "patterns/line.svg",
+    "codepoints": [
+      59915
+    ],
+    "label": "patterns/line"
+  },
+  {
+    "name": "EA0C",
+    "source": "patterns/orange.svg",
+    "codepoints": [
+      59916
+    ],
+    "label": "patterns/orange"
+  },
+  {
+    "name": "EA0D",
+    "source": "patterns/oval.svg",
+    "codepoints": [
+      59917
+    ],
+    "label": "patterns/oval"
+  },
+  {
+    "name": "EA0E",
+    "source": "patterns/pattern.svg",
+    "codepoints": [
+      59918
+    ],
+    "label": "patterns/pattern"
+  },
+  {
+    "name": "EA0F",
+    "source": "patterns/purple.svg",
+    "codepoints": [
+      59919
+    ],
+    "label": "patterns/purple"
+  },
+  {
+    "name": "EA10",
+    "source": "patterns/red.svg",
+    "codepoints": [
+      59920
+    ],
+    "label": "patterns/red"
+  },
+  {
+    "name": "EA11",
+    "source": "patterns/silver.svg",
+    "codepoints": [
+      59921
+    ],
+    "label": "patterns/silver"
+  },
+  {
+    "name": "EA12",
+    "source": "patterns/sphere.svg",
+    "codepoints": [
+      59922
+    ],
+    "label": "patterns/sphere"
+  },
+  {
+    "name": "EA13",
+    "source": "patterns/square.svg",
+    "codepoints": [
+      59923
+    ],
+    "label": "patterns/square"
+  },
+  {
+    "name": "EA14",
+    "source": "patterns/triangle.svg",
+    "codepoints": [
+      59924
+    ],
+    "label": "patterns/triangle"
+  },
+  {
+    "name": "EA15",
+    "source": "patterns/white.svg",
+    "codepoints": [
+      59925
+    ],
+    "label": "patterns/white"
+  },
+  {
+    "name": "EA16",
+    "source": "patterns/yellow.svg",
+    "codepoints": [
+      59926
+    ],
+    "label": "patterns/yellow"
+  },
+  {
+    "name": "EC00",
+    "source": "people/alliance.svg",
+    "codepoints": [
+      60416
+    ],
+    "label": "people/alliance"
+  },
+  {
+    "name": "EC01",
+    "source": "people/ancestor.svg",
+    "codepoints": [
+      60417
+    ],
+    "label": "people/ancestor"
+  },
+  {
+    "name": "EC02",
+    "source": "people/aristotle.svg",
+    "codepoints": [
+      60418
+    ],
+    "label": "people/aristotle"
+  },
+  {
+    "name": "EC03",
+    "source": "people/art.svg",
+    "codepoints": [
+      60419
+    ],
+    "label": "people/art"
+  },
+  {
+    "name": "EC04",
+    "source": "people/artist.svg",
+    "codepoints": [
+      60420
+    ],
+    "label": "people/artist"
+  },
+  {
+    "name": "EC05",
+    "source": "people/astronaut.svg",
+    "codepoints": [
+      60421
+    ],
+    "label": "people/astronaut"
+  },
+  {
+    "name": "EC06",
+    "source": "people/babysitter.svg",
+    "codepoints": [
+      60422
+    ],
+    "label": "people/babysitter"
+  },
+  {
+    "name": "EC07",
+    "source": "people/baker.svg",
+    "codepoints": [
+      60423
+    ],
+    "label": "people/baker"
+  },
+  {
+    "name": "EC08",
+    "source": "people/buddha.svg",
+    "codepoints": [
+      60424
+    ],
+    "label": "people/buddha"
+  },
+  {
+    "name": "EC09",
+    "source": "people/builder.svg",
+    "codepoints": [
+      60425
+    ],
+    "label": "people/builder"
+  },
+  {
+    "name": "EC0A",
+    "source": "people/care.svg",
+    "codepoints": [
+      60426
+    ],
+    "label": "people/care"
+  },
+  {
+    "name": "EC0B",
+    "source": "people/choice.svg",
+    "codepoints": [
+      60427
+    ],
+    "label": "people/choice"
+  },
+  {
+    "name": "EC0C",
+    "source": "people/circle.svg",
+    "codepoints": [
+      60428
+    ],
+    "label": "people/circle"
+  },
+  {
+    "name": "EC0D",
+    "source": "people/citizen.svg",
+    "codepoints": [
+      60429
+    ],
+    "label": "people/citizen"
+  },
+  {
+    "name": "EC0E",
+    "source": "people/city.svg",
+    "codepoints": [
+      60430
+    ],
+    "label": "people/city"
+  },
+  {
+    "name": "EC0F",
+    "source": "people/cleaner.svg",
+    "codepoints": [
+      60431
+    ],
+    "label": "people/cleaner"
+  },
+  {
+    "name": "EC10",
+    "source": "people/clothing.svg",
+    "codepoints": [
+      60432
+    ],
+    "label": "people/clothing"
+  },
+  {
+    "name": "EC11",
+    "source": "people/community.svg",
+    "codepoints": [
+      60433
+    ],
+    "label": "people/community"
+  },
+  {
+    "name": "EC12",
+    "source": "people/compassion.svg",
+    "codepoints": [
+      60434
+    ],
+    "label": "people/compassion"
+  },
+  {
+    "name": "EC13",
+    "source": "people/conflict.svg",
+    "codepoints": [
+      60435
+    ],
+    "label": "people/conflict"
+  },
+  {
+    "name": "EC14",
+    "source": "people/confucius.svg",
+    "codepoints": [
+      60436
+    ],
+    "label": "people/confucius"
+  },
+  {
+    "name": "EC15",
+    "source": "people/constitution.svg",
+    "codepoints": [
+      60437
+    ],
+    "label": "people/constitution"
+  },
+  {
+    "name": "EC16",
+    "source": "people/cook.svg",
+    "codepoints": [
+      60438
+    ],
+    "label": "people/cook"
+  },
+  {
+    "name": "EC17",
+    "source": "people/cooperation.svg",
+    "codepoints": [
+      60439
+    ],
+    "label": "people/cooperation"
+  },
+  {
+    "name": "EC18",
+    "source": "people/council.svg",
+    "codepoints": [
+      60440
+    ],
+    "label": "people/council"
+  },
+  {
+    "name": "EC19",
+    "source": "people/courage.svg",
+    "codepoints": [
+      60441
+    ],
+    "label": "people/courage"
+  },
+  {
+    "name": "EC1A",
+    "source": "people/cousin.svg",
+    "codepoints": [
+      60442
+    ],
+    "label": "people/cousin"
+  },
+  {
+    "name": "EC1B",
+    "source": "people/creator.svg",
+    "codepoints": [
+      60443
+    ],
+    "label": "people/creator"
+  },
+  {
+    "name": "EC1C",
+    "source": "people/culture.svg",
+    "codepoints": [
+      60444
+    ],
+    "label": "people/culture"
+  },
+  {
+    "name": "EC1D",
+    "source": "people/curie.svg",
+    "codepoints": [
+      60445
+    ],
+    "label": "people/curie"
+  },
+  {
+    "name": "EC1E",
+    "source": "people/destroyer.svg",
+    "codepoints": [
+      60446
+    ],
+    "label": "people/destroyer"
+  },
+  {
+    "name": "EC1F",
+    "source": "people/diaper.svg",
+    "codepoints": [
+      60447
+    ],
+    "label": "people/diaper"
+  },
+  {
+    "name": "EC20",
+    "source": "people/diversity.svg",
+    "codepoints": [
+      60448
+    ],
+    "label": "people/diversity"
+  },
+  {
+    "name": "EC21",
+    "source": "people/dream.svg",
+    "codepoints": [
+      60449
+    ],
+    "label": "people/dream"
+  },
+  {
+    "name": "EC22",
+    "source": "people/duty.svg",
+    "codepoints": [
+      60450
+    ],
+    "label": "people/duty"
+  },
+  {
+    "name": "EC23",
+    "source": "people/empathy.svg",
+    "codepoints": [
+      60451
+    ],
+    "label": "people/empathy"
+  },
+  {
+    "name": "EC24",
+    "source": "people/faith.svg",
+    "codepoints": [
+      60452
+    ],
+    "label": "people/faith"
+  },
+  {
+    "name": "EC25",
+    "source": "people/farmer.svg",
+    "codepoints": [
+      60453
+    ],
+    "label": "people/farmer"
+  },
+  {
+    "name": "EC26",
+    "source": "people/festival.svg",
+    "codepoints": [
+      60454
+    ],
+    "label": "people/festival"
+  },
+  {
+    "name": "EC27",
+    "source": "people/firefighter.svg",
+    "codepoints": [
+      60455
+    ],
+    "label": "people/firefighter"
+  },
+  {
+    "name": "EC28",
+    "source": "people/food.svg",
+    "codepoints": [
+      60456
+    ],
+    "label": "people/food"
+  },
+  {
+    "name": "EC29",
+    "source": "people/fool.svg",
+    "codepoints": [
+      60457
+    ],
+    "label": "people/fool"
+  },
+  {
+    "name": "EC2A",
+    "source": "people/friend.svg",
+    "codepoints": [
+      60458
+    ],
+    "label": "people/friend"
+  },
+  {
+    "name": "EC2B",
+    "source": "people/game.svg",
+    "codepoints": [
+      60459
+    ],
+    "label": "people/game"
+  },
+  {
+    "name": "EC2C",
+    "source": "people/gift.svg",
+    "codepoints": [
+      60460
+    ],
+    "label": "people/gift"
+  },
+  {
+    "name": "EC2D",
+    "source": "people/grandparent.svg",
+    "codepoints": [
+      60461
+    ],
+    "label": "people/grandparent"
+  },
+  {
+    "name": "EC2E",
+    "source": "people/group.svg",
+    "codepoints": [
+      60462
+    ],
+    "label": "people/group"
+  },
+  {
+    "name": "EC2F",
+    "source": "people/guardian.svg",
+    "codepoints": [
+      60463
+    ],
+    "label": "people/guardian"
+  },
+  {
+    "name": "EC30",
+    "source": "people/healer.svg",
+    "codepoints": [
+      60464
+    ],
+    "label": "people/healer"
+  },
+  {
+    "name": "EC31",
+    "source": "people/health.svg",
+    "codepoints": [
+      60465
+    ],
+    "label": "people/health"
+  },
+  {
+    "name": "EC32",
+    "source": "people/help.svg",
+    "codepoints": [
+      60466
+    ],
+    "label": "people/help"
+  },
+  {
+    "name": "EC33",
+    "source": "people/hero.svg",
+    "codepoints": [
+      60467
+    ],
+    "label": "people/hero"
+  },
+  {
+    "name": "EC34",
+    "source": "people/hildegard.svg",
+    "codepoints": [
+      60468
+    ],
+    "label": "people/hildegard"
+  },
+  {
+    "name": "EC35",
+    "source": "people/humility.svg",
+    "codepoints": [
+      60469
+    ],
+    "label": "people/humility"
+  },
+  {
+    "name": "EC36",
+    "source": "people/hypatia.svg",
+    "codepoints": [
+      60470
+    ],
+    "label": "people/hypatia"
+  },
+  {
+    "name": "EC37",
+    "source": "people/ibnsina.svg",
+    "codepoints": [
+      60471
+    ],
+    "label": "people/ibnsina"
+  },
+  {
+    "name": "EC38",
+    "source": "people/identity.svg",
+    "codepoints": [
+      60472
+    ],
+    "label": "people/identity"
+  },
+  {
+    "name": "EC39",
+    "source": "people/invite.svg",
+    "codepoints": [
+      60473
+    ],
+    "label": "people/invite"
+  },
+  {
+    "name": "EC3A",
+    "source": "people/justice.svg",
+    "codepoints": [
+      60474
+    ],
+    "label": "people/justice"
+  },
+  {
+    "name": "EC3B",
+    "source": "people/kindness.svg",
+    "codepoints": [
+      60475
+    ],
+    "label": "people/kindness"
+  },
+  {
+    "name": "EC3C",
+    "source": "people/language.svg",
+    "codepoints": [
+      60476
+    ],
+    "label": "people/language"
+  },
+  {
+    "name": "EC3D",
+    "source": "people/laozi.svg",
+    "codepoints": [
+      60477
+    ],
+    "label": "people/laozi"
+  },
+  {
+    "name": "EC3E",
+    "source": "people/law.svg",
+    "codepoints": [
+      60478
+    ],
+    "label": "people/law"
+  },
+  {
+    "name": "EC3F",
+    "source": "people/leader.svg",
+    "codepoints": [
+      60479
+    ],
+    "label": "people/leader"
+  },
+  {
+    "name": "EC40",
+    "source": "people/leadership.svg",
+    "codepoints": [
+      60480
+    ],
+    "label": "people/leadership"
+  },
+  {
+    "name": "EC41",
+    "source": "people/learning.svg",
+    "codepoints": [
+      60481
+    ],
+    "label": "people/learning"
+  },
+  {
+    "name": "EC42",
+    "source": "people/legacy.svg",
+    "codepoints": [
+      60482
+    ],
+    "label": "people/legacy"
+  },
+  {
+    "name": "EC43",
+    "source": "people/maimonides.svg",
+    "codepoints": [
+      60483
+    ],
+    "label": "people/maimonides"
+  },
+  {
+    "name": "EC44",
+    "source": "people/meaning.svg",
+    "codepoints": [
+      60484
+    ],
+    "label": "people/meaning"
+  },
+  {
+    "name": "EC45",
+    "source": "people/mechanic.svg",
+    "codepoints": [
+      60485
+    ],
+    "label": "people/mechanic"
+  },
+  {
+    "name": "EC46",
+    "source": "people/memory.svg",
+    "codepoints": [
+      60486
+    ],
+    "label": "people/memory"
+  },
+  {
+    "name": "EC47",
+    "source": "people/mentor.svg",
+    "codepoints": [
+      60487
+    ],
+    "label": "people/mentor"
+  },
+  {
+    "name": "EC48",
+    "source": "people/migration.svg",
+    "codepoints": [
+      60488
+    ],
+    "label": "people/migration"
+  },
+  {
+    "name": "EC49",
+    "source": "people/myth.svg",
+    "codepoints": [
+      60489
+    ],
+    "label": "people/myth"
+  },
+  {
+    "name": "EC4A",
+    "source": "people/name.svg",
+    "codepoints": [
+      60490
+    ],
+    "label": "people/name"
+  },
+  {
+    "name": "EC4B",
+    "source": "people/nation.svg",
+    "codepoints": [
+      60491
+    ],
+    "label": "people/nation"
+  },
+  {
+    "name": "EC4C",
+    "source": "people/neighbor.svg",
+    "codepoints": [
+      60492
+    ],
+    "label": "people/neighbor"
+  },
+  {
+    "name": "EC4D",
+    "source": "people/newton.svg",
+    "codepoints": [
+      60493
+    ],
+    "label": "people/newton"
+  },
+  {
+    "name": "EC4E",
+    "source": "people/nurse.svg",
+    "codepoints": [
+      60494
+    ],
+    "label": "people/nurse"
+  },
+  {
+    "name": "EC4F",
+    "source": "people/offering.svg",
+    "codepoints": [
+      60495
+    ],
+    "label": "people/offering"
+  },
+  {
+    "name": "EC50",
+    "source": "people/orphan.svg",
+    "codepoints": [
+      60496
+    ],
+    "label": "people/orphan"
+  },
+  {
+    "name": "EC51",
+    "source": "people/path.svg",
+    "codepoints": [
+      60497
+    ],
+    "label": "people/path"
+  },
+  {
+    "name": "EC52",
+    "source": "people/peace.svg",
+    "codepoints": [
+      60498
+    ],
+    "label": "people/peace"
+  },
+  {
+    "name": "EC53",
+    "source": "people/pilgrimage.svg",
+    "codepoints": [
+      60499
+    ],
+    "label": "people/pilgrimage"
+  },
+  {
+    "name": "EC54",
+    "source": "people/place.svg",
+    "codepoints": [
+      60500
+    ],
+    "label": "people/place"
+  },
+  {
+    "name": "EC55",
+    "source": "people/police.svg",
+    "codepoints": [
+      60501
+    ],
+    "label": "people/police"
+  },
+  {
+    "name": "EC56",
+    "source": "people/prayer.svg",
+    "codepoints": [
+      60502
+    ],
+    "label": "people/prayer"
+  },
+  {
+    "name": "EC57",
+    "source": "people/progress.svg",
+    "codepoints": [
+      60503
+    ],
+    "label": "people/progress"
+  },
+  {
+    "name": "EC58",
+    "source": "people/promise.svg",
+    "codepoints": [
+      60504
+    ],
+    "label": "people/promise"
+  },
+  {
+    "name": "EC59",
+    "source": "people/protection.svg",
+    "codepoints": [
+      60505
+    ],
+    "label": "people/protection"
+  },
+  {
+    "name": "EC5A",
+    "source": "people/purpose.svg",
+    "codepoints": [
+      60506
+    ],
+    "label": "people/purpose"
+  },
+  {
+    "name": "EC5B",
+    "source": "people/repair.svg",
+    "codepoints": [
+      60507
+    ],
+    "label": "people/repair"
+  },
+  {
+    "name": "EC5C",
+    "source": "people/rest.svg",
+    "codepoints": [
+      60508
+    ],
+    "label": "people/rest"
+  },
+  {
+    "name": "EC5D",
+    "source": "people/rights.svg",
+    "codepoints": [
+      60509
+    ],
+    "label": "people/rights"
+  },
+  {
+    "name": "EC5E",
+    "source": "people/ritual.svg",
+    "codepoints": [
+      60510
+    ],
+    "label": "people/ritual"
+  },
+  {
+    "name": "EC5F",
+    "source": "people/role.svg",
+    "codepoints": [
+      60511
+    ],
+    "label": "people/role"
+  },
+  {
+    "name": "EC60",
+    "source": "people/rule.svg",
+    "codepoints": [
+      60512
+    ],
+    "label": "people/rule"
+  },
+  {
+    "name": "EC61",
+    "source": "people/rumi.svg",
+    "codepoints": [
+      60513
+    ],
+    "label": "people/rumi"
+  },
+  {
+    "name": "EC62",
+    "source": "people/safety.svg",
+    "codepoints": [
+      60514
+    ],
+    "label": "people/safety"
+  },
+  {
+    "name": "EC63",
+    "source": "people/sage.svg",
+    "codepoints": [
+      60515
+    ],
+    "label": "people/sage"
+  },
+  {
+    "name": "EC64",
+    "source": "people/science.svg",
+    "codepoints": [
+      60516
+    ],
+    "label": "people/science"
+  },
+  {
+    "name": "EC65",
+    "source": "people/secret.svg",
+    "codepoints": [
+      60517
+    ],
+    "label": "people/secret"
+  },
+  {
+    "name": "EC66",
+    "source": "people/seeker.svg",
+    "codepoints": [
+      60518
+    ],
+    "label": "people/seeker"
+  },
+  {
+    "name": "EC67",
+    "source": "people/service.svg",
+    "codepoints": [
+      60519
+    ],
+    "label": "people/service"
+  },
+  {
+    "name": "EC68",
+    "source": "people/shadow.svg",
+    "codepoints": [
+      60520
+    ],
+    "label": "people/shadow"
+  },
+  {
+    "name": "EC69",
+    "source": "people/share.svg",
+    "codepoints": [
+      60521
+    ],
+    "label": "people/share"
+  },
+  {
+    "name": "EC6A",
+    "source": "people/shelter.svg",
+    "codepoints": [
+      60522
+    ],
+    "label": "people/shelter"
+  },
+  {
+    "name": "EC6B",
+    "source": "people/shrine.svg",
+    "codepoints": [
+      60523
+    ],
+    "label": "people/shrine"
+  },
+  {
+    "name": "EC6C",
+    "source": "people/socrates.svg",
+    "codepoints": [
+      60524
+    ],
+    "label": "people/socrates"
+  },
+  {
+    "name": "EC6D",
+    "source": "people/spirit.svg",
+    "codepoints": [
+      60525
+    ],
+    "label": "people/spirit"
+  },
+  {
+    "name": "EC6E",
+    "source": "people/stewardship.svg",
+    "codepoints": [
+      60526
+    ],
+    "label": "people/stewardship"
+  },
+  {
+    "name": "EC6F",
+    "source": "people/story.svg",
+    "codepoints": [
+      60527
+    ],
+    "label": "people/story"
+  },
+  {
+    "name": "EC70",
+    "source": "people/stroller.svg",
+    "codepoints": [
+      60528
+    ],
+    "label": "people/stroller"
+  },
+  {
+    "name": "EC71",
+    "source": "people/symbol.svg",
+    "codepoints": [
+      60529
+    ],
+    "label": "people/symbol"
+  },
+  {
+    "name": "EC72",
+    "source": "people/team.svg",
+    "codepoints": [
+      60530
+    ],
+    "label": "people/team"
+  },
+  {
+    "name": "EC73",
+    "source": "people/temple.svg",
+    "codepoints": [
+      60531
+    ],
+    "label": "people/temple"
+  },
+  {
+    "name": "EC74",
+    "source": "people/trade.svg",
+    "codepoints": [
+      60532
+    ],
+    "label": "people/trade"
+  },
+  {
+    "name": "EC75",
+    "source": "people/treaty.svg",
+    "codepoints": [
+      60533
+    ],
+    "label": "people/treaty"
+  },
+  {
+    "name": "EC76",
+    "source": "people/tribe.svg",
+    "codepoints": [
+      60534
+    ],
+    "label": "people/tribe"
+  },
+  {
+    "name": "EC77",
+    "source": "people/trickster.svg",
+    "codepoints": [
+      60535
+    ],
+    "label": "people/trickster"
+  },
+  {
+    "name": "EC78",
+    "source": "people/trust.svg",
+    "codepoints": [
+      60536
+    ],
+    "label": "people/trust"
+  },
+  {
+    "name": "EC79",
+    "source": "people/value.svg",
+    "codepoints": [
+      60537
+    ],
+    "label": "people/value"
+  },
+  {
+    "name": "EC7A",
+    "source": "people/village.svg",
+    "codepoints": [
+      60538
+    ],
+    "label": "people/village"
+  },
+  {
+    "name": "EC7B",
+    "source": "people/vote.svg",
+    "codepoints": [
+      60539
+    ],
+    "label": "people/vote"
+  },
+  {
+    "name": "EC7C",
+    "source": "people/welcome.svg",
+    "codepoints": [
+      60540
+    ],
+    "label": "people/welcome"
+  },
+  {
+    "name": "EC7D",
+    "source": "people/work.svg",
+    "codepoints": [
+      60541
+    ],
+    "label": "people/work"
+  },
+  {
+    "name": "EE00",
+    "source": "plants/bloom.svg",
+    "codepoints": [
+      60928
+    ],
+    "label": "plants/bloom"
+  },
+  {
+    "name": "EE01",
+    "source": "plants/bud.svg",
+    "codepoints": [
+      60929
+    ],
+    "label": "plants/bud"
+  },
+  {
+    "name": "EE02",
+    "source": "plants/compost.svg",
+    "codepoints": [
+      60930
+    ],
+    "label": "plants/compost"
+  },
+  {
+    "name": "EE03",
+    "source": "plants/dirt.svg",
+    "codepoints": [
+      60931
+    ],
+    "label": "plants/dirt"
+  },
+  {
+    "name": "EE04",
+    "source": "plants/fruit.svg",
+    "codepoints": [
+      60932
+    ],
+    "label": "plants/fruit"
+  },
+  {
+    "name": "EE05",
+    "source": "plants/log.svg",
+    "codepoints": [
+      60933
+    ],
+    "label": "plants/log"
+  },
+  {
+    "name": "EE06",
+    "source": "plants/moss.svg",
+    "codepoints": [
+      60934
+    ],
+    "label": "plants/moss"
+  },
+  {
+    "name": "EE07",
+    "source": "plants/nest.svg",
+    "codepoints": [
+      60935
+    ],
+    "label": "plants/nest"
+  },
+  {
+    "name": "EE08",
+    "source": "plants/oak.svg",
+    "codepoints": [
+      60936
+    ],
+    "label": "plants/oak"
+  },
+  {
+    "name": "EE09",
+    "source": "plants/pine.svg",
+    "codepoints": [
+      60937
+    ],
+    "label": "plants/pine"
+  },
+  {
+    "name": "EE0A",
+    "source": "plants/root.svg",
+    "codepoints": [
+      60938
+    ],
+    "label": "plants/root"
+  },
+  {
+    "name": "EE0B",
+    "source": "plants/seed.svg",
+    "codepoints": [
+      60939
+    ],
+    "label": "plants/seed"
+  },
+  {
+    "name": "EE0C",
+    "source": "plants/soil.svg",
+    "codepoints": [
+      60940
+    ],
+    "label": "plants/soil"
+  },
+  {
+    "name": "EE0D",
+    "source": "plants/sprout.svg",
+    "codepoints": [
+      60941
+    ],
+    "label": "plants/sprout"
+  },
+  {
+    "name": "EE0E",
+    "source": "plants/stem.svg",
+    "codepoints": [
+      60942
+    ],
+    "label": "plants/stem"
+  },
+  {
+    "name": "EE0F",
+    "source": "plants/stream.svg",
+    "codepoints": [
+      60943
+    ],
+    "label": "plants/stream"
+  },
+  {
+    "name": "EE10",
+    "source": "plants/tool.svg",
+    "codepoints": [
+      60944
+    ],
+    "label": "plants/tool"
+  },
+  {
+    "name": "EE11",
+    "source": "plants/watering.svg",
+    "codepoints": [
+      60945
+    ],
+    "label": "plants/watering"
+  },
+  {
+    "name": "F000",
+    "source": "science/adaptation.svg",
+    "codepoints": [
+      61440
+    ],
+    "label": "science/adaptation"
+  },
+  {
+    "name": "F001",
+    "source": "science/add.svg",
+    "codepoints": [
+      61441
+    ],
+    "label": "science/add"
+  },
+  {
+    "name": "F002",
+    "source": "science/algorithm.svg",
+    "codepoints": [
+      61442
+    ],
+    "label": "science/algorithm"
+  },
+  {
+    "name": "F003",
+    "source": "science/ancestor.svg",
+    "codepoints": [
+      61443
+    ],
+    "label": "science/ancestor"
+  },
+  {
+    "name": "F004",
+    "source": "science/anger.svg",
+    "codepoints": [
+      61444
+    ],
+    "label": "science/anger"
+  },
+  {
+    "name": "F005",
+    "source": "science/architecture.svg",
+    "codepoints": [
+      61445
+    ],
+    "label": "science/architecture"
+  },
+  {
+    "name": "F006",
+    "source": "science/archive.svg",
+    "codepoints": [
+      61446
+    ],
+    "label": "science/archive"
+  },
+  {
+    "name": "F007",
+    "source": "science/argument.svg",
+    "codepoints": [
+      61447
+    ],
+    "label": "science/argument"
+  },
+  {
+    "name": "F008",
+    "source": "science/art.svg",
+    "codepoints": [
+      61448
+    ],
+    "label": "science/art"
+  },
+  {
+    "name": "F009",
+    "source": "science/awe.svg",
+    "codepoints": [
+      61449
+    ],
+    "label": "science/awe"
+  },
+  {
+    "name": "F00A",
+    "source": "science/balance.svg",
+    "codepoints": [
+      61450
+    ],
+    "label": "science/balance"
+  },
+  {
+    "name": "F00B",
+    "source": "science/beauty.svg",
+    "codepoints": [
+      61451
+    ],
+    "label": "science/beauty"
+  },
+  {
+    "name": "F00C",
+    "source": "science/because.svg",
+    "codepoints": [
+      61452
+    ],
+    "label": "science/because"
+  },
+  {
+    "name": "F00D",
+    "source": "science/being.svg",
+    "codepoints": [
+      61453
+    ],
+    "label": "science/being"
+  },
+  {
+    "name": "F00E",
+    "source": "science/belief.svg",
+    "codepoints": [
+      61454
+    ],
+    "label": "science/belief"
+  },
+  {
+    "name": "F00F",
+    "source": "science/body.svg",
+    "codepoints": [
+      61455
+    ],
+    "label": "science/body"
+  },
+  {
+    "name": "F010",
+    "source": "science/border.svg",
+    "codepoints": [
+      61456
+    ],
+    "label": "science/border"
+  },
+  {
+    "name": "F011",
+    "source": "science/calm.svg",
+    "codepoints": [
+      61457
+    ],
+    "label": "science/calm"
+  },
+  {
+    "name": "F012",
+    "source": "science/capital.svg",
+    "codepoints": [
+      61458
+    ],
+    "label": "science/capital"
+  },
+  {
+    "name": "F013",
+    "source": "science/care.svg",
+    "codepoints": [
+      61459
+    ],
+    "label": "science/care"
+  },
+  {
+    "name": "F014",
+    "source": "science/cause.svg",
+    "codepoints": [
+      61460
+    ],
+    "label": "science/cause"
+  },
+  {
+    "name": "F015",
+    "source": "science/century.svg",
+    "codepoints": [
+      61461
+    ],
+    "label": "science/century"
+  },
+  {
+    "name": "F016",
+    "source": "science/chaos.svg",
+    "codepoints": [
+      61462
+    ],
+    "label": "science/chaos"
+  },
+  {
+    "name": "F017",
+    "source": "science/climate.svg",
+    "codepoints": [
+      61463
+    ],
+    "label": "science/climate"
+  },
+  {
+    "name": "F018",
+    "source": "science/clinic.svg",
+    "codepoints": [
+      61464
+    ],
+    "label": "science/clinic"
+  },
+  {
+    "name": "F019",
+    "source": "science/code.svg",
+    "codepoints": [
+      61465
+    ],
+    "label": "science/code"
+  },
+  {
+    "name": "F01A",
+    "source": "science/community.svg",
+    "codepoints": [
+      61466
+    ],
+    "label": "science/community"
+  },
+  {
+    "name": "F01B",
+    "source": "science/compare.svg",
+    "codepoints": [
+      61467
+    ],
+    "label": "science/compare"
+  },
+  {
+    "name": "F01C",
+    "source": "science/conclusion.svg",
+    "codepoints": [
+      61468
+    ],
+    "label": "science/conclusion"
+  },
+  {
+    "name": "F01D",
+    "source": "science/conservation.svg",
+    "codepoints": [
+      61469
+    ],
+    "label": "science/conservation"
+  },
+  {
+    "name": "F01E",
+    "source": "science/constellation.svg",
+    "codepoints": [
+      61470
+    ],
+    "label": "science/constellation"
+  },
+  {
+    "name": "F01F",
+    "source": "science/contradiction.svg",
+    "codepoints": [
+      61471
+    ],
+    "label": "science/contradiction"
+  },
+  {
+    "name": "F020",
+    "source": "science/cosmos.svg",
+    "codepoints": [
+      61472
+    ],
+    "label": "science/cosmos"
+  },
+  {
+    "name": "F021",
+    "source": "science/count.svg",
+    "codepoints": [
+      61473
+    ],
+    "label": "science/count"
+  },
+  {
+    "name": "F022",
+    "source": "science/courage.svg",
+    "codepoints": [
+      61474
+    ],
+    "label": "science/courage"
+  },
+  {
+    "name": "F023",
+    "source": "science/craft.svg",
+    "codepoints": [
+      61475
+    ],
+    "label": "science/craft"
+  },
+  {
+    "name": "F024",
+    "source": "science/culture.svg",
+    "codepoints": [
+      61476
+    ],
+    "label": "science/culture"
+  },
+  {
+    "name": "F025",
+    "source": "science/curiosity.svg",
+    "codepoints": [
+      61477
+    ],
+    "label": "science/curiosity"
+  },
+  {
+    "name": "F026",
+    "source": "science/current.svg",
+    "codepoints": [
+      61478
+    ],
+    "label": "science/current"
+  },
+  {
+    "name": "F027",
+    "source": "science/cycle.svg",
+    "codepoints": [
+      61479
+    ],
+    "label": "science/cycle"
+  },
+  {
+    "name": "F028",
+    "source": "science/data.svg",
+    "codepoints": [
+      61480
+    ],
+    "label": "science/data"
+  },
+  {
+    "name": "F029",
+    "source": "science/day.svg",
+    "codepoints": [
+      61481
+    ],
+    "label": "science/day"
+  },
+  {
+    "name": "F02A",
+    "source": "science/death.svg",
+    "codepoints": [
+      61482
+    ],
+    "label": "science/death"
+  },
+  {
+    "name": "F02B",
+    "source": "science/decay.svg",
+    "codepoints": [
+      61483
+    ],
+    "label": "science/decay"
+  },
+  {
+    "name": "F02C",
+    "source": "science/demand.svg",
+    "codepoints": [
+      61484
+    ],
+    "label": "science/demand"
+  },
+  {
+    "name": "F02D",
+    "source": "science/design.svg",
+    "codepoints": [
+      61485
+    ],
+    "label": "science/design"
+  },
+  {
+    "name": "F02E",
+    "source": "science/destiny.svg",
+    "codepoints": [
+      61486
+    ],
+    "label": "science/destiny"
+  },
+  {
+    "name": "F02F",
+    "source": "science/dialogue.svg",
+    "codepoints": [
+      61487
+    ],
+    "label": "science/dialogue"
+  },
+  {
+    "name": "F030",
+    "source": "science/disaster.svg",
+    "codepoints": [
+      61488
+    ],
+    "label": "science/disaster"
+  },
+  {
+    "name": "F031",
+    "source": "science/discipline.svg",
+    "codepoints": [
+      61489
+    ],
+    "label": "science/discipline"
+  },
+  {
+    "name": "F032",
+    "source": "science/discovery.svg",
+    "codepoints": [
+      61490
+    ],
+    "label": "science/discovery"
+  },
+  {
+    "name": "F033",
+    "source": "science/diversity.svg",
+    "codepoints": [
+      61491
+    ],
+    "label": "science/diversity"
+  },
+  {
+    "name": "F034",
+    "source": "science/divide.svg",
+    "codepoints": [
+      61492
+    ],
+    "label": "science/divide"
+  },
+  {
+    "name": "F035",
+    "source": "science/doubt.svg",
+    "codepoints": [
+      61493
+    ],
+    "label": "science/doubt"
+  },
+  {
+    "name": "F036",
+    "source": "science/duty.svg",
+    "codepoints": [
+      61494
+    ],
+    "label": "science/duty"
+  },
+  {
+    "name": "F037",
+    "source": "science/east.svg",
+    "codepoints": [
+      61495
+    ],
+    "label": "science/east"
+  },
+  {
+    "name": "F038",
+    "source": "science/eclipse.svg",
+    "codepoints": [
+      61496
+    ],
+    "label": "science/eclipse"
+  },
+  {
+    "name": "F039",
+    "source": "science/ecosystem.svg",
+    "codepoints": [
+      61497
+    ],
+    "label": "science/ecosystem"
+  },
+  {
+    "name": "F03A",
+    "source": "science/effect.svg",
+    "codepoints": [
+      61498
+    ],
+    "label": "science/effect"
+  },
+  {
+    "name": "F03B",
+    "source": "science/eight.svg",
+    "codepoints": [
+      61499
+    ],
+    "label": "science/eight"
+  },
+  {
+    "name": "F03C",
+    "source": "science/emergence.svg",
+    "codepoints": [
+      61500
+    ],
+    "label": "science/emergence"
+  },
+  {
+    "name": "F03D",
+    "source": "science/empire.svg",
+    "codepoints": [
+      61501
+    ],
+    "label": "science/empire"
+  },
+  {
+    "name": "F03E",
+    "source": "science/engine.svg",
+    "codepoints": [
+      61502
+    ],
+    "label": "science/engine"
+  },
+  {
+    "name": "F03F",
+    "source": "science/engineering.svg",
+    "codepoints": [
+      61503
+    ],
+    "label": "science/engineering"
+  },
+  {
+    "name": "F040",
+    "source": "science/equal.svg",
+    "codepoints": [
+      61504
+    ],
+    "label": "science/equal"
+  },
+  {
+    "name": "F041",
+    "source": "science/era.svg",
+    "codepoints": [
+      61505
+    ],
+    "label": "science/era"
+  },
+  {
+    "name": "F042",
+    "source": "science/evaporation.svg",
+    "codepoints": [
+      61506
+    ],
+    "label": "science/evaporation"
+  },
+  {
+    "name": "F043",
+    "source": "science/evening.svg",
+    "codepoints": [
+      61507
+    ],
+    "label": "science/evening"
+  },
+  {
+    "name": "F044",
+    "source": "science/evidence.svg",
+    "codepoints": [
+      61508
+    ],
+    "label": "science/evidence"
+  },
+  {
+    "name": "F045",
+    "source": "science/evolution.svg",
+    "codepoints": [
+      61509
+    ],
+    "label": "science/evolution"
+  },
+  {
+    "name": "F046",
+    "source": "science/example.svg",
+    "codepoints": [
+      61510
+    ],
+    "label": "science/example"
+  },
+  {
+    "name": "F047",
+    "source": "science/exercise.svg",
+    "codepoints": [
+      61511
+    ],
+    "label": "science/exercise"
+  },
+  {
+    "name": "F048",
+    "source": "science/experiment.svg",
+    "codepoints": [
+      61512
+    ],
+    "label": "science/experiment"
+  },
+  {
+    "name": "F049",
+    "source": "science/explanation.svg",
+    "codepoints": [
+      61513
+    ],
+    "label": "science/explanation"
+  },
+  {
+    "name": "F04A",
+    "source": "science/exploration.svg",
+    "codepoints": [
+      61514
+    ],
+    "label": "science/exploration"
+  },
+  {
+    "name": "F04B",
+    "source": "science/expression.svg",
+    "codepoints": [
+      61515
+    ],
+    "label": "science/expression"
+  },
+  {
+    "name": "F04C",
+    "source": "science/extinction.svg",
+    "codepoints": [
+      61516
+    ],
+    "label": "science/extinction"
+  },
+  {
+    "name": "F04D",
+    "source": "science/fairness.svg",
+    "codepoints": [
+      61517
+    ],
+    "label": "science/fairness"
+  },
+  {
+    "name": "F04E",
+    "source": "science/fall.svg",
+    "codepoints": [
+      61518
+    ],
+    "label": "science/fall"
+  },
+  {
+    "name": "F04F",
+    "source": "science/fear.svg",
+    "codepoints": [
+      61519
+    ],
+    "label": "science/fear"
+  },
+  {
+    "name": "F050",
+    "source": "science/feedback.svg",
+    "codepoints": [
+      61520
+    ],
+    "label": "science/feedback"
+  },
+  {
+    "name": "F051",
+    "source": "science/five.svg",
+    "codepoints": [
+      61521
+    ],
+    "label": "science/five"
+  },
+  {
+    "name": "F052",
+    "source": "science/flow.svg",
+    "codepoints": [
+      61522
+    ],
+    "label": "science/flow"
+  },
+  {
+    "name": "F053",
+    "source": "science/foodchain.svg",
+    "codepoints": [
+      61523
+    ],
+    "label": "science/foodchain"
+  },
+  {
+    "name": "F054",
+    "source": "science/force.svg",
+    "codepoints": [
+      61524
+    ],
+    "label": "science/force"
+  },
+  {
+    "name": "F055",
+    "source": "science/fossil.svg",
+    "codepoints": [
+      61525
+    ],
+    "label": "science/fossil"
+  },
+  {
+    "name": "F056",
+    "source": "science/four.svg",
+    "codepoints": [
+      61526
+    ],
+    "label": "science/four"
+  },
+  {
+    "name": "F057",
+    "source": "science/fraction.svg",
+    "codepoints": [
+      61527
+    ],
+    "label": "science/fraction"
+  },
+  {
+    "name": "F058",
+    "source": "science/freeze.svg",
+    "codepoints": [
+      61528
+    ],
+    "label": "science/freeze"
+  },
+  {
+    "name": "F059",
+    "source": "science/frontier.svg",
+    "codepoints": [
+      61529
+    ],
+    "label": "science/frontier"
+  },
+  {
+    "name": "F05A",
+    "source": "science/future.svg",
+    "codepoints": [
+      61530
+    ],
+    "label": "science/future"
+  },
+  {
+    "name": "F05B",
+    "source": "science/galaxy.svg",
+    "codepoints": [
+      61531
+    ],
+    "label": "science/galaxy"
+  },
+  {
+    "name": "F05C",
+    "source": "science/generation.svg",
+    "codepoints": [
+      61532
+    ],
+    "label": "science/generation"
+  },
+  {
+    "name": "F05D",
+    "source": "science/generosity.svg",
+    "codepoints": [
+      61533
+    ],
+    "label": "science/generosity"
+  },
+  {
+    "name": "F05E",
+    "source": "science/gift.svg",
+    "codepoints": [
+      61534
+    ],
+    "label": "science/gift"
+  },
+  {
+    "name": "F05F",
+    "source": "science/globe.svg",
+    "codepoints": [
+      61535
+    ],
+    "label": "science/globe"
+  },
+  {
+    "name": "F060",
+    "source": "science/grammar.svg",
+    "codepoints": [
+      61536
+    ],
+    "label": "science/grammar"
+  },
+  {
+    "name": "F061",
+    "source": "science/grow.svg",
+    "codepoints": [
+      61537
+    ],
+    "label": "science/grow"
+  },
+  {
+    "name": "F062",
+    "source": "science/growth.svg",
+    "codepoints": [
+      61538
+    ],
+    "label": "science/growth"
+  },
+  {
+    "name": "F063",
+    "source": "science/guide.svg",
+    "codepoints": [
+      61539
+    ],
+    "label": "science/guide"
+  },
+  {
+    "name": "F064",
+    "source": "science/habitat.svg",
+    "codepoints": [
+      61540
+    ],
+    "label": "science/habitat"
+  },
+  {
+    "name": "F065",
+    "source": "science/harm.svg",
+    "codepoints": [
+      61541
+    ],
+    "label": "science/harm"
+  },
+  {
+    "name": "F066",
+    "source": "science/harmony.svg",
+    "codepoints": [
+      61542
+    ],
+    "label": "science/harmony"
+  },
+  {
+    "name": "F067",
+    "source": "science/harvest.svg",
+    "codepoints": [
+      61543
+    ],
+    "label": "science/harvest"
+  },
+  {
+    "name": "F068",
+    "source": "science/heat.svg",
+    "codepoints": [
+      61544
+    ],
+    "label": "science/heat"
+  },
+  {
+    "name": "F069",
+    "source": "science/hero.svg",
+    "codepoints": [
+      61545
+    ],
+    "label": "science/hero"
+  },
+  {
+    "name": "F06A",
+    "source": "science/history.svg",
+    "codepoints": [
+      61546
+    ],
+    "label": "science/history"
+  },
+  {
+    "name": "F06B",
+    "source": "science/holiday.svg",
+    "codepoints": [
+      61547
+    ],
+    "label": "science/holiday"
+  },
+  {
+    "name": "F06C",
+    "source": "science/honesty.svg",
+    "codepoints": [
+      61548
+    ],
+    "label": "science/honesty"
+  },
+  {
+    "name": "F06D",
+    "source": "science/hope.svg",
+    "codepoints": [
+      61549
+    ],
+    "label": "science/hope"
+  },
+  {
+    "name": "F06E",
+    "source": "science/horizon.svg",
+    "codepoints": [
+      61550
+    ],
+    "label": "science/horizon"
+  },
+  {
+    "name": "F06F",
+    "source": "science/how.svg",
+    "codepoints": [
+      61551
+    ],
+    "label": "science/how"
+  },
+  {
+    "name": "F070",
+    "source": "science/hygiene.svg",
+    "codepoints": [
+      61552
+    ],
+    "label": "science/hygiene"
+  },
+  {
+    "name": "F071",
+    "source": "science/hypothesis.svg",
+    "codepoints": [
+      61553
+    ],
+    "label": "science/hypothesis"
+  },
+  {
+    "name": "F072",
+    "source": "science/idea.svg",
+    "codepoints": [
+      61554
+    ],
+    "label": "science/idea"
+  },
+  {
+    "name": "F073",
+    "source": "science/if.svg",
+    "codepoints": [
+      61555
+    ],
+    "label": "science/if"
+  },
+  {
+    "name": "F074",
+    "source": "science/imagination.svg",
+    "codepoints": [
+      61556
+    ],
+    "label": "science/imagination"
+  },
+  {
+    "name": "F075",
+    "source": "science/infinity.svg",
+    "codepoints": [
+      61557
+    ],
+    "label": "science/infinity"
+  },
+  {
+    "name": "F076",
+    "source": "science/innovation.svg",
+    "codepoints": [
+      61558
+    ],
+    "label": "science/innovation"
+  },
+  {
+    "name": "F077",
+    "source": "science/inquiry.svg",
+    "codepoints": [
+      61559
+    ],
+    "label": "science/inquiry"
+  },
+  {
+    "name": "F078",
+    "source": "science/insight.svg",
+    "codepoints": [
+      61560
+    ],
+    "label": "science/insight"
+  },
+  {
+    "name": "F079",
+    "source": "science/interface.svg",
+    "codepoints": [
+      61561
+    ],
+    "label": "science/interface"
+  },
+  {
+    "name": "F07A",
+    "source": "science/invention.svg",
+    "codepoints": [
+      61562
+    ],
+    "label": "science/invention"
+  },
+  {
+    "name": "F07B",
+    "source": "science/journey.svg",
+    "codepoints": [
+      61563
+    ],
+    "label": "science/journey"
+  },
+  {
+    "name": "F07C",
+    "source": "science/joy.svg",
+    "codepoints": [
+      61564
+    ],
+    "label": "science/joy"
+  },
+  {
+    "name": "F07D",
+    "source": "science/justice.svg",
+    "codepoints": [
+      61565
+    ],
+    "label": "science/justice"
+  },
+  {
+    "name": "F07E",
+    "source": "science/knowledge.svg",
+    "codepoints": [
+      61566
+    ],
+    "label": "science/knowledge"
+  },
+  {
+    "name": "F07F",
+    "source": "science/labor.svg",
+    "codepoints": [
+      61567
+    ],
+    "label": "science/labor"
+  },
+  {
+    "name": "F080",
+    "source": "science/learning.svg",
+    "codepoints": [
+      61568
+    ],
+    "label": "science/learning"
+  },
+  {
+    "name": "F081",
+    "source": "science/legend.svg",
+    "codepoints": [
+      61569
+    ],
+    "label": "science/legend"
+  },
+  {
+    "name": "F082",
+    "source": "science/less.svg",
+    "codepoints": [
+      61570
+    ],
+    "label": "science/less"
+  },
+  {
+    "name": "F083",
+    "source": "science/lie.svg",
+    "codepoints": [
+      61571
+    ],
+    "label": "science/lie"
+  },
+  {
+    "name": "F084",
+    "source": "science/love.svg",
+    "codepoints": [
+      61572
+    ],
+    "label": "science/love"
+  },
+  {
+    "name": "F085",
+    "source": "science/many.svg",
+    "codepoints": [
+      61573
+    ],
+    "label": "science/many"
+  },
+  {
+    "name": "F086",
+    "source": "science/mastery.svg",
+    "codepoints": [
+      61574
+    ],
+    "label": "science/mastery"
+  },
+  {
+    "name": "F087",
+    "source": "science/meaning.svg",
+    "codepoints": [
+      61575
+    ],
+    "label": "science/meaning"
+  },
+  {
+    "name": "F088",
+    "source": "science/measure.svg",
+    "codepoints": [
+      61576
+    ],
+    "label": "science/measure"
+  },
+  {
+    "name": "F089",
+    "source": "science/medicine.svg",
+    "codepoints": [
+      61577
+    ],
+    "label": "science/medicine"
+  },
+  {
+    "name": "F08A",
+    "source": "science/melt.svg",
+    "codepoints": [
+      61578
+    ],
+    "label": "science/melt"
+  },
+  {
+    "name": "F08B",
+    "source": "science/memory.svg",
+    "codepoints": [
+      61579
+    ],
+    "label": "science/memory"
+  },
+  {
+    "name": "F08C",
+    "source": "science/mentor.svg",
+    "codepoints": [
+      61580
+    ],
+    "label": "science/mentor"
+  },
+  {
+    "name": "F08D",
+    "source": "science/metaphor.svg",
+    "codepoints": [
+      61581
+    ],
+    "label": "science/metaphor"
+  },
+  {
+    "name": "F08E",
+    "source": "science/migration.svg",
+    "codepoints": [
+      61582
+    ],
+    "label": "science/migration"
+  },
+  {
+    "name": "F08F",
+    "source": "science/mind.svg",
+    "codepoints": [
+      61583
+    ],
+    "label": "science/mind"
+  },
+  {
+    "name": "F090",
+    "source": "science/mist.svg",
+    "codepoints": [
+      61584
+    ],
+    "label": "science/mist"
+  },
+  {
+    "name": "F091",
+    "source": "science/mistake.svg",
+    "codepoints": [
+      61585
+    ],
+    "label": "science/mistake"
+  },
+  {
+    "name": "F092",
+    "source": "science/model.svg",
+    "codepoints": [
+      61586
+    ],
+    "label": "science/model"
+  },
+  {
+    "name": "F093",
+    "source": "science/month.svg",
+    "codepoints": [
+      61587
+    ],
+    "label": "science/month"
+  },
+  {
+    "name": "F094",
+    "source": "science/more.svg",
+    "codepoints": [
+      61588
+    ],
+    "label": "science/more"
+  },
+  {
+    "name": "F095",
+    "source": "science/morning.svg",
+    "codepoints": [
+      61589
+    ],
+    "label": "science/morning"
+  },
+  {
+    "name": "F096",
+    "source": "science/motion.svg",
+    "codepoints": [
+      61590
+    ],
+    "label": "science/motion"
+  },
+  {
+    "name": "F097",
+    "source": "science/multiply.svg",
+    "codepoints": [
+      61591
+    ],
+    "label": "science/multiply"
+  },
+  {
+    "name": "F098",
+    "source": "science/music.svg",
+    "codepoints": [
+      61592
+    ],
+    "label": "science/music"
+  },
+  {
+    "name": "F099",
+    "source": "science/mystery.svg",
+    "codepoints": [
+      61593
+    ],
+    "label": "science/mystery"
+  },
+  {
+    "name": "F09A",
+    "source": "science/nature.svg",
+    "codepoints": [
+      61594
+    ],
+    "label": "science/nature"
+  },
+  {
+    "name": "F09B",
+    "source": "science/network.svg",
+    "codepoints": [
+      61595
+    ],
+    "label": "science/network"
+  },
+  {
+    "name": "F09C",
+    "source": "science/night.svg",
+    "codepoints": [
+      61596
+    ],
+    "label": "science/night"
+  },
+  {
+    "name": "F09D",
+    "source": "science/nine.svg",
+    "codepoints": [
+      61597
+    ],
+    "label": "science/nine"
+  },
+  {
+    "name": "F09E",
+    "source": "science/none.svg",
+    "codepoints": [
+      61598
+    ],
+    "label": "science/none"
+  },
+  {
+    "name": "F09F",
+    "source": "science/north.svg",
+    "codepoints": [
+      61599
+    ],
+    "label": "science/north"
+  },
+  {
+    "name": "F0A0",
+    "source": "science/noun.svg",
+    "codepoints": [
+      61600
+    ],
+    "label": "science/noun"
+  },
+  {
+    "name": "F0A1",
+    "source": "science/nutrition.svg",
+    "codepoints": [
+      61601
+    ],
+    "label": "science/nutrition"
+  },
+  {
+    "name": "F0A2",
+    "source": "science/observe.svg",
+    "codepoints": [
+      61602
+    ],
+    "label": "science/observe"
+  },
+  {
+    "name": "F0A3",
+    "source": "science/one.svg",
+    "codepoints": [
+      61603
+    ],
+    "label": "science/one"
+  },
+  {
+    "name": "F0A4",
+    "source": "science/orbit.svg",
+    "codepoints": [
+      61604
+    ],
+    "label": "science/orbit"
+  },
+  {
+    "name": "F0A5",
+    "source": "science/origin.svg",
+    "codepoints": [
+      61605
+    ],
+    "label": "science/origin"
+  },
+  {
+    "name": "F0A6",
+    "source": "science/other.svg",
+    "codepoints": [
+      61606
+    ],
+    "label": "science/other"
+  },
+  {
+    "name": "F0A7",
+    "source": "science/painting.svg",
+    "codepoints": [
+      61607
+    ],
+    "label": "science/painting"
+  },
+  {
+    "name": "F0A8",
+    "source": "science/paradox.svg",
+    "codepoints": [
+      61608
+    ],
+    "label": "science/paradox"
+  },
+  {
+    "name": "F0A9",
+    "source": "science/past.svg",
+    "codepoints": [
+      61609
+    ],
+    "label": "science/past"
+  },
+  {
+    "name": "F0AA",
+    "source": "science/path.svg",
+    "codepoints": [
+      61610
+    ],
+    "label": "science/path"
+  },
+  {
+    "name": "F0AB",
+    "source": "science/pattern.svg",
+    "codepoints": [
+      61611
+    ],
+    "label": "science/pattern"
+  },
+  {
+    "name": "F0AC",
+    "source": "science/performance.svg",
+    "codepoints": [
+      61612
+    ],
+    "label": "science/performance"
+  },
+  {
+    "name": "F0AD",
+    "source": "science/plan.svg",
+    "codepoints": [
+      61613
+    ],
+    "label": "science/plan"
+  },
+  {
+    "name": "F0AE",
+    "source": "science/planet.svg",
+    "codepoints": [
+      61614
+    ],
+    "label": "science/planet"
+  },
+  {
+    "name": "F0AF",
+    "source": "science/poetry.svg",
+    "codepoints": [
+      61615
+    ],
+    "label": "science/poetry"
+  },
+  {
+    "name": "F0B0",
+    "source": "science/pollution.svg",
+    "codepoints": [
+      61616
+    ],
+    "label": "science/pollution"
+  },
+  {
+    "name": "F0B1",
+    "source": "science/possibility.svg",
+    "codepoints": [
+      61617
+    ],
+    "label": "science/possibility"
+  },
+  {
+    "name": "F0B2",
+    "source": "science/poverty.svg",
+    "codepoints": [
+      61618
+    ],
+    "label": "science/poverty"
+  },
+  {
+    "name": "F0B3",
+    "source": "science/practice.svg",
+    "codepoints": [
+      61619
+    ],
+    "label": "science/practice"
+  },
+  {
+    "name": "F0B4",
+    "source": "science/present.svg",
+    "codepoints": [
+      61620
+    ],
+    "label": "science/present"
+  },
+  {
+    "name": "F0B5",
+    "source": "science/prevention.svg",
+    "codepoints": [
+      61621
+    ],
+    "label": "science/prevention"
+  },
+  {
+    "name": "F0B6",
+    "source": "science/price.svg",
+    "codepoints": [
+      61622
+    ],
+    "label": "science/price"
+  },
+  {
+    "name": "F0B7",
+    "source": "science/pride.svg",
+    "codepoints": [
+      61623
+    ],
+    "label": "science/pride"
+  },
+  {
+    "name": "F0B8",
+    "source": "science/production.svg",
+    "codepoints": [
+      61624
+    ],
+    "label": "science/production"
+  },
+  {
+    "name": "F0B9",
+    "source": "science/program.svg",
+    "codepoints": [
+      61625
+    ],
+    "label": "science/program"
+  },
+  {
+    "name": "F0BA",
+    "source": "science/promise.svg",
+    "codepoints": [
+      61626
+    ],
+    "label": "science/promise"
+  },
+  {
+    "name": "F0BB",
+    "source": "science/proof.svg",
+    "codepoints": [
+      61627
+    ],
+    "label": "science/proof"
+  },
+  {
+    "name": "F0BC",
+    "source": "science/protection.svg",
+    "codepoints": [
+      61628
+    ],
+    "label": "science/protection"
+  },
+  {
+    "name": "F0BD",
+    "source": "science/question.svg",
+    "codepoints": [
+      61629
+    ],
+    "label": "science/question"
+  },
+  {
+    "name": "F0BE",
+    "source": "science/reason.svg",
+    "codepoints": [
+      61630
+    ],
+    "label": "science/reason"
+  },
+  {
+    "name": "F0BF",
+    "source": "science/record.svg",
+    "codepoints": [
+      61631
+    ],
+    "label": "science/record"
+  },
+  {
+    "name": "F0C0",
+    "source": "science/recovery.svg",
+    "codepoints": [
+      61632
+    ],
+    "label": "science/recovery"
+  },
+  {
+    "name": "F0C1",
+    "source": "science/relic.svg",
+    "codepoints": [
+      61633
+    ],
+    "label": "science/relic"
+  },
+  {
+    "name": "F0C2",
+    "source": "science/renewal.svg",
+    "codepoints": [
+      61634
+    ],
+    "label": "science/renewal"
+  },
+  {
+    "name": "F0C3",
+    "source": "science/repair.svg",
+    "codepoints": [
+      61635
+    ],
+    "label": "science/repair"
+  },
+  {
+    "name": "F0C4",
+    "source": "science/research.svg",
+    "codepoints": [
+      61636
+    ],
+    "label": "science/research"
+  },
+  {
+    "name": "F0C5",
+    "source": "science/reservoir.svg",
+    "codepoints": [
+      61637
+    ],
+    "label": "science/reservoir"
+  },
+  {
+    "name": "F0C6",
+    "source": "science/resilience.svg",
+    "codepoints": [
+      61638
+    ],
+    "label": "science/resilience"
+  },
+  {
+    "name": "F0C7",
+    "source": "science/resource.svg",
+    "codepoints": [
+      61639
+    ],
+    "label": "science/resource"
+  },
+  {
+    "name": "F0C8",
+    "source": "science/respect.svg",
+    "codepoints": [
+      61640
+    ],
+    "label": "science/respect"
+  },
+  {
+    "name": "F0C9",
+    "source": "science/responsibility.svg",
+    "codepoints": [
+      61641
+    ],
+    "label": "science/responsibility"
+  },
+  {
+    "name": "F0CA",
+    "source": "science/result.svg",
+    "codepoints": [
+      61642
+    ],
+    "label": "science/result"
+  },
+  {
+    "name": "F0CB",
+    "source": "science/return.svg",
+    "codepoints": [
+      61643
+    ],
+    "label": "science/return"
+  },
+  {
+    "name": "F0CC",
+    "source": "science/revision.svg",
+    "codepoints": [
+      61644
+    ],
+    "label": "science/revision"
+  },
+  {
+    "name": "F0CD",
+    "source": "science/rhyme.svg",
+    "codepoints": [
+      61645
+    ],
+    "label": "science/rhyme"
+  },
+  {
+    "name": "F0CE",
+    "source": "science/risk.svg",
+    "codepoints": [
+      61646
+    ],
+    "label": "science/risk"
+  },
+  {
+    "name": "F0CF",
+    "source": "science/ritual.svg",
+    "codepoints": [
+      61647
+    ],
+    "label": "science/ritual"
+  },
+  {
+    "name": "F0D0",
+    "source": "science/rule.svg",
+    "codepoints": [
+      61648
+    ],
+    "label": "science/rule"
+  },
+  {
+    "name": "F0D1",
+    "source": "science/sadness.svg",
+    "codepoints": [
+      61649
+    ],
+    "label": "science/sadness"
+  },
+  {
+    "name": "F0D2",
+    "source": "science/scale.svg",
+    "codepoints": [
+      61650
+    ],
+    "label": "science/scale"
+  },
+  {
+    "name": "F0D3",
+    "source": "science/scarcity.svg",
+    "codepoints": [
+      61651
+    ],
+    "label": "science/scarcity"
+  },
+  {
+    "name": "F0D4",
+    "source": "science/scenario.svg",
+    "codepoints": [
+      61652
+    ],
+    "label": "science/scenario"
+  },
+  {
+    "name": "F0D5",
+    "source": "science/science.svg",
+    "codepoints": [
+      61653
+    ],
+    "label": "science/science"
+  },
+  {
+    "name": "F0D6",
+    "source": "science/search.svg",
+    "codepoints": [
+      61654
+    ],
+    "label": "science/search"
+  },
+  {
+    "name": "F0D7",
+    "source": "science/season.svg",
+    "codepoints": [
+      61655
+    ],
+    "label": "science/season"
+  },
+  {
+    "name": "F0D8",
+    "source": "science/self.svg",
+    "codepoints": [
+      61656
+    ],
+    "label": "science/self"
+  },
+  {
+    "name": "F0D9",
+    "source": "science/sensor.svg",
+    "codepoints": [
+      61657
+    ],
+    "label": "science/sensor"
+  },
+  {
+    "name": "F0DA",
+    "source": "science/sentence.svg",
+    "codepoints": [
+      61658
+    ],
+    "label": "science/sentence"
+  },
+  {
+    "name": "F0DB",
+    "source": "science/sequence.svg",
+    "codepoints": [
+      61659
+    ],
+    "label": "science/sequence"
+  },
+  {
+    "name": "F0DC",
+    "source": "science/server.svg",
+    "codepoints": [
+      61660
+    ],
+    "label": "science/server"
+  },
+  {
+    "name": "F0DD",
+    "source": "science/seven.svg",
+    "codepoints": [
+      61661
+    ],
+    "label": "science/seven"
+  },
+  {
+    "name": "F0DE",
+    "source": "science/shadow.svg",
+    "codepoints": [
+      61662
+    ],
+    "label": "science/shadow"
+  },
+  {
+    "name": "F0DF",
+    "source": "science/shame.svg",
+    "codepoints": [
+      61663
+    ],
+    "label": "science/shame"
+  },
+  {
+    "name": "F0E0",
+    "source": "science/shape.svg",
+    "codepoints": [
+      61664
+    ],
+    "label": "science/shape"
+  },
+  {
+    "name": "F0E1",
+    "source": "science/signal.svg",
+    "codepoints": [
+      61665
+    ],
+    "label": "science/signal"
+  },
+  {
+    "name": "F0E2",
+    "source": "science/six.svg",
+    "codepoints": [
+      61666
+    ],
+    "label": "science/six"
+  },
+  {
+    "name": "F0E3",
+    "source": "science/skill.svg",
+    "codepoints": [
+      61667
+    ],
+    "label": "science/skill"
+  },
+  {
+    "name": "F0E4",
+    "source": "science/solar.svg",
+    "codepoints": [
+      61668
+    ],
+    "label": "science/solar"
+  },
+  {
+    "name": "F0E5",
+    "source": "science/south.svg",
+    "codepoints": [
+      61669
+    ],
+    "label": "science/south"
+  },
+  {
+    "name": "F0E6",
+    "source": "science/spark.svg",
+    "codepoints": [
+      61670
+    ],
+    "label": "science/spark"
+  },
+  {
+    "name": "F0E7",
+    "source": "science/species.svg",
+    "codepoints": [
+      61671
+    ],
+    "label": "science/species"
+  },
+  {
+    "name": "F0E8",
+    "source": "science/spirit.svg",
+    "codepoints": [
+      61672
+    ],
+    "label": "science/spirit"
+  },
+  {
+    "name": "F0E9",
+    "source": "science/stewardship.svg",
+    "codepoints": [
+      61673
+    ],
+    "label": "science/stewardship"
+  },
+  {
+    "name": "F0EA",
+    "source": "science/story.svg",
+    "codepoints": [
+      61674
+    ],
+    "label": "science/story"
+  },
+  {
+    "name": "F0EB",
+    "source": "science/storytelling.svg",
+    "codepoints": [
+      61675
+    ],
+    "label": "science/storytelling"
+  },
+  {
+    "name": "F0EC",
+    "source": "science/study.svg",
+    "codepoints": [
+      61676
+    ],
+    "label": "science/study"
+  },
+  {
+    "name": "F0ED",
+    "source": "science/style.svg",
+    "codepoints": [
+      61677
+    ],
+    "label": "science/style"
+  },
+  {
+    "name": "F0EE",
+    "source": "science/subtract.svg",
+    "codepoints": [
+      61678
+    ],
+    "label": "science/subtract"
+  },
+  {
+    "name": "F0EF",
+    "source": "science/sunset.svg",
+    "codepoints": [
+      61679
+    ],
+    "label": "science/sunset"
+  },
+  {
+    "name": "F0F0",
+    "source": "science/supply.svg",
+    "codepoints": [
+      61680
+    ],
+    "label": "science/supply"
+  },
+  {
+    "name": "F0F1",
+    "source": "science/surplus.svg",
+    "codepoints": [
+      61681
+    ],
+    "label": "science/surplus"
+  },
+  {
+    "name": "F0F2",
+    "source": "science/surprise.svg",
+    "codepoints": [
+      61682
+    ],
+    "label": "science/surprise"
+  },
+  {
+    "name": "F0F3",
+    "source": "science/sustainability.svg",
+    "codepoints": [
+      61683
+    ],
+    "label": "science/sustainability"
+  },
+  {
+    "name": "F0F4",
+    "source": "science/symbol.svg",
+    "codepoints": [
+      61684
+    ],
+    "label": "science/symbol"
+  },
+  {
+    "name": "F0F5",
+    "source": "science/synthesis.svg",
+    "codepoints": [
+      61685
+    ],
+    "label": "science/synthesis"
+  },
+  {
+    "name": "F0F6",
+    "source": "science/technology.svg",
+    "codepoints": [
+      61686
+    ],
+    "label": "science/technology"
+  },
+  {
+    "name": "F0F7",
+    "source": "science/ten.svg",
+    "codepoints": [
+      61687
+    ],
+    "label": "science/ten"
+  },
+  {
+    "name": "F0F8",
+    "source": "science/test.svg",
+    "codepoints": [
+      61688
+    ],
+    "label": "science/test"
+  },
+  {
+    "name": "F0F9",
+    "source": "science/thaw.svg",
+    "codepoints": [
+      61689
+    ],
+    "label": "science/thaw"
+  },
+  {
+    "name": "F0FA",
+    "source": "science/then.svg",
+    "codepoints": [
+      61690
+    ],
+    "label": "science/then"
+  },
+  {
+    "name": "F0FB",
+    "source": "science/theory.svg",
+    "codepoints": [
+      61691
+    ],
+    "label": "science/theory"
+  },
+  {
+    "name": "F0FC",
+    "source": "science/therapy.svg",
+    "codepoints": [
+      61692
+    ],
+    "label": "science/therapy"
+  },
+  {
+    "name": "F0FD",
+    "source": "science/three.svg",
+    "codepoints": [
+      61693
+    ],
+    "label": "science/three"
+  },
+  {
+    "name": "F0FE",
+    "source": "science/threshold.svg",
+    "codepoints": [
+      61694
+    ],
+    "label": "science/threshold"
+  },
+  {
+    "name": "F0FF",
+    "source": "science/timeline.svg",
+    "codepoints": [
+      61695
+    ],
+    "label": "science/timeline"
+  },
+  {
+    "name": "F100",
+    "source": "science/today.svg",
+    "codepoints": [
+      61696
+    ],
+    "label": "science/today"
+  },
+  {
+    "name": "F101",
+    "source": "science/tomorrow.svg",
+    "codepoints": [
+      61697
+    ],
+    "label": "science/tomorrow"
+  },
+  {
+    "name": "F102",
+    "source": "science/tool.svg",
+    "codepoints": [
+      61698
+    ],
+    "label": "science/tool"
+  },
+  {
+    "name": "F103",
+    "source": "science/tradition.svg",
+    "codepoints": [
+      61699
+    ],
+    "label": "science/tradition"
+  },
+  {
+    "name": "F104",
+    "source": "science/transformation.svg",
+    "codepoints": [
+      61700
+    ],
+    "label": "science/transformation"
+  },
+  {
+    "name": "F105",
+    "source": "science/translation.svg",
+    "codepoints": [
+      61701
+    ],
+    "label": "science/translation"
+  },
+  {
+    "name": "F106",
+    "source": "science/trust.svg",
+    "codepoints": [
+      61702
+    ],
+    "label": "science/trust"
+  },
+  {
+    "name": "F107",
+    "source": "science/truth.svg",
+    "codepoints": [
+      61703
+    ],
+    "label": "science/truth"
+  },
+  {
+    "name": "F108",
+    "source": "science/two.svg",
+    "codepoints": [
+      61704
+    ],
+    "label": "science/two"
+  },
+  {
+    "name": "F109",
+    "source": "science/universe.svg",
+    "codepoints": [
+      61705
+    ],
+    "label": "science/universe"
+  },
+  {
+    "name": "F10A",
+    "source": "science/vaccine.svg",
+    "codepoints": [
+      61706
+    ],
+    "label": "science/vaccine"
+  },
+  {
+    "name": "F10B",
+    "source": "science/verb.svg",
+    "codepoints": [
+      61707
+    ],
+    "label": "science/verb"
+  },
+  {
+    "name": "F10C",
+    "source": "science/village.svg",
+    "codepoints": [
+      61708
+    ],
+    "label": "science/village"
+  },
+  {
+    "name": "F10D",
+    "source": "science/voice.svg",
+    "codepoints": [
+      61709
+    ],
+    "label": "science/voice"
+  },
+  {
+    "name": "F10E",
+    "source": "science/wealth.svg",
+    "codepoints": [
+      61710
+    ],
+    "label": "science/wealth"
+  },
+  {
+    "name": "F10F",
+    "source": "science/week.svg",
+    "codepoints": [
+      61711
+    ],
+    "label": "science/week"
+  },
+  {
+    "name": "F110",
+    "source": "science/well.svg",
+    "codepoints": [
+      61712
+    ],
+    "label": "science/well"
+  },
+  {
+    "name": "F111",
+    "source": "science/west.svg",
+    "codepoints": [
+      61713
+    ],
+    "label": "science/west"
+  },
+  {
+    "name": "F112",
+    "source": "science/what.svg",
+    "codepoints": [
+      61714
+    ],
+    "label": "science/what"
+  },
+  {
+    "name": "F113",
+    "source": "science/when.svg",
+    "codepoints": [
+      61715
+    ],
+    "label": "science/when"
+  },
+  {
+    "name": "F114",
+    "source": "science/where.svg",
+    "codepoints": [
+      61716
+    ],
+    "label": "science/where"
+  },
+  {
+    "name": "F115",
+    "source": "science/who.svg",
+    "codepoints": [
+      61717
+    ],
+    "label": "science/who"
+  },
+  {
+    "name": "F116",
+    "source": "science/why.svg",
+    "codepoints": [
+      61718
+    ],
+    "label": "science/why"
+  },
+  {
+    "name": "F117",
+    "source": "science/windmill.svg",
+    "codepoints": [
+      61719
+    ],
+    "label": "science/windmill"
+  },
+  {
+    "name": "F118",
+    "source": "science/wisdom.svg",
+    "codepoints": [
+      61720
+    ],
+    "label": "science/wisdom"
+  },
+  {
+    "name": "F119",
+    "source": "science/wonder.svg",
+    "codepoints": [
+      61721
+    ],
+    "label": "science/wonder"
+  },
+  {
+    "name": "F11A",
+    "source": "science/year.svg",
+    "codepoints": [
+      61722
+    ],
+    "label": "science/year"
+  },
+  {
+    "name": "F11B",
+    "source": "science/yesterday.svg",
+    "codepoints": [
+      61723
+    ],
+    "label": "science/yesterday"
+  },
+  {
+    "name": "F200",
+    "source": "weather_sky/breeze.svg",
+    "codepoints": [
+      61952
+    ],
+    "label": "weather_sky/breeze"
+  },
+  {
+    "name": "F201",
+    "source": "weather_sky/drizzle.svg",
+    "codepoints": [
+      61953
+    ],
+    "label": "weather_sky/drizzle"
+  },
+  {
+    "name": "F202",
+    "source": "weather_sky/frost.svg",
+    "codepoints": [
+      61954
+    ],
+    "label": "weather_sky/frost"
+  },
+  {
+    "name": "F203",
+    "source": "weather_sky/heat.svg",
+    "codepoints": [
+      61955
+    ],
+    "label": "weather_sky/heat"
+  },
+  {
+    "name": "F204",
+    "source": "weather_sky/ice.svg",
+    "codepoints": [
+      61956
+    ],
+    "label": "weather_sky/ice"
+  },
+  {
+    "name": "F205",
+    "source": "weather_sky/lightning.svg",
+    "codepoints": [
+      61957
+    ],
+    "label": "weather_sky/lightning"
+  },
+  {
+    "name": "F206",
+    "source": "weather_sky/puddle.svg",
+    "codepoints": [
+      61958
+    ],
+    "label": "weather_sky/puddle"
+  },
+  {
+    "name": "F207",
+    "source": "weather_sky/shade.svg",
+    "codepoints": [
+      61959
+    ],
+    "label": "weather_sky/shade"
+  },
+  {
+    "name": "F208",
+    "source": "weather_sky/sky.svg",
+    "codepoints": [
+      61960
+    ],
+    "label": "weather_sky/sky"
+  },
+  {
+    "name": "F209",
+    "source": "weather_sky/storm.svg",
+    "codepoints": [
+      61961
+    ],
+    "label": "weather_sky/storm"
+  },
+  {
+    "name": "F20A",
+    "source": "weather_sky/thunder.svg",
+    "codepoints": [
+      61962
+    ],
+    "label": "weather_sky/thunder"
+  }
+]
