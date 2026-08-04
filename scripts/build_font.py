@@ -122,6 +122,20 @@ def stroke_outline(pen: TTGlyphPen, d: str, width: float, upm: int, seed: int) -
         radius = width * 0.5 * taper
         left.append(transform_point(point + normal * radius, upm))
         right.append(transform_point(point - normal * radius, upm))
+    if closed:
+        # Preserve the hollow center of a closed stroked path. A single
+        # contour that walks from one offset to the other forms a
+        # self-intersecting spiral in a TrueType glyph, which makes enclosed
+        # drawings render as solid, fragmented fills.
+        for contour in (left, list(reversed(right))):
+            if len(contour) < 3:
+                continue
+            pen.moveTo(contour[0])
+            for point in contour[1:]:
+                pen.lineTo(point)
+            pen.closePath()
+        return
+
     outline = left + list(reversed(right))
     if len(outline) >= 3:
         pen.moveTo(outline[0])
