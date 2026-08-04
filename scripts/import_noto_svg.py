@@ -96,6 +96,20 @@ def tapered_outline(d: str, width: float) -> str | None:
         radius = width * 0.5 * taper
         left.append(point + normal * radius)
         right.append(point - normal * radius)
+    if closed:
+        # A closed centerline needs an outer and inner contour. Joining the
+        # two offsets into one contour creates a self-intersecting spiral;
+        # SVG renderers can then fill much of the enclosed artwork instead of
+        # leaving an outlined ring (especially visible on the diya lamp).
+        # Keep the offsets as separate, oppositely directed subpaths.
+        if len(left) < 3 or len(right) < 3:
+            return None
+        contours = (left, list(reversed(right)))
+        return " ".join(
+            "M " + " L ".join(f"{point.real:.3f} {point.imag:.3f}" for point in contour) + " Z"
+            for contour in contours
+        )
+
     outline = left + list(reversed(right))
     if len(outline) < 3:
         return None
@@ -255,6 +269,11 @@ def convert(source: Path, target: Path, name: str) -> None:
                             element.attrib.pop(key, None)
                         element.set("d", outline)
                         element.set("fill", "#262421")
+                        # Closed tapered marks carry two contours. Even-odd
+                        # makes their hollow center explicit, independent of
+                        # source winding direction.
+                        if source_d.strip().lower().endswith("z"):
+                            element.set("fill-rule", "evenodd")
                         element.set("data-ink-stroke", "tapered")
                         for key in ("stroke", "stroke-width", "stroke-linecap", "stroke-linejoin", "stroke-miterlimit"):
                             element.attrib.pop(key, None)
