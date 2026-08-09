@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="science / balance" data-pua="U+F100A" data-ink-stroke-system="brush-study-v1">
-  <title>science / balance — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="64.00" cy="64.00" r="14.40" fill="none" stroke="#262522" stroke-width="1.90" stroke-linecap="round"/><path d="M18 64.75Q64 25.23 110 64Q64 102.77 18 64Z" fill="none" stroke="#262522" stroke-width="1.46" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 18Q101.75 64 64 110Q26.25 64 64 18Z" fill="none" stroke="#262522" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round"/><circle cx="64.75" cy="64.23" r="4.00" fill="none" stroke="#262522" stroke-width="2.45" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / balance" data-pua="U+F100A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>science / balance — reviewed vector study</title>
+<path d="M36 14v43M24 19h24M17 59h38" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 19L19 40M36 19l17 21M12 40h14M46 40h14" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 40c2 7 6 10 10 10s8-3 10-10M42 40c2 7 6 10 10 10s8-3 10-10" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="36" cy="14" r="3" stroke-width="1.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

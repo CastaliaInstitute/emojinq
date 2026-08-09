@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="objects / treasure" data-pua="U+F0875" data-ink-stroke-system="brush-study-v1">
-  <title>objects / treasure — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M29 35.42Q64 20.26 99 35.42V96Q64 107.74 29 96Z" fill="none" stroke="#262522" stroke-width="1.91" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 63Q64 49.76 86 63Q64 79.58 42 63Z" fill="none" stroke="#262522" stroke-width="1.46" stroke-linecap="round" stroke-linejoin="round"/><path d="M49.00 48.00L82.42 82.00" fill="none" stroke="#262522" stroke-width="1.32" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / treasure" data-pua="U+F0875" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+  <title>objects / treasure — naturalist brush study</title>
+  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="2.8" d="M 13 31 C 24 28 48 28 59 31 L 56 58 C 44 60 28 60 16 58 Z"/>
+    <path stroke-width="2.1" d="M 13 31 C 17 24 23 21 36 21 C 49 21 55 24 59 31"/>
+    <path stroke-width="1.2" d="M 16 36 C 28 39 44 39 56 36 M 21 49 L 28 45 L 35 49 L 42 44 L 51 49"/>
+    <path stroke-width="2" d="M 33 21 L 33 31 M 39 21 L 39 31"/>
+    <path stroke-width="1" d="M 12 62 C 25 60 48 60 61 62"/>
+  </g>
 </svg>

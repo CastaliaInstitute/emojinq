@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="plants / pine" data-pua="U+F0E09" data-ink-stroke-system="brush-study-v1">
-  <title>plants / pine — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M64 112Q63.37 74 64 40" fill="none" stroke="#262522" stroke-width="1.22" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 75Q38 54.08 28 72Q44 86 64 75Z" fill="none" stroke="#262522" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 59Q88 45.92 101 56Q87 72 64 59Z" fill="none" stroke="#262522" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 40Q57.77 24 64 16Q76 25 64 40Z" fill="none" stroke="#262522" stroke-width="2.54" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / pine" data-pua="U+F0E09" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>plants / pine — reviewed vector study</title>
+<path d="M36 11L22 34h8L18 48h12L20 61h32L42 48h12L42 34h8z" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 11v50" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30 22l6 4 6-4M27 35l9 5 9-5M25 48l11 6 11-6" stroke-width="1.05" opacity=".74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

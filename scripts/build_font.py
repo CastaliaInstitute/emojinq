@@ -27,6 +27,7 @@ from fontTools.svgLib.path.parser import parse_path as parse_svg_path
 from fontTools.ttLib import TTFont
 from svgpathtools import Path as SvgPath
 from svgpathtools import parse_path
+from style_contract import assert_sumi_e
 
 SVG_NS = "http://www.w3.org/2000/svg"
 SHAPES = {"path", "line", "rect", "circle", "ellipse", "polygon", "polyline"}
@@ -97,17 +98,24 @@ def add_polygon(pen: TTGlyphPen, points: list[tuple[float, float]], upm: int) ->
 
 
 def stroke_outline(pen: TTGlyphPen, d: str, width: float, upm: int, seed: int) -> None:
-    centerline = parse_path(d)
-    centerline = SvgPath(*[segment for segment in centerline if abs(segment.length()) > 1e-6])
-    if not centerline:
-        return
-    closed = is_closed(d)
+    parsed = parse_path(d)
+    subpaths = parsed.continuous_subpaths()
+    for sub_index, centerline in enumerate(subpaths):
+        centerline = SvgPath(*[segment for segment in centerline if abs(segment.length()) > 1e-6])
+        if not centerline:
+            continue
+        _stroke_subpath(pen, centerline, width, upm, seed + sub_index, centerline.isclosed())
+
+
+def _stroke_subpath(pen: TTGlyphPen, centerline: SvgPath, width: float, upm: int, seed: int, closed: bool) -> None:
     length = max(1.0, centerline.length())
     count = max(8, min(180, int(length / 1.2)))
     ts = [i / count for i in range(count)] if closed else [i / (count - 1) for i in range(count)]
     points = [centerline.point(t) for t in ts]
     left: list[tuple[float, float]] = []
     right: list[tuple[float, float]] = []
+    phase = (seed * 1.61803398875) % math.tau
+    secondary_phase = (seed * 0.75487766625) % math.tau
     for i, point in enumerate(points):
         before = points[i - 1] if i else points[-1] if closed else points[1]
         after = points[(i + 1) % len(points)] if (i + 1 < len(points) or closed) else points[-2]
@@ -116,10 +124,16 @@ def stroke_outline(pen: TTGlyphPen, d: str, width: float, upm: int, seed: int) -
         normal = complex(-tangent.imag / magnitude, tangent.real / magnitude)
         if closed:
             taper = 1.0
+            progress = i / max(1, len(points) - 1)
         else:
             progress = i / (len(points) - 1)
             taper = 0.16 + 0.84 * math.sin(math.pi * progress) ** 0.55
-        radius = width * 0.5 * taper
+        pressure = (
+            1.0
+            + 0.085 * math.sin(progress * math.tau + phase)
+            + 0.028 * math.sin(progress * math.tau * 3.5 + secondary_phase)
+        )
+        radius = width * 0.5 * taper * pressure
         left.append(transform_point(point + normal * radius, upm))
         right.append(transform_point(point - normal * radius, upm))
     outline = left + list(reversed(right))
@@ -169,14 +183,14 @@ def build(
     output: Path,
     alpha_dir: Path | None = None,
     alpha_manifest: Path | None = None,
-    extra_dir: Path | None = None,
-    extra_manifest: Path | None = None,
+    extra_dirs: list[Path] | None = None,
+    extra_manifests: list[Path] | None = None,
 ) -> None:
     upm = 1000
     entries = json.loads(manifest_path.read_text())
     if alpha_dir and alpha_manifest:
         entries.extend({**item, "source_dir": str(alpha_dir), "alpha": True} for item in json.loads(alpha_manifest.read_text()))
-    if extra_dir and extra_manifest:
+    for extra_dir, extra_manifest in zip(extra_dirs or [], extra_manifests or []):
         entries.extend({**item, "source_dir": str(extra_dir)} for item in json.loads(extra_manifest.read_text()))
     glyphs = {".notdef": TTGlyphPen(None).glyph()}
     glyph_order = [".notdef"]
@@ -196,6 +210,9 @@ def build(
         source = Path(item.get("source_dir", source_dir)) / item["source"]
         if not source.exists():
             continue
+        # A TTF has no reliable visual-style flag. Validate every source
+        # before outlining it so a non-sumi-e SVG can never enter the font.
+        assert_sumi_e(source)
         glyphs[name] = make_glyph(source, upm)
         glyph_order.append(name)
         if item.get("alpha"):
@@ -272,8 +289,8 @@ def main() -> None:
     parser.add_argument("--output", type=Path, default=Path("fonts/Emojinq-Regular.ttf"))
     parser.add_argument("--alpha-dir", type=Path)
     parser.add_argument("--alpha-manifest", type=Path)
-    parser.add_argument("--extra-dir", type=Path)
-    parser.add_argument("--extra-manifest", type=Path)
+    parser.add_argument("--extra-dir", type=Path, action="append")
+    parser.add_argument("--extra-manifest", type=Path, action="append")
     args = parser.parse_args()
     build(args.source_dir, args.manifest, args.output, args.alpha_dir, args.alpha_manifest, args.extra_dir, args.extra_manifest)
 

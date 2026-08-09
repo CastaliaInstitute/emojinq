@@ -1,0 +1,9100 @@
+[
+  {
+    "svg": "assets/pua/animals/colony.svg",
+    "dominant_area": 411,
+    "dominant_bbox": [
+      72,
+      18,
+      104,
+      58
+    ],
+    "detached_area": 1042,
+    "detached_components": 16,
+    "detached_bboxes": [
+      [
+        14,
+        89,
+        44,
+        111
+      ],
+      [
+        35,
+        69,
+        60,
+        92
+      ],
+      [
+        49,
+        86,
+        68,
+        106
+      ],
+      [
+        61,
+        72,
+        73,
+        85
+      ],
+      [
+        74,
+        68,
+        83,
+        77
+      ],
+      [
+        54,
+        65,
+        65,
+        73
+      ],
+      [
+        32,
+        62,
+        44,
+        70
+      ],
+      [
+        49,
+        57,
+        59,
+        64
+      ],
+      [
+        73,
+        103,
+        79,
+        108
+      ],
+      [
+        11,
+        95,
+        20,
+        98
+      ],
+      [
+        72,
+        85,
+        75,
+        89
+      ],
+      [
+        66,
+        101,
+        70,
+        103
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/animals/flock.svg",
+    "dominant_area": 520,
+    "dominant_bbox": [
+      31,
+      69,
+      75,
+      108
+    ],
+    "detached_area": 1181,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        69,
+        18,
+        106,
+        57
+      ],
+      [
+        83,
+        86,
+        116,
+        109
+      ],
+      [
+        29,
+        20,
+        62,
+        42
+      ],
+      [
+        91,
+        60,
+        116,
+        76
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/animals/migration.svg",
+    "dominant_area": 415,
+    "dominant_bbox": [
+      11,
+      78,
+      68,
+      103
+    ],
+    "detached_area": 402,
+    "detached_components": 7,
+    "detached_bboxes": [
+      [
+        33,
+        41,
+        59,
+        53
+      ],
+      [
+        60,
+        24,
+        86,
+        35
+      ],
+      [
+        61,
+        44,
+        75,
+        51
+      ],
+      [
+        88,
+        26,
+        101,
+        33
+      ],
+      [
+        77,
+        38,
+        86,
+        42
+      ],
+      [
+        109,
+        24,
+        116,
+        27
+      ],
+      [
+        103,
+        30,
+        109,
+        32
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/body/bounce.svg",
+    "dominant_area": 1322,
+    "dominant_bbox": [
+      34,
+      10,
+      102,
+      82
+    ],
+    "detached_area": 338,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        26,
+        97,
+        77,
+        117
+      ],
+      [
+        55,
+        94,
+        65,
+        109
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/body/kick.svg",
+    "dominant_area": 1398,
+    "dominant_bbox": [
+      11,
+      41,
+      96,
+      91
+    ],
+    "detached_area": 64,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        102,
+        57,
+        116,
+        60
+      ],
+      [
+        103,
+        45,
+        117,
+        52
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/body/shake.svg",
+    "dominant_area": 536,
+    "dominant_bbox": [
+      76,
+      42,
+      108,
+      112
+    ],
+    "detached_area": 714,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        19,
+        42,
+        51,
+        112
+      ],
+      [
+        16,
+        37,
+        31,
+        58
+      ],
+      [
+        29,
+        50,
+        37,
+        69
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/body/skin.svg",
+    "dominant_area": 972,
+    "dominant_bbox": [
+      24,
+      64,
+      105,
+      110
+    ],
+    "detached_area": 149,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        50,
+        40,
+        79,
+        46
+      ],
+      [
+        54,
+        54,
+        73,
+        58
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/body/walk.svg",
+    "dominant_area": 523,
+    "dominant_bbox": [
+      17,
+      42,
+      70,
+      97
+    ],
+    "detached_area": 531,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        41,
+        10,
+        57,
+        27
+      ],
+      [
+        21,
+        106,
+        42,
+        116
+      ],
+      [
+        95,
+        82,
+        116,
+        92
+      ],
+      [
+        52,
+        105,
+        61,
+        110
+      ],
+      [
+        12,
+        112,
+        20,
+        117
+      ],
+      [
+        87,
+        91,
+        96,
+        96
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/body/wave.svg",
+    "dominant_area": 698,
+    "dominant_bbox": [
+      58,
+      37,
+      116,
+      87
+    ],
+    "detached_area": 141,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        21,
+        67,
+        50,
+        98
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/farm/bee.svg",
+    "dominant_area": 1532,
+    "dominant_bbox": [
+      20,
+      28,
+      104,
+      87
+    ],
+    "detached_area": 9,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        13,
+        96,
+        16,
+        98
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/flora/pine.svg",
+    "dominant_area": 237,
+    "dominant_bbox": [
+      41,
+      74,
+      87,
+      91
+    ],
+    "detached_area": 243,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        52,
+        24,
+        76,
+        54
+      ],
+      [
+        49,
+        114,
+        77,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/herbs/calendula.svg",
+    "dominant_area": 262,
+    "dominant_bbox": [
+      44,
+      48,
+      65,
+      110
+    ],
+    "detached_area": 25,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        62,
+        28,
+        65,
+        36
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/herbs/chamomile.svg",
+    "dominant_area": 240,
+    "dominant_bbox": [
+      39,
+      46,
+      62,
+      110
+    ],
+    "detached_area": 183,
+    "detached_components": 8,
+    "detached_bboxes": [
+      [
+        78,
+        49,
+        84,
+        61
+      ],
+      [
+        58,
+        29,
+        64,
+        36
+      ],
+      [
+        51,
+        25,
+        54,
+        32
+      ],
+      [
+        42,
+        30,
+        47,
+        36
+      ],
+      [
+        72,
+        52,
+        77,
+        57
+      ],
+      [
+        71,
+        59,
+        76,
+        61
+      ],
+      [
+        85,
+        52,
+        90,
+        56
+      ],
+      [
+        87,
+        59,
+        92,
+        61
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/herbs/dandelion.svg",
+    "dominant_area": 463,
+    "dominant_bbox": [
+      43,
+      43,
+      85,
+      114
+    ],
+    "detached_area": 76,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        62,
+        18,
+        65,
+        25
+      ],
+      [
+        62,
+        30,
+        65,
+        34
+      ],
+      [
+        71,
+        21,
+        74,
+        25
+      ],
+      [
+        54,
+        21,
+        56,
+        24
+      ],
+      [
+        50,
+        30,
+        52,
+        33
+      ],
+      [
+        75,
+        30,
+        77,
+        33
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/herbs/echinacea.svg",
+    "dominant_area": 456,
+    "dominant_bbox": [
+      40,
+      30,
+      87,
+      67
+    ],
+    "detached_area": 43,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        53,
+        111,
+        76,
+        114
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/herbs/elderberry.svg",
+    "dominant_area": 518,
+    "dominant_bbox": [
+      42,
+      50,
+      90,
+      110
+    ],
+    "detached_area": 60,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        75,
+        38,
+        80,
+        44
+      ],
+      [
+        66,
+        36,
+        71,
+        41
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/herbs/lavender.svg",
+    "dominant_area": 331,
+    "dominant_bbox": [
+      61,
+      13,
+      66,
+      110
+    ],
+    "detached_area": 95,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        44,
+        24,
+        50,
+        44
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/herbs/nettle.svg",
+    "dominant_area": 934,
+    "dominant_bbox": [
+      42,
+      42,
+      85,
+      110
+    ],
+    "detached_area": 20,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        66,
+        32,
+        68,
+        35
+      ],
+      [
+        59,
+        32,
+        61,
+        35
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/herbs/yarrow.svg",
+    "dominant_area": 320,
+    "dominant_bbox": [
+      43,
+      46,
+      83,
+      110
+    ],
+    "detached_area": 59,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        60,
+        32,
+        65,
+        37
+      ],
+      [
+        68,
+        33,
+        73,
+        38
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/bench.svg",
+    "dominant_area": 995,
+    "dominant_bbox": [
+      17,
+      71,
+      110,
+      109
+    ],
+    "detached_area": 711,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        20,
+        31,
+        107,
+        64
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/cave.svg",
+    "dominant_area": 1545,
+    "dominant_bbox": [
+      19,
+      38,
+      109,
+      83
+    ],
+    "detached_area": 27,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        84,
+        110,
+        86,
+        116
+      ],
+      [
+        96,
+        113,
+        99,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/china.svg",
+    "dominant_area": 1816,
+    "dominant_bbox": [
+      11,
+      35,
+      97,
+      111
+    ],
+    "detached_area": 78,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        108,
+        26,
+        116,
+        28
+      ],
+      [
+        108,
+        38,
+        115,
+        42
+      ],
+      [
+        75,
+        16,
+        81,
+        21
+      ],
+      [
+        101,
+        16,
+        105,
+        20
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/delta.svg",
+    "dominant_area": 770,
+    "dominant_bbox": [
+      12,
+      23,
+      113,
+      88
+    ],
+    "detached_area": 240,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        12,
+        99,
+        112,
+        103
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/den.svg",
+    "dominant_area": 895,
+    "dominant_bbox": [
+      44,
+      65,
+      88,
+      100
+    ],
+    "detached_area": 60,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        20,
+        95,
+        31,
+        99
+      ],
+      [
+        103,
+        93,
+        109,
+        97
+      ],
+      [
+        59,
+        39,
+        62,
+        47
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/greece.svg",
+    "dominant_area": 2527,
+    "dominant_bbox": [
+      11,
+      19,
+      115,
+      88
+    ],
+    "detached_area": 322,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        21,
+        94,
+        78,
+        100
+      ],
+      [
+        31,
+        103,
+        66,
+        108
+      ],
+      [
+        75,
+        99,
+        104,
+        105
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/japan.svg",
+    "dominant_area": 2116,
+    "dominant_bbox": [
+      23,
+      34,
+      106,
+      103
+    ],
+    "detached_area": 33,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        53,
+        110,
+        61,
+        114
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/lake.svg",
+    "dominant_area": 558,
+    "dominant_bbox": [
+      62,
+      45,
+      116,
+      81
+    ],
+    "detached_area": 354,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        14,
+        63,
+        49,
+        86
+      ],
+      [
+        63,
+        91,
+        84,
+        92
+      ],
+      [
+        70,
+        97,
+        80,
+        98
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/park.svg",
+    "dominant_area": 732,
+    "dominant_bbox": [
+      20,
+      71,
+      101,
+      111
+    ],
+    "detached_area": 585,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        12,
+        10,
+        74,
+        65
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/pasture.svg",
+    "dominant_area": 985,
+    "dominant_bbox": [
+      12,
+      22,
+      116,
+      57
+    ],
+    "detached_area": 539,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        30,
+        73,
+        74,
+        102
+      ],
+      [
+        18,
+        84,
+        23,
+        89
+      ],
+      [
+        86,
+        93,
+        92,
+        97
+      ],
+      [
+        72,
+        101,
+        75,
+        105
+      ],
+      [
+        76,
+        102,
+        79,
+        105
+      ],
+      [
+        21,
+        100,
+        23,
+        103
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/persia.svg",
+    "dominant_area": 3703,
+    "dominant_bbox": [
+      11,
+      32,
+      113,
+      110
+    ],
+    "detached_area": 38,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        106,
+        19,
+        109,
+        23
+      ],
+      [
+        90,
+        21,
+        93,
+        25
+      ],
+      [
+        99,
+        17,
+        100,
+        22
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/plateau.svg",
+    "dominant_area": 502,
+    "dominant_bbox": [
+      11,
+      27,
+      116,
+      64
+    ],
+    "detached_area": 277,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        13,
+        74,
+        34,
+        79
+      ],
+      [
+        91,
+        84,
+        108,
+        89
+      ],
+      [
+        93,
+        70,
+        111,
+        74
+      ],
+      [
+        76,
+        93,
+        90,
+        97
+      ],
+      [
+        45,
+        76,
+        54,
+        78
+      ],
+      [
+        36,
+        81,
+        42,
+        82
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/post.svg",
+    "dominant_area": 1325,
+    "dominant_bbox": [
+      11,
+      19,
+      62,
+      105
+    ],
+    "detached_area": 286,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        87,
+        62,
+        116,
+        107
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/rome.svg",
+    "dominant_area": 3478,
+    "dominant_bbox": [
+      44,
+      27,
+      117,
+      101
+    ],
+    "detached_area": 99,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        10,
+        51,
+        17,
+        69
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/sand.svg",
+    "dominant_area": 1187,
+    "dominant_bbox": [
+      11,
+      33,
+      116,
+      98
+    ],
+    "detached_area": 224,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        25,
+        108,
+        102,
+        114
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/shell.svg",
+    "dominant_area": 1205,
+    "dominant_bbox": [
+      52,
+      47,
+      117,
+      80
+    ],
+    "detached_area": 86,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        10,
+        56,
+        24,
+        60
+      ],
+      [
+        10,
+        66,
+        19,
+        73
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/spring.svg",
+    "dominant_area": 1238,
+    "dominant_bbox": [
+      21,
+      32,
+      83,
+      87
+    ],
+    "detached_area": 216,
+    "detached_components": 9,
+    "detached_bboxes": [
+      [
+        90,
+        49,
+        99,
+        65
+      ],
+      [
+        94,
+        12,
+        98,
+        18
+      ],
+      [
+        95,
+        37,
+        99,
+        42
+      ],
+      [
+        84,
+        11,
+        86,
+        17
+      ],
+      [
+        99,
+        30,
+        105,
+        33
+      ],
+      [
+        94,
+        114,
+        101,
+        117
+      ],
+      [
+        74,
+        17,
+        78,
+        21
+      ],
+      [
+        99,
+        21,
+        104,
+        24
+      ],
+      [
+        64,
+        102,
+        68,
+        103
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/street.svg",
+    "dominant_area": 2161,
+    "dominant_bbox": [
+      56,
+      13,
+      116,
+      114
+    ],
+    "detached_area": 56,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        11,
+        79,
+        25,
+        86
+      ],
+      [
+        16,
+        94,
+        27,
+        94
+      ],
+      [
+        13,
+        100,
+        22,
+        100
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/tide.svg",
+    "dominant_area": 1138,
+    "dominant_bbox": [
+      11,
+      20,
+      116,
+      89
+    ],
+    "detached_area": 260,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        20,
+        106,
+        107,
+        111
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/tundra.svg",
+    "dominant_area": 431,
+    "dominant_bbox": [
+      69,
+      47,
+      117,
+      74
+    ],
+    "detached_area": 495,
+    "detached_components": 9,
+    "detached_bboxes": [
+      [
+        11,
+        55,
+        39,
+        63
+      ],
+      [
+        21,
+        73,
+        45,
+        81
+      ],
+      [
+        11,
+        44,
+        33,
+        51
+      ],
+      [
+        31,
+        43,
+        52,
+        46
+      ],
+      [
+        12,
+        65,
+        32,
+        70
+      ],
+      [
+        58,
+        81,
+        70,
+        84
+      ],
+      [
+        46,
+        78,
+        52,
+        80
+      ],
+      [
+        55,
+        59,
+        61,
+        60
+      ],
+      [
+        27,
+        71,
+        35,
+        72
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/valley.svg",
+    "dominant_area": 2556,
+    "dominant_bbox": [
+      34,
+      44,
+      116,
+      83
+    ],
+    "detached_area": 169,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        11,
+        57,
+        25,
+        68
+      ],
+      [
+        11,
+        48,
+        25,
+        52
+      ],
+      [
+        11,
+        44,
+        25,
+        45
+      ],
+      [
+        14,
+        71,
+        20,
+        72
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/locations/wave.svg",
+    "dominant_area": 1519,
+    "dominant_bbox": [
+      11,
+      53,
+      116,
+      102
+    ],
+    "detached_area": 231,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        24,
+        110,
+        103,
+        114
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/materials/fiber.svg",
+    "dominant_area": 302,
+    "dominant_bbox": [
+      10,
+      79,
+      47,
+      117
+    ],
+    "detached_area": 311,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        48,
+        19,
+        75,
+        47
+      ],
+      [
+        76,
+        10,
+        91,
+        37
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/materials/sand.svg",
+    "dominant_area": 687,
+    "dominant_bbox": [
+      15,
+      64,
+      112,
+      92
+    ],
+    "detached_area": 237,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        24,
+        105,
+        103,
+        111
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/bowl.svg",
+    "dominant_area": 1379,
+    "dominant_bbox": [
+      19,
+      67,
+      108,
+      112
+    ],
+    "detached_area": 593,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        72,
+        15,
+        116,
+        28
+      ],
+      [
+        11,
+        15,
+        55,
+        27
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/caravan.svg",
+    "dominant_area": 5291,
+    "dominant_bbox": [
+      15,
+      10,
+      111,
+      96
+    ],
+    "detached_area": 61,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        64,
+        108,
+        76,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/circuit.svg",
+    "dominant_area": 620,
+    "dominant_bbox": [
+      40,
+      49,
+      79,
+      86
+    ],
+    "detached_area": 291,
+    "detached_components": 8,
+    "detached_bboxes": [
+      [
+        87,
+        25,
+        102,
+        40
+      ],
+      [
+        12,
+        53,
+        22,
+        65
+      ],
+      [
+        16,
+        42,
+        19,
+        48
+      ],
+      [
+        50,
+        20,
+        53,
+        24
+      ],
+      [
+        106,
+        65,
+        109,
+        68
+      ],
+      [
+        57,
+        20,
+        59,
+        23
+      ],
+      [
+        11,
+        44,
+        14,
+        47
+      ],
+      [
+        113,
+        66,
+        115,
+        68
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/connect.svg",
+    "dominant_area": 776,
+    "dominant_bbox": [
+      10,
+      34,
+      61,
+      63
+    ],
+    "detached_area": 756,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        69,
+        35,
+        117,
+        61
+      ],
+      [
+        69,
+        27,
+        76,
+        36
+      ],
+      [
+        68,
+        62,
+        74,
+        70
+      ],
+      [
+        33,
+        102,
+        35,
+        104
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/create.svg",
+    "dominant_area": 1491,
+    "dominant_bbox": [
+      47,
+      46,
+      117,
+      111
+    ],
+    "detached_area": 179,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        11,
+        22,
+        20,
+        31
+      ],
+      [
+        12,
+        35,
+        27,
+        41
+      ],
+      [
+        58,
+        30,
+        71,
+        32
+      ],
+      [
+        18,
+        13,
+        28,
+        21
+      ],
+      [
+        24,
+        43,
+        28,
+        49
+      ],
+      [
+        19,
+        54,
+        22,
+        57
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/design.svg",
+    "dominant_area": 1798,
+    "dominant_bbox": [
+      15,
+      11,
+      91,
+      103
+    ],
+    "detached_area": 246,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        24,
+        114,
+        92,
+        117
+      ],
+      [
+        99,
+        78,
+        103,
+        81
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/doll.svg",
+    "dominant_area": 2243,
+    "dominant_bbox": [
+      22,
+      21,
+      94,
+      101
+    ],
+    "detached_area": 13,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        59,
+        10,
+        66,
+        11
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/doorframe.svg",
+    "dominant_area": 5027,
+    "dominant_bbox": [
+      11,
+      11,
+      99,
+      116
+    ],
+    "detached_area": 32,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        114,
+        31,
+        117,
+        42
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/drum.svg",
+    "dominant_area": 2069,
+    "dominant_bbox": [
+      31,
+      66,
+      96,
+      117
+    ],
+    "detached_area": 628,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        31,
+        10,
+        64,
+        41
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/dyeing.svg",
+    "dominant_area": 3765,
+    "dominant_bbox": [
+      19,
+      11,
+      108,
+      96
+    ],
+    "detached_area": 195,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        63,
+        102,
+        87,
+        117
+      ],
+      [
+        19,
+        109,
+        24,
+        117
+      ],
+      [
+        29,
+        112,
+        34,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/echo.svg",
+    "dominant_area": 509,
+    "dominant_bbox": [
+      29,
+      49,
+      92,
+      94
+    ],
+    "detached_area": 117,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        34,
+        33,
+        78,
+        41
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/electricity.svg",
+    "dominant_area": 756,
+    "dominant_bbox": [
+      38,
+      13,
+      77,
+      112
+    ],
+    "detached_area": 167,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        86,
+        86,
+        109,
+        91
+      ],
+      [
+        84,
+        36,
+        96,
+        48
+      ],
+      [
+        102,
+        63,
+        114,
+        64
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/engine.svg",
+    "dominant_area": 2781,
+    "dominant_bbox": [
+      17,
+      40,
+      110,
+      104
+    ],
+    "detached_area": 147,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        50,
+        32,
+        84,
+        34
+      ],
+      [
+        59,
+        27,
+        75,
+        29
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/engraving.svg",
+    "dominant_area": 1814,
+    "dominant_bbox": [
+      37,
+      43,
+      116,
+      84
+    ],
+    "detached_area": 65,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        10,
+        43,
+        15,
+        53
+      ],
+      [
+        10,
+        56,
+        13,
+        66
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/exchange.svg",
+    "dominant_area": 566,
+    "dominant_bbox": [
+      24,
+      69,
+      108,
+      90
+    ],
+    "detached_area": 565,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        19,
+        37,
+        103,
+        58
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/explore.svg",
+    "dominant_area": 2112,
+    "dominant_bbox": [
+      11,
+      28,
+      70,
+      108
+    ],
+    "detached_area": 20,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        97,
+        67,
+        104,
+        69
+      ],
+      [
+        94,
+        66,
+        99,
+        68
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/flavor.svg",
+    "dominant_area": 3557,
+    "dominant_bbox": [
+      17,
+      10,
+      111,
+      102
+    ],
+    "detached_area": 40,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        21,
+        112,
+        25,
+        117
+      ],
+      [
+        44,
+        112,
+        45,
+        117
+      ],
+      [
+        75,
+        113,
+        78,
+        116
+      ],
+      [
+        69,
+        113,
+        70,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/forest.svg",
+    "dominant_area": 5408,
+    "dominant_bbox": [
+      16,
+      18,
+      111,
+      107
+    ],
+    "detached_area": 32,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        78,
+        10,
+        94,
+        11
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/forging.svg",
+    "dominant_area": 2489,
+    "dominant_bbox": [
+      19,
+      67,
+      116,
+      113
+    ],
+    "detached_area": 72,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        87,
+        38,
+        96,
+        60
+      ],
+      [
+        85,
+        48,
+        86,
+        56
+      ],
+      [
+        57,
+        15,
+        61,
+        19
+      ],
+      [
+        99,
+        55,
+        104,
+        58
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/gallery.svg",
+    "dominant_area": 514,
+    "dominant_bbox": [
+      18,
+      24,
+      108,
+      98
+    ],
+    "detached_area": 58,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        52,
+        113,
+        66,
+        116
+      ],
+      [
+        76,
+        10,
+        82,
+        11
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/game.svg",
+    "dominant_area": 3670,
+    "dominant_bbox": [
+      11,
+      23,
+      116,
+      115
+    ],
+    "detached_area": 28,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        89,
+        11,
+        103,
+        12
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/giant.svg",
+    "dominant_area": 2685,
+    "dominant_bbox": [
+      11,
+      13,
+      76,
+      114
+    ],
+    "detached_area": 796,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        83,
+        58,
+        116,
+        111
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/handle.svg",
+    "dominant_area": 1912,
+    "dominant_bbox": [
+      19,
+      10,
+      91,
+      95
+    ],
+    "detached_area": 209,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        36,
+        106,
+        87,
+        117
+      ],
+      [
+        106,
+        59,
+        108,
+        69
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/hero.svg",
+    "dominant_area": 2594,
+    "dominant_bbox": [
+      24,
+      10,
+      103,
+      104
+    ],
+    "detached_area": 34,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        64,
+        113,
+        72,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/imagine.svg",
+    "dominant_area": 1265,
+    "dominant_bbox": [
+      10,
+      38,
+      62,
+      110
+    ],
+    "detached_area": 143,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        76,
+        64,
+        87,
+        74
+      ],
+      [
+        70,
+        74,
+        77,
+        80
+      ],
+      [
+        114,
+        60,
+        117,
+        68
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/joinery.svg",
+    "dominant_area": 1688,
+    "dominant_bbox": [
+      45,
+      12,
+      116,
+      70
+    ],
+    "detached_area": 36,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        14,
+        80,
+        24,
+        86
+      ],
+      [
+        23,
+        102,
+        29,
+        106
+      ],
+      [
+        34,
+        79,
+        39,
+        81
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/journey.svg",
+    "dominant_area": 1895,
+    "dominant_bbox": [
+      46,
+      46,
+      109,
+      110
+    ],
+    "detached_area": 38,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        70,
+        29,
+        85,
+        40
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/king.svg",
+    "dominant_area": 4926,
+    "dominant_bbox": [
+      16,
+      10,
+      111,
+      106
+    ],
+    "detached_area": 62,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        32,
+        115,
+        55,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/lever.svg",
+    "dominant_area": 2570,
+    "dominant_bbox": [
+      11,
+      21,
+      117,
+      76
+    ],
+    "detached_area": 176,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        74,
+        90,
+        117,
+        106
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/observe.svg",
+    "dominant_area": 2483,
+    "dominant_bbox": [
+      11,
+      11,
+      116,
+      91
+    ],
+    "detached_area": 83,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        81,
+        103,
+        94,
+        116
+      ],
+      [
+        93,
+        108,
+        101,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/oven.svg",
+    "dominant_area": 4222,
+    "dominant_bbox": [
+      10,
+      13,
+      115,
+      97
+    ],
+    "detached_area": 55,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        99,
+        109,
+        116,
+        114
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/paint.svg",
+    "dominant_area": 2505,
+    "dominant_bbox": [
+      11,
+      18,
+      96,
+      108
+    ],
+    "detached_area": 51,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        114,
+        57,
+        117,
+        78
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/pattern.svg",
+    "dominant_area": 3068,
+    "dominant_bbox": [
+      25,
+      11,
+      102,
+      94
+    ],
+    "detached_area": 142,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        58,
+        109,
+        78,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/port.svg",
+    "dominant_area": 1088,
+    "dominant_bbox": [
+      19,
+      30,
+      112,
+      97
+    ],
+    "detached_area": 216,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        25,
+        108,
+        102,
+        112
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/pot.svg",
+    "dominant_area": 1593,
+    "dominant_bbox": [
+      25,
+      10,
+      102,
+      66
+    ],
+    "detached_area": 648,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        27,
+        78,
+        102,
+        117
+      ],
+      [
+        89,
+        115,
+        102,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/pottery.svg",
+    "dominant_area": 2116,
+    "dominant_bbox": [
+      41,
+      10,
+      117,
+      72
+    ],
+    "detached_area": 228,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        10,
+        18,
+        22,
+        51
+      ],
+      [
+        52,
+        112,
+        60,
+        117
+      ],
+      [
+        10,
+        92,
+        16,
+        95
+      ],
+      [
+        10,
+        100,
+        13,
+        103
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/print.svg",
+    "dominant_area": 1223,
+    "dominant_bbox": [
+      45,
+      44,
+      117,
+      79
+    ],
+    "detached_area": 232,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        10,
+        44,
+        23,
+        78
+      ],
+      [
+        10,
+        67,
+        16,
+        71
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/pump.svg",
+    "dominant_area": 2823,
+    "dominant_bbox": [
+      24,
+      11,
+      102,
+      100
+    ],
+    "detached_area": 128,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        43,
+        106,
+        69,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/puzzle.svg",
+    "dominant_area": 2851,
+    "dominant_bbox": [
+      21,
+      25,
+      106,
+      96
+    ],
+    "detached_area": 247,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        44,
+        108,
+        83,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/question.svg",
+    "dominant_area": 2207,
+    "dominant_bbox": [
+      31,
+      10,
+      97,
+      88
+    ],
+    "detached_area": 316,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        51,
+        95,
+        72,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/roof.svg",
+    "dominant_area": 861,
+    "dominant_bbox": [
+      18,
+      78,
+      110,
+      107
+    ],
+    "detached_area": 210,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        34,
+        43,
+        93,
+        71
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/screw.svg",
+    "dominant_area": 1175,
+    "dominant_bbox": [
+      42,
+      10,
+      104,
+      102
+    ],
+    "detached_area": 17,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        67,
+        114,
+        74,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/sculpture.svg",
+    "dominant_area": 3302,
+    "dominant_bbox": [
+      16,
+      10,
+      103,
+      116
+    ],
+    "detached_area": 9,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        112,
+        53,
+        112,
+        61
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/share.svg",
+    "dominant_area": 1461,
+    "dominant_bbox": [
+      11,
+      36,
+      116,
+      89
+    ],
+    "detached_area": 110,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        51,
+        95,
+        58,
+        112
+      ],
+      [
+        66,
+        95,
+        69,
+        113
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/signal.svg",
+    "dominant_area": 1298,
+    "dominant_bbox": [
+      29,
+      35,
+      84,
+      98
+    ],
+    "detached_area": 64,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        33,
+        109,
+        46,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/slide.svg",
+    "dominant_area": 4020,
+    "dominant_bbox": [
+      12,
+      10,
+      115,
+      101
+    ],
+    "detached_area": 172,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        55,
+        110,
+        87,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/spinning.svg",
+    "dominant_area": 2710,
+    "dominant_bbox": [
+      26,
+      36,
+      107,
+      98
+    ],
+    "detached_area": 24,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        54,
+        10,
+        63,
+        13
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/stage.svg",
+    "dominant_area": 4893,
+    "dominant_bbox": [
+      21,
+      27,
+      106,
+      100
+    ],
+    "detached_area": 62,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        63,
+        10,
+        67,
+        14
+      ],
+      [
+        54,
+        10,
+        60,
+        12
+      ],
+      [
+        41,
+        10,
+        45,
+        12
+      ],
+      [
+        65,
+        115,
+        70,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/switch.svg",
+    "dominant_area": 2006,
+    "dominant_bbox": [
+      36,
+      28,
+      110,
+      116
+    ],
+    "detached_area": 45,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        17,
+        63,
+        30,
+        66
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/symbol.svg",
+    "dominant_area": 4043,
+    "dominant_bbox": [
+      16,
+      10,
+      107,
+      101
+    ],
+    "detached_area": 29,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        104,
+        113,
+        112,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/tower.svg",
+    "dominant_area": 1515,
+    "dominant_bbox": [
+      19,
+      11,
+      87,
+      102
+    ],
+    "detached_area": 24,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        46,
+        114,
+        55,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/value.svg",
+    "dominant_area": 652,
+    "dominant_bbox": [
+      50,
+      42,
+      116,
+      84
+    ],
+    "detached_area": 48,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        10,
+        55,
+        21,
+        56
+      ],
+      [
+        10,
+        42,
+        14,
+        45
+      ],
+      [
+        10,
+        47,
+        22,
+        48
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/valve.svg",
+    "dominant_area": 3116,
+    "dominant_bbox": [
+      13,
+      10,
+      115,
+      93
+    ],
+    "detached_area": 56,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        34,
+        106,
+        49,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/villager.svg",
+    "dominant_area": 1025,
+    "dominant_bbox": [
+      17,
+      61,
+      110,
+      110
+    ],
+    "detached_area": 42,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        56,
+        39,
+        71,
+        43
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/voice.svg",
+    "dominant_area": 2595,
+    "dominant_bbox": [
+      22,
+      74,
+      105,
+      117
+    ],
+    "detached_area": 754,
+    "detached_components": 7,
+    "detached_bboxes": [
+      [
+        36,
+        10,
+        68,
+        66
+      ],
+      [
+        93,
+        11,
+        105,
+        57
+      ],
+      [
+        86,
+        16,
+        95,
+        52
+      ],
+      [
+        79,
+        22,
+        85,
+        46
+      ],
+      [
+        73,
+        27,
+        77,
+        42
+      ],
+      [
+        38,
+        10,
+        47,
+        15
+      ],
+      [
+        58,
+        18,
+        62,
+        22
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/whistle.svg",
+    "dominant_area": 1832,
+    "dominant_bbox": [
+      8,
+      26,
+      109,
+      96
+    ],
+    "detached_area": 140,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        29,
+        104,
+        98,
+        105
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/wonder.svg",
+    "dominant_area": 916,
+    "dominant_bbox": [
+      25,
+      46,
+      66,
+      100
+    ],
+    "detached_area": 351,
+    "detached_components": 9,
+    "detached_bboxes": [
+      [
+        76,
+        37,
+        79,
+        61
+      ],
+      [
+        76,
+        11,
+        79,
+        29
+      ],
+      [
+        82,
+        32,
+        101,
+        35
+      ],
+      [
+        55,
+        32,
+        74,
+        34
+      ],
+      [
+        60,
+        114,
+        76,
+        117
+      ],
+      [
+        81,
+        36,
+        90,
+        45
+      ],
+      [
+        81,
+        22,
+        88,
+        30
+      ],
+      [
+        67,
+        21,
+        74,
+        29
+      ],
+      [
+        92,
+        18,
+        97,
+        22
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/objects/word.svg",
+    "dominant_area": 2714,
+    "dominant_bbox": [
+      20,
+      10,
+      108,
+      100
+    ],
+    "detached_area": 32,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        80,
+        112,
+        87,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/patterns/pattern.svg",
+    "dominant_area": 406,
+    "dominant_bbox": [
+      83,
+      65,
+      102,
+      116
+    ],
+    "detached_area": 403,
+    "detached_components": 10,
+    "detached_bboxes": [
+      [
+        10,
+        58,
+        25,
+        85
+      ],
+      [
+        27,
+        27,
+        47,
+        55
+      ],
+      [
+        15,
+        103,
+        30,
+        117
+      ],
+      [
+        61,
+        57,
+        75,
+        76
+      ],
+      [
+        26,
+        78,
+        37,
+        94
+      ],
+      [
+        10,
+        87,
+        13,
+        99
+      ],
+      [
+        25,
+        96,
+        26,
+        107
+      ],
+      [
+        59,
+        12,
+        63,
+        19
+      ],
+      [
+        45,
+        61,
+        50,
+        68
+      ],
+      [
+        53,
+        10,
+        56,
+        13
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/patterns/yellow.svg",
+    "dominant_area": 695,
+    "dominant_bbox": [
+      40,
+      42,
+      87,
+      89
+    ],
+    "detached_area": 303,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        62,
+        96,
+        65,
+        115
+      ],
+      [
+        62,
+        16,
+        65,
+        35
+      ],
+      [
+        14,
+        64,
+        33,
+        67
+      ],
+      [
+        96,
+        64,
+        115,
+        67
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/alliance.svg",
+    "dominant_area": 2638,
+    "dominant_bbox": [
+      10,
+      35,
+      90,
+      92
+    ],
+    "detached_area": 423,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        101,
+        62,
+        117,
+        92
+      ],
+      [
+        112,
+        52,
+        117,
+        61
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/ancestor.svg",
+    "dominant_area": 1855,
+    "dominant_bbox": [
+      49,
+      10,
+      95,
+      90
+    ],
+    "detached_area": 137,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        48,
+        101,
+        61,
+        117
+      ],
+      [
+        15,
+        101,
+        18,
+        108
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/aristotle.svg",
+    "dominant_area": 3274,
+    "dominant_bbox": [
+      22,
+      10,
+      105,
+      96
+    ],
+    "detached_area": 96,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        87,
+        102,
+        105,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/babysitter.svg",
+    "dominant_area": 1560,
+    "dominant_bbox": [
+      22,
+      59,
+      107,
+      109
+    ],
+    "detached_area": 47,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        47,
+        37,
+        62,
+        41
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/circle.svg",
+    "dominant_area": 1178,
+    "dominant_bbox": [
+      10,
+      27,
+      48,
+      109
+    ],
+    "detached_area": 1427,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        69,
+        33,
+        116,
+        111
+      ],
+      [
+        76,
+        17,
+        90,
+        67
+      ],
+      [
+        62,
+        43,
+        75,
+        46
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/citizen.svg",
+    "dominant_area": 1704,
+    "dominant_bbox": [
+      12,
+      10,
+      82,
+      116
+    ],
+    "detached_area": 203,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        107,
+        65,
+        115,
+        81
+      ],
+      [
+        105,
+        52,
+        114,
+        62
+      ],
+      [
+        95,
+        50,
+        96,
+        54
+      ],
+      [
+        91,
+        50,
+        92,
+        54
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/city.svg",
+    "dominant_area": 2716,
+    "dominant_bbox": [
+      10,
+      13,
+      97,
+      112
+    ],
+    "detached_area": 102,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        105,
+        86,
+        116,
+        101
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/cleaner.svg",
+    "dominant_area": 2444,
+    "dominant_bbox": [
+      22,
+      11,
+      108,
+      103
+    ],
+    "detached_area": 10,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        46,
+        116,
+        51,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/compassion.svg",
+    "dominant_area": 1027,
+    "dominant_bbox": [
+      24,
+      25,
+      76,
+      91
+    ],
+    "detached_area": 362,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        44,
+        99,
+        77,
+        116
+      ],
+      [
+        94,
+        72,
+        97,
+        87
+      ],
+      [
+        61,
+        111,
+        69,
+        116
+      ],
+      [
+        64,
+        114,
+        69,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/confucius.svg",
+    "dominant_area": 1969,
+    "dominant_bbox": [
+      25,
+      10,
+      103,
+      67
+    ],
+    "detached_area": 26,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        71,
+        91,
+        75,
+        95
+      ],
+      [
+        82,
+        111,
+        84,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/cooperation.svg",
+    "dominant_area": 758,
+    "dominant_bbox": [
+      26,
+      49,
+      101,
+      92
+    ],
+    "detached_area": 284,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        28,
+        108,
+        99,
+        111
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/cousin.svg",
+    "dominant_area": 3181,
+    "dominant_bbox": [
+      11,
+      11,
+      109,
+      97
+    ],
+    "detached_area": 82,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        40,
+        103,
+        52,
+        115
+      ],
+      [
+        115,
+        60,
+        117,
+        66
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/creator.svg",
+    "dominant_area": 2355,
+    "dominant_bbox": [
+      11,
+      47,
+      112,
+      106
+    ],
+    "detached_area": 114,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        54,
+        112,
+        80,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/destroyer.svg",
+    "dominant_area": 2386,
+    "dominant_bbox": [
+      11,
+      25,
+      84,
+      109
+    ],
+    "detached_area": 64,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        102,
+        75,
+        109,
+        83
+      ],
+      [
+        95,
+        84,
+        99,
+        87
+      ],
+      [
+        103,
+        94,
+        108,
+        95
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/diaper.svg",
+    "dominant_area": 2754,
+    "dominant_bbox": [
+      10,
+      36,
+      85,
+      107
+    ],
+    "detached_area": 85,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        100,
+        79,
+        109,
+        102
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/dream.svg",
+    "dominant_area": 1872,
+    "dominant_bbox": [
+      17,
+      56,
+      116,
+      111
+    ],
+    "detached_area": 62,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        85,
+        29,
+        95,
+        39
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/duty.svg",
+    "dominant_area": 3069,
+    "dominant_bbox": [
+      11,
+      15,
+      105,
+      112
+    ],
+    "detached_area": 8,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        116,
+        69,
+        117,
+        75
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/faith.svg",
+    "dominant_area": 2786,
+    "dominant_bbox": [
+      36,
+      15,
+      115,
+      95
+    ],
+    "detached_area": 298,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        12,
+        102,
+        60,
+        117
+      ],
+      [
+        97,
+        110,
+        115,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/farmer.svg",
+    "dominant_area": 2518,
+    "dominant_bbox": [
+      36,
+      14,
+      116,
+      96
+    ],
+    "detached_area": 166,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        10,
+        45,
+        16,
+        59
+      ],
+      [
+        10,
+        101,
+        19,
+        108
+      ],
+      [
+        15,
+        22,
+        19,
+        27
+      ],
+      [
+        17,
+        31,
+        22,
+        33
+      ],
+      [
+        16,
+        111,
+        21,
+        113
+      ],
+      [
+        10,
+        37,
+        11,
+        42
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/festival.svg",
+    "dominant_area": 1394,
+    "dominant_bbox": [
+      16,
+      10,
+      74,
+      74
+    ],
+    "detached_area": 337,
+    "detached_components": 13,
+    "detached_bboxes": [
+      [
+        94,
+        108,
+        111,
+        117
+      ],
+      [
+        82,
+        10,
+        98,
+        19
+      ],
+      [
+        86,
+        108,
+        96,
+        117
+      ],
+      [
+        82,
+        19,
+        86,
+        24
+      ],
+      [
+        65,
+        102,
+        72,
+        104
+      ],
+      [
+        106,
+        10,
+        109,
+        13
+      ],
+      [
+        69,
+        93,
+        71,
+        100
+      ],
+      [
+        97,
+        24,
+        100,
+        26
+      ],
+      [
+        106,
+        29,
+        108,
+        31
+      ],
+      [
+        103,
+        17,
+        105,
+        19
+      ],
+      [
+        90,
+        29,
+        92,
+        31
+      ],
+      [
+        71,
+        93,
+        74,
+        95
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/firefighter.svg",
+    "dominant_area": 2802,
+    "dominant_bbox": [
+      45,
+      10,
+      117,
+      80
+    ],
+    "detached_area": 734,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        10,
+        10,
+        30,
+        76
+      ],
+      [
+        80,
+        107,
+        92,
+        114
+      ],
+      [
+        10,
+        114,
+        12,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/fool.svg",
+    "dominant_area": 1143,
+    "dominant_bbox": [
+      41,
+      42,
+      116,
+      85
+    ],
+    "detached_area": 79,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        10,
+        42,
+        16,
+        51
+      ],
+      [
+        10,
+        54,
+        13,
+        65
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/grandparent.svg",
+    "dominant_area": 1131,
+    "dominant_bbox": [
+      48,
+      34,
+      108,
+      92
+    ],
+    "detached_area": 268,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        47,
+        104,
+        76,
+        117
+      ],
+      [
+        55,
+        14,
+        60,
+        17
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/health.svg",
+    "dominant_area": 1030,
+    "dominant_bbox": [
+      66,
+      15,
+      116,
+      76
+    ],
+    "detached_area": 618,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        11,
+        35,
+        41,
+        77
+      ],
+      [
+        15,
+        105,
+        27,
+        112
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/help.svg",
+    "dominant_area": 1894,
+    "dominant_bbox": [
+      35,
+      45,
+      98,
+      117
+    ],
+    "detached_area": 29,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        92,
+        10,
+        98,
+        15
+      ],
+      [
+        97,
+        27,
+        98,
+        32
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/hildegard.svg",
+    "dominant_area": 1034,
+    "dominant_bbox": [
+      28,
+      76,
+      90,
+      110
+    ],
+    "detached_area": 630,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        43,
+        29,
+        82,
+        70
+      ],
+      [
+        49,
+        49,
+        70,
+        53
+      ],
+      [
+        54,
+        61,
+        68,
+        64
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/hypatia.svg",
+    "dominant_area": 4058,
+    "dominant_bbox": [
+      21,
+      10,
+      115,
+      96
+    ],
+    "detached_area": 273,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        29,
+        103,
+        66,
+        116
+      ],
+      [
+        76,
+        112,
+        89,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/ibnsina.svg",
+    "dominant_area": 2761,
+    "dominant_bbox": [
+      40,
+      13,
+      116,
+      94
+    ],
+    "detached_area": 506,
+    "detached_components": 5,
+    "detached_bboxes": [
+      [
+        47,
+        101,
+        73,
+        114
+      ],
+      [
+        11,
+        29,
+        17,
+        59
+      ],
+      [
+        11,
+        70,
+        23,
+        84
+      ],
+      [
+        11,
+        84,
+        19,
+        87
+      ],
+      [
+        11,
+        109,
+        12,
+        114
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/identity.svg",
+    "dominant_area": 1869,
+    "dominant_bbox": [
+      32,
+      68,
+      110,
+      117
+    ],
+    "detached_area": 191,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        91,
+        11,
+        108,
+        61
+      ],
+      [
+        100,
+        40,
+        110,
+        51
+      ],
+      [
+        42,
+        49,
+        47,
+        56
+      ],
+      [
+        36,
+        50,
+        41,
+        55
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/invite.svg",
+    "dominant_area": 606,
+    "dominant_bbox": [
+      40,
+      31,
+      85,
+      72
+    ],
+    "detached_area": 623,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        92,
+        33,
+        110,
+        85
+      ],
+      [
+        27,
+        111,
+        108,
+        112
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/justice.svg",
+    "dominant_area": 902,
+    "dominant_bbox": [
+      20,
+      41,
+      68,
+      86
+    ],
+    "detached_area": 180,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        101,
+        41,
+        117,
+        66
+      ],
+      [
+        89,
+        41,
+        94,
+        44
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/kindness.svg",
+    "dominant_area": 1185,
+    "dominant_bbox": [
+      15,
+      80,
+      112,
+      118
+    ],
+    "detached_area": 188,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        36,
+        47,
+        91,
+        61
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/language.svg",
+    "dominant_area": 714,
+    "dominant_bbox": [
+      19,
+      28,
+      108,
+      59
+    ],
+    "detached_area": 401,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        33,
+        90,
+        79,
+        111
+      ],
+      [
+        75,
+        66,
+        91,
+        69
+      ],
+      [
+        36,
+        66,
+        52,
+        69
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/laozi.svg",
+    "dominant_area": 912,
+    "dominant_bbox": [
+      18,
+      74,
+      109,
+      110
+    ],
+    "detached_area": 99,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        50,
+        49,
+        71,
+        53
+      ],
+      [
+        56,
+        61,
+        71,
+        64
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/law.svg",
+    "dominant_area": 2123,
+    "dominant_bbox": [
+      20,
+      10,
+      107,
+      70
+    ],
+    "detached_area": 1082,
+    "detached_components": 5,
+    "detached_bboxes": [
+      [
+        29,
+        76,
+        70,
+        116
+      ],
+      [
+        62,
+        96,
+        94,
+        116
+      ],
+      [
+        93,
+        77,
+        107,
+        116
+      ],
+      [
+        47,
+        111,
+        50,
+        116
+      ],
+      [
+        36,
+        111,
+        39,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/leader.svg",
+    "dominant_area": 1464,
+    "dominant_bbox": [
+      17,
+      70,
+      121,
+      111
+    ],
+    "detached_area": 533,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        57,
+        29,
+        81,
+        64
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/leadership.svg",
+    "dominant_area": 1535,
+    "dominant_bbox": [
+      10,
+      42,
+      95,
+      85
+    ],
+    "detached_area": 26,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        101,
+        57,
+        108,
+        61
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/learning.svg",
+    "dominant_area": 1360,
+    "dominant_bbox": [
+      48,
+      45,
+      116,
+      81
+    ],
+    "detached_area": 226,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        10,
+        54,
+        28,
+        74
+      ],
+      [
+        10,
+        45,
+        27,
+        59
+      ],
+      [
+        10,
+        64,
+        14,
+        71
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/mechanic.svg",
+    "dominant_area": 3517,
+    "dominant_bbox": [
+      37,
+      11,
+      116,
+      73
+    ],
+    "detached_area": 414,
+    "detached_components": 9,
+    "detached_bboxes": [
+      [
+        10,
+        97,
+        24,
+        116
+      ],
+      [
+        10,
+        37,
+        22,
+        72
+      ],
+      [
+        100,
+        82,
+        116,
+        92
+      ],
+      [
+        93,
+        105,
+        101,
+        116
+      ],
+      [
+        71,
+        108,
+        75,
+        116
+      ],
+      [
+        18,
+        29,
+        25,
+        32
+      ],
+      [
+        66,
+        111,
+        69,
+        116
+      ],
+      [
+        12,
+        13,
+        15,
+        18
+      ],
+      [
+        16,
+        22,
+        20,
+        25
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/memory.svg",
+    "dominant_area": 1960,
+    "dominant_bbox": [
+      42,
+      42,
+      116,
+      84
+    ],
+    "detached_area": 480,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        11,
+        42,
+        36,
+        81
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/migration.svg",
+    "dominant_area": 2398,
+    "dominant_bbox": [
+      14,
+      33,
+      86,
+      102
+    ],
+    "detached_area": 504,
+    "detached_components": 7,
+    "detached_bboxes": [
+      [
+        92,
+        85,
+        117,
+        102
+      ],
+      [
+        103,
+        62,
+        117,
+        75
+      ],
+      [
+        79,
+        12,
+        93,
+        22
+      ],
+      [
+        105,
+        27,
+        116,
+        33
+      ],
+      [
+        90,
+        21,
+        103,
+        26
+      ],
+      [
+        103,
+        44,
+        116,
+        49
+      ],
+      [
+        102,
+        83,
+        108,
+        86
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/myth.svg",
+    "dominant_area": 2302,
+    "dominant_bbox": [
+      39,
+      14,
+      116,
+      99
+    ],
+    "detached_area": 359,
+    "detached_components": 5,
+    "detached_bboxes": [
+      [
+        11,
+        60,
+        29,
+        96
+      ],
+      [
+        11,
+        50,
+        26,
+        58
+      ],
+      [
+        13,
+        36,
+        21,
+        40
+      ],
+      [
+        11,
+        64,
+        12,
+        71
+      ],
+      [
+        11,
+        59,
+        13,
+        62
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/name.svg",
+    "dominant_area": 1238,
+    "dominant_bbox": [
+      26,
+      72,
+      106,
+      112
+    ],
+    "detached_area": 643,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        44,
+        23,
+        83,
+        62
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/nation.svg",
+    "dominant_area": 3054,
+    "dominant_bbox": [
+      35,
+      10,
+      116,
+      75
+    ],
+    "detached_area": 13,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        10,
+        111,
+        13,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/newton.svg",
+    "dominant_area": 2655,
+    "dominant_bbox": [
+      38,
+      41,
+      116,
+      85
+    ],
+    "detached_area": 196,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        11,
+        42,
+        22,
+        83
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/nurse.svg",
+    "dominant_area": 2117,
+    "dominant_bbox": [
+      33,
+      10,
+      91,
+      94
+    ],
+    "detached_area": 453,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        65,
+        106,
+        90,
+        117
+      ],
+      [
+        60,
+        102,
+        96,
+        117
+      ],
+      [
+        32,
+        112,
+        45,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/offering.svg",
+    "dominant_area": 1846,
+    "dominant_bbox": [
+      26,
+      10,
+      102,
+      92
+    ],
+    "detached_area": 132,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        80,
+        101,
+        101,
+        117
+      ],
+      [
+        42,
+        113,
+        50,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/orphan.svg",
+    "dominant_area": 1546,
+    "dominant_bbox": [
+      13,
+      53,
+      114,
+      114
+    ],
+    "detached_area": 52,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        54,
+        36,
+        73,
+        40
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/peace.svg",
+    "dominant_area": 1297,
+    "dominant_bbox": [
+      27,
+      39,
+      100,
+      101
+    ],
+    "detached_area": 282,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        17,
+        107,
+        110,
+        109
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/place.svg",
+    "dominant_area": 2323,
+    "dominant_bbox": [
+      16,
+      16,
+      99,
+      93
+    ],
+    "detached_area": 325,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        60,
+        101,
+        79,
+        117
+      ],
+      [
+        30,
+        99,
+        55,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/police.svg",
+    "dominant_area": 1345,
+    "dominant_bbox": [
+      45,
+      15,
+      111,
+      93
+    ],
+    "detached_area": 367,
+    "detached_components": 5,
+    "detached_bboxes": [
+      [
+        10,
+        43,
+        23,
+        62
+      ],
+      [
+        10,
+        63,
+        22,
+        77
+      ],
+      [
+        10,
+        79,
+        20,
+        89
+      ],
+      [
+        112,
+        107,
+        117,
+        110
+      ],
+      [
+        15,
+        38,
+        20,
+        39
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/progress.svg",
+    "dominant_area": 1941,
+    "dominant_bbox": [
+      42,
+      66,
+      117,
+      117
+    ],
+    "detached_area": 125,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        11,
+        95,
+        20,
+        117
+      ],
+      [
+        10,
+        78,
+        13,
+        89
+      ],
+      [
+        10,
+        60,
+        15,
+        62
+      ],
+      [
+        11,
+        38,
+        14,
+        40
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/promise.svg",
+    "dominant_area": 1016,
+    "dominant_bbox": [
+      48,
+      44,
+      117,
+      83
+    ],
+    "detached_area": 510,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        12,
+        44,
+        42,
+        82
+      ],
+      [
+        35,
+        66,
+        39,
+        74
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/ritual.svg",
+    "dominant_area": 1115,
+    "dominant_bbox": [
+      78,
+      33,
+      117,
+      103
+    ],
+    "detached_area": 1051,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        11,
+        32,
+        50,
+        102
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/rule.svg",
+    "dominant_area": 1909,
+    "dominant_bbox": [
+      24,
+      10,
+      105,
+      93
+    ],
+    "detached_area": 228,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        57,
+        101,
+        95,
+        117
+      ],
+      [
+        32,
+        115,
+        37,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/rumi.svg",
+    "dominant_area": 1993,
+    "dominant_bbox": [
+      40,
+      13,
+      117,
+      96
+    ],
+    "detached_area": 331,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        11,
+        47,
+        28,
+        92
+      ],
+      [
+        72,
+        105,
+        78,
+        114
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/safety.svg",
+    "dominant_area": 1659,
+    "dominant_bbox": [
+      36,
+      10,
+      105,
+      69
+    ],
+    "detached_area": 574,
+    "detached_components": 5,
+    "detached_bboxes": [
+      [
+        22,
+        79,
+        52,
+        117
+      ],
+      [
+        49,
+        113,
+        55,
+        117
+      ],
+      [
+        70,
+        86,
+        76,
+        88
+      ],
+      [
+        71,
+        89,
+        74,
+        91
+      ],
+      [
+        54,
+        116,
+        57,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/sage.svg",
+    "dominant_area": 1963,
+    "dominant_bbox": [
+      40,
+      11,
+      116,
+      74
+    ],
+    "detached_area": 318,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        103,
+        83,
+        116,
+        116
+      ],
+      [
+        11,
+        48,
+        22,
+        67
+      ],
+      [
+        11,
+        109,
+        22,
+        116
+      ],
+      [
+        110,
+        100,
+        114,
+        102
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/science.svg",
+    "dominant_area": 884,
+    "dominant_bbox": [
+      31,
+      39,
+      66,
+      88
+    ],
+    "detached_area": 538,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        90,
+        39,
+        117,
+        75
+      ],
+      [
+        100,
+        71,
+        117,
+        86
+      ],
+      [
+        110,
+        49,
+        117,
+        57
+      ],
+      [
+        90,
+        67,
+        94,
+        81
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/seeker.svg",
+    "dominant_area": 1886,
+    "dominant_bbox": [
+      19,
+      36,
+      72,
+      115
+    ],
+    "detached_area": 104,
+    "detached_components": 8,
+    "detached_bboxes": [
+      [
+        95,
+        13,
+        96,
+        22
+      ],
+      [
+        104,
+        25,
+        114,
+        28
+      ],
+      [
+        78,
+        33,
+        86,
+        37
+      ],
+      [
+        79,
+        25,
+        87,
+        28
+      ],
+      [
+        104,
+        33,
+        111,
+        35
+      ],
+      [
+        86,
+        19,
+        91,
+        24
+      ],
+      [
+        100,
+        20,
+        105,
+        24
+      ],
+      [
+        81,
+        71,
+        84,
+        73
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/service.svg",
+    "dominant_area": 1329,
+    "dominant_bbox": [
+      10,
+      20,
+      76,
+      94
+    ],
+    "detached_area": 171,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        31,
+        105,
+        91,
+        107
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/shadow.svg",
+    "dominant_area": 1620,
+    "dominant_bbox": [
+      35,
+      25,
+      106,
+      98
+    ],
+    "detached_area": 38,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        25,
+        10,
+        38,
+        12
+      ],
+      [
+        47,
+        111,
+        50,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/share.svg",
+    "dominant_area": 2417,
+    "dominant_bbox": [
+      19,
+      37,
+      108,
+      92
+    ],
+    "detached_area": 144,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        51,
+        10,
+        86,
+        14
+      ],
+      [
+        65,
+        114,
+        69,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/socrates.svg",
+    "dominant_area": 2640,
+    "dominant_bbox": [
+      18,
+      10,
+      109,
+      97
+    ],
+    "detached_area": 173,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        44,
+        109,
+        68,
+        117
+      ],
+      [
+        94,
+        107,
+        98,
+        117
+      ],
+      [
+        84,
+        110,
+        92,
+        117
+      ],
+      [
+        105,
+        114,
+        107,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/spirit.svg",
+    "dominant_area": 998,
+    "dominant_bbox": [
+      54,
+      17,
+      99,
+      103
+    ],
+    "detached_area": 272,
+    "detached_components": 7,
+    "detached_bboxes": [
+      [
+        10,
+        47,
+        18,
+        79
+      ],
+      [
+        110,
+        15,
+        117,
+        38
+      ],
+      [
+        11,
+        105,
+        18,
+        112
+      ],
+      [
+        10,
+        100,
+        12,
+        105
+      ],
+      [
+        106,
+        19,
+        111,
+        24
+      ],
+      [
+        109,
+        32,
+        112,
+        36
+      ],
+      [
+        10,
+        67,
+        13,
+        69
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/stewardship.svg",
+    "dominant_area": 1590,
+    "dominant_bbox": [
+      18,
+      10,
+      90,
+      65
+    ],
+    "detached_area": 1123,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        38,
+        71,
+        108,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/story.svg",
+    "dominant_area": 1218,
+    "dominant_bbox": [
+      17,
+      88,
+      110,
+      108
+    ],
+    "detached_area": 43,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        47,
+        64,
+        62,
+        68
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/team.svg",
+    "dominant_area": 1201,
+    "dominant_bbox": [
+      17,
+      57,
+      110,
+      109
+    ],
+    "detached_area": 42,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        56,
+        39,
+        71,
+        43
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/temple.svg",
+    "dominant_area": 1974,
+    "dominant_bbox": [
+      19,
+      49,
+      108,
+      101
+    ],
+    "detached_area": 498,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        14,
+        108,
+        113,
+        112
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/treaty.svg",
+    "dominant_area": 830,
+    "dominant_bbox": [
+      67,
+      31,
+      108,
+      87
+    ],
+    "detached_area": 1237,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        19,
+        31,
+        60,
+        87
+      ],
+      [
+        25,
+        93,
+        102,
+        104
+      ],
+      [
+        34,
+        64,
+        54,
+        66
+      ],
+      [
+        34,
+        52,
+        54,
+        54
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/tribe.svg",
+    "dominant_area": 1532,
+    "dominant_bbox": [
+      30,
+      15,
+      97,
+      81
+    ],
+    "detached_area": 294,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        27,
+        108,
+        100,
+        111
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/trickster.svg",
+    "dominant_area": 949,
+    "dominant_bbox": [
+      37,
+      23,
+      90,
+      71
+    ],
+    "detached_area": 160,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        24,
+        111,
+        103,
+        112
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/people/vote.svg",
+    "dominant_area": 853,
+    "dominant_bbox": [
+      62,
+      43,
+      111,
+      104
+    ],
+    "detached_area": 774,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        12,
+        48,
+        33,
+        111
+      ],
+      [
+        26,
+        21,
+        55,
+        49
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/plants/bloom.svg",
+    "dominant_area": 800,
+    "dominant_bbox": [
+      24,
+      38,
+      84,
+      96
+    ],
+    "detached_area": 25,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        12,
+        53,
+        16,
+        64
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/plants/moss.svg",
+    "dominant_area": 1070,
+    "dominant_bbox": [
+      15,
+      54,
+      112,
+      96
+    ],
+    "detached_area": 168,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        33,
+        106,
+        94,
+        110
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/plants/nest.svg",
+    "dominant_area": 33,
+    "dominant_bbox": [
+      74,
+      29,
+      85,
+      39
+    ],
+    "detached_area": 190,
+    "detached_components": 17,
+    "detached_bboxes": [
+      [
+        59,
+        43,
+        62,
+        54
+      ],
+      [
+        43,
+        38,
+        47,
+        45
+      ],
+      [
+        96,
+        30,
+        98,
+        40
+      ],
+      [
+        85,
+        49,
+        91,
+        53
+      ],
+      [
+        61,
+        63,
+        67,
+        65
+      ],
+      [
+        74,
+        61,
+        84,
+        62
+      ],
+      [
+        31,
+        30,
+        35,
+        35
+      ],
+      [
+        68,
+        18,
+        73,
+        20
+      ],
+      [
+        49,
+        55,
+        55,
+        56
+      ],
+      [
+        52,
+        38,
+        57,
+        41
+      ],
+      [
+        34,
+        24,
+        39,
+        25
+      ],
+      [
+        13,
+        62,
+        18,
+        64
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/plants/oak.svg",
+    "dominant_area": 1413,
+    "dominant_bbox": [
+      28,
+      22,
+      98,
+      102
+    ],
+    "detached_area": 132,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        31,
+        109,
+        96,
+        110
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/plants/sprout.svg",
+    "dominant_area": 87,
+    "dominant_bbox": [
+      40,
+      20,
+      60,
+      34
+    ],
+    "detached_area": 379,
+    "detached_components": 20,
+    "detached_bboxes": [
+      [
+        70,
+        18,
+        79,
+        33
+      ],
+      [
+        20,
+        19,
+        26,
+        34
+      ],
+      [
+        82,
+        41,
+        93,
+        46
+      ],
+      [
+        67,
+        49,
+        70,
+        65
+      ],
+      [
+        51,
+        47,
+        63,
+        55
+      ],
+      [
+        57,
+        51,
+        61,
+        61
+      ],
+      [
+        36,
+        76,
+        44,
+        81
+      ],
+      [
+        100,
+        10,
+        109,
+        12
+      ],
+      [
+        59,
+        64,
+        61,
+        77
+      ],
+      [
+        88,
+        11,
+        98,
+        14
+      ],
+      [
+        108,
+        84,
+        115,
+        86
+      ],
+      [
+        102,
+        30,
+        109,
+        38
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/ancestor.svg",
+    "dominant_area": 1873,
+    "dominant_bbox": [
+      10,
+      27,
+      64,
+      99
+    ],
+    "detached_area": 669,
+    "detached_components": 8,
+    "detached_bboxes": [
+      [
+        79,
+        56,
+        110,
+        88
+      ],
+      [
+        86,
+        33,
+        103,
+        54
+      ],
+      [
+        75,
+        75,
+        82,
+        88
+      ],
+      [
+        106,
+        75,
+        113,
+        88
+      ],
+      [
+        70,
+        47,
+        80,
+        55
+      ],
+      [
+        111,
+        46,
+        117,
+        52
+      ],
+      [
+        112,
+        52,
+        115,
+        56
+      ],
+      [
+        109,
+        48,
+        112,
+        51
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/argument.svg",
+    "dominant_area": 1543,
+    "dominant_bbox": [
+      10,
+      30,
+      58,
+      97
+    ],
+    "detached_area": 1390,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        74,
+        39,
+        117,
+        96
+      ],
+      [
+        69,
+        75,
+        88,
+        94
+      ],
+      [
+        76,
+        56,
+        89,
+        67
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/awe.svg",
+    "dominant_area": 2153,
+    "dominant_bbox": [
+      10,
+      28,
+      63,
+      80
+    ],
+    "detached_area": 800,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        75,
+        47,
+        117,
+        90
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/beauty.svg",
+    "dominant_area": 1330,
+    "dominant_bbox": [
+      16,
+      18,
+      79,
+      109
+    ],
+    "detached_area": 73,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        109,
+        29,
+        117,
+        54
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/because.svg",
+    "dominant_area": 1304,
+    "dominant_bbox": [
+      11,
+      56,
+      116,
+      101
+    ],
+    "detached_area": 157,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        18,
+        32,
+        35,
+        44
+      ],
+      [
+        38,
+        27,
+        44,
+        41
+      ],
+      [
+        47,
+        33,
+        56,
+        37
+      ],
+      [
+        59,
+        33,
+        72,
+        37
+      ],
+      [
+        62,
+        38,
+        71,
+        43
+      ],
+      [
+        46,
+        29,
+        55,
+        31
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/calm.svg",
+    "dominant_area": 610,
+    "dominant_bbox": [
+      11,
+      38,
+      113,
+      69
+    ],
+    "detached_area": 179,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        49,
+        77,
+        91,
+        89
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/century.svg",
+    "dominant_area": 1240,
+    "dominant_bbox": [
+      22,
+      32,
+      114,
+      72
+    ],
+    "detached_area": 961,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        22,
+        96,
+        111,
+        117
+      ],
+      [
+        90,
+        80,
+        109,
+        88
+      ],
+      [
+        68,
+        11,
+        80,
+        24
+      ],
+      [
+        93,
+        100,
+        102,
+        109
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/climate.svg",
+    "dominant_area": 869,
+    "dominant_bbox": [
+      21,
+      52,
+      105,
+      80
+    ],
+    "detached_area": 796,
+    "detached_components": 7,
+    "detached_bboxes": [
+      [
+        21,
+        106,
+        95,
+        117
+      ],
+      [
+        45,
+        10,
+        59,
+        37
+      ],
+      [
+        31,
+        89,
+        44,
+        92
+      ],
+      [
+        89,
+        95,
+        102,
+        96
+      ],
+      [
+        88,
+        97,
+        99,
+        99
+      ],
+      [
+        21,
+        97,
+        30,
+        100
+      ],
+      [
+        33,
+        96,
+        40,
+        96
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/code.svg",
+    "dominant_area": 1923,
+    "dominant_bbox": [
+      19,
+      26,
+      108,
+      101
+    ],
+    "detached_area": 186,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        33,
+        107,
+        94,
+        109
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/compare.svg",
+    "dominant_area": 1307,
+    "dominant_bbox": [
+      13,
+      32,
+      55,
+      94
+    ],
+    "detached_area": 732,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        72,
+        36,
+        116,
+        94
+      ],
+      [
+        78,
+        56,
+        83,
+        58
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/contradiction.svg",
+    "dominant_area": 1552,
+    "dominant_bbox": [
+      10,
+      27,
+      56,
+      100
+    ],
+    "detached_area": 720,
+    "detached_components": 5,
+    "detached_bboxes": [
+      [
+        72,
+        46,
+        112,
+        89
+      ],
+      [
+        89,
+        93,
+        99,
+        98
+      ],
+      [
+        71,
+        89,
+        76,
+        93
+      ],
+      [
+        98,
+        90,
+        100,
+        92
+      ],
+      [
+        81,
+        90,
+        84,
+        92
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/count.svg",
+    "dominant_area": 221,
+    "dominant_bbox": [
+      95,
+      56,
+      117,
+      71
+    ],
+    "detached_area": 641,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        10,
+        56,
+        31,
+        71
+      ],
+      [
+        31,
+        56,
+        52,
+        71
+      ],
+      [
+        52,
+        56,
+        73,
+        71
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/culture.svg",
+    "dominant_area": 1901,
+    "dominant_bbox": [
+      11,
+      35,
+      65,
+      91
+    ],
+    "detached_area": 402,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        88,
+        56,
+        116,
+        90
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/curiosity.svg",
+    "dominant_area": 1080,
+    "dominant_bbox": [
+      47,
+      33,
+      115,
+      94
+    ],
+    "detached_area": 36,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        28,
+        56,
+        34,
+        73
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/current.svg",
+    "dominant_area": 520,
+    "dominant_bbox": [
+      15,
+      52,
+      101,
+      82
+    ],
+    "detached_area": 116,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        56,
+        102,
+        75,
+        109
+      ],
+      [
+        56,
+        25,
+        75,
+        32
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/cycle.svg",
+    "dominant_area": 569,
+    "dominant_bbox": [
+      44,
+      76,
+      77,
+      110
+    ],
+    "detached_area": 1006,
+    "detached_components": 7,
+    "detached_bboxes": [
+      [
+        84,
+        44,
+        112,
+        77
+      ],
+      [
+        10,
+        50,
+        31,
+        70
+      ],
+      [
+        48,
+        17,
+        69,
+        35
+      ],
+      [
+        25,
+        24,
+        48,
+        43
+      ],
+      [
+        78,
+        24,
+        97,
+        39
+      ],
+      [
+        83,
+        84,
+        99,
+        98
+      ],
+      [
+        66,
+        32,
+        71,
+        35
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/data.svg",
+    "dominant_area": 744,
+    "dominant_bbox": [
+      10,
+      38,
+      117,
+      83
+    ],
+    "detached_area": 17,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        101,
+        93,
+        103,
+        95
+      ],
+      [
+        76,
+        93,
+        78,
+        96
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/demand.svg",
+    "dominant_area": 690,
+    "dominant_bbox": [
+      61,
+      32,
+      116,
+      56
+    ],
+    "detached_area": 854,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        10,
+        57,
+        39,
+        98
+      ],
+      [
+        48,
+        63,
+        68,
+        97
+      ],
+      [
+        61,
+        85,
+        72,
+        98
+      ],
+      [
+        22,
+        67,
+        24,
+        71
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/design.svg",
+    "dominant_area": 1361,
+    "dominant_bbox": [
+      10,
+      32,
+      74,
+      95
+    ],
+    "detached_area": 97,
+    "detached_components": 5,
+    "detached_bboxes": [
+      [
+        90,
+        57,
+        102,
+        69
+      ],
+      [
+        83,
+        63,
+        89,
+        68
+      ],
+      [
+        92,
+        54,
+        98,
+        56
+      ],
+      [
+        91,
+        69,
+        96,
+        71
+      ],
+      [
+        105,
+        63,
+        109,
+        65
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/doubt.svg",
+    "dominant_area": 2251,
+    "dominant_bbox": [
+      66,
+      31,
+      117,
+      96
+    ],
+    "detached_area": 1808,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        10,
+        33,
+        53,
+        95
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/eight.svg",
+    "dominant_area": 456,
+    "dominant_bbox": [
+      37,
+      66,
+      58,
+      95
+    ],
+    "detached_area": 2403,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        95,
+        34,
+        116,
+        61
+      ],
+      [
+        92,
+        70,
+        117,
+        92
+      ],
+      [
+        66,
+        63,
+        86,
+        97
+      ],
+      [
+        11,
+        66,
+        30,
+        95
+      ],
+      [
+        66,
+        36,
+        88,
+        60
+      ],
+      [
+        10,
+        38,
+        34,
+        59
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/equal.svg",
+    "dominant_area": 1262,
+    "dominant_bbox": [
+      14,
+      45,
+      58,
+      105
+    ],
+    "detached_area": 1203,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        69,
+        45,
+        111,
+        106
+      ],
+      [
+        92,
+        50,
+        97,
+        52
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/evolution.svg",
+    "dominant_area": 479,
+    "dominant_bbox": [
+      68,
+      29,
+      93,
+      69
+    ],
+    "detached_area": 338,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        27,
+        43,
+        50,
+        65
+      ],
+      [
+        11,
+        44,
+        25,
+        68
+      ],
+      [
+        28,
+        66,
+        41,
+        68
+      ],
+      [
+        14,
+        59,
+        16,
+        63
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/example.svg",
+    "dominant_area": 2546,
+    "dominant_bbox": [
+      29,
+      10,
+      95,
+      103
+    ],
+    "detached_area": 28,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        49,
+        116,
+        66,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/exercise.svg",
+    "dominant_area": 2355,
+    "dominant_bbox": [
+      42,
+      16,
+      116,
+      110
+    ],
+    "detached_area": 8,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        21,
+        105,
+        26,
+        106
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/four.svg",
+    "dominant_area": 1828,
+    "dominant_bbox": [
+      10,
+      64,
+      64,
+      112
+    ],
+    "detached_area": 1635,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        12,
+        15,
+        62,
+        58
+      ],
+      [
+        88,
+        28,
+        92,
+        33
+      ],
+      [
+        87,
+        39,
+        90,
+        41
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/frontier.svg",
+    "dominant_area": 3999,
+    "dominant_bbox": [
+      10,
+      43,
+      116,
+      110
+    ],
+    "detached_area": 200,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        29,
+        16,
+        67,
+        22
+      ],
+      [
+        83,
+        19,
+        107,
+        22
+      ],
+      [
+        69,
+        21,
+        76,
+        22
+      ],
+      [
+        18,
+        21,
+        24,
+        22
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/grammar.svg",
+    "dominant_area": 267,
+    "dominant_bbox": [
+      11,
+      84,
+      85,
+      87
+    ],
+    "detached_area": 1695,
+    "detached_components": 19,
+    "detached_bboxes": [
+      [
+        10,
+        17,
+        79,
+        20
+      ],
+      [
+        10,
+        50,
+        68,
+        53
+      ],
+      [
+        11,
+        101,
+        62,
+        104
+      ],
+      [
+        10,
+        34,
+        68,
+        36
+      ],
+      [
+        66,
+        68,
+        116,
+        70
+      ],
+      [
+        11,
+        67,
+        46,
+        70
+      ],
+      [
+        83,
+        102,
+        114,
+        105
+      ],
+      [
+        86,
+        34,
+        116,
+        36
+      ],
+      [
+        96,
+        17,
+        116,
+        20
+      ],
+      [
+        87,
+        50,
+        115,
+        53
+      ],
+      [
+        69,
+        98,
+        76,
+        108
+      ],
+      [
+        93,
+        79,
+        97,
+        92
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/heat.svg",
+    "dominant_area": 595,
+    "dominant_bbox": [
+      43,
+      29,
+      85,
+      70
+    ],
+    "detached_area": 511,
+    "detached_components": 8,
+    "detached_bboxes": [
+      [
+        23,
+        81,
+        55,
+        117
+      ],
+      [
+        90,
+        81,
+        96,
+        111
+      ],
+      [
+        76,
+        85,
+        81,
+        111
+      ],
+      [
+        69,
+        113,
+        98,
+        116
+      ],
+      [
+        50,
+        87,
+        55,
+        111
+      ],
+      [
+        63,
+        94,
+        69,
+        113
+      ],
+      [
+        55,
+        114,
+        63,
+        115
+      ],
+      [
+        97,
+        113,
+        105,
+        115
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/honesty.svg",
+    "dominant_area": 1316,
+    "dominant_bbox": [
+      68,
+      20,
+      116,
+      95
+    ],
+    "detached_area": 107,
+    "detached_components": 5,
+    "detached_bboxes": [
+      [
+        13,
+        37,
+        25,
+        42
+      ],
+      [
+        23,
+        88,
+        30,
+        97
+      ],
+      [
+        17,
+        49,
+        23,
+        52
+      ],
+      [
+        16,
+        58,
+        20,
+        62
+      ],
+      [
+        46,
+        83,
+        50,
+        85
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/horizon.svg",
+    "dominant_area": 717,
+    "dominant_bbox": [
+      13,
+      72,
+      109,
+      102
+    ],
+    "detached_area": 623,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        15,
+        26,
+        72,
+        39
+      ],
+      [
+        41,
+        40,
+        110,
+        50
+      ],
+      [
+        86,
+        30,
+        101,
+        34
+      ],
+      [
+        71,
+        21,
+        88,
+        23
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/hypothesis.svg",
+    "dominant_area": 2094,
+    "dominant_bbox": [
+      11,
+      58,
+      116,
+      108
+    ],
+    "detached_area": 153,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        54,
+        29,
+        66,
+        52
+      ],
+      [
+        73,
+        41,
+        77,
+        42
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/idea.svg",
+    "dominant_area": 1472,
+    "dominant_bbox": [
+      10,
+      62,
+      117,
+      110
+    ],
+    "detached_area": 150,
+    "detached_components": 9,
+    "detached_bboxes": [
+      [
+        62,
+        24,
+        63,
+        47
+      ],
+      [
+        66,
+        50,
+        76,
+        51
+      ],
+      [
+        50,
+        50,
+        59,
+        51
+      ],
+      [
+        65,
+        42,
+        71,
+        48
+      ],
+      [
+        52,
+        27,
+        56,
+        35
+      ],
+      [
+        41,
+        33,
+        47,
+        38
+      ],
+      [
+        55,
+        43,
+        60,
+        48
+      ],
+      [
+        78,
+        33,
+        83,
+        37
+      ],
+      [
+        65,
+        53,
+        68,
+        56
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/imagination.svg",
+    "dominant_area": 344,
+    "dominant_bbox": [
+      11,
+      72,
+      30,
+      104
+    ],
+    "detached_area": 2051,
+    "detached_components": 25,
+    "detached_bboxes": [
+      [
+        25,
+        36,
+        47,
+        65
+      ],
+      [
+        66,
+        47,
+        93,
+        64
+      ],
+      [
+        47,
+        35,
+        69,
+        54
+      ],
+      [
+        62,
+        27,
+        80,
+        51
+      ],
+      [
+        78,
+        62,
+        104,
+        75
+      ],
+      [
+        85,
+        24,
+        117,
+        74
+      ],
+      [
+        89,
+        43,
+        105,
+        60
+      ],
+      [
+        61,
+        76,
+        85,
+        89
+      ],
+      [
+        45,
+        69,
+        57,
+        85
+      ],
+      [
+        16,
+        28,
+        43,
+        56
+      ],
+      [
+        56,
+        68,
+        68,
+        84
+      ],
+      [
+        53,
+        58,
+        61,
+        65
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/innovation.svg",
+    "dominant_area": 2395,
+    "dominant_bbox": [
+      16,
+      20,
+      105,
+      96
+    ],
+    "detached_area": 79,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        28,
+        107,
+        106,
+        107
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/inquiry.svg",
+    "dominant_area": 1520,
+    "dominant_bbox": [
+      35,
+      34,
+      117,
+      101
+    ],
+    "detached_area": 255,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        11,
+        78,
+        29,
+        93
+      ],
+      [
+        10,
+        52,
+        20,
+        60
+      ],
+      [
+        17,
+        39,
+        23,
+        44
+      ],
+      [
+        17,
+        60,
+        24,
+        64
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/knowledge.svg",
+    "dominant_area": 4107,
+    "dominant_bbox": [
+      11,
+      28,
+      116,
+      113
+    ],
+    "detached_area": 32,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        41,
+        15,
+        47,
+        22
+      ],
+      [
+        90,
+        15,
+        92,
+        19
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/less.svg",
+    "dominant_area": 1376,
+    "dominant_bbox": [
+      21,
+      10,
+      85,
+      57
+    ],
+    "detached_area": 631,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        42,
+        89,
+        87,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/many.svg",
+    "dominant_area": 552,
+    "dominant_bbox": [
+      92,
+      55,
+      116,
+      96
+    ],
+    "detached_area": 2472,
+    "detached_components": 28,
+    "detached_bboxes": [
+      [
+        11,
+        51,
+        45,
+        82
+      ],
+      [
+        47,
+        31,
+        80,
+        66
+      ],
+      [
+        13,
+        50,
+        30,
+        68
+      ],
+      [
+        39,
+        84,
+        62,
+        99
+      ],
+      [
+        69,
+        82,
+        82,
+        97
+      ],
+      [
+        60,
+        66,
+        76,
+        76
+      ],
+      [
+        19,
+        28,
+        35,
+        45
+      ],
+      [
+        33,
+        29,
+        44,
+        52
+      ],
+      [
+        60,
+        75,
+        71,
+        90
+      ],
+      [
+        47,
+        67,
+        58,
+        77
+      ],
+      [
+        15,
+        80,
+        28,
+        95
+      ],
+      [
+        13,
+        39,
+        22,
+        50
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/medicine.svg",
+    "dominant_area": 1563,
+    "dominant_bbox": [
+      10,
+      31,
+      67,
+      100
+    ],
+    "detached_area": 833,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        85,
+        52,
+        117,
+        104
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/melt.svg",
+    "dominant_area": 1780,
+    "dominant_bbox": [
+      10,
+      46,
+      117,
+      100
+    ],
+    "detached_area": 51,
+    "detached_components": 5,
+    "detached_bboxes": [
+      [
+        62,
+        32,
+        70,
+        36
+      ],
+      [
+        76,
+        27,
+        78,
+        33
+      ],
+      [
+        69,
+        29,
+        73,
+        34
+      ],
+      [
+        83,
+        29,
+        87,
+        33
+      ],
+      [
+        85,
+        37,
+        91,
+        38
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/metaphor.svg",
+    "dominant_area": 1976,
+    "dominant_bbox": [
+      10,
+      30,
+      116,
+      85
+    ],
+    "detached_area": 12,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        61,
+        97,
+        72,
+        97
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/migration.svg",
+    "dominant_area": 438,
+    "dominant_bbox": [
+      43,
+      85,
+      117,
+      99
+    ],
+    "detached_area": 483,
+    "detached_components": 8,
+    "detached_bboxes": [
+      [
+        20,
+        29,
+        45,
+        42
+      ],
+      [
+        37,
+        45,
+        62,
+        60
+      ],
+      [
+        14,
+        45,
+        32,
+        58
+      ],
+      [
+        50,
+        40,
+        65,
+        49
+      ],
+      [
+        69,
+        59,
+        80,
+        63
+      ],
+      [
+        82,
+        62,
+        87,
+        65
+      ],
+      [
+        64,
+        56,
+        69,
+        59
+      ],
+      [
+        90,
+        64,
+        94,
+        66
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/mind.svg",
+    "dominant_area": 668,
+    "dominant_bbox": [
+      34,
+      23,
+      88,
+      112
+    ],
+    "detached_area": 22,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        98,
+        45,
+        101,
+        48
+      ],
+      [
+        95,
+        56,
+        97,
+        59
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/mist.svg",
+    "dominant_area": 810,
+    "dominant_bbox": [
+      15,
+      41,
+      66,
+      84
+    ],
+    "detached_area": 135,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        82,
+        79,
+        101,
+        89
+      ],
+      [
+        100,
+        63,
+        108,
+        68
+      ],
+      [
+        100,
+        56,
+        108,
+        59
+      ],
+      [
+        104,
+        43,
+        112,
+        46
+      ],
+      [
+        104,
+        80,
+        107,
+        85
+      ],
+      [
+        72,
+        87,
+        78,
+        88
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/mistake.svg",
+    "dominant_area": 654,
+    "dominant_bbox": [
+      75,
+      25,
+      114,
+      68
+    ],
+    "detached_area": 756,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        13,
+        78,
+        117,
+        102
+      ],
+      [
+        11,
+        56,
+        64,
+        63
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/month.svg",
+    "dominant_area": 656,
+    "dominant_bbox": [
+      11,
+      66,
+      116,
+      89
+    ],
+    "detached_area": 795,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        51,
+        38,
+        71,
+        58
+      ],
+      [
+        30,
+        40,
+        47,
+        57
+      ],
+      [
+        74,
+        40,
+        90,
+        57
+      ],
+      [
+        12,
+        41,
+        22,
+        56
+      ],
+      [
+        97,
+        42,
+        106,
+        57
+      ],
+      [
+        111,
+        46,
+        117,
+        56
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/more.svg",
+    "dominant_area": 1998,
+    "dominant_bbox": [
+      55,
+      32,
+      117,
+      96
+    ],
+    "detached_area": 357,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        23,
+        67,
+        36,
+        78
+      ],
+      [
+        26,
+        53,
+        35,
+        66
+      ],
+      [
+        10,
+        69,
+        23,
+        76
+      ],
+      [
+        17,
+        58,
+        25,
+        68
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/morning.svg",
+    "dominant_area": 3031,
+    "dominant_bbox": [
+      15,
+      44,
+      117,
+      107
+    ],
+    "detached_area": 26,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        55,
+        25,
+        56,
+        35
+      ],
+      [
+        65,
+        30,
+        68,
+        36
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/multiply.svg",
+    "dominant_area": 227,
+    "dominant_bbox": [
+      38,
+      69,
+      71,
+      102
+    ],
+    "detached_area": 554,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        54,
+        26,
+        75,
+        46
+      ],
+      [
+        100,
+        87,
+        116,
+        100
+      ],
+      [
+        96,
+        63,
+        111,
+        77
+      ],
+      [
+        12,
+        87,
+        26,
+        99
+      ],
+      [
+        67,
+        48,
+        101,
+        62
+      ],
+      [
+        90,
+        84,
+        93,
+        89
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/mystery.svg",
+    "dominant_area": 2291,
+    "dominant_bbox": [
+      16,
+      63,
+      112,
+      107
+    ],
+    "detached_area": 134,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        36,
+        39,
+        52,
+        56
+      ],
+      [
+        75,
+        20,
+        81,
+        21
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/nature.svg",
+    "dominant_area": 1871,
+    "dominant_bbox": [
+      11,
+      41,
+      69,
+      100
+    ],
+    "detached_area": 139,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        85,
+        47,
+        99,
+        56
+      ],
+      [
+        55,
+        27,
+        73,
+        31
+      ],
+      [
+        36,
+        27,
+        48,
+        28
+      ],
+      [
+        24,
+        27,
+        32,
+        28
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/nine.svg",
+    "dominant_area": 513,
+    "dominant_bbox": [
+      85,
+      76,
+      117,
+      96
+    ],
+    "detached_area": 2587,
+    "detached_components": 8,
+    "detached_bboxes": [
+      [
+        48,
+        76,
+        78,
+        96
+      ],
+      [
+        49,
+        32,
+        78,
+        52
+      ],
+      [
+        12,
+        56,
+        43,
+        73
+      ],
+      [
+        85,
+        31,
+        116,
+        52
+      ],
+      [
+        49,
+        55,
+        79,
+        74
+      ],
+      [
+        11,
+        76,
+        42,
+        95
+      ],
+      [
+        14,
+        33,
+        41,
+        52
+      ],
+      [
+        100,
+        36,
+        102,
+        40
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/other.svg",
+    "dominant_area": 1539,
+    "dominant_bbox": [
+      10,
+      27,
+      55,
+      100
+    ],
+    "detached_area": 1350,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        64,
+        52,
+        117,
+        100
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/pattern.svg",
+    "dominant_area": 219,
+    "dominant_bbox": [
+      55,
+      65,
+      72,
+      93
+    ],
+    "detached_area": 2626,
+    "detached_components": 17,
+    "detached_bboxes": [
+      [
+        55,
+        27,
+        72,
+        55
+      ],
+      [
+        40,
+        13,
+        56,
+        44
+      ],
+      [
+        10,
+        85,
+        27,
+        114
+      ],
+      [
+        100,
+        12,
+        117,
+        44
+      ],
+      [
+        100,
+        84,
+        116,
+        115
+      ],
+      [
+        11,
+        49,
+        27,
+        75
+      ],
+      [
+        11,
+        13,
+        27,
+        39
+      ],
+      [
+        86,
+        66,
+        101,
+        94
+      ],
+      [
+        25,
+        66,
+        41,
+        94
+      ],
+      [
+        25,
+        31,
+        41,
+        58
+      ],
+      [
+        100,
+        49,
+        116,
+        75
+      ],
+      [
+        86,
+        29,
+        102,
+        56
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/possibility.svg",
+    "dominant_area": 655,
+    "dominant_bbox": [
+      86,
+      13,
+      115,
+      82
+    ],
+    "detached_area": 1407,
+    "detached_components": 10,
+    "detached_bboxes": [
+      [
+        12,
+        14,
+        39,
+        81
+      ],
+      [
+        13,
+        72,
+        59,
+        114
+      ],
+      [
+        62,
+        11,
+        63,
+        40
+      ],
+      [
+        62,
+        51,
+        63,
+        71
+      ],
+      [
+        66,
+        28,
+        80,
+        42
+      ],
+      [
+        66,
+        49,
+        77,
+        60
+      ],
+      [
+        49,
+        30,
+        59,
+        42
+      ],
+      [
+        43,
+        44,
+        58,
+        46
+      ],
+      [
+        49,
+        49,
+        59,
+        60
+      ],
+      [
+        24,
+        47,
+        26,
+        52
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/practice.svg",
+    "dominant_area": 1055,
+    "dominant_bbox": [
+      11,
+      16,
+      63,
+      80
+    ],
+    "detached_area": 36,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        78,
+        81,
+        84,
+        90
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/present.svg",
+    "dominant_area": 1748,
+    "dominant_bbox": [
+      12,
+      11,
+      108,
+      84
+    ],
+    "detached_area": 643,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        23,
+        90,
+        103,
+        117
+      ],
+      [
+        32,
+        93,
+        41,
+        100
+      ],
+      [
+        85,
+        93,
+        93,
+        100
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/pride.svg",
+    "dominant_area": 1099,
+    "dominant_bbox": [
+      23,
+      22,
+      104,
+      85
+    ],
+    "detached_area": 104,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        49,
+        109,
+        73,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/production.svg",
+    "dominant_area": 1967,
+    "dominant_bbox": [
+      20,
+      10,
+      106,
+      85
+    ],
+    "detached_area": 13,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        88,
+        115,
+        93,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/protection.svg",
+    "dominant_area": 2158,
+    "dominant_bbox": [
+      15,
+      11,
+      112,
+      96
+    ],
+    "detached_area": 22,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        60,
+        111,
+        63,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/reason.svg",
+    "dominant_area": 772,
+    "dominant_bbox": [
+      46,
+      31,
+      81,
+      83
+    ],
+    "detached_area": 290,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        90,
+        85,
+        117,
+        104
+      ],
+      [
+        30,
+        43,
+        40,
+        46
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/respect.svg",
+    "dominant_area": 1272,
+    "dominant_bbox": [
+      10,
+      29,
+      44,
+      110
+    ],
+    "detached_area": 943,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        89,
+        30,
+        116,
+        109
+      ],
+      [
+        86,
+        34,
+        107,
+        110
+      ],
+      [
+        71,
+        19,
+        88,
+        37
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/return.svg",
+    "dominant_area": 967,
+    "dominant_bbox": [
+      16,
+      65,
+      82,
+      116
+    ],
+    "detached_area": 141,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        82,
+        43,
+        87,
+        49
+      ],
+      [
+        82,
+        51,
+        87,
+        57
+      ],
+      [
+        76,
+        43,
+        80,
+        49
+      ],
+      [
+        76,
+        51,
+        80,
+        57
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/rhyme.svg",
+    "dominant_area": 308,
+    "dominant_bbox": [
+      11,
+      30,
+      29,
+      97
+    ],
+    "detached_area": 1108,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        99,
+        30,
+        116,
+        97
+      ],
+      [
+        37,
+        45,
+        62,
+        81
+      ],
+      [
+        66,
+        45,
+        90,
+        81
+      ],
+      [
+        90,
+        37,
+        105,
+        90
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/risk.svg",
+    "dominant_area": 1065,
+    "dominant_bbox": [
+      24,
+      10,
+      73,
+      116
+    ],
+    "detached_area": 58,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        84,
+        48,
+        87,
+        60
+      ],
+      [
+        84,
+        62,
+        87,
+        65
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/ritual.svg",
+    "dominant_area": 648,
+    "dominant_bbox": [
+      41,
+      69,
+      86,
+      99
+    ],
+    "detached_area": 194,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        14,
+        71,
+        27,
+        79
+      ],
+      [
+        100,
+        72,
+        112,
+        80
+      ],
+      [
+        68,
+        45,
+        70,
+        53
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/sadness.svg",
+    "dominant_area": 1897,
+    "dominant_bbox": [
+      25,
+      48,
+      100,
+      117
+    ],
+    "detached_area": 393,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        53,
+        11,
+        71,
+        41
+      ],
+      [
+        27,
+        26,
+        29,
+        41
+      ],
+      [
+        85,
+        17,
+        87,
+        31
+      ],
+      [
+        41,
+        18,
+        43,
+        30
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/scarcity.svg",
+    "dominant_area": 1506,
+    "dominant_bbox": [
+      11,
+      59,
+      115,
+      107
+    ],
+    "detached_area": 20,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        57,
+        43,
+        61,
+        50
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/science.svg",
+    "dominant_area": 791,
+    "dominant_bbox": [
+      34,
+      10,
+      90,
+      91
+    ],
+    "detached_area": 18,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        59,
+        114,
+        64,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/search.svg",
+    "dominant_area": 1614,
+    "dominant_bbox": [
+      11,
+      20,
+      77,
+      100
+    ],
+    "detached_area": 175,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        93,
+        70,
+        104,
+        92
+      ],
+      [
+        84,
+        79,
+        87,
+        84
+      ],
+      [
+        83,
+        74,
+        87,
+        77
+      ],
+      [
+        90,
+        63,
+        94,
+        65
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/sensor.svg",
+    "dominant_area": 1029,
+    "dominant_bbox": [
+      31,
+      53,
+      96,
+      117
+    ],
+    "detached_area": 642,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        32,
+        11,
+        95,
+        25
+      ],
+      [
+        42,
+        25,
+        85,
+        36
+      ],
+      [
+        51,
+        40,
+        76,
+        46
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/seven.svg",
+    "dominant_area": 326,
+    "dominant_bbox": [
+      12,
+      14,
+      38,
+      41
+    ],
+    "detached_area": 1913,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        90,
+        14,
+        116,
+        41
+      ],
+      [
+        50,
+        14,
+        77,
+        41
+      ],
+      [
+        90,
+        51,
+        116,
+        78
+      ],
+      [
+        50,
+        86,
+        77,
+        112
+      ],
+      [
+        50,
+        51,
+        77,
+        78
+      ],
+      [
+        12,
+        51,
+        39,
+        78
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/shame.svg",
+    "dominant_area": 1444,
+    "dominant_bbox": [
+      31,
+      45,
+      96,
+      116
+    ],
+    "detached_area": 210,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        54,
+        10,
+        72,
+        39
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/six.svg",
+    "dominant_area": 272,
+    "dominant_bbox": [
+      11,
+      31,
+      33,
+      54
+    ],
+    "detached_area": 1337,
+    "detached_components": 5,
+    "detached_bboxes": [
+      [
+        52,
+        31,
+        74,
+        54
+      ],
+      [
+        94,
+        30,
+        115,
+        54
+      ],
+      [
+        11,
+        73,
+        33,
+        97
+      ],
+      [
+        53,
+        73,
+        74,
+        97
+      ],
+      [
+        94,
+        73,
+        116,
+        97
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/solar.svg",
+    "dominant_area": 630,
+    "dominant_bbox": [
+      43,
+      37,
+      117,
+      114
+    ],
+    "detached_area": 90,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        13,
+        63,
+        34,
+        65
+      ],
+      [
+        26,
+        52,
+        35,
+        55
+      ],
+      [
+        28,
+        76,
+        36,
+        80
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/spirit.svg",
+    "dominant_area": 714,
+    "dominant_bbox": [
+      41,
+      77,
+      87,
+      117
+    ],
+    "detached_area": 73,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        81,
+        41,
+        87,
+        47
+      ],
+      [
+        39,
+        51,
+        44,
+        56
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/story.svg",
+    "dominant_area": 1130,
+    "dominant_bbox": [
+      10,
+      77,
+      116,
+      112
+    ],
+    "detached_area": 429,
+    "detached_components": 6,
+    "detached_bboxes": [
+      [
+        60,
+        15,
+        83,
+        38
+      ],
+      [
+        69,
+        39,
+        89,
+        69
+      ],
+      [
+        84,
+        30,
+        90,
+        32
+      ],
+      [
+        53,
+        31,
+        59,
+        33
+      ],
+      [
+        54,
+        40,
+        59,
+        42
+      ],
+      [
+        84,
+        38,
+        88,
+        40
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/subtract.svg",
+    "dominant_area": 150,
+    "dominant_bbox": [
+      11,
+      44,
+      27,
+      60
+    ],
+    "detached_area": 635,
+    "detached_components": 5,
+    "detached_bboxes": [
+      [
+        102,
+        47,
+        117,
+        62
+      ],
+      [
+        33,
+        65,
+        48,
+        80
+      ],
+      [
+        90,
+        67,
+        105,
+        82
+      ],
+      [
+        81,
+        47,
+        96,
+        62
+      ],
+      [
+        57,
+        61,
+        73,
+        64
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/sunset.svg",
+    "dominant_area": 527,
+    "dominant_bbox": [
+      11,
+      63,
+      116,
+      83
+    ],
+    "detached_area": 121,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        50,
+        91,
+        91,
+        96
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/surprise.svg",
+    "dominant_area": 1732,
+    "dominant_bbox": [
+      27,
+      33,
+      100,
+      96
+    ],
+    "detached_area": 30,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        61,
+        114,
+        65,
+        117
+      ],
+      [
+        44,
+        18,
+        48,
+        23
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/synthesis.svg",
+    "dominant_area": 846,
+    "dominant_bbox": [
+      17,
+      11,
+      75,
+      116
+    ],
+    "detached_area": 109,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        103,
+        14,
+        110,
+        23
+      ],
+      [
+        91,
+        23,
+        99,
+        30
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/ten.svg",
+    "dominant_area": 111,
+    "dominant_bbox": [
+      12,
+      46,
+      23,
+      56
+    ],
+    "detached_area": 979,
+    "detached_components": 9,
+    "detached_bboxes": [
+      [
+        104,
+        71,
+        115,
+        82
+      ],
+      [
+        81,
+        45,
+        92,
+        56
+      ],
+      [
+        58,
+        45,
+        69,
+        56
+      ],
+      [
+        104,
+        45,
+        115,
+        56
+      ],
+      [
+        58,
+        71,
+        69,
+        82
+      ],
+      [
+        35,
+        71,
+        46,
+        82
+      ],
+      [
+        35,
+        45,
+        46,
+        56
+      ],
+      [
+        81,
+        71,
+        92,
+        82
+      ],
+      [
+        12,
+        71,
+        22,
+        82
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/thaw.svg",
+    "dominant_area": 558,
+    "dominant_bbox": [
+      61,
+      35,
+      100,
+      84
+    ],
+    "detached_area": 163,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        35,
+        68,
+        47,
+        87
+      ],
+      [
+        52,
+        113,
+        65,
+        117
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/then.svg",
+    "dominant_area": 287,
+    "dominant_bbox": [
+      10,
+      52,
+      34,
+      74
+    ],
+    "detached_area": 542,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        40,
+        55,
+        86,
+        71
+      ],
+      [
+        95,
+        52,
+        116,
+        74
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/theory.svg",
+    "dominant_area": 415,
+    "dominant_bbox": [
+      43,
+      40,
+      75,
+      89
+    ],
+    "detached_area": 556,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        90,
+        59,
+        116,
+        81
+      ],
+      [
+        11,
+        65,
+        32,
+        92
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/three.svg",
+    "dominant_area": 871,
+    "dominant_bbox": [
+      11,
+      66,
+      54,
+      113
+    ],
+    "detached_area": 1650,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        73,
+        67,
+        116,
+        113
+      ],
+      [
+        47,
+        14,
+        90,
+        57
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/truth.svg",
+    "dominant_area": 783,
+    "dominant_bbox": [
+      17,
+      32,
+      98,
+      72
+    ],
+    "detached_area": 48,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        55,
+        10,
+        58,
+        23
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/two.svg",
+    "dominant_area": 1248,
+    "dominant_bbox": [
+      10,
+      40,
+      56,
+      87
+    ],
+    "detached_area": 1145,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        71,
+        40,
+        117,
+        87
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/vaccine.svg",
+    "dominant_area": 1227,
+    "dominant_bbox": [
+      11,
+      11,
+      61,
+      116
+    ],
+    "detached_area": 614,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        68,
+        63,
+        105,
+        104
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/voice.svg",
+    "dominant_area": 905,
+    "dominant_bbox": [
+      10,
+      29,
+      78,
+      97
+    ],
+    "detached_area": 690,
+    "detached_components": 3,
+    "detached_bboxes": [
+      [
+        101,
+        32,
+        116,
+        91
+      ],
+      [
+        92,
+        42,
+        103,
+        83
+      ],
+      [
+        85,
+        50,
+        92,
+        74
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/who.svg",
+    "dominant_area": 534,
+    "dominant_bbox": [
+      11,
+      53,
+      51,
+      107
+    ],
+    "detached_area": 646,
+    "detached_components": 7,
+    "detached_bboxes": [
+      [
+        76,
+        53,
+        116,
+        107
+      ],
+      [
+        61,
+        89,
+        66,
+        94
+      ],
+      [
+        47,
+        28,
+        53,
+        35
+      ],
+      [
+        63,
+        20,
+        65,
+        29
+      ],
+      [
+        40,
+        43,
+        48,
+        45
+      ],
+      [
+        80,
+        43,
+        89,
+        44
+      ],
+      [
+        75,
+        27,
+        81,
+        33
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/why.svg",
+    "dominant_area": 1010,
+    "dominant_bbox": [
+      21,
+      10,
+      106,
+      87
+    ],
+    "detached_area": 14,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        64,
+        110,
+        65,
+        116
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/wisdom.svg",
+    "dominant_area": 820,
+    "dominant_bbox": [
+      35,
+      39,
+      93,
+      88
+    ],
+    "detached_area": 926,
+    "detached_components": 7,
+    "detached_bboxes": [
+      [
+        14,
+        96,
+        113,
+        116
+      ],
+      [
+        28,
+        99,
+        63,
+        108
+      ],
+      [
+        65,
+        100,
+        100,
+        108
+      ],
+      [
+        32,
+        23,
+        43,
+        26
+      ],
+      [
+        85,
+        25,
+        95,
+        27
+      ],
+      [
+        47,
+        10,
+        53,
+        17
+      ],
+      [
+        77,
+        11,
+        84,
+        17
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/wonder.svg",
+    "dominant_area": 1402,
+    "dominant_bbox": [
+      14,
+      56,
+      105,
+      116
+    ],
+    "detached_area": 137,
+    "detached_components": 7,
+    "detached_bboxes": [
+      [
+        33,
+        37,
+        40,
+        45
+      ],
+      [
+        99,
+        28,
+        107,
+        36
+      ],
+      [
+        40,
+        10,
+        48,
+        17
+      ],
+      [
+        92,
+        11,
+        95,
+        14
+      ],
+      [
+        18,
+        24,
+        20,
+        27
+      ],
+      [
+        111,
+        49,
+        114,
+        51
+      ],
+      [
+        86,
+        46,
+        88,
+        48
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/science/year.svg",
+    "dominant_area": 343,
+    "dominant_bbox": [
+      51,
+      86,
+      79,
+      116
+    ],
+    "detached_area": 1102,
+    "detached_components": 13,
+    "detached_bboxes": [
+      [
+        11,
+        50,
+        35,
+        76
+      ],
+      [
+        97,
+        50,
+        116,
+        78
+      ],
+      [
+        83,
+        25,
+        108,
+        49
+      ],
+      [
+        23,
+        25,
+        45,
+        46
+      ],
+      [
+        58,
+        18,
+        72,
+        31
+      ],
+      [
+        71,
+        31,
+        75,
+        35
+      ],
+      [
+        63,
+        34,
+        66,
+        39
+      ],
+      [
+        64,
+        10,
+        66,
+        16
+      ],
+      [
+        54,
+        31,
+        58,
+        35
+      ],
+      [
+        50,
+        23,
+        55,
+        26
+      ],
+      [
+        74,
+        24,
+        79,
+        26
+      ],
+      [
+        71,
+        15,
+        76,
+        18
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/weather_sky/breeze.svg",
+    "dominant_area": 1330,
+    "dominant_bbox": [
+      14,
+      54,
+      99,
+      101
+    ],
+    "detached_area": 78,
+    "detached_components": 4,
+    "detached_bboxes": [
+      [
+        64,
+        34,
+        73,
+        38
+      ],
+      [
+        109,
+        48,
+        116,
+        55
+      ],
+      [
+        107,
+        77,
+        113,
+        79
+      ],
+      [
+        106,
+        35,
+        112,
+        36
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/weather_sky/shade.svg",
+    "dominant_area": 638,
+    "dominant_bbox": [
+      21,
+      26,
+      117,
+      64
+    ],
+    "detached_area": 175,
+    "detached_components": 1,
+    "detached_bboxes": [
+      [
+        31,
+        96,
+        98,
+        103
+      ]
+    ]
+  },
+  {
+    "svg": "assets/pua/weather_sky/sky.svg",
+    "dominant_area": 539,
+    "dominant_bbox": [
+      30,
+      25,
+      102,
+      61
+    ],
+    "detached_area": 724,
+    "detached_components": 2,
+    "detached_bboxes": [
+      [
+        16,
+        68,
+        111,
+        91
+      ],
+      [
+        24,
+        86,
+        107,
+        101
+      ]
+    ]
+  }
+]

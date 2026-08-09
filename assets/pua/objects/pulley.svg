@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="objects / pulley" data-pua="U+F084F" data-ink-stroke-system="brush-study-v1">
-  <title>objects / pulley — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M29 35.45Q64 16.99 99 35.45V96Q64 111.01 29 96Z" fill="none" stroke="#262522" stroke-width="1.21" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 63Q64 46.24 86 63Q64 79.34 42 63Z" fill="none" stroke="#262522" stroke-width="1.84" stroke-linecap="round" stroke-linejoin="round"/><path d="M49.00 48.00L82.45 82.00" fill="none" stroke="#262522" stroke-width="1.83" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / pulley" data-pua="U+F084F" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+  <title>objects / pulley — naturalist brush study</title>
+  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="2.6" d="M 22 31 C 22 24 27 19 34 19 C 41 19 46 24 46 31 C 46 38 41 43 34 43 C 27 43 22 38 22 31 Z"/>
+    <path stroke-width="1.2" d="M 28 31 C 28 27 30 25 34 25 C 38 25 40 27 40 31 C 40 35 38 37 34 37 C 30 37 28 35 28 31 Z"/>
+    <path stroke-width="2" d="M 34 19 L 34 12 M 28 12 L 40 12 M 34 43 L 34 59"/>
+    <path stroke-width="1" d="M 22 59 C 30 57 40 57 48 59 M 46 31 C 52 36 55 42 54 49"/>
+  </g>
 </svg>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="plants / fruit" data-pua="U+F0E04" data-ink-stroke-system="brush-study-v1">
-  <title>plants / fruit — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M64 112Q58.49 74 64 40" fill="none" stroke="#262522" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 75Q38 58.28 28 72Q44 86 64 75Z" fill="none" stroke="#262522" stroke-width="2.20" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 59Q88 41.72 101 56Q87 72 64 59Z" fill="none" stroke="#262522" stroke-width="2.20" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 40Q57.87 24 64 16Q76 25 64 40Z" fill="none" stroke="#262522" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / fruit" data-pua="U+F0E04" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+  <title>plants / fruit — naturalist brush study</title>
+  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="2.6" d="M 36 24 C 29 20 21 23 19 32 C 17 42 23 53 36 58 C 49 53 55 42 53 32 C 51 23 43 20 36 24 Z"/>
+    <path stroke-width="2" d="M 36 24 C 36 19 39 15 44 13 M 38 19 C 43 17 47 18 50 21"/>
+    <path stroke-width="1" d="M 26 29 C 29 27 32 27 34 28 M 39 28 C 43 26 46 27 48 29 M 25 43 C 28 47 31 49 36 51"/>
+  </g>
 </svg>

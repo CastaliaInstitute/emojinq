@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / laozi" data-pua="U+F0C3D" data-ink-stroke-system="brush-study-v1">
-  <title>people / laozi — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="63.90" cy="27.05" r="16.94" fill="none" stroke="#262522" stroke-width="1.65" stroke-linecap="round"/><path d="M42 51.05Q64 41.05 86 51.05L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 79.34 84 63" fill="none" stroke="#262522" stroke-width="1.46" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / laozi" data-pua="U+F0C3D" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>people / laozi — reviewed vector study</title>
+<path d="M17 61c2-12 8-18 19-18s17 6 19 18" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28 36c-3-5-2-11 2-15 5-4 12-2 15 2 3 5 1 10-2 14-4 4-12 4-15-1z" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 28c3 2 7 2 11 0M32 35c2 1 5 1 8 0" stroke-width="1.1" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 47c7 4 19 4 26 0M27 53c5 3 13 3 18 0" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11 61h50" stroke-width="1" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="objects / voice" data-pua="U+F087A" data-ink-stroke-system="brush-study-v1">
-  <title>objects / voice — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M29 30.17Q64 21.83 99 30.17V96Q64 106.17 29 96Z" fill="none" stroke="#262522" stroke-width="2.24" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 63Q64 47.44 86 63Q64 72.94 42 63Z" fill="none" stroke="#262522" stroke-width="1.37" stroke-linecap="round" stroke-linejoin="round"/><path d="M49.00 48.00L77.17 82.00" fill="none" stroke="#262522" stroke-width="1.36" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / voice" data-pua="U+F087A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>objects / voice — reviewed vector study</title>
+<path d="M18 51c-4-5-5-12-2-18 3-7 9-11 16-11 9 0 16 7 16 16 0 8-6 14-14 16l-6 8-1-9c-4 0-7-1-9-2z" stroke-width="2.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 31c4 3 8 3 12 0M30 39c3 2 7 2 10 0" stroke-width="1.25" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52 30c5 4 5 10 0 14M58 25c6 7 6 17 0 24M62 20c7 10 7 25 0 35" stroke-width="1.75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 64h49" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

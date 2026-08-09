@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / team" data-pua="U+F0C72" data-ink-stroke-system="brush-study-v1">
-  <title>people / team — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="65.99" cy="27.88" r="15.98" fill="none" stroke="#262522" stroke-width="1.82" stroke-linecap="round"/><path d="M42 51.88Q64 41.88 86 51.88L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="2.32" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 79.96 84 63" fill="none" stroke="#262522" stroke-width="1.32" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / team" data-pua="U+F0C72" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+  <title>people / team — naturalist brush study</title>
+  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="2.1" d="M 29 25 C 29 21 32 18 36 18 C 40 18 43 21 43 25 C 43 29 40 32 36 32 C 32 32 29 29 29 25 Z"/>
+    <path stroke-width="1" d="M 32 24 C 34 22 38 22 40 24 M 33 28 C 35 30 37 30 39 28"/>
+    <path stroke-width="2.6" d="M 19 59 C 20 48 26 40 36 36 C 46 40 52 48 53 59"/>
+    <path stroke-width="1.2" d="M 25 45 C 31 48 41 48 47 45"/>
+    <path stroke-width="1.8" d="M 14 40 C 14 36 17 33 21 33 C 24 33 26 35 27 38 M 58 40 C 58 36 55 33 51 33 C 48 33 46 35 45 38"/>
+    <path stroke-width="1" d="M 10 61 C 24 59 48 59 62 61"/>
+  </g>
 </svg>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / pilgrimage" data-pua="U+F0C53" data-ink-stroke-system="brush-study-v1">
-  <title>people / pilgrimage — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="63.00" cy="26.64" r="14.73" fill="none" stroke="#262522" stroke-width="1.56" stroke-linecap="round"/><path d="M42 50.64Q64 40.64 86 50.64L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="2.13" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 79.71 84 63" fill="none" stroke="#262522" stroke-width="1.72" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / pilgrimage" data-pua="U+F0C53" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>people / pilgrimage — reviewed vector study</title>
+<circle cx="29" cy="17" r="7" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 25c-5 6-6 13-4 21l-8 13M34 25c4 6 6 12 7 19l7 13M24 36l-10 7M34 36l12-4" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51 19v42M51 19l8 5M51 27l7-4" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 62c11-5 20-5 29 0 9-5 18-5 27 0" stroke-width="1.15" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 55l6-6 6 6M47 55l6-6 6 6" stroke-width="1.0" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

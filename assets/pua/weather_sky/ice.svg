@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="weather_sky / ice" data-pua="U+F1204" data-ink-stroke-system="brush-study-v1">
-  <title>weather_sky / ice — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="88.95" cy="41.79" r="18.82" fill="none" stroke="#262522" stroke-width="2.45" stroke-linecap="round"/><path d="M24 82Q28 61 48 66Q58 43 78 62Q102 57 105 82Q103 101 80 101H45Q24 101 24 82Z" fill="none" stroke="#262522" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round"/><path d="M38.00 108.00L29.00 116.00" fill="none" stroke="#262522" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/><path d="M60.00 108.00L51.00 116.00" fill="none" stroke="#262522" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/><path d="M82.00 108.00L73.00 116.00" fill="none" stroke="#262522" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / ice" data-pua="U+F1204" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+  <title>weather sky / ice — naturalist brush study</title>
+  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="2.5" d="M 36 10 L 36 62 M 13 23 L 59 49 M 59 23 L 13 49"/>
+    <path stroke-width="1.2" d="M 28 14 L 36 20 L 44 14 M 28 58 L 36 52 L 44 58 M 18 29 L 28 29 M 44 43 L 54 43 M 18 43 L 28 43 M 44 29 L 54 29"/>
+    <path stroke-width="1" d="M 22 16 C 28 14 32 15 36 18 C 40 15 44 14 50 16 M 22 56 C 28 58 32 57 36 54 C 40 57 44 58 50 56"/>
+  </g>
 </svg>

@@ -16,9 +16,18 @@ This is an independent derivative-art project. It is not affiliated with or endo
 - `scripts/fetch_openmoji.py` — sparse-fetches the upstream OpenMoji Black SVG directory.
 - `scripts/build_all.py` — builds the full OpenMoji set in grayscale or line mode.
 - `scripts/check_svg_set.py` — verifies the complete card-ready tapered SVG corpus.
+- `scripts/audit_pua_artifacts.py` — report-only raster audit for detached or cropped PUA fragments.
+- `scripts/check_pua_legibility.py` — verifies every PUA glyph has visible ink and a readable 128px footprint.
+- `scripts/check_pua_vector.py` — verifies PUA SVGs remain scalable paths without embedded raster images or filters.
+- `scripts/check_pua_font_render.py` — renders every PUA code point from the TTF and rejects blank font glyphs.
+- `scripts/check_pua_duplicates.py` — rejects exact raster silhouette reuse across distinct PUA names.
+- `scripts/check_pua_coverage.py` — verifies all PUA categories are represented in the manifest and review sheets.
+- `scripts/check_catalog.py` — verifies the browser catalog points to the current manifests and TTF.
+- `scripts/render_pua_contact_sheet.py` — renders repeatable category contact sheets for visual QA.
 - `scripts/import_noto_svg.py` — deterministic source-to-ink converter retained for compatibility.
 - `scripts/fetch_yuji_boku.py` — fetches the open Yuji Boku base font for alphabet coverage.
 - `scripts/build_alpha_svg.py` — converts the Yuji Boku alphabet into the same Emojinq SVG treatment.
+- `assets/pua/manifest.json` — the shareable PUA inventory, grouped for the browser catalog and font build.
 - `docs/ESP32-S3.md` — rendering and integration notes.
 
 The canonical treatment uses pale washes, asymmetric pen contours, and a few selective interior marks rather than hatch fills or filters. This keeps the SVGs scalable and gives the set a quieter 19th-century ink quality while keeping the generated TTF as clean filled outlines. See [docs/STYLE.md](docs/STYLE.md).
@@ -47,7 +56,11 @@ Use `make all-lines` when a fill-free line-only corpus is needed for rasterizati
 
 The full upstream source and generated output are intentionally ignored; the manifest and deterministic build scripts are the shareable source of truth.
 
-The resulting `fonts/Emojinq-Regular.ttf` is a conventional monochrome TrueType font containing the complete generated emoji set plus the ASCII alphabet and digits. The alphabet is based on Yuji Boku and passes through the same SVG conversion, pressure variation, and outline-building pipeline. It maps direct Unicode code points and includes OpenType ligature substitutions for supported emoji sequences. Centerline SVG strokes are sampled into tapered filled contours, then converted to TrueType quadratic outlines for embedded compatibility.
+The resulting `fonts/Emojinq-Regular.ttf` is a conventional monochrome TrueType font containing the complete generated emoji set, the ASCII alphabet and digits, the divination symbols, and the complete PUA inventory. The alphabet is based on Yuji Boku and passes through the same SVG conversion, pressure variation, and outline-building pipeline. It maps direct Unicode code points and includes OpenType ligature substitutions for supported emoji sequences. Centerline SVG strokes are sampled into tapered filled contours, then converted to TrueType quadratic outlines for embedded compatibility.
+
+Run `make check-pua` to raster-check the complete PUA corpus and report likely detached source fragments before publishing a new font build.
+
+Run `make contact-pua` to regenerate the 13 category contact sheets under `build/pua-contact-sheets/`. Run `make review-pua` to regenerate those sheets and persist the detached-artifact report at `build/pua-artifact-audit.json`. The complete release gate is `make check`: it validates SVG quality, PUA legibility and coverage, sumi-e metadata, browser catalog references, and the rebuilt TTF’s PUA cmap and GSUB tables.
 
 The generated `assets/gray-all/` corpus contains all 4,495 manifest glyphs as scalable, card-ready SVGs. Every glyph is tagged with `data-ink-stroke-system="tapered-v1"`; explicit stroke and default-filled OpenMoji line paths are normalized into tapered ink geometry, with one upstream-empty source glyph preserved and identified rather than invented.
 

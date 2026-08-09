@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="patterns / blue" data-pua="U+F0A01" data-ink-stroke-system="brush-study-v1">
-  <title>patterns / blue — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M26.00 29.00l20.94 0l0 20.94l-20.94 0Z" fill="none" stroke="#262522" stroke-width="2.52" stroke-linecap="round" stroke-linejoin="round"/><path d="M64.00 29.00l20.94 0l0 20.94l-20.94 0Z" fill="none" stroke="#262522" stroke-width="1.88" stroke-linecap="round" stroke-linejoin="round"/><path d="M45.00 64.00l20.94 0l0 20.94l-20.94 0Z" fill="none" stroke="#262522" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/><path d="M83.00 64.00l20.94 0l0 20.94l-20.94 0Z" fill="none" stroke="#262522" stroke-width="1.71" stroke-linecap="round" stroke-linejoin="round"/><path d="M26.00 99.00l20.94 0l0 20.94l-20.94 0Z" fill="none" stroke="#262522" stroke-width="2.52" stroke-linecap="round" stroke-linejoin="round"/><path d="M64.00 99.00l20.94 0l0 20.94l-20.94 0Z" fill="none" stroke="#262522" stroke-width="1.88" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / blue" data-pua="U+F0A01" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>patterns / blue — reviewed vector study</title>
+<path d="M10 39c7-13 15-13 22 0s15 13 22 0 10-13 14-2" stroke-width="2.6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 48c7-13 15-13 22 0s15 13 22 0" stroke-width="1.35" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 56c7-5 14-5 21 0M42 56c5-4 10-4 15 0" stroke-width="1.1" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

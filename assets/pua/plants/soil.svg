@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="plants / soil" data-pua="U+F0E0C" data-ink-stroke-system="brush-study-v1">
-  <title>plants / soil — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M64 112Q58.82 74 64 40" fill="none" stroke="#262522" stroke-width="2.11" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 75Q38 58.19 28 72Q44 86 64 75Z" fill="none" stroke="#262522" stroke-width="2.39" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 59Q88 41.81 101 56Q87 72 64 59Z" fill="none" stroke="#262522" stroke-width="2.39" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 40Q58.87 24 64 16Q76 25 64 40Z" fill="none" stroke="#262522" stroke-width="1.36" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / soil" data-pua="U+F0E0C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1"><title>plants / soil — naturalist brush study</title><g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"><path stroke-width="2.8" d="M 10 47 C 21 43 50 43 62 47 C 54 55 45 59 36 59 C 26 59 17 55 10 47 Z"/><path stroke-width="1.1" d="M 15 51 C 27 54 45 54 57 51 M 22 56 C 30 58 42 58 50 56"/><path stroke-width="1" d="M 21 44 C 24 41 27 40 30 41 M 42 41 C 46 40 49 42 52 44 M 30 49 L 34 47 M 41 50 L 45 48"/></g></svg>

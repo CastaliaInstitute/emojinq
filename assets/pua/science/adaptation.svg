@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="science / adaptation" data-pua="U+F1000" data-ink-stroke-system="brush-study-v1">
-  <title>science / adaptation — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="64.00" cy="64.00" r="13.02" fill="none" stroke="#262522" stroke-width="2.03" stroke-linecap="round"/><path d="M18 60.69Q64 25.84 110 64Q64 102.16 18 64Z" fill="none" stroke="#262522" stroke-width="2.59" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 18Q97.69 64 64 110Q30.31 64 64 18Z" fill="none" stroke="#262522" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"/><circle cx="60.69" cy="64.84" r="4.00" fill="none" stroke="#262522" stroke-width="2.50" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / adaptation" data-pua="U+F1000" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>science / adaptation — reviewed vector study</title>
+<path d="M36 59V26M36 42L23 32M36 49l15-12" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 32c1-8 8-11 14-7-1 7-7 10-14 7zM51 37c-1-8-8-11-14-7 1 7 7 10 14 7z" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 18c5 2 8 6 8 11-5-1-8-5-8-11zM48 16c5 2 8 6 8 11-5-1-8-5-8-11z" stroke-width="1.6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 62h44" stroke-width="1" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

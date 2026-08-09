@@ -18,11 +18,17 @@
     .search { flex:1 1 18rem; min-width:16rem; padding:.55rem .7rem; border:1px solid #bdb9af; background:#fffefa; color:var(--ink); font:14px ui-sans-serif,sans-serif; }
     .type-sample { margin:1.5rem 0; padding:1rem 1.2rem; background:#f5f3ed; border:1px solid #d0cdc4; overflow:auto; color:#262421; font:clamp(1.4rem,3vw,2.4rem)/1.25 "Emojinq", sans-serif; white-space:nowrap; }
     .type-sample small { display:block; margin-bottom:.4rem; color:var(--quiet); font:10px/1.2 ui-monospace,monospace; letter-spacing:.08em; text-transform:uppercase; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(128px,1fr)); gap:.55rem; height:75vh; overflow:auto; padding:.6rem; background:#d0cdc4; }
-    figure { margin:0; padding:.6rem; background:#f5f3ed; border:1px solid #d0cdc4; }
-    .glyph { display:grid; width:100%; aspect-ratio:1; place-items:center; color:#262421; font:normal 5.2rem/1 "Emojinq", sans-serif; font-variant-ligatures:common-ligatures; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(168px,208px)); justify-content:center; gap:1rem; height:75vh; overflow:auto; padding:1rem; background:#d0cdc4; }
+    .card { width:100%; aspect-ratio:5 / 7; perspective:1000px; cursor:pointer; outline:none; }
+    .card:focus-visible { box-shadow:0 0 0 3px #77746d; }
+    .card-inner { position:relative; width:100%; height:100%; transform-style:preserve-3d; transition:transform .55s cubic-bezier(.2,.7,.2,1); }
+    .card.is-flipped .card-inner { transform:rotateY(180deg); }
+    .card-face { position:absolute; inset:0; display:grid; place-items:center; padding:1rem; overflow:hidden; background:#f5f3ed; border:1px solid #c1beb5; border-radius:4px; box-shadow:0 5px 12px rgba(41,40,38,.12); backface-visibility:hidden; }
+    .card-back { transform:rotateY(180deg); }
+    .card-back a { display:grid; place-items:center; width:100%; height:100%; }
+    .card-back img { width:78%; height:auto; image-rendering:auto; }
+    .glyph { display:grid; width:100%; height:100%; place-items:center; color:#262421; font:normal clamp(4rem,7vw,6rem)/1 "Emojinq", sans-serif; font-variant-ligatures:common-ligatures; }
     .glyph img { width:100%; height:100%; max-width:100%; max-height:100%; object-fit:contain; }
-    figcaption { overflow:hidden; color:var(--quiet); font:10px/1.2 ui-monospace,monospace; text-overflow:ellipsis; white-space:nowrap; }
   </style>
 </head>
 <body><main>
@@ -31,7 +37,7 @@
   <div id="status">Loading manifest…</div>
   <div class="controls" aria-label="Gallery controls">
     <input class="search" id="search" type="search" placeholder="Search emoji, code point, or group…" aria-label="Search emoji">
-    <label>Group <select id="group"><option value="all">All groups</option></select></label>
+    <label>Group <select id="group"><option value="all">All groups</option><optgroup label="PUA categories" id="pua-groups"></optgroup></select></label>
   </div>
   <div class="type-sample" aria-label="Emojinq alphabet specimen"><small>Emojinq brush alphabet</small>ABCDEFGHIJKLMNOPQRSTUVWXYZ · abcdefghijklmnopqrstuvwxyz · 0123456789</div>
   <section class="grid" id="grid" aria-label="Full Emojinq gallery"></section>
@@ -61,6 +67,8 @@
     const assetRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/gray-all/" : "assets/gray-all/";
     const divinationRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/divination/" : "assets/divination/";
     const puaRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/pua/" : "assets/pua/";
+    const qrAsset = location.pathname.endsWith("/docs/all.html") ? "../docs/inq-cards-qr.png" : "docs/inq-cards-qr.png";
+    const cardUrl = "https://inq.cards";
     const fontRoot = location.pathname.endsWith("/docs/all.html") ? "../fonts/" : "fonts/";
     const fontStyle = document.createElement("style");
     fontStyle.textContent = `@font-face { font-family: Emojinq; src: url("${fontRoot}Emojinq-Regular.ttf?v=yuji-boku-1") format("truetype"); font-display: swap; }`;
@@ -82,15 +90,30 @@
         group: "Alphanumerics",
         codepoints: [character.codePointAt(0)]
       }));
-      const items = [...emojiItems, ...divinationItems, ...categorizedPuaItems, ...alphaItems];
+      // Multi-codepoint emoji (regional indicators, skin-tone and ZWJ
+      // sequences) can fall through to the platform emoji font in browsers.
+      // Keep the catalog visually honest: show only single-codepoint brush
+      // glyphs from the generated Emojinq corpus, plus our explicit SVG/PUA
+      // studies and the alphanumeric font glyphs.
+      const brushedEmojiItems = emojiItems.filter(item => (
+        item.brushed !== false
+        && item.codepoints.length === 1
+        && item.group !== "Flags"
+        && !item.codepoints.includes(0x200D) // zero-width joiner
+        && !item.codepoints.includes(0xFE0F) // emoji presentation selector
+        && !/zero width|variation selector/i.test(item.label || "")
+      ));
+      const items = [...brushedEmojiItems, ...divinationItems, ...categorizedPuaItems, ...alphaItems];
+      const omittedEmojiCount = emojiItems.length - brushedEmojiItems.length;
       const grid = document.getElementById("grid");
       const group = document.getElementById("group");
+      const puaGroups = document.getElementById("pua-groups");
       const search = document.getElementById("search");
       [...new Set(items.map(item => item.group))].sort().forEach(name => {
         const option = document.createElement("option");
         option.value = name;
         option.textContent = name;
-        group.appendChild(option);
+        (name.startsWith("PUA · ") ? puaGroups : group).appendChild(option);
       });
       const render = () => {
         const selected = group.value;
@@ -101,9 +124,18 @@
           return inGroup && (!query.length || query.some(term => haystack.includes(term)));
         });
         while (grid.firstChild) grid.removeChild(grid.firstChild);
-        document.getElementById("status").textContent = `${visible.length} of ${items.length} searchable brush glyphs`;
+        document.getElementById("status").textContent = `${visible.length} of ${items.length} searchable brush glyphs · ${omittedEmojiCount} sequences omitted`;
         for (const item of visible) {
-        const figure = document.createElement("figure");
+        const figure = document.createElement("article");
+        figure.className = "card";
+        figure.tabIndex = 0;
+        figure.setAttribute("role", "button");
+        figure.setAttribute("aria-pressed", "false");
+        figure.setAttribute("aria-label", `${item.name}; click to flip for QR link`);
+        const inner = document.createElement("div");
+        inner.className = "card-inner";
+        const front = document.createElement("div");
+        front.className = "card-face card-front";
         const glyph = document.createElement("span");
         glyph.className = "glyph";
         glyph.setAttribute("role", "img");
@@ -117,9 +149,30 @@
         } else {
           glyph.textContent = String.fromCodePoint(...item.codepoints);
         }
-        const caption = document.createElement("figcaption");
-        caption.textContent = item.label ? `${item.label} · ${item.name}` : item.name;
-        figure.append(glyph, caption);
+        front.append(glyph);
+        const back = document.createElement("div");
+        back.className = "card-face card-back";
+        const link = document.createElement("a");
+        link.href = cardUrl;
+        link.target = "_blank";
+        link.rel = "noopener";
+        link.setAttribute("aria-label", "Open inq.cards");
+        const qr = document.createElement("img");
+        qr.src = qrAsset;
+        qr.alt = "";
+        link.append(qr);
+        back.append(link);
+        inner.append(front, back);
+        figure.append(inner);
+        const flip = event => {
+          if (event.type === "keydown" && event.key !== "Enter" && event.key !== " ") return;
+          if (event.type === "keydown") event.preventDefault();
+          if (event.target.closest("a")) return;
+          const flipped = figure.classList.toggle("is-flipped");
+          figure.setAttribute("aria-pressed", String(flipped));
+        };
+        figure.addEventListener("click", flip);
+        figure.addEventListener("keydown", flip);
         grid.append(figure);
         }
       };

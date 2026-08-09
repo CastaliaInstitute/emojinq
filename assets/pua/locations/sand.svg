@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="locations / sand" data-pua="U+F042D" data-ink-stroke-system="brush-study-v1">
-  <title>locations / sand — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M17 93L39 54.33L62 76L83 33.50L111 93" fill="none" stroke="#262522" stroke-width="1.53" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 93H107V111H21Z" fill="none" stroke="#262522" stroke-width="2.10" stroke-linecap="round" stroke-linejoin="round"/><path d="M46 93V73H76V93" fill="none" stroke="#262522" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round"/><path d="M52 74.50Q64 62.67 76 74.50" fill="none" stroke="#262522" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="locations / sand" data-pua="U+F042D" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+  <title>locations / sand — naturalist brush study</title>
+  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="2.8" d="M 8 54 C 18 47 25 43 34 42 C 43 41 52 45 64 54"/>
+    <path stroke-width="1.2" d="M 10 59 C 21 54 29 52 37 52 C 47 52 55 55 62 59 M 15 64 C 28 61 44 61 57 64"/>
+    <path stroke-width="2" d="M 30 42 C 34 35 39 27 47 20 C 48 28 51 36 57 44"/>
+    <path stroke-width="1" d="M 35 40 C 39 36 44 33 49 31 M 40 45 C 44 41 48 39 53 38 M 18 48 C 22 46 25 45 28 45"/>
+  </g>
 </svg>

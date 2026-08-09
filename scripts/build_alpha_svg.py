@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -12,6 +13,7 @@ from fontTools.ttLib import TTFont
 
 from collapse_lines import roughen_path
 from import_noto_svg import convert
+from style_contract import SUMI_E_STYLE, SUMI_E_STROKE_SYSTEM
 
 
 def main() -> None:
@@ -46,6 +48,13 @@ def main() -> None:
         )
         target = output / f"U+{codepoint:04X}.svg"
         convert(source_svg, target, f"U+{codepoint:04X}")
+        # Keep alphabet glyphs under the same style contract as emoji glyphs.
+        # ``convert`` supplies the actual tapered outlines and grayscale pass.
+        root = ET.parse(target).getroot()
+        root.set("data-castalia-style", SUMI_E_STYLE)
+        root.set("data-ink-stroke-system", SUMI_E_STROKE_SYSTEM)
+        ET.register_namespace("", "http://www.w3.org/2000/svg")
+        ET.ElementTree(root).write(target, encoding="utf-8", xml_declaration=False)
         source_svg.unlink()
         entries.append({"name": f"U+{codepoint:04X}", "source": target.name, "codepoints": [codepoint]})
     (output / "manifest.json").write_text(json.dumps(entries, indent=2) + "\n")

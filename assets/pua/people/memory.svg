@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / memory" data-pua="U+F0C46" data-ink-stroke-system="brush-study-v1">
-  <title>people / memory — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="61.13" cy="27.05" r="15.21" fill="none" stroke="#262522" stroke-width="1.65" stroke-linecap="round"/><path d="M42 51.05Q64 41.05 86 51.05L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="2.12" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 73.63 84 63" fill="none" stroke="#262522" stroke-width="1.36" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / memory" data-pua="U+F0C46" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>people / memory — reviewed vector study</title>
+<path d="M20 37c0-13 7-22 16-22s16 9 16 22-7 20-16 20-16-7-16-20z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27 29c3-4 6-4 9 0 3-4 6-4 9 0M27 38c3-4 6-4 9 0 3-4 6-4 9 0M28 47c3-3 6-3 8 0 3-3 6-3 8 0" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30 15c1-5 4-8 9-9 1 5-2 9-9 9zM36 57v7M28 64h16" stroke-width="1.25" opacity=".74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

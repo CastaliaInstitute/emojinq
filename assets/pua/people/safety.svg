@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / safety" data-pua="U+F0C62" data-ink-stroke-system="brush-study-v1">
-  <title>people / safety — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="62.17" cy="30.51" r="16.65" fill="none" stroke="#262522" stroke-width="2.39" stroke-linecap="round"/><path d="M42 54.51Q64 44.51 86 54.51L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 81.00 84 63" fill="none" stroke="#262522" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / safety" data-pua="U+F0C62" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>people / safety — reviewed vector study</title>
+<path d="M36 12l22 8v17c0 13-9 22-22 27-13-5-22-14-22-27V20z" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="36" cy="31" r="6" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 51c1-9 5-13 12-13s11 4 12 13M31 31c1 2 3 3 5 3s4-1 5-3" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 17v7" stroke-width="1.1" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

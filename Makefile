@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: assets fetch-openmoji all-lines all-gray lines divination font check check-svg check-sumi-e
+.PHONY: assets fetch-openmoji all-lines all-gray lines divination font check check-pua check-catalog contact-pua review-pua check-svg check-sumi-e
 
 fetch-openmoji:
 	$(PYTHON) scripts/fetch_openmoji.py
@@ -27,7 +27,29 @@ font: all-gray divination
 
 check:
 	$(PYTHON) scripts/check_quality.py
-	$(PYTHON) scripts/check_font.py
+	$(MAKE) check-pua
+	$(MAKE) check-sumi-e
+	$(MAKE) check-catalog
+	uv run --with fonttools python scripts/check_font.py
+	$(PYTHON) scripts/check_pua_font_render.py fonts/Emojinq-Regular.ttf
+
+check-catalog:
+	$(PYTHON) scripts/check_catalog.py
+
+contact-pua:
+	$(PYTHON) scripts/render_pua_contact_sheet.py
+
+review-pua:
+	$(MAKE) contact-pua
+	$(PYTHON) scripts/audit_pua_artifacts.py --root assets/pua --json build/pua-artifact-audit.json
+
+check-pua:
+	$(PYTHON) scripts/check_quality.py --source-dir assets/pua --sample 751
+	$(PYTHON) scripts/check_pua_vector.py --root assets/pua
+	$(PYTHON) scripts/check_pua_legibility.py --root assets/pua
+	$(PYTHON) scripts/check_pua_duplicates.py --root assets/pua
+	$(PYTHON) scripts/audit_pua_artifacts.py --root assets/pua
+	$(PYTHON) scripts/check_pua_coverage.py
 
 check-svg:
 	$(PYTHON) scripts/check_svg_set.py --source-dir assets/gray-all
