@@ -5798,5 +5798,21 @@
       988187
     ],
     "label": "flora/stump"
+  },
+  {
+    "name": "F141C",
+    "source": "flora/pine.svg",
+    "codepoints": [
+      988188
+    ],
+    "label": "flora/pine"
+  },
+  {
+    "name": "F141D",
+    "source": "flora/spruce.svg",
+    "codepoints": [
+      988189
+    ],
+    "label": "flora/spruce"
   }
 ]
