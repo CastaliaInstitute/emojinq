@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: assets cosmos fetch-openmoji all-lines all-gray lines divination animals-simple weather-simple materials-simple science-simple cross-category-simple art-batch art-batch2 art-batch3 art-batch4 art-batch5 people-art animate-svg check-animation laser-pua check-laser outliers-simple brushify-pua font check check-pua check-catalog contact-pua review-pua check-svg check-sumi-e
+.PHONY: assets cosmos fetch-openmoji all-lines all-gray lines divination naturalist-pua botanical-art body-art animals-art field-studies-art patterns-art materials-art sea-art dinosaurs-art field-plate-detail remove-ground animals-simple weather-simple materials-simple science-simple cross-category-simple art-batch art-batch2 art-batch3 art-batch4 art-batch5 people-art people-rich animate-svg check-animation laser-standard laser-pua laser-calibration check-laser outliers-simple brushify-pua trace-brush font check check-pua check-catalog contact-pua review-pua check-svg check-sumi-e
 
 fetch-openmoji:
 	$(PYTHON) scripts/fetch_openmoji.py
@@ -50,17 +50,63 @@ art-batch5:
 people-art:
 	$(PYTHON) scripts/redraw_people_art.py
 
+people-rich:
+	$(PYTHON) scripts/redraw_people_rich_sources.py
+
+botanical-art:
+	$(PYTHON) scripts/redraw_botanical_ink_art.py
+
+body-art:
+	$(PYTHON) scripts/redraw_body_naturalist_art.py
+	$(PYTHON) scripts/redraw_body_actions_naturalist.py
+
+animals-art:
+	$(PYTHON) scripts/redraw_animals_naturalist_art.py
+
+field-studies-art:
+	$(PYTHON) scripts/redraw_field_studies.py
+	$(PYTHON) scripts/enrich_field_studies.py
+	uv run --with svgpathtools python scripts/brushify_field_lines.py
+
+patterns-art:
+	$(PYTHON) scripts/redraw_patterns_naturalist_art.py
+
+materials-art:
+	$(PYTHON) scripts/redraw_materials_naturalist_art.py
+
+sea-art:
+	$(PYTHON) scripts/redraw_sea_naturalist_art.py
+	$(PYTHON) scripts/enrich_naturalist_plate_detail.py
+
+dinosaurs-art:
+	$(PYTHON) scripts/redraw_dinosaurs_naturalist_art.py
+	$(PYTHON) scripts/enrich_naturalist_plate_detail.py
+
+field-plate-detail:
+	$(PYTHON) scripts/enrich_naturalist_plate_detail.py
+
+remove-ground:
+	$(PYTHON) scripts/remove_pua_ground_strokes.py --root assets/pua
+
 animate-svg:
 	$(PYTHON) scripts/prepare_svg_animation.py --root assets/pua
 
 check-animation: animate-svg
 	$(PYTHON) scripts/check_svg_animation.py --root assets/pua
 
+laser-standard:
+	$(PYTHON) scripts/export_laser_svg.py --source assets/gray-all --output build/laser-standard
+
 laser-pua:
 	$(PYTHON) scripts/export_laser_svg.py --source assets/pua --output build/laser-pua
 
-check-laser: laser-pua
+laser-calibration:
+	$(PYTHON) scripts/build_laser_calibration.py --output build/laser-calibration.svg
+
+check-laser: laser-standard laser-pua laser-calibration
+	$(PYTHON) scripts/check_laser_svg.py --root build/laser-standard
 	$(PYTHON) scripts/check_laser_svg.py --root build/laser-pua
+	$(PYTHON) scripts/check_laser_svg.py --root build/laser-calibration.svg
 
 outliers-simple:
 	$(PYTHON) scripts/redraw_outliers_simple.py
@@ -68,8 +114,17 @@ outliers-simple:
 brushify-pua:
 	$(PYTHON) scripts/brushify_pua.py
 
+# Authoring filter: raster reference -> grayscale vector brush SVG.
+# Usage: make trace-brush TRACE_INPUT=reference.png TRACE_OUTPUT=build/reference.svg
+trace-brush:
+	@test -n "$(TRACE_INPUT)" -a -n "$(TRACE_OUTPUT)" || (echo "set TRACE_INPUT and TRACE_OUTPUT" && exit 2)
+	uv run --with vtracer --with pillow --with svgpathtools python scripts/trace_raster_brush.py "$(TRACE_INPUT)" "$(TRACE_OUTPUT)"
+
 divination:
 	$(PYTHON) scripts/build_divination_svg.py
+
+naturalist-pua:
+	$(PYTHON) scripts/build_naturalist_pua.py --manifest
 
 cosmos:
 	$(PYTHON) scripts/build_cosmos_pua.py --manifest
@@ -98,7 +153,7 @@ review-pua:
 	$(PYTHON) scripts/audit_pua_artifacts.py --root assets/pua --json build/pua-artifact-audit.json
 
 check-pua:
-	$(PYTHON) scripts/check_quality.py --source-dir assets/pua --sample 782
+	$(PYTHON) scripts/check_quality.py --source-dir assets/pua --sample 814
 	$(PYTHON) scripts/check_pua_vector.py --root assets/pua
 	$(PYTHON) scripts/check_pua_legibility.py --root assets/pua
 	$(PYTHON) scripts/check_pua_duplicates.py --root assets/pua
@@ -118,6 +173,6 @@ check-sumi-e:
 atlas-subset:
 	pyftsubset fonts/Emojinq-Regular.ttf \
 	  --output-file=fonts/Emojinq-Atlas.ttf \
-	  --unicodes=0023,002A,0030-0039,20E3,FE0E-FE0F,2190-21FF,2300-23FF,25A0-25FF,2600-26FF,2700-27BF,2934-2935,2B00-2BFF,1F000-1F0FF,1F300-1F3FA,1F400-1F5FF,1F600-1F64F,1F680-1F6FF,1F780-1F7FF,1F900-1F9FF,1FA70-1FAFF,F0E00-F0E11,F084A,F1067,F0C16,F0C25,F0403,F0417,F0426,F1117,F1400-F1435,F1440-F145E \
+	  --unicodes=0023,002A,0030-0039,20E3,FE0E-FE0F,2190-21FF,2300-23FF,25A0-25FF,2600-26FF,2700-27BF,2934-2935,2B00-2BFF,1F000-1F0FF,1F300-1F3FA,1F400-1F5FF,1F600-1F64F,1F680-1F6FF,1F780-1F7FF,1F900-1F9FF,1FA70-1FAFF,F0E00-F0E11,F084A,F1067,F0C16,F0C25,F0403,F0417,F0426,F1117,F1400-F1435,F1440-F145E,F14B0-F14B3 \
 	  --layout-features='*' \
 	  --name-IDs='*'

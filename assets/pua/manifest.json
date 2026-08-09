@@ -6254,5 +6254,293 @@
       988254
     ],
     "label": "cosmos/constellation"
+  },
+  {
+    "name": "F1460",
+    "source": "dinosaurs/tyrannosaurus.svg",
+    "codepoints": [
+      988256
+    ],
+    "label": "dinosaurs/tyrannosaurus"
+  },
+  {
+    "name": "F1461",
+    "source": "dinosaurs/triceratops.svg",
+    "codepoints": [
+      988257
+    ],
+    "label": "dinosaurs/triceratops"
+  },
+  {
+    "name": "F1462",
+    "source": "dinosaurs/stegosaurus.svg",
+    "codepoints": [
+      988258
+    ],
+    "label": "dinosaurs/stegosaurus"
+  },
+  {
+    "name": "F1463",
+    "source": "dinosaurs/brachiosaurus.svg",
+    "codepoints": [
+      988259
+    ],
+    "label": "dinosaurs/brachiosaurus"
+  },
+  {
+    "name": "F1464",
+    "source": "dinosaurs/velociraptor.svg",
+    "codepoints": [
+      988260
+    ],
+    "label": "dinosaurs/velociraptor"
+  },
+  {
+    "name": "F1465",
+    "source": "dinosaurs/spinosaurus.svg",
+    "codepoints": [
+      988261
+    ],
+    "label": "dinosaurs/spinosaurus"
+  },
+  {
+    "name": "F1466",
+    "source": "dinosaurs/ankylosaurus.svg",
+    "codepoints": [
+      988262
+    ],
+    "label": "dinosaurs/ankylosaurus"
+  },
+  {
+    "name": "F1467",
+    "source": "dinosaurs/pteranodon.svg",
+    "codepoints": [
+      988263
+    ],
+    "label": "dinosaurs/pteranodon"
+  },
+  {
+    "name": "F1468",
+    "source": "dinosaurs/parasaurolophus.svg",
+    "codepoints": [
+      988264
+    ],
+    "label": "dinosaurs/parasaurolophus"
+  },
+  {
+    "name": "F1469",
+    "source": "dinosaurs/fossil.svg",
+    "codepoints": [
+      988265
+    ],
+    "label": "dinosaurs/fossil"
+  },
+  {
+    "name": "F1480",
+    "source": "sea_creatures/whale.svg",
+    "codepoints": [
+      988288
+    ],
+    "label": "sea_creatures/whale"
+  },
+  {
+    "name": "F1481",
+    "source": "sea_creatures/dolphin.svg",
+    "codepoints": [
+      988289
+    ],
+    "label": "sea_creatures/dolphin"
+  },
+  {
+    "name": "F1482",
+    "source": "sea_creatures/shark.svg",
+    "codepoints": [
+      988290
+    ],
+    "label": "sea_creatures/shark"
+  },
+  {
+    "name": "F1483",
+    "source": "sea_creatures/octopus.svg",
+    "codepoints": [
+      988291
+    ],
+    "label": "sea_creatures/octopus"
+  },
+  {
+    "name": "F1484",
+    "source": "sea_creatures/jellyfish.svg",
+    "codepoints": [
+      988292
+    ],
+    "label": "sea_creatures/jellyfish"
+  },
+  {
+    "name": "F1485",
+    "source": "sea_creatures/seahorse.svg",
+    "codepoints": [
+      988293
+    ],
+    "label": "sea_creatures/seahorse"
+  },
+  {
+    "name": "F1486",
+    "source": "sea_creatures/crab.svg",
+    "codepoints": [
+      988294
+    ],
+    "label": "sea_creatures/crab"
+  },
+  {
+    "name": "F1487",
+    "source": "sea_creatures/lobster.svg",
+    "codepoints": [
+      988295
+    ],
+    "label": "sea_creatures/lobster"
+  },
+  {
+    "name": "F1488",
+    "source": "sea_creatures/turtle.svg",
+    "codepoints": [
+      988296
+    ],
+    "label": "sea_creatures/turtle"
+  },
+  {
+    "name": "F1489",
+    "source": "sea_creatures/manta.svg",
+    "codepoints": [
+      988297
+    ],
+    "label": "sea_creatures/manta"
+  },
+  {
+    "name": "F148A",
+    "source": "sea_creatures/nautilus.svg",
+    "codepoints": [
+      988298
+    ],
+    "label": "sea_creatures/nautilus"
+  },
+  {
+    "name": "F148B",
+    "source": "sea_creatures/coral.svg",
+    "codepoints": [
+      988299
+    ],
+    "label": "sea_creatures/coral"
+  },
+  {
+    "name": "F14A0",
+    "source": "rockets/sounding-rocket.svg",
+    "codepoints": [
+      988320
+    ],
+    "label": "rockets/sounding-rocket"
+  },
+  {
+    "name": "F14A1",
+    "source": "rockets/orbital-rocket.svg",
+    "codepoints": [
+      988321
+    ],
+    "label": "rockets/orbital-rocket"
+  },
+  {
+    "name": "F14A2",
+    "source": "rockets/booster.svg",
+    "codepoints": [
+      988322
+    ],
+    "label": "rockets/booster"
+  },
+  {
+    "name": "F14A3",
+    "source": "rockets/launch.svg",
+    "codepoints": [
+      988323
+    ],
+    "label": "rockets/launch"
+  },
+  {
+    "name": "F14A4",
+    "source": "rockets/capsule.svg",
+    "codepoints": [
+      988324
+    ],
+    "label": "rockets/capsule"
+  },
+  {
+    "name": "F14A5",
+    "source": "rockets/lunar-lander.svg",
+    "codepoints": [
+      988325
+    ],
+    "label": "rockets/lunar-lander"
+  },
+  {
+    "name": "F14A6",
+    "source": "rockets/satellite.svg",
+    "codepoints": [
+      988326
+    ],
+    "label": "rockets/satellite"
+  },
+  {
+    "name": "F14A7",
+    "source": "rockets/space-station.svg",
+    "codepoints": [
+      988327
+    ],
+    "label": "rockets/space-station"
+  },
+  {
+    "name": "F14A8",
+    "source": "rockets/rover.svg",
+    "codepoints": [
+      988328
+    ],
+    "label": "rockets/rover"
+  },
+  {
+    "name": "F14A9",
+    "source": "rockets/mission-control.svg",
+    "codepoints": [
+      988329
+    ],
+    "label": "rockets/mission-control"
+  },
+  {
+    "name": "F14B0",
+    "source": "brc/man.svg",
+    "codepoints": [
+      988336
+    ],
+    "label": "brc/man"
+  },
+  {
+    "name": "F14B1",
+    "source": "brc/temple.svg",
+    "codepoints": [
+      988337
+    ],
+    "label": "brc/temple"
+  },
+  {
+    "name": "F14B2",
+    "source": "brc/art-car.svg",
+    "codepoints": [
+      988338
+    ],
+    "label": "brc/art-car"
+  },
+  {
+    "name": "F14B3",
+    "source": "brc/shade.svg",
+    "codepoints": [
+      988339
+    ],
+    "label": "brc/shade"
   }
 ]

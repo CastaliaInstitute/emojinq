@@ -6,6 +6,11 @@ assets/line-all/
 assets/gray-all/
 assets/alpha-ink/
 build/laser-pua/
+build/laser-standard/
+build/laser-calibration.svg
 .cache/noto-emoji/
 .cache/openmoji/
 .cache/base-font/
+.dev.vars*
+.env*
+.venv/
