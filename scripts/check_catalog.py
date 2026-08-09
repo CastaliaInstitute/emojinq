@@ -17,7 +17,7 @@ def main() -> None:
     missing = [token for token in required if token not in page]
     if missing:
         raise SystemExit(f"catalog wiring missing: {', '.join(missing)}")
-    if len(pua) != 751:
+    if len(pua) != 782:
         raise SystemExit(f"unexpected PUA manifest count: {len(pua)}")
     if not gray or not divination:
         raise SystemExit("catalog source manifests are unexpectedly empty")

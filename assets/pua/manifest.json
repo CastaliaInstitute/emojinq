@@ -6006,5 +6006,253 @@
       988213
     ],
     "label": "herbs/aloe"
+  },
+  {
+    "name": "F1440",
+    "source": "cosmos/sun.svg",
+    "codepoints": [
+      988224
+    ],
+    "label": "cosmos/sun"
+  },
+  {
+    "name": "F1441",
+    "source": "cosmos/mercury.svg",
+    "codepoints": [
+      988225
+    ],
+    "label": "cosmos/mercury"
+  },
+  {
+    "name": "F1442",
+    "source": "cosmos/venus.svg",
+    "codepoints": [
+      988226
+    ],
+    "label": "cosmos/venus"
+  },
+  {
+    "name": "F1443",
+    "source": "cosmos/earth.svg",
+    "codepoints": [
+      988227
+    ],
+    "label": "cosmos/earth"
+  },
+  {
+    "name": "F1444",
+    "source": "cosmos/mars.svg",
+    "codepoints": [
+      988228
+    ],
+    "label": "cosmos/mars"
+  },
+  {
+    "name": "F1445",
+    "source": "cosmos/jupiter.svg",
+    "codepoints": [
+      988229
+    ],
+    "label": "cosmos/jupiter"
+  },
+  {
+    "name": "F1446",
+    "source": "cosmos/saturn.svg",
+    "codepoints": [
+      988230
+    ],
+    "label": "cosmos/saturn"
+  },
+  {
+    "name": "F1447",
+    "source": "cosmos/uranus.svg",
+    "codepoints": [
+      988231
+    ],
+    "label": "cosmos/uranus"
+  },
+  {
+    "name": "F1448",
+    "source": "cosmos/neptune.svg",
+    "codepoints": [
+      988232
+    ],
+    "label": "cosmos/neptune"
+  },
+  {
+    "name": "F1449",
+    "source": "cosmos/pluto.svg",
+    "codepoints": [
+      988233
+    ],
+    "label": "cosmos/pluto"
+  },
+  {
+    "name": "F144A",
+    "source": "cosmos/moon.svg",
+    "codepoints": [
+      988234
+    ],
+    "label": "cosmos/moon"
+  },
+  {
+    "name": "F144B",
+    "source": "cosmos/comet.svg",
+    "codepoints": [
+      988235
+    ],
+    "label": "cosmos/comet"
+  },
+  {
+    "name": "F144C",
+    "source": "cosmos/asteroid.svg",
+    "codepoints": [
+      988236
+    ],
+    "label": "cosmos/asteroid"
+  },
+  {
+    "name": "F144D",
+    "source": "cosmos/star.svg",
+    "codepoints": [
+      988237
+    ],
+    "label": "cosmos/star"
+  },
+  {
+    "name": "F144E",
+    "source": "cosmos/galaxy.svg",
+    "codepoints": [
+      988238
+    ],
+    "label": "cosmos/galaxy"
+  },
+  {
+    "name": "F144F",
+    "source": "cosmos/io.svg",
+    "codepoints": [
+      988239
+    ],
+    "label": "cosmos/io"
+  },
+  {
+    "name": "F1450",
+    "source": "cosmos/europa.svg",
+    "codepoints": [
+      988240
+    ],
+    "label": "cosmos/europa"
+  },
+  {
+    "name": "F1451",
+    "source": "cosmos/ganymede.svg",
+    "codepoints": [
+      988241
+    ],
+    "label": "cosmos/ganymede"
+  },
+  {
+    "name": "F1452",
+    "source": "cosmos/titan.svg",
+    "codepoints": [
+      988242
+    ],
+    "label": "cosmos/titan"
+  },
+  {
+    "name": "F1453",
+    "source": "cosmos/satellite.svg",
+    "codepoints": [
+      988243
+    ],
+    "label": "cosmos/satellite"
+  },
+  {
+    "name": "F1454",
+    "source": "cosmos/space-station.svg",
+    "codepoints": [
+      988244
+    ],
+    "label": "cosmos/space-station"
+  },
+  {
+    "name": "F1455",
+    "source": "cosmos/probe.svg",
+    "codepoints": [
+      988245
+    ],
+    "label": "cosmos/probe"
+  },
+  {
+    "name": "F1456",
+    "source": "cosmos/rover.svg",
+    "codepoints": [
+      988246
+    ],
+    "label": "cosmos/rover"
+  },
+  {
+    "name": "F1457",
+    "source": "cosmos/meteor.svg",
+    "codepoints": [
+      988247
+    ],
+    "label": "cosmos/meteor"
+  },
+  {
+    "name": "F1458",
+    "source": "cosmos/asteroid-belt.svg",
+    "codepoints": [
+      988248
+    ],
+    "label": "cosmos/asteroid-belt"
+  },
+  {
+    "name": "F1459",
+    "source": "cosmos/nebula.svg",
+    "codepoints": [
+      988249
+    ],
+    "label": "cosmos/nebula"
+  },
+  {
+    "name": "F145A",
+    "source": "cosmos/black-hole.svg",
+    "codepoints": [
+      988250
+    ],
+    "label": "cosmos/black-hole"
+  },
+  {
+    "name": "F145B",
+    "source": "cosmos/eclipse.svg",
+    "codepoints": [
+      988251
+    ],
+    "label": "cosmos/eclipse"
+  },
+  {
+    "name": "F145C",
+    "source": "cosmos/ceres.svg",
+    "codepoints": [
+      988252
+    ],
+    "label": "cosmos/ceres"
+  },
+  {
+    "name": "F145D",
+    "source": "cosmos/phobos.svg",
+    "codepoints": [
+      988253
+    ],
+    "label": "cosmos/phobos"
+  },
+  {
+    "name": "F145E",
+    "source": "cosmos/constellation.svg",
+    "codepoints": [
+      988254
+    ],
+    "label": "cosmos/constellation"
   }
 ]

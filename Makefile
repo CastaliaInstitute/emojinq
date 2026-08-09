@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: assets fetch-openmoji all-lines all-gray lines divination animals-simple weather-simple materials-simple science-simple cross-category-simple art-batch art-batch2 art-batch3 art-batch4 art-batch5 animate-svg check-animation laser-pua check-laser outliers-simple brushify-pua font check check-pua check-catalog contact-pua review-pua check-svg check-sumi-e
+.PHONY: assets cosmos fetch-openmoji all-lines all-gray lines divination animals-simple weather-simple materials-simple science-simple cross-category-simple art-batch art-batch2 art-batch3 art-batch4 art-batch5 people-art animate-svg check-animation laser-pua check-laser outliers-simple brushify-pua font check check-pua check-catalog contact-pua review-pua check-svg check-sumi-e
 
 fetch-openmoji:
 	$(PYTHON) scripts/fetch_openmoji.py
@@ -47,6 +47,9 @@ art-batch4:
 art-batch5:
 	$(PYTHON) scripts/redraw_art_batch5.py
 
+people-art:
+	$(PYTHON) scripts/redraw_people_art.py
+
 animate-svg:
 	$(PYTHON) scripts/prepare_svg_animation.py --root assets/pua
 
@@ -67,6 +70,9 @@ brushify-pua:
 
 divination:
 	$(PYTHON) scripts/build_divination_svg.py
+
+cosmos:
+	$(PYTHON) scripts/build_cosmos_pua.py --manifest
 
 font: all-gray divination
 	$(PYTHON) scripts/fetch_yuji_boku.py
@@ -92,7 +98,7 @@ review-pua:
 	$(PYTHON) scripts/audit_pua_artifacts.py --root assets/pua --json build/pua-artifact-audit.json
 
 check-pua:
-	$(PYTHON) scripts/check_quality.py --source-dir assets/pua --sample 751
+	$(PYTHON) scripts/check_quality.py --source-dir assets/pua --sample 782
 	$(PYTHON) scripts/check_pua_vector.py --root assets/pua
 	$(PYTHON) scripts/check_pua_legibility.py --root assets/pua
 	$(PYTHON) scripts/check_pua_duplicates.py --root assets/pua
@@ -112,6 +118,6 @@ check-sumi-e:
 atlas-subset:
 	pyftsubset fonts/Emojinq-Regular.ttf \
 	  --output-file=fonts/Emojinq-Atlas.ttf \
-	  --unicodes=0023,002A,0030-0039,20E3,FE0E-FE0F,2190-21FF,2300-23FF,25A0-25FF,2600-26FF,2700-27BF,2934-2935,2B00-2BFF,1F000-1F0FF,1F300-1F3FA,1F400-1F5FF,1F600-1F64F,1F680-1F6FF,1F780-1F7FF,1F900-1F9FF,1FA70-1FAFF,F0E00-F0E11,F084A,F1067,F0C16,F0C25,F0403,F0417,F0426,F1117,F1400-F1435 \
+	  --unicodes=0023,002A,0030-0039,20E3,FE0E-FE0F,2190-21FF,2300-23FF,25A0-25FF,2600-26FF,2700-27BF,2934-2935,2B00-2BFF,1F000-1F0FF,1F300-1F3FA,1F400-1F5FF,1F600-1F64F,1F680-1F6FF,1F780-1F7FF,1F900-1F9FF,1FA70-1FAFF,F0E00-F0E11,F084A,F1067,F0C16,F0C25,F0403,F0417,F0426,F1117,F1400-F1435,F1440-F145E \
 	  --layout-features='*' \
 	  --name-IDs='*'
