@@ -109,6 +109,54 @@ ART = {
 <path d="M10 59c9-3 18-3 26 0 8-3 17-3 26 0" stroke-width="1.15" {i}/>
 <path d="M36 19l1 4M31 22l5-3 5 3" stroke-width="1.1" {i}/>
 """,
+    "fraction": """
+<circle cx="36" cy="36" r="22" stroke-width="2.1" {i}/>
+<path d="M36 14v44M14 36h44" stroke-width="1.45" {i}/>
+<path d="M22 22l5 5M50 22l-5 5M22 50l5-5M50 50l-5-5" stroke-width="1.05" {i}/>
+""",
+    "because": """
+<circle cx="22" cy="35" r="10" stroke-width="1.9" {i}/><circle cx="50" cy="35" r="10" stroke-width="1.9" {i}/>
+<path d="M32 35h16M22 31l4 4-4 4M50 31l-4 4 4 4" stroke-width="1.35" {i}/>
+<path d="M15 18c5-3 10-3 15 0M42 18c5-3 10-3 15 0" stroke-width="1.0" opacity=".7" {i}/>
+""",
+    "hypothesis": """
+<path d="M20 55V25c0-6 6-10 16-10s16 4 16 10v30c-10 4-22 4-32 0z" stroke-width="2.0" {i}/>
+<path d="M20 25c10 4 22 4 32 0M29 36c2-5 9-7 12-3 4 5-2 7-5 10-2 2-2 4-2 6M35 52v1" stroke-width="1.45" {i}/>
+""",
+    "idea": """
+<path d="M36 16c-10 0-17 8-17 17 0 6 3 10 7 14v7h20v-7c4-4 7-8 7-14 0-9-7-17-17-17z" stroke-width="2.1" {i}/>
+<path d="M30 54h12M31 59h10M36 10v-4M20 12l-3-3M52 12l3-3M14 28H9M58 28h5" stroke-width="1.3" {i}/>
+""",
+    "explanation": """
+<path d="M12 20h48v31H33L22 59v-8H12z" stroke-width="2.05" {i}/>
+<path d="M23 30h26M23 38h20M23 46h12" stroke-width="1.25" {i}/>
+<path d="M51 13l3 4 5-1-3 4 2 4-5-2-3 3 1-5-4-3 5-1z" stroke-width="1.15" {i}/>
+""",
+    "exploration": """
+<circle cx="30" cy="31" r="16" stroke-width="2.0" {i}/>
+<path d="M30 18l4 13-10 8 4-13zM46 47c6 3 9 7 10 12M56 59c-5-1-10 0-15 3" stroke-width="1.5" {i}/>
+<path d="M30 12v-4M14 31h-4M30 50v4M46 31h4" stroke-width="1.1" {i}/>
+""",
+    "art": """
+<path d="M14 52c3-11 10-21 19-29 7-6 14-5 18 0 4 6-1 13-8 18-9 7-19 10-29 11z" stroke-width="2.0" {i}/>
+<path d="M19 45l11 7M25 37l12 8M33 29l10 7" stroke-width="1.15" {i}/>
+<circle cx="54" cy="20" r="3" stroke-width="1.15" {i}/>
+""",
+    "courage": """
+<path d="M36 58V32M36 38l-10-8M36 38l10-8M36 51l-7 9M36 51l7 9" stroke-width="2.0" {i}/>
+<circle cx="36" cy="25" r="6" stroke-width="1.8" {i}/>
+<path d="M10 28c7-5 13-5 19 0M53 28c4-3 8-3 10 0M9 47c8-4 15-4 22 0M48 47c6-3 11-3 16 0" stroke-width="1.35" {i}/>
+""",
+    "fall": """
+<path d="M36 13c-5 7-7 13-4 17 3 4 9 3 11-2 2-4-1-9-7-15z" stroke-width="1.8" {i}/>
+<path d="M38 29c-5 8-9 14-13 19M31 43l-6 5M31 43l1 7" stroke-width="1.45" {i}/>
+<path d="M11 58c9-3 18-3 26 0 8-3 17-3 25 0" stroke-width="1.15" {i}/>
+""",
+    "path": """
+<path d="M12 56c8-8 16-14 18-22 2-7-2-12-8-15M60 56c-8-8-16-14-18-22-2-7 2-12 8-15" stroke-width="2.15" {i}/>
+<path d="M18 56c10-3 26-3 36 0M24 45c7-2 17-2 24 0M30 34c4-1 8-1 12 0" stroke-width="1.25" {i}/>
+<path d="M12 60c16-2 32-2 48 0" stroke-width="1.0" opacity=".65" {i}/>
+""",
 }
 
 
