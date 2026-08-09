@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / sand" data-pua="U+F0608" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1"><title>materials / sand — naturalist brush study</title><g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"><path stroke-width="2.8" d="M 10 48 C 19 41 28 37 37 38 C 47 39 55 44 62 51"/><path stroke-width="1.2" d="M 10 55 C 21 51 31 50 40 51 C 49 52 55 55 62 59 M 14 62 C 25 59 47 59 58 62"/><path stroke-width="1" d="M 20 46 C 24 43 28 42 32 42 M 42 43 C 47 43 51 45 55 48"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / sand" data-pua="U+F0608" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>materials / sand — simplified naturalist study</title>
+<path d="M9 51c10-11 20-15 31-11 8 3 14 3 23-5M10 59c13-5 25-5 36-1 8 3 15 2 21-1" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 43c7-3 14-3 20 0M46 50c5-2 9-2 14 0" stroke-width="1.0" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

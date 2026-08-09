@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / stone" data-pua="U+F0609" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1"><title>materials / stone — naturalist brush study</title><g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"><path stroke-width="2.7" d="M 14 49 C 16 39 24 32 35 30 C 46 29 55 36 59 47 C 54 56 45 60 33 60 C 23 59 17 56 14 49 Z"/><path stroke-width="1.1" d="M 21 47 C 25 40 32 36 40 36 C 47 36 52 40 55 47 M 24 51 C 32 54 42 54 50 51"/><path stroke-width="1" d="M 31 39 L 34 44 L 40 42 L 45 46"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / stone" data-pua="U+F0609" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>materials / stone — simplified naturalist study</title>
+<path d="M13 47c3-11 10-19 22-22 11 0 19 5 25 14l-4 17c-12 5-25 5-38 0z" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 38c7-3 15-3 24 0M21 48c9-2 17-2 27 1" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

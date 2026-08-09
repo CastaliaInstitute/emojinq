@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / thread" data-pua="U+F060A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1"><title>materials / thread — naturalist brush study</title><g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"><path stroke-width="2.6" d="M 20 23 C 25 19 44 19 50 23 L 50 52 C 44 57 26 57 20 52 Z"/><path stroke-width="1.2" d="M 20 28 C 28 31 42 31 50 28 M 20 48 C 28 45 42 45 50 48"/><path stroke-width="2" d="M 50 23 C 57 28 59 37 54 44 C 50 50 43 52 38 48 C 33 44 34 36 40 33 C 45 30 51 32 53 36"/><path stroke-width="1" d="M 14 61 C 27 59 46 59 58 61"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / thread" data-pua="U+F060A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>materials / thread — simplified naturalist study</title>
+<path d="M21 21h30v33c-2 6-8 9-15 9s-13-3-15-9z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 21c0-4 7-6 15-6s15 2 15 6-7 6-15 6-15-2-15-6zM28 35c6 4 12 4 18 0M28 44c6 4 12 4 18 0" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51 27c8 2 11 6 10 12-1 5-5 8-10 8" stroke-width="1.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
