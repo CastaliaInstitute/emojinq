@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / thunder" data-pua="U+F120A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
-  <title>weather sky / thunder — naturalist brush study</title>
-  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2.6" d="M 14 34 C 16 28 21 25 27 26 C 30 20 36 18 42 21 C 48 20 54 24 55 30 C 61 31 63 35 61 39 C 58 43 53 43 49 42 L 43 42"/>
-    <path stroke-width="2.9" d="M 39 39 L 32 51 L 39 51 L 34 63"/>
-    <path stroke-width="1.1" d="M 18 31 C 23 29 27 30 30 33 M 45 27 C 50 27 53 30 54 34 M 12 47 C 21 45 27 46 34 49"/>
-  </g>
+<title>weather sky / thunder — simplified naturalist study</title>
+<path d="M10 35c-2-7 4-12 11-12 3-7 12-9 17-3 8-3 16 2 16 9 6 1 8 7 5 11H17c-4 0-7-2-7-5z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39 34l-8 13h7l-4 13 13-18h-7l5-8" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 18l5-4M55 16l5 3" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

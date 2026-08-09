@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather_sky / shade" data-pua="U+F1207" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
-<title>weather_sky / shade — reviewed vector study</title>
-<path d="M13 35c7-13 16-19 26-19s19 6 26 19" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 35c6 11 14 17 21 17s15-6 21-17" stroke-width="1.6" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M22 29c5-4 9-5 14-5M42 24c5 0 9 2 13 5" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 57c8-3 18-3 27 0 4 1 7 1 10 0" stroke-width="1.0" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / shade" data-pua="U+F1207" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>weather sky / shade — simplified naturalist study</title>
+<path d="M12 31c7-10 17-15 28-15 10 0 19 5 25 15H12z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 31v20M29 31v20M40 31v20M51 31v20M12 53h53" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 8v7M21 12l4 5M51 12l-4 5" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
