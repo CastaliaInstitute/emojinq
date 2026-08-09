@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / disaster" data-pua="U+F1030" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / disaster" data-pua="U+F1030" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / disaster — expressive brush study</title>
-<path d="M9 52c8-8 16-10 25-4 8-6 17-5 29 3" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 12l-5 14h8l-5 14 8-11h-8z" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 42c4-5 8-5 12 0M47 42c4-5 8-5 12 0M13 59c15-3 31-3 47 0" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 52c8-8 16-10 25-4 8-6 17-5 29 3" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M36 12l-5 14h8l-5 14 8-11h-8z" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M15 42c4-5 8-5 12 0M47 42c4-5 8-5 12 0M13 59c15-3 31-3 47 0" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

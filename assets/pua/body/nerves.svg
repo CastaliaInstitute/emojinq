@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="body / nerves" data-pua="U+F020A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="body / nerves" data-pua="U+F020A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>body / nerves — expressive brush study</title>
-<path d="M36 10c-3 11-3 20 0 28 3 8 2 16-1 24" stroke-width="2.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M35 23c-7-5-12-5-18-1M36 30c8-5 14-5 20-1M36 40c-8-5-14-4-20 1M35 49c7-4 13-3 18 2" stroke-width="1.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M17 22l-5 4M56 29l5 4M16 42l-5 4M53 52l5 4" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 10c-3 11-3 20 0 28 3 8 2 16-1 24" stroke-width="2.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M35 23c-7-5-12-5-18-1M36 30c8-5 14-5 20-1M36 40c-8-5-14-4-20 1M35 49c7-4 13-3 18 2" stroke-width="1.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M17 22l-5 4M56 29l5 4M16 42l-5 4M53 52l5 4" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

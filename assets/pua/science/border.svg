@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / border" data-pua="U+F1010" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / border" data-pua="U+F1010" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / border — expressive brush study</title>
-<path d="M12 55V18c12-3 36-3 48 0v37" stroke-width="1.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 18h48M12 55c12 3 36 3 48 0M22 18v12M34 18v8M46 18v12M22 55V43M34 55v-8M46 55V43" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 35h13M47 35h13" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 22c4 1 7 1 11 0M40 22c4 1 7 1 11 0" stroke-width=".9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 55V18c12-3 36-3 48 0v37" stroke-width="1.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M12 18h48M12 55c12 3 36 3 48 0M22 18v12M34 18v8M46 18v12M22 55V43M34 55v-8M46 55V43" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M12 35h13M47 35h13" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M18 22c4 1 7 1 11 0M40 22c4 1 7 1 11 0" stroke-width=".9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

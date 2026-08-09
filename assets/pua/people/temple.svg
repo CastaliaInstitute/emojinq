@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / temple" data-pua="U+F0C73" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / temple" data-pua="U+F0C73" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>people / temple — reviewed vector study</title>
-<path d="M 11.989 24.952 h 47.982 L 35.933 12.079 z M 16.923 29.036 h 37.998 M 20.074 29.006 v 26.956 M 30.058 29.039 v 26.955 M 41.973 28.925 v 27.012 M 52.068 29.032 v 26.969 M 12.067 56.052 h 47.974 M 9.077 62.011 h 54.012" stroke-width="2.26" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 28.023 56.012 V 42.973 c -0.054 -7.037 16.049 -6.996 16.035 -0.007 v 12.966" stroke-width="2.08" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 23.972 20.077 h 23.979 M 18 35.042 h 36.063" stroke-width="1.18" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 11.989 24.952 h 47.982 L 35.933 12.079 z M 16.923 29.036 h 37.998 M 20.074 29.006 v 26.956 M 30.058 29.039 v 26.955 M 41.973 28.925 v 27.012 M 52.068 29.032 v 26.969 M 12.067 56.052 h 47.974 M 9.077 62.011 h 54.012" stroke-width="2.26" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 28.023 56.012 V 42.973 c -0.054 -7.037 16.049 -6.996 16.035 -0.007 v 12.966" stroke-width="2.08" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 23.972 20.077 h 23.979 M 18 35.042 h 36.063" stroke-width="1.18" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / sphere" data-pua="U+F0A12" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / sphere" data-pua="U+F0A12" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>patterns / sphere — reviewed vector study</title>
 <circle cx="36" cy="37" r="22" stroke-width="2.97" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 14.023 37.012 h 43.973 M 35.946 14.963 c -7.996 7.035 -11.007 14.022 -11.034 21.984 s 2.965 15.03 10.974 22.015 M 35.952 15.066 c 7.989 7.017 11.056 13.968 11.027 22.071 s -3.075 15.037 -11.015 22.032" stroke-width="1.15" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 18.972 26.077 c 9.979 3.977 24 4.042 34.052 0.063 M 18.942 47.963 c 10.027 -4.023 24.002 -3.997 34.037 -0.028" stroke-width="0.92" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 14.023 37.012 h 43.973 M 35.946 14.963 c -7.996 7.035 -11.007 14.022 -11.034 21.984 s 2.965 15.03 10.974 22.015 M 35.952 15.066 c 7.989 7.017 11.056 13.968 11.027 22.071 s -3.075 15.037 -11.015 22.032" stroke-width="1.15" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 18.972 26.077 c 9.979 3.977 24 4.042 34.052 0.063 M 18.942 47.963 c 10.027 -4.023 24.002 -3.997 34.037 -0.028" stroke-width="0.92" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

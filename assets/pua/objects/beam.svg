@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / beam" data-pua="U+F0804" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / beam" data-pua="U+F0804" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>objects / beam — expressive brush study</title>
-<path d="M13 24c14 2 29 2 47 0v17c-16 2-31 2-47 0z" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 25v16M27 26v15M43 26v15M52 25v16M13 51c16-3 31-3 47 0" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 30c5-2 9-2 14 0M39 35c4-2 8-2 13 0" stroke-width="1.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 24c14 2 29 2 47 0v17c-16 2-31 2-47 0z" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M18 25v16M27 26v15M43 26v15M52 25v16M13 51c16-3 31-3 47 0" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M20 30c5-2 9-2 14 0M39 35c4-2 8-2 13 0" stroke-width="1.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

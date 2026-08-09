@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / culture" data-pua="U+F1024" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / culture" data-pua="U+F1024" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / culture — reviewed vector study</title>
-<path d="M 21.989 26.952 h 27.982 l -3.067 28.079 c -0.966 5.923 -4.964 9.059 -11.002 9.02 s -9.994 -3.021 -11.044 -9.024 z" stroke-width="2.50" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 22.023 27.012 c -0.027 -5.002 5.946 -8.037 14.049 -7.996 s 13.993 3.022 13.966 7.984 -5.942 7.965 -13.97 7.974 -13.985 -2.966 -14.048 -7.934 z M 27.017 43.056 c 6.027 3.071 14.022 2.925 19.037 -0.015 M 29.052 50.032 c 5.042 2.026 10.986 2.005 16.001 -0.005" stroke-width="1.45" opacity=".8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 21.989 26.952 h 27.982 l -3.067 28.079 c -0.966 5.923 -4.964 9.059 -11.002 9.02 s -9.994 -3.021 -11.044 -9.024 z" stroke-width="2.50" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 22.023 27.012 c -0.027 -5.002 5.946 -8.037 14.049 -7.996 s 13.993 3.022 13.966 7.984 -5.942 7.965 -13.97 7.974 -13.985 -2.966 -14.048 -7.934 z M 27.017 43.056 c 6.027 3.071 14.022 2.925 19.037 -0.015 M 29.052 50.032 c 5.042 2.026 10.986 2.005 16.001 -0.005" stroke-width="1.45" opacity=".8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

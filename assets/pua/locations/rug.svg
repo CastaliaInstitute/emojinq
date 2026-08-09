@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="locations / rug" data-pua="U+F042C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="locations / rug" data-pua="U+F042C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
   <title>locations / rug — naturalist brush study</title>
   <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2.6" d="M 15 16 C 26 14 46 14 57 16 L 55 56 C 44 58 28 58 17 56 Z"/>
-    <path stroke-width="1.1" d="M 20 21 C 29 19 43 19 52 21 M 20 51 C 29 53 43 53 52 51"/>
-    <path stroke-width="1.8" d="M 25 28 L 36 22 L 47 28 L 43 40 L 29 40 Z"/>
-    <path stroke-width="1" d="M 29 30 L 36 26 L 43 30 L 40 36 L 32 36 Z M 14 20 L 10 17 M 14 26 L 10 25 M 58 20 L 62 17 M 58 26 L 62 25 M 16 56 L 12 60 M 56 56 L 60 60"/>
+    <path stroke-width="2.6" d="M 15 16 C 26 14 46 14 57 16 L 55 56 C 44 58 28 58 17 56 Z" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.1" d="M 20 21 C 29 19 43 19 52 21 M 20 51 C 29 53 43 53 52 51" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.8" d="M 25 28 L 36 22 L 47 28 L 43 40 L 29 40 Z" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1" d="M 29 30 L 36 26 L 43 30 L 40 36 L 32 36 Z M 14 20 L 10 17 M 14 26 L 10 25 M 58 20 L 62 17 M 58 26 L 62 25 M 16 56 L 12 60 M 56 56 L 60 60" pathLength="1" class="ink-stroke" />
   </g>
 </svg>

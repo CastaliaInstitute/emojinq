@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / roof" data-pua="U+F0858" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / roof" data-pua="U+F0858" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
   <title>objects / roof — naturalist brush study</title>
   <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2.9" d="M 10 45 L 35 20 L 62 45"/>
-    <path stroke-width="2" d="M 15 45 L 15 57 L 57 57 L 57 45"/>
-    <path stroke-width="1.1" d="M 20 39 L 35 25 L 52 40 M 22 43 L 35 31 L 50 43 M 29 57 L 29 48 L 41 48 L 41 57"/>
-    <path stroke-width="1" d="M 11 60 C 25 58 48 58 62 60"/>
+    <path stroke-width="2.9" d="M 10 45 L 35 20 L 62 45" pathLength="1" class="ink-stroke" />
+    <path stroke-width="2" d="M 15 45 L 15 57 L 57 57 L 57 45" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.1" d="M 20 39 L 35 25 L 52 40 M 22 43 L 35 31 L 50 43 M 29 57 L 29 48 L 41 48 L 41 57" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1" d="M 11 60 C 25 58 48 58 62 60" pathLength="1" class="ink-stroke" />
   </g>
 </svg>

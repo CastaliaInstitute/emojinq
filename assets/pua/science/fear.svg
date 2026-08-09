@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / fear" data-pua="U+F104F" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / fear" data-pua="U+F104F" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / fear — simplified naturalist study</title>
-<path d="M36 15c-8 0-14 6-14 14 0 7 4 12 10 14v13h8V43c6-2 10-7 10-14 0-8-6-14-14-14z" stroke-width="2.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M29 31l5 3M43 31l-5 3M32 40c3-2 5-2 8 0" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M17 17l4 4M55 17l-4 4" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 15c-8 0-14 6-14 14 0 7 4 12 10 14v13h8V43c6-2 10-7 10-14 0-8-6-14-14-14z" stroke-width="2.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M29 31l5 3M43 31l-5 3M32 40c3-2 5-2 8 0" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M17 17l4 4M55 17l-4 4" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

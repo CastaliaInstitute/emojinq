@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / mortar" data-pua="U+F083F" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / mortar" data-pua="U+F083F" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
   <title>objects / mortar — naturalist brush study</title>
   <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2.7" d="M 18 35 C 25 32 45 32 53 35 L 50 51 C 49 57 43 60 36 60 C 29 60 22 57 21 51 Z"/>
-    <path stroke-width="1.2" d="M 20 38 C 28 41 44 41 51 38 M 23 51 C 30 54 42 54 48 51"/>
-    <path stroke-width="2.9" d="M 47 34 C 51 28 55 22 58 16"/>
-    <path stroke-width="1.1" d="M 51 29 C 53 30 55 30 57 29"/>
-    <path stroke-width="1" d="M 16 62 C 27 60 46 60 56 62"/>
+    <path stroke-width="2.7" d="M 18 35 C 25 32 45 32 53 35 L 50 51 C 49 57 43 60 36 60 C 29 60 22 57 21 51 Z" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.2" d="M 20 38 C 28 41 44 41 51 38 M 23 51 C 30 54 42 54 48 51" pathLength="1" class="ink-stroke" />
+    <path stroke-width="2.9" d="M 47 34 C 51 28 55 22 58 16" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.1" d="M 51 29 C 53 30 55 30 57 29" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1" d="M 16 62 C 27 60 46 60 56 62" pathLength="1" class="ink-stroke" />
   </g>
 </svg>

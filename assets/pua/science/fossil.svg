@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / fossil" data-pua="U+F1055" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / fossil" data-pua="U+F1055" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / fossil — simplified naturalist study</title>
-<path d="M14 45c-2-12 4-24 16-30 12-2 24 3 29 14 4 10 0 23-10 29-12 5-28 1-35-13z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 20c9 0 15 7 15 16 0 10-6 16-15 16-8 0-13-6-13-14 0-7 5-12 11-12 6 0 9 4 9 9 0 4-2 7-6 7-3 0-5-2-5-5" stroke-width="1.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 51c5 3 10 5 16 5M47 18c4 2 7 5 9 9" stroke-width="1.0" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 45c-2-12 4-24 16-30 12-2 24 3 29 14 4 10 0 23-10 29-12 5-28 1-35-13z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M36 20c9 0 15 7 15 16 0 10-6 16-15 16-8 0-13-6-13-14 0-7 5-12 11-12 6 0 9 4 9 9 0 4-2 7-6 7-3 0-5-2-5-5" stroke-width="1.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M18 51c5 3 10 5 16 5M47 18c4 2 7 5 9 9" stroke-width="1.0" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

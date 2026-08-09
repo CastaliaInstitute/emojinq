@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / shade" data-pua="U+F1207" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / shade" data-pua="U+F1207" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>weather sky / shade — simplified naturalist study</title>
-<path d="M 11.989 30.952 c 6.982 -10.02 16.933 -14.921 27.943 -14.966 9.923 0.036 19.059 4.998 25.02 15.074 H 11.979 z" stroke-width="2.27" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 18.023 31.012 v 19.973 M 28.946 30.963 v 20.004 M 39.993 31.022 v 19.984 M 50.965 31.03 v 20.015 M 11.952 53.066 h 52.989" stroke-width="1.52" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 35.972 8.077 v 6.979 M 21 12.042 l 4.063 5.058 M 50.963 12.038 l -4.023 5.002" stroke-width="1.39" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 11.989 30.952 c 6.982 -10.02 16.933 -14.921 27.943 -14.966 9.923 0.036 19.059 4.998 25.02 15.074 H 11.979 z" stroke-width="2.27" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 18.023 31.012 v 19.973 M 28.946 30.963 v 20.004 M 39.993 31.022 v 19.984 M 50.965 31.03 v 20.015 M 11.952 53.066 h 52.989" stroke-width="1.52" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 35.972 8.077 v 6.979 M 21 12.042 l 4.063 5.058 M 50.963 12.038 l -4.023 5.002" stroke-width="1.39" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / faith" data-pua="U+F0C24" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / faith" data-pua="U+F0C24" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>people / faith — reviewed vector study</title>
-<path d="M 35.989 13.952 c -8.018 -0.02 -13.067 7.079 -13.057 16.034 -0.077 13.036 5.059 22.998 13.02 29.074 8.006 -6.021 12.956 -16.024 13.058 -28.961 -0.031 -9.045 -4.942 -16.027 -13.075 -16.058 z" stroke-width="2.60" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 36.023 23.012 v 24.973 M 27.946 30.963 h 16.004 M 28.993 44.022 c 3.984 2.058 9.965 2.03 13.974 0.015" stroke-width="1.60" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 35.989 13.952 c -8.018 -0.02 -13.067 7.079 -13.057 16.034 -0.077 13.036 5.059 22.998 13.02 29.074 8.006 -6.021 12.956 -16.024 13.058 -28.961 -0.031 -9.045 -4.942 -16.027 -13.075 -16.058 z" stroke-width="2.60" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 36.023 23.012 v 24.973 M 27.946 30.963 h 16.004 M 28.993 44.022 c 3.984 2.058 9.965 2.03 13.974 0.015" stroke-width="1.60" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

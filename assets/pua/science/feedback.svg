@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / feedback" data-pua="U+F1050" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / feedback" data-pua="U+F1050" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / feedback — expressive brush study</title>
-<path d="M17 31c3-9 12-14 21-12 9 2 15 10 14 19-1 9-9 15-18 14-7-1-12-5-15-11" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M17 31l-5 6 8 1M52 38l5-6-8-1" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M26 34c4-3 8-3 12 0M27 42c5 3 10 3 15 0" stroke-width="1.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 31c3-9 12-14 21-12 9 2 15 10 14 19-1 9-9 15-18 14-7-1-12-5-15-11" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M17 31l-5 6 8 1M52 38l5-6-8-1" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M26 34c4-3 8-3 12 0M27 42c5 3 10 3 15 0" stroke-width="1.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

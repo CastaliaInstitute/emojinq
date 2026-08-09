@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / choice" data-pua="U+F0C0B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / choice" data-pua="U+F0C0B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>people / choice — reviewed vector study</title>
 <circle cx="36" cy="17" r="7" stroke-width="2.79" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 29.023 25.012 c -6.027 5.998 -8.054 13.963 -6.951 23.004 l -4.007 13.022 M 42.984 25.058 c 6.03 5.974 8.015 14.034 6.952 23.066 l 3.989 13.017 M 28.968 36.027 l -8.978 8.925 M 42.985 36.032 l 9.032 9.034" stroke-width="2.24" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 35.972 31.077 v 14.979 M 36 46.042 L 20.063 57.058 M 35.963 46.038 l 15.977 11.002" stroke-width="2.10" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 13.042 57.067 h 14.001 M 45.063 57.076 h 14.072" stroke-width="1.20" opacity=".64" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 29.023 25.012 c -6.027 5.998 -8.054 13.963 -6.951 23.004 l -4.007 13.022 M 42.984 25.058 c 6.03 5.974 8.015 14.034 6.952 23.066 l 3.989 13.017 M 28.968 36.027 l -8.978 8.925 M 42.985 36.032 l 9.032 9.034" stroke-width="2.24" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 35.972 31.077 v 14.979 M 36 46.042 L 20.063 57.058 M 35.963 46.038 l 15.977 11.002" stroke-width="2.10" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 13.042 57.067 h 14.001 M 45.063 57.076 h 14.072" stroke-width="1.20" opacity=".64" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

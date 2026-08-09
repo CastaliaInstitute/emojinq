@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="locations / tradition" data-pua="U+F0439" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="locations / tradition" data-pua="U+F0439" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
   <title>locations / tradition — naturalist brush study</title>
   <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2.6" d="M 13 22 C 23 19 49 19 59 22 L 57 52 C 47 55 25 55 15 52 Z"/>
-    <path stroke-width="1.2" d="M 16 27 C 27 29 45 29 56 27 M 16 47 C 27 45 45 45 56 47"/>
-    <path stroke-width="2" d="M 26 38 C 26 33 30 30 36 30 C 42 30 46 33 46 38 C 46 43 42 46 36 46 C 30 46 26 43 26 38 Z"/>
-    <path stroke-width="1" d="M 31 38 C 33 35 39 35 41 38 C 39 41 33 41 31 38 Z M 20 22 C 20 18 23 15 27 14 M 52 22 C 52 18 49 15 45 14"/>
+    <path stroke-width="2.6" d="M 13 22 C 23 19 49 19 59 22 L 57 52 C 47 55 25 55 15 52 Z" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.2" d="M 16 27 C 27 29 45 29 56 27 M 16 47 C 27 45 45 45 56 47" pathLength="1" class="ink-stroke" />
+    <path stroke-width="2" d="M 26 38 C 26 33 30 30 36 30 C 42 30 46 33 46 38 C 46 43 42 46 36 46 C 30 46 26 43 26 38 Z" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1" d="M 31 38 C 33 35 39 35 41 38 C 39 41 33 41 31 38 Z M 20 22 C 20 18 23 15 27 14 M 52 22 C 52 18 49 15 45 14" pathLength="1" class="ink-stroke" />
   </g>
 </svg>

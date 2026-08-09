@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / doubt" data-pua="U+F1035" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / doubt" data-pua="U+F1035" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / doubt — simplified naturalist study</title>
-<circle cx="36" cy="36" r="22" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M29 30c1-6 10-7 13-2 3 5-3 7-6 10-2 2-2 4-2 6M34 50v1" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 16l4 4M56 16l-4 4" stroke-width="1.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="36" cy="36" r="22" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M29 30c1-6 10-7 13-2 3 5-3 7-6 10-2 2-2 4-2 6M34 50v1" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M16 16l4 4M56 16l-4 4" stroke-width="1.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

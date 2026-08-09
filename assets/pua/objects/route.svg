@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / route" data-pua="U+F085A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / route" data-pua="U+F085A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
   <title>objects / route — naturalist brush study</title>
   <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2.5" d="M 11 56 L 25 48 L 18 39 L 33 29 L 27 20 L 44 12 L 60 19 L 49 29 L 57 38 L 42 48 L 49 57 Z"/>
-    <path stroke-width="1.1" d="M 20 54 L 34 45 L 27 37 L 41 27 L 35 19 M 42 48 L 34 45 M 49 29 L 41 27"/>
-    <path stroke-width="2" d="M 52 17 L 60 19 L 57 26"/>
+    <path stroke-width="2.5" d="M 11 56 L 25 48 L 18 39 L 33 29 L 27 20 L 44 12 L 60 19 L 49 29 L 57 38 L 42 48 L 49 57 Z" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.1" d="M 20 54 L 34 45 L 27 37 L 41 27 L 35 19 M 42 48 L 34 45 M 49 29 L 41 27" pathLength="1" class="ink-stroke" />
+    <path stroke-width="2" d="M 52 17 L 60 19 L 57 26" pathLength="1" class="ink-stroke" />
   </g>
 </svg>

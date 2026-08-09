@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / balance" data-pua="U+F100A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / balance" data-pua="U+F100A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / balance — reviewed vector study</title>
-<path d="M 35.989 13.952 v 42.982 M 23.933 19.079 h 24.034 M 17.036 59.059 h 38.02" stroke-width="2.16" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 36.023 19.012 L 18.973 39.998 M 35.963 19.049 l 17.035 20.993 M 11.966 39.984 h 13.965 M 45.974 40.015 h 13.952" stroke-width="1.96" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 9.972 40.077 c 1.979 6.977 6 10.042 10.052 10.063 s 7.942 -3.037 10.038 -9.973 M 42.002 40.003 c 1.972 6.968 5.981 9.986 9.953 9.979 s 8.04 -2.928 9.96 -10.011" stroke-width="1.81" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 35.989 13.952 v 42.982 M 23.933 19.079 h 24.034 M 17.036 59.059 h 38.02" stroke-width="2.16" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 36.023 19.012 L 18.973 39.998 M 35.963 19.049 l 17.035 20.993 M 11.966 39.984 h 13.965 M 45.974 40.015 h 13.952" stroke-width="1.96" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 9.972 40.077 c 1.979 6.977 6 10.042 10.052 10.063 s 7.942 -3.037 10.038 -9.973 M 42.002 40.003 c 1.972 6.968 5.981 9.986 9.953 9.979 s 8.04 -2.928 9.96 -10.011" stroke-width="1.81" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 <circle cx="36" cy="14" r="3" stroke-width="1.09" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

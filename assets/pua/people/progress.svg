@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / progress" data-pua="U+F0C57" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / progress" data-pua="U+F0C57" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>people / progress — reviewed vector study</title>
-<path d="M 15.989 55.952 c 4.982 -13.02 11.933 -20.921 19.943 -27.966 7.923 -6.964 14.059 -10.002 20.02 -11.926 -1.994 6.979 -5.044 13.976 -11.942 22.039 -7.031 7.955 -14.942 13.973 -28.075 17.942 z" stroke-width="2.10" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 23.023 50.012 c 4.973 -7.002 10.946 -13.037 18.049 -18.996 M 29.993 53.022 c 5.984 -2.942 12.965 -8.97 17.974 -15.985 M 35.952 28.066 l 3.989 4.017 M 43.968 21.027 l 4.022 3.925" stroke-width="1.35" opacity=".75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 15.989 55.952 c 4.982 -13.02 11.933 -20.921 19.943 -27.966 7.923 -6.964 14.059 -10.002 20.02 -11.926 -1.994 6.979 -5.044 13.976 -11.942 22.039 -7.031 7.955 -14.942 13.973 -28.075 17.942 z" stroke-width="2.10" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 23.023 50.012 c 4.973 -7.002 10.946 -13.037 18.049 -18.996 M 29.993 53.022 c 5.984 -2.942 12.965 -8.97 17.974 -15.985 M 35.952 28.066 l 3.989 4.017 M 43.968 21.027 l 4.022 3.925" stroke-width="1.35" opacity=".75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

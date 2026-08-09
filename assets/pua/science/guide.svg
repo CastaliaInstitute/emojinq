@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / guide" data-pua="U+F1063" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / guide" data-pua="U+F1063" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / guide — simplified naturalist study</title>
-<circle cx="28" cy="22" r="5" stroke-width="1.75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28 28v24M28 34l-10 8M28 34l10 8M28 52l-7 9M28 52l7 9M48 18v43M44 22h8" stroke-width="1.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9 62c14-3 28-3 52 0" stroke-width="1.0" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="28" cy="22" r="5" stroke-width="1.75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M28 28v24M28 34l-10 8M28 34l10 8M28 52l-7 9M28 52l7 9M48 18v43M44 22h8" stroke-width="1.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M9 62c14-3 28-3 52 0" stroke-width="1.0" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

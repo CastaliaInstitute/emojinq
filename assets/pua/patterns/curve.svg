@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / curve" data-pua="U+F0A06" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / curve" data-pua="U+F0A06" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>patterns / curve — reviewed vector study</title>
-<path d="M 16.989 57.952 c 2.982 -17.02 10.933 -28.921 26.943 -38.966 3.923 -2.964 8.059 -5.002 12.02 -4.926" stroke-width="2.81" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 24.023 61.012 c 3.973 -16.002 10.946 -27.037 24.049 -34.996" stroke-width="1.01" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 52.972 14.077 l 3.979 -0.023 -3 3.042" stroke-width="1.33" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 16.989 57.952 c 2.982 -17.02 10.933 -28.921 26.943 -38.966 3.923 -2.964 8.059 -5.002 12.02 -4.926" stroke-width="2.81" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 24.023 61.012 c 3.973 -16.002 10.946 -27.037 24.049 -34.996" stroke-width="1.01" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 52.972 14.077 l 3.979 -0.023 -3 3.042" stroke-width="1.33" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

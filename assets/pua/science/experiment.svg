@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / experiment" data-pua="U+F1048" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / experiment" data-pua="U+F1048" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / experiment — simplified naturalist study</title>
-<path d="M29 12h14M33 12v19L20 54c-2 4 2 7 7 7h18c5 0 9-3 7-7L39 31V12" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M25 48c7-4 15-4 25 0M29 39h15" stroke-width="1.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="35" cy="45" r="2" stroke-width="1.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 12h14M33 12v19L20 54c-2 4 2 7 7 7h18c5 0 9-3 7-7L39 31V12" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M25 48c7-4 15-4 25 0M29 39h15" stroke-width="1.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<circle cx="35" cy="45" r="2" stroke-width="1.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" />
 </svg>

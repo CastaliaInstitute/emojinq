@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / flock" data-pua="U+F0002" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / flock" data-pua="U+F0002" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>animals / flock — simplified naturalist study</title>
-<path d="M9 34c6-8 14-9 22-3-7-1-12 1-16 6M28 24c7-7 15-6 21 1-7-2-12 0-16 5M47 38c6-7 13-7 19-1-6-1-11 1-15 5M20 48c5-6 11-6 17-1-6-1-10 1-13 5" stroke-width="1.85" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 32c4 0 8 2 11 6M34 23c4 1 8 4 11 8M53 37c4 0 7 2 10 5" stroke-width="1.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8 58c17-3 36-3 56 0" stroke-width="1.0" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 34c6-8 14-9 22-3-7-1-12 1-16 6M28 24c7-7 15-6 21 1-7-2-12 0-16 5M47 38c6-7 13-7 19-1-6-1-11 1-15 5M20 48c5-6 11-6 17-1-6-1-10 1-13 5" stroke-width="1.85" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M14 32c4 0 8 2 11 6M34 23c4 1 8 4 11 8M53 37c4 0 7 2 10 5" stroke-width="1.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M8 58c17-3 36-3 56 0" stroke-width="1.0" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

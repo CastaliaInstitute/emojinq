@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="locations / archive" data-pua="U+F0401" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="locations / archive" data-pua="U+F0401" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>locations / archive — simplified naturalist study</title>
-<path d="M12 57V25c0-9 9-15 24-15s24 6 24 15v32" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8 57h56M17 29h38M17 40h38M17 51h38" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M22 29v10M31 29v10M40 29v10M49 29v10M22 40v11M31 40v11M40 40v11M49 40v11" stroke-width="1.0" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 57V25c0-9 9-15 24-15s24 6 24 15v32" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M8 57h56M17 29h38M17 40h38M17 51h38" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M22 29v10M31 29v10M40 29v10M49 29v10M22 40v11M31 40v11M40 40v11M49 40v11" stroke-width="1.0" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / effect" data-pua="U+F103A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / effect" data-pua="U+F103A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / effect — simplified naturalist study</title>
-<circle cx="36" cy="36" r="7" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 11v12M36 49v12M11 36h12M49 36h12M18 18l8 8M46 46l8 8M54 18l-8 8M26 46l-8 8" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M32 36l3 3 7-8" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="36" cy="36" r="7" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M36 11v12M36 49v12M11 36h12M49 36h12M18 18l8 8M46 46l8 8M54 18l-8 8M26 46l-8 8" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M32 36l3 3 7-8" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

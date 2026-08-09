@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / lightning" data-pua="U+F1205" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / lightning" data-pua="U+F1205" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>weather sky / lightning — simplified naturalist study</title>
-<path d="M 11.989 34.952 c -2.018 -7.02 3.933 -11.921 10.943 -11.966 2.923 -6.964 12.059 -9.002 17.02 -2.926 8.006 -3.021 15.956 1.976 16.058 9.039 5.969 0.955 8.058 6.973 4.925 10.942 H 18.019" stroke-width="2.16" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 39.023 35.012 l -8.027 12.998 h 6.963 l -3.996 13.035 12.993 -17.978 h -7.016 l 4.965 -7.97" stroke-width="2.29" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 11.989 34.952 c -2.018 -7.02 3.933 -11.921 10.943 -11.966 2.923 -6.964 12.059 -9.002 17.02 -2.926 8.006 -3.021 15.956 1.976 16.058 9.039 5.969 0.955 8.058 6.973 4.925 10.942 H 18.019" stroke-width="2.16" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 39.023 35.012 l -8.027 12.998 h 6.963 l -3.996 13.035 12.993 -17.978 h -7.016 l 4.965 -7.97" stroke-width="2.29" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

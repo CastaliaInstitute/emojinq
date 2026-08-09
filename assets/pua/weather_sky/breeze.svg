@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / breeze" data-pua="U+F1200" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / breeze" data-pua="U+F1200" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>weather sky / breeze — simplified naturalist study</title>
-<path d="M 7.989 27.952 c 9.982 -8.02 18.933 -7.921 27.943 0.034 5.923 5.036 13.059 4.998 21.02 -0.926 M 10.979 40.956 c 8.058 -5.961 15.969 -6.045 23.058 -0.027 5.925 4.942 13.012 5.019 22.068 0.032 M 21.969 52.94 c 7.052 -3.948 13.974 -3.055 21.077 2.011" stroke-width="1.88" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 50.023 19.012 c 2.973 -4.002 6.946 -5.037 11.049 -3.996 -0.965 3.993 -3.978 6.966 -8.016 8.058" stroke-width="1.19" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 7.989 27.952 c 9.982 -8.02 18.933 -7.921 27.943 0.034 5.923 5.036 13.059 4.998 21.02 -0.926 M 10.979 40.956 c 8.058 -5.961 15.969 -6.045 23.058 -0.027 5.925 4.942 13.012 5.019 22.068 0.032 M 21.969 52.94 c 7.052 -3.948 13.974 -3.055 21.077 2.011" stroke-width="1.88" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 50.023 19.012 c 2.973 -4.002 6.946 -5.037 11.049 -3.996 -0.965 3.993 -3.978 6.966 -8.016 8.058" stroke-width="1.19" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

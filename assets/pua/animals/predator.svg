@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / predator" data-pua="U+F0007" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / predator" data-pua="U+F0007" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>animals / predator — simplified naturalist study</title>
-<path d="M9 48c5-10 15-15 28-13 12 1 22 6 27 13-7 6-16 8-28 8H17c-6 0-10-3-8-8z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 43c-2-6 0-11 5-14l6 5 7-6 5 7M15 35l-4-7 8 3M13 40l-6 1" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M37 43c4 4 10 5 16 2M22 55l-3 8M49 55l2 8M59 49c5-2 7-6 6-11M19 49c4-3 7-3 11-1M34 52c4-2 8-2 12 0" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M27 38c3-2 6-2 9 0M44 37c3-2 6-2 9 0" stroke-width="1.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 48c5-10 15-15 28-13 12 1 22 6 27 13-7 6-16 8-28 8H17c-6 0-10-3-8-8z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M10 43c-2-6 0-11 5-14l6 5 7-6 5 7M15 35l-4-7 8 3M13 40l-6 1" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M37 43c4 4 10 5 16 2M22 55l-3 8M49 55l2 8M59 49c5-2 7-6 6-11M19 49c4-3 7-3 11-1M34 52c4-2 8-2 12 0" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M27 38c3-2 6-2 9 0M44 37c3-2 6-2 9 0" stroke-width="1.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

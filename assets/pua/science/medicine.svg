@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / medicine" data-pua="U+F1089" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / medicine" data-pua="U+F1089" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / medicine — reviewed vector study</title>
-<path d="M 21.989 47.952 c -0.018 -7.02 5.933 -11.921 13.943 -11.966 s 14.036 5.059 13.998 12.02 -5.926 11.006 -14.021 10.956 -14.024 -3.942 -13.961 -11.031 z" stroke-width="2.04" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 25.023 45.012 c 4.973 2.998 16.946 2.963 22.049 0.004 M 30.993 34.022 l 4.984 -10.942 4.965 11.03 M 30.015 23.034 h 12.066" stroke-width="1.52" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 50.972 24.077 c 3.979 -4.023 8 -2.958 10.052 1.063 -1.942 2.942 -5.037 5.038 -8.973 3.977 M 52.003 29.037 c -2.032 7.981 -5.014 12.953 -9.021 16.056" stroke-width="1.70" opacity=".78" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 14.042 64.067 h 44.001" stroke-width="0.97" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 21.989 47.952 c -0.018 -7.02 5.933 -11.921 13.943 -11.966 s 14.036 5.059 13.998 12.02 -5.926 11.006 -14.021 10.956 -14.024 -3.942 -13.961 -11.031 z" stroke-width="2.04" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 25.023 45.012 c 4.973 2.998 16.946 2.963 22.049 0.004 M 30.993 34.022 l 4.984 -10.942 4.965 11.03 M 30.015 23.034 h 12.066" stroke-width="1.52" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 50.972 24.077 c 3.979 -4.023 8 -2.958 10.052 1.063 -1.942 2.942 -5.037 5.038 -8.973 3.977 M 52.003 29.037 c -2.032 7.981 -5.014 12.953 -9.021 16.056" stroke-width="1.70" opacity=".78" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 14.042 64.067 h 44.001" stroke-width="0.97" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

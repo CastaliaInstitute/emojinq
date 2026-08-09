@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / capital" data-pua="U+F1012" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / capital" data-pua="U+F1012" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / capital — expressive brush study</title>
-<path d="M15 57h42M19 57V37h34v20L36 19z" fill="#262522" opacity=".12"/>
-<path d="M14 57h44M19 57V37h34v20M15 37l21-18 21 18z" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24 57V44M36 57V42M48 57V44M21 37h30M22 30l14-11 14 11" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 9l3 6 7 1-5 4 1 7-6-3-6 3 1-7-5-4 7-1z" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19 57c9-2 19-2 29 0" stroke-width=".9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 57h42M19 57V37h34v20L36 19z" fill="#262522" opacity=".12" class="ink-wash" />
+<path d="M14 57h44M19 57V37h34v20M15 37l21-18 21 18z" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M24 57V44M36 57V42M48 57V44M21 37h30M22 30l14-11 14 11" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M36 9l3 6 7 1-5 4 1 7-6-3-6 3 1-7-5-4 7-1z" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M19 57c9-2 19-2 29 0" stroke-width=".9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

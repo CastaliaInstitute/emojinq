@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / glass" data-pua="U+F0603" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / glass" data-pua="U+F0603" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>materials / glass — simplified naturalist study</title>
-<path d="M 19.989 16.952 h 31.982 l -3.067 36.079 c -0.966 6.923 -5.964 11.059 -13.002 11.02 s -11.994 -4.021 -13.044 -11.024 z" stroke-width="2.56" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 20.023 17.012 c -0.027 3.998 6.946 5.963 16.049 6.004 s 15.993 -1.978 15.966 -6.016 M 23.965 45.03 c 7.015 3.034 16.952 3.066 24.956 -0.011" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 25.972 29.077 c 1.979 0.977 4 1.042 6.052 1.063" stroke-width="0.88" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 19.989 16.952 h 31.982 l -3.067 36.079 c -0.966 6.923 -5.964 11.059 -13.002 11.02 s -11.994 -4.021 -13.044 -11.024 z" stroke-width="2.56" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 20.023 17.012 c -0.027 3.998 6.946 5.963 16.049 6.004 s 15.993 -1.978 15.966 -6.016 M 23.965 45.03 c 7.015 3.034 16.952 3.066 24.956 -0.011" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 25.972 29.077 c 1.979 0.977 4 1.042 6.052 1.063" stroke-width="0.88" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / flow" data-pua="U+F1052" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / flow" data-pua="U+F1052" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / flow — simplified naturalist study</title>
-<path d="M9 28c8-9 17-9 24 0 7 9 15 9 29-1M9 43c8-9 17-9 24 0 7 9 15 9 29-1M17 57c7-5 14-5 21 0" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M48 18c4-3 8-3 13 0" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 28c8-9 17-9 24 0 7 9 15 9 29-1M9 43c8-9 17-9 24 0 7 9 15 9 29-1M17 57c7-5 14-5 21 0" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M48 18c4-3 8-3 13 0" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="locations / barn" data-pua="U+F0403" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="locations / barn" data-pua="U+F0403" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>locations / barn — reviewed vector study</title>
-<path d="M 11.989 59.952 V 28.982 l 23.933 -16.921 23.943 17.034 v 31.036 z" stroke-width="2.37" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 36.023 12.012 v 16.973 M 11.946 28.963 h 48.004 M 23.993 60.022 V 42.984 h 23.965 v 16.974" stroke-width="2.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 16.972 34.077 h 7.979 M 47 34.042 h 8.063 M 16.942 39.963 h 8.027 M 47.002 40.003 h 7.972 M 17.981 51.986 h 4.979 M 49.04 52.072 h 4.989" stroke-width="1.31" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 9.042 62.067 h 54.001 M 15.063 24.076 l 21.072 -14.952 21.018 15.062" stroke-width="1.20" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 11.989 59.952 V 28.982 l 23.933 -16.921 23.943 17.034 v 31.036 z" stroke-width="2.37" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 36.023 12.012 v 16.973 M 11.946 28.963 h 48.004 M 23.993 60.022 V 42.984 h 23.965 v 16.974" stroke-width="2.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 16.972 34.077 h 7.979 M 47 34.042 h 8.063 M 16.942 39.963 h 8.027 M 47.002 40.003 h 7.972 M 17.981 51.986 h 4.979 M 49.04 52.072 h 4.989" stroke-width="1.31" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 9.042 62.067 h 54.001 M 15.063 24.076 l 21.072 -14.952 21.018 15.062" stroke-width="1.20" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

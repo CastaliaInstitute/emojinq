@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / hero" data-pua="U+F1069" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / hero" data-pua="U+F1069" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / hero — expressive brush study</title>
-<path d="M36 12l5 13 14 2-11 8 3 15-11-8-12 8 4-15-11-8 14-2z" stroke-width="1.85" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 48v12M29 56l7 5 7-5M23 31l13 4 13-4" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 19l2 4M57 19l-2 4M36 7v4" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 12l5 13 14 2-11 8 3 15-11-8-12 8 4-15-11-8 14-2z" stroke-width="1.85" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M36 48v12M29 56l7 5 7-5M23 31l13 4 13-4" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M15 19l2 4M57 19l-2 4M36 7v4" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

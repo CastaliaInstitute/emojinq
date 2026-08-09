@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / electricity" data-pua="U+F0821" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / electricity" data-pua="U+F0821" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
   <title>objects / electricity — naturalist brush study</title>
   <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="3" d="M 42 9 C 37 19 33 26 29 33 L 38 33 C 34 42 29 51 23 62"/>
-    <path stroke-width="1.1" d="M 45 14 C 42 20 40 25 38 29 M 27 37 C 25 42 23 47 20 52"/>
-    <path stroke-width="1.4" d="M 12 22 C 16 20 20 20 24 22 M 49 51 C 53 49 57 49 61 51 M 13 57 C 16 55 19 55 22 56"/>
-    <path stroke-width="0.9" d="M 48 24 L 54 24 M 51 21 L 51 27 M 58 36 L 64 36"/>
+    <path stroke-width="3" d="M 42 9 C 37 19 33 26 29 33 L 38 33 C 34 42 29 51 23 62" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.1" d="M 45 14 C 42 20 40 25 38 29 M 27 37 C 25 42 23 47 20 52" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.4" d="M 12 22 C 16 20 20 20 24 22 M 49 51 C 53 49 57 49 61 51 M 13 57 C 16 55 19 55 22 56" pathLength="1" class="ink-stroke" />
+    <path stroke-width="0.9" d="M 48 24 L 54 24 M 51 21 L 51 27 M 58 36 L 64 36" pathLength="1" class="ink-stroke" />
   </g>
 </svg>

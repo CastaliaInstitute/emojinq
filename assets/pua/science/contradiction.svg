@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / contradiction" data-pua="U+F101F" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / contradiction" data-pua="U+F101F" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / contradiction — simplified naturalist study</title>
-<path d="M21 54c-5-8-3-16 3-22 4-4 5-10 3-16 8 6 10 13 6 20-3 6-2 12 3 18" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M49 15v38M34 23l30 18M34 41l30-18M40 18l9 18 9-18M40 48l9-18 9 18" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 54c-5-8-3-16 3-22 4-4 5-10 3-16 8 6 10 13 6 20-3 6-2 12 3 18" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M49 15v38M34 23l30 18M34 41l30-18M40 18l9 18 9-18M40 48l9-18 9 18" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

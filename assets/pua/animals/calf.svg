@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / calf" data-pua="U+F0000" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / calf" data-pua="U+F0000" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>animals / calf — simplified naturalist study</title>
-<path d="M19 43c3-11 13-16 27-13 11 2 18 8 19 16 0 7-6 12-15 13l-18 0c-9-1-15-7-13-16z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M22 37c-6 1-11-2-12-6 4-1 8-3 10-6 4-3 8-3 11 0l2 5M17 27l-3-5M27 26l4-5" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M29 57l-2 7M48 57l2 7M19 53l-5 4M59 47c4-1 6-4 7-8M39 33c-1 7 0 12 4 17M45 51c3-2 6-2 9 0" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 34c2 1 4 1 6 0M28 36c4 3 8 3 12 1M48 38c3 2 6 2 8 0" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 43c3-11 13-16 27-13 11 2 18 8 19 16 0 7-6 12-15 13l-18 0c-9-1-15-7-13-16z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M22 37c-6 1-11-2-12-6 4-1 8-3 10-6 4-3 8-3 11 0l2 5M17 27l-3-5M27 26l4-5" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M29 57l-2 7M48 57l2 7M19 53l-5 4M59 47c4-1 6-4 7-8M39 33c-1 7 0 12 4 17M45 51c3-2 6-2 9 0" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M14 34c2 1 4 1 6 0M28 36c4 3 8 3 12 1M48 38c3 2 6 2 8 0" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

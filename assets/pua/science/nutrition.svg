@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / nutrition" data-pua="U+F10A1" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / nutrition" data-pua="U+F10A1" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / nutrition — simplified naturalist study</title>
-<path d="M14 31h44l-4 22c-1 6-8 9-18 9s-17-3-18-9z" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 31c4-8 12-12 22-12s18 4 22 12c-10 4-34 4-44 0z" stroke-width="1.75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 19c-2-7 2-11 8-13M36 20c-6-5-11-4-15 1M31 23c2-5 6-7 11-6" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 31h44l-4 22c-1 6-8 9-18 9s-17-3-18-9z" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M14 31c4-8 12-12 22-12s18 4 22 12c-10 4-34 4-44 0z" stroke-width="1.75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M36 19c-2-7 2-11 8-13M36 20c-6-5-11-4-15 1M31 23c2-5 6-7 11-6" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

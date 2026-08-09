@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / trade" data-pua="U+F0C74" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / trade" data-pua="U+F0C74" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>people / trade — reviewed vector study</title>
-<path d="M 9.989 33.952 h 20.982 l -5.067 -4.921 M 31.034 33.923 l -4.941 4.998 M 62.074 46.006 H 40.956 l 5.058 -4.961 M 40.955 46.058 l 4.925 4.942" stroke-width="2.18" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 20.023 25.012 c 2.973 -6.002 7.946 -9.037 14.049 -8.996 s 10.993 3.022 13.966 8.984 M 23.965 54.03 c 3.015 6.034 7.952 9.066 13.956 8.989 s 11.056 -3.032 14.027 -8.929" stroke-width="1.48" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 24.972 40.077 h 21.979 v 12 H 25.052 z" stroke-width="2.20" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 29.042 40.067 c 1.001 -5.009 4.063 -6.924 6.951 -6.928 s 6.018 2.062 6.996 7.033" stroke-width="1.80" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 9.989 33.952 h 20.982 l -5.067 -4.921 M 31.034 33.923 l -4.941 4.998 M 62.074 46.006 H 40.956 l 5.058 -4.961 M 40.955 46.058 l 4.925 4.942" stroke-width="2.18" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 20.023 25.012 c 2.973 -6.002 7.946 -9.037 14.049 -8.996 s 10.993 3.022 13.966 8.984 M 23.965 54.03 c 3.015 6.034 7.952 9.066 13.956 8.989 s 11.056 -3.032 14.027 -8.929" stroke-width="1.48" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 24.972 40.077 h 21.979 v 12 H 25.052 z" stroke-width="2.20" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 29.042 40.067 c 1.001 -5.009 4.063 -6.924 6.951 -6.928 s 6.018 2.062 6.996 7.033" stroke-width="1.80" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

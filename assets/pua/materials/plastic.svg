@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / plastic" data-pua="U+F0607" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / plastic" data-pua="U+F0607" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>materials / plastic — simplified naturalist study</title>
-<path d="M 27.989 17.952 h 15.982 v 6.933 l 4.943 6.034 v 25.036 c -0.002 4.02 -4.926 7.006 -13.021 6.956 s -12.942 -2.961 -13.031 -7.045 V 30.973 l 4.942 -5.988 z" stroke-width="2.41" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 28.023 18.012 h 15.973 M 23.946 38.963 c 7.004 3.035 16.993 3.022 24.966 -0.016" stroke-width="1.24" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 30.972 13.077 h 9.979 v 5 H 31.052 z" stroke-width="1.71" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 27.989 17.952 h 15.982 v 6.933 l 4.943 6.034 v 25.036 c -0.002 4.02 -4.926 7.006 -13.021 6.956 s -12.942 -2.961 -13.031 -7.045 V 30.973 l 4.942 -5.988 z" stroke-width="2.41" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 28.023 18.012 h 15.973 M 23.946 38.963 c 7.004 3.035 16.993 3.022 24.966 -0.016" stroke-width="1.24" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 30.972 13.077 h 9.979 v 5 H 31.052 z" stroke-width="1.71" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

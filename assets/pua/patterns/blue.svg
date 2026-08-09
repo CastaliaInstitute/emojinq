@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / blue" data-pua="U+F0A01" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / blue" data-pua="U+F0A01" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>patterns / blue — reviewed vector study</title>
-<path d="M 9.989 38.952 c 6.982 -13.02 14.933 -12.921 21.943 0.034 s 15.036 13.059 21.998 0.02 10.074 -12.994 13.979 -2.044" stroke-width="2.69" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 10.023 48.012 c 6.973 -13.002 14.946 -13.037 22.049 0.004 s 14.993 13.022 21.966 -0.016" stroke-width="1.17" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 14.972 56.077 c 6.979 -5.023 14 -4.958 21.052 0.063 M 41.942 55.963 c 5.027 -4.023 10.002 -3.997 15.037 -0.028" stroke-width="1.31" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 9.989 38.952 c 6.982 -13.02 14.933 -12.921 21.943 0.034 s 15.036 13.059 21.998 0.02 10.074 -12.994 13.979 -2.044" stroke-width="2.69" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 10.023 48.012 c 6.973 -13.002 14.946 -13.037 22.049 0.004 s 14.993 13.022 21.966 -0.016" stroke-width="1.17" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 14.972 56.077 c 6.979 -5.023 14 -4.958 21.052 0.063 M 41.942 55.963 c 5.027 -4.023 10.002 -3.997 15.037 -0.028" stroke-width="1.31" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

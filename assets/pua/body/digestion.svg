@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="body / digestion" data-pua="U+F0206" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="body / digestion" data-pua="U+F0206" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>body / digestion — expressive brush study</title>
-<path d="M26 13c-3 8 0 12 7 14 7 2 8 7 2 12-8 5-12 11-9 18 2 5 8 6 13 2 5-4 4-10-1-14-5-4-4-8 2-11 7-4 7-11 2-17-3-4-7-6-9-4" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 27c-5 5-7 11-4 17 2 4 2 8-1 12M50 26c5 5 7 11 4 17-2 4-2 8 1 12" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 59c12 3 25 3 37 0" stroke-width="1.0" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 13c-3 8 0 12 7 14 7 2 8 7 2 12-8 5-12 11-9 18 2 5 8 6 13 2 5-4 4-10-1-14-5-4-4-8 2-11 7-4 7-11 2-17-3-4-7-6-9-4" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M20 27c-5 5-7 11-4 17 2 4 2 8-1 12M50 26c5 5 7 11 4 17-2 4-2 8 1 12" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M18 59c12 3 25 3 37 0" stroke-width="1.0" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

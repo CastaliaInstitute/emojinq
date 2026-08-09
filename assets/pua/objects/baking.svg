@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / baking" data-pua="U+F0803" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / baking" data-pua="U+F0803" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>objects / baking — simplified naturalist study</title>
-<path d="M18 42c3-10 11-15 18-15s15 5 18 15c-9 7-27 7-36 0z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M27 28c-1-8 2-12 6-15M36 28c0-8 3-12 7-15M45 28c1-7 5-10 8-12" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11 56h25M44 56h18M47 52l11-5M47 52l11 5" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 42c3-10 11-15 18-15s15 5 18 15c-9 7-27 7-36 0z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M27 28c-1-8 2-12 6-15M36 28c0-8 3-12 7-15M45 28c1-7 5-10 8-12" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M11 56h25M44 56h18M47 52l11-5M47 52l11 5" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

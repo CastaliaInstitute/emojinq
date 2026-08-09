@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / sky" data-pua="U+F1208" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / sky" data-pua="U+F1208" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>weather sky / sky — simplified naturalist study</title>
-<path d="M 8.989 41.952 c 6.982 -7.02 15.933 -7.921 23.943 -2.966 4.923 -8.964 17.059 -9.002 22.02 -0.926 7.006 -0.021 10.956 3.976 11.058 9.039 H 8.955" stroke-width="2.07" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 20.023 21.012 c -0.027 -5.002 3.946 -9.037 9.049 -8.996 s 8.993 4.022 8.966 8.984 M 28.965 12.03 v -3.985 M 16.952 12.066 l -3.011 -2.983 M 40.968 12.027 l 3.022 -3.075" stroke-width="1.57" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 14.972 55.077 c 13.979 2.977 29 3.042 43.052 0.063" stroke-width="1.05" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 8.989 41.952 c 6.982 -7.02 15.933 -7.921 23.943 -2.966 4.923 -8.964 17.059 -9.002 22.02 -0.926 7.006 -0.021 10.956 3.976 11.058 9.039 H 8.955" stroke-width="2.07" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 20.023 21.012 c -0.027 -5.002 3.946 -9.037 9.049 -8.996 s 8.993 4.022 8.966 8.984 M 28.965 12.03 v -3.985 M 16.952 12.066 l -3.011 -2.983 M 40.968 12.027 l 3.022 -3.075" stroke-width="1.57" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 14.972 55.077 c 13.979 2.977 29 3.042 43.052 0.063" stroke-width="1.05" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

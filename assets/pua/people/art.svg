@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / art" data-pua="U+F0C03" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / art" data-pua="U+F0C03" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>people / art — reviewed vector study</title>
-<path d="M 16.989 55.952 c 4.982 -11.02 11.933 -15.921 21.943 -15.966 s 17.036 5.059 20.998 16.02" stroke-width="2.26" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 16.989 55.952 c 4.982 -11.02 11.933 -15.921 21.943 -15.966 s 17.036 5.059 20.998 16.02" stroke-width="2.26" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 <circle cx="36" cy="25" r="8" stroke-width="2.27" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 28.972 48.077 l -5.021 -14.023 4 -1.958 8.052 12.063 14.058 -18.058 2.963 2.038 -12.973 21.977 z" stroke-width="2.19" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 15.042 60.067 h 43.001 M 48.063 29.076 l 7.072 -4.952 M 52.062 19.996 l 4.95 -0.001 M 55.071 17.035 v 5.981" stroke-width="1.25" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 28.972 48.077 l -5.021 -14.023 4 -1.958 8.052 12.063 14.058 -18.058 2.963 2.038 -12.973 21.977 z" stroke-width="2.19" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 15.042 60.067 h 43.001 M 48.063 29.076 l 7.072 -4.952 M 52.062 19.996 l 4.95 -0.001 M 55.071 17.035 v 5.981" stroke-width="1.25" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / welcome" data-pua="U+F0C7C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / welcome" data-pua="U+F0C7C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
   <title>people / welcome — naturalist brush study</title>
   <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2.3" d="M 29 25 C 29 21 32 18 36 18 C 40 18 43 21 43 25 C 43 29 40 32 36 32 C 32 32 29 29 29 25 Z"/>
-    <path stroke-width="1" d="M 32 24 C 34 22 38 22 40 24 M 33 28 C 35 30 37 30 39 28"/>
-    <path stroke-width="2.8" d="M 19 59 C 20 48 26 40 36 36 C 46 40 52 48 53 59"/>
-    <path stroke-width="2.1" d="M 29 42 L 18 35 L 12 25 M 43 42 L 54 35 L 60 25"/>
-    <path stroke-width="1.2" d="M 12 25 L 10 21 M 12 25 L 16 23 M 60 25 L 62 21 M 60 25 L 56 23"/>
-    <path stroke-width="1" d="M 10 62 C 24 60 48 60 62 62"/>
+    <path stroke-width="2.3" d="M 29 25 C 29 21 32 18 36 18 C 40 18 43 21 43 25 C 43 29 40 32 36 32 C 32 32 29 29 29 25 Z" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1" d="M 32 24 C 34 22 38 22 40 24 M 33 28 C 35 30 37 30 39 28" pathLength="1" class="ink-stroke" />
+    <path stroke-width="2.8" d="M 19 59 C 20 48 26 40 36 36 C 46 40 52 48 53 59" pathLength="1" class="ink-stroke" />
+    <path stroke-width="2.1" d="M 29 42 L 18 35 L 12 25 M 43 42 L 54 35 L 60 25" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.2" d="M 12 25 L 10 21 M 12 25 L 16 23 M 60 25 L 62 21 M 60 25 L 56 23" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1" d="M 10 62 C 24 60 48 60 62 62" pathLength="1" class="ink-stroke" />
   </g>
 </svg>

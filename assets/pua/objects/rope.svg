@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / rope" data-pua="U+F0859" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / rope" data-pua="U+F0859" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
   <title>objects / rope — naturalist brush study</title>
   <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2.8" d="M 18 28 C 11 34 12 44 20 48 C 29 53 42 52 49 45 C 57 37 54 28 46 25 C 37 21 26 22 18 28 Z"/>
-    <path stroke-width="1.1" d="M 20 31 C 16 36 18 42 23 44 C 30 47 40 46 45 42 C 50 38 49 32 44 30 C 37 27 26 27 20 31 Z"/>
-    <path stroke-width="2" d="M 46 25 C 52 21 58 20 62 22"/>
-    <path stroke-width="1" d="M 20 57 C 32 55 47 55 58 57"/>
+    <path stroke-width="2.8" d="M 18 28 C 11 34 12 44 20 48 C 29 53 42 52 49 45 C 57 37 54 28 46 25 C 37 21 26 22 18 28 Z" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.1" d="M 20 31 C 16 36 18 42 23 44 C 30 47 40 46 45 42 C 50 38 49 32 44 30 C 37 27 26 27 20 31 Z" pathLength="1" class="ink-stroke" />
+    <path stroke-width="2" d="M 46 25 C 52 21 58 20 62 22" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1" d="M 20 57 C 32 55 47 55 58 57" pathLength="1" class="ink-stroke" />
   </g>
 </svg>

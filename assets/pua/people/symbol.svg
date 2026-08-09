@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / symbol" data-pua="U+F0C71" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / symbol" data-pua="U+F0C71" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
   <title>people / symbol — naturalist brush study</title>
   <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2.6" d="M 36 11 L 42 27 L 59 28 L 46 39 L 50 56 L 36 47 L 22 56 L 26 39 L 13 28 L 30 27 Z"/>
-    <path stroke-width="1.1" d="M 36 18 L 39 29 L 50 30 L 42 36 L 44 46 L 36 41 L 28 46 L 30 36 L 22 30 L 33 29 Z"/>
-    <path stroke-width="1" d="M 18 62 C 29 60 43 60 54 62"/>
+    <path stroke-width="2.6" d="M 36 11 L 42 27 L 59 28 L 46 39 L 50 56 L 36 47 L 22 56 L 26 39 L 13 28 L 30 27 Z" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.1" d="M 36 18 L 39 29 L 50 30 L 42 36 L 44 46 L 36 41 L 28 46 L 30 36 L 22 30 L 33 29 Z" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1" d="M 18 62 C 29 60 43 60 54 62" pathLength="1" class="ink-stroke" />
   </g>
 </svg>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / galaxy" data-pua="U+F105B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / galaxy" data-pua="U+F105B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / galaxy — simplified naturalist study</title>
-<path d="M36 14c13 0 22 7 21 16-1 10-15 18-27 17-11-1-16-8-11-14 4-5 12-7 18-4 7 3 7 9 2 12-4 3-9 2-11-1" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 19l1 3M58 49l1 3M48 13l1 3M18 52l1 2" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 14c13 0 22 7 21 16-1 10-15 18-27 17-11-1-16-8-11-14 4-5 12-7 18-4 7 3 7 9 2 12-4 3-9 2-11-1" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M12 19l1 3M58 49l1 3M48 13l1 3M18 52l1 2" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

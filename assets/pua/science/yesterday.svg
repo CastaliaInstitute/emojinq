@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / yesterday" data-pua="U+F111B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / yesterday" data-pua="U+F111B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
   <title>science / yesterday — naturalist brush study</title>
   <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2.6" d="M 15 14 C 15 11 17 10 19 11 M 53 11 C 55 10 57 11 57 14"/>
-    <path stroke-width="2.8" d="M 12 16 C 11 14 13 12 15 12 L 57 12 C 59 12 61 14 60 16 L 59 59 C 59 62 57 63 54 63 L 18 63 C 15 63 13 62 13 59 Z"/>
-    <path stroke-width="2.1" d="M 13 23 C 25 22 47 22 59 23"/>
-    <path stroke-width="1.15" d="M 22 29 L 22 33 M 31 29 L 31 33 M 40 29 L 40 33 M 49 29 L 49 33 M 22 42 L 22 46 M 31 42 L 31 46 M 40 42 L 40 46 M 49 42 L 49 46 M 22 54 L 22 58 M 31 54 L 31 58 M 40 54 L 40 58 M 49 54 L 49 58"/>
-    <path stroke-width="2.2" d="M 20 37 C 22 35 24 35 26 37 M 38 37 C 40 35 42 35 44 37"/>
+    <path stroke-width="2.6" d="M 15 14 C 15 11 17 10 19 11 M 53 11 C 55 10 57 11 57 14" pathLength="1" class="ink-stroke" />
+    <path stroke-width="2.8" d="M 12 16 C 11 14 13 12 15 12 L 57 12 C 59 12 61 14 60 16 L 59 59 C 59 62 57 63 54 63 L 18 63 C 15 63 13 62 13 59 Z" pathLength="1" class="ink-stroke" />
+    <path stroke-width="2.1" d="M 13 23 C 25 22 47 22 59 23" pathLength="1" class="ink-stroke" />
+    <path stroke-width="1.15" d="M 22 29 L 22 33 M 31 29 L 31 33 M 40 29 L 40 33 M 49 29 L 49 33 M 22 42 L 22 46 M 31 42 L 31 46 M 40 42 L 40 46 M 49 42 L 49 46 M 22 54 L 22 58 M 31 54 L 31 58 M 40 54 L 40 58 M 49 54 L 49 58" pathLength="1" class="ink-stroke" />
+    <path stroke-width="2.2" d="M 20 37 C 22 35 24 35 26 37 M 38 37 C 40 35 42 35 44 37" pathLength="1" class="ink-stroke" />
   </g>
 </svg>

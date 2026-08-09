@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / diversity" data-pua="U+F1033" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / diversity" data-pua="U+F1033" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / diversity — expressive brush study</title>
-<path d="M36 58V28M36 43c-8-9-15-10-21-5 3 9 10 13 21 12M36 39c7-9 14-10 21-5-3 9-10 13-21 12" stroke-width="1.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 28c-5-8-4-14 1-19 5 6 5 12-1 19zM25 57c-5-6-5-11-1-15 5 4 5 9 1 15zM47 57c5-6 5-11 1-15-5 4-5 9-1 15z" stroke-width="1.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 38c4 2 7 5 10 9M52 34c-4 2-7 5-10 9M14 61c14-3 30-3 45 0" stroke-width=".95" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 58V28M36 43c-8-9-15-10-21-5 3 9 10 13 21 12M36 39c7-9 14-10 21-5-3 9-10 13-21 12" stroke-width="1.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M36 28c-5-8-4-14 1-19 5 6 5 12-1 19zM25 57c-5-6-5-11-1-15 5 4 5 9 1 15zM47 57c5-6 5-11 1-15-5 4-5 9-1 15z" stroke-width="1.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M20 38c4 2 7 5 10 9M52 34c-4 2-7 5-10 9M14 61c14-3 30-3 45 0" stroke-width=".95" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

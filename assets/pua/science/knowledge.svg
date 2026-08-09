@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / knowledge" data-pua="U+F107E" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / knowledge" data-pua="U+F107E" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / knowledge — simplified naturalist study</title>
-<path d="M12 22c8-3 16-2 24 4 8-6 16-7 24-4v35c-8-3-16-2-24 4-8-6-16-7-24-4z" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 26v35M19 31c5-2 10-1 15 2M53 31c-5-2-10-1-15 2" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M54 15l1 4M50 18l4 1M58 18l-3 1" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 22c8-3 16-2 24 4 8-6 16-7 24-4v35c-8-3-16-2-24 4-8-6-16-7-24-4z" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M36 26v35M19 31c5-2 10-1 15 2M53 31c-5-2-10-1-15 2" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M54 15l1 4M50 18l4 1M58 18l-3 1" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

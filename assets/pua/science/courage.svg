@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / courage" data-pua="U+F1022" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / courage" data-pua="U+F1022" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / courage — simplified naturalist study</title>
-<path d="M36 58V32M36 38l-10-8M36 38l10-8M36 51l-7 9M36 51l7 9" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="36" cy="25" r="6" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 28c7-5 13-5 19 0M53 28c4-3 8-3 10 0M9 47c8-4 15-4 22 0M48 47c6-3 11-3 16 0" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 58V32M36 38l-10-8M36 38l10-8M36 51l-7 9M36 51l7 9" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<circle cx="36" cy="25" r="6" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M10 28c7-5 13-5 19 0M53 28c4-3 8-3 10 0M9 47c8-4 15-4 22 0M48 47c6-3 11-3 16 0" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

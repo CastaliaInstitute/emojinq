@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / holiday" data-pua="U+F106B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / holiday" data-pua="U+F106B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / holiday — expressive brush study</title>
-<path d="M36 12l-5 10 4-1-8 12 5-1-11 15h30L40 32l5 1-8-12 4 1z" fill="#262522" opacity=".16"/>
-<path d="M36 12l-5 10 4-1-8 12 5-1-11 15h30L40 32l5 1-8-12 4 1z" stroke-width="1.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 47v13M23 60h26M27 37c6 2 12 2 18 0M21 47c10 3 20 3 30 0" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="30" cy="34" r="2" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/><circle cx="43" cy="44" r="2" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 12v-5M32 9l4-4 4 4" stroke-width="1.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 12l-5 10 4-1-8 12 5-1-11 15h30L40 32l5 1-8-12 4 1z" fill="#262522" opacity=".16" class="ink-wash" />
+<path d="M36 12l-5 10 4-1-8 12 5-1-11 15h30L40 32l5 1-8-12 4 1z" stroke-width="1.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M36 47v13M23 60h26M27 37c6 2 12 2 18 0M21 47c10 3 20 3 30 0" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<circle cx="30" cy="34" r="2" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" /><circle cx="43" cy="44" r="2" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M36 12v-5M32 9l4-4 4 4" stroke-width="1.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

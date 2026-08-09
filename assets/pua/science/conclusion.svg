@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / conclusion" data-pua="U+F101C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / conclusion" data-pua="U+F101C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / conclusion — expressive brush study</title>
-<path d="M9 54c8-14 17-20 26-15 8 5 13 1 27-13-7 16-14 26-24 27-9 1-17-2-29 1z" fill="#262522" opacity=".14"/>
-<path d="M9 54c8-14 17-20 26-15 8 5 13 1 27-13" stroke-width="2.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M55 27l7-1-4 7M46 40c5-1 9-3 13-7" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="62" cy="22" r="3" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 47c4-3 8-3 12-1M22 40c4-2 7-2 10 0" stroke-width=".95" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11 61c15-3 31-3 49 0" stroke-width="1.0" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 54c8-14 17-20 26-15 8 5 13 1 27-13-7 16-14 26-24 27-9 1-17-2-29 1z" fill="#262522" opacity=".14" class="ink-wash" />
+<path d="M9 54c8-14 17-20 26-15 8 5 13 1 27-13" stroke-width="2.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M55 27l7-1-4 7M46 40c5-1 9-3 13-7" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<circle cx="62" cy="22" r="3" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M15 47c4-3 8-3 12-1M22 40c4-2 7-2 10 0" stroke-width=".95" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M11 61c15-3 31-3 49 0" stroke-width="1.0" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / melt" data-pua="U+F108A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / melt" data-pua="U+F108A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / melt — simplified naturalist study</title>
-<path d="M21 15h30l-4 18c-1 5-5 9-11 12-6-3-10-7-11-12z" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 45c-6 7-9 11-9 15 0 5 4 8 9 8s9-3 9-8c0-4-3-8-9-15z" stroke-width="1.85" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28 22h16M30 29h12" stroke-width="1.0" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 15h30l-4 18c-1 5-5 9-11 12-6-3-10-7-11-12z" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M36 45c-6 7-9 11-9 15 0 5 4 8 9 8s9-3 9-8c0-4-3-8-9-15z" stroke-width="1.85" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M28 22h16M30 29h12" stroke-width="1.0" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

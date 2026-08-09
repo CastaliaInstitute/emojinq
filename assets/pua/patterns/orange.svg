@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / orange" data-pua="U+F0A0C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / orange" data-pua="U+F0A0C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>patterns / orange — reviewed vector study</title>
-<path d="M 19.989 52.952 c -4.018 -11.02 0.933 -23.921 10.943 -29.966 8.923 -4.964 21.059 -2.002 26.02 7.074 5.006 9.979 -0.044 21.976 -8.942 28.039 -10.031 5.955 -23.942 3.973 -28.075 -5.058 z" stroke-width="2.16" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 27.023 50.012 c -3.027 -8.002 0.946 -17.037 8.049 -20.996 7.035 -4.007 15.022 -2.034 18.984 5.058" stroke-width="1.84" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 35.972 29.077 l 1.979 16.977 M 28.042 38.052 l 17.058 8.942 M 47.038 32.027 l -5.998 15.003" stroke-width="1.07" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 19.989 52.952 c -4.018 -11.02 0.933 -23.921 10.943 -29.966 8.923 -4.964 21.059 -2.002 26.02 7.074 5.006 9.979 -0.044 21.976 -8.942 28.039 -10.031 5.955 -23.942 3.973 -28.075 -5.058 z" stroke-width="2.16" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 27.023 50.012 c -3.027 -8.002 0.946 -17.037 8.049 -20.996 7.035 -4.007 15.022 -2.034 18.984 5.058" stroke-width="1.84" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 35.972 29.077 l 1.979 16.977 M 28.042 38.052 l 17.058 8.942 M 47.038 32.027 l -5.998 15.003" stroke-width="1.07" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

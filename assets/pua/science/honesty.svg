@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / honesty" data-pua="U+F106C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / honesty" data-pua="U+F106C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / honesty — simplified naturalist study</title>
-<path d="M10 36c7-10 16-15 26-15s19 5 26 15c-7 10-16 15-26 15S17 46 10 36z" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="36" cy="36" r="7" stroke-width="1.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 27c4-5 9-8 15-9M57 27c-4-5-9-8-15-9" stroke-width="1.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 36c7-10 16-15 26-15s19 5 26 15c-7 10-16 15-26 15S17 46 10 36z" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<circle cx="36" cy="36" r="7" stroke-width="1.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M15 27c4-5 9-8 15-9M57 27c-4-5-9-8-15-9" stroke-width="1.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

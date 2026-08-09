@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / hypothesis" data-pua="U+F1071" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / hypothesis" data-pua="U+F1071" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / hypothesis — simplified naturalist study</title>
-<path d="M20 55V25c0-6 6-10 16-10s16 4 16 10v30c-10 4-22 4-32 0z" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 25c10 4 22 4 32 0M29 36c2-5 9-7 12-3 4 5-2 7-5 10-2 2-2 4-2 6M35 52v1" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 55V25c0-6 6-10 16-10s16 4 16 10v30c-10 4-22 4-32 0z" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M20 25c10 4 22 4 32 0M29 36c2-5 9-7 12-3 4 5-2 7-5 10-2 2-2 4-2 6M35 52v1" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

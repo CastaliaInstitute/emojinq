@@ -1,9 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / pilgrimage" data-pua="U+F0C53" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / pilgrimage" data-pua="U+F0C53" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>people / pilgrimage — reviewed vector study</title>
 <circle cx="29" cy="17" r="7" stroke-width="2.74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 24.023 25.012 c -5.027 5.998 -6.054 12.963 -3.951 21.004 l -8.007 13.022 M 33.984 25.058 c 4.03 5.974 6.015 12.034 6.952 19.066 l 6.989 13.017 M 23.968 36.027 l -9.978 6.925 M 33.985 36.032 l 12.032 -3.966" stroke-width="1.91" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 50.972 19.077 v 41.979 M 51 19.042 l 8.063 5.058 M 50.963 27.038 l 6.977 -3.998" stroke-width="1.84" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 8.042 62.067 c 11.001 -5.009 20.063 -4.924 28.951 0.072 9.048 -4.982 18.062 -5.004 27.033 -0.05" stroke-width="1.19" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 17.009 54.995 l 5.948 -5.932 5.975 5.937 M 47.004 55 l 6.075 -6.001 5.999 5.973" stroke-width="1.20" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 24.023 25.012 c -5.027 5.998 -6.054 12.963 -3.951 21.004 l -8.007 13.022 M 33.984 25.058 c 4.03 5.974 6.015 12.034 6.952 19.066 l 6.989 13.017 M 23.968 36.027 l -9.978 6.925 M 33.985 36.032 l 12.032 -3.966" stroke-width="1.91" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 50.972 19.077 v 41.979 M 51 19.042 l 8.063 5.058 M 50.963 27.038 l 6.977 -3.998" stroke-width="1.84" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 8.042 62.067 c 11.001 -5.009 20.063 -4.924 28.951 0.072 9.048 -4.982 18.062 -5.004 27.033 -0.05" stroke-width="1.19" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 17.009 54.995 l 5.948 -5.932 5.975 5.937 M 47.004 55 l 6.075 -6.001 5.999 5.973" stroke-width="1.20" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

@@ -1,9 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / vote" data-pua="U+F0C7B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / vote" data-pua="U+F0C7B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>people / vote — reviewed vector study</title>
 <circle cx="23" cy="20" r="7" stroke-width="2.74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 17.023 28.012 c -5.027 4.998 -7.054 11.963 -5.951 22.004 l -3.007 12.022 M 28.984 28.058 c 5.03 4.974 7.015 12.034 5.952 22.066 l 2.989 12.017 M 17.968 39.027 l -8.978 6.925 M 27.985 39.032 l 9.032 7.034" stroke-width="2.53" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 43.972 31.077 h 17.979 v 27 H 44.052 z M 46.942 34.963 h 12.027 M 47.002 40.003 h 8.972" stroke-width="1.97" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 36.042 26.067 l 9.001 7.991 M 39.076 24.951 l 6.048 9.018" stroke-width="1.93" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 42.009 61.995 h 22.948" stroke-width="1.21" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 17.023 28.012 c -5.027 4.998 -7.054 11.963 -5.951 22.004 l -3.007 12.022 M 28.984 28.058 c 5.03 4.974 7.015 12.034 5.952 22.066 l 2.989 12.017 M 17.968 39.027 l -8.978 6.925 M 27.985 39.032 l 9.032 7.034" stroke-width="2.53" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 43.972 31.077 h 17.979 v 27 H 44.052 z M 46.942 34.963 h 12.027 M 47.002 40.003 h 8.972" stroke-width="1.97" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 36.042 26.067 l 9.001 7.991 M 39.076 24.951 l 6.048 9.018" stroke-width="1.93" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 42.009 61.995 h 22.948" stroke-width="1.21" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

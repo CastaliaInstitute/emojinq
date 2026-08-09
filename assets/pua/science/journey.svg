@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / journey" data-pua="U+F107B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / journey" data-pua="U+F107B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / journey — simplified naturalist study</title>
-<path d="M10 58c10-12 18-15 25-9 7 6 6 10 14 5 5-3 9-8 13-14" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 48c7-4 14-5 20-3M45 38c6-2 11-2 16 0" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="22" cy="23" r="4" stroke-width="1.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M22 27v13M22 31l-7 5M22 31l7 5M22 40l-5 7M22 40l5 7" stroke-width="1.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 58c10-12 18-15 25-9 7 6 6 10 14 5 5-3 9-8 13-14" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M14 48c7-4 14-5 20-3M45 38c6-2 11-2 16 0" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<circle cx="22" cy="23" r="4" stroke-width="1.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M22 27v13M22 31l-7 5M22 31l7 5M22 40l-5 7M22 40l5 7" stroke-width="1.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

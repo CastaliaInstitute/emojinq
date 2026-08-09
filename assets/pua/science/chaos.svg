@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / chaos" data-pua="U+F1016" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / chaos" data-pua="U+F1016" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / chaos — simplified naturalist study</title>
-<path d="M10 38c8-18 20-23 28-14 7 8-1 18-10 15-9-3-8-14 3-20M62 34c-8 18-20 23-28 14-7-8 1-18 10-15 9 3 8 14-3 20" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 17l5 5M57 17l-5 5M15 55l5-5M57 55l-5-5" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 38c8-18 20-23 28-14 7 8-1 18-10 15-9-3-8-14 3-20M62 34c-8 18-20 23-28 14-7-8 1-18 10-15 9 3 8 14-3 20" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M15 17l5 5M57 17l-5 5M15 55l5-5M57 55l-5-5" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

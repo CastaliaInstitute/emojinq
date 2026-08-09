@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / mentor" data-pua="U+F108C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / mentor" data-pua="U+F108C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / mentor — simplified naturalist study</title>
-<circle cx="25" cy="24" r="5" stroke-width="1.75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/><circle cx="47" cy="30" r="5" stroke-width="1.75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 53c1-10 6-16 13-16s11 6 12 16M39 55c1-8 5-13 11-13 5 0 8 4 9 11" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M31 25c5-4 9-4 14 0M34 20l5-5 5 5" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="25" cy="24" r="5" stroke-width="1.75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" /><circle cx="47" cy="30" r="5" stroke-width="1.75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M16 53c1-10 6-16 13-16s11 6 12 16M39 55c1-8 5-13 11-13 5 0 8 4 9 11" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M31 25c5-4 9-4 14 0M34 20l5-5 5 5" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

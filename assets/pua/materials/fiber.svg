@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / fiber" data-pua="U+F0602" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / fiber" data-pua="U+F0602" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>materials / fiber — simplified naturalist study</title>
-<path d="M 16.989 56.952 c 7.982 -11.02 11.933 -21.921 17.943 -38.966 M 25.036 58.059 c 8.02 -11.926 14.006 -22.021 23.956 -35.024 M 34.039 58.969 c 8.058 -12.027 15.925 -20.058 24.012 -27.981" stroke-width="1.69" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 17.023 57.012 c 3.973 1.998 7.946 1.963 12.049 0.004 M 24.993 58.022 c 3.984 2.058 8.965 2.03 12.974 -0.985 M 33.952 59.066 c 3.989 2.017 9.056 0.968 13.027 -1.929" stroke-width="1.14" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 16.989 56.952 c 7.982 -11.02 11.933 -21.921 17.943 -38.966 M 25.036 58.059 c 8.02 -11.926 14.006 -22.021 23.956 -35.024 M 34.039 58.969 c 8.058 -12.027 15.925 -20.058 24.012 -27.981" stroke-width="1.69" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 17.023 57.012 c 3.973 1.998 7.946 1.963 12.049 0.004 M 24.993 58.022 c 3.984 2.058 8.965 2.03 12.974 -0.985 M 33.952 59.066 c 3.989 2.017 9.056 0.968 13.027 -1.929" stroke-width="1.14" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

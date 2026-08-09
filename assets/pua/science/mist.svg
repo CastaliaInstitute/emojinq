@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / mist" data-pua="U+F1090" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / mist" data-pua="U+F1090" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / mist — simplified naturalist study</title>
-<path d="M10 33c7-7 14-7 21 0 6-7 14-7 21 0 5-4 10-4 14 0M10 45c8-4 16-4 24 0 8-4 16-4 28 0M16 56c7-3 14-3 21 0 7-3 14-3 20 0" stroke-width="1.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 33c7-7 14-7 21 0 6-7 14-7 21 0 5-4 10-4 14 0M10 45c8-4 16-4 24 0 8-4 16-4 28 0M16 56c7-3 14-3 21 0 7-3 14-3 20 0" stroke-width="1.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

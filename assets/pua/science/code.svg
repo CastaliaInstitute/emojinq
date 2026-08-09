@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / code" data-pua="U+F1019" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / code" data-pua="U+F1019" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>science / code — reviewed vector study</title>
 <rect x="12" y="16" width="48" height="40" rx="3" stroke-width="3.03" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 12.023 25.012 h 47.973 M 19.946 33.963 l 7.004 5.035 -7.007 5.022 M 37.984 34.058 l -6.97 4.974 7.015 5.034 M 46.066 32.956 l -3.983 13.056" stroke-width="1.73" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 17.972 20.077 h 1.979 M 24 20.042 h 2.063 M 29.942 19.963 h 2.027" stroke-width="1.10" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 19.042 61.067 h 34.001" stroke-width="1.17" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 12.023 25.012 h 47.973 M 19.946 33.963 l 7.004 5.035 -7.007 5.022 M 37.984 34.058 l -6.97 4.974 7.015 5.034 M 46.066 32.956 l -3.983 13.056" stroke-width="1.73" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 17.972 20.077 h 1.979 M 24 20.042 h 2.063 M 29.942 19.963 h 2.027" stroke-width="1.10" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 19.042 61.067 h 34.001" stroke-width="1.17" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>

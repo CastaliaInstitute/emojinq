@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / pack" data-pua="U+F0006" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / pack" data-pua="U+F0006" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>animals / pack — simplified naturalist study</title>
-<path d="M8 44c1-8 8-13 16-11 5 1 8 4 10 8M28 47c1-8 7-12 15-10 5 1 8 4 10 8M48 49c1-7 6-10 12-8 4 1 6 4 7 8" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 34l-1-8 7 5 5-6 3 8M31 37l-1-8 7 4 5-5 3 8M51 40l-1-7 6 4 5-4 2 7" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13 45l-2 10M25 45l1 10M35 48l-1 9M46 48l1 9M55 50l-1 7M64 50l2 7M7 61c18-2 38-2 58 0" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 44c1-8 8-13 16-11 5 1 8 4 10 8M28 47c1-8 7-12 15-10 5 1 8 4 10 8M48 49c1-7 6-10 12-8 4 1 6 4 7 8" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M10 34l-1-8 7 5 5-6 3 8M31 37l-1-8 7 4 5-5 3 8M51 40l-1-7 6 4 5-4 2 7" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M13 45l-2 10M25 45l1 10M35 48l-1 9M46 48l1 9M55 50l-1 7M64 50l2 7M7 61c18-2 38-2 58 0" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

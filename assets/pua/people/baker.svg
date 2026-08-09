@@ -1,9 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / baker" data-pua="U+F0C07" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / baker" data-pua="U+F0C07" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
 <title>people / baker — reviewed vector study</title>
-<path d="M 15.989 60.952 V 38.982 h 39.933 v 21.943 z" stroke-width="3.02" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 21.023 39.012 c 1.973 -8.002 6.946 -12.037 15.049 -11.996 s 12.993 4.022 14.966 11.984 M 22.965 48.03 h 26.015 M 22.952 54.066 h 25.989" stroke-width="1.76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 28.972 34.077 c 1.979 -5.023 5 -6.958 7.052 -6.937 s 4.942 1.963 7.038 7.027" stroke-width="1.45" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 15.989 60.952 V 38.982 h 39.933 v 21.943 z" stroke-width="3.02" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 21.023 39.012 c 1.973 -8.002 6.946 -12.037 15.049 -11.996 s 12.993 4.022 14.966 11.984 M 22.965 48.03 h 26.015 M 22.952 54.066 h 25.989" stroke-width="1.76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
+<path d="M 28.972 34.077 c 1.979 -5.023 5 -6.958 7.052 -6.937 s 4.942 1.963 7.038 7.027" stroke-width="1.45" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 <circle cx="36" cy="51" r="4" stroke-width="1.18" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 12.009 63.995 h 47.948" stroke-width="0.93" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 12.009 63.995 h 47.948" stroke-width="0.93" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" pathLength="1" class="ink-stroke" />
 </svg>
