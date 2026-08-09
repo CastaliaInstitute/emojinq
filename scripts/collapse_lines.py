@@ -74,6 +74,7 @@ def collapse(root: ET.Element) -> None:
                     except ValueError:
                         pass
                 element.set("fill", "none")
+                element.set("stroke", "#262522")
                 try:
                     base_width = float(element.get("stroke-width", "0.95"))
                 except ValueError:
