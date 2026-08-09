@@ -5814,5 +5814,13 @@
       988189
     ],
     "label": "flora/spruce"
+  },
+  {
+    "name": "F141E",
+    "source": "flora/palm.svg",
+    "codepoints": [
+      988190
+    ],
+    "label": "flora/palm"
   }
 ]
