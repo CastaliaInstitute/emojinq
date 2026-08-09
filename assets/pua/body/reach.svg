@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="body / reach" data-pua="U+F020E" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>body / reach — reviewed vector study</title>
-<circle cx="30" cy="18" r="7" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M26 26c-5 6-6 13-5 21l-2 14M36 27c4 5 5 10 5 17l8 17M24 35l-8 8M38 35l14-15 7-4" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M57 16l5 0M57 16l3-4M57 16l3 4M18 61h-8M48 61h10" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M47 22c3-4 6-6 10-7" stroke-width="1" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27 13c-5 1-8 5-8 10 0 5 3 9 8 10 4 1 8-1 10-5-3 1-5 0-6-2 3-2 4-5 2-8-1-4-3-6-6-5z" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 32c-4 5-6 12-5 20 1 5 0 10-3 13M35 31c5 5 7 11 7 17l8 14M21 38c-3 4-6 7-10 9M35 37c3 2 5 3 8 4" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M42 40c4-4 8-8 11-12l6-4M54 28l5-2M55 27l3-4M56 29l5 1" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 64H8M49 64h11M27 32c3 2 6 3 9 2M25 47c3 1 6 1 9-1" stroke-width="1.35" opacity=".74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 15c3-3 7-4 11-2M14 39c-2 4-3 8-2 12" stroke-width="1.05" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

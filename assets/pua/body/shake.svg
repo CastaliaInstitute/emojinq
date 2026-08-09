@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="body / shake" data-pua="U+F0210" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>body / shake — reviewed vector study</title>
-<circle cx="36" cy="17" r="7" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28 25c-5 5-7 12-6 21l-3 16M44 25c5 5 7 12 6 21l3 16M27 35l-9 9M45 35l9 9M25 62h-8M47 62h8" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 22l7 5-7 5M62 22l-7 5 7 5M12 44l6 0M60 44l-6 0" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21 29c-3 3-4 6-4 10M51 29c3 3 4 6 4 10" stroke-width="1" opacity=".66" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 15c-4 4-4 10 0 14 4 4 10 4 14 0 3-4 3-10-1-14-3-3-9-3-13 0z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 31c-6 5-8 12-7 21l-3 10M42 31c6 5 8 12 7 21l3 10M27 40l-10 7M45 40l10 7M24 62h-8M48 62h8" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 21l7 5-7 5M62 21l-7 5 7 5M11 44l7 0M61 44l-7 0" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 33c-3 3-4 7-4 11M50 33c3 3 4 7 4 11" stroke-width="1.08" opacity=".66" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
