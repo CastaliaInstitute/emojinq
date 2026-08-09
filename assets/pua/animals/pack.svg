@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / pack" data-pua="U+F0006" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>animals / pack — simplified naturalist study</title>
-<path d="M 6.989 47.952 c 0.982 -10.02 7.933 -15.921 16.943 -15.966 7.923 0.036 14.059 5.998 15.02 16.074 M 24.979 47.956 c 1.058 -7.961 6.969 -13.045 15.058 -13.027 6.925 -0.058 12.012 5.019 13.068 13.032 M 42.969 48.94 c 1.052 -6.948 5.974 -11.055 12.077 -10.989 4.952 0.012 8.967 3.973 9.992 11.014" stroke-width="1.89" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 9.023 35.012 l -2.027 -8.002 6.946 3.963 6.049 -4.996 4.035 6.993 M 27.966 37.984 l -1.035 -6.97 5.974 4.015 6.034 -4.048 3.066 6.956 M 46.017 41.056 l -0.973 -5.929 5.022 2.925 5.037 -3.015 2.032 6.052" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 12.972 49.077 l -2.021 9.977 M 27.042 49.052 l 1.058 9.942 M 48.038 49.027 l -0.998 10.003 M 60.972 48.968 l 1.986 9.953 M 7.056 62.04 c 17.96 -2.011 37.998 -1.932 57.974 -0.065" stroke-width="1.31" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M8 42c1-7 6-11 12-11 5 0 9 3 11 8M27 46c1-7 6-11 12-11 5 0 9 3 11 8M46 49c1-6 5-9 10-9 4 0 7 3 8 8" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 32l-1-7 6 4 5-5 3 7M29 36l-1-7 6 4 5-4 3 7M48 40l-1-6 5 3 5-3 2 6" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 43l-2 9M25 43l1 9M34 47l-1 8M45 47l1 8M54 49l-1 7M63 49l2 7M7 59c18-2 38-2 58 0" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

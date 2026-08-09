@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / predator" data-pua="U+F0007" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>animals / predator — simplified naturalist study</title>
-<path d="M 7.989 46.952 c 4.982 -9.02 14.933 -12.921 26.943 -11.966 11.923 1.036 22.059 5.998 28.02 13.074 -5.994 4.979 -15.044 7.976 -26.942 8.039 H 16.955 c -6.027 -0.075 -10.058 -2.988 -8.981 -8.932 z" stroke-width="2.81" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 10.023 43.012 c -2.027 -5.002 -0.054 -10.037 5.049 -11.996 l 5.993 4.022 6.966 -5.016 4.058 5.965 M 13.974 35.015 l -3.048 -5.934 6.956 2.989 M 12.056 38.968 l -4.929 1.022" stroke-width="2.38" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 34.972 43.077 c 3.979 3.977 9 5.042 15.052 3.063 M 20.942 54.963 l -1.973 7.977 M 48.003 55.037 l 1.968 7.981 M 58.953 48.979 c 4.04 -1.928 5.96 -5.011 5.998 -8.932" stroke-width="1.94" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M8 47c5-9 15-13 27-12 12 1 22 6 28 13-6 5-15 8-27 8H17c-6 0-10-3-9-9z" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 43c-2-5 0-10 5-12l6 4 7-5 4 6M14 35l-3-6 7 3M12 39l-5 1" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M35 43c4 4 9 5 15 3M21 55l-2 8M48 55l2 8M59 49c4-2 6-5 6-9" stroke-width="1.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

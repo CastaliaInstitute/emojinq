@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / squirrel" data-pua="U+F0009" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>animals / squirrel — simplified naturalist study</title>
-<path d="M 26.989 47.952 c -5.018 -8.02 -2.067 -16.921 5.943 -19.966 7.923 -2.964 15.059 0.998 17.02 8.074 2.006 6.979 -2.044 12.976 -8.942 16.039 -6.031 2.955 -10.942 1.973 -14.075 -4.058 z" stroke-width="2.01" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 45.023 40.012 c -3.027 -12.002 1.946 -23.037 11.049 -24.996 8.035 4.993 9.022 15.966 2.984 24.058 -4.035 5.03 -8.026 8.015 -12.966 9.952" stroke-width="2.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 28.972 30.077 c -1.021 -5.023 1 -7.958 5.052 -9.937 l 3.942 4.963 M 30.027 48.977 l -3.997 10.037 M 42.968 50.981 l 2.953 7.979 M 22.04 44.072 l -9.011 3.998" stroke-width="1.49" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 19.042 35.067 c 3.001 -2.009 5.063 -1.924 6.951 0.072" stroke-width="0.91" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M27 48c-5-8-2-17 6-20 8-3 15 1 17 8 2 7-2 13-9 16-6 3-11 2-14-4z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M45 40c-3-12 2-23 11-25 8 5 9 16 3 24-4 5-8 8-13 10" stroke-width="2.4" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 30c-1-5 1-8 5-10l4 5M30 49l-4 10M43 51l3 8M22 44l-9 4" stroke-width="1.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 35c3-2 5-2 7 0" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

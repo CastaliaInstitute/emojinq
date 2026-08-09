@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / calf" data-pua="U+F0000" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>animals / calf — simplified naturalist study</title>
-<path d="M 17.989 42.952 c 2.982 -10.02 12.933 -13.921 26.943 -12.966 9.923 1.036 16.059 6.998 17.02 14.074 1.006 7.979 -4.044 12.976 -13.942 13.039 H 26.955 c -8.027 -0.075 -12.058 -4.988 -8.981 -13.932 z" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 19.023 36.012 c -5.027 0.998 -9.054 -1.037 -9.951 -4.996 4.035 -1.007 7.022 -4.034 9.984 -4.942 2.965 -3.97 6.974 -3.985 10.034 -1.048 l 0.956 5.989 M 12.056 26.968 l -1.929 -3.978 4.925 2.037" stroke-width="2.84" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 26.972 57.077 l -1.021 6.977 M 46.042 57.052 l 2.058 6.942 M 18.038 54.027 l -3.998 4.003" stroke-width="2.11" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
-<path d="M 23.042 31.067 c 2.001 1.991 5.063 2.076 6.951 0.072 M 51.018 39.062 c 2.033 1.95 2.999 2.064 5.071 0.035 M 36.981 34.986 c 1.952 -1.923 4.078 -2.005 5.999 0.076" stroke-width="0.96" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M22 43c2-10 12-14 26-13 10 1 16 7 17 14 1 8-4 13-14 13H29c-8 0-12-5-7-14z" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 36c-5 1-10-1-11-5 4-1 7-4 10-5 3-4 7-4 10-1l1 6M17 27l-3-5M26 26l4-5" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27 57l-1 7M46 57l2 7M18 54l-4 4" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 31c2 2 5 2 7 0M51 39c2 2 3 2 5 0M36 35c2-2 4-2 6 0M45 45c3-2 5-2 7 0" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
