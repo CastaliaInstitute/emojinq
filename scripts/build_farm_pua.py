@@ -272,12 +272,108 @@ GLYPHS = {
 ORDER = ["cow", "chicken", "pig", "bee", "carrot", "tomato", "corn", "strawberry",
          "wheat", "milk", "egg", "meat", "honey", "flour"]
 
+# ── flora: the wilderness variety set (F1410+) ────────────────────────
 
-def build_svg(name):
-    rng = random.Random(zlib.crc32(name.encode()))
-    cp = BLOCK_START + ORDER.index(name)
+FLORA_BLOCK = 0xF1410
+FLORA_DIR = ROOT / "assets" / "pua" / "flora"
+
+FLORA_GLYPHS = {
+    "birch": [
+        S([(35, 62), (36, 40), (34, 18)], [2.5, 2.0, 1.5]),
+        S([(33, 52), (37.5, 52)], [1.2, 0.5]),
+        S([(33.5, 44), (38, 44)], [1.2, 0.5]),
+        S([(33, 34), (37, 34.5)], [1.1, 0.4]),
+        S([(31, 17), (23, 9)], [5.5, 1.0]),
+        S([(35, 16), (34, 5)], [6.0, 1.0]),
+        S([(38, 17), (46, 10)], [5.5, 1.0]),
+        S([(33, 22), (27, 17)], [3.5, 0.8]),
+        S([(37, 22), (43, 17)], [3.5, 0.8]),
+    ],
+    "willow": [
+        S([(36, 62), (35, 44), (38, 30)], [3.0, 2.5, 2.0]),
+        S([(38, 26), (28, 32), (24, 46)], [2.5, 1.8, 0.4]),
+        S([(38, 26), (33, 34), (31, 48)], [2.5, 1.8, 0.4]),
+        S([(38, 26), (40, 36), (39, 50)], [2.5, 1.8, 0.4]),
+        S([(38, 26), (45, 33), (47, 47)], [2.5, 1.8, 0.4]),
+        S([(38, 26), (50, 30), (54, 42)], [2.5, 1.8, 0.4]),
+    ],
+    "poplar": [
+        L([(36, 10), (42, 22), (43, 40), (40, 52), (36, 56), (32, 52), (29, 40), (30, 22)], 2.2),
+        S([(36, 56), (36, 63)], [2.5, 1.8]),
+        S([(36, 18), (36, 46)], [1.0, 0.4]),
+    ],
+    "maple": [
+        S([(36, 63), (36, 46)], [3.0, 2.2]),
+        L([(36, 14), (44, 18), (51, 26), (48, 34), (40, 43), (30, 42), (23, 33), (24, 22), (30, 17)], 2.2),
+    ],
+    "apple": [
+        S([(36, 63), (36, 46)], [3.0, 2.2]),
+        S([(36, 50), (28, 43)], [2.0, 1.2]),
+        S([(36, 50), (44, 43)], [2.0, 1.2]),
+        L([(36, 18), (46, 22), (49, 32), (44, 42), (28, 42), (23, 32), (26, 22)], 2.2),
+        D(28, 27, 1.6), D(42, 24, 1.6), D(31, 36, 1.6), D(43, 35, 1.6),
+    ],
+    "snag": [
+        S([(36, 63), (35, 30)], [3.5, 2.0]),
+        S([(35, 38), (26, 28)], [2.0, 0.6]),
+        S([(26, 28), (24, 21)], [1.2, 0.4]),
+        S([(35, 32), (44, 22)], [2.0, 0.6]),
+        S([(44, 22), (48, 15)], [1.2, 0.4]),
+        S([(35, 30), (33, 20)], [1.6, 0.5]),
+    ],
+    "bush": [
+        L([(26, 48), (36, 42), (47, 46), (50, 54), (40, 59), (26, 58), (21, 53)], 2.2),
+        S([(27, 61), (45, 61.5)], [1.2, 0.4]),
+    ],
+    "berrybush": [
+        L([(26, 48), (36, 42), (47, 46), (50, 54), (40, 59), (26, 58), (21, 53)], 2.2),
+        D(32, 50, 1.3), D(40, 48, 1.3), D(44, 53, 1.3), D(35, 55, 1.3),
+        S([(27, 61), (45, 61.5)], [1.2, 0.4]),
+    ],
+    "fern": [
+        S([(36, 60), (34, 46), (27, 34), (29, 29)], [2.0, 1.6, 0.8, 0.3]),
+        S([(36, 60), (42, 48), (48, 38), (46, 33)], [2.0, 1.6, 0.8, 0.3]),
+        S([(36, 60), (28, 52), (20, 48)], [1.8, 1.2, 0.3]),
+        S([(36, 60), (44, 54), (51, 52)], [1.6, 1.1, 0.3]),
+    ],
+    "grass": [
+        S([(36, 60), (30, 48), (26, 40)], [1.8, 1.2, 0.3]),
+        S([(36, 60), (34, 46), (33, 38)], [1.8, 1.2, 0.3]),
+        S([(36, 60), (39, 47), (42, 38)], [1.8, 1.2, 0.3]),
+        S([(36, 60), (44, 52), (49, 44)], [1.6, 1.1, 0.3]),
+        S([(36, 60), (28, 55), (23, 50)], [1.4, 1.0, 0.3]),
+    ],
+    "reed": [
+        S([(32, 62), (33, 40), (33, 26)], [1.6, 1.3, 1.0]),
+        S([(33, 26), (33, 15.5)], [4.5, 3.8]),
+        S([(41, 62), (40, 44), (40, 32)], [1.5, 1.2, 0.9]),
+        S([(40, 32), (40, 22.5)], [4.0, 3.4]),
+        S([(36, 62), (44, 44), (48, 32)], [1.8, 1.2, 0.3]),
+    ],
+    "stump": [
+        L([(28, 42), (44, 42), (45, 54), (43, 58), (29, 58), (27, 54)], 2.2),
+        L([(28, 42), (36, 38.5), (44, 42), (36, 45.5)], 1.8),
+        S([(33, 42), (39, 42)], [1.0, 0.5]),
+        S([(28, 56), (23, 60.5)], [2.0, 0.6]),
+        S([(44, 56), (49, 60.5)], [2.0, 0.6]),
+    ],
+}
+
+FLORA_ORDER = ["birch", "willow", "poplar", "maple", "apple", "snag",
+               "bush", "berrybush", "fern", "grass", "reed", "stump"]
+
+
+CATEGORIES = [
+    ("farm", GLYPHS, ORDER, BLOCK_START, OUT_DIR),
+    ("flora", FLORA_GLYPHS, FLORA_ORDER, FLORA_BLOCK, FLORA_DIR),
+]
+
+
+def build_svg(name, glyphs, order, block, category):
+    rng = random.Random(zlib.crc32((category + "/" + name).encode()))
+    cp = block + order.index(name)
     polys = []
-    for item in GLYPHS[name]:
+    for item in glyphs[name]:
         if item[0] == "stroke":
             polys.extend(stroke_outline(item[1], item[2], rng))
         elif item[0] == "loop":
@@ -288,9 +384,9 @@ def build_svg(name):
     d = " ".join(poly_to_d(p) for p in polys)
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {CANVAS} {CANVAS}" role="img" '
-        f'aria-label="farm / {name}" data-pua="U+{cp:05X}" '
+        f'aria-label="{category} / {name}" data-pua="U+{cp:05X}" '
         f'data-castalia-style="{STYLE}" data-ink-stroke-system="{STROKE_SYSTEM}">'
-        f'<title>farm / {name} — tapered-stroke synthesis</title>'
+        f'<title>{category} / {name} — tapered-stroke synthesis</title>'
         f'<path d="{d}" fill="{INK}"/></svg>'
     )
 
@@ -300,22 +396,24 @@ def main():
     parser.add_argument("--manifest", action="store_true", help="update assets/pua/manifest.json")
     args = parser.parse_args()
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    for name in ORDER:
-        (OUT_DIR / f"{name}.svg").write_text(build_svg(name))
-    print(f"wrote {len(ORDER)} glyphs → {OUT_DIR}")
+    for category, glyphs, order, block, out_dir in CATEGORIES:
+        out_dir.mkdir(parents=True, exist_ok=True)
+        for name in order:
+            (out_dir / f"{name}.svg").write_text(build_svg(name, glyphs, order, block, category))
+        print(f"wrote {len(order)} glyphs → {out_dir}")
 
     if args.manifest:
         entries = json.loads(MANIFEST.read_text())
-        entries = [e for e in entries if not e.get("label", "").startswith("farm/")]
-        for i, name in enumerate(ORDER):
-            cp = BLOCK_START + i
-            entries.append({
-                "name": f"{cp:05X}",
-                "source": f"farm/{name}.svg",
-                "codepoints": [cp],
-                "label": f"farm/{name}",
-            })
+        for category, glyphs, order, block, out_dir in CATEGORIES:
+            entries = [e for e in entries if not e.get("label", "").startswith(category + "/")]
+            for i, name in enumerate(order):
+                cp = block + i
+                entries.append({
+                    "name": f"{cp:05X}",
+                    "source": f"{category}/{name}.svg",
+                    "codepoints": [cp],
+                    "label": f"{category}/{name}",
+                })
         MANIFEST.write_text(json.dumps(entries, indent=2) + "\n")
         print(f"manifest updated: {len(entries)} entries")
 

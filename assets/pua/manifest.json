@@ -5702,5 +5702,101 @@
       988173
     ],
     "label": "farm/flour"
+  },
+  {
+    "name": "F1410",
+    "source": "flora/birch.svg",
+    "codepoints": [
+      988176
+    ],
+    "label": "flora/birch"
+  },
+  {
+    "name": "F1411",
+    "source": "flora/willow.svg",
+    "codepoints": [
+      988177
+    ],
+    "label": "flora/willow"
+  },
+  {
+    "name": "F1412",
+    "source": "flora/poplar.svg",
+    "codepoints": [
+      988178
+    ],
+    "label": "flora/poplar"
+  },
+  {
+    "name": "F1413",
+    "source": "flora/maple.svg",
+    "codepoints": [
+      988179
+    ],
+    "label": "flora/maple"
+  },
+  {
+    "name": "F1414",
+    "source": "flora/apple.svg",
+    "codepoints": [
+      988180
+    ],
+    "label": "flora/apple"
+  },
+  {
+    "name": "F1415",
+    "source": "flora/snag.svg",
+    "codepoints": [
+      988181
+    ],
+    "label": "flora/snag"
+  },
+  {
+    "name": "F1416",
+    "source": "flora/bush.svg",
+    "codepoints": [
+      988182
+    ],
+    "label": "flora/bush"
+  },
+  {
+    "name": "F1417",
+    "source": "flora/berrybush.svg",
+    "codepoints": [
+      988183
+    ],
+    "label": "flora/berrybush"
+  },
+  {
+    "name": "F1418",
+    "source": "flora/fern.svg",
+    "codepoints": [
+      988184
+    ],
+    "label": "flora/fern"
+  },
+  {
+    "name": "F1419",
+    "source": "flora/grass.svg",
+    "codepoints": [
+      988185
+    ],
+    "label": "flora/grass"
+  },
+  {
+    "name": "F141A",
+    "source": "flora/reed.svg",
+    "codepoints": [
+      988186
+    ],
+    "label": "flora/reed"
+  },
+  {
+    "name": "F141B",
+    "source": "flora/stump.svg",
+    "codepoints": [
+      988187
+    ],
+    "label": "flora/stump"
   }
 ]
