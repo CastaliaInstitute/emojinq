@@ -12,22 +12,24 @@ C = 'fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"
 
 ART = {
     "pulse": '''
-<circle cx="36" cy="19" r="8" stroke-width="2.4" {c}/>
-<path d="M27 28c-6 4-8 10-8 19l-3 12M45 28c6 4 8 10 8 19l3 12M28 34l-7 9M44 34l7 9M28 62h-8M44 62h8" stroke-width="2.2" {c}/>
-<path d="M18 45h8l3-6 4 13 4-17 4 10h11" stroke-width="1.85" {c}/>
-<path d="M14 45h5M55 45h4" stroke-width="1" opacity=".6" {c}/>
+<path d="M18 51c3-12 8-20 16-22 8-2 15 2 20 10 2 4 3 8 3 13" stroke-width="2.55" {c}/>
+<path d="M27 30c-3-6-1-12 4-16 5-4 12-3 16 2 4 5 3 11-1 15" stroke-width="2.1" {c}/>
+<path d="M21 44c6-3 11-3 16 0 5-3 10-3 15 0M29 52c5-2 10-2 15 0" stroke-width="1.25" opacity=".72" {c}/>
+<path d="M16 57c8-4 16-4 24 0M45 54l6-3 5 3" stroke-width="1.2" {c}/>
+<path d="M14 63h45" stroke-width="1" opacity=".58" {c}/>
 ''',
     "push": '''
-<circle cx="24" cy="20" r="7" stroke-width="2.4" {c}/>
-<path d="M20 28c-5 5-7 12-7 21l-3 12M31 28c5 4 8 9 9 16M17 38l10 5 10-6M17 62H7M36 62h10" stroke-width="2.35" {c}/>
-<path d="M41 35h19M54 29l7 6-7 6" stroke-width="2.3" {c}/>
-<path d="M48 27c4 1 8 3 12 7" stroke-width="1" opacity=".65" {c}/>
+<path d="M22 18c-5 3-7 9-5 14 2 5 7 7 12 5 5-2 7-8 5-13-2-5-7-8-12-6z" stroke-width="2.2" {c}/>
+<path d="M25 36c-7 5-10 13-9 22l-3 5M34 35c7 4 11 10 13 17l3 10M21 45l13-5 11 8" stroke-width="2.35" {c}/>
+<path d="M47 41h17M57 35l7 6-7 6M15 63h-7M47 63h10" stroke-width="1.9" {c}/>
+<path d="M26 38c3 3 7 5 12 6" stroke-width="1.15" opacity=".68" {c}/>
 ''',
     "reach": '''
-<circle cx="30" cy="18" r="7" stroke-width="2.35" {c}/>
-<path d="M26 26c-5 6-6 13-5 21l-2 14M36 27c4 5 5 10 5 17l8 17M24 35l-8 8M38 35l14-15 7-4" stroke-width="2.3" {c}/>
-<path d="M57 16l5 0M57 16l3-4M57 16l3 4M18 61h-8M48 61h10" stroke-width="1.7" {c}/>
-<path d="M47 22c3-4 6-6 10-7" stroke-width="1" opacity=".65" {c}/>
+<path d="M27 13c-5 1-8 5-8 10 0 5 3 9 8 10 4 1 8-1 10-5-3 1-5 0-6-2 3-2 4-5 2-8-1-4-3-6-6-5z" stroke-width="2.0" {c}/>
+<path d="M24 32c-4 5-6 12-5 20 1 5 0 10-3 13M35 31c5 5 7 11 7 17l8 14M21 38c-3 4-6 7-10 9M35 37c3 2 5 3 8 4" stroke-width="2.15" {c}/>
+<path d="M42 40c4-4 8-8 11-12l6-4M54 28l5-2M55 27l3-4M56 29l5 1" stroke-width="1.8" {c}/>
+<path d="M17 64H8M49 64h11M27 32c3 2 6 3 9 2M25 47c3 1 6 1 9-1" stroke-width="1.35" opacity=".74" {c}/>
+<path d="M20 15c3-3 7-4 11-2M14 39c-2 4-3 8-2 12" stroke-width="1.05" opacity=".62" {c}/>
 ''',
     "roll": '''
 <circle cx="35" cy="36" r="21" stroke-width="2.6" {c}/>
@@ -36,10 +38,10 @@ ART = {
 <path d="M35 9v7M35 56v7" stroke-width="1.15" opacity=".68" {c}/>
 ''',
     "shake": '''
-<circle cx="36" cy="17" r="7" stroke-width="2.35" {c}/>
-<path d="M28 25c-5 5-7 12-6 21l-3 16M44 25c5 5 7 12 6 21l3 16M27 35l-9 9M45 35l9 9M25 62h-8M47 62h8" stroke-width="2.2" {c}/>
-<path d="M10 22l7 5-7 5M62 22l-7 5 7 5M12 44l6 0M60 44l-6 0" stroke-width="1.8" {c}/>
-<path d="M21 29c-3 3-4 6-4 10M51 29c3 3 4 6 4 10" stroke-width="1" opacity=".66" {c}/>
+<path d="M29 15c-4 4-4 10 0 14 4 4 10 4 14 0 3-4 3-10-1-14-3-3-9-3-13 0z" stroke-width="2.2" {c}/>
+<path d="M29 31c-6 5-8 12-7 21l-3 10M42 31c6 5 8 12 7 21l3 10M27 40l-10 7M45 40l10 7M24 62h-8M48 62h8" stroke-width="2.3" {c}/>
+<path d="M10 21l7 5-7 5M62 21l-7 5 7 5M11 44l7 0M61 44l-7 0" stroke-width="1.7" {c}/>
+<path d="M22 33c-3 3-4 7-4 11M50 33c3 3 4 7 4 11" stroke-width="1.08" opacity=".66" {c}/>
 ''',
     "skin": '''
 <path d="M17 58c0-11 5-18 14-20 8-2 15 1 20 8 3 4 4 8 4 14" stroke-width="2.7" {c}/>
