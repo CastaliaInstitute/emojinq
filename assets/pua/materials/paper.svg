@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / paper" data-pua="U+F0606" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>materials / paper — simplified naturalist study</title>
-<path d="M15 20l39 5 4 32-39-5z" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 20l18 18 25-13M33 38l-14 14M33 38l25 19" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23 28l10 2M22 34l9 2" stroke-width="1.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 18l43 6v35l-43-6z" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 18l20 19 23-13M35 37l-16 13M35 37l23 22" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 29l9 2M22 35l9 2M21 42l8 2" stroke-width="1.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / clay" data-pua="U+F0600" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>materials / clay — simplified naturalist study</title>
-<path d="M21 22h30l-3 33c-1 5-8 8-12 8s-11-3-12-8z" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 22c0-4 5-6 18-6s18 2 18 6-5 6-18 6-18-2-18-6z" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24 39c7 3 17 3 25 0M24 49c7 3 17 3 25 0" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25 22h22l-2 8c8 5 10 13 8 22-2 8-9 12-17 12s-15-4-17-12c-2-9 1-17 8-22z" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 22c0-4 4-6 13-6s13 2 13 6-4 5-13 5-13-1-13-5z" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 45c9 4 21 4 30 0M23 55c8 3 18 3 26 0" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

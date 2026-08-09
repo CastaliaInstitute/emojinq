@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / thread" data-pua="U+F060A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>materials / thread — simplified naturalist study</title>
-<path d="M21 21h30v33c-2 6-8 9-15 9s-13-3-15-9z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21 21c0-4 7-6 15-6s15 2 15 6-7 6-15 6-15-2-15-6zM28 35c6 4 12 4 18 0M28 44c6 4 12 4 18 0" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M51 27c8 2 11 6 10 12-1 5-5 8-10 8" stroke-width="1.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 22c3-5 8-7 12-7s9 2 12 7v30c-3 5-7 8-12 8s-9-3-12-8z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 22c0 5 5 8 12 8s12-3 12-8M24 52c0-5 5-8 12-8s12 3 12 8M29 30v14M43 30v14" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M48 27c8 2 11 6 10 12-1 5-5 8-10 8" stroke-width="1.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
