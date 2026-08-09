@@ -1,12 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / builder" data-pua="U+F0C09" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
-  <title>people / builder — naturalist brush study</title>
-  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2.3" d="M 30 24 C 30 20 33 17 37 17 C 41 17 44 20 44 24 C 44 28 41 31 37 31 C 33 31 30 28 30 24 Z" pathLength="1" class="ink-stroke" />
-    <path stroke-width="1.1" d="M 32 22 C 35 20 39 20 42 22 M 34 27 C 36 28 39 28 41 27" pathLength="1" class="ink-stroke" />
-    <path stroke-width="2.7" d="M 21 58 C 22 47 27 39 34 36 C 39 34 45 37 49 42 C 53 47 54 53 54 58" pathLength="1" class="ink-stroke" />
-    <path stroke-width="2.1" d="M 29 41 L 20 49 L 15 45 M 45 41 L 53 48" pathLength="1" class="ink-stroke" />
-    <path stroke-width="2.4" d="M 15 45 L 12 35 M 53 48 L 60 42" pathLength="1" class="ink-stroke" />
-    <path stroke-width="2" d="M 10 33 L 15 35 L 17 31 M 58 40 L 62 42 L 64 38" pathLength="1" class="ink-stroke" />
-    <path stroke-width="1" d="M 17 60 C 28 58 46 58 58 60" pathLength="1" class="ink-stroke" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / builder" data-pua="U+F0C09" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-path-units="normalized" data-ink-animation="draw-v1">
+<title>people / builder — expressive brush study</title>
+<circle cx="29" cy="17" r="4.5" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M29 22c-6 7-7 15-4 25l-9 11h27l-8-11c3-10 1-18-6-25z" stroke-width="1.85" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M23 31c6 2 11 2 17 0M43 38l12-11M52 25l5 2M52 25l-2 5" stroke-width="1.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M12 61c15-3 31-3 48 0" stroke-width="1.0" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>

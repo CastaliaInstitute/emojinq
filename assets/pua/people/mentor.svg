@@ -1,12 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / mentor" data-pua="U+F0C47" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized">
-  <title>people / mentor — naturalist brush study</title>
-  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2.2" d="M 18 26 C 18 22 21 19 25 19 C 29 19 32 22 32 26 C 32 30 29 33 25 33 C 21 33 18 30 18 26 Z" pathLength="1" class="ink-stroke" />
-    <path stroke-width="1" d="M 21 25 C 23 23 27 23 29 25 M 22 29 C 24 31 26 31 28 29" pathLength="1" class="ink-stroke" />
-    <path stroke-width="2.6" d="M 10 59 C 11 48 16 40 23 36 C 28 34 33 35 38 39" pathLength="1" class="ink-stroke" />
-    <path stroke-width="2" d="M 50 32 C 50 28 53 25 57 25 C 61 25 64 28 64 32 C 64 36 61 39 57 39 C 53 39 50 36 50 32 Z" pathLength="1" class="ink-stroke" />
-    <path stroke-width="1.1" d="M 53 31 C 55 29 59 29 61 31 M 54 35 C 56 37 58 37 60 35" pathLength="1" class="ink-stroke" />
-    <path stroke-width="2.5" d="M 41 59 C 42 49 47 42 54 39 C 59 37 63 39 66 43" pathLength="1" class="ink-stroke" />
-    <path stroke-width="1.5" d="M 28 42 C 36 39 43 39 51 42 M 28 45 L 50 45" pathLength="1" class="ink-stroke" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / mentor" data-pua="U+F0C47" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-path-units="normalized" data-ink-animation="draw-v1">
+<title>people / mentor — expressive brush study</title>
+<circle cx="25" cy="19" r="4" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" /><circle cx="47" cy="25" r="4" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M25 24c-6 5-8 12-7 20M47 30c-5 4-6 10-5 16M19 44c5-3 10-3 15 0M42 46c5-3 10-3 15 0" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M31 30c5-2 9-2 14 1M33 27l4-5 5 4" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
+<path d="M14 60c14-3 30-3 45 0" stroke-width="1.0" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="ink-stroke" />
 </svg>
