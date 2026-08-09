@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / astronaut" data-pua="U+F0C05" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / astronaut — reviewed vector study</title>
-<path d="M24 28c-3-3-3-9 0-13 4-5 12-5 16 0 3 4 3 10 0 13" stroke-width="2.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M27 22c3 2 8 2 11 0M29 15c2 2 5 2 7 0" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23 29c-3 3-4 7-4 13l-3 8c-1 3 1 5 4 5h32c3 0 5-2 4-5l-3-8c0-6-1-10-4-13-6 4-20 4-26 0z" stroke-width="2.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24 34l-7 8-5 7M48 34l7 8 5 7M28 54l-3 9M44 54l3 9" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 42v12M31 47h10M57 24c7 4 10 9 11 16" stroke-width="1.1" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 23.989 27.952 c -3.018 -3.02 -3.067 -8.921 -0.057 -12.966 3.923 -4.964 12.059 -5.002 16.02 0.074 3.006 3.979 2.956 9.976 0.058 13.039" stroke-width="2.37" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 27.023 22.012 c 2.973 1.998 7.946 1.963 11.049 0.004 M 28.993 15.022 c 1.984 2.058 4.965 2.03 6.974 0.015" stroke-width="1.14" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 22.972 29.077 c -3.021 2.977 -4 7.042 -3.948 13.063 l -3.058 7.963 c -0.973 2.977 1.002 5.003 4.037 4.972 h 31.981 c 2.953 -0.021 5.056 -1.96 4.072 -5.04 l -3.002 -7.932 c -0.065 -6.022 -0.936 -10.044 -3.948 -12.999 -6.031 3.956 -20.041 4.004 -26.041 -0.014 z" stroke-width="2.83" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 24.042 34.067 l -6.999 7.991 -4.937 7.076 M 48.072 34.048 l 7.062 7.996 5.033 6.95 M 28.064 54.071 l -2.945 8.981 M 43.96 53.952 l 3.078 8.995" stroke-width="2.26" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 36.009 41.995 v 11.948 M 30.975 46.937 h 10.004 M 56.949 24.075 c 6.999 3.973 9.991 9.037 10.992 16.036" stroke-width="1.10" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

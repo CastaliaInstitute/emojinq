@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / artist" data-pua="U+F0C04" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / artist — reviewed vector study</title>
-<path d="M14 61V20h28v41" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M19 53l8-12 7 7 5-8M19 25h18M19 31h14" stroke-width="1.4" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="53" cy="21" r="7" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M48 29c-4 5-5 11-4 18l-3 14M57 29c4 5 5 11 4 18l3 14M46 40l-8 7M59 40l8-4" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M40 61h27M10 64h57" stroke-width="1" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 13.989 60.952 V 19.982 h 27.933 v 40.943" stroke-width="2.49" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 19.023 53.012 l 7.973 -12.002 6.946 6.963 5.049 -7.996 M 18.993 25.022 h 17.984 M 18.965 31.03 h 14.015" stroke-width="1.30" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<circle cx="53" cy="21" r="7" stroke-width="2.37" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 48.042 29.067 c -3.999 4.991 -4.937 11.076 -4.049 18.072 l -2.982 14.062 M 57.033 28.95 c 4.064 5.071 5.035 11.055 3.981 17.986 l 2.952 14.077 M 45.995 39.999 l -7.935 6.974 M 59.06 39.977 l 7.995 -3.921" stroke-width="2.38" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 40.009 60.995 h 26.948 M 9.975 63.937 h 57.004" stroke-width="1.10" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

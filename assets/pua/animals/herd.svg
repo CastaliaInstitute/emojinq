@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / herd" data-pua="U+F0003" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>animals / herd — simplified naturalist study</title>
-<path d="M7 48c1-8 7-12 15-11 6 1 9 5 10 11M27 48c1-8 7-12 15-11 6 1 9 5 10 11M47 48c1-7 6-10 12-9 4 1 6 4 7 9" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 40c-4-2-6-5-5-8 3 1 5 0 7-2M31 40c-4-2-6-5-5-8 3 1 5 0 7-2M51 40c-3-2-4-4-3-7 2 1 4 0 6-1" stroke-width="1.75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13 48v11M25 48v11M34 48v11M46 48v11M54 48v11M63 48v11M7 61c18-2 39-2 59 0" stroke-width="1.4" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 6.989 47.952 c 0.982 -8.02 6.933 -11.921 14.943 -10.966 5.923 1.036 9.059 4.998 10.02 11.074 M 26.979 47.956 c 1.058 -7.961 6.969 -12.045 15.058 -11.027 5.925 0.942 9.012 5.019 10.068 11.032 M 46.969 47.94 c 1.052 -6.948 5.974 -10.055 12.077 -8.989 3.952 1.012 5.967 3.973 6.992 9.014" stroke-width="2.71" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 10.023 40.012 c -4.027 -2.002 -6.054 -5.037 -4.951 -7.996 3.035 0.993 5.022 -0.034 6.984 -1.942 M 31.03 39.974 c -3.966 -2.048 -5.934 -5.044 -5.011 -7.983 3.056 0.968 5.027 0.071 7.022 -2.075 M 50.985 40.032 c -2.968 -1.966 -3.958 -3.974 -3.014 -6.995 2.001 0.995 3.992 -0.077 6.012 -1.076" stroke-width="1.69" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 12.972 48.077 v 10.979 M 25 48.042 v 11.063 M 33.942 47.963 v 11.027 M 46.002 48.003 v 10.972 M 53.981 47.986 v 10.979 M 63.04 48.072 v 10.989 M 7.068 60.974 c 17.978 -1.936 38.956 -1.948 59.001 -0.031" stroke-width="1.32" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

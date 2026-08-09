@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / story" data-pua="U+F10EA" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>science / story — reviewed vector study</title>
-<path d="M13 20c8-4 15-3 23 2v37c-8-5-15-6-23-2zM59 20c-8-4-15-3-23 2v37c8-5 15-6 23-2z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 29h13M18 35h12M18 41h10M54 29H41M54 35H42M54 41H44" stroke-width="1.2" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 22v37M16 62h40" stroke-width="1.1" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 12.989 19.952 c 7.982 -4.02 14.933 -2.921 22.943 2.034 v 37.036 c -8.002 -4.98 -14.926 -5.994 -23.021 -2.044 z M 59.039 19.969 c -7.942 -4.027 -15.075 -3.058 -22.988 2.019 v 37.032 c 7.969 -5.06 15.067 -5.948 23.052 -2.026 z" stroke-width="2.34" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 18.023 29.012 h 12.973 M 17.946 34.963 h 12.004 M 17.993 41.022 h 9.984 M 53.965 29.03 H 41.015 M 53.952 35.066 H 41.989 M 54.056 40.968 H 44.071" stroke-width="1.20" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 35.972 22.077 v 36.979 M 16 62.042 h 40.063" stroke-width="1.15" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

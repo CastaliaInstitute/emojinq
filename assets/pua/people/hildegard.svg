@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / hildegard" data-pua="U+F0C34" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / hildegard — reviewed vector study</title>
-<path d="M17 61c1-10 7-17 16-17s15 7 16 17" stroke-width="2.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M27 35c-3-5-2-11 2-15 5-4 12-2 15 2 3 5 1 10-2 14-4 4-12 4-15-1z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28 28c3 2 7 2 11 0M31 35c2 1 5 1 7 0" stroke-width="1.1" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M22 48h28v13H22zM28 53h16M28 57h12" stroke-width="1.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M52 39c6-7 10-8 12-4-3 2-6 5-8 10" stroke-width="1.4" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 16.989 60.952 c 0.982 -10.02 6.933 -16.921 15.943 -16.966 s 15.036 7.059 15.998 17.02" stroke-width="2.79" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 27.023 35.012 c -3.027 -5.002 -2.054 -11.037 2.049 -14.996 5.035 -4.007 12.022 -2.034 14.984 2.058 2.965 5.03 0.974 10.015 -1.966 13.952 -3.934 3.956 -12.011 4.017 -14.944 -1.032 z" stroke-width="2.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 27.972 28.077 c 2.979 1.977 7 2.042 11.052 0.063 M 30.942 34.963 c 2.027 0.977 5.002 1.003 7.037 -0.028" stroke-width="0.98" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 22.042 48.067 h 28.001 v 13.063 H 21.951 z M 28.018 53.062 h 16.033 M 27.999 57.064 h 12.035" stroke-width="1.79" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 52.009 38.995 c 5.948 -6.932 9.975 -8.063 11.99 -3.996 -3 1.949 -5.925 4.999 -8.001 9.973" stroke-width="1.27" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

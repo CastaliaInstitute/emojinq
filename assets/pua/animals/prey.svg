@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / prey" data-pua="U+F0008" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>animals / prey — simplified naturalist study</title>
-<path d="M18 51c-4-7-2-15 5-19 8-4 18 0 22 8 3 7 0 13-7 16-7 3-16 1-20-5z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21 39c-3-6-2-15 1-20 4 2 6 6 6 11 3-7 7-10 12-10 1 6-1 11-6 14M45 45c3 2 5 2 7 1" stroke-width="2.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M26 53l-2 8M40 53l3 7M17 48l-7 3M44 50l6 3" stroke-width="1.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 17.989 50.952 c -4.018 -7.02 -2.067 -14.921 4.943 -18.966 7.923 -3.964 18.059 -0.002 22.02 8.074 3.006 6.979 -0.044 12.976 -6.942 16.039 -7.031 2.955 -15.942 0.973 -20.075 -5.058 z" stroke-width="2.78" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 21.023 39.012 c -3.027 -6.002 -2.054 -15.037 1.049 -19.996 4.035 1.993 6.022 5.966 5.984 11.058 2.965 -6.97 6.974 -9.985 12.034 -10.048 1.066 5.956 -1.011 11.017 -5.944 13.968 M 45.071 45.022 c 3.037 1.985 5.032 2.052 7.032 1.034" stroke-width="2.13" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 25.972 53.077 l -2.021 7.977 M 40.042 53.052 l 3.058 6.942 M 17.038 48.027 l -6.998 3.003 M 43.972 49.968 l 5.986 2.953" stroke-width="1.33" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / ice" data-pua="U+F1204" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>weather sky / ice — simplified naturalist study</title>
-<path d="M18 27l14-13 21 7 1 23-18 14-20-8z" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 27l19 7 16-13M37 34v24M27 23l10 11" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11 59c8-3 17-3 25 0M45 59c6-2 11-2 16 0" stroke-width="1.05" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 17.989 26.952 l 13.982 -13.02 20.933 7.079 0.943 23.034 -18.077 14.036 -19.941 -8.002 z" stroke-width="2.38" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 18.023 27.012 l 18.973 6.998 15.946 -13.037 M 37.004 34.035 v 24.022 M 26.984 23.058 l 10.03 10.974" stroke-width="1.21" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 10.972 59.077 c 7.979 -3.023 17 -2.958 25.052 0.063 M 44.942 58.963 c 6.027 -2.023 11.002 -1.997 16.037 -0.028" stroke-width="1.14" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

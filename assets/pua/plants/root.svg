@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / root" data-pua="U+F0E0A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>plants / root — reviewed vector study</title>
-<path d="M36 12c-1 11-2 20-2 29 0 7-4 10-10 13M35 41c6 5 11 9 17 12M31 45c-5 5-9 8-15 10M39 45c4 6 8 10 12 13" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M35 22l-8 7M36 29l9 7M31 50l-8 9M43 52l8 7" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 62c9-3 18-3 27 0 9-3 18-3 25 0" stroke-width="1.1" opacity=".64" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 35.989 11.952 c -1.018 10.98 -2.067 20.079 -2.057 29.034 -0.077 7.036 -3.941 9.998 -9.98 13.074 M 34.979 40.956 c 6.058 5.039 10.969 8.955 17.058 11.973 M 30.942 45.012 c -4.932 5.032 -8.975 7.969 -15.06 10.067 M 39.052 44.974 c 4.077 6.011 7.952 10.012 11.967 12.973" stroke-width="2.71" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 35.023 22.012 l -8.027 6.998 M 35.963 29.049 l 9.035 6.993 M 30.966 49.984 l -8.035 9.03 M 43.015 52.034 l 8.066 6.956" stroke-width="1.09" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 9.972 62.077 c 8.979 -3.023 18 -2.958 27.052 0.063 9.058 -3.058 17.963 -2.962 25.027 -0.023" stroke-width="1.08" opacity=".64" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

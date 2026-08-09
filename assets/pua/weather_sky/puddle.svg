@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / puddle" data-pua="U+F1206" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>weather sky / puddle — simplified naturalist study</title>
-<path d="M9 48c7-7 18-8 27-5 8 3 17 2 27-3" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 55c8-4 18-4 27-1 8 2 16 1 22-2" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M40 22c0 5-4 8-4 12 0 3 2 5 5 5s5-2 5-5c0-4-6-7-6-12z" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 8.989 47.952 c 6.982 -7.02 17.933 -7.921 26.943 -4.966 7.923 3.036 17.059 1.998 27.02 -2.926" stroke-width="1.91" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 16.023 55.012 c 7.973 -4.002 17.946 -4.037 27.049 -0.996 8.035 1.993 16.022 0.966 21.984 -1.942" stroke-width="1.44" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 39.972 22.077 c -0.021 4.977 -4 8.042 -3.948 12.063 0.058 2.942 1.963 5.038 5.027 4.977 s 5.003 -1.963 4.972 -5.032 c -0.014 -4.047 -6.021 -6.944 -5.96 -11.928 z" stroke-width="1.29" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

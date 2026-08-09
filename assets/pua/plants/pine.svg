@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / pine" data-pua="U+F0E09" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>plants / pine — reviewed vector study</title>
-<path d="M36 11L22 34h8L18 48h12L20 61h32L42 48h12L42 34h8z" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 11v50" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M30 22l6 4 6-4M27 35l9 5 9-5M25 48l11 6 11-6" stroke-width="1.05" opacity=".74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 35.989 10.952 L 21.982 33.98 h 8.079 L 18.034 47.923 h 12.059 L 20.02 61.074 h 31.979 L 41.976 48.058 h 11.969 L 42.058 33.973 h 7.942 z" stroke-width="2.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 36.023 11.012 v 49.973" stroke-width="1.47" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 29.972 22.077 l 5.979 3.977 6 -3.958 M 27.063 35.058 l 8.963 5.038 9.027 -5.023 M 25.003 48.037 l 10.968 5.981 10.986 -6.047" stroke-width="0.97" opacity=".74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

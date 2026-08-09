@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / frost" data-pua="U+F1202" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>weather sky / frost — simplified naturalist study</title>
-<path d="M36 12v48M15 24l42 24M15 48l42-24M25 15l11 13 11-13M25 57l11-13 11 13M16 36h40" stroke-width="1.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 12l-3 5M36 12l3 5M15 24l6 1M15 24l3 5M15 48l6-1M15 48l3-5M57 24l-6 1M57 24l-3 5M57 48l-6-1M57 48l-3-5" stroke-width="1.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 35.989 11.952 v 47.982 M 14.933 24.079 l 42.034 23.923 M 15.059 47.998 l 42.074 -23.994 M 24.956 14.976 l 11.039 12.969 10.955 -12.942 M 24.925 56.942 l 11.019 -12.932 11.032 13.025 M 15.94 36.067 h 40.052" stroke-width="1.75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 36.023 12.012 l -3.027 4.998 M 35.963 12.049 l 3.035 4.993 M 14.966 23.984 l 5.965 1.03 M 15.015 24.034 l 3.066 4.956 M 15.017 48.056 l 6.027 -0.929 M 14.925 48.037 l 3.032 -4.948 M 57.034 24.042 l -6.014 1.005 M 56.995 23.992 l -2.988 4.924 M 56.924 48.033 l -6.033 -0.958 M 56.951 48.041 l -3.054 -5.036" stroke-width="1.02" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

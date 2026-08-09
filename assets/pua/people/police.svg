@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / police" data-pua="U+F0C55" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / police — reviewed vector study</title>
-<path d="M36 14l20 7v16c0 12-8 21-20 28-12-7-20-16-20-28V21z" stroke-width="2.4" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28 35c2-6 5-9 8-9s6 3 8 9M25 51c3-8 7-12 11-12s8 4 11 12M30 22h12" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 35.989 13.952 l 19.982 6.98 v 16.079 c 0.034 11.923 -7.964 21.059 -20.002 28.02 -11.926 -6.994 -20.021 -16.044 -20.024 -27.942 V 20.969 z" stroke-width="2.06" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 28.023 35.012 c 1.973 -6.002 4.946 -9.037 8.049 -8.996 s 5.993 3.022 7.966 8.984 M 24.965 51.03 c 3.015 -7.966 6.952 -11.934 10.956 -12.011 s 8.056 3.968 11.027 12.071 M 29.925 22.037 h 12.032" stroke-width="1.43" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

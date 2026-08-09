@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / humility" data-pua="U+F0C35" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / humility — reviewed vector study</title>
-<circle cx="36" cy="24" r="7" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M29 30c-6 5-8 12-7 21l-4 11M43 30c6 5 8 12 7 21l4 11M28 40l-9 6M44 40l9 6" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M31 23c3 2 7 2 10 0M32 28c2 1 5 1 8 0" stroke-width="1.15" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 62h42" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="36" cy="24" r="7" stroke-width="2.79" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 29.023 30.012 c -6.027 4.998 -8.054 11.963 -6.951 21.004 l -4.007 11.022 M 42.984 30.058 c 6.03 4.974 8.015 12.034 6.952 21.066 l 3.989 11.017 M 27.968 40.027 l -8.978 5.925 M 43.985 40.032 l 9.032 6.034" stroke-width="2.68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 30.972 23.077 c 2.979 1.977 7 2.042 10.052 0.063 M 31.942 27.963 c 2.027 0.977 5.002 1.003 8.037 -0.028" stroke-width="1.11" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 15.042 62.067 h 42.001" stroke-width="0.87" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

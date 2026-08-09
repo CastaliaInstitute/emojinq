@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / maimonides" data-pua="U+F0C43" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / maimonides — reviewed vector study</title>
-<circle cx="36" cy="20" r="7" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M29 27c-5 5-7 12-6 21l-4 13M43 27c5 5 7 12 6 21l4 13M28 39l-9 7M44 39l9 7" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23 47h26v13H23zM27 51h18M27 56h13" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M30 25c3 2 7 2 11 0M32 31c2 1 5 1 8 0" stroke-width="1.05" opacity=".66" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="36" cy="20" r="7" stroke-width="2.74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 29.023 27.012 c -5.027 4.998 -7.054 11.963 -5.951 21.004 l -4.007 13.022 M 42.984 27.058 c 5.03 4.974 7.015 12.034 5.952 21.066 l 3.989 13.017 M 27.968 39.027 l -8.978 6.925 M 43.985 39.032 l 9.032 7.034" stroke-width="2.59" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 22.972 47.077 h 25.979 v 13 H 23.052 z M 26.942 50.963 h 18.027 M 27.002 56.003 h 12.972" stroke-width="1.96" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 30.042 25.067 c 3.001 1.991 7.063 2.076 10.951 0.072 M 32.018 31.062 c 2.033 0.95 4.999 1.064 8.071 0.035" stroke-width="1.20" opacity=".66" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / current" data-pua="U+F1026" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>science / current — reviewed vector study</title>
-<path d="M10 38c8-10 15-10 23 0s15 10 23 0" stroke-width="2.4" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 48c8-10 15-10 23 0s15 10 23 0" stroke-width="1.25" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 27l6 0-3-4M56 27l-6 0 3-4" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M32 18c3-4 7-4 10 0M32 58c3 4 7 4 10 0" stroke-width="1.1" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 9.989 37.952 c 7.982 -10.02 14.933 -9.921 22.943 0.034 s 15.036 10.059 22.998 0.02" stroke-width="2.36" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 10.023 48.012 c 7.973 -10.002 14.946 -10.037 23.049 0.004 s 14.993 10.022 22.966 -0.016" stroke-width="1.41" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 15.972 27.077 l 5.979 -0.023 -3 -3.958 M 56.063 27.058 l -6.037 0.038 3.027 -4.023" stroke-width="1.56" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 32.042 18.067 c 3.001 -4.009 7.063 -3.924 9.951 0.072 M 32.018 58.062 c 3.033 3.95 6.999 4.064 10.071 0.035" stroke-width="1.11" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

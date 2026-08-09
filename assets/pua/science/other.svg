@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / other" data-pua="U+F10A6" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>science / other — reviewed vector study</title>
-<path d="M36 12c12 8 17 19 14 31-2 10-8 17-14 20-6-3-12-10-14-20-3-12 2-23 14-31z" stroke-width="2.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 15c-2 10-2 22 0 45M28 22c5 4 11 5 17 2M24 33c7 4 15 5 23 2M25 45c7 3 14 4 22 1" stroke-width="1.25" opacity=".74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 35.989 11.952 c 11.982 7.98 16.933 19.079 13.943 31.034 -2.077 10.036 -7.941 16.998 -13.98 20.074 -5.994 -3.021 -12.044 -10.024 -13.942 -19.961 -3.031 -12.045 2.058 -23.027 13.925 -31.058 z" stroke-width="2.34" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 36.023 15.012 c -2.027 9.998 -2.054 21.963 0.049 45.004 M 27.993 22.022 c 4.984 4.058 10.965 5.03 16.974 2.015 M 23.952 33.066 c 6.989 4.017 15.056 4.968 23.027 2.071 M 24.925 45.037 c 7.032 3.052 14.032 4.034 22.042 1.026" stroke-width="1.10" opacity=".74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

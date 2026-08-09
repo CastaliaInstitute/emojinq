@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="flora / maple" data-pua="U+F1413" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>flora / maple — reviewed vector study</title>
-<path d="M36 61V30M36 43l-15-9M36 49l15-12M36 37l-7-13M36 37l8-13" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M29 24l-5-5 8 1 4-9 4 9 8-1-5 5 4 7-9-3-6 3z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21 34l-6-5M51 37l7-5M28 50l-8 6M44 52l8 5" stroke-width="1.2" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 63h40" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 35.989 60.952 V 29.982 M 35.933 43.079 l -14.966 -9.077 M 36.059 48.998 l 15.074 -11.994 M 35.956 36.976 l -6.961 -13.031 M 36.058 36.973 l 7.942 -12.988" stroke-width="1.96" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 29.023 24.012 l -5.027 -5.002 7.946 0.963 4.049 -8.996 4.035 8.993 8.022 -1.034 -5.016 5.058 3.965 7.03 -9.026 -2.985 -5.966 2.952 z" stroke-width="2.44" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 20.972 34.077 l -6.021 -5.023 M 51.042 37.052 l 7.058 -5.058 M 28.038 50.027 l -7.998 6.003 M 43.972 51.968 l 7.986 4.953" stroke-width="1.46" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 16.042 63.067 h 40.001" stroke-width="1.02" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / firefighter" data-pua="U+F0C27" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / firefighter — reviewed vector study</title>
-<path d="M36 17c-7 8-11 13-11 22 0 11 5 19 11 23 6-4 11-12 11-23 0-9-4-14-11-22z" stroke-width="2.4" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28 31c2-4 5-7 8-10 3 3 6 6 8 10M28 44c4-3 12-3 16 0M30 51c4-2 8-2 12 0" stroke-width="1.35" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 60c5-3 11-4 16-4s11 1 16 4M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 35.989 16.952 c -7.018 7.98 -11.067 13.079 -11.057 22.034 -0.077 11.036 5.059 18.998 11.02 23.074 6.006 -4.021 10.956 -12.024 11.058 -22.961 -0.031 -9.045 -3.942 -14.027 -11.075 -22.058 z" stroke-width="2.03" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 28.023 31.012 c 1.973 -4.002 4.946 -7.037 8.049 -9.996 3.035 2.993 6.022 5.966 7.984 10.058 M 28.03 43.974 c 4.034 -3.048 12.066 -3.044 15.989 0.017 M 29.968 51.027 c 4.022 -2.075 8.037 -2.015 12.032 0.052" stroke-width="1.40" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 19.972 60.077 c 4.979 -3.023 11 -3.958 16.052 -3.937 s 10.942 0.963 16.038 4.027 M 14.002 64.003 h 43.972" stroke-width="1.00" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

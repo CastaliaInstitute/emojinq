@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / safety" data-pua="U+F0C62" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / safety — reviewed vector study</title>
-<path d="M36 12l22 8v17c0 13-9 22-22 27-13-5-22-14-22-27V20z" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="36" cy="31" r="6" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24 51c1-9 5-13 12-13s11 4 12 13M31 31c1 2 3 3 5 3s4-1 5-3" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 17v7" stroke-width="1.1" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 35.989 11.952 l 21.982 7.98 v 17.079 c 0.034 12.923 -8.964 22.059 -22.002 27.02 -12.926 -4.994 -22.021 -14.044 -22.024 -26.942 V 19.969 z" stroke-width="2.18" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<circle cx="36" cy="31" r="6" stroke-width="1.61" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 23.972 51.077 c 0.979 -9.023 5 -12.958 12.052 -12.937 s 10.942 3.963 12.038 13.027 M 31.002 31.003 c 0.972 1.968 2.981 2.986 4.953 2.979 s 4.04 -0.928 4.96 -3.011" stroke-width="1.79" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 36.042 17.067 v 7.001" stroke-width="0.93" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

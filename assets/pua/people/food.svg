@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / food" data-pua="U+F0C28" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / food — reviewed vector study</title>
-<path d="M18 41c0-8 8-13 18-13s18 5 18 13-8 13-18 13-18-5-18-13z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23 41c4-4 22-4 26 0M26 48c6 3 14 3 20 0M36 28V18M31 18h10" stroke-width="1.35" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 60c7 3 14 4 22 4s15-1 22-4" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 17.989 40.952 c -0.018 -8.02 7.933 -12.921 17.943 -12.966 s 18.036 5.059 17.998 13.02 -7.926 13.006 -18.021 12.956 -18.024 -4.942 -17.961 -13.031 z" stroke-width="2.70" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 23.023 41.012 c 3.973 -4.002 21.946 -4.037 26.049 0.004 M 25.993 48.022 c 5.984 3.058 13.965 3.03 19.974 0.015 M 35.952 28.066 V 17.989 M 31.056 17.968 h 10.071" stroke-width="1.59" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 13.972 60.077 c 6.979 2.977 14 4.042 22.052 4.063 s 14.942 -1.037 22.038 -3.973" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

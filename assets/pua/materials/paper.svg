@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / paper" data-pua="U+F0606" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>materials / paper — simplified naturalist study</title>
-<path d="M15 18l43 6v35l-43-6z" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 18l20 19 23-13M35 37l-16 13M35 37l23 22" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23 29l9 2M22 35l9 2M21 42l8 2" stroke-width="1.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 14.989 17.952 l 42.982 5.98 v 35.079 l -42.966 -6.077 z" stroke-width="2.52" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 15.023 18.012 l 19.973 18.998 22.946 -13.037 M 35.004 37.035 l -15.978 12.966 M 35.058 36.965 l 22.974 22.015" stroke-width="1.51" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 22.972 29.077 l 8.979 1.977 M 22.042 35.052 l 9.058 1.942 M 21.038 42.027 l 8.002 2.003" stroke-width="1.12" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

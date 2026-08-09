@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / work" data-pua="U+F0C7D" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / work — reviewed vector study</title>
-<circle cx="26" cy="19" r="7" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 27c-5 5-7 12-6 21l-4 13M32 27c5 4 7 10 7 17l8 10M20 39l-9 7M32 39l14-5" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M39 44h21v14H39zM42 40h15" stroke-width="1.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M43 49h13M43 54h9M10 62h53" stroke-width="1.05" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="26" cy="19" r="7" stroke-width="2.74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 20.023 27.012 c -5.027 4.998 -7.054 11.963 -5.951 21.004 l -4.007 13.022 M 31.984 27.058 c 5.03 3.974 7.015 10.034 6.952 17.066 l 7.989 10.017 M 19.968 39.027 l -8.978 6.925 M 31.985 39.032 l 14.032 -4.966" stroke-width="1.98" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 38.972 44.077 h 20.979 v 14 H 39.052 z M 41.942 39.963 h 15.027" stroke-width="1.91" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 43.042 49.067 h 13.001 M 43.063 54.076 h 9.072 M 10.018 62.062 h 53.033" stroke-width="1.18" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

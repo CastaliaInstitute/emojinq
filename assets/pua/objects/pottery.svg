@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / pottery" data-pua="U+F084B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>objects / pottery — reviewed vector study</title>
-<path d="M25 19h22l3 11c1 14-3 25-14 31-11-6-15-17-14-31z" stroke-width="2.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M25 19c2-4 20-4 22 0M23 30c7 3 19 3 26 0M27 42c5 2 13 2 18 0M30 51c4 2 8 2 12 0" stroke-width="1.35" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 24.989 18.952 h 21.982 l 2.933 11.079 c 1.034 13.923 -2.964 25.059 -14.002 31.02 -10.926 -5.994 -15.021 -17.044 -14.024 -30.942 z" stroke-width="2.26" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 25.023 19.012 c 1.973 -4.002 19.946 -4.037 22.049 0.004 M 22.993 30.022 c 6.984 3.058 18.965 3.03 25.974 0.015 M 26.952 42.066 c 4.989 2.017 13.056 1.968 18.027 0.071 M 29.925 51.037 c 4.032 2.052 8.032 2.034 12.042 0.026" stroke-width="1.43" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

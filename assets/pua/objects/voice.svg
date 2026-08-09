@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / voice" data-pua="U+F087A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>objects / voice — reviewed vector study</title>
-<path d="M18 51c-4-5-5-12-2-18 3-7 9-11 16-11 9 0 16 7 16 16 0 8-6 14-14 16l-6 8-1-9c-4 0-7-1-9-2z" stroke-width="2.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M29 31c4 3 8 3 12 0M30 39c3 2 7 2 10 0" stroke-width="1.25" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M52 30c5 4 5 10 0 14M58 25c6 7 6 17 0 24M62 20c7 10 7 25 0 35" stroke-width="1.75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 64h49" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 17.989 50.952 c -4.018 -5.02 -5.067 -11.921 -2.057 -17.966 2.923 -6.964 9.059 -11.002 16.02 -10.926 9.006 -0.021 15.956 6.976 16.058 16.039 -0.031 7.955 -5.942 13.973 -14.075 15.942 l -5.981 8.068 -0.968 -8.975 c -4.06 0.067 -6.948 -0.948 -9.026 -2.055 z" stroke-width="2.39" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 29.023 31.012 c 3.973 2.998 7.946 2.963 12.049 0.004 M 29.993 39.022 c 2.984 2.058 6.965 2.03 9.974 0.015" stroke-width="1.40" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 51.972 30.077 c 4.979 3.977 5 10.042 0.052 14.063 M 57.942 24.963 c 6.027 6.977 6.002 17.003 0.037 23.972 M 61.981 19.986 c 6.979 10.056 7.04 25.072 -0.04 34.989" stroke-width="1.73" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 14.042 64.067 h 49.001" stroke-width="1.13" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

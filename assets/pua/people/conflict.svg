@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / conflict" data-pua="U+F0C13" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / conflict — reviewed vector study</title>
-<path d="M31 19c-4-4-10-4-14 0-3 3-3 8 0 11l5 4-5 5c-3 3-3 8 0 11 4 4 10 4 14 0l5-5" stroke-width="2.6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M41 19c4-4 10-4 14 0 3 3 3 8 0 11l-5 4 5 5c3 3 3 8 0 11-4 4-10 4-14 0l-5-5" stroke-width="2.6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M34 30l4 4-4 4 4 4-4 4M38 34l4-4M38 42l4 4" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M27 24c2 1 4 1 6 0M45 24c-2 1-4 1-6 0" stroke-width="1.15" opacity=".75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 30.989 18.952 c -4.018 -4.02 -10.067 -3.921 -14.057 0.034 -3.077 3.036 -2.941 7.998 0.02 11.074 l 4.979 3.956 -5.024 5.058 c -3.031 2.955 -2.942 7.973 -0.075 10.942 4.012 4.019 10.068 4.032 14.025 -0.031 l 5.067 -4.948" stroke-width="3.02" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 41.023 19.012 c 3.973 -4.002 9.946 -4.037 14.049 0.004 3.035 2.993 3.022 7.966 -0.016 11.058 l -4.97 3.974 5.015 5.034 c 3.066 2.956 2.989 8.017 0.056 10.968 -3.973 4.071 -9.978 3.925 -13.963 -0.015 l -4.948 -4.968" stroke-width="2.87" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 33.972 30.077 l 3.979 3.977 -4 4.042 4.052 4.063 -3.942 3.942 M 38.038 34.027 l 4.002 -3.997 M 37.972 41.968 l 3.986 3.953" stroke-width="2.10" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 27.042 24.067 c 2.001 0.991 4.063 1.076 5.951 0.072 M 45.018 24.062 c -1.967 0.95 -4.001 1.064 -5.929 0.035" stroke-width="1.38" opacity=".75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

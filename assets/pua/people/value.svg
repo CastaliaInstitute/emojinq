@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / value" data-pua="U+F0C79" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / value — reviewed vector study</title>
-<circle cx="36" cy="20" r="7" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M29 27c-5 5-7 12-6 21l-4 13M43 27c5 5 7 12 6 21l4 13M28 39l-9 7M44 39l9 7" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28 48c3-4 7-6 12-6s9 2 12 6" stroke-width="1.35" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="36" cy="52" r="6" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 48v8M33 52h6" stroke-width="1.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="36" cy="20" r="7" stroke-width="2.74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 29.023 27.012 c -5.027 4.998 -7.054 11.963 -5.951 21.004 l -4.007 13.022 M 42.984 27.058 c 5.03 4.974 7.015 12.034 5.952 21.066 l 3.989 13.017 M 27.968 39.027 l -8.978 6.925 M 43.985 39.032 l 9.032 7.034" stroke-width="2.59" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 27.972 48.077 c 2.979 -4.023 7 -5.958 12.052 -5.937 s 8.942 1.963 12.038 6.027" stroke-width="1.15" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<circle cx="36" cy="52" r="6" stroke-width="1.51" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 36.009 47.995 v 7.948 M 32.975 51.937 h 6.004" stroke-width="1.16" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

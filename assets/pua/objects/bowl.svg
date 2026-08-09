@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / bowl" data-pua="U+F0807" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>objects / bowl — reviewed vector study</title>
-<path d="M17 29h38c-1 17-8 27-19 27S18 46 17 29z" stroke-width="2.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M17 29c0-6 8-10 19-10s19 4 19 10-8 10-19 10-19-4-19-10zM25 45c6 3 14 3 22 0" stroke-width="1.35" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 16.989 28.952 h 37.982 c -1.067 17.079 -8.057 27.034 -19.077 27.036 S 17.998 46.02 17.074 29.006 z" stroke-width="2.62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 17.023 29.012 c -0.027 -6.002 7.946 -10.037 19.049 -9.996 s 18.993 4.022 18.966 9.984 -7.942 9.965 -18.97 9.974 -18.985 -3.966 -19.048 -9.934 z M 25.017 45.056 c 6.027 3.071 14.022 2.925 22.037 -0.015" stroke-width="1.31" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

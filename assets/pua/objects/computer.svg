@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / computer" data-pua="U+F0813" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>objects / computer — reviewed vector study</title>
-<rect x="14" y="14" width="44" height="31" rx="3" stroke-width="2.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 19h36v21H18zM29 55h14M36 45v10M24 60h24" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23 51h26l-2 4H25z" stroke-width="1.15" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M22 24c5-3 10-3 15 0M22 30h12M22 35h8" stroke-width="1.1" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="14" y="14" width="44" height="31" rx="3" stroke-width="3.33" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 18.023 19.012 h 35.973 v 20.946 H 18.049 z M 28.993 55.022 h 13.984 M 35.965 45.03 v 10.015 M 23.952 60.066 h 23.989" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 22.972 51.077 h 25.979 l -2 4.042 H 25.063 z" stroke-width="0.97" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 22.042 24.067 c 5.001 -3.009 10.063 -2.924 14.951 0.072 M 22.018 30.062 h 12.033 M 21.999 35.064 h 8.035" stroke-width="0.99" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

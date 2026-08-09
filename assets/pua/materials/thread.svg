@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / thread" data-pua="U+F060A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>materials / thread — simplified naturalist study</title>
-<path d="M24 22c3-5 8-7 12-7s9 2 12 7v30c-3 5-7 8-12 8s-9-3-12-8z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24 22c0 5 5 8 12 8s12-3 12-8M24 52c0-5 5-8 12-8s12 3 12 8M29 30v14M43 30v14" stroke-width="1.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M48 27c8 2 11 6 10 12-1 5-5 8-10 8" stroke-width="1.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 23.989 21.952 c 2.982 -5.02 7.933 -6.921 11.943 -6.966 s 9.036 2.059 11.998 7.02 v 30.006 c -3.044 4.976 -6.942 8.039 -12.031 7.955 s -9.027 -3.075 -12.058 -7.988 z" stroke-width="2.36" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 24.023 22.012 c -0.027 4.998 4.946 7.963 12.049 8.004 s 11.993 -2.978 11.966 -8.016 M 23.965 52.03 c 0.015 -4.966 4.952 -7.934 11.956 -8.011 s 12.056 2.968 12.027 8.071 M 28.925 30.037 v 14.032 M 43.032 30.034 v 14.026" stroke-width="1.17" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 47.972 27.077 c 7.979 1.977 11 6.042 10.052 12.063 -0.942 4.942 -5.037 8.038 -9.973 7.977" stroke-width="1.67" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

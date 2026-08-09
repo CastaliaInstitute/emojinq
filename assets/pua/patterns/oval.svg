@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / oval" data-pua="U+F0A0D" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>patterns / oval — reviewed vector study</title>
-<path d="M13 37c0-11 10-19 24-19s24 8 24 19-10 19-24 19-24-8-24-19z" stroke-width="2.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 37c2-7 9-12 19-12s17 5 19 12c-2 7-9 12-19 12s-17-5-19-12z" stroke-width="1.2" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 12.989 36.952 c -0.018 -11.02 9.933 -18.921 23.943 -18.966 s 24.036 8.059 23.998 19.02 -9.926 19.006 -24.021 18.956 -24.024 -7.942 -23.961 -19.031 z" stroke-width="2.90" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 18.023 37.012 c 1.973 -7.002 8.946 -12.037 19.049 -11.996 s 16.993 5.022 18.966 11.984 c -2.035 7.03 -9.026 12.015 -18.966 11.952 s -17.044 -5.011 -18.983 -11.944 z" stroke-width="1.42" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

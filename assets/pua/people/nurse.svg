@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / nurse" data-pua="U+F0C4E" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / nurse — reviewed vector study</title>
-<path d="M24 21c3-7 21-7 24 0v19c0 11-5 18-12 22-7-4-12-11-12-22z" stroke-width="2.4" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 15v12M30 21h12M29 36h14M31 45c3-2 7-2 10 0M14 64h44" stroke-width="1.35" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M27 54c3-3 15-3 18 0" stroke-width="1.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 23.989 20.952 c 2.982 -7.02 20.933 -6.921 23.943 0.034 v 19.036 c -0.002 11.02 -4.926 18.006 -12.021 21.956 -7.024 -3.942 -11.961 -11.031 -12.045 -21.942 z" stroke-width="2.02" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 36.023 15.012 v 11.973 M 29.946 20.963 h 12.004 M 28.993 36.022 h 13.984 M 30.965 45.03 c 3.015 -1.966 6.952 -1.934 9.956 -0.011 M 14.056 63.968 h 44.071" stroke-width="1.52" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 26.972 54.077 c 2.979 -3.023 15 -2.958 18.052 0.063" stroke-width="0.96" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

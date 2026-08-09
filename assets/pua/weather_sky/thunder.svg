@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / thunder" data-pua="U+F120A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>weather sky / thunder — simplified naturalist study</title>
-<path d="M10 35c-2-7 4-12 11-12 3-7 12-9 17-3 8-3 16 2 16 9 6 1 8 7 5 11H17c-4 0-7-2-7-5z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M39 34l-8 13h7l-4 13 13-18h-7l5-8" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 18l5-4M55 16l5 3" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 9.989 34.952 c -2.018 -7.02 3.933 -11.921 10.943 -11.966 2.923 -6.964 12.059 -9.002 17.02 -2.926 8.006 -3.021 15.956 1.976 16.058 9.039 5.969 0.955 8.058 6.973 4.925 10.942 H 17.019 c -3.968 0.025 -7.031 -2.06 -6.933 -4.948 z" stroke-width="2.73" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 39.023 34.012 l -8.027 12.998 h 6.963 l -3.996 13.035 12.993 -17.978 h -7.016 l 4.965 -7.97" stroke-width="2.59" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 13.972 18.077 l 4.979 -4.023 M 55.042 16.052 l 5.058 2.942" stroke-width="1.06" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

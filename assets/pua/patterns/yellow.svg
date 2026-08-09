@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / yellow" data-pua="U+F0A16" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>patterns / yellow — reviewed vector study</title>
-<circle cx="36" cy="37" r="12" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 10v9M36 55v9M9 37h9M55 37h9M17 18l6 6M49 50l6 6M55 18l-6 6M23 50l-6 6" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M31 37c3-4 7-4 10 0-3 4-7 4-10 0z" stroke-width="1.1" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="36" cy="37" r="12" stroke-width="2.97" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 36.023 10.012 v 8.973 M 35.946 54.963 v 9.004 M 8.993 37.022 h 8.984 M 54.965 37.03 h 9.015 M 16.952 18.066 l 5.989 6.017 M 48.968 50.027 l 6.022 5.925 M 54.985 18.032 l -5.968 6.034 M 23.026 49.986 l -5.999 5.995" stroke-width="2.01" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 30.972 37.077 c 2.979 -4.023 7 -3.958 10.052 0.063 -2.942 3.942 -7.037 4.038 -9.973 -0.023 z" stroke-width="1.03" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

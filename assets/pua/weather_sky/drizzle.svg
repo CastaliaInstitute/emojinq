@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="weather sky / drizzle" data-pua="U+F1201" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>weather sky / drizzle — simplified naturalist study</title>
-<path d="M13 36c-2-7 4-12 11-12 3-7 12-9 17-3 8-3 16 2 16 9 6 1 8 7 5 11H20c-4 0-7-2-7-5z" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23 47l-3 7M34 46l-3 8M45 47l-3 7M55 46l-3 8" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 12.989 35.952 c -2.018 -7.02 3.933 -11.921 10.943 -11.966 2.923 -6.964 12.059 -9.002 17.02 -2.926 8.006 -3.021 15.956 1.976 16.058 9.039 5.969 0.955 8.058 6.973 4.925 10.942 H 20.019 c -3.968 0.025 -7.031 -2.06 -6.933 -4.948 z" stroke-width="2.03" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 23.023 47.012 l -3.027 6.998 M 33.963 46.049 l -2.965 7.993 M 44.966 46.984 l -3.035 7.03 M 55.015 46.034 l -2.934 7.956" stroke-width="1.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

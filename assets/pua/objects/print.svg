@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / print" data-pua="U+F084D" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>objects / print — reviewed vector study</title>
-<rect x="20" y="18" width="32" height="38" rx="2" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M26 27h20M26 34h20M26 41h14M26 49h18" stroke-width="1.35" opacity=".74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="20" y="18" width="32" height="38" rx="2" stroke-width="2.79" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 26.023 27.012 h 19.973 M 25.946 33.963 h 20.004 M 25.993 41.022 h 13.984 M 25.965 49.03 h 18.015" stroke-width="1.19" opacity=".74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

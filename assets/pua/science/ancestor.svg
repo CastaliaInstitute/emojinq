@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / ancestor" data-pua="U+F1003" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>science / ancestor — reviewed vector study</title>
-<path d="M27 56c0-12 4-21 12-27 4-3 7-8 6-13-1-4-5-6-9-5-5 1-9 7-9 13 0 7 4 11 10 12" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M35 58c2-8 7-13 14-16M28 59c-5-4-9-5-14-4M43 20c5 1 8 4 9 8M18 26c4-3 8-4 12-3" stroke-width="1.35" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 26.989 55.952 c -0.018 -12.02 3.933 -20.921 11.943 -26.966 3.923 -2.964 7.059 -8.002 6.02 -12.926 -0.994 -4.021 -5.044 -6.024 -8.942 -4.961 -5.031 0.955 -8.942 6.973 -9.075 12.942 0.012 7.019 4.068 11.032 10.025 11.969" stroke-width="2.19" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 35.023 58.012 c 1.973 -8.002 6.946 -13.037 14.049 -15.996 M 27.993 59.022 c -5.016 -3.942 -9.035 -4.97 -14.026 -3.985 M 42.952 20.066 c 4.989 1.017 8.056 3.968 9.027 8.071 M 17.925 26.037 c 4.032 -2.948 8.032 -3.966 12.042 -2.974" stroke-width="1.22" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

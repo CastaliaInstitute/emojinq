@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="body / roll" data-pua="U+F020F" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>body / roll — reviewed vector study</title>
-<circle cx="35" cy="36" r="21" stroke-width="2.6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M25 28c5-7 14-7 20-1M44 43c-5 7-14 7-20 1" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 20l-7-5M52 20l7-5M20 52l-7 5M52 52l7 5" stroke-width="1.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M35 9v7M35 56v7" stroke-width="1.15" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="35" cy="36" r="21" stroke-width="3.09" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 25.023 28.012 c 4.973 -7.002 13.946 -7.037 20.049 -0.996 M 43.993 43.022 c -5.016 7.058 -14.035 7.03 -20.026 1.015" stroke-width="2.50" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 19.972 20.077 l -7.021 -5.023 M 52.042 20.052 l 7.058 -5.058 M 20.038 52.027 l -6.998 5.003 M 51.972 51.968 l 6.986 4.953" stroke-width="1.47" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 35.042 9.067 v 7.001 M 35.063 56.076 v 7.072" stroke-width="1.13" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

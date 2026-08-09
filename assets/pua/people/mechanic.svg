@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / mechanic" data-pua="U+F0C45" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / mechanic — reviewed vector study</title>
-<circle cx="36" cy="25" r="8" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M24 60c1-13 5-22 12-22s11 9 12 22M27 20c3-5 15-5 18 0M29 45h14" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M49 44l7 7M55 43l4 4-8 8-4-4zM18 64h36" stroke-width="1.45" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="36" cy="25" r="8" stroke-width="2.62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 24.023 60.012 c 0.973 -13.002 4.946 -22.037 12.049 -21.996 s 10.993 9.022 11.966 21.984 M 26.965 20.03 c 3.015 -4.966 14.952 -4.934 17.956 -0.011 M 29.056 44.968 h 14.071" stroke-width="2.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 48.972 44.077 l 6.979 6.977 M 55.042 43.052 l 4.058 3.942 -8.037 8.038 -3.973 -4.023 z M 18.037 63.972 h 35.981" stroke-width="1.66" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

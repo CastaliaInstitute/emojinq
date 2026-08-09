@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / demand" data-pua="U+F102C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>science / demand — reviewed vector study</title>
-<path d="M36 60c-5-9-5-18-1-28 2-5 6-8 10-7 4 1 5 5 3 8-2 3-5 4-8 3M36 42c-5-5-9-6-13-3-3 3-1 7 3 8 4 1 7-1 10-5" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M45 25c3-4 7-6 12-5-2 5-6 7-12 5zM36 60c-3 2-7 3-11 2M36 60c3 2 7 3 11 2" stroke-width="1.35" opacity=".75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 35.989 59.952 c -5.018 -9.02 -5.067 -17.921 -1.057 -27.966 1.923 -4.964 6.059 -8.002 10.02 -6.926 4.006 0.979 4.956 4.976 3.058 8.039 -2.031 2.955 -4.942 3.973 -8.075 2.942 M 36.019 42.068 c -4.975 -5.031 -9.06 -5.933 -12.948 -2.948 -3.026 2.945 -0.923 7.011 2.952 8.012 3.967 0.973 6.992 -0.986 9.964 -4.994" stroke-width="2.63" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 45.023 25.012 c 2.973 -4.002 6.946 -6.037 12.049 -4.996 -1.965 4.993 -5.978 6.966 -12.016 5.058 z M 35.974 60.015 c -3.048 2.066 -7.044 2.989 -10.983 2.056 M 36.027 60.071 c 2.925 2.037 6.985 3.032 11.052 2.032" stroke-width="1.52" opacity=".75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

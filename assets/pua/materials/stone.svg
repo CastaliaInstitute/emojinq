@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / stone" data-pua="U+F0609" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>materials / stone — simplified naturalist study</title>
-<path d="M13 47c3-11 10-19 22-22 11 0 19 5 25 14l-4 17c-12 5-25 5-38 0z" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23 38c7-3 15-3 24 0M21 48c9-2 17-2 27 1" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 12.989 46.952 c 2.982 -11.02 9.933 -18.921 21.943 -21.966 10.923 0.036 19.059 4.998 25.02 14.074 l -4.021 16.956 c -11.942 5.039 -25.031 4.955 -37.942 -0.027 z" stroke-width="2.69" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 23.023 38.012 c 6.973 -3.002 14.946 -3.037 24.049 0.004 M 20.993 48.022 c 8.984 -1.942 16.965 -1.97 26.974 1.015" stroke-width="1.21" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

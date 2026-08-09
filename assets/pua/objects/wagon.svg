@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / wagon" data-pua="U+F087B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>objects / wagon — reviewed vector study</title>
-<path d="M17 27h35l5 24H15z" stroke-width="2.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21 27c2-7 7-11 14-11s12 4 14 11M24 34h26M25 41h25" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="25" cy="55" r="5" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/><circle cx="49" cy="55" r="5" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M15 51l-6 7h10M55 51l7 7h-8" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11 63h52" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 16.989 26.952 h 34.982 l 4.933 24.079 H 15.034 z" stroke-width="3.20" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 21.023 27.012 c 1.973 -7.002 6.946 -11.037 14.049 -10.996 s 11.993 4.022 13.966 10.984 M 23.965 34.03 h 26.015 M 24.952 41.066 h 24.989" stroke-width="1.71" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<circle cx="25" cy="55" r="5" stroke-width="2.37" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" /><circle cx="49" cy="55" r="5" stroke-width="1.85" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 15.009 50.995 l -6.052 7.068 h 9.937 M 55.004 51 l 7.075 6.999 h -8.027" stroke-width="2.41" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 11.026 63.043 h 51.925" stroke-width="1.07" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / stream" data-pua="U+F0E0F" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>plants / stream — reviewed vector study</title>
-<path d="M14 18c12 7 15 14 10 21-5 7-3 14 10 18 12 4 19 0 19-8 0-6-5-10-11-11-7-1-12 3-12 8" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 15c10 6 14 12 10 18M47 22c7 5 9 11 6 16M18 57c8 5 17 7 27 5" stroke-width="1.15" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13 29l-5 5M57 48l6 3M30 62h13" stroke-width="1.0" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 13.989 17.952 c 11.982 6.98 14.933 14.079 9.943 21.034 -5.077 7.036 -2.941 13.998 10.02 18.074 12.006 3.979 18.956 -0.024 19.058 -7.961 -0.031 -6.045 -4.942 -10.027 -11.075 -11.058 -6.988 -0.981 -11.932 3.032 -11.975 7.969" stroke-width="2.48" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 20.023 15.012 c 9.973 5.998 13.946 11.963 10.049 18.004 M 46.993 22.022 c 6.984 5.058 8.965 11.03 5.974 16.015 M 17.952 57.066 c 7.989 5.017 17.056 6.968 27.027 5.071" stroke-width="1.13" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 12.972 29.077 l -5.021 4.977 M 57.042 48.052 l 6.058 2.942 M 30.038 62.027 h 13.002" stroke-width="1.13" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

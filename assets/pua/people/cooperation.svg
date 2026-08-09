@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / cooperation" data-pua="U+F0C17" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / cooperation — reviewed vector study</title>
-<circle cx="24" cy="22" r="6" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/><circle cx="48" cy="22" r="6" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 29c-5 5-7 12-6 23l-3 10M30 29c4 5 6 11 6 18M42 29c-4 5-6 11-6 18M54 29c5 5 7 12 6 23l3 10" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16 41h40M25 41l11 10 11-10M17 62h38" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M31 20c3-3 7-3 10 0" stroke-width="1.1" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="24" cy="22" r="6" stroke-width="2.62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" /><circle cx="48" cy="22" r="6" stroke-width="2.08" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 17.972 29.077 c -5.021 4.977 -7 12.042 -5.948 23.063 l -3.058 9.963 M 30.027 28.977 c 4.003 5.037 5.972 10.968 5.981 17.986 M 41.979 29.056 c -3.928 4.96 -6.011 10.998 -5.932 17.974 M 53.978 29.064 c 5.052 5.001 6.969 11.956 5.959 23.004 l 2.986 9.992" stroke-width="2.52" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 16.042 41.067 h 40.001 M 25.063 41.076 l 11.072 10.048 11.018 -9.938 M 17.033 61.95 h 38.064" stroke-width="1.99" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 31.009 19.995 c 2.948 -2.932 6.975 -3.063 9.99 0.004" stroke-width="1.14" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

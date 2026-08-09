@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / stewardship" data-pua="U+F0C6E" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>people / stewardship — reviewed vector study</title>
-<path d="M36 58V30M36 42c-8-7-15-6-20 0 7 3 13 3 20 0zM36 37c7-9 14-9 20-3-6 5-13 6-20 3z" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M36 30c-2-6 0-11 6-14 3 6 1 11-6 14zM36 46c-4 2-7 6-8 12M36 46c4 2 7 6 8 12" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 35.989 57.952 V 29.982 M 35.933 42.079 c -7.966 -7.077 -14.964 -5.941 -20.002 0.02 7.074 3.006 12.979 2.956 19.976 0.058 z M 35.955 37.058 c 6.925 -9.058 14.012 -8.981 20.068 -2.968 -5.975 4.969 -13.06 6.067 -19.948 3.052 z" stroke-width="1.95" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 36.023 30.012 c -2.027 -6.002 -0.054 -11.037 6.049 -13.996 3.035 5.993 1.022 10.966 -6.016 14.058 z M 35.974 46.015 c -4.048 2.066 -7.044 5.989 -7.983 12.056 M 36.027 46.071 c 3.925 2.037 6.985 6.032 8.052 12.032" stroke-width="1.48" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

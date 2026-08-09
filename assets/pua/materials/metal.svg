@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / metal" data-pua="U+F0605" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>materials / metal — simplified naturalist study</title>
-<path d="M14 26l39-10 7 30-39 10z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 29l34-8M23 39l29-7M28 49l22-6" stroke-width="1.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M17 25l8 27" stroke-width="1.0" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 13.989 25.952 l 38.982 -10.02 6.933 30.079 -39.057 10.034 z" stroke-width="2.57" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 20.023 29.012 l 33.973 -8.002 M 22.963 39.049 l 29.035 -7.007 M 27.966 48.984 l 21.965 -5.97" stroke-width="1.02" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 16.972 25.077 l 7.979 26.977" stroke-width="0.94" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

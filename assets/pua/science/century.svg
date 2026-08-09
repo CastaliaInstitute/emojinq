@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / century" data-pua="U+F1015" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>science / century — reviewed vector study</title>
-<path d="M36 59V24M36 24c-7-8-16-7-20 0 7 2 14 2 20 0zM36 35c7-8 16-7 20 0-7 2-14 2-20 0z" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M21 59c2-8 7-12 15-14 8 2 13 6 15 14M28 45c2-5 5-8 8-10M44 45c-2-5-5-8-8-10" stroke-width="1.35" opacity=".74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 35.989 58.952 V 23.982 M 35.933 24.079 c -6.966 -8.077 -15.964 -6.941 -20.002 0.02 7.074 2.006 13.979 1.956 19.976 0.058 z M 35.955 35.058 c 6.925 -8.058 16.012 -6.981 20.068 0.032 -6.975 1.969 -14.06 2.067 -19.948 0.052 z" stroke-width="2.59" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 21.023 59.012 c 1.973 -8.002 6.946 -12.037 15.049 -13.996 8.035 1.993 13.022 5.966 14.984 14.058 M 28.03 44.974 c 2.034 -5.048 5.066 -8.044 7.989 -9.983 M 43.968 45.027 c -1.978 -5.075 -4.963 -8.015 -7.968 -9.948" stroke-width="1.54" opacity=".74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 13.972 64.077 h 43.979" stroke-width="1.05" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

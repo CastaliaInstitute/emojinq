@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / sand" data-pua="U+F0608" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>materials / sand — simplified naturalist study</title>
-<path d="M9 51c10-11 20-15 31-11 8 3 14 3 23-5M10 59c13-5 25-5 36-1 8 3 15 2 21-1" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 43c7-3 14-3 20 0M46 50c5-2 9-2 14 0" stroke-width="1.0" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 8.989 50.952 c 9.982 -11.02 19.933 -14.921 30.943 -10.966 7.923 3.036 14.059 2.998 23.02 -4.926 M 9.979 58.956 c 13.058 -4.961 24.969 -5.045 36.058 -1.027 7.925 2.942 15.012 2.019 21.068 -0.968" stroke-width="2.32" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 18.023 43.012 c 6.973 -3.002 13.946 -3.037 20.049 0.004 M 45.993 50.022 c 4.984 -1.942 8.965 -1.97 13.974 0.015" stroke-width="1.11" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

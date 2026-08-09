@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / recipe" data-pua="U+F0854" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>objects / recipe — reviewed vector study</title>
-<path d="M15 18h38v27H15z" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 25h27M20 31h25M20 37h18" stroke-width="1.25" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M30 51c-6-2-10 0-10 4s5 6 14 6h14c4 0 7-2 7-5 0-4-4-6-10-5" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M43 48c-2 4-1 8 2 10M44 43c4 3 7 7 8 13" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M17 15h34" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 14.989 17.952 h 37.982 v 26.933 H 14.943 z" stroke-width="2.33" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 20.023 25.012 h 26.973 M 19.946 30.963 h 25.004 M 19.993 37.022 h 17.984" stroke-width="1.40" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 29.972 51.077 c -6.021 -2.023 -10 0.042 -9.948 4.063 s 4.942 5.963 14.038 6.027 h 14.002 c 4.037 -0.028 6.968 -2.019 6.986 -5.047 -0.021 -3.944 -3.96 -5.928 -10.04 -5.011" stroke-width="2.29" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 43.042 48.067 c -1.999 3.991 -0.937 8.076 1.951 10.072 M 44.018 43.062 c 4.033 2.95 6.999 7.064 8.071 13.035" stroke-width="2.42" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 17.009 14.995 h 33.948" stroke-width="0.99" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>

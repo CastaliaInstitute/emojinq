@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="animals / lamb" data-pua="U+F0004" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
 <title>animals / lamb — simplified naturalist study</title>
-<path d="M17 45c-1-8 2-14 8-16 3-3 7-3 10 0 4-2 8-1 11 2 5 2 8 7 8 14 0 9-8 14-20 14-10 0-16-5-17-14z" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M18 35c-5-1-9-4-9-8 3-1 6-3 9-1 2-3 6-3 8 0l1 6M28 32c3 2 6 2 9 0M39 31c3 2 6 2 8 0" stroke-width="2.05" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M25 57l-1 7M43 57l1 7M52 52l6 3" stroke-width="1.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20 43c3-2 5-2 8 0M38 34c3-2 6-2 9 0" stroke-width="1.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 16.989 44.952 c -1.018 -8.02 1.933 -13.921 7.943 -15.966 2.923 -2.964 7.059 -3.002 10.02 0.074 4.006 -2.021 7.956 -1.024 11.058 2.039 4.969 1.955 8.058 6.973 7.925 13.942 0.012 9.019 -7.932 14.032 -19.975 13.969 -10.06 0.067 -15.948 -4.948 -17.026 -14.055 z" stroke-width="2.56" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 18.023 35.012 c -5.027 -1.002 -9.054 -4.037 -8.951 -7.996 3.035 -1.007 6.022 -3.034 8.984 -0.942 1.965 -2.97 5.974 -2.985 8.034 -0.048 l 0.956 5.989 M 28.056 31.968 c 3.071 2.022 5.925 2.037 8.985 0.032 M 39.032 31.034 c 3.026 1.986 6.005 2.001 7.995 -0.008" stroke-width="1.77" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 24.972 57.077 l -1.021 6.977 M 43.042 57.052 l 1.058 6.942 M 52.038 52.027 l 6.002 3.003" stroke-width="1.46" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
+<path d="M 20.042 43.067 c 3.001 -2.009 5.063 -1.924 7.951 0.072 M 38.018 34.062 c 3.033 -2.05 5.999 -1.936 9.071 0.035" stroke-width="1.06" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round" data-ink-brush-pass="v1" />
 </svg>
