@@ -207,6 +207,50 @@ ART = {
 <path d="M22 29l10 4M50 29l-10 4M27 46c6 5 12 5 18 0" stroke-width="1.8" {i}/>
 <path d="M13 16l5 5M59 16l-5 5M18 10l2 5M54 10l-2 5" stroke-width="1.25" {i}/>
 """,
+    "four": """
+<path d="M48 12v48M48 12L17 43h42" stroke-width="2.25" {i}/>
+<path d="M17 43c6-1 11-1 17 0" stroke-width="1.15" {i}/>
+""",
+    "nine": """
+<path d="M48 38c-4 8-12 12-20 9-8-3-11-11-7-19 4-8 14-11 22-7 8 4 10 14 5 25-4 9-10 14-19 16" stroke-width="2.2" {i}/>
+<path d="M24 27c5 3 11 3 17 0" stroke-width="1.15" {i}/>
+""",
+    "planet": """
+<circle cx="36" cy="36" r="15" stroke-width="2.05" {i}/>
+<path d="M10 43c13-8 29-10 52-2 3 1 3 4 0 5-16 5-35 4-52-3z" stroke-width="1.75" {i}/>
+<path d="M28 24c4 3 8 3 12 1M42 42c3 2 5 4 6 7" stroke-width="1.15" {i}/>
+""",
+    "harm": """
+<path d="M36 12c-4 7-7 13-7 19 0 7 3 11 7 11s7-4 7-11c0-6-3-12-7-19z" stroke-width="2.05" {i}/>
+<path d="M16 54c7-6 14-6 20 0 6-6 13-6 20 0" stroke-width="1.75" {i}/>
+<path d="M23 20l26 32M49 20L23 52" stroke-width="1.25" {i}/>
+""",
+    "architecture": """
+<path d="M12 57h48M17 57V30h38v27M13 30l23-17 23 17z" stroke-width="2.1" {i}/>
+<path d="M24 57V38M36 57V38M48 57V38M20 31h32" stroke-width="1.35" {i}/>
+""",
+    "experiment": """
+<path d="M29 12h14M33 12v19L20 54c-2 4 2 7 7 7h18c5 0 9-3 7-7L39 31V12" stroke-width="2.0" {i}/>
+<path d="M25 48c7-4 15-4 25 0M29 39h15" stroke-width="1.3" {i}/>
+<circle cx="35" cy="45" r="2" stroke-width="1.0" {i}/>
+""",
+    "decay": """
+<path d="M36 14c-10 1-17 9-17 20 0 12 7 22 17 25 10-3 17-13 17-25 0-11-7-19-17-20z" stroke-width="2.05" {i}/>
+<path d="M29 22c4 5 5 10 2 15-3 5-2 10 3 16M44 24c-4 4-5 8-3 12 2 4 1 8-2 11" stroke-width="1.35" {i}/>
+""",
+    "death": """
+<path d="M36 12c-13 0-22 10-22 23 0 8 5 13 10 15v8h24v-8c5-2 10-7 10-15 0-13-9-23-22-23z" stroke-width="2.1" {i}/>
+<path d="M25 31l7 5M47 31l-7 5M27 47c6-3 12-3 18 0M32 58v-5M40 58v-5" stroke-width="1.65" {i}/>
+""",
+    "past": """
+<circle cx="32" cy="34" r="20" stroke-width="2.1" {i}/>
+<path d="M32 20v15l9 7M15 19l-5 5M10 24h7" stroke-width="1.55" {i}/>
+<path d="M46 48c7 2 10 7 10 13M56 61l-1-5-5 2" stroke-width="1.25" {i}/>
+""",
+    "empire": """
+<path d="M14 55h44M18 55V31h36v24M13 31l8-13 15 9 15-9 8 13z" stroke-width="2.1" {i}/>
+<path d="M25 55V40M36 55V40M47 55V40M20 31h32" stroke-width="1.35" {i}/>
+""",
     "effect": """
 <circle cx="36" cy="36" r="7" stroke-width="1.8" {i}/>
 <path d="M36 11v12M36 49v12M11 36h12M49 36h12M18 18l8 8M46 46l8 8M54 18l-8 8M26 46l-8 8" stroke-width="1.55" {i}/>
