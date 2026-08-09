@@ -251,6 +251,49 @@ ART = {
 <path d="M14 55h44M18 55V31h36v24M13 31l8-13 15 9 15-9 8 13z" stroke-width="2.1" {i}/>
 <path d="M25 55V40M36 55V40M47 55V40M20 31h32" stroke-width="1.35" {i}/>
 """,
+    "if": """
+<path d="M14 22c8-7 16-7 22 0 6 7 14 7 22 0M14 50c8-7 16-7 22 0 6 7 14 7 22 0" stroke-width="2.05" {i}/>
+<path d="M36 22v28M30 35l6 6 6-6" stroke-width="1.4" {i}/>
+""",
+    "east": """
+<path d="M36 14v38M13 36h46" stroke-width="1.15" {i}/>
+<path d="M36 52c-10-1-17-8-17-17 0-10 7-17 17-18 10 1 17 8 17 18 0 9-7 16-17 17z" stroke-width="1.95" {i}/>
+<path d="M36 17l-4 6M36 17l4 6" stroke-width="1.2" {i}/>
+""",
+    "hope": """
+<path d="M36 59V34M36 43c-8-7-15-8-21-4 3 8 10 12 21 11M36 39c7-8 14-9 21-5-3 8-10 12-21 12" stroke-width="2.0" {i}/>
+<path d="M36 22l2 5M31 25l5-3 5 3" stroke-width="1.25" {i}/>
+<path d="M13 61c14-3 30-3 46 0" stroke-width="1.0" opacity=".65" {i}/>
+""",
+    "measure": """
+<path d="M14 24h44v28H14z" stroke-width="2.0" {i}/>
+<path d="M22 24v8M30 24v5M38 24v8M46 24v5M54 24v8" stroke-width="1.25" {i}/>
+<path d="M22 39h24" stroke-width="1.35" {i}/>
+""",
+    "destiny": """
+<path d="M36 12l5 15 16 1-12 10 4 16-13-8-14 8 5-16-13-10 16-1z" stroke-width="1.85" {i}/>
+<path d="M36 42v17M30 52l6 7 6-7" stroke-width="1.25" {i}/>
+""",
+    "joy": """
+<circle cx="36" cy="34" r="18" stroke-width="2.0" {i}/>
+<path d="M24 31c3-3 6-3 9 0M39 31c3-3 6-3 9 0M25 42c7 6 15 6 22 0" stroke-width="1.75" {i}/>
+<path d="M36 10v6M18 16l4 4M54 16l-4 4" stroke-width="1.15" {i}/>
+""",
+    "habitat": """
+<path d="M12 56c8-12 16-18 24-18s16 6 24 18" stroke-width="2.1" {i}/>
+<path d="M20 51c5-7 10-10 16-10s11 3 16 10" stroke-width="1.55" {i}/>
+<path d="M36 41c-5-7-5-13 0-19 5 6 5 12 0 19z" stroke-width="1.45" {i}/>
+""",
+    "performance": """
+<path d="M13 18h46M13 18v40M59 18v40M13 58h46" stroke-width="1.75" {i}/>
+<path d="M21 18c7 8 7 17 0 27M51 18c-7 8-7 17 0 27" stroke-width="1.45" {i}/>
+<path d="M28 52c4-8 12-8 16 0M36 45v-8M31 39l5-4 5 4" stroke-width="1.6" {i}/>
+""",
+    "fear": """
+<path d="M36 15c-8 0-14 6-14 14 0 7 4 12 10 14v13h8V43c6-2 10-7 10-14 0-8-6-14-14-14z" stroke-width="2.05" {i}/>
+<path d="M29 31l5 3M43 31l-5 3M32 40c3-2 5-2 8 0" stroke-width="1.55" {i}/>
+<path d="M17 17l4 4M55 17l-4 4" stroke-width="1.15" {i}/>
+""",
     "effect": """
 <circle cx="36" cy="36" r="7" stroke-width="1.8" {i}/>
 <path d="M36 11v12M36 49v12M11 36h12M49 36h12M18 18l8 8M46 46l8 8M54 18l-8 8M26 46l-8 8" stroke-width="1.55" {i}/>
