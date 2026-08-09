@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Tarot The Sun" data-castalia-style="sumi-e-brush-v1" data-ink-stroke-system="tapered-v1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Tarot The Sun" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
   <title>Tarot The Sun — Emojinq brush glyph</title>
   <g fill="none" stroke="#262421" stroke-linecap="round" stroke-linejoin="round">
     <path d="M64 35 C82 35 94 47 94 64 C94 81 82 94 64 94 C46 94 34 81 34 64 C34 47 46 35 64 35 M64 13 V25 M64 103 V115 M13 64 H25 M103 64 H115 M27 27 L36 36 M92 92 L101 101 M101 27 L92 36 M36 92 L27 101" stroke-width="4.2" fill="none" data-ink-stroke="tapered" />

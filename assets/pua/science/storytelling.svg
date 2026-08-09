@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="science / storytelling" data-pua="U+F10EB" data-ink-stroke-system="brush-study-v1">
-  <title>science / storytelling — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="64.00" cy="64.00" r="12.32" fill="none" stroke="#262522" stroke-width="1.72" stroke-linecap="round"/><path d="M18 63.79Q64 24.41 110 64Q64 103.59 18 64Z" fill="none" stroke="#262522" stroke-width="1.36" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 18Q100.79 64 64 110Q27.21 64 64 18Z" fill="none" stroke="#262522" stroke-width="2.48" stroke-linecap="round" stroke-linejoin="round"/><circle cx="63.79" cy="63.41" r="4.00" fill="none" stroke="#262522" stroke-width="2.48" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="science / storytelling" data-pua="U+F10EB" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>science / storytelling — reviewed vector study</title>
+<path d="M12 20h22v34H12zM34 20h26v34H34z" stroke-width="2.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 28h10M18 34h9M18 40h11M40 28h13M40 34h9" stroke-width="1.2" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M43 45c2-7 8-8 12-4 3 3 1 8-4 9l-7 2z" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 47c-4-4-8-3-10 1-2 4 1 7 6 7l6 0z" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 58h42" stroke-width="1" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

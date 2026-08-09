@@ -12,13 +12,15 @@ import argparse
 import json
 from pathlib import Path
 
+from style_contract import SUMI_E_STYLE, SUMI_E_STROKE_SYSTEM
+
 
 INK = "#262421"
 PUA_START = 0xF1300  # follows the existing Supplementary PUA corpus (U+F0000–U+F120A)
 
 
 def svg(name: str, body: str) -> str:
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="{name}" data-castalia-style="sumi-e-brush-v1" data-ink-stroke-system="tapered-v1">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="{name}" data-castalia-style="{SUMI_E_STYLE}" data-ink-stroke-system="{SUMI_E_STROKE_SYSTEM}">
   <title>{name} — Emojinq brush glyph</title>
   <g fill="none" stroke="{INK}" stroke-linecap="round" stroke-linejoin="round">
     {body}

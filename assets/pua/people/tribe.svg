@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / tribe" data-pua="U+F0C76" data-ink-stroke-system="brush-study-v1">
-  <title>people / tribe — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="66.98" cy="25.02" r="15.51" fill="none" stroke="#262522" stroke-width="1.21" stroke-linecap="round"/><path d="M42 49.02Q64 39.02 86 49.02L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="1.16" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 76.11 84 63" fill="none" stroke="#262522" stroke-width="2.54" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / tribe" data-pua="U+F0C76" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>people / tribe — reviewed vector study</title>
+<circle cx="24" cy="22" r="6" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/><circle cx="48" cy="22" r="6" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/><circle cx="36" cy="17" r="7" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 29c-4 5-5 11-4 20l-3 12M30 29c4 4 5 10 5 16M42 29c-4 4-5 10-5 16M54 29c4 5 5 11 4 20l3 12M29 25c-4 5-5 10-4 17M43 25c4 5 5 10 4 17" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 40h30M16 62h40" stroke-width="1.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32 18c2 1 5 1 8 0" stroke-width="1.0" opacity=".65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="body / roll" data-pua="U+F020F" data-ink-stroke-system="brush-study-v1">
-  <title>body / roll — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="63.27" cy="32.85" r="15.66" fill="none" stroke="#262522" stroke-width="2.25" stroke-linecap="round"/><path d="M43 53.85Q64 44.85 85 53.85L91 96Q64 108 37 96Z" fill="none" stroke="#262522" stroke-width="1.14" stroke-linecap="round" stroke-linejoin="round"/><path d="M43.00 60.00L21.27 82.00" fill="none" stroke="#262522" stroke-width="1.23" stroke-linecap="round" stroke-linejoin="round"/><path d="M85.00 60.00L105.27 82.00" fill="none" stroke="#262522" stroke-width="1.23" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="body / roll" data-pua="U+F020F" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>body / roll — reviewed vector study</title>
+<circle cx="35" cy="36" r="21" stroke-width="2.6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25 28c5-7 14-7 20-1M44 43c-5 7-14 7-20 1" stroke-width="2.15" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 20l-7-5M52 20l7-5M20 52l-7 5M52 52l7 5" stroke-width="1.65" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M35 9v7M35 56v7" stroke-width="1.15" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

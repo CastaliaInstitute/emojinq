@@ -13,7 +13,7 @@ from PIL import Image
 
 
 def check_svgs(source_dir: Path) -> int:
-    files = sorted(source_dir.glob("*.svg"))
+    files = sorted(path for path in source_dir.rglob("*.svg") if path.parent.name != "references")
     if not files:
         raise SystemExit(f"no SVGs found in {source_dir}")
     arrowed = []
@@ -37,8 +37,9 @@ def raster_check(source_dir: Path, sample: int, size: int) -> None:
         print("raster check skipped: rsvg-convert is not installed")
         return
     with tempfile.TemporaryDirectory() as temp_dir:
-        for source in sorted(source_dir.glob("*.svg"))[:sample]:
-            target = Path(temp_dir) / f"{source.stem}.png"
+        files = sorted(path for path in source_dir.rglob("*.svg") if path.parent.name != "references")
+        for index, source in enumerate(files[:sample]):
+            target = Path(temp_dir) / f"{index}.png"
             subprocess.run([converter, "-w", str(size), "-h", str(size), "-o", str(target), str(source)], check=True)
             image = Image.open(target).convert("RGBA")
             alpha = image.getchannel("A")
@@ -47,18 +48,23 @@ def raster_check(source_dir: Path, sample: int, size: int) -> None:
                 raise SystemExit(f"blank raster output: {source.name}")
             if bbox[0] < 1 or bbox[1] < 1 or bbox[2] > size - 1 or bbox[3] > size - 1:
                 raise SystemExit(f"clipped raster output: {source.name} bbox={bbox}")
-    print(f"raster checked {min(sample, len(list(source_dir.glob('*.svg'))))} glyphs at {size}px")
+    count = len([path for path in source_dir.rglob("*.svg") if path.parent.name != "references"])
+    print(f"raster checked {min(sample, count)} glyphs at {size}px")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source-dir", type=Path, default=Path("assets/gray-all"))
+    parser.add_argument("--source-dir", type=Path, action="append", default=None)
     parser.add_argument("--sample", type=int, default=24)
     parser.add_argument("--size", type=int, default=128)
     args = parser.parse_args()
-    count = check_svgs(args.source_dir)
-    raster_check(args.source_dir, args.sample, args.size)
-    print(f"quality checked {count} SVG glyphs")
+    source_dirs = args.source_dir or [Path("assets/gray-all")]
+    total = 0
+    for source_dir in source_dirs:
+        count = check_svgs(source_dir)
+        raster_check(source_dir, args.sample, args.size)
+        total += count
+    print(f"quality checked {total} SVG glyphs")
 
 
 if __name__ == "__main__":

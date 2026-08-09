@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="patterns / orange" data-pua="U+F0A0C" data-ink-stroke-system="brush-study-v1">
-  <title>patterns / orange — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M26.00 29.00l23.55 0l0 23.55l-23.55 0Z" fill="none" stroke="#262522" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/><path d="M64.00 29.00l23.55 0l0 23.55l-23.55 0Z" fill="none" stroke="#262522" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/><path d="M45.00 64.00l23.55 0l0 23.55l-23.55 0Z" fill="none" stroke="#262522" stroke-width="2.55" stroke-linecap="round" stroke-linejoin="round"/><path d="M83.00 64.00l23.55 0l0 23.55l-23.55 0Z" fill="none" stroke="#262522" stroke-width="2.48" stroke-linecap="round" stroke-linejoin="round"/><path d="M26.00 99.00l23.55 0l0 23.55l-23.55 0Z" fill="none" stroke="#262522" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/><path d="M64.00 99.00l23.55 0l0 23.55l-23.55 0Z" fill="none" stroke="#262522" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / orange" data-pua="U+F0A0C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>patterns / orange — reviewed vector study</title>
+<path d="M20 53c-4-11 1-24 11-30 9-5 21-2 26 7 5 10 0 22-9 28-10 6-24 4-28-5z" stroke-width="2.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27 50c-3-8 1-17 8-21 7-4 15-2 19 5" stroke-width="1.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 29l2 17M28 38l17 9M47 32l-6 15" stroke-width="1.0" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

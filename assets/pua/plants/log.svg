@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="plants / log" data-pua="U+F0E05" data-ink-stroke-system="brush-study-v1">
-  <title>plants / log — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M64 112Q60.55 74 64 40" fill="none" stroke="#262522" stroke-width="1.42" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 75Q38 54.98 28 72Q44 86 64 75Z" fill="none" stroke="#262522" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 59Q88 45.02 101 56Q87 72 64 59Z" fill="none" stroke="#262522" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 40Q57.65 24 64 16Q76 25 64 40Z" fill="none" stroke="#262522" stroke-width="1.76" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / log" data-pua="U+F0E05" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1"><title>plants / log — naturalist brush study</title><g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"><path stroke-width="2.8" d="M 14 31 C 24 27 45 28 57 34 L 57 52 C 45 58 25 57 14 51 Z"/><path stroke-width="2" d="M 14 31 C 21 25 31 24 39 27 C 47 29 54 32 57 34"/><path stroke-width="1.1" d="M 20 34 C 28 32 39 33 47 36 C 52 38 54 42 53 46 M 20 47 C 28 50 42 50 51 47"/></g></svg>

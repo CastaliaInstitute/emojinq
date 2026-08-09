@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="patterns / purple" data-pua="U+F0A0F" data-ink-stroke-system="brush-study-v1">
-  <title>patterns / purple — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M26.00 29.00l19.69 0l0 19.69l-19.69 0Z" fill="none" stroke="#262522" stroke-width="1.59" stroke-linecap="round" stroke-linejoin="round"/><path d="M64.00 29.00l19.69 0l0 19.69l-19.69 0Z" fill="none" stroke="#262522" stroke-width="1.62" stroke-linecap="round" stroke-linejoin="round"/><path d="M45.00 64.00l19.69 0l0 19.69l-19.69 0Z" fill="none" stroke="#262522" stroke-width="1.52" stroke-linecap="round" stroke-linejoin="round"/><path d="M83.00 64.00l19.69 0l0 19.69l-19.69 0Z" fill="none" stroke="#262522" stroke-width="1.20" stroke-linecap="round" stroke-linejoin="round"/><path d="M26.00 99.00l19.69 0l0 19.69l-19.69 0Z" fill="none" stroke="#262522" stroke-width="1.59" stroke-linecap="round" stroke-linejoin="round"/><path d="M64.00 99.00l19.69 0l0 19.69l-19.69 0Z" fill="none" stroke="#262522" stroke-width="1.62" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / purple" data-pua="U+F0A0F" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>patterns / purple — reviewed vector study</title>
+<path d="M36 58V36M36 36c-8-2-13-7-11-14 7-1 12 3 11 10 2-8 7-12 14-10 1 7-4 12-12 14" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 42c-7 1-12-2-14-8 6-3 12 0 14 6 2-6 8-9 14-6-2 6-7 9-14 8z" stroke-width="1.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27 61h18" stroke-width="1" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

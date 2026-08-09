@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="objects / roof" data-pua="U+F0858" data-ink-stroke-system="brush-study-v1">
-  <title>objects / roof — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M29 32.45Q64 17.32 99 32.45V96Q64 110.68 29 96Z" fill="none" stroke="#262522" stroke-width="1.28" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 63Q64 45.53 86 63Q64 77.04 42 63Z" fill="none" stroke="#262522" stroke-width="1.11" stroke-linecap="round" stroke-linejoin="round"/><path d="M49.00 48.00L79.45 82.00" fill="none" stroke="#262522" stroke-width="2.58" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / roof" data-pua="U+F0858" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+  <title>objects / roof — naturalist brush study</title>
+  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="2.9" d="M 10 45 L 35 20 L 62 45"/>
+    <path stroke-width="2" d="M 15 45 L 15 57 L 57 57 L 57 45"/>
+    <path stroke-width="1.1" d="M 20 39 L 35 25 L 52 40 M 22 43 L 35 31 L 50 43 M 29 57 L 29 48 L 41 48 L 41 57"/>
+    <path stroke-width="1" d="M 11 60 C 25 58 48 58 62 60"/>
+  </g>
 </svg>

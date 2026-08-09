@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="objects / rhythm" data-pua="U+F0856" data-ink-stroke-system="brush-study-v1">
-  <title>objects / rhythm — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M29 34.26Q64 22.32 99 34.26V96Q64 105.68 29 96Z" fill="none" stroke="#262522" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 63Q64 56.89 86 63Q64 82.96 42 63Z" fill="none" stroke="#262522" stroke-width="1.30" stroke-linecap="round" stroke-linejoin="round"/><path d="M49.00 48.00L81.26 82.00" fill="none" stroke="#262522" stroke-width="2.48" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / rhythm" data-pua="U+F0856" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+  <title>objects / rhythm — naturalist brush study</title>
+  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="2.8" d="M 16 28 C 25 24 46 24 56 28 L 53 52 C 52 58 45 61 36 61 C 27 61 20 58 19 52 Z"/>
+    <path stroke-width="1.2" d="M 18 31 C 28 34 45 34 55 31 M 21 50 C 29 53 44 53 51 50"/>
+    <path stroke-width="2.4" d="M 29 25 C 31 20 33 16 36 12 C 39 16 41 20 43 25"/>
+    <path stroke-width="1" d="M 24 38 C 27 40 29 40 32 38 M 40 38 C 43 40 46 40 48 38 M 28 45 C 33 48 39 48 44 45"/>
+    <path stroke-width="1.8" d="M 13 63 C 25 61 48 61 59 63"/>
+  </g>
 </svg>

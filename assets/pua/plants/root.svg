@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="plants / root" data-pua="U+F0E0A" data-ink-stroke-system="brush-study-v1">
-  <title>plants / root — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M64 112Q59.48 74 64 40" fill="none" stroke="#262522" stroke-width="1.54" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 75Q38 55.56 28 72Q44 86 64 75Z" fill="none" stroke="#262522" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 59Q88 44.44 101 56Q87 72 64 59Z" fill="none" stroke="#262522" stroke-width="2.08" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 40Q57.21 24 64 16Q76 25 64 40Z" fill="none" stroke="#262522" stroke-width="2.34" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / root" data-pua="U+F0E0A" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>plants / root — reviewed vector study</title>
+<path d="M36 12c-1 11-2 20-2 29 0 7-4 10-10 13M35 41c6 5 11 9 17 12M31 45c-5 5-9 8-15 10M39 45c4 6 8 10 12 13" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M35 22l-8 7M36 29l9 7M31 50l-8 9M43 52l8 7" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 62c9-3 18-3 27 0 9-3 18-3 25 0" stroke-width="1.1" opacity=".64" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

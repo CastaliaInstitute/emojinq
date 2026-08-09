@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="objects / wagon" data-pua="U+F087B" data-ink-stroke-system="brush-study-v1">
-  <title>objects / wagon — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M29 32.84Q64 18.92 99 32.84V96Q64 109.08 29 96Z" fill="none" stroke="#262522" stroke-width="1.62" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 63Q64 50.96 86 63Q64 75.72 42 63Z" fill="none" stroke="#262522" stroke-width="1.10" stroke-linecap="round" stroke-linejoin="round"/><path d="M49.00 48.00L79.84 82.00" fill="none" stroke="#262522" stroke-width="2.44" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / wagon" data-pua="U+F087B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>objects / wagon — reviewed vector study</title>
+<path d="M17 27h35l5 24H15z" stroke-width="2.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 27c2-7 7-11 14-11s12 4 14 11M24 34h26M25 41h25" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="25" cy="55" r="5" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/><circle cx="49" cy="55" r="5" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 51l-6 7h10M55 51l7 7h-8" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11 63h52" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

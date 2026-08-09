@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="objects / traveler" data-pua="U+F0874" data-ink-stroke-system="brush-study-v1">
-  <title>objects / traveler — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M29 31.44Q64 19.19 99 31.44V96Q64 108.81 29 96Z" fill="none" stroke="#262522" stroke-width="1.68" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 63Q64 54.85 86 63Q64 75.81 42 63Z" fill="none" stroke="#262522" stroke-width="1.24" stroke-linecap="round" stroke-linejoin="round"/><path d="M49.00 48.00L78.44 82.00" fill="none" stroke="#262522" stroke-width="1.84" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / traveler" data-pua="U+F0874" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>objects / traveler — reviewed vector study</title>
+<path d="M31 20c-3-4-2-8 2-10 4-1 7 2 7 6 0 4-3 6-7 6" stroke-width="2.4" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30 23l-5 14 5 10-6 13M36 24l6 12 7 7M30 33l10 2 7-5" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25 27c-4 2-7 5-8 10M39 25l9-5 6 3-7 5" stroke-width="2.1" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 63c9-5 18-5 27-2 7 2 13 1 19-2M48 22l5 7" stroke-width="1.15" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 59l8-8 7 8M51 51l7-7 5 7" stroke-width="1.4" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

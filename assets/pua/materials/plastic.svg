@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="materials / plastic" data-pua="U+F0607" data-ink-stroke-system="brush-study-v1">
-  <title>materials / plastic — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M25 37.22Q64 23.02 103 38L94 96Q64 108 34 96Z" fill="none" stroke="#262522" stroke-width="2.28" stroke-linecap="round" stroke-linejoin="round"/><path d="M35 53Q64 42 93 53M32 70Q64 60 96 70M30 86Q64 76 98 86" fill="none" stroke="#262522" stroke-width="1.98" stroke-linecap="round" stroke-linejoin="round"/><path d="M47.00 32.00L42.22 100.00" fill="none" stroke="#262522" stroke-width="1.26" stroke-linecap="round" stroke-linejoin="round"/><path d="M74.00 29.00L77.22 101.00" fill="none" stroke="#262522" stroke-width="1.26" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / plastic" data-pua="U+F0607" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>materials / plastic — reviewed vector study</title>
+<path d="M28 16h16M30 16v8c0 3-5 5-6 10l-3 22c-1 6 3 9 15 9s16-3 15-9l-3-22c-1-5-6-7-6-10v-8" stroke-width="2.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 42c8 3 18 3 26 0M22 50c8 3 20 3 28 0M28 23h16" stroke-width="1.25" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32 12h8" stroke-width="1.1" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

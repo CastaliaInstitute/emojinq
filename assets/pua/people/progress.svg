@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / progress" data-pua="U+F0C57" data-ink-stroke-system="brush-study-v1">
-  <title>people / progress — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="65.77" cy="25.13" r="14.64" fill="none" stroke="#262522" stroke-width="1.24" stroke-linecap="round"/><path d="M42 49.13Q64 39.13 86 49.13L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="2.04" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 79.12 84 63" fill="none" stroke="#262522" stroke-width="2.54" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / progress" data-pua="U+F0C57" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>people / progress — reviewed vector study</title>
+<path d="M16 56c5-13 12-21 20-28 8-7 14-10 20-12-2 7-5 14-12 22-7 8-15 14-28 18z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 50c5-7 11-13 18-19M30 53c6-3 13-9 18-16M36 28l4 4M44 21l4 4" stroke-width="1.35" opacity=".75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="locations / post" data-pua="U+F0429" data-ink-stroke-system="brush-study-v1">
-  <title>locations / post — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M17 93L39 52.41L62 76L83 33.94L111 93" fill="none" stroke="#262522" stroke-width="1.62" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 93H107V111H21Z" fill="none" stroke="#262522" stroke-width="1.91" stroke-linecap="round" stroke-linejoin="round"/><path d="M46 93V73H76V93" fill="none" stroke="#262522" stroke-width="2.07" stroke-linecap="round" stroke-linejoin="round"/><path d="M52 74.06Q64 64.59 76 74.06" fill="none" stroke="#262522" stroke-width="2.07" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="locations / post" data-pua="U+F041C" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>locations / post — reviewed vector study</title>
+<path d="M21 22h30v25H21zM27 22v-7h18v7M29 31h14M29 37h10" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 47v13M28 60h16M16 64h40" stroke-width="1.35" opacity=".75" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 16c3-3 6-3 9 0M40 16c3-3 6-3 9 0" stroke-width="1.15" opacity=".64" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

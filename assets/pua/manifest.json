@@ -5590,5 +5590,421 @@
       987658
     ],
     "label": "weather_sky/thunder"
+  },
+  {
+    "name": "F1400",
+    "source": "farm/cow.svg",
+    "codepoints": [
+      988160
+    ],
+    "label": "farm/cow"
+  },
+  {
+    "name": "F1401",
+    "source": "farm/chicken.svg",
+    "codepoints": [
+      988161
+    ],
+    "label": "farm/chicken"
+  },
+  {
+    "name": "F1402",
+    "source": "farm/pig.svg",
+    "codepoints": [
+      988162
+    ],
+    "label": "farm/pig"
+  },
+  {
+    "name": "F1403",
+    "source": "farm/bee.svg",
+    "codepoints": [
+      988163
+    ],
+    "label": "farm/bee"
+  },
+  {
+    "name": "F1404",
+    "source": "farm/carrot.svg",
+    "codepoints": [
+      988164
+    ],
+    "label": "farm/carrot"
+  },
+  {
+    "name": "F1405",
+    "source": "farm/tomato.svg",
+    "codepoints": [
+      988165
+    ],
+    "label": "farm/tomato"
+  },
+  {
+    "name": "F1406",
+    "source": "farm/corn.svg",
+    "codepoints": [
+      988166
+    ],
+    "label": "farm/corn"
+  },
+  {
+    "name": "F1407",
+    "source": "farm/strawberry.svg",
+    "codepoints": [
+      988167
+    ],
+    "label": "farm/strawberry"
+  },
+  {
+    "name": "F1408",
+    "source": "farm/wheat.svg",
+    "codepoints": [
+      988168
+    ],
+    "label": "farm/wheat"
+  },
+  {
+    "name": "F1409",
+    "source": "farm/milk.svg",
+    "codepoints": [
+      988169
+    ],
+    "label": "farm/milk"
+  },
+  {
+    "name": "F140A",
+    "source": "farm/egg.svg",
+    "codepoints": [
+      988170
+    ],
+    "label": "farm/egg"
+  },
+  {
+    "name": "F140B",
+    "source": "farm/meat.svg",
+    "codepoints": [
+      988171
+    ],
+    "label": "farm/meat"
+  },
+  {
+    "name": "F140C",
+    "source": "farm/honey.svg",
+    "codepoints": [
+      988172
+    ],
+    "label": "farm/honey"
+  },
+  {
+    "name": "F140D",
+    "source": "farm/flour.svg",
+    "codepoints": [
+      988173
+    ],
+    "label": "farm/flour"
+  },
+  {
+    "name": "F140E",
+    "source": "farm/greenhouse.svg",
+    "codepoints": [
+      988174
+    ],
+    "label": "farm/greenhouse"
+  },
+  {
+    "name": "F1410",
+    "source": "flora/birch.svg",
+    "codepoints": [
+      988176
+    ],
+    "label": "flora/birch"
+  },
+  {
+    "name": "F1411",
+    "source": "flora/willow.svg",
+    "codepoints": [
+      988177
+    ],
+    "label": "flora/willow"
+  },
+  {
+    "name": "F1412",
+    "source": "flora/poplar.svg",
+    "codepoints": [
+      988178
+    ],
+    "label": "flora/poplar"
+  },
+  {
+    "name": "F1413",
+    "source": "flora/maple.svg",
+    "codepoints": [
+      988179
+    ],
+    "label": "flora/maple"
+  },
+  {
+    "name": "F1414",
+    "source": "flora/apple.svg",
+    "codepoints": [
+      988180
+    ],
+    "label": "flora/apple"
+  },
+  {
+    "name": "F1415",
+    "source": "flora/snag.svg",
+    "codepoints": [
+      988181
+    ],
+    "label": "flora/snag"
+  },
+  {
+    "name": "F1416",
+    "source": "flora/bush.svg",
+    "codepoints": [
+      988182
+    ],
+    "label": "flora/bush"
+  },
+  {
+    "name": "F1417",
+    "source": "flora/berrybush.svg",
+    "codepoints": [
+      988183
+    ],
+    "label": "flora/berrybush"
+  },
+  {
+    "name": "F1418",
+    "source": "flora/fern.svg",
+    "codepoints": [
+      988184
+    ],
+    "label": "flora/fern"
+  },
+  {
+    "name": "F1419",
+    "source": "flora/grass.svg",
+    "codepoints": [
+      988185
+    ],
+    "label": "flora/grass"
+  },
+  {
+    "name": "F141A",
+    "source": "flora/reed.svg",
+    "codepoints": [
+      988186
+    ],
+    "label": "flora/reed"
+  },
+  {
+    "name": "F141B",
+    "source": "flora/stump.svg",
+    "codepoints": [
+      988187
+    ],
+    "label": "flora/stump"
+  },
+  {
+    "name": "F141C",
+    "source": "flora/pine.svg",
+    "codepoints": [
+      988188
+    ],
+    "label": "flora/pine"
+  },
+  {
+    "name": "F141D",
+    "source": "flora/spruce.svg",
+    "codepoints": [
+      988189
+    ],
+    "label": "flora/spruce"
+  },
+  {
+    "name": "F141E",
+    "source": "flora/palm.svg",
+    "codepoints": [
+      988190
+    ],
+    "label": "flora/palm"
+  },
+  {
+    "name": "F1420",
+    "source": "herbs/basil.svg",
+    "codepoints": [
+      988192
+    ],
+    "label": "herbs/basil"
+  },
+  {
+    "name": "F1421",
+    "source": "herbs/rosemary.svg",
+    "codepoints": [
+      988193
+    ],
+    "label": "herbs/rosemary"
+  },
+  {
+    "name": "F1422",
+    "source": "herbs/thyme.svg",
+    "codepoints": [
+      988194
+    ],
+    "label": "herbs/thyme"
+  },
+  {
+    "name": "F1423",
+    "source": "herbs/sage.svg",
+    "codepoints": [
+      988195
+    ],
+    "label": "herbs/sage"
+  },
+  {
+    "name": "F1424",
+    "source": "herbs/mint.svg",
+    "codepoints": [
+      988196
+    ],
+    "label": "herbs/mint"
+  },
+  {
+    "name": "F1425",
+    "source": "herbs/oregano.svg",
+    "codepoints": [
+      988197
+    ],
+    "label": "herbs/oregano"
+  },
+  {
+    "name": "F1426",
+    "source": "herbs/parsley.svg",
+    "codepoints": [
+      988198
+    ],
+    "label": "herbs/parsley"
+  },
+  {
+    "name": "F1427",
+    "source": "herbs/cilantro.svg",
+    "codepoints": [
+      988199
+    ],
+    "label": "herbs/cilantro"
+  },
+  {
+    "name": "F1428",
+    "source": "herbs/dill.svg",
+    "codepoints": [
+      988200
+    ],
+    "label": "herbs/dill"
+  },
+  {
+    "name": "F1429",
+    "source": "herbs/chive.svg",
+    "codepoints": [
+      988201
+    ],
+    "label": "herbs/chive"
+  },
+  {
+    "name": "F142A",
+    "source": "herbs/chamomile.svg",
+    "codepoints": [
+      988202
+    ],
+    "label": "herbs/chamomile"
+  },
+  {
+    "name": "F142B",
+    "source": "herbs/lavender.svg",
+    "codepoints": [
+      988203
+    ],
+    "label": "herbs/lavender"
+  },
+  {
+    "name": "F142C",
+    "source": "herbs/echinacea.svg",
+    "codepoints": [
+      988204
+    ],
+    "label": "herbs/echinacea"
+  },
+  {
+    "name": "F142D",
+    "source": "herbs/yarrow.svg",
+    "codepoints": [
+      988205
+    ],
+    "label": "herbs/yarrow"
+  },
+  {
+    "name": "F142E",
+    "source": "herbs/calendula.svg",
+    "codepoints": [
+      988206
+    ],
+    "label": "herbs/calendula"
+  },
+  {
+    "name": "F142F",
+    "source": "herbs/dandelion.svg",
+    "codepoints": [
+      988207
+    ],
+    "label": "herbs/dandelion"
+  },
+  {
+    "name": "F1430",
+    "source": "herbs/nettle.svg",
+    "codepoints": [
+      988208
+    ],
+    "label": "herbs/nettle"
+  },
+  {
+    "name": "F1431",
+    "source": "herbs/plantain.svg",
+    "codepoints": [
+      988209
+    ],
+    "label": "herbs/plantain"
+  },
+  {
+    "name": "F1432",
+    "source": "herbs/elderberry.svg",
+    "codepoints": [
+      988210
+    ],
+    "label": "herbs/elderberry"
+  },
+  {
+    "name": "F1433",
+    "source": "herbs/garlic.svg",
+    "codepoints": [
+      988211
+    ],
+    "label": "herbs/garlic"
+  },
+  {
+    "name": "F1434",
+    "source": "herbs/ginger.svg",
+    "codepoints": [
+      988212
+    ],
+    "label": "herbs/ginger"
+  },
+  {
+    "name": "F1435",
+    "source": "herbs/aloe.svg",
+    "codepoints": [
+      988213
+    ],
+    "label": "herbs/aloe"
   }
 ]

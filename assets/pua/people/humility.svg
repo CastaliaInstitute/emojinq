@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / humility" data-pua="U+F0C35" data-ink-stroke-system="brush-study-v1">
-  <title>people / humility — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="61.38" cy="25.90" r="15.94" fill="none" stroke="#262522" stroke-width="1.40" stroke-linecap="round"/><path d="M42 49.90Q64 39.90 86 49.90L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="2.23" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 80.78 84 63" fill="none" stroke="#262522" stroke-width="2.44" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / humility" data-pua="U+F0C35" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>people / humility — reviewed vector study</title>
+<circle cx="36" cy="24" r="7" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 30c-6 5-8 12-7 21l-4 11M43 30c6 5 8 12 7 21l4 11M28 40l-9 6M44 40l9 6" stroke-width="2.2" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M31 23c3 2 7 2 10 0M32 28c2 1 5 1 8 0" stroke-width="1.15" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 62h42" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

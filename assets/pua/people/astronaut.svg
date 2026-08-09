@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / astronaut" data-pua="U+F0C05" data-ink-stroke-system="brush-study-v1">
-  <title>people / astronaut — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="60.91" cy="24.50" r="15.31" fill="none" stroke="#262522" stroke-width="1.10" stroke-linecap="round"/><path d="M42 48.50Q64 38.50 86 48.50L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="1.16" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 78.87 84 63" fill="none" stroke="#262522" stroke-width="2.09" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / astronaut" data-pua="U+F0C05" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>people / astronaut — reviewed vector study</title>
+<path d="M24 28c-3-3-3-9 0-13 4-5 12-5 16 0 3 4 3 10 0 13" stroke-width="2.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27 22c3 2 8 2 11 0M29 15c2 2 5 2 7 0" stroke-width="1.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23 29c-3 3-4 7-4 13l-3 8c-1 3 1 5 4 5h32c3 0 5-2 4-5l-3-8c0-6-1-10-4-13-6 4-20 4-26 0z" stroke-width="2.9" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 34l-7 8-5 7M48 34l7 8 5 7M28 54l-3 9M44 54l3 9" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 42v12M31 47h10M57 24c7 4 10 9 11 16" stroke-width="1.1" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

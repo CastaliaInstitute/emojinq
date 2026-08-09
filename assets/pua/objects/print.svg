@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="objects / print" data-pua="U+F084D" data-ink-stroke-system="brush-study-v1">
-  <title>objects / print — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M29 30.01Q64 19.88 99 30.01V96Q64 108.12 29 96Z" fill="none" stroke="#262522" stroke-width="1.82" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 63Q64 57.81 86 63Q64 72.66 42 63Z" fill="none" stroke="#262522" stroke-width="2.06" stroke-linecap="round" stroke-linejoin="round"/><path d="M49.00 48.00L77.01 82.00" fill="none" stroke="#262522" stroke-width="1.18" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / print" data-pua="U+F084D" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>objects / print — reviewed vector study</title>
+<rect x="20" y="18" width="32" height="38" rx="2" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 27h20M26 34h20M26 41h14M26 49h18" stroke-width="1.35" opacity=".74" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

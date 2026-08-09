@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="locations / barn" data-pua="U+F0403" data-ink-stroke-system="brush-study-v1">
-  <title>locations / barn — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M17 93L39 51.88L62 76L83 34.55L111 93" fill="none" stroke="#262522" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 93H107V111H21Z" fill="none" stroke="#262522" stroke-width="1.74" stroke-linecap="round" stroke-linejoin="round"/><path d="M46 93V73H76V93" fill="none" stroke="#262522" stroke-width="1.18" stroke-linecap="round" stroke-linejoin="round"/><path d="M52 73.45Q64 65.12 76 73.45" fill="none" stroke="#262522" stroke-width="1.18" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="locations / barn" data-pua="U+F0403" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>locations / barn — reviewed vector study</title>
+<path d="M12 60V29l24-17 24 17v31z" stroke-width="2.7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 12v17M12 29h48M24 60V43h24v17" stroke-width="2.0" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 34h8M47 34h8M17 40h8M47 40h8M18 52h5M49 52h5" stroke-width="1.15" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 62h54M15 24l21-15 21 15" stroke-width="1.1" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

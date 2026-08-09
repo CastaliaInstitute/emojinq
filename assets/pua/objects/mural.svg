@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="objects / mural" data-pua="U+F0841" data-ink-stroke-system="brush-study-v1">
-  <title>objects / mural — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M29 34.84Q64 23.39 99 34.84V96Q64 104.61 29 96Z" fill="none" stroke="#262522" stroke-width="2.58" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 63Q64 50.40 86 63Q64 82.64 42 63Z" fill="none" stroke="#262522" stroke-width="1.36" stroke-linecap="round" stroke-linejoin="round"/><path d="M49.00 48.00L81.84 82.00" fill="none" stroke="#262522" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="objects / mural" data-pua="U+F0841" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+  <title>objects / mural — naturalist brush study</title>
+  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="2.6" d="M 12 16 C 25 14 48 14 60 16 L 59 57 C 47 59 25 59 13 57 Z"/>
+    <path stroke-width="1.1" d="M 18 21 C 29 19 43 19 54 21 M 18 52 C 29 54 43 54 54 52"/>
+    <path stroke-width="2.2" d="M 24 43 C 26 34 31 28 36 25 C 42 29 46 35 48 43 C 41 40 31 40 24 43 Z"/>
+    <path stroke-width="1" d="M 36 25 L 36 43 M 28 34 C 33 33 40 33 44 34"/>
+  </g>
 </svg>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="patterns / oval" data-pua="U+F0A0D" data-ink-stroke-system="brush-study-v1">
-  <title>patterns / oval — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M26.00 29.00l22.80 0l0 22.80l-22.80 0Z" fill="none" stroke="#262522" stroke-width="2.47" stroke-linecap="round" stroke-linejoin="round"/><path d="M64.00 29.00l22.80 0l0 22.80l-22.80 0Z" fill="none" stroke="#262522" stroke-width="2.52" stroke-linecap="round" stroke-linejoin="round"/><path d="M45.00 64.00l22.80 0l0 22.80l-22.80 0Z" fill="none" stroke="#262522" stroke-width="1.64" stroke-linecap="round" stroke-linejoin="round"/><path d="M83.00 64.00l22.80 0l0 22.80l-22.80 0Z" fill="none" stroke="#262522" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/><path d="M26.00 99.00l22.80 0l0 22.80l-22.80 0Z" fill="none" stroke="#262522" stroke-width="2.47" stroke-linecap="round" stroke-linejoin="round"/><path d="M64.00 99.00l22.80 0l0 22.80l-22.80 0Z" fill="none" stroke="#262522" stroke-width="2.52" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / oval" data-pua="U+F0A0D" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>patterns / oval — reviewed vector study</title>
+<path d="M13 37c0-11 10-19 24-19s24 8 24 19-10 19-24 19-24-8-24-19z" stroke-width="2.55" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 37c2-7 9-12 19-12s17 5 19 12c-2 7-9 12-19 12s-17-5-19-12z" stroke-width="1.2" opacity=".7" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

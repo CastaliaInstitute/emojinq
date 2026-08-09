@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="plants / watering" data-pua="U+F0E11" data-ink-stroke-system="brush-study-v1">
-  <title>plants / watering — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M64 112Q58.10 74 64 40" fill="none" stroke="#262522" stroke-width="1.48" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 75Q38 55.28 28 72Q44 86 64 75Z" fill="none" stroke="#262522" stroke-width="1.37" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 59Q88 44.72 101 56Q87 72 64 59Z" fill="none" stroke="#262522" stroke-width="1.37" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 40Q53.44 24 64 16Q76 25 64 40Z" fill="none" stroke="#262522" stroke-width="1.94" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / watering" data-pua="U+F0E11" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+  <title>plants / watering — naturalist brush study</title>
+  <g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="2.6" d="M 15 43 C 20 39 29 39 36 42 L 50 48 C 53 49 54 52 52 54 C 50 56 47 56 44 54 L 32 49 L 22 52 C 18 53 14 50 15 43 Z"/>
+    <path stroke-width="2.2" d="M 22 39 L 31 29 C 34 26 38 27 40 30 L 46 39"/>
+    <path stroke-width="1.1" d="M 42 35 C 48 32 53 32 58 35 M 49 40 C 54 38 58 39 61 41 M 24 55 C 22 59 23 62 26 64 M 31 54 C 30 59 32 62 35 64"/>
+  </g>
 </svg>

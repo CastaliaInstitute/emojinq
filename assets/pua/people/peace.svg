@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / peace" data-pua="U+F0C52" data-ink-stroke-system="brush-study-v1">
-  <title>people / peace — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="62.20" cy="27.14" r="14.42" fill="none" stroke="#262522" stroke-width="1.66" stroke-linecap="round"/><path d="M42 51.14Q64 41.14 86 51.14L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="1.72" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 74.95 84 63" fill="none" stroke="#262522" stroke-width="2.50" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / peace" data-pua="U+F0C52" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>people / peace — reviewed vector study</title>
+<path d="M36 56c-9-10-19-16-19-26 0-6 6-9 10-5 3 3 5 7 9 12 4-5 6-9 9-12 4-4 10-1 10 5 0 10-10 16-19 26z" stroke-width="2.35" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M36 37c-3 6-3 12 0 19M28 34c-5 0-9-2-12-5M44 34c5 0 9-2 12-5" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 61h52" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

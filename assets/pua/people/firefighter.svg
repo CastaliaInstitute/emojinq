@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / firefighter" data-pua="U+F0C27" data-ink-stroke-system="brush-study-v1">
-  <title>people / firefighter — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="67.28" cy="30.05" r="15.73" fill="none" stroke="#262522" stroke-width="2.29" stroke-linecap="round"/><path d="M42 54.05Q64 44.05 86 54.05L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="2.42" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 74.82 84 63" fill="none" stroke="#262522" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / firefighter" data-pua="U+F0C27" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>people / firefighter — reviewed vector study</title>
+<path d="M36 17c-7 8-11 13-11 22 0 11 5 19 11 23 6-4 11-12 11-23 0-9-4-14-11-22z" stroke-width="2.4" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28 31c2-4 5-7 8-10 3 3 6 6 8 10M28 44c4-3 12-3 16 0M30 51c4-2 8-2 12 0" stroke-width="1.35" opacity=".76" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 60c5-3 11-4 16-4s11 1 16 4M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="materials / sand" data-pua="U+F0608" data-ink-stroke-system="brush-study-v1">
-  <title>materials / sand — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M25 40.29Q64 21.56 103 38L94 96Q64 108 34 96Z" fill="none" stroke="#262522" stroke-width="1.97" stroke-linecap="round" stroke-linejoin="round"/><path d="M35 53Q64 42 93 53M32 70Q64 60 96 70M30 86Q64 76 98 86" fill="none" stroke="#262522" stroke-width="1.29" stroke-linecap="round" stroke-linejoin="round"/><path d="M47.00 32.00L45.29 100.00" fill="none" stroke="#262522" stroke-width="2.31" stroke-linecap="round" stroke-linejoin="round"/><path d="M74.00 29.00L80.29 101.00" fill="none" stroke="#262522" stroke-width="2.31" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="materials / sand" data-pua="U+F0608" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1"><title>materials / sand — naturalist brush study</title><g fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"><path stroke-width="2.8" d="M 10 48 C 19 41 28 37 37 38 C 47 39 55 44 62 51"/><path stroke-width="1.2" d="M 10 55 C 21 51 31 50 40 51 C 49 52 55 55 62 59 M 14 62 C 25 59 47 59 58 62"/><path stroke-width="1" d="M 20 46 C 24 43 28 42 32 42 M 42 43 C 47 43 51 45 55 48"/></g></svg>

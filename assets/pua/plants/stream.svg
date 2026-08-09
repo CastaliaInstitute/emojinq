@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="plants / stream" data-pua="U+F0E0F" data-ink-stroke-system="brush-study-v1">
-  <title>plants / stream — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M64 112Q60.82 74 64 40" fill="none" stroke="#262522" stroke-width="2.29" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 75Q38 59.05 28 72Q44 86 64 75Z" fill="none" stroke="#262522" stroke-width="2.01" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 59Q88 40.95 101 56Q87 72 64 59Z" fill="none" stroke="#262522" stroke-width="2.01" stroke-linecap="round" stroke-linejoin="round"/><path d="M64 40Q56.86 24 64 16Q76 25 64 40Z" fill="none" stroke="#262522" stroke-width="2.32" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / stream" data-pua="U+F0E0F" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>plants / stream — reviewed vector study</title>
+<path d="M14 18c12 7 15 14 10 21-5 7-3 14 10 18 12 4 19 0 19-8 0-6-5-10-11-11-7-1-12 3-12 8" stroke-width="2.25" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 15c10 6 14 12 10 18M47 22c7 5 9 11 6 16M18 57c8 5 17 7 27 5" stroke-width="1.15" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 29l-5 5M57 48l6 3M30 62h13" stroke-width="1.0" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

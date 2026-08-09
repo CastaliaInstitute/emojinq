@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / police" data-pua="U+F0C55" data-ink-stroke-system="brush-study-v1">
-  <title>people / police — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="64.73" cy="31.06" r="14.81" fill="none" stroke="#262522" stroke-width="2.51" stroke-linecap="round"/><path d="M42 55.06Q64 45.06 86 55.06L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="1.59" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 78.02 84 63" fill="none" stroke="#262522" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / police" data-pua="U+F0C55" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>people / police — reviewed vector study</title>
+<path d="M36 14l20 7v16c0 12-8 21-20 28-12-7-20-16-20-28V21z" stroke-width="2.4" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28 35c2-6 5-9 8-9s6 3 8 9M25 51c3-8 7-12 11-12s8 4 11 12M30 22h12" stroke-width="1.45" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 64h44" stroke-width="1" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

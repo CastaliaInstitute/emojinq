@@ -82,6 +82,11 @@ def main() -> None:
             if args.mode == "line":
                 collapse(tree.getroot())
             tree.write(target, encoding="utf-8", xml_declaration=True)
+            root = tree.getroot()
+            metadata["brushed"] = (
+                root.get("data-ink-stroke-system") == "tapered-v1"
+                and root.get("data-ink-coverage", "complete") == "complete"
+            )
             entries.append(metadata)
     (args.output_dir / "manifest.json").write_text(json.dumps(entries, indent=2) + "\n")
     print(f"built {len(entries)} Emojinq glyphs in {args.output_dir}")

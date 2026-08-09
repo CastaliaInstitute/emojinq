@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="people / orphan" data-pua="U+F0C50" data-ink-stroke-system="brush-study-v1">
-  <title>people / orphan — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <circle cx="63.41" cy="27.66" r="16.61" fill="none" stroke="#262522" stroke-width="1.78" stroke-linecap="round"/><path d="M42 51.66Q64 41.66 86 51.66L91 103Q64 113 37 103Z" fill="none" stroke="#262522" stroke-width="1.47" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 63Q64 75.79 84 63" fill="none" stroke="#262522" stroke-width="2.44" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / orphan" data-pua="U+F0C50" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>people / orphan — reviewed vector study</title>
+<circle cx="36" cy="22" r="8" stroke-width="2.4" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28 31c-6 6-8 14-7 23l-4 8M44 31c6 6 8 14 7 23l4 8M28 42l-9 7M44 42l9 7" stroke-width="2.3" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M31 21c3 2 7 2 10 0M32 27c2 1 5 1 8 0" stroke-width="1.1" opacity=".68" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 62V45h16v17M12 45l8-7 8 7M17 62V52h6v10" stroke-width="1.8" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 64h56" stroke-width="1" opacity=".62" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

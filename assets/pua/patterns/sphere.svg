@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="patterns / sphere" data-pua="U+F0A12" data-ink-stroke-system="brush-study-v1">
-  <title>patterns / sphere — Emojinq PUA brush study</title>
-  <rect width="128" height="128" fill="#efeee8" opacity="0"/>
-  <path d="M26.00 29.00l23.76 0l0 23.76l-23.76 0Z" fill="none" stroke="#262522" stroke-width="2.22" stroke-linecap="round" stroke-linejoin="round"/><path d="M64.00 29.00l23.76 0l0 23.76l-23.76 0Z" fill="none" stroke="#262522" stroke-width="1.80" stroke-linecap="round" stroke-linejoin="round"/><path d="M45.00 64.00l23.76 0l0 23.76l-23.76 0Z" fill="none" stroke="#262522" stroke-width="2.15" stroke-linecap="round" stroke-linejoin="round"/><path d="M83.00 64.00l23.76 0l0 23.76l-23.76 0Z" fill="none" stroke="#262522" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/><path d="M26.00 99.00l23.76 0l0 23.76l-23.76 0Z" fill="none" stroke="#262522" stroke-width="2.22" stroke-linecap="round" stroke-linejoin="round"/><path d="M64.00 99.00l23.76 0l0 23.76l-23.76 0Z" fill="none" stroke="#262522" stroke-width="1.80" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="patterns / sphere" data-pua="U+F0A12" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1">
+<title>patterns / sphere — reviewed vector study</title>
+<circle cx="36" cy="37" r="22" stroke-width="2.5" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 37h44M36 15c-8 7-11 14-11 22s3 15 11 22M36 15c8 7 11 14 11 22s-3 15-11 22" stroke-width="1.2" opacity=".72" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19 26c10 4 24 4 34 0M19 48c10-4 24-4 34 0" stroke-width="1.0" opacity=".6" fill="none" stroke="#262522" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
