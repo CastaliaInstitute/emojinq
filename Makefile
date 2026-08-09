@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: assets fetch-openmoji all-lines all-gray lines divination animals-simple weather-simple materials-simple brushify-pua font check check-pua check-catalog contact-pua review-pua check-svg check-sumi-e
+.PHONY: assets fetch-openmoji all-lines all-gray lines divination animals-simple weather-simple materials-simple science-simple brushify-pua font check check-pua check-catalog contact-pua review-pua check-svg check-sumi-e
 
 fetch-openmoji:
 	$(PYTHON) scripts/fetch_openmoji.py
@@ -25,6 +25,9 @@ weather-simple:
 
 materials-simple:
 	$(PYTHON) scripts/redraw_materials_simple.py
+
+science-simple:
+	$(PYTHON) scripts/redraw_science_simple.py
 
 brushify-pua:
 	$(PYTHON) scripts/brushify_pua.py
