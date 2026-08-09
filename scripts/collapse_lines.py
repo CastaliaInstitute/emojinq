@@ -48,7 +48,7 @@ def roughen_path(d: str, seed: int, amount: float = 0.58) -> str:
 
 
 def collapse(root: ET.Element) -> None:
-    root.set("data-castalia-style", "davinci-line-v2")
+    root.set("data-castalia-style", "sumi-e-ink-wash-v1")
     weight_index = 0
     def visit(parent: ET.Element, inside_clip: bool = False) -> None:
         nonlocal weight_index

@@ -181,7 +181,10 @@ def convert(source: Path, target: Path, name: str) -> None:
 
     defs = ET.Element(f"{{{SVG_NS}}}defs")
     style = ET.SubElement(defs, f"{{{SVG_NS}}}style")
-    style.text = """.ink-outline{stroke:#292929;stroke-width:1.7;stroke-linejoin:round;stroke-linecap:round}"""
+    # Keep color and geometry in the shared style, but leave stroke width to
+    # each geometry element.  The per-mark width is the pressure signal that
+    # makes the Unicode set read as brushwork instead of a uniform icon font.
+    style.text = """.ink-outline{stroke:#292929;stroke-linejoin:round;stroke-linecap:round}"""
     root.insert(0, defs)
 
     shape_index = 0
@@ -271,6 +274,8 @@ def convert(source: Path, target: Path, name: str) -> None:
                         if not duplicate:
                             element.set("class", "ink-outline")
                             element.set("stroke-width", f"{2.15 + (shape_index % 5) * 0.22:.2f}")
+                            element.set("stroke-linecap", "round")
+                            element.set("stroke-linejoin", "round")
                             if bounds is not None:
                                 outlined_bounds.append(bounds)
                     shape_index += 1
