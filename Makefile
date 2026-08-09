@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: assets fetch-openmoji all-lines all-gray lines divination animals-simple weather-simple materials-simple science-simple cross-category-simple art-batch art-batch2 animate-svg check-animation laser-pua check-laser outliers-simple brushify-pua font check check-pua check-catalog contact-pua review-pua check-svg check-sumi-e
+.PHONY: assets fetch-openmoji all-lines all-gray lines divination animals-simple weather-simple materials-simple science-simple cross-category-simple art-batch art-batch2 art-batch3 animate-svg check-animation laser-pua check-laser outliers-simple brushify-pua font check check-pua check-catalog contact-pua review-pua check-svg check-sumi-e
 
 fetch-openmoji:
 	$(PYTHON) scripts/fetch_openmoji.py
@@ -38,10 +38,13 @@ art-batch:
 art-batch2:
 	$(PYTHON) scripts/redraw_art_batch2.py
 
+art-batch3:
+	$(PYTHON) scripts/redraw_art_batch3.py
+
 animate-svg:
 	$(PYTHON) scripts/prepare_svg_animation.py --root assets/pua
 
-check-animation:
+check-animation: animate-svg
 	$(PYTHON) scripts/check_svg_animation.py --root assets/pua
 
 laser-pua:
