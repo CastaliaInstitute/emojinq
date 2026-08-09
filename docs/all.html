@@ -37,7 +37,7 @@
   <div id="status">Loading manifest…</div>
   <div class="controls" aria-label="Gallery controls">
     <input class="search" id="search" type="search" placeholder="Search emoji, code point, or group…" aria-label="Search emoji">
-    <label>Group <select id="group"><option value="all">All groups</option><optgroup label="PUA categories" id="pua-groups"></optgroup></select></label>
+    <label>Group <select id="group"><option value="all">All groups</option><optgroup label="PUA categories" id="pua-groups"><option value="pua-all">All PUA categories</option></optgroup></select></label>
   </div>
   <div class="type-sample" aria-label="Emojinq alphabet specimen"><small>Emojinq brush alphabet</small>ABCDEFGHIJKLMNOPQRSTUVWXYZ · abcdefghijklmnopqrstuvwxyz · 0123456789</div>
   <section class="grid" id="grid" aria-label="Full Emojinq gallery"></section>
@@ -119,7 +119,7 @@
         const selected = group.value;
         const query = expandQuery(search.value.trim().toLowerCase());
         const visible = items.filter(item => {
-          const inGroup = selected === "all" || item.group === selected;
+          const inGroup = selected === "all" || (selected === "pua-all" ? item.pua : item.group === selected);
           const haystack = `${item.label || ""} ${item.name} ${item.group} ${item.codepoints.map(cp => cp.toString(16)).join(" ")}`.toLowerCase();
           return inGroup && (!query.length || query.some(term => haystack.includes(term)));
         });
