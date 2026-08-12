@@ -1,15 +1,17 @@
 PYTHON ?= python3
 
-.PHONY: assets cosmos fetch-openmoji all-lines all-gray lines divination naturalist-pua botanical-art body-art animals-art field-studies-art patterns-art materials-art sea-art dinosaurs-art field-plate-detail remove-ground animals-simple weather-simple materials-simple science-simple cross-category-simple art-batch art-batch2 art-batch3 art-batch4 art-batch5 people-art people-rich animate-svg check-animation laser-standard laser-pua laser-calibration check-laser outliers-simple brushify-pua trace-brush font check check-pua check-catalog contact-pua review-pua check-svg check-sumi-e
+.PHONY: assets cosmos colossal-cave-pua fetch-openmoji all-lines all-gray lines divination naturalist-pua botanical-art body-art animals-art field-studies-art patterns-art materials-art sea-art dinosaurs-art field-plate-detail remove-ground animals-simple weather-simple materials-simple science-simple cross-category-simple art-batch art-batch2 art-batch3 art-batch4 art-batch5 people-art people-rich animate-svg check-animation laser-standard laser-pua laser-calibration check-laser outliers-simple brushify-pua trace-brush font check check-pua check-catalog contact-pua review-pua check-svg check-sumi-e check-stroke-corpus
 
 fetch-openmoji:
 	$(PYTHON) scripts/fetch_openmoji.py
 
 all-lines: fetch-openmoji
-	$(PYTHON) scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode line
+	uv run --python 3.12 --with svgpathtools python scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode line
+	PYTHONPATH=scripts uv run --python 3.12 --with svgpathtools python scripts/enrich_animal_faces.py --root assets/line-all
 
 all-gray: fetch-openmoji
-	$(PYTHON) scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode grayscale
+	uv run --python 3.12 --with svgpathtools python scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode line --output-dir assets/gray-all
+	PYTHONPATH=scripts uv run --python 3.12 --with svgpathtools python scripts/enrich_animal_faces.py --root assets/gray-all
 
 assets:
 	$(PYTHON) scripts/build_set.py
@@ -61,7 +63,8 @@ body-art:
 	$(PYTHON) scripts/redraw_body_actions_naturalist.py
 
 animals-art:
-	$(PYTHON) scripts/redraw_animals_naturalist_art.py
+	$(PYTHON) scripts/redraw_animals_line_anatomy.py
+	$(PYTHON) scripts/enrich_animals_stroke_anatomy.py
 
 field-studies-art:
 	$(PYTHON) scripts/redraw_field_studies.py
@@ -75,12 +78,10 @@ materials-art:
 	$(PYTHON) scripts/redraw_materials_naturalist_art.py
 
 sea-art:
-	$(PYTHON) scripts/redraw_sea_naturalist_art.py
-	$(PYTHON) scripts/enrich_naturalist_plate_detail.py
+	uv run --with svgpathtools python scripts/enrich_sea_stroke_anatomy.py
 
 dinosaurs-art:
-	$(PYTHON) scripts/redraw_dinosaurs_naturalist_art.py
-	$(PYTHON) scripts/enrich_naturalist_plate_detail.py
+	uv run --with svgpathtools python scripts/redraw_dinosaurs_stroke_only.py
 
 field-plate-detail:
 	$(PYTHON) scripts/enrich_naturalist_plate_detail.py
@@ -118,7 +119,7 @@ brushify-pua:
 # Usage: make trace-brush TRACE_INPUT=reference.png TRACE_OUTPUT=build/reference.svg
 trace-brush:
 	@test -n "$(TRACE_INPUT)" -a -n "$(TRACE_OUTPUT)" || (echo "set TRACE_INPUT and TRACE_OUTPUT" && exit 2)
-	uv run --with vtracer --with pillow --with svgpathtools python scripts/trace_raster_brush.py "$(TRACE_INPUT)" "$(TRACE_OUTPUT)"
+	uv run --python 3.12 --with vtracer --with pillow --with svgpathtools python scripts/trace_raster_brush.py "$(TRACE_INPUT)" "$(TRACE_OUTPUT)"
 
 divination:
 	$(PYTHON) scripts/build_divination_svg.py
@@ -126,20 +127,25 @@ divination:
 naturalist-pua:
 	$(PYTHON) scripts/build_naturalist_pua.py --manifest
 
+colossal-cave-pua:
+	$(PYTHON) scripts/build_colossal_cave_pua.py
+
 cosmos:
 	$(PYTHON) scripts/build_cosmos_pua.py --manifest
 
 font: all-gray divination
 	$(PYTHON) scripts/fetch_yuji_boku.py
-	$(PYTHON) scripts/build_alpha_svg.py
-	$(PYTHON) scripts/build_font.py --source-dir assets/gray-all --manifest assets/gray-all/manifest.json --alpha-dir assets/alpha-ink --alpha-manifest assets/alpha-ink/manifest.json --extra-dir assets/divination --extra-manifest assets/divination/manifest.json --extra-dir assets/pua --extra-manifest assets/pua/manifest.json --output fonts/Emojinq-Regular.ttf
+	uv run --with scikit-image --with pillow --with svgpathtools python scripts/build_alpha_svg.py
+	uv run --python 3.12 --with fonttools --with svgpathtools python scripts/build_font.py --source-dir assets/gray-all --manifest assets/gray-all/manifest.json --alpha-dir assets/alpha-ink --alpha-manifest assets/alpha-ink/manifest.json --extra-dir assets/divination --extra-manifest assets/divination/manifest.json --extra-dir assets/pua --extra-manifest assets/pua/manifest.json --output fonts/Emojinq-Regular.ttf
 
 check:
 	$(PYTHON) scripts/check_quality.py
 	$(MAKE) check-pua
 	$(MAKE) check-sumi-e
+	$(MAKE) check-stroke-corpus
 	$(MAKE) check-catalog
 	uv run --with fonttools python scripts/check_font.py
+	uv run --with pillow --with fonttools python scripts/check_alpha_font.py fonts/Emojinq-Regular.ttf
 	$(PYTHON) scripts/check_pua_font_render.py fonts/Emojinq-Regular.ttf
 
 check-catalog:
@@ -166,6 +172,9 @@ check-svg:
 check-sumi-e:
 	$(PYTHON) scripts/check_sumi_e_style.py --root assets
 
+check-stroke-corpus:
+	$(PYTHON) scripts/check_stroke_corpus.py --root assets
+
 # Emoji-only subset for app bundles (e.g. CastaliaInstitute/atlas).
 # Keeps every standard single-codepoint emoji block for headroom; drops the
 # Yuji alphabet, flag pairs (regional indicators), skin-tone modifiers, and
@@ -173,6 +182,6 @@ check-sumi-e:
 atlas-subset:
 	pyftsubset fonts/Emojinq-Regular.ttf \
 	  --output-file=fonts/Emojinq-Atlas.ttf \
-	  --unicodes=0023,002A,0030-0039,20E3,FE0E-FE0F,2190-21FF,2300-23FF,25A0-25FF,2600-26FF,2700-27BF,2934-2935,2B00-2BFF,1F000-1F0FF,1F300-1F3FA,1F400-1F5FF,1F600-1F64F,1F680-1F6FF,1F780-1F7FF,1F900-1F9FF,1FA70-1FAFF,F0E00-F0E11,F084A,F1067,F0C16,F0C25,F0403,F0417,F0426,F1117,F1400-F1435,F1440-F145E,F14B0-F14B3 \
+	  --unicodes=0023,002A,0030-0039,20E3,FE0E-FE0F,2190-21FF,2300-23FF,25A0-25FF,2600-26FF,2700-27BF,2934-2935,2B00-2BFF,1F000-1F0FF,1F300-1F3FA,1F400-1F5FF,1F600-1F64F,1F680-1F6FF,1F780-1F7FF,1F900-1F9FF,1FA70-1FAFF,F0E00-F0E11,F084A,F1067,F0C16,F0C25,F0403,F0417,F0426,F1117,F1400-F1435,F1440-F145E,F14B0-F14B3,F14C0-F14DF \
 	  --layout-features='*' \
 	  --name-IDs='*'

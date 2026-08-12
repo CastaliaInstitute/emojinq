@@ -6542,5 +6542,109 @@
       988339
     ],
     "label": "brc/shade"
+  },
+  {
+    "name": "F14C0",
+    "source": "cave_locations/end-of-road.svg",
+    "codepoints": [
+      988352
+    ],
+    "label": "cave_locations/end-of-road"
+  },
+  {
+    "name": "F14C1",
+    "source": "cave_locations/outside-grate.svg",
+    "codepoints": [
+      988353
+    ],
+    "label": "cave_locations/outside-grate"
+  },
+  {
+    "name": "F14C2",
+    "source": "cave_locations/debris-room.svg",
+    "codepoints": [
+      988354
+    ],
+    "label": "cave_locations/debris-room"
+  },
+  {
+    "name": "F14C3",
+    "source": "cave_locations/bird-chamber.svg",
+    "codepoints": [
+      988355
+    ],
+    "label": "cave_locations/bird-chamber"
+  },
+  {
+    "name": "F14C4",
+    "source": "cave_locations/hall-of-mists.svg",
+    "codepoints": [
+      988356
+    ],
+    "label": "cave_locations/hall-of-mists"
+  },
+  {
+    "name": "F14C5",
+    "source": "cave_locations/plover-room.svg",
+    "codepoints": [
+      988357
+    ],
+    "label": "cave_locations/plover-room"
+  },
+  {
+    "name": "F14D0",
+    "source": "adventure/brass-lamp.svg",
+    "codepoints": [
+      988368
+    ],
+    "label": "adventure/brass-lamp"
+  },
+  {
+    "name": "F14D1",
+    "source": "adventure/keys.svg",
+    "codepoints": [
+      988369
+    ],
+    "label": "adventure/keys"
+  },
+  {
+    "name": "F14D2",
+    "source": "adventure/black-rod.svg",
+    "codepoints": [
+      988370
+    ],
+    "label": "adventure/black-rod"
+  },
+  {
+    "name": "F14D3",
+    "source": "adventure/little-bird.svg",
+    "codepoints": [
+      988371
+    ],
+    "label": "adventure/little-bird"
+  },
+  {
+    "name": "F14D4",
+    "source": "adventure/gold-nugget.svg",
+    "codepoints": [
+      988372
+    ],
+    "label": "adventure/gold-nugget"
+  },
+  {
+    "name": "F14D5",
+    "source": "adventure/emerald.svg",
+    "codepoints": [
+      988373
+    ],
+    "label": "adventure/emerald"
+  },
+  {
+    "name": "F14D6",
+    "source": "adventure/silver-chest.svg",
+    "codepoints": [
+      988374
+    ],
+    "label": "adventure/silver-chest"
   }
 ]
