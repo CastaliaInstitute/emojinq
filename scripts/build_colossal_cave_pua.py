@@ -14,6 +14,9 @@ GLYPHS={
   0xF14C3:('cave_locations','bird-chamber','<path d="M8 57 Q12 18 36 12 Q60 18 64 57 M18 50 Q31 43 46 48 M25 39 Q28 26 39 28 Q49 31 44 41 Q38 48 28 43 Z M42 31 L51 34 L43 36 M31 43 L29 51 M37 44 L39 51"/>'),
   0xF14C4:('cave_locations','hall-of-mists','<path d="M8 60 Q10 17 36 10 Q62 17 64 60 M31 13 Q29 29 32 47 Q34 57 26 64 M39 13 Q42 31 39 48 Q37 57 45 64 M14 55 Q25 50 35 56 Q47 62 59 54"/>'),
   0xF14C5:('cave_locations','plover-room','<path d="M8 58 Q12 18 36 12 Q60 18 64 58 M36 25 L49 38 L36 56 L23 38 Z M36 25 L36 56 M23 38 L49 38 M29 31 L43 47 M43 31 L29 47"/>'),
+  # Castalia's cartographic seal: a rook as the grounded institution, with a
+  # living flame rising from its central tower. Used as a gateway between maps.
+  0xF14C6:('cave_locations','castalia-rook-flame','<path d="M16 14 L16 25 L21 29 L18 58 M56 14 L56 25 L51 29 L54 58 M16 14 L25 14 L25 22 L32 22 M40 22 L47 22 L47 14 L56 14 M18 58 L54 58 M22 48 L50 48 M24 29 L48 29 M27 48 L27 37 Q36 31 45 37 L45 48 M36 31 Q28 25 34 16 Q35 22 40 23 Q46 17 43 10 Q53 22 43 31"/>'),
   # Adventure inventory is deliberately its own semantic category. These
   # marks can be reused by later Atlas explorations without importing a
   # Colossal Cave-specific object namespace.

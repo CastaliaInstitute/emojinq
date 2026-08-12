@@ -6592,6 +6592,14 @@
     "label": "cave_locations/plover-room"
   },
   {
+    "name": "F14C6",
+    "source": "cave_locations/castalia-rook-flame.svg",
+    "codepoints": [
+      988358
+    ],
+    "label": "cave_locations/castalia-rook-flame"
+  },
+  {
     "name": "F14D0",
     "source": "adventure/brass-lamp.svg",
     "codepoints": [
