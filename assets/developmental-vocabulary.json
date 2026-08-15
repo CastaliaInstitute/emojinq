@@ -115383,12 +115383,12 @@
       "reason": "specific natural or material subject",
       "confidence": "high",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 8,
+      "brush_stroke_count": 10,
       "stroke_only_marks": 0,
-      "filled_marks": 8,
-      "visible_marks": 8,
+      "filled_marks": 10,
+      "visible_marks": 10,
       "stroke_only_ready": false,
-      "stroke_complexity": "4-8"
+      "stroke_complexity": "9-16"
     },
     {
       "family": "pua",
@@ -115523,12 +115523,12 @@
       "reason": "specific natural or material subject",
       "confidence": "high",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 7,
+      "brush_stroke_count": 9,
       "stroke_only_marks": 0,
-      "filled_marks": 7,
-      "visible_marks": 7,
+      "filled_marks": 9,
+      "visible_marks": 9,
       "stroke_only_ready": false,
-      "stroke_complexity": "4-8"
+      "stroke_complexity": "9-16"
     },
     {
       "family": "pua",
@@ -115543,12 +115543,12 @@
       "reason": "specific natural or material subject",
       "confidence": "high",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 5,
+      "brush_stroke_count": 9,
       "stroke_only_marks": 0,
-      "filled_marks": 5,
-      "visible_marks": 5,
+      "filled_marks": 9,
+      "visible_marks": 9,
       "stroke_only_ready": false,
-      "stroke_complexity": "4-8"
+      "stroke_complexity": "9-16"
     },
     {
       "family": "pua",
@@ -117123,11 +117123,11 @@
       "reason": "specific natural or material subject",
       "confidence": "high",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 15,
-      "stroke_only_marks": 15,
-      "filled_marks": 0,
-      "visible_marks": 15,
-      "stroke_only_ready": true,
+      "brush_stroke_count": 9,
+      "stroke_only_marks": 0,
+      "filled_marks": 9,
+      "visible_marks": 9,
+      "stroke_only_ready": false,
       "stroke_complexity": "9-16"
     },
     {
@@ -117303,10 +117303,10 @@
       "reason": "specific natural or material subject",
       "confidence": "high",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 6,
+      "brush_stroke_count": 8,
       "stroke_only_marks": 0,
-      "filled_marks": 6,
-      "visible_marks": 6,
+      "filled_marks": 8,
+      "visible_marks": 8,
       "stroke_only_ready": false,
       "stroke_complexity": "4-8"
     },
@@ -117323,12 +117323,12 @@
       "reason": "specific natural or material subject",
       "confidence": "high",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 9,
-      "stroke_only_marks": 9,
-      "filled_marks": 0,
-      "visible_marks": 9,
-      "stroke_only_ready": true,
-      "stroke_complexity": "9-16"
+      "brush_stroke_count": 6,
+      "stroke_only_marks": 0,
+      "filled_marks": 6,
+      "visible_marks": 6,
+      "stroke_only_ready": false,
+      "stroke_complexity": "4-8"
     },
     {
       "family": "pua",
