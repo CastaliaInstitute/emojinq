@@ -313,7 +313,7 @@
         figure.tabIndex = 0;
         figure.setAttribute("role", "button");
         figure.setAttribute("aria-pressed", "false");
-        figure.setAttribute("aria-label", `${item.name}; click to flip for QR link`);
+        figure.setAttribute("aria-label", `${item.label || item.name}; click to flip for QR link`);
         const inner = document.createElement("div");
         inner.className = "card-inner";
         const front = document.createElement("div");
@@ -321,7 +321,7 @@
         const glyph = document.createElement("span");
         glyph.className = "glyph";
         glyph.setAttribute("role", "img");
-        glyph.setAttribute("aria-label", item.name);
+        glyph.setAttribute("aria-label", item.label || item.name);
         if (item.pua) {
           const image = document.createElement("img");
           image.dataset.puaSource = item.source;
@@ -337,7 +337,7 @@
         reviewTrigger.className = "review-trigger";
         reviewTrigger.type = "button";
         reviewTrigger.textContent = "Review";
-        reviewTrigger.setAttribute("aria-label", `Review ${item.name}`);
+        reviewTrigger.setAttribute("aria-label", `Review ${item.label || item.name}`);
         reviewTrigger.addEventListener("click", event => {
           event.stopPropagation();
           openReview(item);
