@@ -128,10 +128,13 @@
     const cardUrl = "https://inq.cards";
     const fontRoot = location.pathname.endsWith("/docs/all.html") ? "../fonts/" : "fonts/";
     const feedbackEndpoint = location.pathname.endsWith("/docs/all.html") ? "../api/feedback" : "api/feedback";
+    const requestedRelease = new URLSearchParams(location.search).get("release");
+    const releaseVersion = requestedRelease || "sumi-toddler-7";
+    const versionedPuaSource = source => `${puaRoot}${source}?v=${encodeURIComponent(releaseVersion)}`;
     const fontStyle = document.createElement("style");
       fontStyle.textContent = `
-        @font-face { font-family: Emojinq; src: url("${fontRoot}Emojinq-Regular.ttf?v=sumi-toddler-5") format("truetype"); font-display: swap; }
-        @font-face { font-family: "Emojinq Color"; src: url("${fontRoot}Emojinq-Color.ttf?v=sumi-color-2") format("truetype"); font-display: swap; }
+        @font-face { font-family: Emojinq; src: url("${fontRoot}Emojinq-Regular.ttf?v=${encodeURIComponent(releaseVersion)}") format("truetype"); font-display: swap; }
+        @font-face { font-family: "Emojinq Color"; src: url("${fontRoot}Emojinq-Color.ttf?v=${encodeURIComponent(releaseVersion)}") format("truetype"); font-display: swap; }
       `;
     document.head.append(fontStyle);
     const variant = document.getElementById("variant");
@@ -164,7 +167,7 @@
       reviewPreview.replaceChildren();
       if (item.pua) {
         const image = document.createElement("img");
-        image.src = `${puaRoot}${item.source}`;
+        image.src = versionedPuaSource(item.source);
         image.alt = item.name;
         reviewPreview.append(image);
       } else {
@@ -303,7 +306,7 @@
         glyph.setAttribute("aria-label", item.name);
         if (item.pua) {
           const image = document.createElement("img");
-          image.src = `${puaRoot}${item.source}`;
+          image.src = versionedPuaSource(item.source);
           image.alt = item.name;
           image.loading = "lazy";
           glyph.append(image);
