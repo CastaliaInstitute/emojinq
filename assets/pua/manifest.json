@@ -6752,6 +6752,14 @@
     "label": "faerie/season-winter"
   },
   {
+    "name": "F1514",
+    "source": "faerie/dew-drop.svg",
+    "codepoints": [
+      988436
+    ],
+    "label": "faerie/dew-drop"
+  },
+  {
     "name": "F1520",
     "source": "castalia/rook-flame.svg",
     "codepoints": [

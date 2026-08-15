@@ -39,6 +39,9 @@
     .review-preview { display:grid; place-items:center; width:96px; height:96px; padding:.5rem; background:#fffefa; border:1px solid #d0cdc4; }
     .review-preview img { width:100%; height:100%; object-fit:contain; }
     .review-preview span { font:3.6rem/1 "Emojinq", sans-serif; }
+    html[data-font-variant="color"] .type-sample,
+    html[data-font-variant="color"] .glyph,
+    html[data-font-variant="color"] .review-preview span { font-family:"Emojinq Color","Emojinq",sans-serif; }
     .review-title { margin:0; font-size:1.1rem; }
     .review-meta { margin:.25rem 0 0; color:var(--quiet); font:12px/1.4 ui-monospace,monospace; overflow-wrap:anywhere; }
     .review-close { position:absolute; top:.65rem; right:.7rem; border:0; background:none; color:var(--quiet); font-size:1.5rem; cursor:pointer; }
@@ -57,12 +60,13 @@
 </head>
 <body><main>
   <h1>iNQ</h1>
-  <p>Emojinq · full OpenMoji Black brush-ink build</p>
+  <p>Emojinq · monochrome ink and familiar-color sumi-e wash variants</p>
   <div id="status">Loading manifest…</div>
   <div class="controls" aria-label="Gallery controls">
     <input class="search" id="search" type="search" placeholder="Search emoji, code point, or group…" aria-label="Search emoji">
     <label>Group <select id="group"><option value="all">All groups</option><optgroup label="PUA categories" id="pua-groups"><option value="pua-all">All PUA categories</option></optgroup></select></label>
     <label>Vocabulary <select id="development"><option value="all">All stages</option><option value="1">First words</option><option value="2">Naturalist referents</option><option value="3">Emotions &amp; relationships</option><option value="4">Scenes &amp; ideas</option><option value="literacy">Literacy symbols</option></select></label>
+    <label>Variant <select id="variant"><option value="ink">Ink</option><option value="color">Color wash</option></select></label>
   </div>
   <div class="type-sample" aria-label="Emojinq alphabet specimen"><small>Emojinq brush alphabet</small>ABCDEFGHIJKLMNOPQRSTUVWXYZ · abcdefghijklmnopqrstuvwxyz · 0123456789</div>
   <section class="grid" id="grid" aria-label="Full Emojinq gallery"></section>
@@ -125,8 +129,19 @@
     const fontRoot = location.pathname.endsWith("/docs/all.html") ? "../fonts/" : "fonts/";
     const feedbackEndpoint = location.pathname.endsWith("/docs/all.html") ? "../api/feedback" : "api/feedback";
     const fontStyle = document.createElement("style");
-      fontStyle.textContent = `@font-face { font-family: Emojinq; src: url("${fontRoot}Emojinq-Regular.ttf?v=sumi-toddler-5") format("truetype"); font-display: swap; }`;
+      fontStyle.textContent = `
+        @font-face { font-family: Emojinq; src: url("${fontRoot}Emojinq-Regular.ttf?v=sumi-toddler-5") format("truetype"); font-display: swap; }
+        @font-face { font-family: "Emojinq Color"; src: url("${fontRoot}Emojinq-Color.ttf?v=sumi-color-2") format("truetype"); font-display: swap; }
+      `;
     document.head.append(fontStyle);
+    const variant = document.getElementById("variant");
+    const applyVariant = () => {
+      document.documentElement.dataset.fontVariant = variant.value;
+      localStorage.setItem("emojinq-font-variant", variant.value);
+    };
+    variant.value = localStorage.getItem("emojinq-font-variant") === "color" ? "color" : "ink";
+    variant.addEventListener("change", applyVariant);
+    applyVariant();
     const reviewDialog = document.getElementById("review-dialog");
     const reviewForm = document.getElementById("review-form");
     const reviewPreview = document.getElementById("review-preview");
