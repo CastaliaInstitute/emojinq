@@ -36,7 +36,7 @@
   },
   "summary": {
     "4": 2461,
-    "2": 2360,
+    "2": 2362,
     "1": 417,
     "3": 157,
     "literacy": 95
@@ -117112,6 +117112,26 @@
     },
     {
       "family": "pua",
+      "id": "pua:F146A",
+      "name": "dinosaurs/compsognathus",
+      "source": "dinosaurs/compsognathus.svg",
+      "codepoints": [
+        988266
+      ],
+      "developmental_level": 2,
+      "track": "referent",
+      "reason": "specific natural or material subject",
+      "confidence": "high",
+      "art_direction": "naturalist-ink-study",
+      "brush_stroke_count": 12,
+      "stroke_only_marks": 0,
+      "filled_marks": 12,
+      "visible_marks": 12,
+      "stroke_only_ready": false,
+      "stroke_complexity": "9-16"
+    },
+    {
+      "family": "pua",
       "id": "pua:F1480",
       "name": "sea_creatures/whale",
       "source": "sea_creatures/whale.svg",
@@ -117923,12 +117943,12 @@
       "reason": "default concrete referent; manual review needed",
       "confidence": "medium",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 8,
-      "stroke_only_marks": 0,
-      "filled_marks": 8,
-      "visible_marks": 8,
+      "brush_stroke_count": 54,
+      "stroke_only_marks": 56,
+      "filled_marks": 3,
+      "visible_marks": 59,
       "stroke_only_ready": false,
-      "stroke_complexity": "4-8"
+      "stroke_complexity": "17+"
     },
     {
       "family": "pua",
@@ -117943,12 +117963,12 @@
       "reason": "emotion, body state, or relationship",
       "confidence": "high",
       "art_direction": "expressive-figure-study",
-      "brush_stroke_count": 8,
-      "stroke_only_marks": 0,
-      "filled_marks": 8,
-      "visible_marks": 8,
+      "brush_stroke_count": 54,
+      "stroke_only_marks": 56,
+      "filled_marks": 3,
+      "visible_marks": 59,
       "stroke_only_ready": false,
-      "stroke_complexity": "4-8"
+      "stroke_complexity": "17+"
     },
     {
       "family": "pua",
@@ -117963,12 +117983,12 @@
       "reason": "default concrete referent; manual review needed",
       "confidence": "medium",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 8,
-      "stroke_only_marks": 0,
-      "filled_marks": 8,
-      "visible_marks": 8,
+      "brush_stroke_count": 54,
+      "stroke_only_marks": 56,
+      "filled_marks": 3,
+      "visible_marks": 59,
       "stroke_only_ready": false,
-      "stroke_complexity": "4-8"
+      "stroke_complexity": "17+"
     },
     {
       "family": "pua",
@@ -117983,12 +118003,12 @@
       "reason": "default concrete referent; manual review needed",
       "confidence": "medium",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 8,
-      "stroke_only_marks": 0,
-      "filled_marks": 8,
-      "visible_marks": 8,
+      "brush_stroke_count": 54,
+      "stroke_only_marks": 56,
+      "filled_marks": 3,
+      "visible_marks": 59,
       "stroke_only_ready": false,
-      "stroke_complexity": "4-8"
+      "stroke_complexity": "17+"
     },
     {
       "family": "pua",
@@ -118003,12 +118023,12 @@
       "reason": "emotion, body state, or relationship",
       "confidence": "high",
       "art_direction": "expressive-figure-study",
-      "brush_stroke_count": 9,
-      "stroke_only_marks": 0,
-      "filled_marks": 9,
-      "visible_marks": 9,
+      "brush_stroke_count": 54,
+      "stroke_only_marks": 56,
+      "filled_marks": 3,
+      "visible_marks": 59,
       "stroke_only_ready": false,
-      "stroke_complexity": "9-16"
+      "stroke_complexity": "17+"
     },
     {
       "family": "pua",
@@ -118023,12 +118043,12 @@
       "reason": "default concrete referent; manual review needed",
       "confidence": "medium",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 8,
-      "stroke_only_marks": 0,
-      "filled_marks": 8,
-      "visible_marks": 8,
+      "brush_stroke_count": 54,
+      "stroke_only_marks": 56,
+      "filled_marks": 3,
+      "visible_marks": 59,
       "stroke_only_ready": false,
-      "stroke_complexity": "4-8"
+      "stroke_complexity": "17+"
     },
     {
       "family": "pua",
@@ -118043,12 +118063,12 @@
       "reason": "default concrete referent; manual review needed",
       "confidence": "medium",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 9,
-      "stroke_only_marks": 0,
-      "filled_marks": 9,
-      "visible_marks": 9,
+      "brush_stroke_count": 54,
+      "stroke_only_marks": 56,
+      "filled_marks": 3,
+      "visible_marks": 59,
       "stroke_only_ready": false,
-      "stroke_complexity": "9-16"
+      "stroke_complexity": "17+"
     },
     {
       "family": "pua",
@@ -118063,12 +118083,12 @@
       "reason": "default concrete referent; manual review needed",
       "confidence": "medium",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 8,
-      "stroke_only_marks": 0,
-      "filled_marks": 8,
-      "visible_marks": 8,
+      "brush_stroke_count": 54,
+      "stroke_only_marks": 56,
+      "filled_marks": 3,
+      "visible_marks": 59,
       "stroke_only_ready": false,
-      "stroke_complexity": "4-8"
+      "stroke_complexity": "17+"
     },
     {
       "family": "pua",
@@ -118083,12 +118103,12 @@
       "reason": "default concrete referent; manual review needed",
       "confidence": "medium",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 9,
-      "stroke_only_marks": 0,
-      "filled_marks": 9,
-      "visible_marks": 9,
+      "brush_stroke_count": 60,
+      "stroke_only_marks": 62,
+      "filled_marks": 3,
+      "visible_marks": 65,
       "stroke_only_ready": false,
-      "stroke_complexity": "9-16"
+      "stroke_complexity": "17+"
     },
     {
       "family": "pua",
@@ -118103,12 +118123,12 @@
       "reason": "default concrete referent; manual review needed",
       "confidence": "medium",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 9,
-      "stroke_only_marks": 0,
-      "filled_marks": 9,
-      "visible_marks": 9,
+      "brush_stroke_count": 67,
+      "stroke_only_marks": 69,
+      "filled_marks": 3,
+      "visible_marks": 72,
       "stroke_only_ready": false,
-      "stroke_complexity": "9-16"
+      "stroke_complexity": "17+"
     },
     {
       "family": "pua",
@@ -118123,12 +118143,12 @@
       "reason": "default concrete referent; manual review needed",
       "confidence": "medium",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 9,
-      "stroke_only_marks": 0,
-      "filled_marks": 9,
-      "visible_marks": 9,
+      "brush_stroke_count": 60,
+      "stroke_only_marks": 62,
+      "filled_marks": 3,
+      "visible_marks": 65,
       "stroke_only_ready": false,
-      "stroke_complexity": "9-16"
+      "stroke_complexity": "17+"
     },
     {
       "family": "pua",
@@ -118143,12 +118163,12 @@
       "reason": "default concrete referent; manual review needed",
       "confidence": "medium",
       "art_direction": "naturalist-ink-study",
-      "brush_stroke_count": 9,
-      "stroke_only_marks": 0,
-      "filled_marks": 9,
-      "visible_marks": 9,
+      "brush_stroke_count": 78,
+      "stroke_only_marks": 80,
+      "filled_marks": 3,
+      "visible_marks": 83,
       "stroke_only_ready": false,
-      "stroke_complexity": "9-16"
+      "stroke_complexity": "17+"
     },
     {
       "family": "pua",
@@ -118387,6 +118407,26 @@
       "stroke_only_marks": 0,
       "filled_marks": 10,
       "visible_marks": 10,
+      "stroke_only_ready": false,
+      "stroke_complexity": "9-16"
+    },
+    {
+      "family": "pua",
+      "id": "pua:F15FF",
+      "name": "objects/exit",
+      "source": "objects/exit.svg",
+      "codepoints": [
+        988671
+      ],
+      "developmental_level": 2,
+      "track": "unreviewed-referent",
+      "reason": "default concrete referent; manual review needed",
+      "confidence": "medium",
+      "art_direction": "naturalist-ink-study",
+      "brush_stroke_count": 12,
+      "stroke_only_marks": 0,
+      "filled_marks": 12,
+      "visible_marks": 12,
       "stroke_only_ready": false,
       "stroke_complexity": "9-16"
     }

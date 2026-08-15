@@ -6336,6 +6336,14 @@
     "label": "dinosaurs/fossil"
   },
   {
+    "name": "F146A",
+    "source": "dinosaurs/compsognathus.svg",
+    "codepoints": [
+      988266
+    ],
+    "label": "dinosaurs/compsognathus"
+  },
+  {
     "name": "F1480",
     "source": "sea_creatures/whale.svg",
     "codepoints": [
@@ -6846,5 +6854,13 @@
       988458
     ],
     "label": "castalia/police-box"
+  },
+  {
+    "name": "F15FF",
+    "source": "objects/exit.svg",
+    "codepoints": [
+      988671
+    ],
+    "label": "objects/exit"
   }
 ]
