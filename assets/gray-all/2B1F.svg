@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" id="emoji" viewBox="-6 -6 84 84" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-coverage="complete" data-ink-pressure="loaded-middle-v1">
+  <g id="line-supplement">
+    <path class="ink-stroke" data-ink-stroke="tapered" data-ink-role="line-source-tapered" data-ink-index="0" pathLength="1" d="M 34.8,8.343 C 35.485,7.898 36.323,8.12 37.048,8.527 L 62.485,26.914 C 63.152,27.458 63.412,28.146 63.033,28.963 L 53.582,58.605 C 53.358,59.44 52.289,59.927 51.62,60.101 L 20.478,60.101 C 19.471,59.923 18.923,59.618 18.621,58.618 L 9.04,29.042 C 8.629,28.119 8.833,27.273 9.627,26.7 L 34.778,8.294 L 34.8,8.343" fill="none" stroke="#4a4943" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round" /></g>
+  <g id="line">
+    <path class="ink-stroke" data-ink-stroke="tapered" data-ink-role="line-source-tapered" data-ink-index="1" pathLength="1" d="M 35.106,8.409 C 35.693,7.867 36.584,7.789 37.516,8.39 L 62.619,26.762 C 63.299,27.352 63.55,28.191 63.304,28.983 L 53.616,58.756 C 53.433,59.469 52.816,59.918 51.883,60.148 L 20.469,60.148 C 19.736,60.06 19.121,59.502 18.811,58.702 L 9.067,28.958 C 8.82,28.106 8.95,27.248 9.653,26.756 L 35.128,8.396 L 35.106,8.409" fill="none" stroke="#262421" stroke-width="0.80" stroke-linecap="round" stroke-linejoin="round" /></g>
+</svg>

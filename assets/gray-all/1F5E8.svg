@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" id="emoji" viewBox="-6 -6 84 84" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-coverage="complete" data-ink-pressure="loaded-middle-v1">
+  <g id="line">
+    <path class="ink-stroke" data-ink-stroke="tapered" data-ink-role="line-source-tapered" data-ink-index="0" pathLength="1" d="M 54.857,49.021 C 57.434,45.36 58.848,41.06 58.872,36.076 C 58.952,23.506 48.57,13.122 36.039,13.089000000000002 C 23.508000000000003,13.056000000000004 12.901,23.243 13.13,36.087 C 13.028,48.92100000000001 23.367,58.917 35.999,59.114000000000004 C 39.910000000000004,59.185 43.357,58.13700000000001 46.29900000000001,56.75900000000001 L 51.229000000000006,58.754000000000005 L 57.13000000000001,61.221000000000004 L 56.07400000000001,55.015 L 54.863,49.16 L 54.857,49.021" fill="none" stroke="#262421" stroke-width="0.80" stroke-linecap="round" stroke-linejoin="round" /></g>
+</svg>
