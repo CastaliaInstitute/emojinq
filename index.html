@@ -123,6 +123,7 @@
     const assetRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/gray-all/" : "assets/gray-all/";
     const divinationRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/divination/" : "assets/divination/";
     const puaRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/pua/" : "assets/pua/";
+    const puaColorRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/pua-color/" : "assets/pua-color/";
     const developmentalRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/" : "assets/";
     const qrAsset = location.pathname.endsWith("/docs/all.html") ? "../docs/inq-cards-qr.png" : "docs/inq-cards-qr.png";
     const cardUrl = "https://inq.cards";
@@ -131,6 +132,12 @@
     const requestedRelease = new URLSearchParams(location.search).get("release");
     const releaseVersion = requestedRelease || "sumi-toddler-7";
     const versionedPuaSource = source => `${puaRoot}${source}?v=${encodeURIComponent(releaseVersion)}`;
+    const versionedPuaColorSource = source => `${puaColorRoot}${source}?v=${encodeURIComponent(releaseVersion)}`;
+    const COLOR_PUA_SOURCES = new Set([
+      "patterns/black.svg", "patterns/blue.svg", "patterns/brown.svg", "patterns/gold.svg",
+      "patterns/gray.svg", "patterns/green.svg", "patterns/orange.svg", "patterns/purple.svg",
+      "patterns/red.svg", "patterns/silver.svg", "patterns/white.svg", "patterns/yellow.svg"
+    ]);
     const fontStyle = document.createElement("style");
       fontStyle.textContent = `
         @font-face { font-family: Emojinq; src: url("${fontRoot}Emojinq-Regular.ttf?v=${encodeURIComponent(releaseVersion)}") format("truetype"); font-display: swap; }
@@ -138,9 +145,16 @@
       `;
     document.head.append(fontStyle);
     const variant = document.getElementById("variant");
+    const puaSourceForVariant = source => variant.value === "color" && COLOR_PUA_SOURCES.has(source)
+      ? versionedPuaColorSource(source)
+      : versionedPuaSource(source);
+    const refreshPuaImages = () => document.querySelectorAll("img[data-pua-source]").forEach(image => {
+      image.src = puaSourceForVariant(image.dataset.puaSource);
+    });
     const applyVariant = () => {
       document.documentElement.dataset.fontVariant = variant.value;
       localStorage.setItem("emojinq-font-variant", variant.value);
+      refreshPuaImages();
     };
     variant.value = localStorage.getItem("emojinq-font-variant") === "color" ? "color" : "ink";
     variant.addEventListener("change", applyVariant);
@@ -167,7 +181,8 @@
       reviewPreview.replaceChildren();
       if (item.pua) {
         const image = document.createElement("img");
-        image.src = versionedPuaSource(item.source);
+        image.dataset.puaSource = item.source;
+        image.src = puaSourceForVariant(item.source);
         image.alt = item.name;
         reviewPreview.append(image);
       } else {
@@ -306,7 +321,8 @@
         glyph.setAttribute("aria-label", item.name);
         if (item.pua) {
           const image = document.createElement("img");
-          image.src = versionedPuaSource(item.source);
+          image.dataset.puaSource = item.source;
+          image.src = puaSourceForVariant(item.source);
           image.alt = item.name;
           image.loading = "lazy";
           glyph.append(image);
