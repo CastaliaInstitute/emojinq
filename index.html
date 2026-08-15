@@ -129,7 +129,8 @@
     const cardUrl = "https://inq.cards";
     const fontRoot = location.pathname.endsWith("/docs/all.html") ? "../fonts/" : "fonts/";
     const feedbackEndpoint = location.pathname.endsWith("/docs/all.html") ? "../api/feedback" : "api/feedback";
-    const requestedRelease = new URLSearchParams(location.search).get("release");
+    const releaseParams = new URLSearchParams(location.search);
+    const requestedRelease = releaseParams.get("release") || releaseParams.get("v");
     const releaseVersion = requestedRelease || "sumi-toddler-7";
     const versionedPuaSource = source => `${puaRoot}${source}?v=${encodeURIComponent(releaseVersion)}`;
     const versionedPuaColorSource = source => `${puaColorRoot}${source}?v=${encodeURIComponent(releaseVersion)}`;
@@ -261,18 +262,20 @@
         codepoints: [character.codePointAt(0)],
         developmental: rankIndex.get(`alpha-ink:U+${character.codePointAt(0).toString(16).toUpperCase().padStart(4, "0")}`)
       }));
-      // Multi-codepoint emoji (regional indicators, skin-tone and ZWJ
-      // sequences) can fall through to the platform emoji font in browsers.
-      // Keep the catalog visually honest: show only single-codepoint brush
-      // glyphs from the generated Emojinq corpus, plus our explicit SVG/PUA
-      // studies and the alphanumeric font glyphs.
+      // Keep most ZWJ and modifier sequences out of the card grid, but retain
+      // the complete Flags group: Emojinq owns those two-regional-indicator
+      // ligatures and the toddler review needs their composed cloth anatomy.
       const brushedEmojiItems = emojiItems.filter(item => (
         item.brushed !== false
-        && item.codepoints.length === 1
-        && item.group !== "Flags"
-        && !item.codepoints.includes(0x200D) // zero-width joiner
-        && !item.codepoints.includes(0xFE0F) // emoji presentation selector
-        && !/zero width|variation selector/i.test(item.label || "")
+        && (
+          item.group === "Flags"
+          || (
+            item.codepoints.length === 1
+            && !item.codepoints.includes(0x200D) // zero-width joiner
+            && !item.codepoints.includes(0xFE0F) // emoji presentation selector
+            && !/zero width|variation selector/i.test(item.label || "")
+          )
+        )
       ));
       const rankedEmojiItems = brushedEmojiItems.map(item => addRank("gray-all", item));
       const rankedDivinationItems = divinationItems.map(item => addRank("divination", item));
