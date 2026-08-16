@@ -1,0 +1,11 @@
+Emojinq is an independent derivative-art project by Castalia Institute.
+
+This project uses source artwork from OpenMoji Black. OpenMoji artwork is
+distributed under the Creative Commons Attribution-ShareAlike 4.0 license.
+See LICENSE-OPENMOJI.
+
+Emojinq is not affiliated with, sponsored by, or endorsed by OpenMoji.
+
+The cartographic alphanumeric geometry is original Castalia Institute artwork,
+authored as animatable SVG brush gestures in scripts/cartographic_alphabet.py.
+No third-party font outlines are incorporated into the alphabet.

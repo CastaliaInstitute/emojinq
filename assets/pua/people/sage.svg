@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / sage" data-pua="U+F0C63" data-castalia-style="sumi-e-naturalist-v2" data-ink-stroke-system="filled-brush-mass-v2" data-ink-animation="draw-v1" data-ink-path-units="normalized">
-<title>people / sage — naturalist sumi-e study</title><g transform="translate(10.08 10.08) scale(.72)">
-<path class="ink-wash" fill="#4b4a44" d="M18 22c3-9 10-15 20-16 9-1 17 3 21 10-8-2-16-1-22 3-6 4-12 5-19 3z"/>
-<path class="ink-stroke" pathLength="1" d="M18 22c5-8 12-12 22-12 8 0 14 2 19 7M21 25c8-3 16-4 24-1" stroke="#262522" stroke-width="2.1" fill="none" stroke-linecap="round"/>
-<path class="ink-stroke" pathLength="1" d="M36 18c-4 1-6 4-6 8 0 3 2 5 5 5l4-2M39 29c3 2 5 4 6 7" stroke="#262522" stroke-width="1.05" fill="none" stroke-linecap="round"/>
-<path class="ink-wash" fill="#66655e" d="M31 28c7-3 14-1 18 5 4 7 1 14-3 19-3 4-4 8-2 13-8 3-17 2-24-3 5-7 7-14 6-20-1-6 1-11 5-14z"/>
-<path class="ink-stroke" pathLength="1" d="M33 29c-4 7-5 13-3 19 2 6 1 11-3 17M45 34c2 6 1 12-3 17-3 4-3 8 0 13" stroke="#262522" stroke-width="1.45" fill="none" stroke-linecap="round"/>
-<path class="ink-stroke" pathLength="1" d="M31 39c4 2 8 2 12 0M31 47c4 2 8 2 12 0M34 54c3 1 6 1 9 0" stroke="#262522" stroke-width=".78" fill="none" opacity=".7"/>
-<path class="ink-wash" fill="#393833" d="M27 45c-5 6-10 11-17 15 5 3 11 3 17 1 5-2 8-6 10-12-4 0-7-2-10-4zM47 45c5 5 10 10 17 13-6 3-12 3-17 1-4-2-7-6-8-11 3-1 5-2 8-3z"/>
-<path class="ink-stroke" pathLength="1" d="M27 46c-4 6-10 11-17 14M48 46c4 6 9 10 16 12M11 61c6 1 12 0 18-3M49 60c5 1 10 1 15-1" stroke="#262522" stroke-width="1.55" fill="none" stroke-linecap="round"/>
-<path class="ink-wash" fill="#302f2b" d="M55 27c3 8 5 20 5 33l-4 2-3-20z"/>
-<path class="ink-stroke" pathLength="1" d="M56 24c1 14 2 28 2 38M53 33h7M53 41h7" stroke="#262522" stroke-width=".95" fill="none" stroke-linecap="round"/>
-<path class="ink-stroke" pathLength="1" d="M8 17c5-3 10-4 15-3M12 10c4-2 9-2 13 0" stroke="#262522" stroke-width=".75" fill="none" opacity=".52"/>
-</g></svg>
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="people / sage" data-pua="U+F0C63" data-castalia-style="sumi-e-naturalist-v2" data-ink-stroke-system="filled-brush-mass-v2" data-ink-animation="draw-v1" data-ink-path-units="normalized">
+<ns0:title>people / sage — naturalist sumi-e study</ns0:title><ns0:g transform="translate(10.08 10.08) scale(.72)">
+<ns0:path class="ink-wash" fill="#4b4a44" d="M18 22c3-9 10-15 20-16 9-1 17 3 21 10-8-2-16-1-22 3-6 4-12 5-19 3z" />
+<ns0:path class="ink-stroke" pathLength="1" d="M18 22c5-8 12-12 22-12 8 0 14 2 19 7M21 25c8-3 16-4 24-1" stroke="#262522" stroke-width="2.1" fill="none" stroke-linecap="round" />
+<ns0:path class="ink-stroke" pathLength="1" d="M36 18c-4 1-6 4-6 8 0 3 2 5 5 5l4-2M39 29c3 2 5 4 6 7" stroke="#262522" stroke-width="1.05" fill="none" stroke-linecap="round" />
+<ns0:path class="ink-wash" fill="#66655e" d="M31 28c7-3 14-1 18 5 4 7 1 14-3 19-3 4-4 8-2 13-8 3-17 2-24-3 5-7 7-14 6-20-1-6 1-11 5-14z" />
+<ns0:path class="ink-stroke" pathLength="1" d="M33 29c-4 7-5 13-3 19 2 6 1 11-3 17M45 34c2 6 1 12-3 17-3 4-3 8 0 13" stroke="#262522" stroke-width="1.45" fill="none" stroke-linecap="round" />
+<ns0:path class="ink-stroke" pathLength="1" d="M31 39c4 2 8 2 12 0M31 47c4 2 8 2 12 0M34 54c3 1 6 1 9 0" stroke="#262522" stroke-width=".78" fill="none" opacity=".7" />
+<ns0:path class="ink-wash" fill="#393833" d="M27 45c-5 6-10 11-17 15 5 3 11 3 17 1 5-2 8-6 10-12-4 0-7-2-10-4zM47 45c5 5 10 10 17 13-6 3-12 3-17 1-4-2-7-6-8-11 3-1 5-2 8-3z" />
+<ns0:path class="ink-stroke" pathLength="1" d="M27 46c-4 6-10 11-17 14M48 46c4 6 9 10 16 12M11 61c6 1 12 0 18-3M49 60c5 1 10 1 15-1" stroke="#262522" stroke-width="1.55" fill="none" stroke-linecap="round" />
+<ns0:path class="ink-wash" fill="#302f2b" d="M55 27c3 8 5 20 5 33l-4 2-3-20z" />
+<ns0:path class="ink-stroke" pathLength="1" d="M56 24c1 14 2 28 2 38M53 33h7M53 41h7" stroke="#262522" stroke-width=".95" fill="none" stroke-linecap="round" />
+<ns0:path class="ink-stroke" pathLength="1" d="M8 17c5-3 10-4 15-3M12 10c4-2 9-2 13 0" stroke="#262522" stroke-width=".75" fill="none" opacity=".52" />
+</ns0:g></ns0:svg>

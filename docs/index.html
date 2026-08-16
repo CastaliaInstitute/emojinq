@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emojinq specimen</title>
+  <style>
+    @font-face { font-family: Emojinq; src: url("../fonts/Emojinq-Regular.ttf?v=stroke-lock-2") format("truetype"); }
+    :root { color-scheme: light; --ink: #252525; --paper: #e9e7e1; --quiet: #87847d; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font: 16px/1.5 Georgia, serif; }
+    main { max-width: 980px; margin: auto; padding: 8vw 6vw; }
+    .eyebrow { margin: 0 0 .5rem; color: var(--quiet); font: 700 .72rem/1 sans-serif; letter-spacing: .2em; text-transform: uppercase; }
+    h1 { margin: 0; color: #202020; font: 400 clamp(4rem, 15vw, 10rem)/.78 "SignPainter", "Bradley Hand", "Chalkboard SE", cursive; letter-spacing: -.08em; }
+    .wordmark { margin: 1.5rem 0 0; font: 400 clamp(2rem, 5vw, 4rem)/1 "Bradley Hand", "Chalkboard SE", "Marker Felt", cursive; letter-spacing: -.04em; }
+    p { max-width: 38rem; color: var(--quiet); }
+    .gallery { max-height: min(70vh, 700px); margin-top: 3rem; padding: .75rem; overflow-y: auto; overscroll-behavior: contain; background: #d0cdc4; border: 1px solid #bbb7ad; scrollbar-color: #858179 #dedbd3; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: .75rem; }
+    article { min-height: 220px; display: grid; place-items: center; align-content: center; padding: 1.5rem; background: #f5f3ed; border: 1px solid #d0cdc4; scroll-snap-align: start; }
+    .emoji { width: 100%; max-width: 180px; aspect-ratio: 1; object-fit: contain; }
+    .label { margin-top: 1rem; font: 700 .8rem/1 sans-serif; letter-spacing: .1em; text-transform: uppercase; }
+    .font-sample { margin-top: 3rem; padding: 2rem; background: #252525; color: #f5f3ed; font: 8rem/1 Emojinq, sans-serif; letter-spacing: .08em; overflow: auto; white-space: nowrap; }
+    .alphabet-sample { margin-top: 1rem; padding: 1rem; background: #252525; color: #f5f3ed; font: clamp(1.4rem,4vw,3rem)/1.25 Emojinq, sans-serif; letter-spacing: .04em; overflow:auto; white-space:nowrap; }
+    small { display: block; margin-top: .8rem; color: var(--quiet); font-family: sans-serif; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Castalia Institute · ambient inquiry</p>
+    <h1>iNQ</h1>
+    <p class="wordmark">Emojinq</p>
+    <p>A grayscale, hand-drawn field guide for quiet screens and full-screen glyphs.</p>
+    <section class="gallery" aria-label="Scrollable SVG emoji gallery">
+      <div class="grid">
+        <article><img class="emoji" src="../assets/line/person.svg" alt="Person"><div class="label">Person</div></article>
+        <article><img class="emoji" src="../assets/line/place.svg" alt="Place"><div class="label">Place</div></article>
+        <article><img class="emoji" src="../assets/line/thing.svg" alt="Thing"><div class="label">Thing</div></article>
+        <article><img class="emoji" src="../assets/line/heart.svg" alt="Heart"><div class="label">Heart</div></article>
+        <article><img class="emoji" src="../assets/line/star.svg" alt="Star"><div class="label">Star</div></article>
+        <article><img class="emoji" src="../assets/line/sun.svg" alt="Sun"><div class="label">Sun</div></article>
+        <article><img class="emoji" src="../assets/line/moon.svg" alt="Moon"><div class="label">Moon</div></article>
+        <article><img class="emoji" src="../assets/line/coffee.svg" alt="Coffee"><div class="label">Coffee</div></article>
+        <article><img class="emoji" src="../assets/line/sunflower.svg" alt="Sunflower"><div class="label">Sunflower</div></article>
+        <article><img class="emoji" src="../assets/line/house.svg" alt="House"><div class="label">House</div></article>
+        <article><img class="emoji" src="../assets/line/book.svg" alt="Book"><div class="label">Book</div></article>
+        <article><img class="emoji" src="../assets/line/leaf.svg" alt="Leaf"><div class="label">Leaf</div></article>
+      </div>
+    </section>
+  <div class="font-sample" aria-label="Font sample">👤 📍 💡</div>
+  <div class="alphabet-sample" aria-label="Emojinq alphabet sample">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789</div>
+    <small>SVG artwork above · OpenType sample below · generated assets are intended to be rasterized before embedded deployment</small>
+  </main>
+</body>
+</html>
