@@ -62,10 +62,10 @@
         <label>Category
           <select id="category"><option value="all">All pending families and groups</option></select>
         </label>
-        <label>Objects in this session
+        <label>Objects in a random session
           <select id="batch"><option value="5">5</option><option value="10" selected>10</option><option value="25">25</option><option value="all">All remaining</option></select>
         </label>
-        <label>Assignment
+        <label>Canonical assignment · 10 objects
           <select id="assignment"><option value="random">Random pending objects</option></select>
         </label>
         <label class="protocol"><input id="protocol" required type="checkbox"> I will hide every label and give no hint or answer choices before recording each guess.</label>
@@ -104,7 +104,7 @@
 
   <section class="panel">
     <h2>Coordinate multiple sessions</h2>
-    <p>Choose an assigned set and share its link when several families are collecting evidence. Set membership is stable for this ledger, so distinct links do not overlap. Rejected artwork is withheld until a changed asset hash returns it to pending.</p>
+    <p>Choose a numbered global set and share its link when several families are collecting evidence. The numbered sets partition this ledger exactly once, regardless of the random-session controls. Rejected artwork is withheld until a changed asset hash returns it to pending.</p>
     <p><a href="RECOGNITION-EVIDENCE.md">Read the evidence collection and import protocol →</a></p>
   </section>
 
@@ -156,30 +156,30 @@ make release-check</pre>
       return `${root}${item.source}?v=${encodeURIComponent(releaseVersion)}`;
     };
     const sessionItem = id => ledger.items.find(item => item.id === id);
+    const ASSIGNMENT_SIZE = 10;
     const matchesCategory = item => category.value === "all" || `${item.family}|${item.group}` === category.value;
     const stableCategoryItems = () => ledger.items.filter(matchesCategory).sort((left, right) => left.id.localeCompare(right.id));
+    const stableGlobalItems = () => [...ledger.items].sort((left, right) => left.id.localeCompare(right.id));
 
     function refreshAssignmentLink() {
       const match = assignment.value.match(/^set:(\d+)$/);
       assignmentLink.hidden = !match;
       if (!match) return;
       const url = new URL(location.href);
-      url.searchParams.set("category", category.value);
-      url.searchParams.set("batch", byId("batch").value);
+      url.searchParams.delete("category");
+      url.searchParams.delete("batch");
       url.searchParams.set("set", String(Number(match[1]) + 1));
       assignmentLink.href = url;
     }
 
     function refreshAssignments(requestedSet = null) {
-      const items = stableCategoryItems();
-      const requestedBatch = byId("batch").value;
-      const size = requestedBatch === "all" ? Math.max(items.length, 1) : Number(requestedBatch);
+      const items = stableGlobalItems();
       assignment.replaceChildren(new Option("Random pending objects", "random"));
-      const setCount = Math.ceil(items.length / size);
+      const setCount = Math.ceil(items.length / ASSIGNMENT_SIZE);
       for (let index = 0; index < setCount; index += 1) {
-        const members = items.slice(index * size, (index + 1) * size);
+        const members = items.slice(index * ASSIGNMENT_SIZE, (index + 1) * ASSIGNMENT_SIZE);
         const pending = members.filter(item => item.status === "pending").length;
-        const option = new Option(`Assigned set ${String(index + 1).padStart(3,"0")} of ${String(setCount).padStart(3,"0")} · ${pending} pending`, `set:${index}`);
+        const option = new Option(`Global set ${String(index + 1).padStart(3,"0")} of ${String(setCount).padStart(3,"0")} · ${pending} pending`, `set:${index}`);
         option.disabled = pending === 0;
         assignment.add(option);
       }
@@ -249,10 +249,9 @@ make release-check</pre>
       const categoryItems = stableCategoryItems();
       const pending = categoryItems.filter(item => item.status === "pending");
       const limit = byId("batch").value === "all" ? pending.length : Number(byId("batch").value);
-      const assignmentSize = byId("batch").value === "all" ? categoryItems.length : Number(byId("batch").value);
       const assignmentMatch = assignment.value.match(/^set:(\d+)$/);
       const selected = assignmentMatch
-        ? categoryItems.slice(Number(assignmentMatch[1]) * assignmentSize, (Number(assignmentMatch[1]) + 1) * assignmentSize).filter(item => item.status === "pending")
+        ? stableGlobalItems().slice(Number(assignmentMatch[1]) * ASSIGNMENT_SIZE, (Number(assignmentMatch[1]) + 1) * ASSIGNMENT_SIZE).filter(item => item.status === "pending")
         : shuffled(pending).slice(0, limit);
       if (!selected.length) {
         status.textContent = "No pending candidates in that category or assigned set.";
@@ -344,8 +343,6 @@ make release-check</pre>
       else renderAdjudication();
     });
 
-    category.addEventListener("change", () => refreshAssignments());
-    byId("batch").addEventListener("change", () => refreshAssignments());
     assignment.addEventListener("change", refreshAssignmentLink);
 
     fetch(LEDGER_URL).then(response => {
