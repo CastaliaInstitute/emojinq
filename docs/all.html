@@ -168,7 +168,10 @@
       document.documentElement.dataset.reviewMode = reviewMode.value;
       reviewGuess.required = blind;
       localStorage.setItem("emojinq-review-mode", reviewMode.value);
-      document.querySelectorAll(".review-trigger").forEach(button => { button.textContent = blind ? "Guess" : "Review"; });
+      document.querySelectorAll(".review-trigger").forEach(button => {
+        button.textContent = blind ? "Guess" : "Review";
+        button.setAttribute("aria-label", blind ? "Guess this unlabeled glyph" : button.dataset.expectedAria);
+      });
       document.querySelectorAll(".card").forEach(card => {
         card.setAttribute("aria-label", blind ? "Unlabeled glyph; use Guess to identify it" : card.dataset.expectedAria);
       });
@@ -419,7 +422,8 @@
           reviewTrigger.className = "review-trigger";
           reviewTrigger.type = "button";
           reviewTrigger.textContent = "Review";
-          reviewTrigger.setAttribute("aria-label", `Review ${item.label || item.name}`);
+          reviewTrigger.dataset.expectedAria = `Review ${item.label || item.name}`;
+          reviewTrigger.setAttribute("aria-label", reviewMode.value === "blind" ? "Guess this unlabeled glyph" : reviewTrigger.dataset.expectedAria);
           reviewTrigger.addEventListener("click", event => {
             event.stopPropagation();
             openReview(item);
