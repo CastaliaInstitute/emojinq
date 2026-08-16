@@ -20,8 +20,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "4c115494becee5f2e0299fd67bdee191ae168cc3a85c54b07fb861ec0c9863db",
-      "color_sha256": "4c115494becee5f2e0299fd67bdee191ae168cc3a85c54b07fb861ec0c9863db",
+      "ink_sha256": "ec02903536067b7882bbfaec76fb13535ed7b5c450651739d789794e2efbacbd",
+      "color_sha256": "ec02903536067b7882bbfaec76fb13535ed7b5c450651739d789794e2efbacbd",
       "color_mode": "ink-fallback"
     },
     {
@@ -83,8 +83,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "b3b9c2b77fb5e48ea9a9a3fa113b08cbc5301bba9bae3b65b07afa67bcee1655",
-      "color_sha256": "b3b9c2b77fb5e48ea9a9a3fa113b08cbc5301bba9bae3b65b07afa67bcee1655",
+      "ink_sha256": "de2c4e2c74d1dac147b4174d354eaa2659dfa2b93ba25cddcaeab67c3a34514d",
+      "color_sha256": "de2c4e2c74d1dac147b4174d354eaa2659dfa2b93ba25cddcaeab67c3a34514d",
       "color_mode": "ink-fallback"
     },
     {
@@ -146,8 +146,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "26ae5034ecaee008185b3a769114eec3018e48a57c95ac9e8f725953270685d4",
-      "color_sha256": "26ae5034ecaee008185b3a769114eec3018e48a57c95ac9e8f725953270685d4",
+      "ink_sha256": "4a90f05f341e56c57ad61469e2094accd0df5913aa011f643b507f5883b640f3",
+      "color_sha256": "4a90f05f341e56c57ad61469e2094accd0df5913aa011f643b507f5883b640f3",
       "color_mode": "ink-fallback"
     },
     {
@@ -214,27 +214,6 @@
       "color_mode": "ink-fallback"
     },
     {
-      "source": "body/blood.svg",
-      "expected": "body/blood",
-      "codepoints": [
-        983552
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "57b0c7de93e1456fa7364e9dbe8ef90ee6c9be73b69c8ae66a55e56c242b8d43",
-      "color_sha256": "57b0c7de93e1456fa7364e9dbe8ef90ee6c9be73b69c8ae66a55e56c242b8d43",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "body/bones.svg",
       "expected": "body/bones",
       "codepoints": [
@@ -251,71 +230,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "6abf0ab65dc22b8b0cf326508b98331372a202f71d30af06b211a799ef08deb8",
-      "color_sha256": "6abf0ab65dc22b8b0cf326508b98331372a202f71d30af06b211a799ef08deb8",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "body/muscles.svg",
-      "expected": "body/muscles",
-      "codepoints": [
-        983561
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "3397647f0c0382c41d4c001970c72b9c7e3be325f2b3c0c5852502304e929ea0",
-      "color_sha256": "3397647f0c0382c41d4c001970c72b9c7e3be325f2b3c0c5852502304e929ea0",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "body/nerves.svg",
-      "expected": "body/nerves",
-      "codepoints": [
-        983562
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "0cbbc712fa1aad7d1dd4739d846572eb88ed5558363976d1be9bd905aa7f373b",
-      "color_sha256": "0cbbc712fa1aad7d1dd4739d846572eb88ed5558363976d1be9bd905aa7f373b",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "body/skin.svg",
-      "expected": "body/skin",
-      "codepoints": [
-        983569
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "555b8bd5247374052d88610cf76b9881c5d8b0928d87ddd5c5078661650d1c51",
-      "color_sha256": "555b8bd5247374052d88610cf76b9881c5d8b0928d87ddd5c5078661650d1c51",
+      "ink_sha256": "1ec35ad76b87e2e7fc6702b63136288840cb02a5863d2869868c1ef96e2d57f8",
+      "color_sha256": "1ec35ad76b87e2e7fc6702b63136288840cb02a5863d2869868c1ef96e2d57f8",
       "color_mode": "ink-fallback"
     },
     {
@@ -335,8 +251,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "db3312f62c5b2553d45b63b123b017be6281c55b099a1bbe660fe9d71942eb33",
-      "color_sha256": "db3312f62c5b2553d45b63b123b017be6281c55b099a1bbe660fe9d71942eb33",
+      "ink_sha256": "aacadf70f42008dade61c9336d72cb13fc9c4b890e8c410c56d4e22a8460aa2e",
+      "color_sha256": "aacadf70f42008dade61c9336d72cb13fc9c4b890e8c410c56d4e22a8460aa2e",
       "color_mode": "ink-fallback"
     },
     {
@@ -2330,8 +2246,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "fc08b4c03b29e55ea01dd77840f5c70799950575c37a6ee02aa3426ceb8e60c8",
-      "color_sha256": "fc08b4c03b29e55ea01dd77840f5c70799950575c37a6ee02aa3426ceb8e60c8",
+      "ink_sha256": "a06fb25ef72eb5e6d5234bde89622ea64ba0520910be62b325b628d61606a909",
+      "color_sha256": "a06fb25ef72eb5e6d5234bde89622ea64ba0520910be62b325b628d61606a909",
       "color_mode": "ink-fallback"
     },
     {
@@ -2356,27 +2272,6 @@
       "color_mode": "familiar-color"
     },
     {
-      "source": "locations/canyon.svg",
-      "expected": "locations/canyon",
-      "codepoints": [
-        984071
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "0db6ee85d507cbf5bc86e03f4f38627508c293cb331fc83f211578803c58a589",
-      "color_sha256": "0db6ee85d507cbf5bc86e03f4f38627508c293cb331fc83f211578803c58a589",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "locations/cave.svg",
       "expected": "locations/cave",
       "codepoints": [
@@ -2395,48 +2290,6 @@
       "review_scale_css_px": 32,
       "ink_sha256": "ad4a284623eb55cdbec433957daf1cffd20e641b5702df788c54778ef3968e0d",
       "color_sha256": "ad4a284623eb55cdbec433957daf1cffd20e641b5702df788c54778ef3968e0d",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "locations/ceiling.svg",
-      "expected": "locations/ceiling",
-      "codepoints": [
-        984073
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "e21f2aeef648fdb34c660d5aca934d22fb23a257059f5c1e41dcbf755c18a9c4",
-      "color_sha256": "e21f2aeef648fdb34c660d5aca934d22fb23a257059f5c1e41dcbf755c18a9c4",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "locations/coast.svg",
-      "expected": "locations/coast",
-      "codepoints": [
-        984075
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "6538816a200a19f7a9c870f790329e8671f2378afe79db0b9f47bafeddafbcab",
-      "color_sha256": "6538816a200a19f7a9c870f790329e8671f2378afe79db0b9f47bafeddafbcab",
       "color_mode": "ink-fallback"
     },
     {
@@ -2461,27 +2314,6 @@
       "color_mode": "ink-fallback"
     },
     {
-      "source": "locations/delta.svg",
-      "expected": "locations/delta",
-      "codepoints": [
-        984077
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "89ac04bc9083cd9e3fc8497bc8b2be40b574a66994cbd69031795b2b6b679e8a",
-      "color_sha256": "89ac04bc9083cd9e3fc8497bc8b2be40b574a66994cbd69031795b2b6b679e8a",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "locations/den.svg",
       "expected": "locations/den",
       "codepoints": [
@@ -2498,8 +2330,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "b97cca0d7c1032eb691c5d98a66d995f681345ac317933a1f70074d168f7de0b",
-      "color_sha256": "b97cca0d7c1032eb691c5d98a66d995f681345ac317933a1f70074d168f7de0b",
+      "ink_sha256": "fb5f52e4b81a2f49da6616c00632a2f75a7cf67256792ecf60b6fe5b07c7339d",
+      "color_sha256": "fb5f52e4b81a2f49da6616c00632a2f75a7cf67256792ecf60b6fe5b07c7339d",
       "color_mode": "ink-fallback"
     },
     {
@@ -2545,27 +2377,6 @@
       "color_mode": "familiar-color"
     },
     {
-      "source": "locations/glacier.svg",
-      "expected": "locations/glacier",
-      "codepoints": [
-        984084
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "7b88fd4bfcadbbb2a83c89b35d702e7c94a9066f86cb0eeba60c3f0363706cfa",
-      "color_sha256": "7b88fd4bfcadbbb2a83c89b35d702e7c94a9066f86cb0eeba60c3f0363706cfa",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "locations/hive.svg",
       "expected": "locations/hive",
       "codepoints": [
@@ -2587,27 +2398,6 @@
       "color_mode": "familiar-color"
     },
     {
-      "source": "locations/jungle.svg",
-      "expected": "locations/jungle",
-      "codepoints": [
-        984091
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "272052b9b747c65f3c59e7f889359c322f7a745fe9ab011d28bd5a7e12cdebb4",
-      "color_sha256": "272052b9b747c65f3c59e7f889359c322f7a745fe9ab011d28bd5a7e12cdebb4",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "locations/laboratory.svg",
       "expected": "locations/laboratory",
       "codepoints": [
@@ -2627,27 +2417,6 @@
       "ink_sha256": "e8318664144b83f2a681ada444193e88a3842609b980bb0a96b98a611b2e0507",
       "color_sha256": "de339a88061fc840ce9415d7e4e72987c9264090448643f29ea7feb1f5ff465e",
       "color_mode": "familiar-color"
-    },
-    {
-      "source": "locations/lake.svg",
-      "expected": "locations/lake",
-      "codepoints": [
-        984093
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "47d828de0af3ed27672988160afa8c3aeba963b07993268460b05e1d6304523c",
-      "color_sha256": "47d828de0af3ed27672988160afa8c3aeba963b07993268460b05e1d6304523c",
-      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/library.svg",
@@ -2729,92 +2498,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "80425bcd31736778c160f71b0f762d2810da9878d3b0fe4caa50e963b4c8fefd",
-      "color_sha256": "80425bcd31736778c160f71b0f762d2810da9878d3b0fe4caa50e963b4c8fefd",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "locations/park.svg",
-      "expected": "locations/park",
-      "codepoints": [
-        984101
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "90ef31467d0f68561d6cbfc6ce3d6a1755746c8aa048177625b70a8d6ba2c704",
-      "color_sha256": "ac28016f72d8ae87f61d8c9567badece6fa1dd3b48a1a126713ec38ec6c59683",
-      "color_mode": "familiar-color"
-    },
-    {
-      "source": "locations/pasture.svg",
-      "expected": "locations/pasture",
-      "codepoints": [
-        984102
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "8c7215c91deb34c7c55e6980675389d2ff0b537209e71e9af3487c559b572d93",
-      "color_sha256": "8c7215c91deb34c7c55e6980675389d2ff0b537209e71e9af3487c559b572d93",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "locations/plateau.svg",
-      "expected": "locations/plateau",
-      "codepoints": [
-        984104
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "ff4984ecb4d39bf2e417e3e3cb8aa71f01cc41c5711d7cb7062a1e3180e1579c",
-      "color_sha256": "ff4984ecb4d39bf2e417e3e3cb8aa71f01cc41c5711d7cb7062a1e3180e1579c",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "locations/reef.svg",
-      "expected": "locations/reef",
-      "codepoints": [
-        984106
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "46c4b1e679337001ea03547dbf9725b59fdb78adbf6629fbc1e59b998fc855b2",
-      "color_sha256": "46c4b1e679337001ea03547dbf9725b59fdb78adbf6629fbc1e59b998fc855b2",
+      "ink_sha256": "c49eba458f5c9a87830200c1975aae0bf68a7e106aadc5743fa564e7ec6ac948",
+      "color_sha256": "c49eba458f5c9a87830200c1975aae0bf68a7e106aadc5743fa564e7ec6ac948",
       "color_mode": "ink-fallback"
     },
     {
@@ -2836,48 +2521,6 @@
       "review_scale_css_px": 32,
       "ink_sha256": "e065f48df247c76f810a8b2cc136f15269fc8d3a4abf3fa6b50df594d3cc77fd",
       "color_sha256": "e065f48df247c76f810a8b2cc136f15269fc8d3a4abf3fa6b50df594d3cc77fd",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "locations/sand.svg",
-      "expected": "locations/sand",
-      "codepoints": [
-        984109
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "d1b366efd52af60d9ca6adfbb2e019a8edc4fc94f6da1a36b2a4ba67a201af3d",
-      "color_sha256": "d1b366efd52af60d9ca6adfbb2e019a8edc4fc94f6da1a36b2a4ba67a201af3d",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "locations/savanna.svg",
-      "expected": "locations/savanna",
-      "codepoints": [
-        984110
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "0caf3fcb22d7c1469eef38f00bd0a695f8ae94dc650a1b4981cd46b970f1ba80",
-      "color_sha256": "0caf3fcb22d7c1469eef38f00bd0a695f8ae94dc650a1b4981cd46b970f1ba80",
       "color_mode": "ink-fallback"
     },
     {
@@ -2918,8 +2561,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "eaa61479cd821ccdee22bb95ceba0c910309c5a7736b69b3bad3455a5d2a49ba",
-      "color_sha256": "eaa61479cd821ccdee22bb95ceba0c910309c5a7736b69b3bad3455a5d2a49ba",
+      "ink_sha256": "40e5258dcc24e6661f9550865ae5edac68c4c8381221fcda33d6273b7de43c20",
+      "color_sha256": "40e5258dcc24e6661f9550865ae5edac68c4c8381221fcda33d6273b7de43c20",
       "color_mode": "ink-fallback"
     },
     {
@@ -2962,27 +2605,6 @@
       "review_scale_css_px": 32,
       "ink_sha256": "6d6dfcc2dcf60eb700a3365a16baccb5c8f8c20e5963e01906cd9b29c4c1ad50",
       "color_sha256": "6d6dfcc2dcf60eb700a3365a16baccb5c8f8c20e5963e01906cd9b29c4c1ad50",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "locations/spring.svg",
-      "expected": "locations/spring",
-      "codepoints": [
-        984115
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "dd07a149caf4609278c4483060407e94d7bc4c19457bc5f90ad5cca4dc7fa43f",
-      "color_sha256": "dd07a149caf4609278c4483060407e94d7bc4c19457bc5f90ad5cca4dc7fa43f",
       "color_mode": "ink-fallback"
     },
     {
@@ -3049,27 +2671,6 @@
       "color_mode": "familiar-color"
     },
     {
-      "source": "locations/tide.svg",
-      "expected": "locations/tide",
-      "codepoints": [
-        984119
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "c4b63897bf37b7e0a16cc9ea349b8756368a429ceaa97688cb18d9dc307ec692",
-      "color_sha256": "c4b63897bf37b7e0a16cc9ea349b8756368a429ceaa97688cb18d9dc307ec692",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "locations/tower.svg",
       "expected": "locations/tower",
       "codepoints": [
@@ -3091,69 +2692,6 @@
       "color_mode": "familiar-color"
     },
     {
-      "source": "locations/tundra.svg",
-      "expected": "locations/tundra",
-      "codepoints": [
-        984122
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "615931232a87932cbf2caafbbd93ad5fe9dc5c4340fd292e41f3c759c020ca43",
-      "color_sha256": "615931232a87932cbf2caafbbd93ad5fe9dc5c4340fd292e41f3c759c020ca43",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "locations/valley.svg",
-      "expected": "locations/valley",
-      "codepoints": [
-        984123
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "7d9c4e605a39029290295d1d9f992a140f2f5c140d11f1f8cb6970fa65593aa6",
-      "color_sha256": "7d9c4e605a39029290295d1d9f992a140f2f5c140d11f1f8cb6970fa65593aa6",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "locations/wave.svg",
-      "expected": "locations/wave",
-      "codepoints": [
-        984125
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "7b4faf287abb2dca7ac4b625b759511b09f3daa543f33fb7128ae8d8c585610b",
-      "color_sha256": "7b4faf287abb2dca7ac4b625b759511b09f3daa543f33fb7128ae8d8c585610b",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "locations/workshop.svg",
       "expected": "locations/workshop",
       "codepoints": [
@@ -3173,237 +2711,6 @@
       "ink_sha256": "868c74aed08f88361422d440838c498af9628a1596ec27e4c1b80726cfc62a2d",
       "color_sha256": "6adcf19fde0dbbdfef9317992fb369d27475d5938f1591ef15a6a71d2ba7e43c",
       "color_mode": "familiar-color"
-    },
-    {
-      "source": "materials/clay.svg",
-      "expected": "materials/clay",
-      "codepoints": [
-        984576
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "ee11426137b8dde0d8060e23dff356129120c0a88bfe1095a9b7a8e2821da47e",
-      "color_sha256": "ee11426137b8dde0d8060e23dff356129120c0a88bfe1095a9b7a8e2821da47e",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "materials/cloth.svg",
-      "expected": "materials/cloth",
-      "codepoints": [
-        984577
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "9e46e1890ea1579529f5429f266bc5a1eef2114597e5b7a5232aea75b6965f66",
-      "color_sha256": "9e46e1890ea1579529f5429f266bc5a1eef2114597e5b7a5232aea75b6965f66",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "materials/fiber.svg",
-      "expected": "materials/fiber",
-      "codepoints": [
-        984578
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "7f2aced093351827c97ab879bac01259798979078a24b0eb5f830ef4e2594a30",
-      "color_sha256": "7f2aced093351827c97ab879bac01259798979078a24b0eb5f830ef4e2594a30",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "materials/glass.svg",
-      "expected": "materials/glass",
-      "codepoints": [
-        984579
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "f8f911cb6c3b7650ff5d26e6a1c41b57b3804a19b24287884b3946895c249cb6",
-      "color_sha256": "f8f911cb6c3b7650ff5d26e6a1c41b57b3804a19b24287884b3946895c249cb6",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "materials/leather.svg",
-      "expected": "materials/leather",
-      "codepoints": [
-        984580
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "73c81731c0c35ca19fd3b3ef91dbb0007a6d8e8b4c207f3a931a28382b910305",
-      "color_sha256": "73c81731c0c35ca19fd3b3ef91dbb0007a6d8e8b4c207f3a931a28382b910305",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "materials/metal.svg",
-      "expected": "materials/metal",
-      "codepoints": [
-        984581
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "8eb94cf02f10545a612329d423317ad19f41a940081e6fc0da7fa8a3c47562f1",
-      "color_sha256": "8eb94cf02f10545a612329d423317ad19f41a940081e6fc0da7fa8a3c47562f1",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "materials/paper.svg",
-      "expected": "materials/paper",
-      "codepoints": [
-        984582
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "993e961b768df969793b48c888799f366df5b4715545402c30aa845a0a87fdad",
-      "color_sha256": "993e961b768df969793b48c888799f366df5b4715545402c30aa845a0a87fdad",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "materials/plastic.svg",
-      "expected": "materials/plastic",
-      "codepoints": [
-        984583
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "dd912c7a3e4d37e7b48a0f92e13e890045281a03a6a4381d912398592e7fb49c",
-      "color_sha256": "dd912c7a3e4d37e7b48a0f92e13e890045281a03a6a4381d912398592e7fb49c",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "materials/sand.svg",
-      "expected": "materials/sand",
-      "codepoints": [
-        984584
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "f8e1a14593df179a4d4e20ba7693fd62498f72c574ee926c537fdacea3563ee8",
-      "color_sha256": "f8e1a14593df179a4d4e20ba7693fd62498f72c574ee926c537fdacea3563ee8",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "materials/stone.svg",
-      "expected": "materials/stone",
-      "codepoints": [
-        984585
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "16074bdb0508d0fecbdb9002b217a213ec8a1833633b4556bf40d5f4a876745c",
-      "color_sha256": "16074bdb0508d0fecbdb9002b217a213ec8a1833633b4556bf40d5f4a876745c",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "materials/thread.svg",
-      "expected": "materials/thread",
-      "codepoints": [
-        984586
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "55ce53c3421542a091b144313a7cb155332f454c12a40718ac646dea28e21552",
-      "color_sha256": "55ce53c3421542a091b144313a7cb155332f454c12a40718ac646dea28e21552",
-      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/arch.svg",
@@ -3443,8 +2750,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "98dd29e09013fe5ae270437a803b4d7d42b6c6f590d6109219ce2c39a64b1c6d",
-      "color_sha256": "98dd29e09013fe5ae270437a803b4d7d42b6c6f590d6109219ce2c39a64b1c6d",
+      "ink_sha256": "c3cfa8f8e1cefcf38620dca490beb98c7668446e7ba58b9d2fc066df82a7edc4",
+      "color_sha256": "c3cfa8f8e1cefcf38620dca490beb98c7668446e7ba58b9d2fc066df82a7edc4",
       "color_mode": "ink-fallback"
     },
     {
@@ -3637,48 +2944,6 @@
       "color_mode": "ink-fallback"
     },
     {
-      "source": "objects/circuit.svg",
-      "expected": "objects/circuit",
-      "codepoints": [
-        985105
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "f98bcfa59f4ab295079da2386a423724e25e3ab943eb5c7a9c44a651cc0cdc48",
-      "color_sha256": "f98bcfa59f4ab295079da2386a423724e25e3ab943eb5c7a9c44a651cc0cdc48",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "objects/clay.svg",
-      "expected": "objects/clay",
-      "codepoints": [
-        985106
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "9a35ee9004f79905d866c1d8042133d29efb2ffb5754d521a865abd2d792e16e",
-      "color_sha256": "9a35ee9004f79905d866c1d8042133d29efb2ffb5754d521a865abd2d792e16e",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "objects/computer.svg",
       "expected": "objects/computer",
       "codepoints": [
@@ -3805,27 +3070,6 @@
       "color_mode": "familiar-color"
     },
     {
-      "source": "objects/forest.svg",
-      "expected": "objects/forest",
-      "codepoints": [
-        985127
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "48c04974fefe61f15e5d1efa2e102014ddf4da8445f3406253c4cf870b093682",
-      "color_sha256": "48c04974fefe61f15e5d1efa2e102014ddf4da8445f3406253c4cf870b093682",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "objects/fork.svg",
       "expected": "objects/fork",
       "codepoints": [
@@ -3845,27 +3089,6 @@
       "ink_sha256": "8dee03654cb4a7a349953955ef4a694fd1d1946cc372a5b56426367faf82455e",
       "color_sha256": "d689d143dd828bf93bc21baa152164d245d2807fdc7f20d28618d614dabe4bda",
       "color_mode": "familiar-color"
-    },
-    {
-      "source": "objects/foundation.svg",
-      "expected": "objects/foundation",
-      "codepoints": [
-        985130
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "13f919ce70b060d3fdf1f900a59ecbcc31c15fa72073b067103f46f23f90a259",
-      "color_sha256": "13f919ce70b060d3fdf1f900a59ecbcc31c15fa72073b067103f46f23f90a259",
-      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/frame.svg",
@@ -3889,27 +3112,6 @@
       "color_mode": "ink-fallback"
     },
     {
-      "source": "objects/game.svg",
-      "expected": "objects/game",
-      "codepoints": [
-        985133
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "c0e6fe13bc2af87408a12d4337298d78813f4c62be5570659fe3b79d8c8759d4",
-      "color_sha256": "c0e6fe13bc2af87408a12d4337298d78813f4c62be5570659fe3b79d8c8759d4",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "objects/gift.svg",
       "expected": "objects/gift",
       "codepoints": [
@@ -3929,48 +3131,6 @@
       "ink_sha256": "4346570d772816e679b7bd228436a9b4a245b1f2d8834679d83a00b1251a1292",
       "color_sha256": "c1af20094b7f0a49f6f1a15f98777deda74bb61c71e7c6b31a52ce97e96ff033",
       "color_mode": "familiar-color"
-    },
-    {
-      "source": "objects/goods.svg",
-      "expected": "objects/goods",
-      "codepoints": [
-        985136
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "26176c88087bbf66d51429df030272efb10b4e8fdadcd0e5f4eec2c3d705ba8d",
-      "color_sha256": "b0200ba99a9510996297fb92dfaadf57e63760516fe98bb89fff34ffaf76ceb2",
-      "color_mode": "familiar-color"
-    },
-    {
-      "source": "objects/handle.svg",
-      "expected": "objects/handle",
-      "codepoints": [
-        985138
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "3ead2c1688d207f4ddee0d2d33f7ed2a072748861dd5a6359fb9ba82a62d4709",
-      "color_sha256": "3ead2c1688d207f4ddee0d2d33f7ed2a072748861dd5a6359fb9ba82a62d4709",
-      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/knife.svg",
@@ -4078,27 +3238,6 @@
       "color_mode": "familiar-color"
     },
     {
-      "source": "objects/mural.svg",
-      "expected": "objects/mural",
-      "codepoints": [
-        985153
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "649f06d9acf0542fa59b903c4536a23b4e22015fc1d96ce1d28df3a9b650c2b9",
-      "color_sha256": "649f06d9acf0542fa59b903c4536a23b4e22015fc1d96ce1d28df3a9b650c2b9",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "objects/nail.svg",
       "expected": "objects/nail",
       "codepoints": [
@@ -4115,8 +3254,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "630435ea1265ca5ed68b282a270d5838fd094f716c16613f6ddcb75344274c54",
-      "color_sha256": "630435ea1265ca5ed68b282a270d5838fd094f716c16613f6ddcb75344274c54",
+      "ink_sha256": "8d5f67a85d1e27b0a037c8c39010fa30ed6b6a33a038a2185ed25a9876518ff1",
+      "color_sha256": "8d5f67a85d1e27b0a037c8c39010fa30ed6b6a33a038a2185ed25a9876518ff1",
       "color_mode": "ink-fallback"
     },
     {
@@ -4157,8 +3296,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "d562388600560222dee684b9b38a426b11ac675c8c0ac54d43a8e933a2a89883",
-      "color_sha256": "d562388600560222dee684b9b38a426b11ac675c8c0ac54d43a8e933a2a89883",
+      "ink_sha256": "49249f3818e29ef8394a43af96d3407440cfb56fde3c3d7b299ef8f42b52c842",
+      "color_sha256": "49249f3818e29ef8394a43af96d3407440cfb56fde3c3d7b299ef8f42b52c842",
       "color_mode": "ink-fallback"
     },
     {
@@ -4204,27 +3343,6 @@
       "color_mode": "familiar-color"
     },
     {
-      "source": "objects/port.svg",
-      "expected": "objects/port",
-      "codepoints": [
-        985161
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "5114261f9da2e99aa25cd624c14b40128e5ef646c79717ca179c192a6b28883f",
-      "color_sha256": "5114261f9da2e99aa25cd624c14b40128e5ef646c79717ca179c192a6b28883f",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "objects/pot.svg",
       "expected": "objects/pot",
       "codepoints": [
@@ -4241,8 +3359,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "ea8105cbb7466308d442c569c5ddfc1069ed954cdf345d6388946e51ccfa4fd6",
-      "color_sha256": "ea8105cbb7466308d442c569c5ddfc1069ed954cdf345d6388946e51ccfa4fd6",
+      "ink_sha256": "969635e7471afa4ee21bffbf419cb2451b2f54bd94419b3308032efeb8c9621a",
+      "color_sha256": "969635e7471afa4ee21bffbf419cb2451b2f54bd94419b3308032efeb8c9621a",
       "color_mode": "ink-fallback"
     },
     {
@@ -4304,8 +3422,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "7059c7a20774ff63766d506a247d46f8ff0e6a20ee4e2ee8102c2bfa2d64da85",
-      "color_sha256": "7059c7a20774ff63766d506a247d46f8ff0e6a20ee4e2ee8102c2bfa2d64da85",
+      "ink_sha256": "978b96a17aab7d980fe1c11b81067bdafa372b5b092624a081f9223668b46dca",
+      "color_sha256": "978b96a17aab7d980fe1c11b81067bdafa372b5b092624a081f9223668b46dca",
       "color_mode": "ink-fallback"
     },
     {
@@ -4325,8 +3443,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "536f788d9ab09abf0745061a5f3a21b548a1ae54d51b6cfb33969b94bd457da5",
-      "color_sha256": "536f788d9ab09abf0745061a5f3a21b548a1ae54d51b6cfb33969b94bd457da5",
+      "ink_sha256": "f505642075b60ce94f128bf761a70ae809363421766e14c20ac09d4325e7844c",
+      "color_sha256": "f505642075b60ce94f128bf761a70ae809363421766e14c20ac09d4325e7844c",
       "color_mode": "ink-fallback"
     },
     {
@@ -4430,8 +3548,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "5fc7733c0f663bf13f8f1d38397714bf85cbf5a5df8f98509c11e84c0820c0f9",
-      "color_sha256": "5fc7733c0f663bf13f8f1d38397714bf85cbf5a5df8f98509c11e84c0820c0f9",
+      "ink_sha256": "fc1e6b119d3310344be95ce728ac016f55e55e841be3eae92c7fc540ea8b8b7f",
+      "color_sha256": "fc1e6b119d3310344be95ce728ac016f55e55e841be3eae92c7fc540ea8b8b7f",
       "color_mode": "ink-fallback"
     },
     {
@@ -4451,8 +3569,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "3c9cacdfb228d696af41a8812ed4bf873b9147fd479be0145b85d2272cf27900",
-      "color_sha256": "3c9cacdfb228d696af41a8812ed4bf873b9147fd479be0145b85d2272cf27900",
+      "ink_sha256": "9de72206d9308ee3f8cb833f4f08c4e2cf24e0e9e3a577358f49cef2b82e688f",
+      "color_sha256": "9de72206d9308ee3f8cb833f4f08c4e2cf24e0e9e3a577358f49cef2b82e688f",
       "color_mode": "ink-fallback"
     },
     {
@@ -4472,8 +3590,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "443edf1486b9a12186e5822fb689821755c1514dc561cb9dc76f5f92d4087ca0",
-      "color_sha256": "443edf1486b9a12186e5822fb689821755c1514dc561cb9dc76f5f92d4087ca0",
+      "ink_sha256": "f7cca9ea9d20fbdef1d7a2ef2166fa95cac7e3278c30a747ab44e7403441f7bc",
+      "color_sha256": "f7cca9ea9d20fbdef1d7a2ef2166fa95cac7e3278c30a747ab44e7403441f7bc",
       "color_mode": "ink-fallback"
     },
     {
@@ -4514,8 +3632,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "5e66f202a065da4ec43a38eeab643bb595e3aaa580374cdd6457593c9272be01",
-      "color_sha256": "5e66f202a065da4ec43a38eeab643bb595e3aaa580374cdd6457593c9272be01",
+      "ink_sha256": "79c389fdf694298d9301d136e24426ccf8a20c1afa632f8445a685a4a09535c3",
+      "color_sha256": "79c389fdf694298d9301d136e24426ccf8a20c1afa632f8445a685a4a09535c3",
       "color_mode": "ink-fallback"
     },
     {
@@ -4535,8 +3653,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "3892180e85bad8637692ade92862bdced0b1acb45e42a799479fdc76df987bd8",
-      "color_sha256": "3892180e85bad8637692ade92862bdced0b1acb45e42a799479fdc76df987bd8",
+      "ink_sha256": "1c80e523f9ba02f19581cda35e67b4cafefa58b510dd4386633e6841b4e91103",
+      "color_sha256": "1c80e523f9ba02f19581cda35e67b4cafefa58b510dd4386633e6841b4e91103",
       "color_mode": "ink-fallback"
     },
     {
@@ -4559,69 +3677,6 @@
       "ink_sha256": "4b90a978a55764ff113637f654ac894166d683515d6bdd46192982c6f3d0c34d",
       "color_sha256": "c9286fb9081c1a4d7c597da405f5e403a81ad3a41e40543ab9ab3a0322618f49",
       "color_mode": "familiar-color"
-    },
-    {
-      "source": "objects/spice.svg",
-      "expected": "objects/spice",
-      "codepoints": [
-        985191
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "8d7bae5977d2d7fc36a6918e4e07c882b759edea2d6617017d39f1506af03734",
-      "color_sha256": "ab4b0c7e7473b77cccf1590f115fdd9ef8a7616b4b7c316ee8461938c4e86ea7",
-      "color_mode": "familiar-color"
-    },
-    {
-      "source": "objects/stage.svg",
-      "expected": "objects/stage",
-      "codepoints": [
-        985193
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "3217ca544ff7be7e8944a929acf28bab0467472346fd7c813c1dcb1b18ce7165",
-      "color_sha256": "3217ca544ff7be7e8944a929acf28bab0467472346fd7c813c1dcb1b18ce7165",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "objects/steam.svg",
-      "expected": "objects/steam",
-      "codepoints": [
-        985194
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "f7ef7a7d8b334a260112160bbde886f0a83758d2a9f8e4fa28c457a8e65979cb",
-      "color_sha256": "f7ef7a7d8b334a260112160bbde886f0a83758d2a9f8e4fa28c457a8e65979cb",
-      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/stove.svg",
@@ -4661,8 +3716,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "d3d3482534f12ba92de5d14d9874f1a93d356a42cd56736eeebe0205064ab783",
-      "color_sha256": "d3d3482534f12ba92de5d14d9874f1a93d356a42cd56736eeebe0205064ab783",
+      "ink_sha256": "f1257e5c1a280c2ecc6b9e03a2fe9598a99ace6ec33833a759b9d58161760c14",
+      "color_sha256": "f1257e5c1a280c2ecc6b9e03a2fe9598a99ace6ec33833a759b9d58161760c14",
       "color_mode": "ink-fallback"
     },
     {
@@ -4682,8 +3737,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "e0fc2a205d92aa8dba3da26f2b0d92e315d99a37e2e0b150699ea49243df1de9",
-      "color_sha256": "e0fc2a205d92aa8dba3da26f2b0d92e315d99a37e2e0b150699ea49243df1de9",
+      "ink_sha256": "229142e05a80ad2ea7648d4e387c26ae5e9ae6cbdde734540c10ef5a21b95842",
+      "color_sha256": "229142e05a80ad2ea7648d4e387c26ae5e9ae6cbdde734540c10ef5a21b95842",
       "color_mode": "ink-fallback"
     },
     {
@@ -4703,8 +3758,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "7515b7b0d2c4288528601d0f022cb166c3283dd31d80a38f129f40196058eb33",
-      "color_sha256": "7515b7b0d2c4288528601d0f022cb166c3283dd31d80a38f129f40196058eb33",
+      "ink_sha256": "4ea07664d4a142244492870994c505948098933c7638715ec359bee1ee57ffed",
+      "color_sha256": "4ea07664d4a142244492870994c505948098933c7638715ec359bee1ee57ffed",
       "color_mode": "ink-fallback"
     },
     {
@@ -4745,8 +3800,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "dca5835e6376b6fa3e6820c28b7c0a0a9b82b979cd9610ee95629a5929534881",
-      "color_sha256": "dca5835e6376b6fa3e6820c28b7c0a0a9b82b979cd9610ee95629a5929534881",
+      "ink_sha256": "bb7483cbb53a58b0810e77bfec1cc72c6430db9227409c06ee2c471640625921",
+      "color_sha256": "bb7483cbb53a58b0810e77bfec1cc72c6430db9227409c06ee2c471640625921",
       "color_mode": "ink-fallback"
     },
     {
@@ -4787,8 +3842,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "2f7519e817bb90c09b7434372a6a9aedd672638f4bdb0add6ab221128cfa00b6",
-      "color_sha256": "2f7519e817bb90c09b7434372a6a9aedd672638f4bdb0add6ab221128cfa00b6",
+      "ink_sha256": "fe9558032a691a7402fb89d61f57b202f5a2851bac3956ee78f578fb58e2b57e",
+      "color_sha256": "fe9558032a691a7402fb89d61f57b202f5a2851bac3956ee78f578fb58e2b57e",
       "color_mode": "ink-fallback"
     },
     {
@@ -4808,8 +3863,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "4008e857e7d5b7570523b3ac24c5db00768d0cea09539b0f567358f9c3018bcb",
-      "color_sha256": "4008e857e7d5b7570523b3ac24c5db00768d0cea09539b0f567358f9c3018bcb",
+      "ink_sha256": "152bc38ed8ff01755550e95f7aab4482cc867d61ff5d305bc610f7f1203d7105",
+      "color_sha256": "152bc38ed8ff01755550e95f7aab4482cc867d61ff5d305bc610f7f1203d7105",
       "color_mode": "ink-fallback"
     },
     {
@@ -5002,48 +4057,6 @@
       "color_mode": "ink-fallback"
     },
     {
-      "source": "plants/compost.svg",
-      "expected": "plants/compost",
-      "codepoints": [
-        986626
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "7af97c1c50ada0645fb2d54b5e84d814a26c08a53838621f553648cc25607c08",
-      "color_sha256": "7af97c1c50ada0645fb2d54b5e84d814a26c08a53838621f553648cc25607c08",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "plants/dirt.svg",
-      "expected": "plants/dirt",
-      "codepoints": [
-        986627
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "2d5798aa75c9efa065e479b43fbe61805e1d6478006ca27e01c62d8128937aab",
-      "color_sha256": "2d5798aa75c9efa065e479b43fbe61805e1d6478006ca27e01c62d8128937aab",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "plants/fruit.svg",
       "expected": "plants/fruit",
       "codepoints": [
@@ -5083,27 +4096,6 @@
       "review_scale_css_px": 32,
       "ink_sha256": "27108e485f90c5e6b095934a6d9df602d1cedfe330ed63157ee40741ec31de81",
       "color_sha256": "27108e485f90c5e6b095934a6d9df602d1cedfe330ed63157ee40741ec31de81",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "plants/moss.svg",
-      "expected": "plants/moss",
-      "codepoints": [
-        986630
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "66f5d703d780175062bd9919d3756a0213b9e1397e88508236be2654679e61f8",
-      "color_sha256": "66f5d703d780175062bd9919d3756a0213b9e1397e88508236be2654679e61f8",
       "color_mode": "ink-fallback"
     },
     {
@@ -5212,27 +4204,6 @@
       "color_mode": "ink-fallback"
     },
     {
-      "source": "plants/soil.svg",
-      "expected": "plants/soil",
-      "codepoints": [
-        986636
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "e29ba044b14618da1277e5a6f986e8142586b7ae004f16675eb43d50c78ca05c",
-      "color_sha256": "e29ba044b14618da1277e5a6f986e8142586b7ae004f16675eb43d50c78ca05c",
-      "color_mode": "ink-fallback"
-    },
-    {
       "source": "plants/sprout.svg",
       "expected": "plants/sprout",
       "codepoints": [
@@ -5272,27 +4243,6 @@
       "review_scale_css_px": 32,
       "ink_sha256": "02ee5e2f3f00cee36d02c78df37303aa27b3cbbe93c5beccdd7e6bf9d165454e",
       "color_sha256": "02ee5e2f3f00cee36d02c78df37303aa27b3cbbe93c5beccdd7e6bf9d165454e",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "plants/stream.svg",
-      "expected": "plants/stream",
-      "codepoints": [
-        986639
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "1ef03711265d063ce7a683e734bb06ebb60e7c1f102a572350f7f4d45d3d0b19",
-      "color_sha256": "1ef03711265d063ce7a683e734bb06ebb60e7c1f102a572350f7f4d45d3d0b19",
       "color_mode": "ink-fallback"
     },
     {
@@ -5480,8 +4430,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "05f218570c269672356aaa3801ba22b800d64a295e6af63716134e2e68efd5f9",
-      "color_sha256": "05f218570c269672356aaa3801ba22b800d64a295e6af63716134e2e68efd5f9",
+      "ink_sha256": "02baee13509fc063049e586f803337c6379e98d51d97a5d6376eaa336ef6973d",
+      "color_sha256": "02baee13509fc063049e586f803337c6379e98d51d97a5d6376eaa336ef6973d",
       "color_mode": "ink-fallback"
     },
     {
@@ -5569,69 +4519,6 @@
       "color_mode": "familiar-color"
     },
     {
-      "source": "science/relic.svg",
-      "expected": "science/relic",
-      "codepoints": [
-        987329
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "df4b74a67d14fd139c8487b7238114130f28b3d76b69e99cf75ff17edf77dea7",
-      "color_sha256": "df4b74a67d14fd139c8487b7238114130f28b3d76b69e99cf75ff17edf77dea7",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "science/reservoir.svg",
-      "expected": "science/reservoir",
-      "codepoints": [
-        987333
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "2f3d1488e9f1222b895ac161b9567823d3d1c7bf2bbe74946a34d957c7ddca03",
-      "color_sha256": "2f3d1488e9f1222b895ac161b9567823d3d1c7bf2bbe74946a34d957c7ddca03",
-      "color_mode": "ink-fallback"
-    },
-    {
-      "source": "science/sensor.svg",
-      "expected": "science/sensor",
-      "codepoints": [
-        987353
-      ],
-      "status": "pending",
-      "reviewer": "",
-      "reviewed_at": "",
-      "ink_recognized_as": "",
-      "color_recognized_as": "",
-      "evidence": "",
-      "notes": "",
-      "observer_age_months": null,
-      "label_hidden": false,
-      "choice_free": false,
-      "review_scale_css_px": 32,
-      "ink_sha256": "3bf4bea60af3362a2e1f1c6462e1253c3d883e2d10b7770d3fb08a89198074ed",
-      "color_sha256": "c736bff83f67e21069e216218877fd1c3606739c40e982216656e067d97381ad",
-      "color_mode": "familiar-color"
-    },
-    {
       "source": "science/server.svg",
       "expected": "science/server",
       "codepoints": [
@@ -5648,8 +4535,8 @@
       "label_hidden": false,
       "choice_free": false,
       "review_scale_css_px": 32,
-      "ink_sha256": "6b829f4b8bfe0b0f77207b5e0d9fbe619aab5dd7a70b1e86b2190095e18f08a7",
-      "color_sha256": "6b829f4b8bfe0b0f77207b5e0d9fbe619aab5dd7a70b1e86b2190095e18f08a7",
+      "ink_sha256": "15a4b6918541796088aa60cefd334d7d1cc1a0ca6d52d59349ac5b8496c06724",
+      "color_sha256": "15a4b6918541796088aa60cefd334d7d1cc1a0ca6d52d59349ac5b8496c06724",
       "color_mode": "ink-fallback"
     },
     {

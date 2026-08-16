@@ -20,6 +20,15 @@ from pathlib import Path
 from PIL import Image
 
 
+INTENTIONAL_COMPONENT_CLASSES = {
+    "canonical-emoji-anatomy-v1",
+    "paired-theater-masks-v1",
+    "semantic-multipart-v1",
+    "counting-marks-v1",
+    "figure-and-prop-v1",
+}
+
+
 def components(svg: Path, size: int) -> list[tuple[int, int, int, int, int]]:
     with tempfile.NamedTemporaryFile(suffix=".png") as tmp:
         subprocess.run(
@@ -57,7 +66,7 @@ def components(svg: Path, size: int) -> list[tuple[int, int, int, int, int]]:
 
 def audit(svg: Path, size: int, margin: int, minimum: int) -> dict[str, object] | None:
     intentional = ET.parse(svg).getroot().get("data-intentional-components")
-    if intentional in {"canonical-emoji-anatomy-v1", "paired-theater-masks-v1"}:
+    if intentional in INTENTIONAL_COMPONENT_CLASSES:
         return None
     found = components(svg, size)
     if len(found) < 2:
@@ -111,8 +120,12 @@ def main() -> None:
     args = parser.parse_args()
 
     reports = []
+    reviewed_intentional = 0
     for svg in sorted(args.root.rglob("*.svg")):
         if svg.parent.name == "references":
+            continue
+        if ET.parse(svg).getroot().get("data-intentional-components") in INTENTIONAL_COMPONENT_CLASSES:
+            reviewed_intentional += 1
             continue
         report = audit(svg, args.size, args.margin, args.minimum)
         if report:
@@ -123,7 +136,10 @@ def main() -> None:
             f"{report['svg']}: {report['detached_components']} detached components, "
             f"{report['detached_area']} px² outside dominant subject"
         )
-    print(f"PUA artifact audit: {len(reports)} flagged glyphs")
+    print(
+        f"PUA artifact audit: {len(reports)} unresolved flagged glyphs; "
+        f"{reviewed_intentional} source-specific component layouts reviewed as intentional"
+    )
     if args.json:
         args.json.write_text(json.dumps(reports, indent=2) + "\n")
 

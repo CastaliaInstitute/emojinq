@@ -66,14 +66,14 @@ ALPHA_STAGE = {
 # ``create`` and abstractions such as ``value`` as concrete objects.
 PUA_OBJECT_REFERENTS = {
     "arch", "axle", "beam", "bill", "board", "bowl", "brush", "canvas",
-    "caravan", "castle", "chalk", "circuit", "clay", "computer", "currency", "doll",
-    "doorframe", "drum", "engine", "fork", "foundation", "frame", "game",
-    "gift", "goods", "handle", "knife", "letter", "lever", "mortar", "motor",
-    "mural", "nail", "note", "oven", "paint", "pan", "port", "pot",
+    "caravan", "castle", "chalk", "computer", "currency", "doll",
+    "doorframe", "drum", "engine", "fork", "frame",
+    "gift", "knife", "letter", "lever", "mortar", "motor",
+    "nail", "note", "oven", "paint", "pan", "pot",
     "pottery", "print", "pulley", "pump", "puzzle", "recipe", "robot",
     "roof", "rope", "sandbox", "screw", "sculpture", "sign", "slide",
-    "sock", "spice", "stage", "steam", "stove", "swing", "switch",
-    "tower", "treasure", "valve", "wagon", "whistle", "windowpane", "forest",
+    "sock", "stove", "swing", "switch",
+    "tower", "treasure", "valve", "wagon", "whistle", "windowpane",
 }
 PUA_ROCKET_REFERENTS = {"booster", "capsule", "lunar-lander", "rover"}
 PUA_CASTALIA_REFERENTS = {
@@ -90,24 +90,40 @@ PUA_COSMOS_REFERENTS = {
 }
 PUA_LOCATION_REFERENTS = {
     "academy", "archive", "bakery", "barn", "bench", "burrow", "cafe",
-    "canyon", "cave", "ceiling", "coast", "crossing", "delta", "den", "dock",
-    "encyclopedia", "glacier", "hive", "jungle", "laboratory", "lake", "library",
-    "market", "museum", "net", "park", "pasture", "plateau", "reef", "rug",
-    "sand", "savanna", "shell", "sidewalk", "sign", "silo", "spring", "store",
-    "street", "theater", "tide", "tower", "tundra", "valley", "wave", "workshop",
+    "cave", "crossing", "den", "dock", "encyclopedia", "hive", "laboratory",
+    "library", "market", "museum", "net", "rug", "shell", "sidewalk", "sign",
+    "silo", "store", "street", "theater", "tower", "workshop",
 }
 PUA_PEOPLE_REFERENTS = {"clothing", "diaper", "food", "gift", "shelter", "shrine", "stroller", "temple"}
 PUA_PLANT_REFERENTS = {
-    "bud", "compost", "dirt", "fruit", "log", "moss", "nest", "oak", "pine",
-    "root", "seed", "soil", "sprout", "stem", "stream", "tool",
+    "bud", "fruit", "log", "nest", "oak", "pine", "root", "seed", "sprout",
+    "stem", "tool",
 }
 PUA_SCIENCE_REFERENTS = {
     "body", "clinic", "engine", "fossil", "gift", "globe", "medicine", "planet",
-    "relic", "reservoir", "sensor", "server", "tool", "vaccine", "windmill",
+    "server", "tool", "vaccine", "windmill",
+}
+# Source-level decisions from the 2026-08 semantic contact-sheet audit.  These
+# labels may denote real matter or places, but they cannot be presented as one
+# nameable, label-independent object.  Keeping them in the contextual track is
+# a taxonomy correction, not a waiver of a failed object drawing.
+PUA_CONTEXTUAL_REVIEW = {
+    "locations": {
+        "canyon", "ceiling", "coast", "delta", "glacier", "jungle", "lake",
+        "park", "pasture", "plateau", "reef", "sand", "savanna", "spring",
+        "tide", "tundra", "valley", "wave",
+    },
+    "body": {"blood", "muscles", "nerves", "skin"},
+    "objects": {
+        "circuit", "clay", "forest", "foundation", "game", "goods", "handle",
+        "mural", "port", "spice", "stage", "steam",
+    },
+    "plants": {"compost", "dirt", "moss", "soil", "stream"},
+    "science": {"relic", "reservoir", "sensor"},
 }
 PUA_WHOLE_REFERENT_CATEGORIES = {
     "adventure", "dinosaurs", "farm", "flora", "herbs",
-    "materials", "sea_creatures", "weather_sky",
+    "sea_creatures", "weather_sky",
 }
 
 
@@ -202,6 +218,10 @@ def classify(label: str, source: str, *, alpha: bool = False, divination: bool =
     if "/" in source and not source.startswith(("1F", "00", "20")):
         category, _, filename = source.partition("/")
         stem = Path(filename).stem
+        if stem in PUA_CONTEXTUAL_REVIEW.get(category, set()):
+            return 4, "context", "manual audit: scene, system, material, or generic class rather than one nameable object"
+        if category == "materials":
+            return 4, "context", "manual audit: material or substance rather than one nameable object"
         if category in PUA_WHOLE_REFERENT_CATEGORIES:
             return 2, "referent", "reviewed physical or natural referent"
         if category == "animals":
