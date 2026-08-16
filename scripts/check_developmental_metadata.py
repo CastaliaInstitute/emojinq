@@ -35,10 +35,10 @@ def main() -> None:
             + (f" (first: {sample})" if sample else "")
         )
 
-    pua_entries = [entry for entry in actual if entry.get("family") == "pua"]
-    unresolved = [entry["source"] for entry in pua_entries if entry.get("track") == "unreviewed-referent"]
+    unresolved = [entry["id"] for entry in actual if entry.get("track") == "unreviewed-referent"]
     if unresolved:
-        raise SystemExit(f"PUA taxonomy contains {len(unresolved)} unreviewed referents")
+        raise SystemExit(f"developmental taxonomy contains {len(unresolved)} unreviewed referents")
+    pua_entries = [entry for entry in actual if entry.get("family") == "pua"]
     expected_candidates = {
         entry["source"] for entry in pua_entries if entry.get("track") in CANDIDATE_TRACKS
     }
@@ -59,9 +59,14 @@ def main() -> None:
         )
     if retired_claims:
         raise SystemExit(f"retired automatic toddler-review claim remains on {len(retired_claims)} SVGs")
+    standard_candidates = sum(
+        entry.get("family") == "gray-all" and entry.get("track") in CANDIDATE_TRACKS
+        for entry in actual
+    )
     print(
         f"developmental metadata checked: {len(actual)} records, "
-        f"{len(expected_candidates)} PUA object-scale candidates, 0 unreviewed PUA referents"
+        f"{standard_candidates} standard and {len(expected_candidates)} PUA object-scale candidates, "
+        "0 unreviewed referents"
     )
 
 

@@ -32,7 +32,7 @@ def valid_timestamp(value: object) -> bool:
     return True
 
 
-def validate_session(session: dict, ledger_by_source: dict[str, dict], source_file: Path) -> list[dict]:
+def validate_session(session: dict, ledger_by_id: dict[str, dict], source_file: Path) -> list[dict]:
     errors: list[str] = []
     reviewer = text(session.get("reviewer"))
     session_id = text(session.get("session_id"))
@@ -66,16 +66,18 @@ def validate_session(session: dict, ledger_by_source: dict[str, dict], source_fi
             errors.append(f"item {index} must be an object")
             continue
         source = text(item.get("source"))
-        prefix = source or f"item {index}"
-        current = ledger_by_source.get(source)
+        family = text(item.get("family"))
+        record_id = text(item.get("id"))
+        prefix = record_id or source or f"item {index}"
+        current = ledger_by_id.get(record_id)
         if current is None:
-            errors.append(f"{prefix}: source is not in the current recognition ledger")
+            errors.append(f"{prefix}: id is not in the current recognition ledger")
             continue
-        if source in seen:
-            errors.append(f"{prefix}: duplicate source in session")
+        if record_id in seen:
+            errors.append(f"{prefix}: duplicate id in session")
             continue
-        seen.add(source)
-        for field in ("expected", "ink_sha256", "color_sha256", "color_mode"):
+        seen.add(record_id)
+        for field in ("family", "source", "expected", "ink_sha256", "color_sha256", "color_mode"):
             if item.get(field) != current.get(field):
                 errors.append(f"{prefix}: stale or mismatched {field}")
         status = item.get("status")
@@ -87,13 +89,15 @@ def validate_session(session: dict, ledger_by_source: dict[str, dict], source_fi
             errors.append(f"{prefix}: both verbatim guesses are required")
         validated.append(
             {
+                "id": record_id,
+                "family": family,
                 "source": source,
                 "status": status,
                 "reviewer": reviewer,
                 "reviewed_at": text(completed_at),
                 "ink_recognized_as": ink_guess,
                 "color_recognized_as": color_guess,
-                "evidence": f"recognition-session:{source_file.name}#{session_id}",
+                "evidence": f"recognition-session:{source_file.name}#{session_id}:{record_id}",
                 "notes": text(item.get("notes")),
                 "observer_age_months": age,
                 "label_hidden": True,
@@ -114,19 +118,19 @@ def main() -> None:
     args = parser.parse_args()
 
     ledger = json.loads(args.ledger.read_text(encoding="utf-8"))
-    ledger_by_source = {item["source"]: item for item in ledger.get("items", [])}
+    ledger_by_id = {item["id"]: item for item in ledger.get("items", [])}
     updates: dict[str, dict] = {}
     for session_path in args.sessions:
         session = json.loads(session_path.read_text(encoding="utf-8"))
         try:
-            validated = validate_session(session, ledger_by_source, session_path)
+            validated = validate_session(session, ledger_by_id, session_path)
         except ValueError as error:
             raise SystemExit(f"invalid recognition session {session_path}:\n{error}") from error
         for update in validated:
-            source = update["source"]
-            if source in updates:
-                raise SystemExit(f"source appears in multiple input sessions: {source}")
-            updates[source] = update
+            record_id = update["id"]
+            if record_id in updates:
+                raise SystemExit(f"id appears in multiple input sessions: {record_id}")
+            updates[record_id] = update
 
     approved = sum(update["status"] == "approved" for update in updates.values())
     rejected = len(updates) - approved
@@ -136,8 +140,8 @@ def main() -> None:
             "ledger unchanged (pass --write to import)"
         )
         return
-    for source, update in updates.items():
-        ledger_by_source[source].update(update)
+    for record_id, update in updates.items():
+        ledger_by_id[record_id].update(update)
     args.ledger.write_text(json.dumps(ledger, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"imported {len(updates)} observations ({approved} approved, {rejected} rejected)")
 

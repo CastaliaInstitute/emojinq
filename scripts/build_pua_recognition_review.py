@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create or refresh the label-blind PUA recognition review ledger."""
+"""Create or refresh the label-blind concrete-glyph recognition ledger."""
 
 from __future__ import annotations
 
@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEVELOPMENTAL = ROOT / "assets" / "developmental-vocabulary.json"
 OUTPUT = ROOT / "assets" / "pua-recognition-review.json"
 CANDIDATE_TRACKS = {"concrete", "referent"}
+CANDIDATE_FAMILIES = {"gray-all", "pua"}
 PRESERVED = {
     "status", "reviewer", "reviewed_at", "ink_recognized_as",
     "color_recognized_as", "evidence", "notes", "observer_age_months",
@@ -23,31 +24,53 @@ def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def key_for(family: str, source: str) -> str:
+    return f"{family}:{source}"
+
+
+def asset_paths(family: str, source: str) -> tuple[Path, Path, str]:
+    if family == "gray-all":
+        return (
+            ROOT / "assets" / "gray-all" / source,
+            ROOT / "assets" / "color-all" / source,
+            "familiar-color",
+        )
+    ink = ROOT / "assets" / "pua" / source
+    explicit_color = ROOT / "assets" / "pua-color" / source
+    return ink, explicit_color if explicit_color.exists() else ink, (
+        "familiar-color" if explicit_color.exists() else "ink-fallback"
+    )
+
+
 def main() -> None:
     developmental = json.loads(DEVELOPMENTAL.read_text(encoding="utf-8"))
     existing: dict[str, dict] = {}
     if OUTPUT.exists():
-        existing = {
-            item["source"]: item
-            for item in json.loads(OUTPUT.read_text(encoding="utf-8")).get("items", [])
-        }
+        existing = {}
+        for item in json.loads(OUTPUT.read_text(encoding="utf-8")).get("items", []):
+            family = item.get("family", "pua")
+            existing[key_for(family, item["source"])] = item
     candidates = sorted(
         (
             entry for entry in developmental["entries"]
-            if entry.get("family") == "pua" and entry.get("track") in CANDIDATE_TRACKS
+            if entry.get("family") in CANDIDATE_FAMILIES and entry.get("track") in CANDIDATE_TRACKS
         ),
-        key=lambda entry: entry["source"],
+        key=lambda entry: (entry["family"], entry["source"]),
     )
     items = []
     for entry in candidates:
-        old = existing.get(entry["source"], {})
-        ink_path = ROOT / "assets" / "pua" / entry["source"]
-        explicit_color = ROOT / "assets" / "pua-color" / entry["source"]
-        color_path = explicit_color if explicit_color.exists() else ink_path
+        family = entry["family"]
+        source = entry["source"]
+        item_id = key_for(family, source)
+        old = existing.get(item_id, {})
+        ink_path, color_path, color_mode = asset_paths(family, source)
         ink_sha256 = digest(ink_path)
         color_sha256 = digest(color_path)
         item = {
-            "source": entry["source"],
+            "id": item_id,
+            "family": family,
+            "source": source,
+            "group": entry.get("group") or source.split("/", 1)[0],
             "expected": entry["name"],
             "codepoints": entry["codepoints"],
             "status": "pending",
@@ -63,7 +86,7 @@ def main() -> None:
             "review_scale_css_px": 32,
             "ink_sha256": ink_sha256,
             "color_sha256": color_sha256,
-            "color_mode": "familiar-color" if explicit_color.exists() else "ink-fallback",
+            "color_mode": color_mode,
         }
         same_art = (
             old.get("ink_sha256") == ink_sha256
@@ -75,10 +98,11 @@ def main() -> None:
             item["notes"] = "Approval reset because the reviewed art changed."
         items.append(item)
     payload = {
-        "version": 1,
+        "version": 2,
         "method": "label-blind-object-scale-review",
         "instructions": (
-            "Show ink and color/fallback variants at 32 CSS pixels to a 12–47 month-old observer, "
+            "Show every concrete standard and PUA ink/color or explicit fallback at 32 CSS pixels "
+            "to a 12–47 month-old observer, "
             "without a label, hint, or answer choices. Record the observer's words verbatim. "
             "Approval requires recognizable identity in both presentations and evidence bound to these asset hashes."
         ),

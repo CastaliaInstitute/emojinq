@@ -34,12 +34,15 @@ def main() -> None:
     required = (
         "32 CSS pixels",
         'width:32px; height:32px',
-        'alt="" aria-label="Unlabeled 32 pixel glyph"',
+        'image.alt = ""',
+        'glyph.className = current.variant === "color" ? "color-font" : "ink-font"',
+        "String.fromCodePoint(...item.codepoints)",
         "Expected labels stay hidden until every trial is finished",
         "crypto.randomUUID()",
         "crypto.getRandomValues",
         'variant:"ink"',
         'variant:"color"',
+        "family:current.family",
         "ink_sha256:current.ink_sha256",
         "color_sha256:current.color_sha256",
         'method:"label-blind-object-scale-review"',
@@ -81,6 +84,8 @@ def main() -> None:
         "completed_at": datetime.now(timezone.utc).isoformat(),
         "items": [
             {
+                "id": current["id"],
+                "family": current["family"],
                 "source": current["source"],
                 "expected": current["expected"],
                 "ink_sha256": current["ink_sha256"],
@@ -94,8 +99,8 @@ def main() -> None:
         ],
     }
     importer = load_importer()
-    ledger_by_source = {item["source"]: item for item in ledger["items"]}
-    validated = importer.validate_session(session, ledger_by_source, Path("self-test.json"))
+    ledger_by_id = {item["id"]: item for item in ledger["items"]}
+    validated = importer.validate_session(session, ledger_by_id, Path("self-test.json"))
     if len(validated) != 1 or validated[0]["status"] != "approved":
         raise SystemExit("valid recognition-session fixture did not validate")
     for field, invalid in (
@@ -107,7 +112,7 @@ def main() -> None:
         bad = deepcopy(session)
         bad[field] = invalid
         try:
-            importer.validate_session(bad, ledger_by_source, Path("bad.json"))
+            importer.validate_session(bad, ledger_by_id, Path("bad.json"))
         except ValueError:
             pass
         else:
@@ -115,12 +120,15 @@ def main() -> None:
     stale = deepcopy(session)
     stale["items"][0]["ink_sha256"] = "0" * 64
     try:
-        importer.validate_session(stale, ledger_by_source, Path("stale.json"))
+        importer.validate_session(stale, ledger_by_id, Path("stale.json"))
     except ValueError:
         pass
     else:
         raise SystemExit("recognition importer accepted stale art hashes")
-    print(f"recognition workflow checked: {len(ledger['items'])} hash-bound candidates, runner and importer valid")
+    families = {item["family"] for item in ledger["items"]}
+    if families != {"gray-all", "pua"}:
+        raise SystemExit(f"recognition ledger family scope is incomplete: {sorted(families)}")
+    print(f"recognition workflow checked: {len(ledger['items'])} standard and PUA hash-bound candidates, runner and importer valid")
 
 
 if __name__ == "__main__":
