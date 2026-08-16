@@ -16,7 +16,6 @@ ART = {
 <path d="M27 30c-3-6-1-12 4-16 5-4 12-3 16 2 4 5 3 11-1 15" stroke-width="2.1" {c}/>
 <path d="M21 44c6-3 11-3 16 0 5-3 10-3 15 0M29 52c5-2 10-2 15 0" stroke-width="1.25" opacity=".72" {c}/>
 <path d="M16 57c8-4 16-4 24 0M45 54l6-3 5 3" stroke-width="1.2" {c}/>
-<path d="M14 63h45" stroke-width="1" opacity=".58" {c}/>
 ''',
     "push": '''
 <path d="M22 18c-5 3-7 9-5 14 2 5 7 7 12 5 5-2 7-8 5-13-2-5-7-8-12-6z" stroke-width="2.2" {c}/>
@@ -48,7 +47,6 @@ ART = {
 <path d="M24 36c-3-6-1-13 4-17 6-5 15-4 20 2 4 5 4 12 0 17" stroke-width="2.35" {c}/>
 <path d="M29 23c3 3 9 4 15 1M31 31c3 2 7 2 10 0" stroke-width="1.2" {c}/>
 <path d="M20 51c5-3 10-3 15 0M41 48c4-2 8-1 12 2M22 57c4-2 8-2 12 0" stroke-width="1.35" opacity=".74" {c}/>
-<path d="M14 62h45" stroke-width="1" opacity=".58" {c}/>
 ''',
 }
 

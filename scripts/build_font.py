@@ -82,9 +82,18 @@ def is_closed(d: str) -> bool:
 
 def stroke_width(element: ET.Element, inherited: float = 2.0) -> float:
     try:
-        return min(float(element.get("stroke-width", inherited)), 3.0)
+        maximum = 7.4 if element.get("data-ink-role") == "cartographic-letter" else 3.0
+        return min(float(element.get("stroke-width", inherited)), maximum)
     except ValueError:
         return inherited
+
+
+def numeric_style(element: ET.Element, name: str, default: float = 1.0) -> float:
+    """Read a numeric SVG presentation attribute, treating invalid values as default."""
+    try:
+        return float(element.get(name, default))
+    except (TypeError, ValueError):
+        return default
 
 
 def add_polygon(pen: TTGlyphPen, points: list[tuple[float, float]], upm: int) -> None:
@@ -97,17 +106,42 @@ def add_polygon(pen: TTGlyphPen, points: list[tuple[float, float]], upm: int) ->
     pen.closePath()
 
 
-def stroke_outline(pen: TTGlyphPen, d: str, width: float, upm: int, seed: int) -> None:
+def stroke_outline(
+    pen: TTGlyphPen,
+    d: str,
+    width: float,
+    upm: int,
+    seed: int,
+    *,
+    preprofiled: bool = False,
+) -> None:
     parsed = parse_path(d)
     subpaths = parsed.continuous_subpaths()
     for sub_index, centerline in enumerate(subpaths):
         centerline = SvgPath(*[segment for segment in centerline if abs(segment.length()) > 1e-6])
         if not centerline:
             continue
-        _stroke_subpath(pen, centerline, width, upm, seed + sub_index, centerline.isclosed())
+        _stroke_subpath(
+            pen,
+            centerline,
+            width,
+            upm,
+            seed + sub_index,
+            centerline.isclosed(),
+            preprofiled=preprofiled,
+        )
 
 
-def _stroke_subpath(pen: TTGlyphPen, centerline: SvgPath, width: float, upm: int, seed: int, closed: bool) -> None:
+def _stroke_subpath(
+    pen: TTGlyphPen,
+    centerline: SvgPath,
+    width: float,
+    upm: int,
+    seed: int,
+    closed: bool,
+    *,
+    preprofiled: bool = False,
+) -> None:
     length = max(1.0, centerline.length())
     count = max(8, min(180, int(length / 1.2)))
     ts = [i / count for i in range(count)] if closed else [i / (count - 1) for i in range(count)]
@@ -125,17 +159,34 @@ def _stroke_subpath(pen: TTGlyphPen, centerline: SvgPath, width: float, upm: int
         if closed:
             taper = 1.0
             progress = i / max(1, len(points) - 1)
+        elif preprofiled:
+            # line_brush.py has already divided the source gesture into
+            # overlapping pressure passes.  Keep their joins loaded so the
+            # compiled outline reads as one continuous stroke instead of a
+            # row of independently pointed lozenges.
+            progress = i / (len(points) - 1)
+            taper = 0.74 + 0.26 * math.sin(math.pi * progress) ** 0.55
         else:
             progress = i / (len(points) - 1)
-            taper = 0.16 + 0.84 * math.sin(math.pi * progress) ** 0.55
+            # A single calligraphic gesture enters with a loaded heel and
+            # leaves from the brush tip.  The deliberately asymmetric
+            # profile follows the press-load-lift examples in the reference.
+            entry = 0.42 + 0.58 * min(1.0, progress * 4.5)
+            lift = 0.08 + 0.92 * min(1.0, (1.0 - progress) * 3.2)
+            taper = min(entry, lift)
         pressure = (
             1.0
             + 0.085 * math.sin(progress * math.tau + phase)
             + 0.028 * math.sin(progress * math.tau * 3.5 + secondary_phase)
         )
         radius = width * 0.5 * taper * pressure
-        left.append(transform_point(point + normal * radius, upm))
-        right.append(transform_point(point - normal * radius, upm))
+        # Different bristles define either edge of a real stroke.  A small,
+        # deterministic imbalance avoids a mirrored CAD contour while
+        # remaining stable across rebuilds and legible at emoji sizes.
+        left_edge = 1.0 + 0.045 * math.sin(progress * math.tau * 2.0 + phase)
+        right_edge = 1.0 + 0.035 * math.sin(progress * math.tau * 2.6 + secondary_phase)
+        left.append(transform_point(point + normal * radius * left_edge, upm))
+        right.append(transform_point(point - normal * radius * right_edge, upm))
     outline = left + list(reversed(right))
     if len(outline) >= 3:
         pen.moveTo(outline[0])
@@ -149,19 +200,40 @@ def make_glyph(svg: Path, upm: int) -> object:
     pen = TTGlyphPen(None)
     index = 0
 
-    def visit(parent: ET.Element, inherited_stroke: bool = False, inherited_width: float = 2.0, in_clip: bool = False) -> None:
+    def visit(
+        parent: ET.Element,
+        inherited_stroke: bool = False,
+        inherited_width: float = 2.0,
+        in_clip: bool = False,
+        inherited_opacity: float = 1.0,
+    ) -> None:
         nonlocal index
         for element in list(parent):
             tag = local(element.tag)
             clipped = in_clip or tag == "clipPath"
+            opacity = inherited_opacity * numeric_style(element, "opacity")
+            fill_opacity = opacity * numeric_style(element, "fill-opacity")
+            stroke_opacity = opacity * numeric_style(element, "stroke-opacity")
             if tag in SHAPES and not clipped:
                 d = path_data(element)
                 stroke = inherited_stroke or element.get("stroke", "none") != "none"
                 fill = element.get("fill", "black") != "none"
-                if d and stroke:
-                    stroke_outline(pen, d, stroke_width(element, inherited_width) * 0.9, upm, index)
+                if d and stroke and stroke_opacity > 0:
+                    preprofiled = element.get("data-ink-role") == "line-source-tapered"
+                    stroke_outline(
+                        pen,
+                        d,
+                        # The SVG line treatment is intentionally delicate,
+                        # but a monochrome font has no gray wash to carry its
+                        # visual mass.  Give those prepared passes enough
+                        # body to retain a loaded-brush presence at text size.
+                        stroke_width(element, inherited_width) * (1.55 if preprofiled else 0.9),
+                        upm,
+                        index,
+                        preprofiled=preprofiled,
+                    )
                     index += 1
-                elif d and fill and element.get("data-ink-wash") != "true":
+                elif d and fill and fill_opacity > 0 and element.get("data-ink-wash") != "true":
                     quadratic = Cu2QuPen(pen, 1.0, all_quadratic=True)
                     transform = TransformPen(quadratic, (upm / 72, 0, 0, -upm / 72, 0, upm))
                     parse_svg_path(d, transform)
@@ -171,7 +243,7 @@ def make_glyph(svg: Path, upm: int) -> object:
             except ValueError:
                 child_width = inherited_width
             if tag != "defs":
-                visit(element, child_stroke, child_width, clipped)
+                visit(element, child_stroke, child_width, clipped, opacity)
 
     visit(root)
     return pen.glyph()
@@ -248,7 +320,18 @@ def build(
         "uniqueFontIdentifier": "Emojinq Regular 2.0",
         "version": "Version 2.0",
     })
-    fb.setupOS2(sTypoAscender=880, sTypoDescender=-120, usWinAscent=880, usWinDescent=120)
+    # Emojinq is distributed for direct use in Atlas PWAs and native WebViews.
+    # FontBuilder's historical default is Preview & Print embedding (fsType 4),
+    # which can make browser font loaders reject the face and permanently
+    # rasterise Phaser scenes with tofu or platform colour emoji. Explicitly
+    # permit installable/web embedding for this authored open font.
+    fb.setupOS2(
+        sTypoAscender=880,
+        sTypoDescender=-120,
+        usWinAscent=880,
+        usWinDescent=120,
+        fsType=0,
+    )
     fb.setupPost()
     fb.setupHead()
     output.parent.mkdir(parents=True, exist_ok=True)

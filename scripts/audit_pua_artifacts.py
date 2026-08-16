@@ -59,10 +59,25 @@ def audit(svg: Path, size: int, margin: int, minimum: int) -> dict[str, object] 
     if len(found) < 2:
         return None
     dominant = found[0]
+    def intentional_baseline(item: tuple[int, int, int, int, int]) -> bool:
+        """Recognize the shared low, dry ground wash used by study glyphs.
+
+        These strokes are intentionally disconnected from the subject. They
+        should not drown out the actual detached-fragment review queue.
+        Keep the test deliberately narrow: broad, low marks only.
+        """
+        _, x0, y0, x1, y1 = item
+        return (
+            y0 >= int(size * 0.80)
+            and (y1 - y0) <= max(8, size // 20)
+            and (x1 - x0) >= int(size * 0.38)
+        )
+
     outside = [
         item
         for item in found[1:]
         if item[0] >= minimum
+        and not intentional_baseline(item)
         and (
             item[3] < dominant[1] - margin
             or item[1] > dominant[3] + margin

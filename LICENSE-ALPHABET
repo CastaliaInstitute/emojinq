@@ -1,0 +1,10 @@
+Emojinq cartographic alphabet
+=============================
+
+The cartographic alphanumeric geometry is original Castalia Institute artwork.
+Its canonical, reproducible source is scripts/cartographic_alphabet.py and the
+generated stroke-only SVG corpus under assets/alpha-ink/.
+
+No third-party font outlines are incorporated into this alphabet. Visual
+references informed the general category—historic Roman and uncial map
+lettering—but not the glyph paths.

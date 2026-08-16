@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Emojinq — full OpenMoji set</title>
+  <title>Emojinq — sumi-e glyph gallery</title>
   <style>
     :root { color-scheme: light; --paper:#e9e7e1; --ink:#292826; --quiet:#77746d; }
     * { box-sizing:border-box; }
@@ -11,7 +11,7 @@
     main { max-width:1200px; margin:auto; padding:5vw; }
     h1 { margin:0; font:400 clamp(3rem,8vw,7rem)/.8 "SignPainter","Bradley Hand",cursive; }
     p { color:var(--quiet); }
-    #status { font:700 .72rem/1 sans-serif; letter-spacing:.12em; text-transform:uppercase; }
+    #status { font:700 .72rem/1.4 sans-serif; letter-spacing:.1em; text-transform:uppercase; }
     .controls { display:flex; flex-wrap:wrap; gap:1rem; align-items:center; margin:1.5rem 0; padding:1rem; background:#f5f3ed; border:1px solid #d0cdc4; font:14px/1.2 ui-sans-serif,sans-serif; }
     label { display:flex; gap:.5rem; align-items:center; }
     select, input { accent-color:#292826; }
@@ -24,23 +24,92 @@
     .card-inner { position:relative; width:100%; height:100%; transform-style:preserve-3d; transition:transform .55s cubic-bezier(.2,.7,.2,1); }
     .card.is-flipped .card-inner { transform:rotateY(180deg); }
     .card-face { position:absolute; inset:0; display:grid; place-items:center; padding:1rem; overflow:hidden; background:#f5f3ed; border:1px solid #c1beb5; border-radius:4px; box-shadow:0 5px 12px rgba(41,40,38,.12); backface-visibility:hidden; }
+    .card-front { grid-template-rows:minmax(0,1fr) auto; gap:.5rem; }
     .card-back { transform:rotateY(180deg); }
     .card-back a { display:grid; place-items:center; width:100%; height:100%; }
     .card-back img { width:78%; height:auto; image-rendering:auto; }
-    .glyph { display:grid; width:100%; height:100%; place-items:center; color:#262421; font:normal clamp(4rem,7vw,6rem)/1 "Emojinq", sans-serif; font-variant-ligatures:common-ligatures; }
+    .glyph { display:grid; width:100%; min-height:0; height:100%; place-items:center; color:#262421; font:normal clamp(4rem,7vw,6rem)/1 "Emojinq", sans-serif; font-variant-ligatures:common-ligatures; }
     .glyph img { width:100%; height:100%; max-width:100%; max-height:100%; object-fit:contain; }
+    .card-label { max-width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#5f5c55; font:11px/1.2 ui-sans-serif,sans-serif; }
+    html[data-review-mode="blind"] .card-label { visibility:hidden; }
+    .review-trigger { position:absolute; right:.55rem; top:.55rem; z-index:2; border:1px solid #c1beb5; border-radius:999px; padding:.28rem .55rem; color:#5f5c55; background:rgba(245,243,237,.92); cursor:pointer; font:11px ui-sans-serif,sans-serif; opacity:.62; transition:opacity .2s, background .2s; }
+    .card-front:hover .review-trigger, .card-front:focus-within .review-trigger, .review-trigger:focus-visible { opacity:1; }
+    .review-trigger:hover { background:#fffefa; }
+    dialog { width:min(92vw,560px); border:1px solid #bdb9af; border-radius:6px; padding:0; color:var(--ink); background:#f5f3ed; box-shadow:0 20px 70px rgba(41,40,38,.3); }
+    dialog::backdrop { background:rgba(41,40,38,.42); }
+    .review-panel { display:grid; gap:1rem; padding:1.25rem; }
+    .review-header { display:grid; grid-template-columns:96px 1fr; gap:1rem; align-items:center; }
+    .review-preview { display:grid; place-items:center; width:96px; height:96px; padding:.5rem; background:#fffefa; border:1px solid #d0cdc4; }
+    .review-preview img { width:100%; height:100%; object-fit:contain; }
+    .review-preview span { font:3.6rem/1 "Emojinq", sans-serif; }
+    html[data-font-variant="color"] .type-sample,
+    html[data-font-variant="color"] .glyph,
+    html[data-font-variant="color"] .review-preview span { font-family:"Emojinq Color","Emojinq",sans-serif; }
+    .review-title { margin:0; font-size:1.1rem; }
+    .review-meta { margin:.25rem 0 0; color:var(--quiet); font:12px/1.4 ui-monospace,monospace; overflow-wrap:anywhere; }
+    .review-close { position:absolute; top:.65rem; right:.7rem; border:0; background:none; color:var(--quiet); font-size:1.5rem; cursor:pointer; }
+    .review-panel fieldset { display:grid; gap:.55rem; border:1px solid #d0cdc4; padding:.75rem; }
+    .review-panel legend { padding:0 .35rem; font-size:13px; }
+    .review-choice { display:flex; gap:.55rem; align-items:center; font:14px ui-sans-serif,sans-serif; }
+    .review-panel textarea { width:100%; min-height:6rem; resize:vertical; border:1px solid #bdb9af; padding:.65rem; background:#fffefa; color:var(--ink); font:14px/1.4 ui-sans-serif,sans-serif; }
+    .review-guess { width:100%; padding:.65rem; border:1px solid #bdb9af; background:#fffefa; color:var(--ink); font:14px ui-sans-serif,sans-serif; }
+    .blind-only { display:none; }
+    html[data-review-mode="blind"] .blind-only { display:grid; gap:.4rem; }
+    .review-actions { display:flex; align-items:center; gap:.75rem; }
+    .review-submit { border:1px solid #292826; border-radius:999px; padding:.55rem .9rem; color:#f5f3ed; background:#292826; cursor:pointer; font:600 13px ui-sans-serif,sans-serif; }
+    .review-submit:disabled { cursor:wait; opacity:.6; }
+    .review-status { min-height:1.2em; margin:0; color:var(--quiet); font:12px/1.3 ui-sans-serif,sans-serif; }
+    .review-status a { color:var(--ink); }
+    .pager { display:flex; justify-content:center; align-items:center; gap:.75rem; margin:1rem 0; font:13px ui-sans-serif,sans-serif; }
+    .pager button { border:1px solid #bdb9af; border-radius:999px; padding:.45rem .8rem; color:var(--ink); background:#f5f3ed; cursor:pointer; }
+    .pager button:disabled { cursor:not-allowed; opacity:.45; }
+    .honeypot { position:absolute; left:-10000px; width:1px; height:1px; overflow:hidden; }
+    @media (max-width:520px) { .review-header { grid-template-columns:72px 1fr; } .review-preview { width:72px; height:72px; } .review-preview span { font-size:2.6rem; } }
   </style>
 </head>
 <body><main>
   <h1>iNQ</h1>
-  <p>Emojinq · full OpenMoji Black brush-ink build</p>
-  <div id="status">Loading manifest…</div>
+  <p>Emojinq · monochrome ink and familiar-color sumi-e wash variants</p>
+  <div id="status" aria-live="polite">Loading manifest…</div>
   <div class="controls" aria-label="Gallery controls">
     <input class="search" id="search" type="search" placeholder="Search emoji, code point, or group…" aria-label="Search emoji">
     <label>Group <select id="group"><option value="all">All groups</option><optgroup label="PUA categories" id="pua-groups"><option value="pua-all">All PUA categories</option></optgroup></select></label>
+    <label>Coverage <select id="coverage"><option value="core">Core glyphs</option><option value="all">All sequences</option></select></label>
+    <label>Vocabulary <select id="development"><option value="all">All stages</option><option value="1">First words</option><option value="2">Naturalist referents</option><option value="3">Emotions &amp; relationships</option><option value="4">Scenes &amp; ideas</option><option value="literacy">Literacy symbols</option></select></label>
+    <label>Variant <select id="variant"><option value="ink">Ink</option><option value="color">Color wash · standard + 12 PUA pigments</option></select></label>
+    <label>Review <select id="review-mode"><option value="browse">Labels visible</option><option value="blind">Label-blind test</option></select></label>
   </div>
   <div class="type-sample" aria-label="Emojinq alphabet specimen"><small>Emojinq brush alphabet</small>ABCDEFGHIJKLMNOPQRSTUVWXYZ · abcdefghijklmnopqrstuvwxyz · 0123456789</div>
   <section class="grid" id="grid" aria-label="Full Emojinq gallery"></section>
+  <nav class="pager" aria-label="Gallery pages"><button id="page-prev" type="button">Previous</button><span id="page-status">Page 1</span><button id="page-next" type="button">Next</button></nav>
+  <dialog id="review-dialog" aria-labelledby="review-title">
+    <form class="review-panel" id="review-form">
+      <button class="review-close" id="review-close" type="button" aria-label="Close review">×</button>
+      <div class="review-header">
+        <div class="review-preview" id="review-preview"></div>
+        <div><h2 class="review-title" id="review-title">Review glyph</h2><p class="review-meta" id="review-meta"></p></div>
+      </div>
+      <label class="blind-only" for="review-guess">What does it look like? <input class="review-guess" id="review-guess" name="guess" maxlength="120" autocomplete="off"></label>
+      <fieldset>
+        <legend>Would a toddler recognize the intended object without its label?</legend>
+        <label class="review-choice"><input type="radio" name="recognition" value="immediate" required> Yes — immediate and unmistakable</label>
+        <label class="review-choice"><input type="radio" name="recognition" value="needs-cues"> Maybe — needs more defining brush strokes</label>
+        <label class="review-choice"><input type="radio" name="recognition" value="unrecognizable"> No — ambiguous or reads as another object</label>
+        <label class="review-choice"><input type="radio" name="recognition" value="not-concrete"> Not a concrete object</label>
+      </fieldset>
+      <fieldset>
+        <legend>How does this glyph read?</legend>
+        <label class="review-choice"><input type="radio" name="rating" value="beautiful" required> Beautiful and distinctive</label>
+        <label class="review-choice"><input type="radio" name="rating" value="clear"> Clear, but could be refined</label>
+        <label class="review-choice"><input type="radio" name="rating" value="needs-redraw"> Needs a redraw</label>
+        <label class="review-choice"><input type="radio" name="rating" value="broken"> Broken or unreadable</label>
+      </fieldset>
+      <label for="review-note">What should we notice?</label>
+      <textarea id="review-note" name="note" maxlength="1200" required placeholder="Describe what reads well or what needs changing…"></textarea>
+      <label class="honeypot" aria-hidden="true">Website <input id="review-website" name="website" tabindex="-1" autocomplete="off"></label>
+      <div class="review-actions"><button class="review-submit" type="submit">Save review to GitHub</button><p class="review-status" id="review-status" aria-live="polite"></p></div>
+    </form>
+  </dialog>
   <script>
     const SYNONYMS = {
       arm: ["biceps", "muscle", "strong", "flexed"],
@@ -67,117 +136,329 @@
     const assetRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/gray-all/" : "assets/gray-all/";
     const divinationRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/divination/" : "assets/divination/";
     const puaRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/pua/" : "assets/pua/";
+    const puaColorRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/pua-color/" : "assets/pua-color/";
+    const developmentalRoot = location.pathname.endsWith("/docs/all.html") ? "../assets/" : "assets/";
     const qrAsset = location.pathname.endsWith("/docs/all.html") ? "../docs/inq-cards-qr.png" : "docs/inq-cards-qr.png";
     const cardUrl = "https://inq.cards";
     const fontRoot = location.pathname.endsWith("/docs/all.html") ? "../fonts/" : "fonts/";
+    const feedbackEndpoint = location.pathname.endsWith("/docs/all.html") ? "../api/feedback" : "api/feedback";
+    const staticFeedback = location.hostname.endsWith("github.io") || location.protocol === "file:";
+    const issueEndpoint = "https://github.com/CastaliaInstitute/emojinq/issues/new";
+    const releaseParams = new URLSearchParams(location.search);
+    const requestedRelease = releaseParams.get("release") || releaseParams.get("v");
+    const releaseVersion = requestedRelease || "sumi-toddler-7";
+    const versionedPuaSource = source => `${puaRoot}${source}?v=${encodeURIComponent(releaseVersion)}`;
+    const versionedPuaColorSource = source => `${puaColorRoot}${source}?v=${encodeURIComponent(releaseVersion)}`;
+    const COLOR_PUA_SOURCES = new Set([
+      "patterns/black.svg", "patterns/blue.svg", "patterns/brown.svg", "patterns/gold.svg",
+      "patterns/gray.svg", "patterns/green.svg", "patterns/orange.svg", "patterns/purple.svg",
+      "patterns/red.svg", "patterns/silver.svg", "patterns/white.svg", "patterns/yellow.svg"
+    ]);
     const fontStyle = document.createElement("style");
-    fontStyle.textContent = `@font-face { font-family: Emojinq; src: url("${fontRoot}Emojinq-Regular.ttf?v=yuji-boku-1") format("truetype"); font-display: swap; }`;
+      fontStyle.textContent = `
+        @font-face { font-family: Emojinq; src: url("${fontRoot}Emojinq-Regular.ttf?v=${encodeURIComponent(releaseVersion)}") format("truetype"); font-display: swap; }
+        @font-face { font-family: "Emojinq Color"; src: url("${fontRoot}Emojinq-Color.ttf?v=${encodeURIComponent(releaseVersion)}") format("truetype"); font-display: swap; }
+      `;
     document.head.append(fontStyle);
-    Promise.all([assetRoot, divinationRoot, puaRoot].map(root => fetch(`${root}manifest.json`).then(r => {
-      if (!r.ok) throw new Error(`manifest request failed (${r.status})`);
-      return r.json();
-    }))).then(([emojiItems, divinationItems, puaItems]) => {
+    const variant = document.getElementById("variant");
+    const reviewMode = document.getElementById("review-mode");
+    const reviewGuess = document.getElementById("review-guess");
+    const applyReviewMode = () => {
+      const blind = reviewMode.value === "blind";
+      document.documentElement.dataset.reviewMode = reviewMode.value;
+      reviewGuess.required = blind;
+      localStorage.setItem("emojinq-review-mode", reviewMode.value);
+      document.querySelectorAll(".review-trigger").forEach(button => { button.textContent = blind ? "Guess" : "Review"; });
+      document.querySelectorAll(".card").forEach(card => {
+        card.setAttribute("aria-label", blind ? "Unlabeled glyph; use Guess to identify it" : card.dataset.expectedAria);
+      });
+      document.querySelectorAll(".glyph").forEach(glyph => {
+        glyph.setAttribute("aria-label", blind ? "Unlabeled glyph" : glyph.dataset.expectedAria);
+      });
+      document.querySelectorAll("img[data-expected-alt]").forEach(image => {
+        image.alt = blind ? "" : image.dataset.expectedAlt;
+      });
+    };
+    reviewMode.value = localStorage.getItem("emojinq-review-mode") === "blind" ? "blind" : "browse";
+    reviewMode.addEventListener("change", applyReviewMode);
+    const puaSourceForVariant = source => variant.value === "color" && COLOR_PUA_SOURCES.has(source)
+      ? versionedPuaColorSource(source)
+      : versionedPuaSource(source);
+    const refreshPuaImages = () => document.querySelectorAll("img[data-pua-source]").forEach(image => {
+      image.src = puaSourceForVariant(image.dataset.puaSource);
+    });
+    const applyVariant = () => {
+      document.documentElement.dataset.fontVariant = variant.value;
+      localStorage.setItem("emojinq-font-variant", variant.value);
+      refreshPuaImages();
+    };
+    variant.value = localStorage.getItem("emojinq-font-variant") === "color" ? "color" : "ink";
+    variant.addEventListener("change", applyVariant);
+    applyVariant();
+    applyReviewMode();
+    const reviewDialog = document.getElementById("review-dialog");
+    const reviewForm = document.getElementById("review-form");
+    const reviewPreview = document.getElementById("review-preview");
+    const reviewTitle = document.getElementById("review-title");
+    const reviewMeta = document.getElementById("review-meta");
+    const reviewStatus = document.getElementById("review-status");
+    const reviewSubmit = reviewForm.querySelector(".review-submit");
+    if (staticFeedback) reviewSubmit.textContent = "Open review issue on GitHub";
+    let currentReviewItem = null;
+
+    const codepointLabel = item => item.codepoints.map(codepoint => `U+${codepoint.toString(16).toUpperCase().padStart(4, "0")}`).join(" ");
+    const openReview = item => {
+      currentReviewItem = item;
+      reviewForm.reset();
+      reviewStatus.textContent = "";
+      const blind = reviewMode.value === "blind";
+      reviewTitle.textContent = blind ? "What does this glyph represent?" : item.label || item.name;
+      const brushInfo = item.developmental
+        ? ` · ${item.developmental.brush_stroke_count} brush marks · ${item.developmental.stroke_only_marks} stroke-only`
+        : "";
+      reviewMeta.textContent = blind ? `Label hidden · answer before revealing${brushInfo}` : `${codepointLabel(item)} · ${item.group || "Emojinq"}${brushInfo}`;
+      reviewPreview.replaceChildren();
+      if (item.pua) {
+        const image = document.createElement("img");
+        image.dataset.puaSource = item.source;
+        image.src = puaSourceForVariant(item.source);
+        image.alt = item.name;
+        reviewPreview.append(image);
+      } else {
+        const sample = document.createElement("span");
+        sample.textContent = String.fromCodePoint(...item.codepoints);
+        reviewPreview.append(sample);
+      }
+      reviewDialog.showModal();
+    };
+    document.getElementById("review-close").addEventListener("click", () => reviewDialog.close());
+    reviewDialog.addEventListener("click", event => {
+      if (event.target === reviewDialog) reviewDialog.close();
+    });
+    reviewForm.addEventListener("submit", async event => {
+      event.preventDefault();
+      if (!currentReviewItem) return;
+      const form = new FormData(reviewForm);
+      reviewSubmit.disabled = true;
+      const reviewPayload = {
+        glyph: currentReviewItem.label || currentReviewItem.name,
+        codepoint: codepointLabel(currentReviewItem),
+        group: currentReviewItem.group || "Emojinq",
+        source: currentReviewItem.source || "font glyph",
+        recognition: form.get("recognition"),
+        rating: form.get("rating"),
+        guess: form.get("guess"),
+        note: form.get("note"),
+        website: form.get("website")
+      };
+      if (staticFeedback) {
+        const body = [
+          `Glyph: ${reviewPayload.glyph}`,
+          `Code point: ${reviewPayload.codepoint}`,
+          `Group: ${reviewPayload.group}`,
+          `Source: ${reviewPayload.source}`,
+          `Recognition: ${reviewPayload.recognition}`,
+          `Label-blind guess: ${reviewPayload.guess || "(browse-mode review)"}`,
+          `Rating: ${reviewPayload.rating}`,
+          "",
+          reviewPayload.note
+        ].join("\n");
+        const issueUrl = new URL(issueEndpoint);
+        issueUrl.searchParams.set("title", `Glyph review: ${reviewPayload.glyph}`);
+        issueUrl.searchParams.set("body", body);
+        issueUrl.searchParams.set("labels", "glyph-review");
+        window.open(issueUrl, "_blank", "noopener");
+        reviewStatus.textContent = "Opened a prefilled GitHub issue; review it there before submitting.";
+        reviewSubmit.disabled = false;
+        return;
+      }
+      reviewStatus.textContent = "Saving review…";
+      try {
+        const result = await fetch(feedbackEndpoint, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify(reviewPayload)
+        });
+        const payload = await result.json().catch(() => ({}));
+        if (!result.ok) throw new Error(payload.error || `submission failed (${result.status})`);
+        reviewStatus.replaceChildren();
+        reviewStatus.append(document.createTextNode("Saved to GitHub for review."));
+        if (payload.issue) {
+          const issueLink = document.createElement("a");
+          issueLink.href = payload.issue;
+          issueLink.target = "_blank";
+          issueLink.rel = "noopener";
+          issueLink.textContent = " Open issue";
+          reviewStatus.append(issueLink);
+        }
+      } catch (error) {
+        reviewStatus.textContent = error.message || "Could not save review.";
+      } finally {
+        reviewSubmit.disabled = false;
+      }
+    });
+    Promise.all([
+      fetch(`${assetRoot}manifest.json`).then(r => { if (!r.ok) throw new Error(`manifest request failed (${r.status})`); return r.json(); }),
+      fetch(`${divinationRoot}manifest.json`).then(r => { if (!r.ok) throw new Error(`manifest request failed (${r.status})`); return r.json(); }),
+      fetch(`${puaRoot}manifest.json`).then(r => { if (!r.ok) throw new Error(`manifest request failed (${r.status})`); return r.json(); }),
+      fetch(`${developmentalRoot}developmental-vocabulary.json`).then(r => { if (!r.ok) throw new Error(`developmental ranking request failed (${r.status})`); return r.json(); })
+    ]).then(([emojiItems, divinationItems, puaItems, developmental]) => {
+      const rankIndex = new Map(developmental.entries.map(entry => [entry.id, entry]));
+      const addRank = (family, item) => ({
+        ...item,
+        developmental: rankIndex.get(`${family}:${item.name}`)
+      });
       const categorizedPuaItems = puaItems.map(item => ({
         ...item,
         name: item.name || item.label,
         label: item.label.replaceAll("/", " · "),
         group: `PUA · ${item.label.split("/")[0].replaceAll("_", " ").replace(/\b\w/g, letter => letter.toUpperCase())}`,
-        pua: true
+        pua: true,
+        developmental: rankIndex.get(`pua:${item.name}`)
       }));
       const alphaItems = [...ALPHANUMERICS].map(character => ({
         name: `U+${character.codePointAt(0).toString(16).toUpperCase().padStart(4, "0")}`,
         label: character,
         group: "Alphanumerics",
-        codepoints: [character.codePointAt(0)]
+        codepoints: [character.codePointAt(0)],
+        developmental: rankIndex.get(`alpha-ink:U+${character.codePointAt(0).toString(16).toUpperCase().padStart(4, "0")}`)
       }));
-      // Multi-codepoint emoji (regional indicators, skin-tone and ZWJ
-      // sequences) can fall through to the platform emoji font in browsers.
-      // Keep the catalog visually honest: show only single-codepoint brush
-      // glyphs from the generated Emojinq corpus, plus our explicit SVG/PUA
-      // studies and the alphanumeric font glyphs.
-      const brushedEmojiItems = emojiItems.filter(item => (
-        item.brushed !== false
-        && item.codepoints.length === 1
-        && item.group !== "Flags"
-        && !item.codepoints.includes(0x200D) // zero-width joiner
-        && !item.codepoints.includes(0xFE0F) // emoji presentation selector
-        && !/zero width|variation selector/i.test(item.label || "")
+      const rankedEmojiItems = emojiItems
+        .filter(item => item.brushed !== false)
+        .map(item => addRank("gray-all", item));
+      // The default view is intentionally compact, but the coverage control
+      // exposes every ZWJ, modifier, presentation-selector, and flag sequence.
+      const coreEmojiItems = rankedEmojiItems.filter(item => (
+        item.group === "Flags"
+        || (
+          item.codepoints.length === 1
+          && !item.codepoints.includes(0x200D)
+          && !item.codepoints.includes(0xFE0F)
+          && !/zero width|variation selector/i.test(item.label || "")
+        )
       ));
-      const items = [...brushedEmojiItems, ...divinationItems, ...categorizedPuaItems, ...alphaItems];
-      const omittedEmojiCount = emojiItems.length - brushedEmojiItems.length;
+      const rankedDivinationItems = divinationItems.map(item => addRank("divination", item));
+      const sharedItems = [...rankedDivinationItems, ...categorizedPuaItems, ...alphaItems];
+      const coreItems = [...coreEmojiItems, ...sharedItems];
+      const allItems = [...rankedEmojiItems, ...sharedItems];
       const grid = document.getElementById("grid");
       const group = document.getElementById("group");
       const puaGroups = document.getElementById("pua-groups");
       const search = document.getElementById("search");
-      [...new Set(items.map(item => item.group))].sort().forEach(name => {
+      const development = document.getElementById("development");
+      const coverage = document.getElementById("coverage");
+      const pagePrevious = document.getElementById("page-prev");
+      const pageNext = document.getElementById("page-next");
+      const pageStatus = document.getElementById("page-status");
+      const PAGE_SIZE = 240;
+      let page = 0;
+      [...new Set(allItems.map(item => item.group))].sort().forEach(name => {
         const option = document.createElement("option");
         option.value = name;
         option.textContent = name;
         (name.startsWith("PUA · ") ? puaGroups : group).appendChild(option);
       });
       const render = () => {
+        const items = coverage.value === "all" ? allItems : coreItems;
         const selected = group.value;
+        const selectedDevelopment = development.value;
         const query = expandQuery(search.value.trim().toLowerCase());
         const visible = items.filter(item => {
           const inGroup = selected === "all" || (selected === "pua-all" ? item.pua : item.group === selected);
+          const rank = item.developmental;
+          const inDevelopment = selectedDevelopment === "all"
+            || (selectedDevelopment === "literacy" ? rank?.developmental_level === null : String(rank?.developmental_level) === selectedDevelopment);
           const haystack = `${item.label || ""} ${item.name} ${item.group} ${item.codepoints.map(cp => cp.toString(16)).join(" ")}`.toLowerCase();
-          return inGroup && (!query.length || query.some(term => haystack.includes(term)));
+          return inGroup && inDevelopment && (!query.length || query.some(term => haystack.includes(term)));
         });
+        const pageCount = Math.max(1, Math.ceil(visible.length / PAGE_SIZE));
+        page = Math.min(page, pageCount - 1);
+        const pageStart = page * PAGE_SIZE;
+        const pageItems = visible.slice(pageStart, pageStart + PAGE_SIZE);
         while (grid.firstChild) grid.removeChild(grid.firstChild);
-        document.getElementById("status").textContent = `${visible.length} of ${items.length} searchable brush glyphs · ${omittedEmojiCount} sequences omitted`;
-        for (const item of visible) {
-        const figure = document.createElement("article");
-        figure.className = "card";
-        figure.tabIndex = 0;
-        figure.setAttribute("role", "button");
-        figure.setAttribute("aria-pressed", "false");
-        figure.setAttribute("aria-label", `${item.name}; click to flip for QR link`);
-        const inner = document.createElement("div");
-        inner.className = "card-inner";
-        const front = document.createElement("div");
-        front.className = "card-face card-front";
-        const glyph = document.createElement("span");
-        glyph.className = "glyph";
-        glyph.setAttribute("role", "img");
-        glyph.setAttribute("aria-label", item.name);
-        if (item.pua) {
-          const image = document.createElement("img");
-          image.src = `${puaRoot}${item.source}`;
-          image.alt = item.name;
-          image.loading = "lazy";
-          glyph.append(image);
-        } else {
-          glyph.textContent = String.fromCodePoint(...item.codepoints);
-        }
-        front.append(glyph);
-        const back = document.createElement("div");
-        back.className = "card-face card-back";
-        const link = document.createElement("a");
-        link.href = cardUrl;
-        link.target = "_blank";
-        link.rel = "noopener";
-        link.setAttribute("aria-label", "Open inq.cards");
-        const qr = document.createElement("img");
-        qr.src = qrAsset;
-        qr.alt = "";
-        link.append(qr);
-        back.append(link);
-        inner.append(front, back);
-        figure.append(inner);
-        const flip = event => {
-          if (event.type === "keydown" && event.key !== "Enter" && event.key !== " ") return;
-          if (event.type === "keydown") event.preventDefault();
-          if (event.target.closest("a")) return;
-          const flipped = figure.classList.toggle("is-flipped");
-          figure.setAttribute("aria-pressed", String(flipped));
-        };
-        figure.addEventListener("click", flip);
-        figure.addEventListener("keydown", flip);
-        grid.append(figure);
+        const stageLabel = selectedDevelopment === "all" ? "all stages" : development.options[development.selectedIndex].textContent;
+        const coverageLabel = coverage.value === "all" ? "all standard sequences" : "core glyphs";
+        const range = visible.length ? `${pageStart + 1}–${pageStart + pageItems.length}` : "0";
+        document.getElementById("status").textContent = `Showing ${range} of ${visible.length} matches · ${items.length} available · ${coverageLabel} · ${stageLabel}`;
+        pageStatus.textContent = `Page ${page + 1} of ${pageCount}`;
+        pagePrevious.disabled = page === 0;
+        pageNext.disabled = page + 1 >= pageCount;
+        for (const item of pageItems) {
+          const figure = document.createElement("article");
+          figure.className = "card";
+          figure.tabIndex = 0;
+          figure.setAttribute("role", "button");
+          figure.setAttribute("aria-pressed", "false");
+          figure.dataset.expectedAria = `${item.label || item.name}; click to flip for QR link`;
+          figure.setAttribute("aria-label", reviewMode.value === "blind" ? "Unlabeled glyph; use Guess to identify it" : figure.dataset.expectedAria);
+          const inner = document.createElement("div");
+          inner.className = "card-inner";
+          const front = document.createElement("div");
+          front.className = "card-face card-front";
+          const glyph = document.createElement("span");
+          glyph.className = "glyph";
+          glyph.setAttribute("role", "img");
+          glyph.dataset.expectedAria = item.label || item.name;
+          glyph.setAttribute("aria-label", reviewMode.value === "blind" ? "Unlabeled glyph" : glyph.dataset.expectedAria);
+          if (item.pua) {
+            const image = document.createElement("img");
+            image.dataset.puaSource = item.source;
+            image.src = puaSourceForVariant(item.source);
+            image.dataset.expectedAlt = item.name;
+            image.alt = reviewMode.value === "blind" ? "" : item.name;
+            image.loading = "lazy";
+            glyph.append(image);
+          } else {
+            glyph.textContent = String.fromCodePoint(...item.codepoints);
+          }
+          const cardLabel = document.createElement("span");
+          cardLabel.className = "card-label";
+          cardLabel.textContent = item.label || item.name;
+          front.append(glyph, cardLabel);
+          const reviewTrigger = document.createElement("button");
+          reviewTrigger.className = "review-trigger";
+          reviewTrigger.type = "button";
+          reviewTrigger.textContent = "Review";
+          reviewTrigger.setAttribute("aria-label", `Review ${item.label || item.name}`);
+          reviewTrigger.addEventListener("click", event => {
+            event.stopPropagation();
+            openReview(item);
+          });
+          front.append(reviewTrigger);
+          reviewTrigger.textContent = reviewMode.value === "blind" ? "Guess" : "Review";
+          const back = document.createElement("div");
+          back.className = "card-face card-back";
+          const link = document.createElement("a");
+          link.href = cardUrl;
+          link.target = "_blank";
+          link.rel = "noopener";
+          link.setAttribute("aria-label", "Open inq.cards");
+          const qr = document.createElement("img");
+          qr.src = qrAsset;
+          qr.alt = "";
+          link.append(qr);
+          back.append(link);
+          inner.append(front, back);
+          figure.append(inner);
+          const flip = event => {
+            if (event.type === "keydown" && event.key !== "Enter" && event.key !== " ") return;
+            if (event.type === "keydown") event.preventDefault();
+            if (event.target.closest("a,button")) return;
+            const flipped = figure.classList.toggle("is-flipped");
+            figure.setAttribute("aria-pressed", String(flipped));
+          };
+          figure.addEventListener("click", flip);
+          figure.addEventListener("keydown", flip);
+          grid.append(figure);
         }
       };
-      group.addEventListener("change", render);
-      search.addEventListener("input", render);
+      const resetAndRender = () => { page = 0; render(); };
+      group.addEventListener("change", resetAndRender);
+      coverage.addEventListener("change", resetAndRender);
+      development.addEventListener("change", resetAndRender);
+      search.addEventListener("input", resetAndRender);
+      pagePrevious.addEventListener("click", () => { page -= 1; render(); grid.scrollTop = 0; });
+      pageNext.addEventListener("click", () => { page += 1; render(); grid.scrollTop = 0; });
       render();
     }).catch(error => {
       console.error("Emojinq gallery failed to initialize", error);

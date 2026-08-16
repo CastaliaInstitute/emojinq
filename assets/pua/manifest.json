@@ -6336,6 +6336,14 @@
     "label": "dinosaurs/fossil"
   },
   {
+    "name": "F146A",
+    "source": "dinosaurs/compsognathus.svg",
+    "codepoints": [
+      988266
+    ],
+    "label": "dinosaurs/compsognathus"
+  },
+  {
     "name": "F1480",
     "source": "sea_creatures/whale.svg",
     "codepoints": [
@@ -6654,5 +6662,205 @@
       988374
     ],
     "label": "adventure/silver-chest"
+  },
+  {
+    "name": "F1500",
+    "source": "faerie/hover.svg",
+    "codepoints": [
+      988416
+    ],
+    "label": "faerie/hover"
+  },
+  {
+    "name": "F1501",
+    "source": "faerie/reach.svg",
+    "codepoints": [
+      988417
+    ],
+    "label": "faerie/reach"
+  },
+  {
+    "name": "F1502",
+    "source": "faerie/dart.svg",
+    "codepoints": [
+      988418
+    ],
+    "label": "faerie/dart"
+  },
+  {
+    "name": "F1503",
+    "source": "faerie/alight.svg",
+    "codepoints": [
+      988419
+    ],
+    "label": "faerie/alight"
+  },
+  {
+    "name": "F1504",
+    "source": "faerie/dance.svg",
+    "codepoints": [
+      988420
+    ],
+    "label": "faerie/dance"
+  },
+  {
+    "name": "F1505",
+    "source": "faerie/bow.svg",
+    "codepoints": [
+      988421
+    ],
+    "label": "faerie/bow"
+  },
+  {
+    "name": "F1506",
+    "source": "faerie/carry.svg",
+    "codepoints": [
+      988422
+    ],
+    "label": "faerie/carry"
+  },
+  {
+    "name": "F1507",
+    "source": "faerie/spin.svg",
+    "codepoints": [
+      988423
+    ],
+    "label": "faerie/spin"
+  },
+  {
+    "name": "F1510",
+    "source": "faerie/season-spring.svg",
+    "codepoints": [
+      988432
+    ],
+    "label": "faerie/season-spring"
+  },
+  {
+    "name": "F1511",
+    "source": "faerie/season-summer.svg",
+    "codepoints": [
+      988433
+    ],
+    "label": "faerie/season-summer"
+  },
+  {
+    "name": "F1512",
+    "source": "faerie/season-autumn.svg",
+    "codepoints": [
+      988434
+    ],
+    "label": "faerie/season-autumn"
+  },
+  {
+    "name": "F1513",
+    "source": "faerie/season-winter.svg",
+    "codepoints": [
+      988435
+    ],
+    "label": "faerie/season-winter"
+  },
+  {
+    "name": "F1514",
+    "source": "faerie/dew-drop.svg",
+    "codepoints": [
+      988436
+    ],
+    "label": "faerie/dew-drop"
+  },
+  {
+    "name": "F1520",
+    "source": "castalia/rook-flame.svg",
+    "codepoints": [
+      988448
+    ],
+    "label": "castalia/rook-flame"
+  },
+  {
+    "name": "F1521",
+    "source": "castalia/maker-seal.svg",
+    "codepoints": [
+      988449
+    ],
+    "label": "castalia/maker-seal"
+  },
+  {
+    "name": "F1522",
+    "source": "castalia/research-submarine.svg",
+    "codepoints": [
+      988450
+    ],
+    "label": "castalia/research-submarine"
+  },
+  {
+    "name": "F1523",
+    "source": "castalia/mermaid-guide.svg",
+    "codepoints": [
+      988451
+    ],
+    "label": "castalia/mermaid-guide"
+  },
+  {
+    "name": "F1524",
+    "source": "castalia/punch-torso.svg",
+    "codepoints": [
+      988452
+    ],
+    "label": "castalia/punch-torso"
+  },
+  {
+    "name": "F1525",
+    "source": "castalia/judy-torso.svg",
+    "codepoints": [
+      988453
+    ],
+    "label": "castalia/judy-torso"
+  },
+  {
+    "name": "F1526",
+    "source": "castalia/puppet-left-hand.svg",
+    "codepoints": [
+      988454
+    ],
+    "label": "castalia/puppet-left-hand"
+  },
+  {
+    "name": "F1527",
+    "source": "castalia/puppet-right-hand.svg",
+    "codepoints": [
+      988455
+    ],
+    "label": "castalia/puppet-right-hand"
+  },
+  {
+    "name": "F1528",
+    "source": "castalia/puppet-shoe.svg",
+    "codepoints": [
+      988456
+    ],
+    "label": "castalia/puppet-shoe"
+  },
+  {
+    "name": "F1529",
+    "source": "castalia/pirate-ship.svg",
+    "codepoints": [
+      988457
+    ],
+    "label": "castalia/pirate-ship"
+  },
+  {
+    "name": "F152A",
+    "source": "castalia/police-box.svg",
+    "codepoints": [
+      988458
+    ],
+    "label": "castalia/police-box"
+  },
+  {
+    "name": "F15FF",
+    "source": "objects/exit.svg",
+    "codepoints": [
+      988671
+    ],
+    "label": "objects/exit"
   }
 ]

@@ -39,6 +39,9 @@ def raster_check(source_dir: Path, sample: int, size: int) -> None:
     with tempfile.TemporaryDirectory() as temp_dir:
         files = sorted(path for path in source_dir.rglob("*.svg") if path.parent.name != "references")
         for index, source in enumerate(files[:sample]):
+            if source.name == "U+0020.svg":
+                # The ASCII space is intentionally a blank advance glyph.
+                continue
             target = Path(temp_dir) / f"{index}.png"
             subprocess.run([converter, "-w", str(size), "-h", str(size), "-o", str(target), str(source)], check=True)
             image = Image.open(target).convert("RGBA")

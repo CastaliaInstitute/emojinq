@@ -1,17 +1,18 @@
-PYTHON ?= python3
+RUN ?= uv run --python 3.12 --with-requirements requirements-build.txt
+PYTHON ?= $(RUN) python
 
-.PHONY: assets cosmos colossal-cave-pua fetch-openmoji all-lines all-gray lines divination naturalist-pua botanical-art body-art animals-art field-studies-art patterns-art materials-art sea-art dinosaurs-art field-plate-detail remove-ground animals-simple weather-simple materials-simple science-simple cross-category-simple art-batch art-batch2 art-batch3 art-batch4 art-batch5 people-art people-rich animate-svg check-animation laser-standard laser-pua laser-calibration check-laser outliers-simple brushify-pua trace-brush font check check-pua check-catalog contact-pua review-pua check-svg check-sumi-e check-stroke-corpus
+.PHONY: assets ontology cosmos colossal-cave-pua castalia-pua faerie-pua fetch-openmoji all-lines all-gray lines divination naturalist-pua botanical-art body-art animals-art toddler-art field-studies-art patterns-art materials-art sea-art dinosaurs-art field-plate-detail remove-ground animals-simple weather-simple materials-simple science-simple cross-category-simple art-batch art-batch2 art-batch3 art-batch4 art-batch5 people-art people-rich animate-svg check-animation laser-standard laser-pua laser-calibration check-laser outliers-simple brushify-pua trace-brush font color-font site check release-check recognition-ledger check-recognition-release check-release-inputs check-color-font check-pua check-pua-color check-standard-toddler check-catalog check-developmental contact-pua review-pua check-svg check-sumi-e check-sumi-e-benchmarks check-stroke-corpus
 
 fetch-openmoji:
 	$(PYTHON) scripts/fetch_openmoji.py
 
 all-lines: fetch-openmoji
-	uv run --python 3.12 --with svgpathtools python scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode line
-	PYTHONPATH=scripts uv run --python 3.12 --with svgpathtools python scripts/enrich_animal_faces.py --root assets/line-all
+	$(RUN) python scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode line
+	PYTHONPATH=scripts $(RUN) python scripts/enrich_animal_faces.py --root assets/line-all
 
 all-gray: fetch-openmoji
-	uv run --python 3.12 --with svgpathtools python scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode line --output-dir assets/gray-all
-	PYTHONPATH=scripts uv run --python 3.12 --with svgpathtools python scripts/enrich_animal_faces.py --root assets/gray-all
+	$(RUN) python scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode line --output-dir assets/gray-all
+	PYTHONPATH=scripts $(RUN) python scripts/enrich_animal_faces.py --root assets/gray-all
 
 assets:
 	$(PYTHON) scripts/build_set.py
@@ -66,10 +67,31 @@ animals-art:
 	$(PYTHON) scripts/redraw_animals_line_anatomy.py
 	$(PYTHON) scripts/enrich_animals_stroke_anatomy.py
 
+# Reapply the reviewed concrete-noun silhouettes after generated source assets.
+# Recognizability is a hard gate; extra defining strokes are intentional.
+toddler-art:
+	$(RUN) python scripts/redraw_moon_phases_sumi.py
+	$(PYTHON) scripts/strengthen_food_toddler_recognition.py
+	$(RUN) python scripts/strengthen_standard_animals_nature.py
+	$(PYTHON) scripts/strengthen_standard_travel_places.py
+	$(PYTHON) scripts/strengthen_standard_activities.py
+	$(PYTHON) scripts/strengthen_standard_flags.py
+	$(PYTHON) scripts/strengthen_standard_people_objects.py
+	$(PYTHON) scripts/strengthen_standard_remaining.py
+	$(RUN) python scripts/redraw_botanical_ink_art.py
+	$(RUN) python scripts/redraw_animals_line_anatomy.py
+	$(RUN) python scripts/redraw_farm_anatomy.py
+	$(RUN) python scripts/redraw_objects_line_anatomy.py
+	$(PYTHON) scripts/redraw_object_recognition_outliers.py
+	$(RUN) python scripts/redraw_sea_creatures_line_anatomy.py
+	$(PYTHON) scripts/redraw_sea_outliers.py
+	$(PYTHON) scripts/redraw_pua_toddler_semantic_outliers.py
+	$(PYTHON) scripts/strengthen_pua_toddler_referents.py
+
 field-studies-art:
 	$(PYTHON) scripts/redraw_field_studies.py
 	$(PYTHON) scripts/enrich_field_studies.py
-	uv run --with svgpathtools python scripts/brushify_field_lines.py
+	$(RUN) python scripts/brushify_field_lines.py
 
 patterns-art:
 	$(PYTHON) scripts/redraw_patterns_naturalist_art.py
@@ -78,10 +100,10 @@ materials-art:
 	$(PYTHON) scripts/redraw_materials_naturalist_art.py
 
 sea-art:
-	uv run --with svgpathtools python scripts/enrich_sea_stroke_anatomy.py
+	$(RUN) python scripts/enrich_sea_stroke_anatomy.py
 
 dinosaurs-art:
-	uv run --with svgpathtools python scripts/redraw_dinosaurs_stroke_only.py
+	$(RUN) python scripts/redraw_dinosaurs_stroke_only.py
 
 field-plate-detail:
 	$(PYTHON) scripts/enrich_naturalist_plate_detail.py
@@ -119,37 +141,81 @@ brushify-pua:
 # Usage: make trace-brush TRACE_INPUT=reference.png TRACE_OUTPUT=build/reference.svg
 trace-brush:
 	@test -n "$(TRACE_INPUT)" -a -n "$(TRACE_OUTPUT)" || (echo "set TRACE_INPUT and TRACE_OUTPUT" && exit 2)
-	uv run --python 3.12 --with vtracer --with pillow --with svgpathtools python scripts/trace_raster_brush.py "$(TRACE_INPUT)" "$(TRACE_OUTPUT)"
+	$(RUN) --with vtracer python scripts/trace_raster_brush.py "$(TRACE_INPUT)" "$(TRACE_OUTPUT)"
 
 divination:
-	$(PYTHON) scripts/build_divination_svg.py
+	$(RUN) python scripts/build_divination_svg.py
 
 naturalist-pua:
 	$(PYTHON) scripts/build_naturalist_pua.py --manifest
 
+ontology:
+	$(PYTHON) scripts/build_ontology.py
+
 colossal-cave-pua:
 	$(PYTHON) scripts/build_colossal_cave_pua.py
+
+castalia-pua:
+	$(PYTHON) scripts/build_castalia_pua.py
+
+faerie-pua:
+	$(PYTHON) scripts/build_faerie_pua.py
 
 cosmos:
 	$(PYTHON) scripts/build_cosmos_pua.py --manifest
 
 font: all-gray divination
-	$(PYTHON) scripts/fetch_yuji_boku.py
-	uv run --with scikit-image --with pillow --with svgpathtools python scripts/build_alpha_svg.py
-	uv run --python 3.12 --with fonttools --with svgpathtools python scripts/build_font.py --source-dir assets/gray-all --manifest assets/gray-all/manifest.json --alpha-dir assets/alpha-ink --alpha-manifest assets/alpha-ink/manifest.json --extra-dir assets/divination --extra-manifest assets/divination/manifest.json --extra-dir assets/pua --extra-manifest assets/pua/manifest.json --output fonts/Emojinq-Regular.ttf
+	$(RUN) python scripts/build_alpha_svg.py
+	$(RUN) python scripts/rank_developmental_vocabulary.py
+	$(MAKE) toddler-art
+	$(RUN) python scripts/rank_developmental_vocabulary.py
+	$(RUN) python scripts/build_font.py --source-dir assets/gray-all --manifest assets/gray-all/manifest.json --alpha-dir assets/alpha-ink --alpha-manifest assets/alpha-ink/manifest.json --extra-dir assets/divination --extra-manifest assets/divination/manifest.json --extra-dir assets/pua --extra-manifest assets/pua/manifest.json --output fonts/Emojinq-Regular.ttf
+
+color-font: font
+	$(PYTHON) scripts/build_color_assets.py
+	$(PYTHON) scripts/build_pua_color_variants.py
+	$(RUN) python scripts/build_color_font.py
+	$(MAKE) check-color-font
+
+site:
+	$(PYTHON) scripts/assemble_site.py
+
+check-color-font:
+	$(RUN) python scripts/check_color_font.py fonts/Emojinq-Color.ttf
 
 check:
 	$(PYTHON) scripts/check_quality.py
+	$(PYTHON) scripts/check_ontology.py
 	$(MAKE) check-pua
+	$(MAKE) check-pua-color
 	$(MAKE) check-sumi-e
+	$(MAKE) check-sumi-e-benchmarks
+	$(MAKE) check-standard-toddler
 	$(MAKE) check-stroke-corpus
 	$(MAKE) check-catalog
-	uv run --with fonttools python scripts/check_font.py
-	uv run --with pillow --with fonttools python scripts/check_alpha_font.py fonts/Emojinq-Regular.ttf
+	$(MAKE) check-developmental
+	$(MAKE) check-release-inputs
+	$(RUN) python scripts/check_font.py
+	$(RUN) python scripts/check_alpha_font.py fonts/Emojinq-Regular.ttf
 	$(PYTHON) scripts/check_pua_font_render.py fonts/Emojinq-Regular.ttf
+	@if [ -f fonts/Emojinq-Color.ttf ]; then $(MAKE) check-color-font; fi
 
 check-catalog:
 	$(PYTHON) scripts/check_catalog.py
+
+check-developmental:
+	$(PYTHON) scripts/check_developmental_metadata.py
+
+recognition-ledger:
+	$(PYTHON) scripts/build_pua_recognition_review.py
+
+check-recognition-release:
+	$(PYTHON) scripts/check_pua_recognition_evidence.py
+
+check-release-inputs:
+	$(PYTHON) scripts/check_release_inputs.py
+
+release-check: check check-recognition-release
 
 contact-pua:
 	$(PYTHON) scripts/render_pua_contact_sheet.py
@@ -165,12 +231,22 @@ check-pua:
 	$(PYTHON) scripts/check_pua_duplicates.py --root assets/pua
 	$(PYTHON) scripts/audit_pua_artifacts.py --root assets/pua
 	$(PYTHON) scripts/check_pua_coverage.py
+	$(PYTHON) scripts/check_pua_toddler_referents.py
+
+check-pua-color:
+	$(PYTHON) scripts/check_pua_color_variants.py
 
 check-svg:
 	$(PYTHON) scripts/check_svg_set.py --source-dir assets/gray-all
 
 check-sumi-e:
 	$(PYTHON) scripts/check_sumi_e_style.py --root assets
+
+check-sumi-e-benchmarks:
+	$(PYTHON) scripts/check_sumi_e_benchmarks.py
+
+check-standard-toddler:
+	$(PYTHON) scripts/check_standard_toddler_categories.py
 
 check-stroke-corpus:
 	$(PYTHON) scripts/check_stroke_corpus.py --root assets
@@ -182,6 +258,6 @@ check-stroke-corpus:
 atlas-subset:
 	pyftsubset fonts/Emojinq-Regular.ttf \
 	  --output-file=fonts/Emojinq-Atlas.ttf \
-	  --unicodes=0023,002A,0030-0039,20E3,FE0E-FE0F,2190-21FF,2300-23FF,25A0-25FF,2600-26FF,2700-27BF,2934-2935,2B00-2BFF,1F000-1F0FF,1F300-1F3FA,1F400-1F5FF,1F600-1F64F,1F680-1F6FF,1F780-1F7FF,1F900-1F9FF,1FA70-1FAFF,F0E00-F0E11,F082D,F084A,F1067,F0C16,F0C25,F0403,F0417,F041E,F0420,F0426,F043E,F10A2,F110C,F1117,F1400-F1435,F1440-F145E,F14B0-F14B3,F14C0-F14DF \
+	  --unicodes=0020-007E,20E3,FE0E-FE0F,2190-21FF,2300-23FF,25A0-25FF,2600-26FF,2700-27BF,2934-2935,2B00-2BFF,1F000-1F0FF,1F300-1F3FA,1F400-1F5FF,1F600-1F64F,1F680-1F6FF,1F780-1F7FF,1F900-1F9FF,1FA70-1FAFF,F0E00-F0E11,F082D,F084A,F1067,F0C04,F0C07,F0C16,F0C25,F0C29-F0C2A,F0C4C,F0C6F,F0C77,F0C7C,F0403,F0417,F041E,F0420,F0426,F043E,F10A2,F110C,F1117,F1400-F1435,F1440-F145E,F1460-F1469,F14B0-F14B3,F14C0-F14DF,F1500-F1514,F1520-F152A,F15FF \
 	  --layout-features='*' \
 	  --name-IDs='*'

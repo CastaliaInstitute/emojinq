@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      release_gate:
+        description: Require completed label-blind recognition evidence
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -18,40 +23,42 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Emojinq
-        uses: actions/checkout@v4
+      - name: Checkout exact source commit
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
-      - name: Build OpenMoji Black grayscale gallery
-        run: |
-          python3 -m pip install -r requirements-build.txt
-          python3 scripts/fetch_openmoji.py
-          python3 scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode grayscale
-          python3 scripts/build_divination_svg.py
-          python3 scripts/fetch_yuji_boku.py
-          python3 scripts/build_alpha_svg.py
-          python3 scripts/build_font.py --source-dir assets/gray-all --manifest assets/gray-all/manifest.json --alpha-dir assets/alpha-ink --alpha-manifest assets/alpha-ink/manifest.json --extra-dir assets/divination --extra-manifest assets/divination/manifest.json --extra-dir assets/pua --extra-manifest assets/pua/manifest.json --output fonts/Emojinq-Regular.ttf
-          python3 scripts/check_sumi_e_style.py --root assets
-          python3 scripts/check_quality.py --source-dir assets/gray-all --sample 12
-          python3 scripts/check_svg_set.py --source-dir assets/gray-all
-          python3 scripts/check_font.py fonts/Emojinq-Regular.ttf
+      - name: Set up Python 3.12
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
 
-      - name: Assemble Pages artifact
-        run: |
-          mkdir -p _site/docs _site/assets _site/fonts
-          cp -R docs/* _site/docs/
-          cp -R assets/gray-all _site/assets/
-          cp -R assets/divination _site/assets/
-          cp -R assets/pua _site/assets/
-          cp fonts/Emojinq-Regular.ttf _site/fonts/
-          cp docs/all.html _site/index.html
+      - name: Set up uv
+        uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
+        with:
+          enable-cache: true
+
+      - name: Install SVG renderer
+        run: sudo apt-get update && sudo apt-get install --yes librsvg2-bin
+
+      - name: Rebuild monochrome and color release
+        run: make color-font
+
+      - name: Run mechanical, semantic, gallery, and font gates
+        run: make check
+
+      - name: Require recognition evidence for main releases
+        if: github.event_name == 'push' || inputs.release_gate
+        run: make release-check
+
+      - name: Assemble exact Pages artifact
+        run: make site
 
       - name: Configure Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
-          path: _site
+          path: dist/pages
 
   deploy:
     environment:
@@ -62,4 +69,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4

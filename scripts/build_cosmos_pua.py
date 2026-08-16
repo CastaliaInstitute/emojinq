@@ -27,8 +27,8 @@ from pathlib import Path
 
 INK = "#262522"
 CANVAS = 72
-STYLE = "sumi-e-ink-wash-v1"
-STROKE_SYSTEM = "tapered-v1"
+STYLE = "sumi-e-naturalist-v2"
+STROKE_SYSTEM = "filled-brush-mass-v2"
 BLOCK_START = 0xF1440
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -440,20 +440,20 @@ GLYPHS = {
         Blob(30, 52, 1.4), Blob(52, 38, 1.2), Blob(22, 33, 1.0),
     ],
     "jupiter": [
-        L(circ(36, 36, 26.5, 20), 3.3),
-        S([(22, 17), (31, 16), (40, 17), (50, 16.5)], [0.6, 1.6, 1.8, 0.5]),
+        L(circ(36, 36, 26.5, 20), 2.5),
+        S([(22, 17), (31, 16), (40, 17), (50, 16.5)], [0.45, 1.1, 1.25, 0.4]),
         S([(17, 23.5), (26, 22), (36, 23.5), (46, 22), (55, 23.5)],
-          [0.8, 3.4, 4.2, 3.0, 0.7]),
+          [0.6, 2.2, 2.8, 2.0, 0.5]),
         S([(14.5, 29), (25, 30.5), (36, 29), (47, 30.5), (57.5, 29)],
-          [0.7, 2.0, 2.4, 1.8, 0.6]),
+          [0.5, 1.35, 1.6, 1.2, 0.45]),
         S([(13.5, 36.5), (24, 35), (36, 36.5), (48, 35), (58.5, 36.5)],
-          [0.8, 4.4, 5.4, 4.0, 0.7]),
-        S([(14.5, 43.5), (24, 45), (34, 43.5), (39, 44.5)], [0.7, 2.4, 2.8, 0.5]),
+          [0.6, 2.8, 3.4, 2.6, 0.5]),
+        S([(14.5, 43.5), (24, 45), (34, 43.5), (39, 44.5)], [0.5, 1.6, 1.8, 0.4]),
         S([(56, 44.5), (58.2, 43.5)], [1.1, 0.4]),
         Pat(oval(47.5, 45, 7.0, 5.0, rot=-12, n=14)),
         S([(17.5, 50), (27, 51.5), (37, 50), (47, 51.5), (54.5, 50)],
-          [0.7, 2.6, 3.0, 2.2, 0.6]),
-        S([(23, 56), (32, 57), (41, 56), (49, 55)], [0.6, 1.6, 1.8, 0.5]),
+          [0.5, 1.7, 2.0, 1.5, 0.45]),
+        S([(23, 56), (32, 57), (41, 56), (49, 55)], [0.45, 1.1, 1.2, 0.4]),
     ],
     "saturn": [
         L(circ(35, 36, 20.5, 18), 3.1),
@@ -712,11 +712,11 @@ GLYPHS = {
         *sparkle(48, 24, 3.0, w=1.4),
     ],
     "black-hole": [
-        Pat(circ(36, 36, 12.5, 20)),
-        L(circ(36, 36, 17.0, 20), 3.4),
+        Pat(circ(36, 36, 8.0, 18)),
+        L(circ(36, 36, 14.5, 20), 2.8),
         # A near edge-on accretion disc, far flatter than Saturn's ring, so
         # the two glyphs never trade places at small sizes.
-        *tilted_ring(36, 36, 31.0, 5.0, 17.0, rot=-7, w_front=2.4, w_back=1.6,
+        *tilted_ring(36, 36, 30.0, 4.5, 14.5, rot=-7, w_front=2.1, w_back=1.35,
                      front_overhang=3.0),
         S([(63, 43), (68, 46)], [0.9, 0.3]),
         S([(9, 29), (4, 26)], [0.9, 0.3]),
@@ -724,9 +724,9 @@ GLYPHS = {
         S([(22, 52), (17, 57)], [0.8, 0.3]),
     ],
     "eclipse": [
-        L(circ(36, 36, 20.0, 20), 3.4),
-        Pat(circ(31.5, 32.5, 16.0, 20)),
-        *rays(36, 36, 22.0, ECLIPSE_RAYS, w0=2.4, w1=0.3, bend=0.5),
+        L(circ(36, 36, 20.0, 20), 2.7),
+        S(earc(31.5, 32.5, 16.0, 16.0, 68, 292, 19), [1.0, 5.5, 6.5, 5.0, 0.8]),
+        *rays(36, 36, 22.0, ECLIPSE_RAYS, w0=1.8, w1=0.25, bend=0.5),
     ],
     "ceres": [
         L(circ(36, 36, 19.0, 18), 2.8),
@@ -775,8 +775,11 @@ CATEGORY = "cosmos"
 def build_svg(name):
     cp = BLOCK_START + ORDER.index(name)
     rng = random.Random(zlib.crc32(f"{CATEGORY}/{name}/U+{cp:05X}".encode()))
-    polys = []
-    for item in GLYPHS[name]:
+    primary_polys = []
+    dry_polys = []
+    items = GLYPHS[name]
+    for index, item in enumerate(items):
+        polys = []
         if item[0] == "stroke":
             polys.extend(stroke_outline(item[1], item[2], rng))
         elif item[0] == "loop":
@@ -799,14 +802,28 @@ def build_svg(name):
             if signed_area(smoothed) > 0:
                 smoothed.reverse()
             polys.append(smoothed)
-    d = " ".join(poly_to_d(p) for p in polys)
+        # Keep the structural contour and major masses loaded.  Peripheral
+        # strokes and the final observational detail become the lighter,
+        # broken hierarchy that must remain distinct in source even though
+        # both roles compile to monochrome outlines.
+        is_dry = index == len(items) - 1 or (item[0] == "stroke" and index % 4 == 3)
+        (dry_polys if is_dry else primary_polys).extend(polys)
+    primary_d = " ".join(poly_to_d(poly) for poly in primary_polys)
+    dry_d = " ".join(poly_to_d(poly) for poly in dry_polys)
+    transforms = {
+        "jupiter": "translate(2.16 2.16) scale(.94)",
+        "space-station": "translate(5.04 5.04) scale(.86)",
+    }
+    opening = f'<g transform="{transforms[name]}">' if name in transforms else ""
+    closing = "</g>" if opening else ""
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {CANVAS} {CANVAS}" role="img" '
         f'aria-label="{CATEGORY} / {name}" data-pua="U+{cp:05X}" '
         f'data-castalia-style="{STYLE}" data-ink-stroke-system="{STROKE_SYSTEM}" '
         'data-ink-animation="wash-v1" data-ink-path-units="normalized">'
         f'<title>{CATEGORY} / {name} — tapered-stroke synthesis</title>'
-        f'<path d="{d}" fill="{INK}"/></svg>'
+        f'{opening}<path class="ink-wash" d="{primary_d}" fill="{INK}" data-ink-brush-pass="loaded-ribbon-v2"/>'
+        f'<path class="ink-dry" d="{dry_d}" fill="#77746a" data-ink-brush-pass="dry-edge-v2"/>{closing}</svg>'
     )
 
 

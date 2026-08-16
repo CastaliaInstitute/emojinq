@@ -4,7 +4,17 @@ __pycache__/
 assets/generated/
 assets/line-all/
 assets/gray-all/
+assets/color-all/
 assets/alpha-ink/
+assets/pua-color/
+dist/
+build/
+node_modules/
+.wrangler/
+Mindful_Artist_Sumi-E_Painting_Virginia_Lloyd-Davies.pdf
+tmp/
+site/
+.openai/hosting.json
 build/laser-pua/
 build/laser-standard/
 build/laser-calibration.svg

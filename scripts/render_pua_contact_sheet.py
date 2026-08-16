@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import subprocess
 import tempfile
 from pathlib import Path
@@ -16,13 +17,26 @@ def main() -> None:
     parser.add_argument("--root", type=Path, default=Path("assets/pua"))
     parser.add_argument("--output", type=Path, default=Path("build/pua-contact-sheets"))
     parser.add_argument("--size", type=int, default=128)
+    parser.add_argument("--concrete-only", action="store_true")
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
     font = ImageFont.load_default()
+    concrete_sources: set[str] | None = None
+    if args.concrete_only:
+        developmental = json.loads(Path("assets/developmental-vocabulary.json").read_text(encoding="utf-8"))
+        concrete_sources = {
+            entry["source"]
+            for entry in developmental["entries"]
+            if entry.get("family") == "pua"
+            and entry.get("track") in {"concrete", "referent", "unreviewed-referent"}
+        }
 
     categories = sorted(path for path in args.root.iterdir() if path.is_dir() and path.name != "references")
     for category in categories:
-        files = sorted(category.glob("*.svg"))
+        files = sorted(
+            path for path in category.glob("*.svg")
+            if concrete_sources is None or f"{category.name}/{path.name}" in concrete_sources
+        )
         if not files:
             continue
         cells = []

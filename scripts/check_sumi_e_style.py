@@ -6,14 +6,16 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from style_contract import SUMI_E_STYLE, SUMI_E_STROKE_SYSTEM, assert_sumi_e
+from style_contract import VALID_CONTRACTS, assert_sumi_e
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path("assets"))
     args = parser.parse_args()
-    files = sorted(args.root.rglob("*.svg"))
+    # Familiar-color derivatives have their own semantic color-wash contract;
+    # the base sumi-e contract intentionally enforces neutral ink only.
+    files = sorted(path for path in args.root.rglob("*.svg") if "pua-color" not in path.parts)
     failures = []
     for path in files:
         try:
@@ -22,7 +24,8 @@ def main() -> None:
             failures.append(str(exc))
     if failures:
         raise SystemExit("\n".join(failures[:30]) + ("\n..." if len(failures) > 30 else ""))
-    print(f"Sumi-e SVG contract checked: {len(files)} SVGs ({SUMI_E_STYLE}, {SUMI_E_STROKE_SYSTEM})")
+    contracts = ", ".join(f"{style}/{stroke}" for style, stroke in sorted(VALID_CONTRACTS))
+    print(f"Sumi-e SVG contract checked: {len(files)} SVGs ({contracts})")
 
 
 if __name__ == "__main__":

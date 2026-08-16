@@ -12,6 +12,9 @@ def local(tag: str) -> str:
     return tag.rsplit("}", 1)[-1]
 
 
+SHAPES = {"path", "circle", "ellipse", "rect", "polygon", "polyline", "line"}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path("assets/pua"))
@@ -27,7 +30,7 @@ def main() -> None:
             failures.append(f"{svg}: missing draw-v1/wash-v1 animation contract")
         strokes = [
             node for node in root.iter()
-            if local(node.tag) == "path" and node.get("class", "").split().__contains__("ink-stroke")
+            if local(node.tag) in SHAPES and node.get("class", "").split().__contains__("ink-stroke")
         ]
         for node in strokes:
             if node.get("pathLength") != "1":

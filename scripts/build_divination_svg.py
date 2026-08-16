@@ -10,8 +10,10 @@ from __future__ import annotations
 
 import argparse
 import json
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
+from line_brush import taper
 from style_contract import SUMI_E_STYLE, SUMI_E_STROKE_SYSTEM
 
 
@@ -20,13 +22,40 @@ PUA_START = 0xF1300  # follows the existing Supplementary PUA corpus (U+F0000–
 
 
 def svg(name: str, body: str) -> str:
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="{name}" data-castalia-style="{SUMI_E_STYLE}" data-ink-stroke-system="{SUMI_E_STROKE_SYSTEM}">
+    source = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="{name}" data-castalia-style="{SUMI_E_STYLE}" data-ink-stroke-system="{SUMI_E_STROKE_SYSTEM}">
   <title>{name} — Emojinq brush glyph</title>
   <g fill="none" stroke="{INK}" stroke-linecap="round" stroke-linejoin="round">
     {body}
   </g>
 </svg>
 '''
+    root = ET.fromstring(source)
+    taper(root)
+    root.set("data-ink-animation", "draw-v1")
+    root.set("data-ink-path-units", "normalized")
+    root.set("data-divination-brush", "pressure-contour-v1")
+    mark_index = 0
+    for element in root.iter():
+        if element.get("class") != "ink-stroke":
+            continue
+        # line_brush deliberately emits a narrow source-scale contour.  The
+        # divination plate lives on a 128-unit em, so a stronger multiplier is
+        # required for canonical signs and card figures to survive at 32px.
+        width = max(.82, float(element.get("stroke-width", "1")) * 3.2)
+        phase = mark_index % 3
+        if phase == 0:
+            width *= .90
+            element.set("stroke", "#4a4943")
+        elif phase == 1:
+            width *= 1.10
+            element.set("stroke", "#262421")
+        else:
+            width *= .72
+            element.set("stroke", "#77746a")
+        element.set("stroke-width", f"{width:.2f}")
+        element.set("data-ink-brush-pass", "loaded-contour-v2" if width >= 2.2 else "dry-edge-v2")
+        mark_index += 1
+    return ET.tostring(root, encoding="unicode") + "\n"
 
 
 def p(d: str, width: float = 4.2, fill: str = "none") -> str:
@@ -50,7 +79,7 @@ ICONS = {
 
     # Celestial and planetary symbols.
     "planet-sun": p("M64 20 C86 20 101 38 101 63 C101 87 85 104 64 104 C42 104 27 87 27 63 C27 39 42 20 64 20 M64 8 V18 M64 109 V120 M9 63 H20 M108 63 H119 M25 25 L34 34 M94 94 L103 103 M103 25 L94 34 M34 94 L25 103", 3.8) + p("M64 47 C73 47 80 54 80 63 C80 72 73 79 64 79 C55 79 48 72 48 63 C48 54 55 47 64 47 M64 57 V69 M58 63 H70", 3.0),
-    "planet-moon": p("M82 23 C61 30 51 48 53 68 C55 87 69 101 89 104 C78 113 60 112 45 102 C28 91 20 72 25 54 C31 32 49 19 70 20 C75 20 79 21 82 23", 4.0, INK),
+    "planet-moon": p("M82 23 C61 30 51 48 53 68 C55 87 69 101 89 104 C78 113 60 112 45 102 C28 91 20 72 25 54 C31 32 49 19 70 20 C75 20 79 21 82 23", 4.0),
     "planet-mercury": p("M64 39 C53 39 46 47 46 57 C46 68 54 75 64 75 C74 75 82 68 82 57 C82 47 75 39 64 39 M64 75 V105 M49 91 H79 M55 26 C55 18 61 14 64 14 C67 14 73 18 73 26"),
     "planet-venus": p("M64 38 C51 38 43 47 43 59 C43 71 52 80 64 80 C76 80 85 71 85 59 C85 47 77 38 64 38 M64 80 V108 M47 94 H81"),
     "planet-mars": p("M62 70 C49 70 41 61 41 50 C41 39 49 31 60 31 C71 31 80 40 80 51 C80 62 72 70 62 70 M76 36 L99 13 M82 13 H99 V30"),

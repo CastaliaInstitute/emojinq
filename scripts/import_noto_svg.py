@@ -8,7 +8,6 @@ preprocessor, not an SVG renderer for the ESP32.
 from __future__ import annotations
 
 import argparse
-import copy
 import hashlib
 import math
 import re
@@ -37,7 +36,8 @@ def gray(value: str) -> str:
     r, g, b = (int(digits[i : i + 2], 16) for i in (0, 2, 4))
     # Luma keeps dark source details dark while removing chroma.
     # Naturalist plates leave the paper visible: preserve tonal hierarchy but
-    # lift saturated fills into pale wash rather than solid ink blocks.
+    # lift saturated fills into neutral paper-compatible gray rather than
+    # carrying color into the brush geometry.
     y = 170 + round((0.2126 * r + 0.7152 * g + 0.0722 * b) * 0.33)
     return f"#{y:02x}{y:02x}{y:02x}"
 
@@ -62,6 +62,15 @@ def stroke_value(element: ET.Element) -> str | None:
     return match.group(1).strip() if match else None
 
 
+def ink_tone(width: float) -> str:
+    """Map source mark weight to a neutral engraving-depth tone."""
+    if width >= 2.15:
+        return "#262421"
+    if width >= 1.70:
+        return "#4a4943"
+    return "#77746a"
+
+
 def pressure_for(element: ET.Element, index: int) -> float:
     """Return stable, non-cyclic pen pressure for one source mark."""
     geometry = "|".join(
@@ -70,10 +79,13 @@ def pressure_for(element: ET.Element, index: int) -> float:
     )
     digest = hashlib.sha1(f"{index}|{geometry}".encode()).hexdigest()
     noise = int(digest[:8], 16) / 0xFFFFFFFF
-    return 0.56 + noise * 0.56
+    # Keep the variation visible at card size without turning a semantic
+    # contour into a broken-looking wire.  A loaded brush has a broad middle
+    # pressure range; its ends are handled by tapered_outline below.
+    return 0.72 + noise * 0.58
 
 
-def tapered_outline(d: str, width: float) -> str | None:
+def tapered_outline(d: str, width: float, seed: int = 0) -> str | None:
     """Convert a centerline into one filled, tapered brush contour."""
     centerline = parse_path(d)
     centerline = SvgPath(*[segment for segment in centerline if abs(segment.length()) > 1e-6])
@@ -92,15 +104,44 @@ def tapered_outline(d: str, width: float) -> str | None:
         magnitude = abs(tangent) or 1.0
         normal = complex(-tangent.imag / magnitude, tangent.real / magnitude)
         progress = i / (len(points) - 1) if len(points) > 1 else 0.5
-        taper = 1.0 if closed else 0.16 + 0.84 * math.sin(math.pi * progress) ** 0.55
-        radius = width * 0.5 * taper
+        phase = seed * 0.73
+        if closed:
+            # A closed contour is one continuous brush stroke, but a real
+            # broad nib does not hold exactly the same pressure around the
+            # turn. Keep the variation gentle and phase it per source mark so
+            # neighboring glyphs do not fall into a repeated rhythm.
+            taper = 0.84 + 0.22 * math.sin(2 * math.pi * progress + phase) + 0.08 * math.sin(6 * math.pi * progress + phase * 0.7)
+            taper = max(0.56, min(1.24, taper))
+        else:
+            taper = 0.16 + 0.84 * math.sin(math.pi * progress) ** 0.55
+            # Natural pressure is not perfectly bilateral: one side of a
+            # loaded stroke often bears down a little earlier than the other.
+            taper *= 0.91 + 0.13 * math.sin(2 * math.pi * progress + phase) + 0.05 * math.sin(4 * math.pi * progress + phase * 1.37)
+            taper = max(0.12, min(1.18, taper))
+        grain = math.sin((seed * 19.0 + i * 23.0) * 12.9898) * 43758.5453
+        grain = (grain - math.floor(grain) - 0.5) * 0.08
+        radius = width * 0.5 * taper * (1.0 + grain)
         left.append(point + normal * radius)
         right.append(point - normal * radius)
     outline = left + list(reversed(right))
     if len(outline) < 3:
         return None
-    values = [f"{point.real:.3f} {point.imag:.3f}" for point in outline]
-    return "M " + " L ".join(values) + " Z"
+    # Quadratic midpoint interpolation removes the cut-vinyl polygonal edge
+    # that appears when a pressure ribbon is emitted as straight segments.
+    # The ribbon remains a single closed filled path, so it does not create a
+    # second contour or a laser-unsafe effect layer.
+    midpoints = [
+        (
+            (outline[i].real + outline[(i + 1) % len(outline)].real) / 2.0,
+            (outline[i].imag + outline[(i + 1) % len(outline)].imag) / 2.0,
+        )
+        for i in range(len(outline))
+    ]
+    commands = [f"M {midpoints[-1][0]:.3f} {midpoints[-1][1]:.3f}"]
+    for i, point in enumerate(outline):
+        end = midpoints[i]
+        commands.append(f"Q {point.real:.3f} {point.imag:.3f} {end[0]:.3f} {end[1]:.3f}")
+    return " ".join(commands) + " Z"
 
 
 def path_bounds(d: str) -> tuple[float, float, float, float] | None:
@@ -193,35 +234,7 @@ def convert(source: Path, target: Path, name: str) -> None:
     def decorate(parent: ET.Element, inside_clip: bool = False, inherited_stroke: str | None = None) -> None:
         nonlocal shape_index
         parent_stroke = stroke_value(parent) or inherited_stroke
-        if not inside_clip:
-            candidates = []
-            for candidate in list(parent):
-                candidate_tag = local(candidate.tag)
-                candidate_stroke = stroke_value(candidate) or parent_stroke
-                candidate_d = candidate.get("d", "").strip()
-                bounds = path_bounds(candidate_d)
-                if (
-                    candidate_tag == "path"
-                    and candidate_stroke
-                    and candidate_stroke != "none"
-                    and candidate_d.lower().endswith("z")
-                    and bounds is not None
-                    and (bounds[2] - bounds[0]) * (bounds[3] - bounds[1]) > 900
-                ):
-                    candidates.append((bounds, candidate))
-            if candidates:
-                _, source = max(candidates, key=lambda item: (item[0][2] - item[0][0]) * (item[0][3] - item[0][1]))
-                wash = copy.deepcopy(source)
-                wash.set("fill", "#dedbd4")
-                wash.set("stroke", "none")
-                wash.set("data-ink-wash", "true")
-                wash.attrib.pop("class", None)
-                wash.attrib.pop("style", None)
-                wash.attrib.pop("stroke-width", None)
-                parent.insert(0, wash)
         for element in list(parent):
-            if element.get("data-ink-wash") == "true":
-                continue
             tag = local(element.tag)
             clipped = inside_clip or tag == "clipPath"
             stroke = None
@@ -248,8 +261,8 @@ def convert(source: Path, target: Path, name: str) -> None:
                         # A restrained coordinate wobble keeps curves from
                         # looking plotter-perfect while preserving their
                         # recognizable construction at full-screen scale.
-                        source_d = roughen_path(source_d, shape_index, amount=0.22)
-                        outline = tapered_outline(source_d, base_width * pressure)
+                        source_d = roughen_path(source_d, shape_index, amount=0.48)
+                        outline = tapered_outline(source_d, base_width * pressure, shape_index)
                     else:
                         outline = None
                     if outline:
@@ -257,14 +270,27 @@ def convert(source: Path, target: Path, name: str) -> None:
                         for key in ("x", "y", "x1", "x2", "y1", "y2", "cx", "cy", "r", "rx", "ry", "width", "height", "points"):
                             element.attrib.pop(key, None)
                         element.set("d", outline)
-                        element.set("fill", "#262421")
+                        element.set("fill", ink_tone(base_width * pressure))
                         element.set("data-ink-stroke", "tapered")
+                        element.set("data-ink-ribbon", "curved-pressure-v2")
                         for key in ("stroke", "stroke-width", "stroke-linecap", "stroke-linejoin", "stroke-miterlimit"):
                             element.attrib.pop(key, None)
                     shape_index += 1
                 elif fill and fill != "none":
                     element.set("fill", gray(fill))
                     element.attrib.pop("style", None)
+                    if not clipped:
+                        # Filled source silhouettes often carry the most
+                        # obviously plotted contours. A restrained,
+                        # deterministic wobble gives the single outer brush
+                        # edge a hand-pulled character without adding an
+                        # echo line or changing the subject's silhouette.
+                        source_d = element.get("d", "") or primitive_path(element, tag)
+                        if source_d:
+                            element.tag = f"{{{SVG_NS}}}path"
+                            for key in ("x", "y", "x1", "x2", "y1", "y2", "cx", "cy", "r", "rx", "ry", "width", "height", "points"):
+                                element.attrib.pop(key, None)
+                            element.set("d", roughen_path(source_d, shape_index, amount=0.34))
                     if not clipped:
                         # One outline per visible geometry, with restrained
                         # broad-nib variation. Clipped color layers stay fill
@@ -287,6 +313,8 @@ def convert(source: Path, target: Path, name: str) -> None:
                     # instead of silently leaving them as unclassified paths.
                     element.set("fill", "#262421")
                     element.set("data-ink-stroke", "tapered")
+                    if element.get("d"):
+                        element.set("d", roughen_path(element.get("d", ""), shape_index, amount=0.34))
                     element.attrib.pop("color", None)
                     element.attrib.pop("style", None)
                     shape_index += 1
