@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emojinq label-blind recognition session</title>
+  <style>
+    :root { color-scheme:light; --paper:#e9e7e1; --panel:#f5f3ed; --ink:#292826; --quiet:#6f6c65; --line:#c4c0b6; --bad:#8b2e2e; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:16px/1.45 Georgia,serif; }
+    main { width:min(760px,92vw); margin:auto; padding:5vw 0 8vw; }
+    h1 { margin:.25rem 0; font:400 clamp(2.2rem,8vw,5rem)/.95 "SignPainter","Bradley Hand",cursive; }
+    h2 { margin:.2rem 0 .75rem; }
+    p { color:var(--quiet); }
+    a { color:inherit; }
+    .eyebrow,.meta,.status { font:700 .72rem/1.4 ui-sans-serif,sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    .panel { margin:1.25rem 0; padding:1.25rem; border:1px solid var(--line); background:var(--panel); }
+    .fields { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:1rem; }
+    label { display:grid; gap:.35rem; color:var(--quiet); font:13px/1.3 ui-sans-serif,sans-serif; }
+    input,select,textarea,button { font:inherit; }
+    input,select,textarea { width:100%; padding:.65rem; border:1px solid var(--line); color:var(--ink); background:#fffefa; }
+    textarea { min-height:5rem; resize:vertical; }
+    button { border:1px solid var(--ink); border-radius:999px; padding:.65rem 1rem; cursor:pointer; color:var(--paper); background:var(--ink); }
+    button.secondary { color:var(--ink); background:transparent; }
+    button:disabled { cursor:not-allowed; opacity:.45; }
+    .actions { display:flex; flex-wrap:wrap; gap:.7rem; align-items:center; margin-top:1rem; }
+    .trial { text-align:center; }
+    .canvas { display:grid; place-items:center; width:176px; height:176px; margin:1rem auto; border:1px solid var(--line); background:#fffefa; }
+    .canvas img { display:block; width:32px; height:32px; object-fit:contain; }
+    .protocol { display:flex; grid-column:1 / -1; gap:.55rem; align-items:flex-start; color:var(--ink); }
+    .protocol input { width:auto; margin-top:.2rem; }
+    .guess { max-width:28rem; margin:auto; text-align:left; }
+    .adjudication { display:grid; gap:1rem; }
+    .result { padding:1rem; border:1px solid var(--line); background:#fffefa; }
+    .result h3 { margin:0 0 .5rem; }
+    .result dl { display:grid; grid-template-columns:max-content 1fr; gap:.25rem .65rem; margin:.5rem 0; }
+    .result dt { color:var(--quiet); }
+    .result dd { margin:0; overflow-wrap:anywhere; }
+    .error { color:var(--bad); }
+    [hidden] { display:none !important; }
+  </style>
+</head>
+<body><main>
+  <a href="../">← Gallery</a>
+  <p class="eyebrow">Evidence collection · 32 CSS pixels</p>
+  <h1>Label-blind recognition</h1>
+  <p>Run this with one child aged 12–47 months. Show each image without naming it, hinting, or offering choices. Type the child’s words verbatim. Expected labels stay hidden until every trial is finished.</p>
+
+  <section class="panel" id="setup" aria-labelledby="setup-title">
+    <h2 id="setup-title">Start a session</h2>
+    <form id="setup-form">
+      <div class="fields">
+        <label>Adult reviewer
+          <input id="reviewer" required maxlength="120" autocomplete="name">
+        </label>
+        <label>Observer age in months
+          <input id="age" required type="number" min="12" max="47" step="1" inputmode="numeric">
+        </label>
+        <label>Category
+          <select id="category"><option value="all">All pending categories</option></select>
+        </label>
+        <label>Objects in this session
+          <select id="batch"><option value="5">5</option><option value="10" selected>10</option><option value="25">25</option><option value="all">All remaining</option></select>
+        </label>
+        <label class="protocol"><input id="protocol" required type="checkbox"> I will hide every label and give no hint or answer choices before recording each guess.</label>
+      </div>
+      <div class="actions">
+        <button type="submit" id="start">Start randomized trials</button>
+        <button type="button" class="secondary" id="resume" hidden>Resume saved session</button>
+        <span class="status" id="setup-status" aria-live="polite">Loading current ledger…</span>
+      </div>
+    </form>
+  </section>
+
+  <section class="panel trial" id="trial" aria-labelledby="trial-title" hidden>
+    <p class="meta" id="progress"></p>
+    <h2 id="trial-title">What does this look like?</h2>
+    <p id="variant-note"></p>
+    <div class="canvas"><img id="glyph" alt="" aria-label="Unlabeled 32 pixel glyph"></div>
+    <form id="trial-form" class="guess">
+      <label>Child’s words, verbatim
+        <input id="guess" required maxlength="160" autocomplete="off">
+      </label>
+      <label class="protocol"><input id="trial-protocol" required type="checkbox"> No label, hint, or choices were given for this trial.</label>
+      <div class="actions"><button type="submit">Record and continue</button></div>
+    </form>
+  </section>
+
+  <section class="panel" id="adjudicate" aria-labelledby="adjudicate-title" hidden>
+    <h2 id="adjudicate-title">Adult adjudication</h2>
+    <p>The child is finished; labels may now be revealed. Approve only when both verbatim guesses clearly identify the expected object. Reject unclear or mistaken readings so the glyph returns to redesign.</p>
+    <form id="adjudication-form">
+      <div class="adjudication" id="results"></div>
+      <div class="actions"><button type="submit">Export signed session JSON</button><span id="export-status" aria-live="polite"></span></div>
+    </form>
+  </section>
+
+  <section class="panel">
+    <h2>Import boundary</h2>
+    <p>This page cannot approve the release ledger. Keep the exported JSON with the project, validate it first, then import deliberately:</p>
+    <pre>python scripts/import_pua_recognition_session.py session.json
+python scripts/import_pua_recognition_session.py --write session.json
+make release-check</pre>
+  </section>
+
+  <script>
+    const LEDGER_URL = "../assets/pua-recognition-review.json";
+    const STORAGE_KEY = "emojinq-recognition-session-v1";
+    const params = new URLSearchParams(location.search);
+    const releaseVersion = params.get("v") || params.get("release") || "current";
+    const byId = id => document.getElementById(id);
+    const setup = byId("setup");
+    const trial = byId("trial");
+    const adjudicate = byId("adjudicate");
+    const status = byId("setup-status");
+    const category = byId("category");
+    let ledger = null;
+    let state = null;
+
+    const shuffled = values => {
+      const copy = [...values];
+      for (let index = copy.length - 1; index > 0; index -= 1) {
+        const random = crypto.getRandomValues(new Uint32Array(1))[0] / 2 ** 32;
+        const target = Math.floor(random * (index + 1));
+        [copy[index], copy[target]] = [copy[target], copy[index]];
+      }
+      return copy;
+    };
+    const save = () => localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    const clearSaved = () => localStorage.removeItem(STORAGE_KEY);
+    const fingerprint = items => items.map(item => `${item.source}:${item.ink_sha256}:${item.color_sha256}`).join("|");
+    const sourceUrl = (item, variant) => {
+      const color = variant === "color" && item.color_mode === "familiar-color";
+      const root = color ? "../assets/pua-color/" : "../assets/pua/";
+      return `${root}${item.source}?v=${encodeURIComponent(releaseVersion)}`;
+    };
+    const sessionItem = source => ledger.items.find(item => item.source === source);
+
+    function renderTrial() {
+      setup.hidden = true;
+      adjudicate.hidden = true;
+      trial.hidden = false;
+      const current = state.trials[state.trial_index];
+      const item = sessionItem(current.source);
+      byId("progress").textContent = `Trial ${state.trial_index + 1} of ${state.trials.length}`;
+      byId("variant-note").textContent = current.variant === "ink"
+        ? "Ink presentation"
+        : item.color_mode === "familiar-color" ? "Familiar-color sumi-e presentation" : "Color-font presentation · explicit ink fallback";
+      byId("glyph").src = sourceUrl(item, current.variant);
+      byId("guess").value = "";
+      byId("trial-protocol").checked = false;
+      byId("guess").focus();
+    }
+
+    function renderAdjudication() {
+      trial.hidden = true;
+      setup.hidden = true;
+      adjudicate.hidden = false;
+      const results = byId("results");
+      results.replaceChildren();
+      for (const source of state.sources) {
+        const item = sessionItem(source);
+        const record = state.records[source];
+        const article = document.createElement("article");
+        article.className = "result";
+        article.innerHTML = `
+          <h3>${item.expected}</h3>
+          <dl><dt>Ink guess</dt><dd></dd><dt>Color/fallback guess</dt><dd></dd><dt>Color mode</dt><dd>${item.color_mode}</dd></dl>
+          <div class="fields">
+            <label>Decision<select name="status:${source}" required><option value="">Choose…</option><option value="approved">Approved · both identify the object</option><option value="rejected">Rejected · redesign or retest</option></select></label>
+            <label>Notes<input name="notes:${source}" maxlength="500" placeholder="Synonym rationale or ambiguity"></label>
+          </div>`;
+        const guesses = article.querySelectorAll("dd");
+        guesses[0].textContent = record.ink;
+        guesses[1].textContent = record.color;
+        results.append(article);
+      }
+    }
+
+    byId("setup-form").addEventListener("submit", event => {
+      event.preventDefault();
+      const pending = ledger.items.filter(item => item.status !== "approved" && (category.value === "all" || item.source.startsWith(`${category.value}/`)));
+      const limit = byId("batch").value === "all" ? pending.length : Number(byId("batch").value);
+      const selected = shuffled(pending).slice(0, limit);
+      if (!selected.length) {
+        status.textContent = "No pending candidates in that category.";
+        return;
+      }
+      const trials = shuffled(selected.flatMap(item => [{source:item.source,variant:"ink"},{source:item.source,variant:"color"}]));
+      state = {
+        version:1,
+        session_id:crypto.randomUUID(),
+        method:"label-blind-object-scale-review",
+        reviewer:byId("reviewer").value.trim(),
+        observer_age_months:Number(byId("age").value),
+        label_hidden:true,
+        choice_free:true,
+        review_scale_css_px:32,
+        started_at:new Date().toISOString(),
+        ledger_fingerprint:fingerprint(ledger.items),
+        sources:selected.map(item => item.source),
+        trials,
+        trial_index:0,
+        records:Object.fromEntries(selected.map(item => [item.source,{}]))
+      };
+      save();
+      renderTrial();
+    });
+
+    byId("trial-form").addEventListener("submit", event => {
+      event.preventDefault();
+      const current = state.trials[state.trial_index];
+      state.records[current.source][current.variant] = byId("guess").value.trim();
+      state.trial_index += 1;
+      save();
+      if (state.trial_index < state.trials.length) renderTrial();
+      else renderAdjudication();
+    });
+
+    byId("adjudication-form").addEventListener("submit", event => {
+      event.preventDefault();
+      const form = new FormData(event.currentTarget);
+      const items = state.sources.map(source => {
+        const current = sessionItem(source);
+        return {
+          source,
+          expected:current.expected,
+          ink_sha256:current.ink_sha256,
+          color_sha256:current.color_sha256,
+          color_mode:current.color_mode,
+          ink_recognized_as:state.records[source].ink,
+          color_recognized_as:state.records[source].color,
+          status:form.get(`status:${source}`),
+          notes:form.get(`notes:${source}`) || ""
+        };
+      });
+      const payload = {
+        version:1,
+        session_id:state.session_id,
+        method:state.method,
+        reviewer:state.reviewer,
+        observer_age_months:state.observer_age_months,
+        label_hidden:true,
+        choice_free:true,
+        review_scale_css_px:32,
+        started_at:state.started_at,
+        completed_at:new Date().toISOString(),
+        items
+      };
+      const blob = new Blob([`${JSON.stringify(payload,null,2)}\n`], {type:"application/json"});
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = `emojinq-recognition-${state.session_id}.json`;
+      link.click();
+      URL.revokeObjectURL(link.href);
+      clearSaved();
+      byId("export-status").textContent = `Exported ${items.length} hash-bound observations.`;
+    });
+
+    byId("resume").addEventListener("click", () => {
+      state = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      if (state.ledger_fingerprint !== fingerprint(ledger.items)) {
+        clearSaved();
+        status.textContent = "Saved session discarded because the reviewed art changed.";
+        byId("resume").hidden = true;
+        return;
+      }
+      if (state.trial_index < state.trials.length) renderTrial();
+      else renderAdjudication();
+    });
+
+    fetch(LEDGER_URL).then(response => {
+      if (!response.ok) throw new Error(`ledger request failed (${response.status})`);
+      return response.json();
+    }).then(data => {
+      ledger = data;
+      const categories = [...new Set(ledger.items.filter(item => item.status !== "approved").map(item => item.source.split("/")[0]))].sort();
+      for (const name of categories) category.add(new Option(name.replaceAll("_", " "), name));
+      const remaining = ledger.items.filter(item => item.status !== "approved").length;
+      status.textContent = `${remaining} candidates still need real observations.`;
+      byId("start").disabled = remaining === 0;
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) byId("resume").hidden = false;
+    }).catch(error => {
+      status.className = "status error";
+      status.textContent = `Could not load the recognition ledger: ${error.message}`;
+      byId("start").disabled = true;
+    });
+  </script>
+</main></body>
+</html>
