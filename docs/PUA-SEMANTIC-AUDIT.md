@@ -62,9 +62,9 @@ the recognition requirement.
 
 The connected-component detector is deliberately conservative: a hammer above
 an anvil, two people in a relationship, or ten counting dots all look
-"detached" to a raster flood fill. The 60 highest-area findings were rendered
-as two severity-ranked sheets and inspected individually. Their source-specific
-decisions live in `scripts/mark_intentional_pua_components.py`; the audit now
-reports them separately from unresolved candidates. No category-wide exemption
-exists, so lower-ranked sources remain in the queue until they receive the same
-review or a vector correction.
+"detached" to a raster flood fill. All 393 remaining findings were rendered as
+thirteen severity-ranked sheets plus one final three-item strip and inspected
+individually. Their source-specific decisions live in
+`scripts/mark_intentional_pua_components.py`; the audit reports them separately
+from unresolved candidates. No category-wide exemption exists, and the current
+queue contains zero unresolved findings.
