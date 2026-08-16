@@ -1,16 +1,23 @@
 #!/usr/bin/env python3
-"""Build familiar-color sumi-e variants for semantic PUA pigment glyphs."""
+"""Build familiar-color sumi-e variants for PUA pigments and referents."""
 
 from __future__ import annotations
 
 import colorsys
+import copy
+import json
 import xml.etree.ElementTree as ET
 from pathlib import Path
+
+from pua_familiar_referents import FAMILIAR_REFERENTS
 
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "assets" / "pua" / "patterns"
 OUTPUT = ROOT / "assets" / "pua-color" / "patterns"
+COLOR_STANDARD = ROOT / "assets" / "color-all"
+PUA_ROOT = ROOT / "assets" / "pua"
+COLOR_PUA_ROOT = ROOT / "assets" / "pua-color"
 NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", NS)
 
@@ -86,10 +93,54 @@ def recolor(name: str, source: Path, target: Path) -> None:
     tree.write(target, encoding="utf-8", xml_declaration=True)
 
 
+def transplant_familiar_color(pua_source: str, standard_source: str) -> None:
+    mono_root = ET.parse(PUA_ROOT / pua_source).getroot()
+    codepoint = mono_root.get("data-pua")
+    if not codepoint:
+        raise SystemExit(f"{pua_source}: missing PUA code point")
+    source_path = COLOR_STANDARD / standard_source
+    if not source_path.exists():
+        raise SystemExit(f"missing familiar color source: {source_path}")
+    color_root = copy.deepcopy(ET.parse(source_path).getroot())
+    color_root.attrib.pop("id", None)
+    color_root.set("viewBox", "0 0 72 72")
+    color_root.set("role", "img")
+    color_root.set("aria-label", mono_root.get("aria-label", pua_source))
+    color_root.set("data-pua", codepoint)
+    color_root.set("data-pua-familiar-source", standard_source.removesuffix(".svg"))
+    color_root.set("data-color-variant", "sumi-e-familiar-referent-color-v1")
+    color_root.set("data-color-fallback", "none-required")
+    title = next((node for node in color_root if local(node.tag) == "title"), None)
+    if title is not None:
+        title.text = f"{mono_root.get('aria-label', pua_source)} — familiar-color sumi-e wash"
+    target = COLOR_PUA_ROOT / pua_source
+    target.parent.mkdir(parents=True, exist_ok=True)
+    ET.ElementTree(color_root).write(target, encoding="utf-8", xml_declaration=True)
+
+
 def main() -> None:
     for name in sorted(PIGMENTS):
         recolor(name, SOURCE / f"{name}.svg", OUTPUT / f"{name}.svg")
-    print(f"built {len(PIGMENTS)} familiar-color PUA pigment SVGs")
+    for pua_source, standard_source in sorted(FAMILIAR_REFERENTS.items()):
+        transplant_familiar_color(pua_source, standard_source)
+    manifest_sources = [f"patterns/{name}.svg" for name in sorted(PIGMENTS)] + sorted(FAMILIAR_REFERENTS)
+    (COLOR_PUA_ROOT / "manifest.json").write_text(
+        json.dumps(
+            {
+                "version": "sumi-e-pua-color-scope-v2",
+                "sources": manifest_sources,
+                "colored_count": len(manifest_sources),
+                "fallback": "ink",
+                "fallback_scope": "all other PUA glyphs",
+            },
+            indent=2,
+        ) + "\n",
+        encoding="utf-8",
+    )
+    print(
+        f"built {len(PIGMENTS)} familiar-color PUA pigments and "
+        f"{len(FAMILIAR_REFERENTS)} familiar referent washes"
+    )
 
 
 if __name__ == "__main__":

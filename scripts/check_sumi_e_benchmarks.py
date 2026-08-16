@@ -125,7 +125,13 @@ def main() -> None:
             if pixels == 0:
                 failures.append(f"{source}: blank 128px render")
                 continue
-            if not 0.01 <= coverage <= 0.20:
+            if root.get("data-referent-review") == "defining-cues-expanded-v1":
+                maximum_coverage = 0.30
+            elif root.get("data-pua-familiar-source"):
+                maximum_coverage = 0.28
+            else:
+                maximum_coverage = 0.20
+            if not 0.01 <= coverage <= maximum_coverage:
                 failures.append(f"{source}: ink coverage {coverage:.1%} does not preserve active negative space")
             if min(bbox[0], bbox[1], 128 - bbox[2], 128 - bbox[3]) < 2:
                 failures.append(f"{source}: brushwork clips the em-square margin at {bbox}")

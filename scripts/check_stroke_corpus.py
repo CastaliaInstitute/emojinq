@@ -4,9 +4,9 @@
 OpenMoji inputs under ``assets/source`` are intentionally excluded: they are
 upstream reference material, not Emojinq artwork.  Everything else in the
 repository is checked as a potential shipped/artifact SVG.  The documented
-``sumi-e-color-wash-v1`` variant may use muted fills only on elements explicitly
-tagged as color-wash marks; its overlaid ink remains subject to the normal
-stroke and grayscale brush-mass rules.
+Color-wash variants may use muted fills only on elements explicitly tagged as
+color-wash marks; their overlaid ink remains subject to the normal stroke and
+grayscale brush-mass rules.
 """
 
 from __future__ import annotations
@@ -39,7 +39,10 @@ def intentional_brush_fill(root: ET.Element, element: ET.Element, fill: str) -> 
 
 
 def intentional_color_wash(root: ET.Element, element: ET.Element, fill: str) -> bool:
-    if root.get("data-color-variant") != "sumi-e-color-wash-v1":
+    if root.get("data-color-variant") not in {
+        "sumi-e-color-wash-v1",
+        "sumi-e-familiar-referent-color-v1",
+    }:
         return False
     if "ink-color-wash" not in element.get("class", "").split():
         return False

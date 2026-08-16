@@ -8,12 +8,19 @@ from pathlib import Path
 
 from fontTools.ttLib import TTFont
 
+from build_pua_color_variants import PIGMENTS
+from pua_familiar_referents import FAMILIAR_REFERENTS
+
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("font", type=Path, nargs="?", default=Path("fonts/Emojinq-Color.ttf"))
     parser.add_argument("--minimum-color-glyphs", type=int, default=4000)
-    parser.add_argument("--minimum-pua-color-glyphs", type=int, default=12)
+    parser.add_argument(
+        "--minimum-pua-color-glyphs",
+        type=int,
+        default=len(PIGMENTS) + len(FAMILIAR_REFERENTS),
+    )
     args = parser.parse_args()
     font = TTFont(args.font)
     if "SVG " not in font:

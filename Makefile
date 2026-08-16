@@ -86,6 +86,8 @@ toddler-art:
 	$(RUN) python scripts/redraw_sea_creatures_line_anatomy.py
 	$(PYTHON) scripts/redraw_sea_outliers.py
 	$(PYTHON) scripts/redraw_pua_toddler_semantic_outliers.py
+	$(PYTHON) scripts/redraw_concrete_pua_outliers.py
+	$(PYTHON) scripts/transplant_pua_familiar_referents.py
 	$(PYTHON) scripts/strengthen_pua_toddler_referents.py
 
 field-studies-art:

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "method": "label-blind-object-scale-review",
-  "instructions": "Show ink and color variants without a label at toddler viewing size. Record the observer's words verbatim; approval requires recognizable identity in both variants.",
+  "instructions": "Show ink and color/fallback variants at 32 CSS pixels to a 12–47 month-old observer, without a label, hint, or answer choices. Record the observer's words verbatim. Approval requires recognizable identity in both presentations and evidence bound to these asset hashes.",
   "items": [
     {
       "source": "adventure/black-rod.svg",
@@ -15,7 +15,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "4c115494becee5f2e0299fd67bdee191ae168cc3a85c54b07fb861ec0c9863db",
+      "color_sha256": "4c115494becee5f2e0299fd67bdee191ae168cc3a85c54b07fb861ec0c9863db",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "adventure/brass-lamp.svg",
@@ -29,7 +36,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "45c810507564f9aebec2b9b11a7bbc444ba3b71db4ed7c22b06b3db428fcc3d8",
+      "color_sha256": "45c810507564f9aebec2b9b11a7bbc444ba3b71db4ed7c22b06b3db428fcc3d8",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "adventure/emerald.svg",
@@ -43,7 +57,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "96e51fe980dd73db0be794550912feb2466907a62393fa07e532dd3e39a5bfad",
+      "color_sha256": "96e51fe980dd73db0be794550912feb2466907a62393fa07e532dd3e39a5bfad",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "adventure/gold-nugget.svg",
@@ -57,7 +78,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "b3b9c2b77fb5e48ea9a9a3fa113b08cbc5301bba9bae3b65b07afa67bcee1655",
+      "color_sha256": "b3b9c2b77fb5e48ea9a9a3fa113b08cbc5301bba9bae3b65b07afa67bcee1655",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "adventure/keys.svg",
@@ -71,7 +99,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "2cbbf42d2c1b8be3adc0ab2afc85aea5f96e76321f4693e960b7d3fc01163581",
+      "color_sha256": "2cbbf42d2c1b8be3adc0ab2afc85aea5f96e76321f4693e960b7d3fc01163581",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "adventure/little-bird.svg",
@@ -85,7 +120,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8be03575836f8536d3ecc4b691aeb388fcadf204e31168c32f1bd5b398eab889",
+      "color_sha256": "8be03575836f8536d3ecc4b691aeb388fcadf204e31168c32f1bd5b398eab889",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "adventure/silver-chest.svg",
@@ -99,7 +141,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "26ae5034ecaee008185b3a769114eec3018e48a57c95ac9e8f725953270685d4",
+      "color_sha256": "26ae5034ecaee008185b3a769114eec3018e48a57c95ac9e8f725953270685d4",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "animals/calf.svg",
@@ -113,7 +162,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "cb78fc11ddd0bae038b975a6e938dd40ccfc0a4019f078793ca6d5a0a73b43a0",
+      "color_sha256": "cb78fc11ddd0bae038b975a6e938dd40ccfc0a4019f078793ca6d5a0a73b43a0",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "animals/lamb.svg",
@@ -127,7 +183,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "44408e11ca755556dd802949b112c73cc68eadecd2c90e5d3d5854153966a6ba",
+      "color_sha256": "44408e11ca755556dd802949b112c73cc68eadecd2c90e5d3d5854153966a6ba",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "animals/squirrel.svg",
@@ -141,7 +204,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "170ca011ba6bf46b2d547bd0f5f24715dad6c11d0ef1e5b2143e34e4ff4d9cc0",
+      "color_sha256": "170ca011ba6bf46b2d547bd0f5f24715dad6c11d0ef1e5b2143e34e4ff4d9cc0",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "body/blood.svg",
@@ -155,7 +225,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "57b0c7de93e1456fa7364e9dbe8ef90ee6c9be73b69c8ae66a55e56c242b8d43",
+      "color_sha256": "57b0c7de93e1456fa7364e9dbe8ef90ee6c9be73b69c8ae66a55e56c242b8d43",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "body/bones.svg",
@@ -169,7 +246,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "6abf0ab65dc22b8b0cf326508b98331372a202f71d30af06b211a799ef08deb8",
+      "color_sha256": "6abf0ab65dc22b8b0cf326508b98331372a202f71d30af06b211a799ef08deb8",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "body/muscles.svg",
@@ -183,7 +267,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3397647f0c0382c41d4c001970c72b9c7e3be325f2b3c0c5852502304e929ea0",
+      "color_sha256": "3397647f0c0382c41d4c001970c72b9c7e3be325f2b3c0c5852502304e929ea0",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "body/nerves.svg",
@@ -197,7 +288,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "0cbbc712fa1aad7d1dd4739d846572eb88ed5558363976d1be9bd905aa7f373b",
+      "color_sha256": "0cbbc712fa1aad7d1dd4739d846572eb88ed5558363976d1be9bd905aa7f373b",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "body/skin.svg",
@@ -211,7 +309,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "555b8bd5247374052d88610cf76b9881c5d8b0928d87ddd5c5078661650d1c51",
+      "color_sha256": "555b8bd5247374052d88610cf76b9881c5d8b0928d87ddd5c5078661650d1c51",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "body/stomach.svg",
@@ -225,7 +330,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "db3312f62c5b2553d45b63b123b017be6281c55b099a1bbe660fe9d71942eb33",
+      "color_sha256": "db3312f62c5b2553d45b63b123b017be6281c55b099a1bbe660fe9d71942eb33",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "brc/art-car.svg",
@@ -239,7 +351,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "a930360c05ef18dc899cc93dd741776fa31a886161f69770788f0bf28010fd7d",
+      "color_sha256": "a930360c05ef18dc899cc93dd741776fa31a886161f69770788f0bf28010fd7d",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "brc/temple.svg",
@@ -253,7 +372,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8888c63bc69e4f797bc408b05ce4ea862846db0a24385f1339facdd071ac3b61",
+      "color_sha256": "8888c63bc69e4f797bc408b05ce4ea862846db0a24385f1339facdd071ac3b61",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "castalia/maker-seal.svg",
@@ -267,7 +393,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "9670aba2188ee0edca285674ea6f00b1700da47d7df5b78b6b9479df62383dab",
+      "color_sha256": "9670aba2188ee0edca285674ea6f00b1700da47d7df5b78b6b9479df62383dab",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "castalia/pirate-ship.svg",
@@ -281,7 +414,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "86fd0aaa642b86570cb78d56479e3435502bbb6670c5b7f7bce3ed12554e1f82",
+      "color_sha256": "86fd0aaa642b86570cb78d56479e3435502bbb6670c5b7f7bce3ed12554e1f82",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "castalia/police-box.svg",
@@ -295,7 +435,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "1d6dff39fd7120f1cef41f1a3dcfcf03113d5470a91c5f56a7d542b484ccaa57",
+      "color_sha256": "1d6dff39fd7120f1cef41f1a3dcfcf03113d5470a91c5f56a7d542b484ccaa57",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "castalia/puppet-left-hand.svg",
@@ -309,7 +456,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "6c4af075da4908a21cc196026323f743ca0a642e91aa9498db13e42e45afd1e1",
+      "color_sha256": "6c4af075da4908a21cc196026323f743ca0a642e91aa9498db13e42e45afd1e1",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "castalia/puppet-right-hand.svg",
@@ -323,7 +477,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "cbb552f1ff5c6dfe7a0ab83d5d7e71ac5a388242012b100c324fb32c96fedf5f",
+      "color_sha256": "cbb552f1ff5c6dfe7a0ab83d5d7e71ac5a388242012b100c324fb32c96fedf5f",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "castalia/puppet-shoe.svg",
@@ -337,7 +498,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "876dd49422624e726e81dc8d667b7e07ced671e3600217e8c3f814004b920ba4",
+      "color_sha256": "876dd49422624e726e81dc8d667b7e07ced671e3600217e8c3f814004b920ba4",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "castalia/research-submarine.svg",
@@ -351,7 +519,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "230aefca7f759388a5875f3da427ebd35cd592d7b379f8baf8e66419c2695ce7",
+      "color_sha256": "230aefca7f759388a5875f3da427ebd35cd592d7b379f8baf8e66419c2695ce7",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/asteroid-belt.svg",
@@ -365,7 +540,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "1b46be2835fa2c165b0d1a33184cbc0c1f44b2cd383408b1d432433385392ffb",
+      "color_sha256": "1b46be2835fa2c165b0d1a33184cbc0c1f44b2cd383408b1d432433385392ffb",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/asteroid.svg",
@@ -379,7 +561,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "06b7861d8181e2d238c92fc334fb2cb7648bd8f402ea0c0cfb749f680ad48813",
+      "color_sha256": "06b7861d8181e2d238c92fc334fb2cb7648bd8f402ea0c0cfb749f680ad48813",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/black-hole.svg",
@@ -393,7 +582,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8753c18ca47641c6d6907ade27ff219bdc39974640c935987f812286af269c8c",
+      "color_sha256": "8753c18ca47641c6d6907ade27ff219bdc39974640c935987f812286af269c8c",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/comet.svg",
@@ -407,7 +603,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f31b2e9cc0db0554130334c3eb0089fc57febe9d5e4d7f0f834ca6f97852bf31",
+      "color_sha256": "f31b2e9cc0db0554130334c3eb0089fc57febe9d5e4d7f0f834ca6f97852bf31",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/earth.svg",
@@ -421,7 +624,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f62dc19479bb70624960b5b3f64b66256f2fe528365d2e206444331b9d11fd9a",
+      "color_sha256": "f62dc19479bb70624960b5b3f64b66256f2fe528365d2e206444331b9d11fd9a",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/eclipse.svg",
@@ -435,7 +645,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "05f0eb8476baacbd72bb3d54ef569c047336fef868ee1f7e662c95db297af8d5",
+      "color_sha256": "05f0eb8476baacbd72bb3d54ef569c047336fef868ee1f7e662c95db297af8d5",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/galaxy.svg",
@@ -449,7 +666,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "69ac2742e6717c487d33bce7efc019e9da129ec1ca0b37a11c779bf9d8ef2087",
+      "color_sha256": "69ac2742e6717c487d33bce7efc019e9da129ec1ca0b37a11c779bf9d8ef2087",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/meteor.svg",
@@ -463,7 +687,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "80692e7ae3c49860805df2479409508d34ce96db015feaada29af4381a613a4e",
+      "color_sha256": "80692e7ae3c49860805df2479409508d34ce96db015feaada29af4381a613a4e",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/moon.svg",
@@ -477,7 +708,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "c0aacec77ec1b9480c5b07b1f9422bd4254682c8b70787701b6a0bb90941c37a",
+      "color_sha256": "c0aacec77ec1b9480c5b07b1f9422bd4254682c8b70787701b6a0bb90941c37a",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/nebula.svg",
@@ -491,7 +729,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f19cab53ee2cc8c079773212bc42e1a0c1d13d011a63fecc33f088315f1a0b22",
+      "color_sha256": "f19cab53ee2cc8c079773212bc42e1a0c1d13d011a63fecc33f088315f1a0b22",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/probe.svg",
@@ -505,7 +750,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "64514e472df4db7a4a1085b2599c75e27d624a30a242fc2faf9716ce329acb14",
+      "color_sha256": "64514e472df4db7a4a1085b2599c75e27d624a30a242fc2faf9716ce329acb14",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/rover.svg",
@@ -519,7 +771,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "6e079619571e71437da64cf3de75a1c1ee0921bd601ea4e8d6b6eacd87a45064",
+      "color_sha256": "6e079619571e71437da64cf3de75a1c1ee0921bd601ea4e8d6b6eacd87a45064",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/satellite.svg",
@@ -533,7 +792,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "a20444e9d1b414ae8e910e8cc9f65e7fff671b4097daa17da5eb33e51d24fb56",
+      "color_sha256": "a20444e9d1b414ae8e910e8cc9f65e7fff671b4097daa17da5eb33e51d24fb56",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/space-station.svg",
@@ -547,7 +813,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "bf0c0f23df79e545870616f3d40d94e04ef6f1230f0332b20615b4a8cb135c37",
+      "color_sha256": "bf0c0f23df79e545870616f3d40d94e04ef6f1230f0332b20615b4a8cb135c37",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/star.svg",
@@ -561,7 +834,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "eb4adda6b8490bdf28687046c4f87b605d571a0f8c1caa069bb002c4c546b528",
+      "color_sha256": "eb4adda6b8490bdf28687046c4f87b605d571a0f8c1caa069bb002c4c546b528",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "cosmos/sun.svg",
@@ -575,7 +855,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "13b9be763d54f865f35fe5afc96e41dec029691f99852877f94cf60c934b5a33",
+      "color_sha256": "13b9be763d54f865f35fe5afc96e41dec029691f99852877f94cf60c934b5a33",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "dinosaurs/ankylosaurus.svg",
@@ -589,7 +876,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e25141f219b9df0ec60b5691639984fa85f9c131b97d3ac30dbf519173dce0b4",
+      "color_sha256": "e25141f219b9df0ec60b5691639984fa85f9c131b97d3ac30dbf519173dce0b4",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "dinosaurs/brachiosaurus.svg",
@@ -603,7 +897,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "0b031eb89230740c83a7658be31fe590fbcdd9d07e088664f6a63ac5ab28b391",
+      "color_sha256": "0b031eb89230740c83a7658be31fe590fbcdd9d07e088664f6a63ac5ab28b391",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "dinosaurs/compsognathus.svg",
@@ -617,7 +918,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "971582806d4e52da72ed30d995a4758c24ce64b8a473f3f1cf6f46e1b1127c10",
+      "color_sha256": "971582806d4e52da72ed30d995a4758c24ce64b8a473f3f1cf6f46e1b1127c10",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "dinosaurs/fossil.svg",
@@ -631,7 +939,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "cd6db8ccae07e3f4314307539440f47af65d3d335d0d2c1b2b68e489f70853db",
+      "color_sha256": "cd6db8ccae07e3f4314307539440f47af65d3d335d0d2c1b2b68e489f70853db",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "dinosaurs/parasaurolophus.svg",
@@ -645,7 +960,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "7996b5a88674e366534c2a1e4a59499acd37729a197d0187885b4078885bf74f",
+      "color_sha256": "7996b5a88674e366534c2a1e4a59499acd37729a197d0187885b4078885bf74f",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "dinosaurs/pteranodon.svg",
@@ -659,7 +981,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "018b619dd47a817f6945b5b98203ef62b23b81e1c65d6af4865ab870a1d8ad3c",
+      "color_sha256": "018b619dd47a817f6945b5b98203ef62b23b81e1c65d6af4865ab870a1d8ad3c",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "dinosaurs/spinosaurus.svg",
@@ -673,7 +1002,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "14ad07e0450b180b2a5b6e5dbb32de061117c4104e0a298904893cd94fafd66b",
+      "color_sha256": "14ad07e0450b180b2a5b6e5dbb32de061117c4104e0a298904893cd94fafd66b",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "dinosaurs/stegosaurus.svg",
@@ -687,7 +1023,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "d1f97f3fa096621df56ad0c0d8ef9ad33ae3c2fac2e1ab3c787afd2a9cea040b",
+      "color_sha256": "d1f97f3fa096621df56ad0c0d8ef9ad33ae3c2fac2e1ab3c787afd2a9cea040b",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "dinosaurs/triceratops.svg",
@@ -701,7 +1044,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "d80a091854e15cc83d1d63745c7c6dee4d6b20498787f795f58f3ea11f2667ed",
+      "color_sha256": "d80a091854e15cc83d1d63745c7c6dee4d6b20498787f795f58f3ea11f2667ed",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "dinosaurs/tyrannosaurus.svg",
@@ -715,7 +1065,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e9b17450f92032570549e011147254ed86497290e0c9fd1c57f2c7695de733e4",
+      "color_sha256": "e9b17450f92032570549e011147254ed86497290e0c9fd1c57f2c7695de733e4",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "dinosaurs/velociraptor.svg",
@@ -729,7 +1086,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "be9fa2b1fd9ab8cfc1fdfc48ebc1169f6fb12873ff355c5207b75d6977561be2",
+      "color_sha256": "be9fa2b1fd9ab8cfc1fdfc48ebc1169f6fb12873ff355c5207b75d6977561be2",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "faerie/dew-drop.svg",
@@ -743,7 +1107,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ff1fedb63a6ab854abcb6d3a60f2443615739acd1279700695e865348e04e8c9",
+      "color_sha256": "ff1fedb63a6ab854abcb6d3a60f2443615739acd1279700695e865348e04e8c9",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/bee.svg",
@@ -757,7 +1128,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "fac0826bd3ab4b8ce295cf515fa8b5550ed6dcb3b20dd5ab6d1756293e41057f",
+      "color_sha256": "fac0826bd3ab4b8ce295cf515fa8b5550ed6dcb3b20dd5ab6d1756293e41057f",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/carrot.svg",
@@ -771,7 +1149,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "2a757346ea376866e9b25fa4a33bce88742615f39523c5f603282666b893aa88",
+      "color_sha256": "2a757346ea376866e9b25fa4a33bce88742615f39523c5f603282666b893aa88",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/chicken.svg",
@@ -785,7 +1170,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e6acfeca94fbe3f3e0754370e01bc200fbe26e04edb6f52aac726c72bddd53d5",
+      "color_sha256": "e6acfeca94fbe3f3e0754370e01bc200fbe26e04edb6f52aac726c72bddd53d5",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/corn.svg",
@@ -799,7 +1191,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "2eea80cd516a4ff5255aa1a3b5dd429ee9f50bae6fd7d8f471bc9d2a2a3d91d9",
+      "color_sha256": "2eea80cd516a4ff5255aa1a3b5dd429ee9f50bae6fd7d8f471bc9d2a2a3d91d9",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/cow.svg",
@@ -813,7 +1212,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "a02b9ed985fbcff6d78bbab2bab7cc7e762a9f2a6b1287bf21489e78a3b03963",
+      "color_sha256": "a02b9ed985fbcff6d78bbab2bab7cc7e762a9f2a6b1287bf21489e78a3b03963",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/egg.svg",
@@ -827,7 +1233,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "87c0189cf9377ac5cc82d8ebc8034a25af209f48db9c77df16442dc47ba21bb8",
+      "color_sha256": "87c0189cf9377ac5cc82d8ebc8034a25af209f48db9c77df16442dc47ba21bb8",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/flour.svg",
@@ -841,7 +1254,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f2c90b2156c93501d7fd3577900dda7a8349baac9a905cc43ba615cbc7c7d552",
+      "color_sha256": "f2c90b2156c93501d7fd3577900dda7a8349baac9a905cc43ba615cbc7c7d552",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/greenhouse.svg",
@@ -855,7 +1275,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "07e19a8524a1c81b2fbd4175324e52c0f078102dbd3bbadd1f78115046d5aab2",
+      "color_sha256": "07e19a8524a1c81b2fbd4175324e52c0f078102dbd3bbadd1f78115046d5aab2",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/honey.svg",
@@ -869,7 +1296,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "72c5a4cd23db2d8d3a52154aedc59b6f9cc6e1b8a54d573ccfff22c32ac06a81",
+      "color_sha256": "72c5a4cd23db2d8d3a52154aedc59b6f9cc6e1b8a54d573ccfff22c32ac06a81",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/meat.svg",
@@ -883,7 +1317,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "a7de6ec26d23139330edb44a8d13b4e908f615211027d25df01ea8c1453b776d",
+      "color_sha256": "a7de6ec26d23139330edb44a8d13b4e908f615211027d25df01ea8c1453b776d",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/milk.svg",
@@ -897,7 +1338,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "a43115801212d95c593ca7596cf8ec3cdbc721942b7e8694344e328872dd2c49",
+      "color_sha256": "a43115801212d95c593ca7596cf8ec3cdbc721942b7e8694344e328872dd2c49",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/pig.svg",
@@ -911,7 +1359,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "c0a2ae9ad38bede6ae7a9d2322aacff1474afb471021c6afdd088f8bc37df0a0",
+      "color_sha256": "c0a2ae9ad38bede6ae7a9d2322aacff1474afb471021c6afdd088f8bc37df0a0",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/strawberry.svg",
@@ -925,7 +1380,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "4d19f9100566443bf823a48bd08ab233759d63091767ad4bebeb59a6d7c2b8bb",
+      "color_sha256": "4d19f9100566443bf823a48bd08ab233759d63091767ad4bebeb59a6d7c2b8bb",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/tomato.svg",
@@ -939,7 +1401,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "6216cd228be5c5b8593d47dd180e1d7be64a79473a269bdff3c4f590c48cec59",
+      "color_sha256": "6216cd228be5c5b8593d47dd180e1d7be64a79473a269bdff3c4f590c48cec59",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "farm/wheat.svg",
@@ -953,7 +1422,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "85e3857b4b004d32df1a6c4a5dcc1f6374eb625b418a3e0b2048f8244070d207",
+      "color_sha256": "85e3857b4b004d32df1a6c4a5dcc1f6374eb625b418a3e0b2048f8244070d207",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/apple.svg",
@@ -967,7 +1443,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "d6bdf28d73d7fb4cb7f66d9ab0c312e5a0707ab9106e03cd3672b7d1141187bd",
+      "color_sha256": "d6bdf28d73d7fb4cb7f66d9ab0c312e5a0707ab9106e03cd3672b7d1141187bd",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/berrybush.svg",
@@ -981,7 +1464,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "5c7e4ac9c5f6d1188616a79f43b27fcd3fb4aec5ef7c5059dc0f14aae0798dde",
+      "color_sha256": "5c7e4ac9c5f6d1188616a79f43b27fcd3fb4aec5ef7c5059dc0f14aae0798dde",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/birch.svg",
@@ -995,7 +1485,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "83d611a7aa5259f4b4d63afbe4bf20f31b62cfc20bb20afe960340abc193b3f1",
+      "color_sha256": "83d611a7aa5259f4b4d63afbe4bf20f31b62cfc20bb20afe960340abc193b3f1",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/bush.svg",
@@ -1009,7 +1506,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "a0a968a89852ce25a0ce3b56ac09a2b1d514e7d6e213a4afacc4d3729ee1af70",
+      "color_sha256": "a0a968a89852ce25a0ce3b56ac09a2b1d514e7d6e213a4afacc4d3729ee1af70",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/fern.svg",
@@ -1023,7 +1527,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "996bb446138c0a23848b5d2a2335d078dab70d41310c3e20c0c7efd6c5b4db10",
+      "color_sha256": "996bb446138c0a23848b5d2a2335d078dab70d41310c3e20c0c7efd6c5b4db10",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/grass.svg",
@@ -1037,7 +1548,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "66dc5072f08015e7769f066722f7fcabe594a040a81500b87b3cb8d29e42ff28",
+      "color_sha256": "66dc5072f08015e7769f066722f7fcabe594a040a81500b87b3cb8d29e42ff28",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/maple.svg",
@@ -1051,7 +1569,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "4b638327bf8794f4dcdfdab9cf640d429cf6e86a44d2c4f03cc3b565bc56e33b",
+      "color_sha256": "4b638327bf8794f4dcdfdab9cf640d429cf6e86a44d2c4f03cc3b565bc56e33b",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/palm.svg",
@@ -1065,7 +1590,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "420e7443cfe12f81dff81d3e558ec28fa173c4d5b87e86034b29555e94e6bf9b",
+      "color_sha256": "420e7443cfe12f81dff81d3e558ec28fa173c4d5b87e86034b29555e94e6bf9b",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/pine.svg",
@@ -1079,7 +1611,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "06f33ba4b4a7763577df83ffc97b1b4672f4df1e01b4fd886750d1e87abe5937",
+      "color_sha256": "06f33ba4b4a7763577df83ffc97b1b4672f4df1e01b4fd886750d1e87abe5937",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/poplar.svg",
@@ -1093,7 +1632,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ff2a4de2f7862de71d5573521444d973828dbcf7604678a4aee108ab6bf3caba",
+      "color_sha256": "ff2a4de2f7862de71d5573521444d973828dbcf7604678a4aee108ab6bf3caba",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/reed.svg",
@@ -1107,7 +1653,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "39d3d85b707aa24742f449662b3ccf03c45d40a0a40d4b95bbdd3c7036479625",
+      "color_sha256": "39d3d85b707aa24742f449662b3ccf03c45d40a0a40d4b95bbdd3c7036479625",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/snag.svg",
@@ -1121,7 +1674,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "b50bd30cfc9ff2bb02cd0fc3780ed651c44611ec20d837b1a973109037be3e35",
+      "color_sha256": "b50bd30cfc9ff2bb02cd0fc3780ed651c44611ec20d837b1a973109037be3e35",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/spruce.svg",
@@ -1135,7 +1695,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "283d0e7b0dea75796d2ba43d0452583335db5b786a45d6e405bd88bf221d1742",
+      "color_sha256": "283d0e7b0dea75796d2ba43d0452583335db5b786a45d6e405bd88bf221d1742",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/stump.svg",
@@ -1149,7 +1716,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "adac5c827566c86dab48551bfab9c75783dc363766c39b8ac86c7fec7f9a02fa",
+      "color_sha256": "adac5c827566c86dab48551bfab9c75783dc363766c39b8ac86c7fec7f9a02fa",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "flora/willow.svg",
@@ -1163,7 +1737,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "1ea5c3878f0828895c0730e3933eb5d298c18c9e73399027989a7bacd68b14ac",
+      "color_sha256": "1ea5c3878f0828895c0730e3933eb5d298c18c9e73399027989a7bacd68b14ac",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/aloe.svg",
@@ -1177,7 +1758,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "11a66f49d63844ca194659eecee57bf83a1207bf6caf3679764e2d572a030939",
+      "color_sha256": "11a66f49d63844ca194659eecee57bf83a1207bf6caf3679764e2d572a030939",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/basil.svg",
@@ -1191,7 +1779,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ed53ca5a622b4b1ff658509dc0ee44ac4c8bd9b5868a97bfda87cb3e2cc2df20",
+      "color_sha256": "ed53ca5a622b4b1ff658509dc0ee44ac4c8bd9b5868a97bfda87cb3e2cc2df20",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/calendula.svg",
@@ -1205,7 +1800,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "1bb31ed1de27d3285ce4059f5c71586092b75fd8b90c8e84bccad5422463fa7e",
+      "color_sha256": "1bb31ed1de27d3285ce4059f5c71586092b75fd8b90c8e84bccad5422463fa7e",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/chamomile.svg",
@@ -1219,7 +1821,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "55b2cb7e7a773ca65cabc8c78ef1d2ea58004d9a263165f2c025dd265c1beda9",
+      "color_sha256": "55b2cb7e7a773ca65cabc8c78ef1d2ea58004d9a263165f2c025dd265c1beda9",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/chive.svg",
@@ -1233,7 +1842,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "46b69957a72cd140b79ebfdf4d082f4cdc35b1c3980c32fdaab91fbd2fca83b5",
+      "color_sha256": "46b69957a72cd140b79ebfdf4d082f4cdc35b1c3980c32fdaab91fbd2fca83b5",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/cilantro.svg",
@@ -1247,7 +1863,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e4840647853b400488bc3cb0b4d89cd413f16c08f106f82c1fee6fb2a3cbbe54",
+      "color_sha256": "e4840647853b400488bc3cb0b4d89cd413f16c08f106f82c1fee6fb2a3cbbe54",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/dandelion.svg",
@@ -1261,7 +1884,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "dd8ea7175f32ad2e6b6794e560f70cb2a4cdb38b885895f7bb568d030fca2442",
+      "color_sha256": "dd8ea7175f32ad2e6b6794e560f70cb2a4cdb38b885895f7bb568d030fca2442",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/dill.svg",
@@ -1275,7 +1905,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "40e0ec4807f0bc01a98336ea04f29248d25192d1f2eeb1bbe4d9a9a4be2a4699",
+      "color_sha256": "40e0ec4807f0bc01a98336ea04f29248d25192d1f2eeb1bbe4d9a9a4be2a4699",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/echinacea.svg",
@@ -1289,7 +1926,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "727eef6d31c8e5781e64b1974c8315899c16897b67029b9a56f0b4e41bdbca6a",
+      "color_sha256": "727eef6d31c8e5781e64b1974c8315899c16897b67029b9a56f0b4e41bdbca6a",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/elderberry.svg",
@@ -1303,7 +1947,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "4ec81b4d2ef4052dbe2c1f4f149300f56327f88de70918edb8476a31d75173e2",
+      "color_sha256": "4ec81b4d2ef4052dbe2c1f4f149300f56327f88de70918edb8476a31d75173e2",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/garlic.svg",
@@ -1317,7 +1968,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e5e678674874a7d39062e2223142b1258f69386c525892ce5c2af42a0816ce7f",
+      "color_sha256": "e5e678674874a7d39062e2223142b1258f69386c525892ce5c2af42a0816ce7f",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/ginger.svg",
@@ -1331,7 +1989,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8dd947cb34370da72fed4f7179c75b29fbb72ab6113c5146825e0edd62840825",
+      "color_sha256": "8dd947cb34370da72fed4f7179c75b29fbb72ab6113c5146825e0edd62840825",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/lavender.svg",
@@ -1345,7 +2010,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "402486346581f5a22b2b421861411b0d689109bcb8b1c4b170b199401005158d",
+      "color_sha256": "402486346581f5a22b2b421861411b0d689109bcb8b1c4b170b199401005158d",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/mint.svg",
@@ -1359,7 +2031,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "72c55ac9d5d60f5307aa9a2974f88fd1dd99456ba5f30c04015fee8a00570ec3",
+      "color_sha256": "72c55ac9d5d60f5307aa9a2974f88fd1dd99456ba5f30c04015fee8a00570ec3",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/nettle.svg",
@@ -1373,7 +2052,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "32b46c8156baa8d22e666f3362807cbf9fab4c4d8465996a163c1526f6e8a629",
+      "color_sha256": "32b46c8156baa8d22e666f3362807cbf9fab4c4d8465996a163c1526f6e8a629",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/oregano.svg",
@@ -1387,7 +2073,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "4ef91a633d1f71b44df62734dc26a980e1966cd2cb3129b95f6beafd840a73bb",
+      "color_sha256": "4ef91a633d1f71b44df62734dc26a980e1966cd2cb3129b95f6beafd840a73bb",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/parsley.svg",
@@ -1401,7 +2094,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f16d0c439fe0590302118da52e447d12ad6b2858f8f7fa8f01a9e2e0e10584d6",
+      "color_sha256": "f16d0c439fe0590302118da52e447d12ad6b2858f8f7fa8f01a9e2e0e10584d6",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/plantain.svg",
@@ -1415,7 +2115,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "1b0f60a46e07f4382b54d1e6adf417c52931e01965bcc15294da235061397e96",
+      "color_sha256": "1b0f60a46e07f4382b54d1e6adf417c52931e01965bcc15294da235061397e96",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/rosemary.svg",
@@ -1429,7 +2136,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "1cfc041202e9c7039f8833910b16166a7f0288ed448667bb596d40c9dcc35169",
+      "color_sha256": "1cfc041202e9c7039f8833910b16166a7f0288ed448667bb596d40c9dcc35169",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/sage.svg",
@@ -1443,7 +2157,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "4dec3860f8f0521cea4e74952da445db65df4411f07354ed76dc6762e36fd0a7",
+      "color_sha256": "4dec3860f8f0521cea4e74952da445db65df4411f07354ed76dc6762e36fd0a7",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/thyme.svg",
@@ -1457,7 +2178,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "7a71dc9ba5ac48a1c915ed09bc842032acd2423a31741286568f47f0cbc621ed",
+      "color_sha256": "7a71dc9ba5ac48a1c915ed09bc842032acd2423a31741286568f47f0cbc621ed",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "herbs/yarrow.svg",
@@ -1471,7 +2199,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8e2169f2504073cf32b0df2fbba82fa05a8b60ba48bff28f16b65daf768d7aac",
+      "color_sha256": "8e2169f2504073cf32b0df2fbba82fa05a8b60ba48bff28f16b65daf768d7aac",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/academy.svg",
@@ -1485,7 +2220,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "2b4e62e3bbf7108801b918f758f4cf1250ad49afe6bb07ae6dd187202df97725",
+      "color_sha256": "43190e1c79c6c6a7dfe3463bc1be874d8d990071457cf45d4f526977427c26ed",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/archive.svg",
@@ -1499,7 +2241,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ffe22e86cc21118a91042908883425b789bdc2a50ed7f1ae40529b98df7360cc",
+      "color_sha256": "09b3edd79c24feddc509848bef8ee8a71a7855e38108cef0a0059b335becfb93",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/bakery.svg",
@@ -1513,7 +2262,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3e013a13346326ad6dc06b89bdcf12b81203650f6667b98d6e70e0eaf42a9465",
+      "color_sha256": "45316552e45bde7823e62fa9f2e4dacd29575cd256063bfe6492b5ee8111e88a",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/barn.svg",
@@ -1527,7 +2283,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "bd3a9514fc9a1ecb560f1a7cf4951f92ee60b708fbf98dd4b5ae2f563ce00f82",
+      "color_sha256": "bd3a9514fc9a1ecb560f1a7cf4951f92ee60b708fbf98dd4b5ae2f563ce00f82",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/bench.svg",
@@ -1541,7 +2304,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "fc93d2392c13016d4201b9beb3d5a351cb7a9c5813650e8b09bbffb1d370f687",
+      "color_sha256": "fc93d2392c13016d4201b9beb3d5a351cb7a9c5813650e8b09bbffb1d370f687",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/burrow.svg",
@@ -1555,7 +2325,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "fc08b4c03b29e55ea01dd77840f5c70799950575c37a6ee02aa3426ceb8e60c8",
+      "color_sha256": "fc08b4c03b29e55ea01dd77840f5c70799950575c37a6ee02aa3426ceb8e60c8",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/cafe.svg",
@@ -1569,7 +2346,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "6f1bdb0328a346759d7c96b5dc2d5397b2b55d0963d06326db32feb509e5b9a3",
+      "color_sha256": "2e1b3ed47d1ea2203029fbb33d2f307e8364b166b45d41fe83f787a8cafeee47",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/canyon.svg",
@@ -1583,7 +2367,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "0db6ee85d507cbf5bc86e03f4f38627508c293cb331fc83f211578803c58a589",
+      "color_sha256": "0db6ee85d507cbf5bc86e03f4f38627508c293cb331fc83f211578803c58a589",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/cave.svg",
@@ -1597,7 +2388,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ad4a284623eb55cdbec433957daf1cffd20e641b5702df788c54778ef3968e0d",
+      "color_sha256": "ad4a284623eb55cdbec433957daf1cffd20e641b5702df788c54778ef3968e0d",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/ceiling.svg",
@@ -1611,7 +2409,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e21f2aeef648fdb34c660d5aca934d22fb23a257059f5c1e41dcbf755c18a9c4",
+      "color_sha256": "e21f2aeef648fdb34c660d5aca934d22fb23a257059f5c1e41dcbf755c18a9c4",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/coast.svg",
@@ -1625,7 +2430,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "6538816a200a19f7a9c870f790329e8671f2378afe79db0b9f47bafeddafbcab",
+      "color_sha256": "6538816a200a19f7a9c870f790329e8671f2378afe79db0b9f47bafeddafbcab",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/crossing.svg",
@@ -1639,7 +2451,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "d7bc42cfd5fbd1230dc1c10e493c2b32c83aacbccbeb1d239906543bc72362b4",
+      "color_sha256": "d7bc42cfd5fbd1230dc1c10e493c2b32c83aacbccbeb1d239906543bc72362b4",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/delta.svg",
@@ -1653,7 +2472,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "89ac04bc9083cd9e3fc8497bc8b2be40b574a66994cbd69031795b2b6b679e8a",
+      "color_sha256": "89ac04bc9083cd9e3fc8497bc8b2be40b574a66994cbd69031795b2b6b679e8a",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/den.svg",
@@ -1667,7 +2493,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "b97cca0d7c1032eb691c5d98a66d995f681345ac317933a1f70074d168f7de0b",
+      "color_sha256": "b97cca0d7c1032eb691c5d98a66d995f681345ac317933a1f70074d168f7de0b",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/dock.svg",
@@ -1681,7 +2514,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "bd0e2a9735890effa4ef199b939c134f3dc23b06a1a803d8c0cb06d5b9d12ad7",
+      "color_sha256": "d0c6b5a002782bb3711f1e04e0fa5905e06a50cba824a5f578b5598e4079b94a",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/encyclopedia.svg",
@@ -1695,7 +2535,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8799fa7b2e4d85efa6ddaee0a538d31b8814d146d0185ae26aacd46102d68036",
+      "color_sha256": "aca26acf5dd190b3dd6d0b92beb687c9da3eecd9d4d97a2689e62bb93551cc6a",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/glacier.svg",
@@ -1709,7 +2556,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "7b88fd4bfcadbbb2a83c89b35d702e7c94a9066f86cb0eeba60c3f0363706cfa",
+      "color_sha256": "7b88fd4bfcadbbb2a83c89b35d702e7c94a9066f86cb0eeba60c3f0363706cfa",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/hive.svg",
@@ -1723,7 +2577,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3c18f8198e8585fa8fe24866a6fc1827f3cc679a5b9227d554e76c252a7a68c1",
+      "color_sha256": "6a03d2b37aac13d79845cdf05f524a69443e9f3d0820c7c14eb958fa8a4ab5f5",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/jungle.svg",
@@ -1737,7 +2598,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "272052b9b747c65f3c59e7f889359c322f7a745fe9ab011d28bd5a7e12cdebb4",
+      "color_sha256": "272052b9b747c65f3c59e7f889359c322f7a745fe9ab011d28bd5a7e12cdebb4",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/laboratory.svg",
@@ -1751,7 +2619,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e8318664144b83f2a681ada444193e88a3842609b980bb0a96b98a611b2e0507",
+      "color_sha256": "de339a88061fc840ce9415d7e4e72987c9264090448643f29ea7feb1f5ff465e",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/lake.svg",
@@ -1765,7 +2640,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "47d828de0af3ed27672988160afa8c3aeba963b07993268460b05e1d6304523c",
+      "color_sha256": "47d828de0af3ed27672988160afa8c3aeba963b07993268460b05e1d6304523c",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/library.svg",
@@ -1779,7 +2661,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "a37325c0b3e62235c20a33ef376d878df01d3e6c0eb1333268859eefc387c441",
+      "color_sha256": "0ec087318f32e70c6bf49e37107de417039bd848519171272a16135249c81df4",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/market.svg",
@@ -1793,7 +2682,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ef60e638aa08f5ac5f8be5da107d795d1f657429042a41c537e9ad1f5b9f3a71",
+      "color_sha256": "04b20e5905c7bb874cd0c9f89754caff1a7a2fb514840fa88a3ed82b9dbfb177",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/museum.svg",
@@ -1807,7 +2703,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "bc441d4473edcd70c19aa3a2ac3f70a302e51472bbf35d25baf215e1e911f3f8",
+      "color_sha256": "c8e2e31e90f7eec988fbd3d202deb0d6443463392ecb02a244e13d6a93b5c173",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/net.svg",
@@ -1821,7 +2724,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "80425bcd31736778c160f71b0f762d2810da9878d3b0fe4caa50e963b4c8fefd",
+      "color_sha256": "80425bcd31736778c160f71b0f762d2810da9878d3b0fe4caa50e963b4c8fefd",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/park.svg",
@@ -1835,7 +2745,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "90ef31467d0f68561d6cbfc6ce3d6a1755746c8aa048177625b70a8d6ba2c704",
+      "color_sha256": "ac28016f72d8ae87f61d8c9567badece6fa1dd3b48a1a126713ec38ec6c59683",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/pasture.svg",
@@ -1849,7 +2766,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8c7215c91deb34c7c55e6980675389d2ff0b537209e71e9af3487c559b572d93",
+      "color_sha256": "8c7215c91deb34c7c55e6980675389d2ff0b537209e71e9af3487c559b572d93",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/plateau.svg",
@@ -1863,7 +2787,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ff4984ecb4d39bf2e417e3e3cb8aa71f01cc41c5711d7cb7062a1e3180e1579c",
+      "color_sha256": "ff4984ecb4d39bf2e417e3e3cb8aa71f01cc41c5711d7cb7062a1e3180e1579c",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/reef.svg",
@@ -1877,7 +2808,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "46c4b1e679337001ea03547dbf9725b59fdb78adbf6629fbc1e59b998fc855b2",
+      "color_sha256": "46c4b1e679337001ea03547dbf9725b59fdb78adbf6629fbc1e59b998fc855b2",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/rug.svg",
@@ -1891,7 +2829,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e065f48df247c76f810a8b2cc136f15269fc8d3a4abf3fa6b50df594d3cc77fd",
+      "color_sha256": "e065f48df247c76f810a8b2cc136f15269fc8d3a4abf3fa6b50df594d3cc77fd",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/sand.svg",
@@ -1905,7 +2850,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "d1b366efd52af60d9ca6adfbb2e019a8edc4fc94f6da1a36b2a4ba67a201af3d",
+      "color_sha256": "d1b366efd52af60d9ca6adfbb2e019a8edc4fc94f6da1a36b2a4ba67a201af3d",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/savanna.svg",
@@ -1919,7 +2871,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "0caf3fcb22d7c1469eef38f00bd0a695f8ae94dc650a1b4981cd46b970f1ba80",
+      "color_sha256": "0caf3fcb22d7c1469eef38f00bd0a695f8ae94dc650a1b4981cd46b970f1ba80",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/shell.svg",
@@ -1933,7 +2892,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "017a228203c3394402465e22e7db8b1763f75f08e0457508165106d71f28c348",
+      "color_sha256": "017a228203c3394402465e22e7db8b1763f75f08e0457508165106d71f28c348",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/sidewalk.svg",
@@ -1947,7 +2913,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "eaa61479cd821ccdee22bb95ceba0c910309c5a7736b69b3bad3455a5d2a49ba",
+      "color_sha256": "eaa61479cd821ccdee22bb95ceba0c910309c5a7736b69b3bad3455a5d2a49ba",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/sign.svg",
@@ -1961,7 +2934,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e3e29c8d52ec5f5574e2309775d38b054e34833d71fb2d4ed2ccf6018e372f7a",
+      "color_sha256": "b725fa579488bc3111f9b1d943a9443d2572375f30427843d994a72bd9f9cd15",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/silo.svg",
@@ -1975,7 +2955,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "6d6dfcc2dcf60eb700a3365a16baccb5c8f8c20e5963e01906cd9b29c4c1ad50",
+      "color_sha256": "6d6dfcc2dcf60eb700a3365a16baccb5c8f8c20e5963e01906cd9b29c4c1ad50",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/spring.svg",
@@ -1989,7 +2976,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "dd07a149caf4609278c4483060407e94d7bc4c19457bc5f90ad5cca4dc7fa43f",
+      "color_sha256": "dd07a149caf4609278c4483060407e94d7bc4c19457bc5f90ad5cca4dc7fa43f",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/store.svg",
@@ -2003,7 +2997,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "391f3df6e91c38a847f97cd9e37f00d48b9cd2728b1974bcbeb85c542d107b67",
+      "color_sha256": "94b7a77fec566f908aaabf10d5cbf0fe9af89c991324364cf3ae3b4cc45ad29b",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/street.svg",
@@ -2017,7 +3018,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "15d00fc3bfc05ee9927ac903de2b064a6a79fb97e53ce7fc97519c1a94dc41e6",
+      "color_sha256": "2a78a31d6b5eb4df560451503bf3550add8ed74e6c7294a7719d8a7165b3f206",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/theater.svg",
@@ -2031,7 +3039,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "c8b5208c0b4ebda69e4c058de6454774192342bab1786cdf5628df808759ea73",
+      "color_sha256": "9f24e9d14b1217eaeb1a69a2c996e37fac3cc35eeeb04a1e917ea684ee6303a8",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/tide.svg",
@@ -2045,7 +3060,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "c4b63897bf37b7e0a16cc9ea349b8756368a429ceaa97688cb18d9dc307ec692",
+      "color_sha256": "c4b63897bf37b7e0a16cc9ea349b8756368a429ceaa97688cb18d9dc307ec692",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/tower.svg",
@@ -2059,7 +3081,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "1d6be2857ab438176e74dce25dd54ce9fa8f2141069a165e69a5aff95015abf7",
+      "color_sha256": "8ec26bb4082814ae696cd9193eb870fba8ec85c8c9378c4f2e3ec611b861350f",
+      "color_mode": "familiar-color"
     },
     {
       "source": "locations/tundra.svg",
@@ -2073,7 +3102,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "615931232a87932cbf2caafbbd93ad5fe9dc5c4340fd292e41f3c759c020ca43",
+      "color_sha256": "615931232a87932cbf2caafbbd93ad5fe9dc5c4340fd292e41f3c759c020ca43",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/valley.svg",
@@ -2087,7 +3123,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "7d9c4e605a39029290295d1d9f992a140f2f5c140d11f1f8cb6970fa65593aa6",
+      "color_sha256": "7d9c4e605a39029290295d1d9f992a140f2f5c140d11f1f8cb6970fa65593aa6",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/wave.svg",
@@ -2101,7 +3144,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "7b4faf287abb2dca7ac4b625b759511b09f3daa543f33fb7128ae8d8c585610b",
+      "color_sha256": "7b4faf287abb2dca7ac4b625b759511b09f3daa543f33fb7128ae8d8c585610b",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "locations/workshop.svg",
@@ -2115,7 +3165,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "868c74aed08f88361422d440838c498af9628a1596ec27e4c1b80726cfc62a2d",
+      "color_sha256": "6adcf19fde0dbbdfef9317992fb369d27475d5938f1591ef15a6a71d2ba7e43c",
+      "color_mode": "familiar-color"
     },
     {
       "source": "materials/clay.svg",
@@ -2129,7 +3186,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ee11426137b8dde0d8060e23dff356129120c0a88bfe1095a9b7a8e2821da47e",
+      "color_sha256": "ee11426137b8dde0d8060e23dff356129120c0a88bfe1095a9b7a8e2821da47e",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "materials/cloth.svg",
@@ -2143,7 +3207,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "9e46e1890ea1579529f5429f266bc5a1eef2114597e5b7a5232aea75b6965f66",
+      "color_sha256": "9e46e1890ea1579529f5429f266bc5a1eef2114597e5b7a5232aea75b6965f66",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "materials/fiber.svg",
@@ -2157,7 +3228,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "7f2aced093351827c97ab879bac01259798979078a24b0eb5f830ef4e2594a30",
+      "color_sha256": "7f2aced093351827c97ab879bac01259798979078a24b0eb5f830ef4e2594a30",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "materials/glass.svg",
@@ -2171,7 +3249,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f8f911cb6c3b7650ff5d26e6a1c41b57b3804a19b24287884b3946895c249cb6",
+      "color_sha256": "f8f911cb6c3b7650ff5d26e6a1c41b57b3804a19b24287884b3946895c249cb6",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "materials/leather.svg",
@@ -2185,7 +3270,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "73c81731c0c35ca19fd3b3ef91dbb0007a6d8e8b4c207f3a931a28382b910305",
+      "color_sha256": "73c81731c0c35ca19fd3b3ef91dbb0007a6d8e8b4c207f3a931a28382b910305",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "materials/metal.svg",
@@ -2199,7 +3291,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8eb94cf02f10545a612329d423317ad19f41a940081e6fc0da7fa8a3c47562f1",
+      "color_sha256": "8eb94cf02f10545a612329d423317ad19f41a940081e6fc0da7fa8a3c47562f1",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "materials/paper.svg",
@@ -2213,7 +3312,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "993e961b768df969793b48c888799f366df5b4715545402c30aa845a0a87fdad",
+      "color_sha256": "993e961b768df969793b48c888799f366df5b4715545402c30aa845a0a87fdad",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "materials/plastic.svg",
@@ -2227,7 +3333,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "dd912c7a3e4d37e7b48a0f92e13e890045281a03a6a4381d912398592e7fb49c",
+      "color_sha256": "dd912c7a3e4d37e7b48a0f92e13e890045281a03a6a4381d912398592e7fb49c",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "materials/sand.svg",
@@ -2241,7 +3354,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f8e1a14593df179a4d4e20ba7693fd62498f72c574ee926c537fdacea3563ee8",
+      "color_sha256": "f8e1a14593df179a4d4e20ba7693fd62498f72c574ee926c537fdacea3563ee8",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "materials/stone.svg",
@@ -2255,7 +3375,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "16074bdb0508d0fecbdb9002b217a213ec8a1833633b4556bf40d5f4a876745c",
+      "color_sha256": "16074bdb0508d0fecbdb9002b217a213ec8a1833633b4556bf40d5f4a876745c",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "materials/thread.svg",
@@ -2269,7 +3396,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "55ce53c3421542a091b144313a7cb155332f454c12a40718ac646dea28e21552",
+      "color_sha256": "55ce53c3421542a091b144313a7cb155332f454c12a40718ac646dea28e21552",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/arch.svg",
@@ -2283,7 +3417,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ef047b73e0b922efb745c1ff4a19bb87e9afb114d208bd945234f6a5b9b5c2cc",
+      "color_sha256": "ef047b73e0b922efb745c1ff4a19bb87e9afb114d208bd945234f6a5b9b5c2cc",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/axle.svg",
@@ -2297,7 +3438,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "98dd29e09013fe5ae270437a803b4d7d42b6c6f590d6109219ce2c39a64b1c6d",
+      "color_sha256": "98dd29e09013fe5ae270437a803b4d7d42b6c6f590d6109219ce2c39a64b1c6d",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/beam.svg",
@@ -2311,7 +3459,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "95e1051a72e592bf3f90bb34015db18ca7f0112294d0159058de16be66b765db",
+      "color_sha256": "95e1051a72e592bf3f90bb34015db18ca7f0112294d0159058de16be66b765db",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/bill.svg",
@@ -2325,7 +3480,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "244b4749d64c464050fb8013c794948c241c07843fcbdd554c0c289207d00aa2",
+      "color_sha256": "f891b16f0c08a4e39a8605429c22af53c8ee6f6eb2aac3a1db8ec2f823701d40",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/board.svg",
@@ -2339,7 +3501,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e413ffcde7eca4b1573292f9dd30a6ddb4cf360d4d1cab77d7d62fe75be98aeb",
+      "color_sha256": "9deb45b4703fc8555683647d52ad1c16e983ec66d6961074311c04f566352435",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/bowl.svg",
@@ -2353,7 +3522,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "00a926aee8be530fa1990ccd9205a08dbfba0e3188aee766e4eef3fee608d9c9",
+      "color_sha256": "c743ea676cf9b77d8571c06931732a6ab610e3106341d02ddc0a0b82d192a3cf",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/brush.svg",
@@ -2367,7 +3543,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3dbf1a27fa34ecf47fe2b853af176d6e958c21ea097af35005819eaed2ad0058",
+      "color_sha256": "e4fe67643a45ad0aa7ff5b4a57c72ba75c6f8b473edffa509fd34ec3ad4467e0",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/canvas.svg",
@@ -2381,7 +3564,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "684079b19269fb716430069399b11ebb1200782f9e7add6a1d7c7d5846c6b280",
+      "color_sha256": "7facb3fb3c569aa666d8046791c27ddf25e98641c6c211abd42cfd8a60d1c195",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/caravan.svg",
@@ -2395,7 +3585,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "712a6ae68f262a236ed9112b4997c908a7d362857e6043431793f35a3fc0efa0",
+      "color_sha256": "41e84f91733290e1bfaf48d90d621d9cfa00558a278c08025886ccf5a70e6cb1",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/castle.svg",
@@ -2409,7 +3606,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "30160c55e0cbf6abd0432d8f5640ae7480bd657563d3b9295c5227bfc785005a",
+      "color_sha256": "8cecda8d50b72480bb3764f6a5cd9cf33add7b92788e02bf7aa8894166be5b1e",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/chalk.svg",
@@ -2423,7 +3627,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "641f2b9aeeeabc630d2e6f915629cc2361c57a02bfbde7dded725ce454d38cd7",
+      "color_sha256": "641f2b9aeeeabc630d2e6f915629cc2361c57a02bfbde7dded725ce454d38cd7",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/circuit.svg",
@@ -2437,7 +3648,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f98bcfa59f4ab295079da2386a423724e25e3ab943eb5c7a9c44a651cc0cdc48",
+      "color_sha256": "f98bcfa59f4ab295079da2386a423724e25e3ab943eb5c7a9c44a651cc0cdc48",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/clay.svg",
@@ -2451,7 +3669,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "9a35ee9004f79905d866c1d8042133d29efb2ffb5754d521a865abd2d792e16e",
+      "color_sha256": "9a35ee9004f79905d866c1d8042133d29efb2ffb5754d521a865abd2d792e16e",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/computer.svg",
@@ -2465,7 +3690,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "0e6ca69a0eace3240017f7b7b6d85612e4f365243978150b32e7e58947394a44",
+      "color_sha256": "e8444fbe283985ef1e84fe7e83453ba88d03f226080ca5619398068e1a766e87",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/currency.svg",
@@ -2479,7 +3711,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "78fb9b2ab6d33bb10d4e2f58575c05e6d5f1fed903bc6185178682a117193c48",
+      "color_sha256": "015a1d23fd828fa3f41eeb19eb90469715c0b019e8ff05b4e6ccaef9fa5d2586",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/doll.svg",
@@ -2493,7 +3732,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "c9f24b1fc237569bd8f313a44c8140ed38dd706f5b29e84eb091c34554afe215",
+      "color_sha256": "70bfe5156fde2ca7527c4bedc3898cbcadde1af1b74f1bc65310b55c6a07ee3c",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/doorframe.svg",
@@ -2507,7 +3753,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "40b53d3516a295c683f0e1ff7e6469e6d2745ce23944380f60f23a825ad5686d",
+      "color_sha256": "40b53d3516a295c683f0e1ff7e6469e6d2745ce23944380f60f23a825ad5686d",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/drum.svg",
@@ -2521,7 +3774,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "07d5315dd544dc9694c8a6546c79bb20970d3805b40fe2e04795bedc7a71b775",
+      "color_sha256": "729bcf3b5e1c91a4443f89eb21001ecd6ac806a7049a21205984b794ffaa12ea",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/engine.svg",
@@ -2535,7 +3795,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "392c54faf2bd2710c487c7ed2159c9bdde2246d3c7c4cb75426aaa8499bdd1b4",
+      "color_sha256": "59bd9726a45200f5fa2697fd81d80ce238086e59e81bd16414b30d43d91c923f",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/forest.svg",
@@ -2549,7 +3816,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "48c04974fefe61f15e5d1efa2e102014ddf4da8445f3406253c4cf870b093682",
+      "color_sha256": "48c04974fefe61f15e5d1efa2e102014ddf4da8445f3406253c4cf870b093682",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/fork.svg",
@@ -2563,7 +3837,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8dee03654cb4a7a349953955ef4a694fd1d1946cc372a5b56426367faf82455e",
+      "color_sha256": "d689d143dd828bf93bc21baa152164d245d2807fdc7f20d28618d614dabe4bda",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/foundation.svg",
@@ -2577,7 +3858,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "13f919ce70b060d3fdf1f900a59ecbcc31c15fa72073b067103f46f23f90a259",
+      "color_sha256": "13f919ce70b060d3fdf1f900a59ecbcc31c15fa72073b067103f46f23f90a259",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/frame.svg",
@@ -2591,7 +3879,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "817f1ab19300ebc975d154f987b5f21314acc7d263421d3cb27e09a6b52e0f3a",
+      "color_sha256": "817f1ab19300ebc975d154f987b5f21314acc7d263421d3cb27e09a6b52e0f3a",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/game.svg",
@@ -2605,7 +3900,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "c0e6fe13bc2af87408a12d4337298d78813f4c62be5570659fe3b79d8c8759d4",
+      "color_sha256": "c0e6fe13bc2af87408a12d4337298d78813f4c62be5570659fe3b79d8c8759d4",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/gift.svg",
@@ -2619,7 +3921,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "4346570d772816e679b7bd228436a9b4a245b1f2d8834679d83a00b1251a1292",
+      "color_sha256": "c1af20094b7f0a49f6f1a15f98777deda74bb61c71e7c6b31a52ce97e96ff033",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/goods.svg",
@@ -2633,7 +3942,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "26176c88087bbf66d51429df030272efb10b4e8fdadcd0e5f4eec2c3d705ba8d",
+      "color_sha256": "b0200ba99a9510996297fb92dfaadf57e63760516fe98bb89fff34ffaf76ceb2",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/handle.svg",
@@ -2647,7 +3963,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3ead2c1688d207f4ddee0d2d33f7ed2a072748861dd5a6359fb9ba82a62d4709",
+      "color_sha256": "3ead2c1688d207f4ddee0d2d33f7ed2a072748861dd5a6359fb9ba82a62d4709",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/knife.svg",
@@ -2661,7 +3984,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e4ce8a4fdcbce629dd390adda2a9bb8438befc97a3c5f20fccecf2c4bf3bd3c8",
+      "color_sha256": "3865779709b8f1315ffdeec60a93ee213b6970652ea2d8fb714036294dde1d8f",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/letter.svg",
@@ -2675,7 +4005,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "540bd8b79a7597a579233a6eae29e270d6ee9b54be19456bb4c48acb38233bfa",
+      "color_sha256": "3df578d5b3ac81981ba2b824c9bcb453ffb2d34058adba654453405670471a50",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/lever.svg",
@@ -2689,7 +4026,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "917ea9c5dadbfc63933665ed91b4d0f147a1db159d280f58bec47ddee30a0f21",
+      "color_sha256": "917ea9c5dadbfc63933665ed91b4d0f147a1db159d280f58bec47ddee30a0f21",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/mortar.svg",
@@ -2703,7 +4047,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "1ce73305912cb5ac80b27fa271176b455569f81047ed0476a33e16b38c3aa968",
+      "color_sha256": "1ce73305912cb5ac80b27fa271176b455569f81047ed0476a33e16b38c3aa968",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/motor.svg",
@@ -2717,7 +4068,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f329bad27d27549f1ddea6fe8a9025d04d0ab663acbe4a54a42b2abe6e90698d",
+      "color_sha256": "fa1938dbf4a3bcbfe291b0017b5dcad58baaed8343d7efbf8bb44b5aac1ac1c7",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/mural.svg",
@@ -2731,7 +4089,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "649f06d9acf0542fa59b903c4536a23b4e22015fc1d96ce1d28df3a9b650c2b9",
+      "color_sha256": "649f06d9acf0542fa59b903c4536a23b4e22015fc1d96ce1d28df3a9b650c2b9",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/nail.svg",
@@ -2745,7 +4110,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "630435ea1265ca5ed68b282a270d5838fd094f716c16613f6ddcb75344274c54",
+      "color_sha256": "630435ea1265ca5ed68b282a270d5838fd094f716c16613f6ddcb75344274c54",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/note.svg",
@@ -2759,7 +4131,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "6861ef16fe536c51c2d0d5be70cd4e1fd5dc4705d2697abe932fe004b342fb68",
+      "color_sha256": "20da4cd024e5eceb65a473152dab917bf4cdf94be87674dd39c853449975157e",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/oven.svg",
@@ -2773,7 +4152,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "d562388600560222dee684b9b38a426b11ac675c8c0ac54d43a8e933a2a89883",
+      "color_sha256": "d562388600560222dee684b9b38a426b11ac675c8c0ac54d43a8e933a2a89883",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/paint.svg",
@@ -2787,7 +4173,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "019b8058b9af48618f5423637a396e36136580cf55a40f43de970ee0760937ce",
+      "color_sha256": "4f6819b67f8586de28e89f8ff27960f4bf2587476f14797d4ac261cd08885477",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/pan.svg",
@@ -2801,7 +4194,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f087f36486e8af43e6f91c1a7149ce0e36a10d3f09002d51ae63be7ed7841998",
+      "color_sha256": "8549153f504d98f8cf0818f2c327fcd503dda13bdf37501f4de3676cc50d1a6d",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/port.svg",
@@ -2815,7 +4215,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "5114261f9da2e99aa25cd624c14b40128e5ef646c79717ca179c192a6b28883f",
+      "color_sha256": "5114261f9da2e99aa25cd624c14b40128e5ef646c79717ca179c192a6b28883f",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/pot.svg",
@@ -2829,7 +4236,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ea8105cbb7466308d442c569c5ddfc1069ed954cdf345d6388946e51ccfa4fd6",
+      "color_sha256": "ea8105cbb7466308d442c569c5ddfc1069ed954cdf345d6388946e51ccfa4fd6",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/pottery.svg",
@@ -2843,7 +4257,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "9e63a62c09a9f375b26fde5dc363350e35069d1c369f89238dfbb816f0ebf100",
+      "color_sha256": "9e63a62c09a9f375b26fde5dc363350e35069d1c369f89238dfbb816f0ebf100",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/print.svg",
@@ -2857,7 +4278,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "cfe7a6e0572ea57d7dce4d9c2d3cab25b7bf52a3b29a37c8c907d7c6bf65cf5d",
+      "color_sha256": "cfe7a6e0572ea57d7dce4d9c2d3cab25b7bf52a3b29a37c8c907d7c6bf65cf5d",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/pulley.svg",
@@ -2871,7 +4299,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "7059c7a20774ff63766d506a247d46f8ff0e6a20ee4e2ee8102c2bfa2d64da85",
+      "color_sha256": "7059c7a20774ff63766d506a247d46f8ff0e6a20ee4e2ee8102c2bfa2d64da85",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/pump.svg",
@@ -2885,7 +4320,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "536f788d9ab09abf0745061a5f3a21b548a1ae54d51b6cfb33969b94bd457da5",
+      "color_sha256": "536f788d9ab09abf0745061a5f3a21b548a1ae54d51b6cfb33969b94bd457da5",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/puzzle.svg",
@@ -2899,7 +4341,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "b85957ea4f419b57c8c1d23d1c701878dd330b30c3bd1d3cb727ee2afc77f8e5",
+      "color_sha256": "d49f7ef953fa1ab9a615a687dc44dd977a983059575834fa8237929d28c66c00",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/recipe.svg",
@@ -2913,7 +4362,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "5ea00339a452d14ffff79ae01eec1c3ed50654e33fc92aa5403d577de7026406",
+      "color_sha256": "5ea00339a452d14ffff79ae01eec1c3ed50654e33fc92aa5403d577de7026406",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/robot.svg",
@@ -2927,7 +4383,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "4af51ecad2ad9dfc0ccdb6c29e348bd307b6b4e03bfc4f0148aad49fe0929348",
+      "color_sha256": "2ebb9a25d89648e11195ec90e0b6cd8d009458d3b67a129f4071f2c7edb1940a",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/roof.svg",
@@ -2941,7 +4404,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3cb987641eb4397a98cab4364d19f703a38742606166734725f03464530b1b1e",
+      "color_sha256": "3cb987641eb4397a98cab4364d19f703a38742606166734725f03464530b1b1e",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/rope.svg",
@@ -2955,7 +4425,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "5fc7733c0f663bf13f8f1d38397714bf85cbf5a5df8f98509c11e84c0820c0f9",
+      "color_sha256": "5fc7733c0f663bf13f8f1d38397714bf85cbf5a5df8f98509c11e84c0820c0f9",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/sandbox.svg",
@@ -2969,7 +4446,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3c9cacdfb228d696af41a8812ed4bf873b9147fd479be0145b85d2272cf27900",
+      "color_sha256": "3c9cacdfb228d696af41a8812ed4bf873b9147fd479be0145b85d2272cf27900",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/screw.svg",
@@ -2983,7 +4467,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "443edf1486b9a12186e5822fb689821755c1514dc561cb9dc76f5f92d4087ca0",
+      "color_sha256": "443edf1486b9a12186e5822fb689821755c1514dc561cb9dc76f5f92d4087ca0",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/sculpture.svg",
@@ -2997,7 +4488,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "38f2a886d5ed4d9ded707049f0b723aeeb7c541abfa923fcdad18fffb9d47fdc",
+      "color_sha256": "38f2a886d5ed4d9ded707049f0b723aeeb7c541abfa923fcdad18fffb9d47fdc",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/sign.svg",
@@ -3011,7 +4509,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "5e66f202a065da4ec43a38eeab643bb595e3aaa580374cdd6457593c9272be01",
+      "color_sha256": "5e66f202a065da4ec43a38eeab643bb595e3aaa580374cdd6457593c9272be01",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/slide.svg",
@@ -3025,7 +4530,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3892180e85bad8637692ade92862bdced0b1acb45e42a799479fdc76df987bd8",
+      "color_sha256": "3892180e85bad8637692ade92862bdced0b1acb45e42a799479fdc76df987bd8",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/sock.svg",
@@ -3039,7 +4551,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "4b90a978a55764ff113637f654ac894166d683515d6bdd46192982c6f3d0c34d",
+      "color_sha256": "c9286fb9081c1a4d7c597da405f5e403a81ad3a41e40543ab9ab3a0322618f49",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/spice.svg",
@@ -3053,7 +4572,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8d7bae5977d2d7fc36a6918e4e07c882b759edea2d6617017d39f1506af03734",
+      "color_sha256": "ab4b0c7e7473b77cccf1590f115fdd9ef8a7616b4b7c316ee8461938c4e86ea7",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/stage.svg",
@@ -3067,7 +4593,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3217ca544ff7be7e8944a929acf28bab0467472346fd7c813c1dcb1b18ce7165",
+      "color_sha256": "3217ca544ff7be7e8944a929acf28bab0467472346fd7c813c1dcb1b18ce7165",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/steam.svg",
@@ -3081,7 +4614,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f7ef7a7d8b334a260112160bbde886f0a83758d2a9f8e4fa28c457a8e65979cb",
+      "color_sha256": "f7ef7a7d8b334a260112160bbde886f0a83758d2a9f8e4fa28c457a8e65979cb",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/stove.svg",
@@ -3095,7 +4635,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "c4d53146b286c4743ca015537cb3baf7942829a06b7955fecf6e48506e9feceb",
+      "color_sha256": "c4d53146b286c4743ca015537cb3baf7942829a06b7955fecf6e48506e9feceb",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/swing.svg",
@@ -3109,7 +4656,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "d3d3482534f12ba92de5d14d9874f1a93d356a42cd56736eeebe0205064ab783",
+      "color_sha256": "d3d3482534f12ba92de5d14d9874f1a93d356a42cd56736eeebe0205064ab783",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/switch.svg",
@@ -3123,7 +4677,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e0fc2a205d92aa8dba3da26f2b0d92e315d99a37e2e0b150699ea49243df1de9",
+      "color_sha256": "e0fc2a205d92aa8dba3da26f2b0d92e315d99a37e2e0b150699ea49243df1de9",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/tower.svg",
@@ -3137,7 +4698,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "7515b7b0d2c4288528601d0f022cb166c3283dd31d80a38f129f40196058eb33",
+      "color_sha256": "7515b7b0d2c4288528601d0f022cb166c3283dd31d80a38f129f40196058eb33",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/treasure.svg",
@@ -3151,7 +4719,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ed7abba94e29f465e470c664cffefe028e52f6c126bfeffe9682e13539fea775",
+      "color_sha256": "8024d598fcde3945cac2804ae91d80de5c5c416a4647d87c461cf53d69c64817",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/valve.svg",
@@ -3165,7 +4740,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "dca5835e6376b6fa3e6820c28b7c0a0a9b82b979cd9610ee95629a5929534881",
+      "color_sha256": "dca5835e6376b6fa3e6820c28b7c0a0a9b82b979cd9610ee95629a5929534881",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/wagon.svg",
@@ -3179,7 +4761,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3f36965883ee5317012c27a224b6888f0daf4afde370364d5b7b5c930503e4ce",
+      "color_sha256": "29a6efdeb1ee7148c30ad35e6daf2ece0ce02e702726e0619ebca92cc296f1b8",
+      "color_mode": "familiar-color"
     },
     {
       "source": "objects/whistle.svg",
@@ -3193,7 +4782,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "2f7519e817bb90c09b7434372a6a9aedd672638f4bdb0add6ab221128cfa00b6",
+      "color_sha256": "2f7519e817bb90c09b7434372a6a9aedd672638f4bdb0add6ab221128cfa00b6",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "objects/windowpane.svg",
@@ -3207,7 +4803,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "4008e857e7d5b7570523b3ac24c5db00768d0cea09539b0f567358f9c3018bcb",
+      "color_sha256": "4008e857e7d5b7570523b3ac24c5db00768d0cea09539b0f567358f9c3018bcb",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "people/clothing.svg",
@@ -3221,7 +4824,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f37b29b7059b1da413b059cb34a9ab6d759eefed94cb32f5e49d0a6ac56678c8",
+      "color_sha256": "14c6ef9a9a3d580ec312b84e748447269fc880a11af5ca67a52881b645210f1f",
+      "color_mode": "familiar-color"
     },
     {
       "source": "people/diaper.svg",
@@ -3235,7 +4845,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8b5238adde6266fd4723c85bf76152de2f8ed32d6da16b8f516ef80c62ed9676",
+      "color_sha256": "8b5238adde6266fd4723c85bf76152de2f8ed32d6da16b8f516ef80c62ed9676",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "people/food.svg",
@@ -3249,7 +4866,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "21351b3699cec248065c4b56c44428053e9ce44cc9b5bd80ef516dc76fbe4369",
+      "color_sha256": "883a9f15e184598134a519f68ccda33b74b34d99544f88be785081ae69fcb968",
+      "color_mode": "familiar-color"
     },
     {
       "source": "people/gift.svg",
@@ -3263,7 +4887,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "5ab658cc4badfd3840f0c1b5b5ea36587010456eae0d9b44bfe42095333a2082",
+      "color_sha256": "c07c41ce486b4b33b8adb675bec953a184fe647670ae90a0d9717882528211f4",
+      "color_mode": "familiar-color"
     },
     {
       "source": "people/shelter.svg",
@@ -3277,7 +4908,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "10e0dcdbd5b9e1fb4d0a93c0309ea282e7433572a28d4ea552c0e75de4ada8c2",
+      "color_sha256": "14617f0870fedcfe1d89381a371ea8229e2c8170f413ec92a8601817b3ddb89c",
+      "color_mode": "familiar-color"
     },
     {
       "source": "people/shrine.svg",
@@ -3291,7 +4929,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "2e76e0bd6f62ac8fd70decde7241d71b8d554daaaae87922fa94eecd3df6c441",
+      "color_sha256": "8586ba0fc05ff848f634b30fdcf3c0aa2e448a083eaf7ac9ff4a24cf8ec65a41",
+      "color_mode": "familiar-color"
     },
     {
       "source": "people/stroller.svg",
@@ -3305,7 +4950,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "0787007cffe5843b1331b1049bcdb81c828f6303f9fa05e5c9d34f77509a81cc",
+      "color_sha256": "0787007cffe5843b1331b1049bcdb81c828f6303f9fa05e5c9d34f77509a81cc",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "people/temple.svg",
@@ -3319,7 +4971,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f66bc3a56c781488325010b036a06bc318e25593609376d63ea1b5c9c889b62d",
+      "color_sha256": "3b8f7719c793f8b19c4b7f8f88334a7854c158dc7739c122cef8f0c9e4636e4a",
+      "color_mode": "familiar-color"
     },
     {
       "source": "plants/bud.svg",
@@ -3333,7 +4992,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "da97a6c3c1cb10463f30a22f16f03ee3000117895753d2f085f6a25726392644",
+      "color_sha256": "da97a6c3c1cb10463f30a22f16f03ee3000117895753d2f085f6a25726392644",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/compost.svg",
@@ -3347,7 +5013,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "7af97c1c50ada0645fb2d54b5e84d814a26c08a53838621f553648cc25607c08",
+      "color_sha256": "7af97c1c50ada0645fb2d54b5e84d814a26c08a53838621f553648cc25607c08",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/dirt.svg",
@@ -3361,7 +5034,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "2d5798aa75c9efa065e479b43fbe61805e1d6478006ca27e01c62d8128937aab",
+      "color_sha256": "2d5798aa75c9efa065e479b43fbe61805e1d6478006ca27e01c62d8128937aab",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/fruit.svg",
@@ -3375,7 +5055,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "341e312a145c3965696be967ad69644e18fd5ae52a468f249b2979c529f35a7b",
+      "color_sha256": "341e312a145c3965696be967ad69644e18fd5ae52a468f249b2979c529f35a7b",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/log.svg",
@@ -3389,7 +5076,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "27108e485f90c5e6b095934a6d9df602d1cedfe330ed63157ee40741ec31de81",
+      "color_sha256": "27108e485f90c5e6b095934a6d9df602d1cedfe330ed63157ee40741ec31de81",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/moss.svg",
@@ -3403,7 +5097,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "66f5d703d780175062bd9919d3756a0213b9e1397e88508236be2654679e61f8",
+      "color_sha256": "66f5d703d780175062bd9919d3756a0213b9e1397e88508236be2654679e61f8",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/nest.svg",
@@ -3417,7 +5118,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "dd0bd8c9305a5bf626ed20e81f48754ee601efff0d011d58311a24df637ef676",
+      "color_sha256": "dd0bd8c9305a5bf626ed20e81f48754ee601efff0d011d58311a24df637ef676",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/oak.svg",
@@ -3431,7 +5139,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "aacabf6c3c2cf23ff6bc37d9eae26af09f7484e5a8adf79fc30995be46e21a3a",
+      "color_sha256": "aacabf6c3c2cf23ff6bc37d9eae26af09f7484e5a8adf79fc30995be46e21a3a",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/pine.svg",
@@ -3445,7 +5160,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "30891d1d030e27f5344bf43dfb9226cc668a8683405514da654527c492e5956a",
+      "color_sha256": "30891d1d030e27f5344bf43dfb9226cc668a8683405514da654527c492e5956a",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/root.svg",
@@ -3459,7 +5181,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "540f7240bac58df6d817902e5389e8850ca0c31ab9c4a467b008ecd5b93c7d20",
+      "color_sha256": "540f7240bac58df6d817902e5389e8850ca0c31ab9c4a467b008ecd5b93c7d20",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/seed.svg",
@@ -3473,7 +5202,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "988b605ed6eef06ce4856ca12d7820f339b7b403dbf0d011d6741fdc386aebf2",
+      "color_sha256": "988b605ed6eef06ce4856ca12d7820f339b7b403dbf0d011d6741fdc386aebf2",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/soil.svg",
@@ -3487,7 +5223,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e29ba044b14618da1277e5a6f986e8142586b7ae004f16675eb43d50c78ca05c",
+      "color_sha256": "e29ba044b14618da1277e5a6f986e8142586b7ae004f16675eb43d50c78ca05c",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/sprout.svg",
@@ -3501,7 +5244,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "abba01b703ee0f1ec39f589823f17b141e03cc07aa8b127472c98be1e7c3a0e0",
+      "color_sha256": "abba01b703ee0f1ec39f589823f17b141e03cc07aa8b127472c98be1e7c3a0e0",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/stem.svg",
@@ -3515,7 +5265,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "02ee5e2f3f00cee36d02c78df37303aa27b3cbbe93c5beccdd7e6bf9d165454e",
+      "color_sha256": "02ee5e2f3f00cee36d02c78df37303aa27b3cbbe93c5beccdd7e6bf9d165454e",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/stream.svg",
@@ -3529,7 +5286,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "1ef03711265d063ce7a683e734bb06ebb60e7c1f102a572350f7f4d45d3d0b19",
+      "color_sha256": "1ef03711265d063ce7a683e734bb06ebb60e7c1f102a572350f7f4d45d3d0b19",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "plants/tool.svg",
@@ -3543,7 +5307,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3103881a6afe12da757d54f6ef11c906c854fc5731308acf8eb69f42e7c0414c",
+      "color_sha256": "3103881a6afe12da757d54f6ef11c906c854fc5731308acf8eb69f42e7c0414c",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "rockets/booster.svg",
@@ -3557,7 +5328,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "d5051628a575cf5376ef04950519449cec4970877146ee4296065423b79dc51c",
+      "color_sha256": "d5051628a575cf5376ef04950519449cec4970877146ee4296065423b79dc51c",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "rockets/capsule.svg",
@@ -3571,7 +5349,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ee9357e5dc8d5d4d64834639e211f72395bf276bd64561b1af57850638c46853",
+      "color_sha256": "ee9357e5dc8d5d4d64834639e211f72395bf276bd64561b1af57850638c46853",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "rockets/lunar-lander.svg",
@@ -3585,7 +5370,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "53686eb3f9be9cc3fc72991321ce473946dc40e17438ca45fc769de783d86857",
+      "color_sha256": "53686eb3f9be9cc3fc72991321ce473946dc40e17438ca45fc769de783d86857",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "rockets/rover.svg",
@@ -3599,7 +5391,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "97daff4fc353944587007580a4a96dda33c67c6ba3497a036ef7f788d9af8012",
+      "color_sha256": "97daff4fc353944587007580a4a96dda33c67c6ba3497a036ef7f788d9af8012",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "science/body.svg",
@@ -3613,7 +5412,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8031d7217e12000882fb76626bd791d0a8920eff96ca5fae59c2c9e3cb05f933",
+      "color_sha256": "964f4bf6ca07c786a9839d40dcc5f748d13e531cd82df3547552f26d036b418b",
+      "color_mode": "familiar-color"
     },
     {
       "source": "science/clinic.svg",
@@ -3627,7 +5433,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "d6b4b301e1b850cc1a6554bde4a79a76809db7f6ccf2b77a7d7b506b8c1927de",
+      "color_sha256": "1cdef4ab7e13fc39c163f189ad0900a0839e496958beae81c165a857bf8fa664",
+      "color_mode": "familiar-color"
     },
     {
       "source": "science/engine.svg",
@@ -3641,7 +5454,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "6a93b7576f3506cdabdf304a07871dbad735c4c11e7a5bb249144441582d4af2",
+      "color_sha256": "6a93b7576f3506cdabdf304a07871dbad735c4c11e7a5bb249144441582d4af2",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "science/fossil.svg",
@@ -3655,7 +5475,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "05f218570c269672356aaa3801ba22b800d64a295e6af63716134e2e68efd5f9",
+      "color_sha256": "05f218570c269672356aaa3801ba22b800d64a295e6af63716134e2e68efd5f9",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "science/gift.svg",
@@ -3669,7 +5496,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "0dbf83ba8ea6e543c281ceabc2258661f1468a25893a5eaa403f20dbd5e6ce4f",
+      "color_sha256": "0dbf83ba8ea6e543c281ceabc2258661f1468a25893a5eaa403f20dbd5e6ce4f",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "science/globe.svg",
@@ -3683,7 +5517,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e4aeec5885c5b2130c86ef6bffa0fc1096f824dc8e9b799c78ce86d6e93c50fe",
+      "color_sha256": "7c77c64e37f8bc6eeb96c1aa1192b08bf08e5b3875eb66a349497d1bf7ca7673",
+      "color_mode": "familiar-color"
     },
     {
       "source": "science/medicine.svg",
@@ -3697,7 +5538,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "b1c6a445cba2d2e49e34fdbf4ab54fc3968aa99c08f28fc6dfab56d77905cf23",
+      "color_sha256": "a8b6b63557fd4b2e1145d9274ff74d4282c22abfac109b1274813196303af08f",
+      "color_mode": "familiar-color"
     },
     {
       "source": "science/planet.svg",
@@ -3711,7 +5559,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "5836044008da88e751a13a2a26b5ed192e99f0b9e875db74cd8f2f5085772829",
+      "color_sha256": "4f42cf70a0331bd16f93415556ad496d4fbdccd66b91cd8d90a62bede44d1aa9",
+      "color_mode": "familiar-color"
     },
     {
       "source": "science/relic.svg",
@@ -3725,7 +5580,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "df4b74a67d14fd139c8487b7238114130f28b3d76b69e99cf75ff17edf77dea7",
+      "color_sha256": "df4b74a67d14fd139c8487b7238114130f28b3d76b69e99cf75ff17edf77dea7",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "science/reservoir.svg",
@@ -3739,7 +5601,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "2f3d1488e9f1222b895ac161b9567823d3d1c7bf2bbe74946a34d957c7ddca03",
+      "color_sha256": "2f3d1488e9f1222b895ac161b9567823d3d1c7bf2bbe74946a34d957c7ddca03",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "science/sensor.svg",
@@ -3753,7 +5622,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3bf4bea60af3362a2e1f1c6462e1253c3d883e2d10b7770d3fb08a89198074ed",
+      "color_sha256": "c736bff83f67e21069e216218877fd1c3606739c40e982216656e067d97381ad",
+      "color_mode": "familiar-color"
     },
     {
       "source": "science/server.svg",
@@ -3767,7 +5643,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "6b829f4b8bfe0b0f77207b5e0d9fbe619aab5dd7a70b1e86b2190095e18f08a7",
+      "color_sha256": "6b829f4b8bfe0b0f77207b5e0d9fbe619aab5dd7a70b1e86b2190095e18f08a7",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "science/tool.svg",
@@ -3781,7 +5664,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "9dcefdcac288da94bb416910aefd03bdc7b73fbfd4d64a5e88afe45a4ab95f7d",
+      "color_sha256": "8f74473204e2b6b7d89e172b8bcd570927470af6b3bd4814b9f5a9fe194f0999",
+      "color_mode": "familiar-color"
     },
     {
       "source": "science/vaccine.svg",
@@ -3795,7 +5685,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "18e2ba64f2bb957336e889455cf0e1d23726e05351b142357b90037e3937c259",
+      "color_sha256": "357837edc3a4f3642187d8878e72fe8df1e3bc7d142664f59fb3f767c647452a",
+      "color_mode": "familiar-color"
     },
     {
       "source": "science/windmill.svg",
@@ -3809,7 +5706,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "8c4cb87930c37630ef82b8502bcb08962f446a2d5079ef38ee8e3e8cba3045e2",
+      "color_sha256": "8c4cb87930c37630ef82b8502bcb08962f446a2d5079ef38ee8e3e8cba3045e2",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "sea_creatures/coral.svg",
@@ -3823,7 +5727,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "5fae58af84397b875eec97a2d32400125de39a889b16761abb348d1c39a866b4",
+      "color_sha256": "5fae58af84397b875eec97a2d32400125de39a889b16761abb348d1c39a866b4",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "sea_creatures/crab.svg",
@@ -3837,7 +5748,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "e2c147926c3f0f8400f0c7c1051ecc88e3b3348b3e3d065b89aa7d6825715692",
+      "color_sha256": "e2c147926c3f0f8400f0c7c1051ecc88e3b3348b3e3d065b89aa7d6825715692",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "sea_creatures/dolphin.svg",
@@ -3851,7 +5769,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "b314e971791bcf72a274a9e0111c8cbed6eea38bca66bf3c54dfd3ba97398c9f",
+      "color_sha256": "b314e971791bcf72a274a9e0111c8cbed6eea38bca66bf3c54dfd3ba97398c9f",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "sea_creatures/jellyfish.svg",
@@ -3865,7 +5790,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "f3e840156528e2768e49838adc3614647a51cce36879f2ce53047c394037d026",
+      "color_sha256": "f3e840156528e2768e49838adc3614647a51cce36879f2ce53047c394037d026",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "sea_creatures/lobster.svg",
@@ -3879,7 +5811,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "1016b67d79fb7f6686da76f5aab76f544e14efa1d2fbdd764d6bf70ffbc82efa",
+      "color_sha256": "1016b67d79fb7f6686da76f5aab76f544e14efa1d2fbdd764d6bf70ffbc82efa",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "sea_creatures/manta.svg",
@@ -3893,7 +5832,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "039a12b5c699958eb390e2df787ef007b064dbb22dfae89a3850c397db83ccbc",
+      "color_sha256": "039a12b5c699958eb390e2df787ef007b064dbb22dfae89a3850c397db83ccbc",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "sea_creatures/nautilus.svg",
@@ -3907,7 +5853,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "1453194c81de24728896f4af322d5fc05c7ea7d4ac6baab47fd547fce992c9b0",
+      "color_sha256": "1453194c81de24728896f4af322d5fc05c7ea7d4ac6baab47fd547fce992c9b0",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "sea_creatures/octopus.svg",
@@ -3921,7 +5874,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "b79adb23e198a75e725aaadc3a4410e2009ae533c33c47e3a2a7307061733b8e",
+      "color_sha256": "b79adb23e198a75e725aaadc3a4410e2009ae533c33c47e3a2a7307061733b8e",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "sea_creatures/seahorse.svg",
@@ -3935,7 +5895,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "78574040d7d8deaf1332c83ff24ab57bd2d95330693a683bd5e1efc86c7bd743",
+      "color_sha256": "78574040d7d8deaf1332c83ff24ab57bd2d95330693a683bd5e1efc86c7bd743",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "sea_creatures/shark.svg",
@@ -3949,7 +5916,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "fe9abe3e6825e25ad6540c8592006c708e2bcfcc8552140ff4d3d91744746b07",
+      "color_sha256": "fe9abe3e6825e25ad6540c8592006c708e2bcfcc8552140ff4d3d91744746b07",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "sea_creatures/turtle.svg",
@@ -3963,7 +5937,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "70694bcdf55b1c9a15e4e783d2df0004fb5c995a8d7293ca0a16289d24feb664",
+      "color_sha256": "70694bcdf55b1c9a15e4e783d2df0004fb5c995a8d7293ca0a16289d24feb664",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "sea_creatures/whale.svg",
@@ -3977,7 +5958,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "7683038600afb364c79d3efd3ef32e7e1390bdc2b315f9b8e9c1b3e0a9e2baac",
+      "color_sha256": "7683038600afb364c79d3efd3ef32e7e1390bdc2b315f9b8e9c1b3e0a9e2baac",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "weather_sky/breeze.svg",
@@ -3991,7 +5979,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "5c7021dff8c7ecc783b839447597a01aec9ad9465de5df388b41eb75b48b90b6",
+      "color_sha256": "5c7021dff8c7ecc783b839447597a01aec9ad9465de5df388b41eb75b48b90b6",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "weather_sky/drizzle.svg",
@@ -4005,7 +6000,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "9814bbb30aab7998bfd3fcc92ae7e0eb61c1698f3f742b74660818e1cf8368fd",
+      "color_sha256": "9814bbb30aab7998bfd3fcc92ae7e0eb61c1698f3f742b74660818e1cf8368fd",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "weather_sky/frost.svg",
@@ -4019,7 +6021,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "ffda2ba65cb7efd92e7cba77edc51c15f0f861869655fb7a1cd6bc1a1b7108d1",
+      "color_sha256": "ffda2ba65cb7efd92e7cba77edc51c15f0f861869655fb7a1cd6bc1a1b7108d1",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "weather_sky/heat.svg",
@@ -4033,7 +6042,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "10792130a7b7f4699f591cb229f2b31c7817c5f81600570d4eb4d55f77b8630a",
+      "color_sha256": "10792130a7b7f4699f591cb229f2b31c7817c5f81600570d4eb4d55f77b8630a",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "weather_sky/ice.svg",
@@ -4047,7 +6063,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "11e05ae0e312472ea8cb5999b90921599d56eca83eb32c8608765319b9c08881",
+      "color_sha256": "11e05ae0e312472ea8cb5999b90921599d56eca83eb32c8608765319b9c08881",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "weather_sky/lightning.svg",
@@ -4061,7 +6084,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "c9644b6a88e3c511677afd0cc666cd28f53c52ea249651aa02604910d8ecedc2",
+      "color_sha256": "c9644b6a88e3c511677afd0cc666cd28f53c52ea249651aa02604910d8ecedc2",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "weather_sky/puddle.svg",
@@ -4075,7 +6105,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "3aa2a1de9597519c98fc4615fa661b05b163ccbd6578f4a0f21609c00585526e",
+      "color_sha256": "3aa2a1de9597519c98fc4615fa661b05b163ccbd6578f4a0f21609c00585526e",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "weather_sky/shade.svg",
@@ -4089,7 +6126,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "53904e00e7d77b39f1f4ae8ad8e6ebafe680c0f593f31b4fd288ac253e41eb23",
+      "color_sha256": "53904e00e7d77b39f1f4ae8ad8e6ebafe680c0f593f31b4fd288ac253e41eb23",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "weather_sky/sky.svg",
@@ -4103,7 +6147,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "b22dc75996303e2acff524d68fdd94710041e3ea5218c5e7763fbcceea734c23",
+      "color_sha256": "b22dc75996303e2acff524d68fdd94710041e3ea5218c5e7763fbcceea734c23",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "weather_sky/storm.svg",
@@ -4117,7 +6168,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "1538703cdc0a085447e0c2cdc853cea02b1d3d06bb0d12b32e81a580164c81d4",
+      "color_sha256": "1538703cdc0a085447e0c2cdc853cea02b1d3d06bb0d12b32e81a580164c81d4",
+      "color_mode": "ink-fallback"
     },
     {
       "source": "weather_sky/thunder.svg",
@@ -4131,7 +6189,14 @@
       "ink_recognized_as": "",
       "color_recognized_as": "",
       "evidence": "",
-      "notes": ""
+      "notes": "",
+      "observer_age_months": null,
+      "label_hidden": false,
+      "choice_free": false,
+      "review_scale_css_px": 32,
+      "ink_sha256": "b71bc4332ff154fa9c384fc95efbe7aece3021e1e9292d77aa0dac554f9523e7",
+      "color_sha256": "b71bc4332ff154fa9c384fc95efbe7aece3021e1e9292d77aa0dac554f9523e7",
+      "color_mode": "ink-fallback"
     }
   ]
 }

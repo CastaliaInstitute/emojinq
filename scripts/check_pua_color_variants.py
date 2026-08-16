@@ -4,10 +4,12 @@
 from __future__ import annotations
 
 import colorsys
+import json
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from build_pua_color_variants import PIGMENTS
+from pua_familiar_referents import FAMILIAR_REFERENTS
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -68,9 +70,46 @@ def main() -> None:
     extra = sorted(path.stem for path in COLOR.glob("*.svg") if path.stem not in PIGMENTS)
     if extra:
         failures.append(f"unexpected PUA color variants: {', '.join(extra)}")
+    for pua_source, standard_source in sorted(FAMILIAR_REFERENTS.items()):
+        mono_path = ROOT / "assets" / "pua" / pua_source
+        color_path = ROOT / "assets" / "pua-color" / pua_source
+        if not color_path.exists():
+            failures.append(f"missing familiar PUA color variant: {color_path}")
+            continue
+        mono_root = ET.parse(mono_path).getroot()
+        color_root = ET.parse(color_path).getroot()
+        if color_root.get("data-color-variant") != "sumi-e-familiar-referent-color-v1":
+            failures.append(f"{color_path}: missing familiar referent color contract")
+        if color_root.get("data-pua-familiar-source") != standard_source.removesuffix(".svg"):
+            failures.append(f"{color_path}: wrong familiar color source")
+        if color_root.get("data-pua") != mono_root.get("data-pua") or color_root.get("viewBox") != "0 0 72 72":
+            failures.append(f"{color_path}: PUA identity or design square changed")
+        colored = [
+            element for element in shapes(color_root)
+            if "ink-color-wash" in element.get("class", "").split()
+        ]
+        if not colored:
+            failures.append(f"{color_path}: no familiar color wash marks")
+        if any(local(element.tag) in {"image", "filter"} for element in color_root.iter()):
+            failures.append(f"{color_path}: raster or filter effect is not allowed")
+    manifest_path = ROOT / "assets" / "pua-color" / "manifest.json"
+    if not manifest_path.exists():
+        failures.append(f"missing PUA color scope manifest: {manifest_path}")
+    else:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        expected_sources = {f"patterns/{name}.svg" for name in PIGMENTS} | set(FAMILIAR_REFERENTS)
+        if set(manifest.get("sources", [])) != expected_sources:
+            failures.append("PUA color scope manifest does not match generated assets")
+        if manifest.get("colored_count") != len(expected_sources):
+            failures.append("PUA color scope manifest count is inaccurate")
+        if manifest.get("fallback") != "ink":
+            failures.append("PUA color scope manifest must state the ink fallback")
     if failures:
         raise SystemExit("\n".join(failures))
-    print(f"PUA color variants checked: {len(PIGMENTS)} geometry-preserving familiar pigment washes")
+    print(
+        f"PUA color variants checked: {len(PIGMENTS)} geometry-preserving pigments and "
+        f"{len(FAMILIAR_REFERENTS)} familiar referent washes"
+    )
 
 
 if __name__ == "__main__":

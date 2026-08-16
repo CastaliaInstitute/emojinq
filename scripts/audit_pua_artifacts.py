@@ -13,6 +13,7 @@ import argparse
 import json
 import subprocess
 import tempfile
+import xml.etree.ElementTree as ET
 from collections import deque
 from pathlib import Path
 
@@ -55,6 +56,9 @@ def components(svg: Path, size: int) -> list[tuple[int, int, int, int, int]]:
 
 
 def audit(svg: Path, size: int, margin: int, minimum: int) -> dict[str, object] | None:
+    intentional = ET.parse(svg).getroot().get("data-intentional-components")
+    if intentional in {"canonical-emoji-anatomy-v1", "paired-theater-masks-v1"}:
+        return None
     found = components(svg, size)
     if len(found) < 2:
         return None

@@ -44,12 +44,19 @@ def main() -> None:
             "data-naturalist-construction",
             root.get("data-naturalist-construction", "toddler-pua-referent-anatomy-v1"),
         )
+        canonical_strength = bool(root.get("data-pua-familiar-source"))
         mark_index = 0
         for element in root.iter():
             if element.get("data-ink-role") != "line-source-tapered":
                 continue
             original = float(element.get("data-pua-toddler-source-width", element.get("stroke-width", "1")))
             element.set("data-pua-toddler-source-width", f"{original:.2f}")
+            if canonical_strength:
+                # The canonical source has already passed its standard-emoji
+                # toddler strengthening pass. Applying the PUA multiplier a
+                # second time destroys the active white space.
+                element.set("data-toddler-clarity", "canonical-referent-anatomy-v1")
+                continue
             multiplier, tone, brush_pass = (
                 (2.20, "#302e2a", "loaded-contour-v2"),
                 (2.40, "#262421", "loaded-contour-v2"),
