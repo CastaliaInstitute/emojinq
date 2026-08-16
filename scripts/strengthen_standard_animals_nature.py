@@ -62,7 +62,9 @@ def local(tag: str) -> str:
 
 def restore_front_face(path: Path, label: str) -> None:
     """Restore OpenMoji's readable front-facing species anatomy."""
-    source = OPENMOJI / path.name.lower()
+    # OpenMoji stores hexadecimal filenames in uppercase on Linux. macOS's
+    # default case-insensitive filesystem previously hid this release failure.
+    source = OPENMOJI / path.name.upper()
     if not source.exists():
         raise SystemExit(f"missing OpenMoji animal-face source: {source}")
     source_root = ET.parse(source).getroot()
