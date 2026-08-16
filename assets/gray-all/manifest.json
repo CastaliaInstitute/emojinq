@@ -49817,7 +49817,7 @@
   },
   {
     "name": "E000",
-    "label": "",
+    "label": "Goldfish",
     "source": "E000.svg",
     "codepoints": [
       57344
@@ -49827,7 +49827,7 @@
   },
   {
     "name": "E001",
-    "label": "",
+    "label": "Donkey",
     "source": "E001.svg",
     "codepoints": [
       57345
@@ -49837,7 +49837,7 @@
   },
   {
     "name": "E002",
-    "label": "",
+    "label": "Poppy",
     "source": "E002.svg",
     "codepoints": [
       57346
@@ -49847,7 +49847,7 @@
   },
   {
     "name": "E003",
-    "label": "",
+    "label": "Doe",
     "source": "E003.svg",
     "codepoints": [
       57347
@@ -49857,7 +49857,7 @@
   },
   {
     "name": "E004",
-    "label": "",
+    "label": "Spouting-Orca",
     "source": "E004.svg",
     "codepoints": [
       57348
@@ -49867,7 +49867,7 @@
   },
   {
     "name": "E006",
-    "label": "",
+    "label": "Narwhal",
     "source": "E006.svg",
     "codepoints": [
       57350
@@ -49877,7 +49877,7 @@
   },
   {
     "name": "E007",
-    "label": "",
+    "label": "Beluga",
     "source": "E007.svg",
     "codepoints": [
       57351
@@ -49887,7 +49887,7 @@
   },
   {
     "name": "E008",
-    "label": "",
+    "label": "Porpoise",
     "source": "E008.svg",
     "codepoints": [
       57352
@@ -49897,7 +49897,7 @@
   },
   {
     "name": "E009",
-    "label": "",
+    "label": "Pigeon",
     "source": "E009.svg",
     "codepoints": [
       57353
@@ -49907,7 +49907,7 @@
   },
   {
     "name": "E010",
-    "label": "",
+    "label": "Macaw",
     "source": "E010.svg",
     "codepoints": [
       57360
@@ -49917,7 +49917,7 @@
   },
   {
     "name": "E011",
-    "label": "",
+    "label": "Microbe",
     "source": "E011.svg",
     "codepoints": [
       57361
@@ -49927,7 +49927,7 @@
   },
   {
     "name": "E040",
-    "label": "",
+    "label": "Twitter",
     "source": "E040.svg",
     "codepoints": [
       57408
@@ -49937,7 +49937,7 @@
   },
   {
     "name": "E041",
-    "label": "",
+    "label": "Pinterest",
     "source": "E041.svg",
     "codepoints": [
       57409
@@ -49947,7 +49947,7 @@
   },
   {
     "name": "E042",
-    "label": "",
+    "label": "Facebook",
     "source": "E042.svg",
     "codepoints": [
       57410
@@ -49957,7 +49957,7 @@
   },
   {
     "name": "E043",
-    "label": "",
+    "label": "Instagram",
     "source": "E043.svg",
     "codepoints": [
       57411
@@ -49967,7 +49967,7 @@
   },
   {
     "name": "E044",
-    "label": "",
+    "label": "Youtube",
     "source": "E044.svg",
     "codepoints": [
       57412
@@ -49977,7 +49977,7 @@
   },
   {
     "name": "E045",
-    "label": "",
+    "label": "Github",
     "source": "E045.svg",
     "codepoints": [
       57413
@@ -49987,7 +49987,7 @@
   },
   {
     "name": "E046",
-    "label": "",
+    "label": "Linkedin",
     "source": "E046.svg",
     "codepoints": [
       57414
@@ -49997,7 +49997,7 @@
   },
   {
     "name": "E047",
-    "label": "",
+    "label": "Android",
     "source": "E047.svg",
     "codepoints": [
       57415
@@ -50007,7 +50007,7 @@
   },
   {
     "name": "E048",
-    "label": "",
+    "label": "Musicbrainz",
     "source": "E048.svg",
     "codepoints": [
       57416
@@ -50017,7 +50017,7 @@
   },
   {
     "name": "E049",
-    "label": "",
+    "label": "Openfoodfact",
     "source": "E049.svg",
     "codepoints": [
       57417
@@ -50027,7 +50027,7 @@
   },
   {
     "name": "E04A",
-    "label": "",
+    "label": "Openstreetmap",
     "source": "E04A.svg",
     "codepoints": [
       57418
@@ -50037,7 +50037,7 @@
   },
   {
     "name": "E04B",
-    "label": "",
+    "label": "Wikidata",
     "source": "E04B.svg",
     "codepoints": [
       57419
@@ -50047,7 +50047,7 @@
   },
   {
     "name": "E04C",
-    "label": "",
+    "label": "Dotnet",
     "source": "E04C.svg",
     "codepoints": [
       57420
@@ -50057,7 +50057,7 @@
   },
   {
     "name": "E04D",
-    "label": "",
+    "label": "Golang",
     "source": "E04D.svg",
     "codepoints": [
       57421
@@ -50067,7 +50067,7 @@
   },
   {
     "name": "E04E",
-    "label": "",
+    "label": "Kotlin",
     "source": "E04E.svg",
     "codepoints": [
       57422
@@ -50077,7 +50077,7 @@
   },
   {
     "name": "E04F",
-    "label": "",
+    "label": "Ruby",
     "source": "E04F.svg",
     "codepoints": [
       57423
@@ -50087,7 +50087,7 @@
   },
   {
     "name": "E050",
-    "label": "",
+    "label": "Firefox",
     "source": "E050.svg",
     "codepoints": [
       57424
@@ -50097,7 +50097,7 @@
   },
   {
     "name": "E051",
-    "label": "",
+    "label": "Safari",
     "source": "E051.svg",
     "codepoints": [
       57425
@@ -50107,7 +50107,7 @@
   },
   {
     "name": "E052",
-    "label": "",
+    "label": "Opera",
     "source": "E052.svg",
     "codepoints": [
       57426
@@ -50117,7 +50117,7 @@
   },
   {
     "name": "E053",
-    "label": "",
+    "label": "Chromium",
     "source": "E053.svg",
     "codepoints": [
       57427
@@ -50127,7 +50127,7 @@
   },
   {
     "name": "E054",
-    "label": "",
+    "label": "Chrome",
     "source": "E054.svg",
     "codepoints": [
       57428
@@ -50137,7 +50137,7 @@
   },
   {
     "name": "E055",
-    "label": "",
+    "label": "Netscape Navigator",
     "source": "E055.svg",
     "codepoints": [
       57429
@@ -50147,7 +50147,7 @@
   },
   {
     "name": "E056",
-    "label": "",
+    "label": "Internet Explorer",
     "source": "E056.svg",
     "codepoints": [
       57430
@@ -50157,7 +50157,7 @@
   },
   {
     "name": "E057",
-    "label": "",
+    "label": "Edge",
     "source": "E057.svg",
     "codepoints": [
       57431
@@ -50167,7 +50167,7 @@
   },
   {
     "name": "E058",
-    "label": "",
+    "label": "Inaturalist",
     "source": "E058.svg",
     "codepoints": [
       57432
@@ -50177,7 +50177,7 @@
   },
   {
     "name": "E059",
-    "label": "",
+    "label": "Gitlab",
     "source": "E059.svg",
     "codepoints": [
       57433
@@ -50187,7 +50187,7 @@
   },
   {
     "name": "E05A",
-    "label": "",
+    "label": "Mastodon",
     "source": "E05A.svg",
     "codepoints": [
       57434
@@ -50197,7 +50197,7 @@
   },
   {
     "name": "E05B",
-    "label": "",
+    "label": "Peertube",
     "source": "E05B.svg",
     "codepoints": [
       57435
@@ -50207,7 +50207,7 @@
   },
   {
     "name": "E05C",
-    "label": "",
+    "label": "Pixelfed",
     "source": "E05C.svg",
     "codepoints": [
       57436
@@ -50217,7 +50217,7 @@
   },
   {
     "name": "E05D",
-    "label": "",
+    "label": "Signal",
     "source": "E05D.svg",
     "codepoints": [
       57437
@@ -50227,7 +50227,7 @@
   },
   {
     "name": "E05E",
-    "label": "",
+    "label": "Element",
     "source": "E05E.svg",
     "codepoints": [
       57438
@@ -50237,7 +50237,7 @@
   },
   {
     "name": "E05F",
-    "label": "",
+    "label": "Jellyfin",
     "source": "E05F.svg",
     "codepoints": [
       57439
@@ -50247,7 +50247,7 @@
   },
   {
     "name": "E060",
-    "label": "",
+    "label": "Reddit",
     "source": "E060.svg",
     "codepoints": [
       57440
@@ -50257,7 +50257,7 @@
   },
   {
     "name": "E061",
-    "label": "",
+    "label": "Discord",
     "source": "E061.svg",
     "codepoints": [
       57441
@@ -50267,7 +50267,7 @@
   },
   {
     "name": "E062",
-    "label": "",
+    "label": "C",
     "source": "E062.svg",
     "codepoints": [
       57442
@@ -50277,7 +50277,7 @@
   },
   {
     "name": "E063",
-    "label": "",
+    "label": "Cplusplus",
     "source": "E063.svg",
     "codepoints": [
       57443
@@ -50287,7 +50287,7 @@
   },
   {
     "name": "E064",
-    "label": "",
+    "label": "Csharp",
     "source": "E064.svg",
     "codepoints": [
       57444
@@ -50297,7 +50297,7 @@
   },
   {
     "name": "E065",
-    "label": "",
+    "label": "Chrome Canary",
     "source": "E065.svg",
     "codepoints": [
       57445
@@ -50307,7 +50307,7 @@
   },
   {
     "name": "E066",
-    "label": "",
+    "label": "Firefox Developer",
     "source": "E066.svg",
     "codepoints": [
       57446
@@ -50317,7 +50317,7 @@
   },
   {
     "name": "E067",
-    "label": "",
+    "label": "Firefox Nightly",
     "source": "E067.svg",
     "codepoints": [
       57447
@@ -50327,7 +50327,7 @@
   },
   {
     "name": "E068",
-    "label": "",
+    "label": "Javascript",
     "source": "E068.svg",
     "codepoints": [
       57448
@@ -50337,7 +50337,7 @@
   },
   {
     "name": "E069",
-    "label": "",
+    "label": "Typescript",
     "source": "E069.svg",
     "codepoints": [
       57449
@@ -50347,7 +50347,7 @@
   },
   {
     "name": "E06A",
-    "label": "",
+    "label": "Webassembly",
     "source": "E06A.svg",
     "codepoints": [
       57450
@@ -50357,7 +50357,7 @@
   },
   {
     "name": "E06B",
-    "label": "",
+    "label": "Svg",
     "source": "E06B.svg",
     "codepoints": [
       57451
@@ -50367,7 +50367,7 @@
   },
   {
     "name": "E06C",
-    "label": "",
+    "label": "Markdown",
     "source": "E06C.svg",
     "codepoints": [
       57452
@@ -50377,7 +50377,7 @@
   },
   {
     "name": "E06D",
-    "label": "",
+    "label": "Winrar",
     "source": "E06D.svg",
     "codepoints": [
       57453
@@ -50387,7 +50387,7 @@
   },
   {
     "name": "E06E",
-    "label": "",
+    "label": "Facetime",
     "source": "E06E.svg",
     "codepoints": [
       57454
@@ -50397,7 +50397,7 @@
   },
   {
     "name": "E06F",
-    "label": "",
+    "label": "Ecosia Browser",
     "source": "E06F.svg",
     "codepoints": [
       57455
@@ -50407,7 +50407,7 @@
   },
   {
     "name": "E070",
-    "label": "",
+    "label": "Bluesky",
     "source": "E070.svg",
     "codepoints": [
       57456
@@ -50417,7 +50417,7 @@
   },
   {
     "name": "E080",
-    "label": "",
+    "label": "Assembly Point",
     "source": "E080.svg",
     "codepoints": [
       57472
@@ -50427,7 +50427,7 @@
   },
   {
     "name": "E081",
-    "label": "",
+    "label": "Assembly Group",
     "source": "E081.svg",
     "codepoints": [
       57473
@@ -50437,7 +50437,7 @@
   },
   {
     "name": "E082",
-    "label": "",
+    "label": "Authority Instruction",
     "source": "E082.svg",
     "codepoints": [
       57474
@@ -50447,7 +50447,7 @@
   },
   {
     "name": "E083",
-    "label": "",
+    "label": "Help Others",
     "source": "E083.svg",
     "codepoints": [
       57475
@@ -50457,7 +50457,7 @@
   },
   {
     "name": "E084",
-    "label": "",
+    "label": "Drop Cover Hold",
     "source": "E084.svg",
     "codepoints": [
       57476
@@ -50467,7 +50467,7 @@
   },
   {
     "name": "E085",
-    "label": "",
+    "label": "Evacuate",
     "source": "E085.svg",
     "codepoints": [
       57477
@@ -50477,7 +50477,7 @@
   },
   {
     "name": "E086",
-    "label": "",
+    "label": "Evacuate Vertical",
     "source": "E086.svg",
     "codepoints": [
       57478
@@ -50487,7 +50487,7 @@
   },
   {
     "name": "E087",
-    "label": "",
+    "label": "Evacuate Downstairs",
     "source": "E087.svg",
     "codepoints": [
       57479
@@ -50497,7 +50497,7 @@
   },
   {
     "name": "E088",
-    "label": "",
+    "label": "Evacuate To Shelter",
     "source": "E088.svg",
     "codepoints": [
       57480
@@ -50507,7 +50507,7 @@
   },
   {
     "name": "E089",
-    "label": "",
+    "label": "Structural Fire",
     "source": "E089.svg",
     "codepoints": [
       57481
@@ -50517,7 +50517,7 @@
   },
   {
     "name": "E08A",
-    "label": "",
+    "label": "Wild Fire",
     "source": "E08A.svg",
     "codepoints": [
       57482
@@ -50527,7 +50527,7 @@
   },
   {
     "name": "E08B",
-    "label": "",
+    "label": "Evacuate Fire",
     "source": "E08B.svg",
     "codepoints": [
       57483
@@ -50537,7 +50537,7 @@
   },
   {
     "name": "E08C",
-    "label": "",
+    "label": "Warning Tsunami",
     "source": "E08C.svg",
     "codepoints": [
       57484
@@ -50547,7 +50547,7 @@
   },
   {
     "name": "E08D",
-    "label": "",
+    "label": "Warning Volcano",
     "source": "E08D.svg",
     "codepoints": [
       57485
@@ -50557,7 +50557,7 @@
   },
   {
     "name": "E08E",
-    "label": "",
+    "label": "Warning Fire",
     "source": "E08E.svg",
     "codepoints": [
       57486
@@ -50567,7 +50567,7 @@
   },
   {
     "name": "E08F",
-    "label": "",
+    "label": "Authority",
     "source": "E08F.svg",
     "codepoints": [
       57487
@@ -50577,7 +50577,7 @@
   },
   {
     "name": "E090",
-    "label": "",
+    "label": "First Aid",
     "source": "E090.svg",
     "codepoints": [
       57488
@@ -50587,7 +50587,7 @@
   },
   {
     "name": "E091",
-    "label": "",
+    "label": "Flagged Point",
     "source": "E091.svg",
     "codepoints": [
       57489
@@ -50597,7 +50597,7 @@
   },
   {
     "name": "E092",
-    "label": "",
+    "label": "Flagged Building",
     "source": "E092.svg",
     "codepoints": [
       57490
@@ -50607,7 +50607,7 @@
   },
   {
     "name": "E093",
-    "label": "",
+    "label": "Authority Building",
     "source": "E093.svg",
     "codepoints": [
       57491
@@ -50617,7 +50617,7 @@
   },
   {
     "name": "E094",
-    "label": "",
+    "label": "Signpost",
     "source": "E094.svg",
     "codepoints": [
       57492
@@ -50627,7 +50627,7 @@
   },
   {
     "name": "E095",
-    "label": "",
+    "label": "Mobile Info",
     "source": "E095.svg",
     "codepoints": [
       57493
@@ -50637,7 +50637,7 @@
   },
   {
     "name": "E096",
-    "label": "",
+    "label": "Mobile Message",
     "source": "E096.svg",
     "codepoints": [
       57494
@@ -50647,7 +50647,7 @@
   },
   {
     "name": "E097",
-    "label": "",
+    "label": "Charge Plug",
     "source": "E097.svg",
     "codepoints": [
       57495
@@ -50657,7 +50657,7 @@
   },
   {
     "name": "E098",
-    "label": "",
+    "label": "Shelter",
     "source": "E098.svg",
     "codepoints": [
       57496
@@ -50667,7 +50667,7 @@
   },
   {
     "name": "E099",
-    "label": "",
+    "label": "Volcano Eruption",
     "source": "E099.svg",
     "codepoints": [
       57497
@@ -50677,7 +50677,7 @@
   },
   {
     "name": "E09A",
-    "label": "",
+    "label": "Volcano Ashes",
     "source": "E09A.svg",
     "codepoints": [
       57498
@@ -50687,7 +50687,7 @@
   },
   {
     "name": "E09B",
-    "label": "",
+    "label": "Tsunami",
     "source": "E09B.svg",
     "codepoints": [
       57499
@@ -50697,7 +50697,7 @@
   },
   {
     "name": "E09C",
-    "label": "",
+    "label": "Earthquake",
     "source": "E09C.svg",
     "codepoints": [
       57500
@@ -50707,7 +50707,7 @@
   },
   {
     "name": "E09E",
-    "label": "",
+    "label": "Avalanche",
     "source": "E09E.svg",
     "codepoints": [
       57502
@@ -50717,7 +50717,7 @@
   },
   {
     "name": "E09F",
-    "label": "",
+    "label": "Flood",
     "source": "E09F.svg",
     "codepoints": [
       57503
@@ -50727,7 +50727,7 @@
   },
   {
     "name": "E0A0",
-    "label": "",
+    "label": "North",
     "source": "E0A0.svg",
     "codepoints": [
       57504
@@ -50737,7 +50737,7 @@
   },
   {
     "name": "E0A1",
-    "label": "",
+    "label": "Transmission",
     "source": "E0A1.svg",
     "codepoints": [
       57505
@@ -50747,7 +50747,7 @@
   },
   {
     "name": "E0A2",
-    "label": "",
+    "label": "Sos Stencil",
     "source": "E0A2.svg",
     "codepoints": [
       57506
@@ -50757,7 +50757,7 @@
   },
   {
     "name": "E0A3",
-    "label": "",
+    "label": "Ok Stencil",
     "source": "E0A3.svg",
     "codepoints": [
       57507
@@ -50767,7 +50767,7 @@
   },
   {
     "name": "E0A4",
-    "label": "",
+    "label": "No Stencil",
     "source": "E0A4.svg",
     "codepoints": [
       57508
@@ -50777,7 +50777,7 @@
   },
   {
     "name": "E0A5",
-    "label": "",
+    "label": "Warning Strip",
     "source": "E0A5.svg",
     "codepoints": [
       57509
@@ -50787,7 +50787,7 @@
   },
   {
     "name": "E0A6",
-    "label": "",
+    "label": "Warning Strip Right",
     "source": "E0A6.svg",
     "codepoints": [
       57510
@@ -50797,7 +50797,7 @@
   },
   {
     "name": "E0A7",
-    "label": "",
+    "label": "Arrow Turn Right",
     "source": "E0A7.svg",
     "codepoints": [
       57511
@@ -50807,7 +50807,7 @@
   },
   {
     "name": "E0A8",
-    "label": "",
+    "label": "Emergency Exit Door",
     "source": "E0A8.svg",
     "codepoints": [
       57512
@@ -50817,7 +50817,7 @@
   },
   {
     "name": "E0A9",
-    "label": "",
+    "label": "Location Indicator Red",
     "source": "E0A9.svg",
     "codepoints": [
       57513
@@ -50827,7 +50827,7 @@
   },
   {
     "name": "E0AA",
-    "label": "",
+    "label": "Electric Plug Red",
     "source": "E0AA.svg",
     "codepoints": [
       57514
@@ -50837,7 +50837,7 @@
   },
   {
     "name": "E0AB",
-    "label": "",
+    "label": "Timer",
     "source": "E0AB.svg",
     "codepoints": [
       57515
@@ -50873,7 +50873,7 @@
   },
   {
     "name": "E0AC",
-    "label": "",
+    "label": "Person With Medical Mask",
     "source": "E0AC.svg",
     "codepoints": [
       57516
@@ -50909,7 +50909,7 @@
   },
   {
     "name": "E0AD",
-    "label": "",
+    "label": "Person Sneezing Into Elbow",
     "source": "E0AD.svg",
     "codepoints": [
       57517
@@ -50919,7 +50919,7 @@
   },
   {
     "name": "E0AE",
-    "label": "",
+    "label": "Disinfect Surface",
     "source": "E0AE.svg",
     "codepoints": [
       57518
@@ -50929,7 +50929,7 @@
   },
   {
     "name": "E0AF",
-    "label": "",
+    "label": "Quarantine",
     "source": "E0AF.svg",
     "codepoints": [
       57519
@@ -50939,7 +50939,7 @@
   },
   {
     "name": "E0B0",
-    "label": "",
+    "label": "Social Distancing",
     "source": "E0B0.svg",
     "codepoints": [
       57520
@@ -50949,7 +50949,7 @@
   },
   {
     "name": "E0B1",
-    "label": "",
+    "label": "Sanitizer Spray",
     "source": "E0B1.svg",
     "codepoints": [
       57521
@@ -50959,7 +50959,7 @@
   },
   {
     "name": "E0B2",
-    "label": "",
+    "label": "Wash Hands",
     "source": "E0B2.svg",
     "codepoints": [
       57522
@@ -50969,7 +50969,7 @@
   },
   {
     "name": "E0B3",
-    "label": "",
+    "label": "Temperature Taking",
     "source": "E0B3.svg",
     "codepoints": [
       57523
@@ -50979,7 +50979,7 @@
   },
   {
     "name": "E0B4",
-    "label": "",
+    "label": "Medical Gloves",
     "source": "E0B4.svg",
     "codepoints": [
       57524
@@ -50989,7 +50989,7 @@
   },
   {
     "name": "E0C0",
-    "label": "",
+    "label": "Half Orange Fruit",
     "source": "E0C0.svg",
     "codepoints": [
       57536
@@ -50999,7 +50999,7 @@
   },
   {
     "name": "E0C1",
-    "label": "",
+    "label": "Maultasche",
     "source": "E0C1.svg",
     "codepoints": [
       57537
@@ -51009,7 +51009,7 @@
   },
   {
     "name": "E0C2",
-    "label": "",
+    "label": "Lentils With Spaetzle",
     "source": "E0C2.svg",
     "codepoints": [
       57538
@@ -51019,7 +51019,7 @@
   },
   {
     "name": "E0C3",
-    "label": "",
+    "label": "Pretzel",
     "source": "E0C3.svg",
     "codepoints": [
       57539
@@ -51029,7 +51029,7 @@
   },
   {
     "name": "E0C4",
-    "label": "",
+    "label": "Pomegranate",
     "source": "E0C4.svg",
     "codepoints": [
       57540
@@ -51039,7 +51039,7 @@
   },
   {
     "name": "E0C5",
-    "label": "",
+    "label": "Latte Macchiato",
     "source": "E0C5.svg",
     "codepoints": [
       57541
@@ -51049,7 +51049,7 @@
   },
   {
     "name": "E0C6",
-    "label": "",
+    "label": "Roasted Coffee Bean",
     "source": "E0C6.svg",
     "codepoints": [
       57542
@@ -51059,7 +51059,7 @@
   },
   {
     "name": "E0C7",
-    "label": "",
+    "label": "Cake",
     "source": "E0C7.svg",
     "codepoints": [
       57543
@@ -51069,7 +51069,7 @@
   },
   {
     "name": "E0C8",
-    "label": "",
+    "label": "Champignon Brown",
     "source": "E0C8.svg",
     "codepoints": [
       57544
@@ -51079,7 +51079,7 @@
   },
   {
     "name": "E0C9",
-    "label": "",
+    "label": "Champignon White",
     "source": "E0C9.svg",
     "codepoints": [
       57545
@@ -51089,7 +51089,7 @@
   },
   {
     "name": "E0CA",
-    "label": "",
+    "label": "Boule Bread",
     "source": "E0CA.svg",
     "codepoints": [
       57546
@@ -51099,7 +51099,7 @@
   },
   {
     "name": "E0CB",
-    "label": "",
+    "label": "Glass Bottle",
     "source": "E0CB.svg",
     "codepoints": [
       57547
@@ -51109,7 +51109,7 @@
   },
   {
     "name": "E0CC",
-    "label": "",
+    "label": "Plastic Bottle",
     "source": "E0CC.svg",
     "codepoints": [
       57548
@@ -51119,7 +51119,7 @@
   },
   {
     "name": "E0FF",
-    "label": "",
+    "label": "Ubuntu",
     "source": "E0FF.svg",
     "codepoints": [
       57599
@@ -51129,7 +51129,7 @@
   },
   {
     "name": "E100",
-    "label": "",
+    "label": "Tap",
     "source": "E100.svg",
     "codepoints": [
       57600
@@ -51139,7 +51139,7 @@
   },
   {
     "name": "E101",
-    "label": "",
+    "label": "Double Tap",
     "source": "E101.svg",
     "codepoints": [
       57601
@@ -51149,7 +51149,7 @@
   },
   {
     "name": "E102",
-    "label": "",
+    "label": "Three Finger Operation",
     "source": "E102.svg",
     "codepoints": [
       57602
@@ -51159,7 +51159,7 @@
   },
   {
     "name": "E103",
-    "label": "",
+    "label": "Move",
     "source": "E103.svg",
     "codepoints": [
       57603
@@ -51169,7 +51169,7 @@
   },
   {
     "name": "E104",
-    "label": "",
+    "label": "Scroll",
     "source": "E104.svg",
     "codepoints": [
       57604
@@ -51179,7 +51179,7 @@
   },
   {
     "name": "E105",
-    "label": "",
+    "label": "Swipe",
     "source": "E105.svg",
     "codepoints": [
       57605
@@ -51189,7 +51189,7 @@
   },
   {
     "name": "E106",
-    "label": "",
+    "label": "Scroll Horizontal",
     "source": "E106.svg",
     "codepoints": [
       57606
@@ -51199,7 +51199,7 @@
   },
   {
     "name": "E107",
-    "label": "",
+    "label": "Page Move",
     "source": "E107.svg",
     "codepoints": [
       57607
@@ -51209,7 +51209,7 @@
   },
   {
     "name": "E108",
-    "label": "",
+    "label": "Swipe Left",
     "source": "E108.svg",
     "codepoints": [
       57608
@@ -51219,7 +51219,7 @@
   },
   {
     "name": "E109",
-    "label": "",
+    "label": "Swipe Up",
     "source": "E109.svg",
     "codepoints": [
       57609
@@ -51229,7 +51229,7 @@
   },
   {
     "name": "E10A",
-    "label": "",
+    "label": "Swipe Right",
     "source": "E10A.svg",
     "codepoints": [
       57610
@@ -51239,7 +51239,7 @@
   },
   {
     "name": "E10B",
-    "label": "",
+    "label": "Swipe Down",
     "source": "E10B.svg",
     "codepoints": [
       57611
@@ -51249,7 +51249,7 @@
   },
   {
     "name": "E10C",
-    "label": "",
+    "label": "Finger Pushing Button",
     "source": "E10C.svg",
     "codepoints": [
       57612
@@ -51259,7 +51259,7 @@
   },
   {
     "name": "E10D",
-    "label": "",
+    "label": "Exit",
     "source": "E10D.svg",
     "codepoints": [
       57613
@@ -51269,7 +51269,7 @@
   },
   {
     "name": "E140",
-    "label": "",
+    "label": "First Aid Kit",
     "source": "E140.svg",
     "codepoints": [
       57664
@@ -51279,7 +51279,7 @@
   },
   {
     "name": "E141",
-    "label": "",
+    "label": "Armchair",
     "source": "E141.svg",
     "codepoints": [
       57665
@@ -51289,7 +51289,7 @@
   },
   {
     "name": "E142",
-    "label": "",
+    "label": "Picture",
     "source": "E142.svg",
     "codepoints": [
       57666
@@ -51299,7 +51299,7 @@
   },
   {
     "name": "E143",
-    "label": "",
+    "label": "Lighter",
     "source": "E143.svg",
     "codepoints": [
       57667
@@ -51309,7 +51309,7 @@
   },
   {
     "name": "E144",
-    "label": "",
+    "label": "Outlet",
     "source": "E144.svg",
     "codepoints": [
       57668
@@ -51319,7 +51319,7 @@
   },
   {
     "name": "E145",
-    "label": "",
+    "label": "Guy Fawkes Mask",
     "source": "E145.svg",
     "codepoints": [
       57669
@@ -51329,7 +51329,7 @@
   },
   {
     "name": "E146",
-    "label": "",
+    "label": "Sp\u00e4tzlepresse",
     "source": "E146.svg",
     "codepoints": [
       57670
@@ -51339,7 +51339,7 @@
   },
   {
     "name": "E147",
-    "label": "",
+    "label": "European Name Badge",
     "source": "E147.svg",
     "codepoints": [
       57671
@@ -51349,7 +51349,7 @@
   },
   {
     "name": "E148",
-    "label": "",
+    "label": "Kehrwoche",
     "source": "E148.svg",
     "codepoints": [
       57672
@@ -51359,7 +51359,7 @@
   },
   {
     "name": "E149",
-    "label": "",
+    "label": "Tardis",
     "source": "E149.svg",
     "codepoints": [
       57673
@@ -51369,7 +51369,7 @@
   },
   {
     "name": "E14A",
-    "label": "",
+    "label": "Motorbike Helmet",
     "source": "E14A.svg",
     "codepoints": [
       57674
@@ -51379,7 +51379,7 @@
   },
   {
     "name": "E150",
-    "label": "",
+    "label": "Espresso Machine",
     "source": "E150.svg",
     "codepoints": [
       57680
@@ -51389,7 +51389,7 @@
   },
   {
     "name": "E151",
-    "label": "",
+    "label": "French Press",
     "source": "E151.svg",
     "codepoints": [
       57681
@@ -51399,7 +51399,7 @@
   },
   {
     "name": "E152",
-    "label": "",
+    "label": "Moka Pot",
     "source": "E152.svg",
     "codepoints": [
       57682
@@ -51409,7 +51409,7 @@
   },
   {
     "name": "E153",
-    "label": "",
+    "label": "Milk Jug",
     "source": "E153.svg",
     "codepoints": [
       57683
@@ -51419,7 +51419,7 @@
   },
   {
     "name": "E154",
-    "label": "",
+    "label": "Electric Coffee Percolator",
     "source": "E154.svg",
     "codepoints": [
       57684
@@ -51429,7 +51429,7 @@
   },
   {
     "name": "E155",
-    "label": "",
+    "label": "Drip Coffee Maker",
     "source": "E155.svg",
     "codepoints": [
       57685
@@ -51439,7 +51439,7 @@
   },
   {
     "name": "E156",
-    "label": "",
+    "label": "Coffee Grinder",
     "source": "E156.svg",
     "codepoints": [
       57686
@@ -51449,7 +51449,7 @@
   },
   {
     "name": "E157",
-    "label": "",
+    "label": "Horse Jumping Hurdle",
     "source": "E157.svg",
     "codepoints": [
       57687
@@ -51459,7 +51459,7 @@
   },
   {
     "name": "E181",
-    "label": "",
+    "label": "Drunk Person",
     "source": "E181.svg",
     "codepoints": [
       57729
@@ -51469,7 +51469,7 @@
   },
   {
     "name": "E182",
-    "label": "",
+    "label": "Person With Dog",
     "source": "E182.svg",
     "codepoints": [
       57730
@@ -51479,7 +51479,7 @@
   },
   {
     "name": "E183",
-    "label": "",
+    "label": "Trump",
     "source": "E183.svg",
     "codepoints": [
       57731
@@ -51489,7 +51489,7 @@
   },
   {
     "name": "E184",
-    "label": "",
+    "label": "Horse Riding",
     "source": "E184.svg",
     "codepoints": [
       57732
@@ -51499,7 +51499,7 @@
   },
   {
     "name": "E185",
-    "label": "",
+    "label": "Barista",
     "source": "E185.svg",
     "codepoints": [
       57733
@@ -51509,7 +51509,7 @@
   },
   {
     "name": "E186",
-    "label": "",
+    "label": "Man Barista",
     "source": "E186.svg",
     "codepoints": [
       57734
@@ -51519,7 +51519,7 @@
   },
   {
     "name": "E187",
-    "label": "",
+    "label": "Woman Barista",
     "source": "E187.svg",
     "codepoints": [
       57735
@@ -51529,7 +51529,7 @@
   },
   {
     "name": "E188",
-    "label": "",
+    "label": "Greta Thunberg",
     "source": "E188.svg",
     "codepoints": [
       57736
@@ -51539,7 +51539,7 @@
   },
   {
     "name": "E189",
-    "label": "",
+    "label": "Windsurfing",
     "source": "E189.svg",
     "codepoints": [
       57737
@@ -51549,7 +51549,7 @@
   },
   {
     "name": "E1C0",
-    "label": "",
+    "label": "Wireframes",
     "source": "E1C0.svg",
     "codepoints": [
       57792
@@ -51559,7 +51559,7 @@
   },
   {
     "name": "E1C1",
-    "label": "",
+    "label": "Code Editor",
     "source": "E1C1.svg",
     "codepoints": [
       57793
@@ -51569,7 +51569,7 @@
   },
   {
     "name": "E1C2",
-    "label": "",
+    "label": "Autonomous Car",
     "source": "E1C2.svg",
     "codepoints": [
       57794
@@ -51579,7 +51579,7 @@
   },
   {
     "name": "E1C3",
-    "label": "",
+    "label": "Switch",
     "source": "E1C3.svg",
     "codepoints": [
       57795
@@ -51589,7 +51589,7 @@
   },
   {
     "name": "E1C4",
-    "label": "",
+    "label": "Surveillance",
     "source": "E1C4.svg",
     "codepoints": [
       57796
@@ -51599,7 +51599,7 @@
   },
   {
     "name": "E1C6",
-    "label": "",
+    "label": "Augmented Reality",
     "source": "E1C6.svg",
     "codepoints": [
       57798
@@ -51609,7 +51609,7 @@
   },
   {
     "name": "E1C7",
-    "label": "",
+    "label": "Led",
     "source": "E1C7.svg",
     "codepoints": [
       57799
@@ -51619,7 +51619,7 @@
   },
   {
     "name": "E1C8",
-    "label": "",
+    "label": "Motor",
     "source": "E1C8.svg",
     "codepoints": [
       57800
@@ -51629,7 +51629,7 @@
   },
   {
     "name": "E1C9",
-    "label": "",
+    "label": "Raspberry Pi",
     "source": "E1C9.svg",
     "codepoints": [
       57801
@@ -51639,7 +51639,7 @@
   },
   {
     "name": "E1CA",
-    "label": "",
+    "label": "Virtual Reality",
     "source": "E1CA.svg",
     "codepoints": [
       57802
@@ -51649,7 +51649,7 @@
   },
   {
     "name": "E1CB",
-    "label": "",
+    "label": "Cable",
     "source": "E1CB.svg",
     "codepoints": [
       57803
@@ -51659,7 +51659,7 @@
   },
   {
     "name": "E1CC",
-    "label": "",
+    "label": "Tablet",
     "source": "E1CC.svg",
     "codepoints": [
       57804
@@ -51669,7 +51669,7 @@
   },
   {
     "name": "E1CD",
-    "label": "",
+    "label": "Gps",
     "source": "E1CD.svg",
     "codepoints": [
       57805
@@ -51679,7 +51679,7 @@
   },
   {
     "name": "E1CE",
-    "label": "",
+    "label": "Smartwatch",
     "source": "E1CE.svg",
     "codepoints": [
       57806
@@ -51689,7 +51689,7 @@
   },
   {
     "name": "E1CF",
-    "label": "",
+    "label": "Washing Machine",
     "source": "E1CF.svg",
     "codepoints": [
       57807
@@ -51699,7 +51699,7 @@
   },
   {
     "name": "E1D0",
-    "label": "",
+    "label": "Ibeacon",
     "source": "E1D0.svg",
     "codepoints": [
       57808
@@ -51709,7 +51709,7 @@
   },
   {
     "name": "E1D1",
-    "label": "",
+    "label": "Keyboard",
     "source": "E1D1.svg",
     "codepoints": [
       57809
@@ -51719,7 +51719,7 @@
   },
   {
     "name": "E1D2",
-    "label": "",
+    "label": "Drone",
     "source": "E1D2.svg",
     "codepoints": [
       57810
@@ -51729,7 +51729,7 @@
   },
   {
     "name": "E1D3",
-    "label": "",
+    "label": "Arduino",
     "source": "E1D3.svg",
     "codepoints": [
       57811
@@ -51739,7 +51739,7 @@
   },
   {
     "name": "E1D4",
-    "label": "",
+    "label": "Wire",
     "source": "E1D4.svg",
     "codepoints": [
       57812
@@ -51749,7 +51749,7 @@
   },
   {
     "name": "E1D5",
-    "label": "",
+    "label": "Potentiometer",
     "source": "E1D5.svg",
     "codepoints": [
       57813
@@ -51759,7 +51759,7 @@
   },
   {
     "name": "E1D6",
-    "label": "",
+    "label": "Solar Cell",
     "source": "E1D6.svg",
     "codepoints": [
       57814
@@ -51769,7 +51769,7 @@
   },
   {
     "name": "E1D7",
-    "label": "",
+    "label": "Circuit",
     "source": "E1D7.svg",
     "codepoints": [
       57815
@@ -51779,7 +51779,7 @@
   },
   {
     "name": "E1D8",
-    "label": "",
+    "label": "Qr Code",
     "source": "E1D8.svg",
     "codepoints": [
       57816
@@ -51789,7 +51789,7 @@
   },
   {
     "name": "E1D9",
-    "label": "",
+    "label": "Barcode",
     "source": "E1D9.svg",
     "codepoints": [
       57817
@@ -51799,7 +51799,7 @@
   },
   {
     "name": "E1DA",
-    "label": "",
+    "label": "Ai Hand",
     "source": "E1DA.svg",
     "codepoints": [
       57818
@@ -51809,7 +51809,7 @@
   },
   {
     "name": "E200",
-    "label": "",
+    "label": "Cafeteria",
     "source": "E200.svg",
     "codepoints": [
       57856
@@ -51819,7 +51819,7 @@
   },
   {
     "name": "E201",
-    "label": "",
+    "label": "Emergency Exit",
     "source": "E201.svg",
     "codepoints": [
       57857
@@ -51829,7 +51829,7 @@
   },
   {
     "name": "E202",
-    "label": "",
+    "label": "Stairway",
     "source": "E202.svg",
     "codepoints": [
       57858
@@ -51839,7 +51839,7 @@
   },
   {
     "name": "E203",
-    "label": "",
+    "label": "Town",
     "source": "E203.svg",
     "codepoints": [
       57859
@@ -51849,7 +51849,7 @@
   },
   {
     "name": "E204",
-    "label": "",
+    "label": "Elevator",
     "source": "E204.svg",
     "codepoints": [
       57860
@@ -51859,7 +51859,7 @@
   },
   {
     "name": "E205",
-    "label": "",
+    "label": "Eiffel Tower",
     "source": "E205.svg",
     "codepoints": [
       57861
@@ -51869,7 +51869,7 @@
   },
   {
     "name": "E206",
-    "label": "",
+    "label": "Parking Garage",
     "source": "E206.svg",
     "codepoints": [
       57862
@@ -51879,7 +51879,7 @@
   },
   {
     "name": "E207",
-    "label": "",
+    "label": "Schw\u00e4bisch Gm\u00fcnd Forum Gold Und Silber",
     "source": "E207.svg",
     "codepoints": [
       57863
@@ -51889,7 +51889,7 @@
   },
   {
     "name": "E208",
-    "label": "",
+    "label": "Schw\u00e4bisch Gm\u00fcnd F\u00fcnfknopfturm",
     "source": "E208.svg",
     "codepoints": [
       57864
@@ -51899,7 +51899,7 @@
   },
   {
     "name": "E209",
-    "label": "",
+    "label": "Schw\u00e4bisch Gm\u00fcnd Ratshaus",
     "source": "E209.svg",
     "codepoints": [
       57865
@@ -51909,7 +51909,7 @@
   },
   {
     "name": "E20A",
-    "label": "",
+    "label": "Stuttgart Fernsehturm",
     "source": "E20A.svg",
     "codepoints": [
       57866
@@ -51919,7 +51919,7 @@
   },
   {
     "name": "E20B",
-    "label": "",
+    "label": "Space Shuttle",
     "source": "E20B.svg",
     "codepoints": [
       57867
@@ -51929,7 +51929,7 @@
   },
   {
     "name": "E20C",
-    "label": "",
+    "label": "Viennese Coffee House",
     "source": "E20C.svg",
     "codepoints": [
       57868
@@ -51939,7 +51939,7 @@
   },
   {
     "name": "E20D",
-    "label": "",
+    "label": "Black Hole",
     "source": "E20D.svg",
     "codepoints": [
       57869
@@ -51949,7 +51949,7 @@
   },
   {
     "name": "E20E",
-    "label": "",
+    "label": "Foggy Mountain",
     "source": "E20E.svg",
     "codepoints": [
       57870
@@ -51959,7 +51959,7 @@
   },
   {
     "name": "E20F",
-    "label": "",
+    "label": "Great Pyramid Of Giza",
     "source": "E20F.svg",
     "codepoints": [
       57871
@@ -51969,7 +51969,7 @@
   },
   {
     "name": "E210",
-    "label": "",
+    "label": "Colossus Of Rhodes",
     "source": "E210.svg",
     "codepoints": [
       57872
@@ -51979,7 +51979,7 @@
   },
   {
     "name": "E211",
-    "label": "",
+    "label": "Hanging Gardens Of Babylon",
     "source": "E211.svg",
     "codepoints": [
       57873
@@ -51989,7 +51989,7 @@
   },
   {
     "name": "E212",
-    "label": "",
+    "label": "Lighthouse Of Alexandria",
     "source": "E212.svg",
     "codepoints": [
       57874
@@ -51999,7 +51999,7 @@
   },
   {
     "name": "E213",
-    "label": "",
+    "label": "Mausoleum At Halicarnassus",
     "source": "E213.svg",
     "codepoints": [
       57875
@@ -52009,7 +52009,7 @@
   },
   {
     "name": "E214",
-    "label": "",
+    "label": "Statue Of Zeus At Olympia",
     "source": "E214.svg",
     "codepoints": [
       57876
@@ -52019,7 +52019,7 @@
   },
   {
     "name": "E215",
-    "label": "",
+    "label": "Temple Of Artemis At Ephesus",
     "source": "E215.svg",
     "codepoints": [
       57877
@@ -52029,7 +52029,7 @@
   },
   {
     "name": "E216",
-    "label": "",
+    "label": "Moai",
     "source": "E216.svg",
     "codepoints": [
       57878
@@ -52039,7 +52039,7 @@
   },
   {
     "name": "E240",
-    "label": "",
+    "label": "Mark",
     "source": "E240.svg",
     "codepoints": [
       57920
@@ -52049,7 +52049,7 @@
   },
   {
     "name": "E241",
-    "label": "",
+    "label": "Toggle Button",
     "source": "E241.svg",
     "codepoints": [
       57921
@@ -52059,7 +52059,7 @@
   },
   {
     "name": "E242",
-    "label": "",
+    "label": "Location Indicator",
     "source": "E242.svg",
     "codepoints": [
       57922
@@ -52069,7 +52069,7 @@
   },
   {
     "name": "E243",
-    "label": "",
+    "label": "Scale",
     "source": "E243.svg",
     "codepoints": [
       57923
@@ -52079,7 +52079,7 @@
   },
   {
     "name": "E244",
-    "label": "",
+    "label": "Locomotion",
     "source": "E244.svg",
     "codepoints": [
       57924
@@ -52089,7 +52089,7 @@
   },
   {
     "name": "E245",
-    "label": "",
+    "label": "Toggle Button State B",
     "source": "E245.svg",
     "codepoints": [
       57925
@@ -52099,7 +52099,7 @@
   },
   {
     "name": "E246",
-    "label": "",
+    "label": "People Dialogue",
     "source": "E246.svg",
     "codepoints": [
       57926
@@ -52109,7 +52109,7 @@
   },
   {
     "name": "E247",
-    "label": "",
+    "label": "Safety",
     "source": "E247.svg",
     "codepoints": [
       57927
@@ -52119,7 +52119,7 @@
   },
   {
     "name": "E248",
-    "label": "",
+    "label": "Chats",
     "source": "E248.svg",
     "codepoints": [
       57928
@@ -52129,7 +52129,7 @@
   },
   {
     "name": "E249",
-    "label": "",
+    "label": "Collaboration",
     "source": "E249.svg",
     "codepoints": [
       57929
@@ -52139,7 +52139,7 @@
   },
   {
     "name": "E24A",
-    "label": "",
+    "label": "Interview",
     "source": "E24A.svg",
     "codepoints": [
       57930
@@ -52149,7 +52149,7 @@
   },
   {
     "name": "E24B",
-    "label": "",
+    "label": "Intricate",
     "source": "E24B.svg",
     "codepoints": [
       57931
@@ -52159,7 +52159,7 @@
   },
   {
     "name": "E24C",
-    "label": "",
+    "label": "Simple",
     "source": "E24C.svg",
     "codepoints": [
       57932
@@ -52169,7 +52169,7 @@
   },
   {
     "name": "E24D",
-    "label": "",
+    "label": "Return",
     "source": "E24D.svg",
     "codepoints": [
       57933
@@ -52179,7 +52179,7 @@
   },
   {
     "name": "E24E",
-    "label": "",
+    "label": "Close",
     "source": "E24E.svg",
     "codepoints": [
       57934
@@ -52189,7 +52189,7 @@
   },
   {
     "name": "E24F",
-    "label": "",
+    "label": "Forward",
     "source": "E24F.svg",
     "codepoints": [
       57935
@@ -52199,7 +52199,7 @@
   },
   {
     "name": "E250",
-    "label": "",
+    "label": "Hamburger Menu",
     "source": "E250.svg",
     "codepoints": [
       57936
@@ -52209,7 +52209,7 @@
   },
   {
     "name": "E251",
-    "label": "",
+    "label": "Upload",
     "source": "E251.svg",
     "codepoints": [
       57937
@@ -52219,7 +52219,7 @@
   },
   {
     "name": "E252",
-    "label": "",
+    "label": "Download",
     "source": "E252.svg",
     "codepoints": [
       57938
@@ -52229,7 +52229,7 @@
   },
   {
     "name": "E253",
-    "label": "",
+    "label": "Share",
     "source": "E253.svg",
     "codepoints": [
       57939
@@ -52239,7 +52239,7 @@
   },
   {
     "name": "E254",
-    "label": "",
+    "label": "Wifi",
     "source": "E254.svg",
     "codepoints": [
       57940
@@ -52249,7 +52249,7 @@
   },
   {
     "name": "E255",
-    "label": "",
+    "label": "Copy",
     "source": "E255.svg",
     "codepoints": [
       57941
@@ -52259,7 +52259,7 @@
   },
   {
     "name": "E256",
-    "label": "",
+    "label": "Contacts",
     "source": "E256.svg",
     "codepoints": [
       57942
@@ -52269,7 +52269,7 @@
   },
   {
     "name": "E257",
-    "label": "",
+    "label": "Filter",
     "source": "E257.svg",
     "codepoints": [
       57943
@@ -52279,7 +52279,7 @@
   },
   {
     "name": "E258",
-    "label": "",
+    "label": "Cursor",
     "source": "E258.svg",
     "codepoints": [
       57944
@@ -52289,7 +52289,7 @@
   },
   {
     "name": "E259",
-    "label": "",
+    "label": "Details",
     "source": "E259.svg",
     "codepoints": [
       57945
@@ -52299,7 +52299,7 @@
   },
   {
     "name": "E25A",
-    "label": "",
+    "label": "Hold",
     "source": "E25A.svg",
     "codepoints": [
       57946
@@ -52309,7 +52309,7 @@
   },
   {
     "name": "E25B",
-    "label": "",
+    "label": "Duplicate",
     "source": "E25B.svg",
     "codepoints": [
       57947
@@ -52319,7 +52319,7 @@
   },
   {
     "name": "E25C",
-    "label": "",
+    "label": "Save",
     "source": "E25C.svg",
     "codepoints": [
       57948
@@ -52329,7 +52329,7 @@
   },
   {
     "name": "E25D",
-    "label": "",
+    "label": "Edit",
     "source": "E25D.svg",
     "codepoints": [
       57949
@@ -52339,7 +52339,7 @@
   },
   {
     "name": "E25E",
-    "label": "",
+    "label": "Home Button",
     "source": "E25E.svg",
     "codepoints": [
       57950
@@ -52349,7 +52349,7 @@
   },
   {
     "name": "E25F",
-    "label": "",
+    "label": "Add Button",
     "source": "E25F.svg",
     "codepoints": [
       57951
@@ -52359,7 +52359,7 @@
   },
   {
     "name": "E260",
-    "label": "",
+    "label": "Archive",
     "source": "E260.svg",
     "codepoints": [
       57952
@@ -52369,7 +52369,7 @@
   },
   {
     "name": "E261",
-    "label": "",
+    "label": "Overview",
     "source": "E261.svg",
     "codepoints": [
       57953
@@ -52379,7 +52379,7 @@
   },
   {
     "name": "E262",
-    "label": "",
+    "label": "Delete",
     "source": "E262.svg",
     "codepoints": [
       57954
@@ -52389,7 +52389,7 @@
   },
   {
     "name": "E263",
-    "label": "",
+    "label": "Comment",
     "source": "E263.svg",
     "codepoints": [
       57955
@@ -52399,7 +52399,7 @@
   },
   {
     "name": "E264",
-    "label": "",
+    "label": "More Information",
     "source": "E264.svg",
     "codepoints": [
       57956
@@ -52409,7 +52409,7 @@
   },
   {
     "name": "E265",
-    "label": "",
+    "label": "Sort",
     "source": "E265.svg",
     "codepoints": [
       57957
@@ -52419,7 +52419,7 @@
   },
   {
     "name": "E266",
-    "label": "",
+    "label": "Inbox",
     "source": "E266.svg",
     "codepoints": [
       57958
@@ -52429,7 +52429,7 @@
   },
   {
     "name": "E267",
-    "label": "",
+    "label": "Compose",
     "source": "E267.svg",
     "codepoints": [
       57959
@@ -52439,7 +52439,7 @@
   },
   {
     "name": "E268",
-    "label": "",
+    "label": "Add Contact",
     "source": "E268.svg",
     "codepoints": [
       57960
@@ -52449,7 +52449,7 @@
   },
   {
     "name": "E269",
-    "label": "",
+    "label": "Link",
     "source": "E269.svg",
     "codepoints": [
       57961
@@ -52459,7 +52459,7 @@
   },
   {
     "name": "E280",
-    "label": "",
+    "label": "Exhausted Face",
     "source": "E280.svg",
     "codepoints": [
       57984
@@ -52469,7 +52469,7 @@
   },
   {
     "name": "E281",
-    "label": "",
+    "label": "Incredulous Face",
     "source": "E281.svg",
     "codepoints": [
       57985
@@ -52479,7 +52479,7 @@
   },
   {
     "name": "E282",
-    "label": "",
+    "label": "Dejected Face",
     "source": "E282.svg",
     "codepoints": [
       57986
@@ -52489,7 +52489,7 @@
   },
   {
     "name": "E283",
-    "label": "",
+    "label": "Annoyed Face With Tongue",
     "source": "E283.svg",
     "codepoints": [
       57987
@@ -52499,7 +52499,7 @@
   },
   {
     "name": "E2C0",
-    "label": "",
+    "label": "Iceberg",
     "source": "E2C0.svg",
     "codepoints": [
       58048
@@ -52509,7 +52509,7 @@
   },
   {
     "name": "E2C1",
-    "label": "",
+    "label": "Floating Ice",
     "source": "E2C1.svg",
     "codepoints": [
       58049
@@ -52519,7 +52519,7 @@
   },
   {
     "name": "E2C2",
-    "label": "",
+    "label": "Floating Ice Broken",
     "source": "E2C2.svg",
     "codepoints": [
       58050
@@ -52529,7 +52529,7 @@
   },
   {
     "name": "E2C3",
-    "label": "",
+    "label": "Polar Research Station",
     "source": "E2C3.svg",
     "codepoints": [
       58051
@@ -52539,7 +52539,7 @@
   },
   {
     "name": "E2C4",
-    "label": "",
+    "label": "Ice Core Sample",
     "source": "E2C4.svg",
     "codepoints": [
       58052
@@ -52549,7 +52549,7 @@
   },
   {
     "name": "E2C6",
-    "label": "",
+    "label": "Ice Shelf",
     "source": "E2C6.svg",
     "codepoints": [
       58054
@@ -52559,7 +52559,7 @@
   },
   {
     "name": "E2C7",
-    "label": "",
+    "label": "Ice Shelf Melting",
     "source": "E2C7.svg",
     "codepoints": [
       58055
@@ -52569,7 +52569,7 @@
   },
   {
     "name": "E2C8",
-    "label": "",
+    "label": "Polar Explorer",
     "source": "E2C8.svg",
     "codepoints": [
       58056
@@ -52579,7 +52579,7 @@
   },
   {
     "name": "E2C9",
-    "label": "",
+    "label": "Polar Explorer Man",
     "source": "E2C9.svg",
     "codepoints": [
       58057
@@ -52589,7 +52589,7 @@
   },
   {
     "name": "E2CA",
-    "label": "",
+    "label": "Polar Explorer Woman",
     "source": "E2CA.svg",
     "codepoints": [
       58058
@@ -52599,7 +52599,7 @@
   },
   {
     "name": "E2CB",
-    "label": "",
+    "label": "Oil Spill",
     "source": "E2CB.svg",
     "codepoints": [
       58059
@@ -52609,7 +52609,7 @@
   },
   {
     "name": "E2CC",
-    "label": "",
+    "label": "Exhaust Gases Factory",
     "source": "E2CC.svg",
     "codepoints": [
       58060
@@ -52619,7 +52619,7 @@
   },
   {
     "name": "E2CD",
-    "label": "",
+    "label": "Solar Energy",
     "source": "E2CD.svg",
     "codepoints": [
       58061
@@ -52629,7 +52629,7 @@
   },
   {
     "name": "E2CE",
-    "label": "",
+    "label": "Meat Consumption",
     "source": "E2CE.svg",
     "codepoints": [
       58062
@@ -52639,7 +52639,7 @@
   },
   {
     "name": "E2CF",
-    "label": "",
+    "label": "Exhaust Gases Car",
     "source": "E2CF.svg",
     "codepoints": [
       58063
@@ -52649,7 +52649,7 @@
   },
   {
     "name": "E2D0",
-    "label": "",
+    "label": "Sea Level Rise",
     "source": "E2D0.svg",
     "codepoints": [
       58064
@@ -52659,7 +52659,7 @@
   },
   {
     "name": "E2D1",
-    "label": "",
+    "label": "Wind Energy",
     "source": "E2D1.svg",
     "codepoints": [
       58065
@@ -52669,7 +52669,7 @@
   },
   {
     "name": "E2D2",
-    "label": "",
+    "label": "Reusable Bag",
     "source": "E2D2.svg",
     "codepoints": [
       58066
@@ -52679,7 +52679,7 @@
   },
   {
     "name": "E2D3",
-    "label": "",
+    "label": "Radioactive Waste",
     "source": "E2D3.svg",
     "codepoints": [
       58067
@@ -52689,7 +52689,7 @@
   },
   {
     "name": "E2D4",
-    "label": "",
+    "label": "Nuclear Power Plant",
     "source": "E2D4.svg",
     "codepoints": [
       58068
@@ -52699,7 +52699,7 @@
   },
   {
     "name": "E2D5",
-    "label": "",
+    "label": "Nuclear Power Plant Ruin",
     "source": "E2D5.svg",
     "codepoints": [
       58069
@@ -52709,7 +52709,7 @@
   },
   {
     "name": "E2D6",
-    "label": "",
+    "label": "Geiger Counter",
     "source": "E2D6.svg",
     "codepoints": [
       58070
@@ -52719,7 +52719,7 @@
   },
   {
     "name": "E2D7",
-    "label": "",
+    "label": "Nuclear Worker Man",
     "source": "E2D7.svg",
     "codepoints": [
       58071
@@ -52729,7 +52729,7 @@
   },
   {
     "name": "E2D8",
-    "label": "",
+    "label": "Nuclear Worker Woman",
     "source": "E2D8.svg",
     "codepoints": [
       58072
@@ -52739,7 +52739,7 @@
   },
   {
     "name": "E2D9",
-    "label": "",
+    "label": "Nuclear Protection",
     "source": "E2D9.svg",
     "codepoints": [
       58073
@@ -52749,7 +52749,7 @@
   },
   {
     "name": "E2DA",
-    "label": "",
+    "label": "Atom Bomb",
     "source": "E2DA.svg",
     "codepoints": [
       58074
@@ -52759,7 +52759,7 @@
   },
   {
     "name": "E300",
-    "label": "",
+    "label": "Female Doctor",
     "source": "E300.svg",
     "codepoints": [
       58112
@@ -52769,7 +52769,7 @@
   },
   {
     "name": "E301",
-    "label": "",
+    "label": "Male Doctor",
     "source": "E301.svg",
     "codepoints": [
       58113
@@ -52779,7 +52779,7 @@
   },
   {
     "name": "E302",
-    "label": "",
+    "label": "Female Nurse",
     "source": "E302.svg",
     "codepoints": [
       58114
@@ -52789,7 +52789,7 @@
   },
   {
     "name": "E303",
-    "label": "",
+    "label": "Male Nurse",
     "source": "E303.svg",
     "codepoints": [
       58115
@@ -52799,7 +52799,7 @@
   },
   {
     "name": "E305",
-    "label": "",
+    "label": "Pills",
     "source": "E305.svg",
     "codepoints": [
       58117
@@ -52809,7 +52809,7 @@
   },
   {
     "name": "E306",
-    "label": "",
+    "label": "Plaster",
     "source": "E306.svg",
     "codepoints": [
       58118
@@ -52819,7 +52819,7 @@
   },
   {
     "name": "E307",
-    "label": "",
+    "label": "Medication",
     "source": "E307.svg",
     "codepoints": [
       58119
@@ -52829,7 +52829,7 @@
   },
   {
     "name": "E308",
-    "label": "",
+    "label": "Ecg Waves",
     "source": "E308.svg",
     "codepoints": [
       58120
@@ -52839,7 +52839,7 @@
   },
   {
     "name": "E309",
-    "label": "",
+    "label": "First Aid Bag",
     "source": "E309.svg",
     "codepoints": [
       58121
@@ -52849,7 +52849,7 @@
   },
   {
     "name": "E30A",
-    "label": "",
+    "label": "Patient File",
     "source": "E30A.svg",
     "codepoints": [
       58122
@@ -52859,7 +52859,7 @@
   },
   {
     "name": "E30B",
-    "label": "",
+    "label": "Patient Clipboard",
     "source": "E30B.svg",
     "codepoints": [
       58123
@@ -52869,7 +52869,7 @@
   },
   {
     "name": "E30C",
-    "label": "",
+    "label": "Saline Drip",
     "source": "E30C.svg",
     "codepoints": [
       58124
@@ -52879,7 +52879,7 @@
   },
   {
     "name": "E30D",
-    "label": "",
+    "label": "Blood Transfusion",
     "source": "E30D.svg",
     "codepoints": [
       58125
@@ -52889,7 +52889,7 @@
   },
   {
     "name": "E30E",
-    "label": "",
+    "label": "Swab Pliers",
     "source": "E30E.svg",
     "codepoints": [
       58126
@@ -52899,7 +52899,7 @@
   },
   {
     "name": "E30F",
-    "label": "",
+    "label": "Hot-Water Bottle",
     "source": "E30F.svg",
     "codepoints": [
       58127
@@ -52909,7 +52909,7 @@
   },
   {
     "name": "E312",
-    "label": "",
+    "label": "Liver",
     "source": "E312.svg",
     "codepoints": [
       58130
@@ -52919,7 +52919,7 @@
   },
   {
     "name": "E313",
-    "label": "",
+    "label": "Stomach",
     "source": "E313.svg",
     "codepoints": [
       58131
@@ -52929,7 +52929,7 @@
   },
   {
     "name": "E314",
-    "label": "",
+    "label": "Large Intestine",
     "source": "E314.svg",
     "codepoints": [
       58132
@@ -52939,7 +52939,7 @@
   },
   {
     "name": "E315",
-    "label": "",
+    "label": "Intestine",
     "source": "E315.svg",
     "codepoints": [
       58133
@@ -52949,7 +52949,7 @@
   },
   {
     "name": "E316",
-    "label": "",
+    "label": "Kidney",
     "source": "E316.svg",
     "codepoints": [
       58134
@@ -52959,7 +52959,7 @@
   },
   {
     "name": "E318",
-    "label": "",
+    "label": "Forceps",
     "source": "E318.svg",
     "codepoints": [
       58136
@@ -52969,7 +52969,7 @@
   },
   {
     "name": "E319",
-    "label": "",
+    "label": "Brain",
     "source": "E319.svg",
     "codepoints": [
       58137
@@ -52979,7 +52979,7 @@
   },
   {
     "name": "E31A",
-    "label": "",
+    "label": "Bed Linen",
     "source": "E31A.svg",
     "codepoints": [
       58138
@@ -52989,7 +52989,7 @@
   },
   {
     "name": "E31B",
-    "label": "",
+    "label": "Bandage Change",
     "source": "E31B.svg",
     "codepoints": [
       58139
@@ -52999,7 +52999,7 @@
   },
   {
     "name": "E31C",
-    "label": "",
+    "label": "Eye Pain",
     "source": "E31C.svg",
     "codepoints": [
       58140
@@ -53009,7 +53009,7 @@
   },
   {
     "name": "E31D",
-    "label": "",
+    "label": "Headache",
     "source": "E31D.svg",
     "codepoints": [
       58141
@@ -53019,7 +53019,7 @@
   },
   {
     "name": "E31E",
-    "label": "",
+    "label": "Earache",
     "source": "E31E.svg",
     "codepoints": [
       58142
@@ -53029,7 +53029,7 @@
   },
   {
     "name": "E31F",
-    "label": "",
+    "label": "Fracture Leg",
     "source": "E31F.svg",
     "codepoints": [
       58143
@@ -53039,7 +53039,7 @@
   },
   {
     "name": "E320",
-    "label": "",
+    "label": "Knee Pain",
     "source": "E320.svg",
     "codepoints": [
       58144
@@ -53049,7 +53049,7 @@
   },
   {
     "name": "E321",
-    "label": "",
+    "label": "Backache",
     "source": "E321.svg",
     "codepoints": [
       58145
@@ -53059,7 +53059,7 @@
   },
   {
     "name": "E322",
-    "label": "",
+    "label": "Joint Pain",
     "source": "E322.svg",
     "codepoints": [
       58146
@@ -53069,7 +53069,7 @@
   },
   {
     "name": "E324",
-    "label": "",
+    "label": "Clinical Thermometer",
     "source": "E324.svg",
     "codepoints": [
       58148
@@ -53079,7 +53079,7 @@
   },
   {
     "name": "E325",
-    "label": "",
+    "label": "Bandage Scissors",
     "source": "E325.svg",
     "codepoints": [
       58149
@@ -53089,7 +53089,7 @@
   },
   {
     "name": "E326",
-    "label": "",
+    "label": "Crutches",
     "source": "E326.svg",
     "codepoints": [
       58150
@@ -53099,7 +53099,7 @@
   },
   {
     "name": "E327",
-    "label": "",
+    "label": "Wheel Chair",
     "source": "E327.svg",
     "codepoints": [
       58151
@@ -53109,7 +53109,7 @@
   },
   {
     "name": "E328",
-    "label": "",
+    "label": "Stretcher",
     "source": "E328.svg",
     "codepoints": [
       58152
@@ -53119,7 +53119,7 @@
   },
   {
     "name": "E329",
-    "label": "",
+    "label": "Ct Scan",
     "source": "E329.svg",
     "codepoints": [
       58153
@@ -53129,7 +53129,7 @@
   },
   {
     "name": "E32B",
-    "label": "",
+    "label": "Scales",
     "source": "E32B.svg",
     "codepoints": [
       58155
@@ -53139,7 +53139,7 @@
   },
   {
     "name": "E340",
-    "label": "",
+    "label": "Gardener Man",
     "source": "E340.svg",
     "codepoints": [
       58176
@@ -53149,7 +53149,7 @@
   },
   {
     "name": "E341",
-    "label": "",
+    "label": "Gardener Woman",
     "source": "E341.svg",
     "codepoints": [
       58177
@@ -53159,7 +53159,7 @@
   },
   {
     "name": "E342",
-    "label": "",
+    "label": "Gardening Gloves",
     "source": "E342.svg",
     "codepoints": [
       58178
@@ -53169,7 +53169,7 @@
   },
   {
     "name": "E343",
-    "label": "",
+    "label": "Lawn Mower",
     "source": "E343.svg",
     "codepoints": [
       58179
@@ -53179,7 +53179,7 @@
   },
   {
     "name": "E344",
-    "label": "",
+    "label": "Wheelbarrow",
     "source": "E344.svg",
     "codepoints": [
       58180
@@ -53189,7 +53189,7 @@
   },
   {
     "name": "E345",
-    "label": "",
+    "label": "Spade",
     "source": "E345.svg",
     "codepoints": [
       58181
@@ -53199,7 +53199,7 @@
   },
   {
     "name": "E346",
-    "label": "",
+    "label": "Trowel",
     "source": "E346.svg",
     "codepoints": [
       58182
@@ -53209,7 +53209,7 @@
   },
   {
     "name": "E347",
-    "label": "",
+    "label": "Axe",
     "source": "E347.svg",
     "codepoints": [
       58183
@@ -53219,7 +53219,7 @@
   },
   {
     "name": "E348",
-    "label": "",
+    "label": "Saw",
     "source": "E348.svg",
     "codepoints": [
       58184
@@ -53229,7 +53229,7 @@
   },
   {
     "name": "E380",
-    "label": "",
+    "label": "No Handshaking",
     "source": "E380.svg",
     "codepoints": [
       58240
@@ -53239,7 +53239,7 @@
   },
   {
     "name": "E381",
-    "label": "",
+    "label": "Web Syndication",
     "source": "E381.svg",
     "codepoints": [
       58241
@@ -53249,7 +53249,7 @@
   },
   {
     "name": "E420",
-    "label": "",
+    "label": "Pride",
     "source": "E420.svg",
     "codepoints": [
       58400
@@ -53259,7 +53259,7 @@
   },
   {
     "name": "E421",
-    "label": "",
+    "label": "Lesbian",
     "source": "E421.svg",
     "codepoints": [
       58401
@@ -53269,7 +53269,7 @@
   },
   {
     "name": "E422",
-    "label": "",
+    "label": "Gay",
     "source": "E422.svg",
     "codepoints": [
       58402
@@ -53279,7 +53279,7 @@
   },
   {
     "name": "E423",
-    "label": "",
+    "label": "Bisexual",
     "source": "E423.svg",
     "codepoints": [
       58403
@@ -53289,7 +53289,7 @@
   },
   {
     "name": "E424",
-    "label": "",
+    "label": "Pansexual",
     "source": "E424.svg",
     "codepoints": [
       58404
@@ -53299,7 +53299,7 @@
   },
   {
     "name": "E425",
-    "label": "",
+    "label": "Asexual",
     "source": "E425.svg",
     "codepoints": [
       58405
@@ -53309,7 +53309,7 @@
   },
   {
     "name": "E426",
-    "label": "",
+    "label": "Demisexual",
     "source": "E426.svg",
     "codepoints": [
       58406
@@ -53319,7 +53319,7 @@
   },
   {
     "name": "E427",
-    "label": "",
+    "label": "Greysexual",
     "source": "E427.svg",
     "codepoints": [
       58407
@@ -53329,7 +53329,7 @@
   },
   {
     "name": "E428",
-    "label": "",
+    "label": "Polysexual",
     "source": "E428.svg",
     "codepoints": [
       58408
@@ -53339,7 +53339,7 @@
   },
   {
     "name": "E429",
-    "label": "",
+    "label": "Aroace",
     "source": "E429.svg",
     "codepoints": [
       58409
@@ -53349,7 +53349,7 @@
   },
   {
     "name": "E42A",
-    "label": "",
+    "label": "Aromantic",
     "source": "E42A.svg",
     "codepoints": [
       58410
@@ -53359,7 +53359,7 @@
   },
   {
     "name": "E42B",
-    "label": "",
+    "label": "Polyamory",
     "source": "E42B.svg",
     "codepoints": [
       58411
@@ -53369,7 +53369,7 @@
   },
   {
     "name": "E42C",
-    "label": "",
+    "label": "Bdsm Rights",
     "source": "E42C.svg",
     "codepoints": [
       58412
@@ -53379,7 +53379,7 @@
   },
   {
     "name": "E42D",
-    "label": "",
+    "label": "Intersex",
     "source": "E42D.svg",
     "codepoints": [
       58413
@@ -53389,7 +53389,7 @@
   },
   {
     "name": "E42E",
-    "label": "",
+    "label": "Nonbinary",
     "source": "E42E.svg",
     "codepoints": [
       58414
@@ -53399,7 +53399,7 @@
   },
   {
     "name": "E42F",
-    "label": "",
+    "label": "Genderfluid",
     "source": "E42F.svg",
     "codepoints": [
       58415
@@ -53409,7 +53409,7 @@
   },
   {
     "name": "E430",
-    "label": "",
+    "label": "Genderqueer",
     "source": "E430.svg",
     "codepoints": [
       58416
@@ -53419,7 +53419,7 @@
   },
   {
     "name": "E431",
-    "label": "",
+    "label": "Agender",
     "source": "E431.svg",
     "codepoints": [
       58417
@@ -53429,7 +53429,7 @@
   },
   {
     "name": "E432",
-    "label": "",
+    "label": "Demigirl",
     "source": "E432.svg",
     "codepoints": [
       58418
@@ -53439,7 +53439,7 @@
   },
   {
     "name": "E433",
-    "label": "",
+    "label": "Demiboy",
     "source": "E433.svg",
     "codepoints": [
       58419
@@ -53449,7 +53449,7 @@
   },
   {
     "name": "E434",
-    "label": "",
+    "label": "Demigender",
     "source": "E434.svg",
     "codepoints": [
       58420
@@ -53459,7 +53459,7 @@
   },
   {
     "name": "E435",
-    "label": "",
+    "label": "Bigender",
     "source": "E435.svg",
     "codepoints": [
       58421
@@ -53469,7 +53469,7 @@
   },
   {
     "name": "F000",
-    "label": "",
+    "label": "Windows",
     "source": "F000.svg",
     "codepoints": [
       61440
@@ -53479,7 +53479,7 @@
   },
   {
     "name": "F77A",
-    "label": "",
+    "label": "Artstation",
     "source": "F77A.svg",
     "codepoints": [
       63354
@@ -53489,7 +53489,7 @@
   },
   {
     "name": "F8FF",
-    "label": "",
+    "label": "Apple",
     "source": "F8FF.svg",
     "codepoints": [
       63743

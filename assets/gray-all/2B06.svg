@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" id="emoji" viewBox="-6 -6 84 84" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-coverage="complete" data-ink-pressure="loaded-middle-v1">
+<svg xmlns="http://www.w3.org/2000/svg" id="emoji" viewBox="-6 -6 84 84" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-coverage="complete" data-ink-pressure="loaded-middle-v1" role="img" aria-label="Upwards Black Arrow" data-naturalist-construction="toddler-openmoji-extra-anatomy-v1" data-toddler-review="other-complete-v1">
   <g id="line">
-    <path class="ink-stroke" data-ink-stroke="tapered" data-ink-role="line-source-tapered" data-ink-index="0" pathLength="1" d="M 19.478,22.716 L 35.96,4.992 L 52.676,22.696 L 48.25,26.693 L 38.776,16.263 L 38.794,66.989 L 33.165,67.166 L 33.148,16.115 L 23.518,26.443 L 19.478,22.716" fill="none" stroke="#262421" stroke-width="0.80" stroke-linecap="round" stroke-linejoin="round" /></g>
+    <path class="ink-stroke" data-ink-stroke="tapered" data-ink-role="line-source-tapered" data-ink-index="0" pathLength="1" d="M 19.478,22.716 L 35.96,4.992 L 52.676,22.696 L 48.25,26.693 L 38.776,16.263 L 38.794,66.989 L 33.165,67.166 L 33.148,16.115 L 23.518,26.443 L 19.478,22.716" fill="none" stroke="#302e2a" stroke-width="1.80" stroke-linecap="round" stroke-linejoin="round" data-remaining-standard-source-width="0.80" data-ink-brush-pass="loaded-contour-v2" data-toddler-clarity="defining-remaining-standard-mark-v1" /></g>
 </svg>
