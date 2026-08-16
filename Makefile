@@ -224,7 +224,7 @@ review-pua:
 	$(MAKE) contact-pua
 	$(PYTHON) scripts/audit_pua_artifacts.py --root assets/pua --json build/pua-artifact-audit.json
 
-check-pua:
+check-pua: contact-pua
 	$(PYTHON) scripts/check_quality.py --source-dir assets/pua --sample 814
 	$(PYTHON) scripts/check_pua_vector.py --root assets/pua
 	$(PYTHON) scripts/check_pua_legibility.py --root assets/pua
