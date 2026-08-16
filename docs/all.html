@@ -73,6 +73,7 @@
 <body><main>
   <h1>iNQ</h1>
   <p>Emojinq · monochrome ink and familiar-color sumi-e wash variants</p>
+  <p><a id="recognition-session-link" href="docs/recognition.html">Run a structured label-blind toddler session →</a></p>
   <div id="status" aria-live="polite">Loading manifest…</div>
   <div class="controls" aria-label="Gallery controls">
     <input class="search" id="search" type="search" placeholder="Search emoji, code point, or group…" aria-label="Search emoji">
@@ -147,6 +148,7 @@
     const cardUrl = "https://inq.cards";
     const fontRoot = location.pathname.endsWith("/docs/all.html") ? "../fonts/" : "fonts/";
     const feedbackEndpoint = location.pathname.endsWith("/docs/all.html") ? "../api/feedback" : "api/feedback";
+    document.getElementById("recognition-session-link").href = location.pathname.endsWith("/docs/all.html") ? "recognition.html" : "docs/recognition.html";
     const staticFeedback = location.hostname.endsWith("github.io") || location.protocol === "file:";
     const issueEndpoint = "https://github.com/CastaliaInstitute/emojinq/issues/new";
     const releaseParams = new URLSearchParams(location.search);

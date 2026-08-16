@@ -32,7 +32,8 @@ def main() -> None:
     copy_tree(ROOT / "docs", output / "docs")
     for family in ("gray-all", "divination", "pua", "pua-color"):
         copy_tree(ROOT / "assets" / family, output / "assets" / family)
-    shutil.copy2(ROOT / "assets" / "developmental-vocabulary.json", output / "assets")
+    for data_file in ("developmental-vocabulary.json", "pua-recognition-review.json"):
+        shutil.copy2(ROOT / "assets" / data_file, output / "assets")
     (output / "fonts").mkdir()
     for font in ("Emojinq-Regular.ttf", "Emojinq-Color.ttf"):
         shutil.copy2(ROOT / "fonts" / font, output / "fonts" / font)

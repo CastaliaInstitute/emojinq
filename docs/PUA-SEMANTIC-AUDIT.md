@@ -58,6 +58,24 @@ font integrity. It does not prove that a child recognized a glyph. Only
 `make release-check`, with all current hash-bound observations approved, closes
 the recognition requirement.
 
+The deployed `docs/recognition.html` runner makes that evidence collectible
+without weakening the gate. It randomizes separate ink and color/fallback
+trials, renders the subject at exactly 32 CSS pixels, withholds every expected
+label until the observer has completed the batch, records verbatim guesses,
+and exports a resumable session bound to the current asset hashes. The export
+does not edit or approve the ledger. An adult reviewer must adjudicate both
+presentations, then validate and deliberately import it:
+
+```sh
+python scripts/import_pua_recognition_session.py session.json
+python scripts/import_pua_recognition_session.py --write session.json
+make release-check
+```
+
+The importer rejects stale hashes, unknown or duplicate sources, ages outside
+12–47 months, missing guesses, unadjudicated items, and any session that does
+not attest to the label-hidden, choice-free 32px protocol.
+
 ## Detached-component review
 
 The connected-component detector is deliberately conservative: a hammer above

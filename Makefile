@@ -1,7 +1,7 @@
 RUN ?= uv run --python 3.12 --with-requirements requirements-build.txt
 PYTHON ?= $(RUN) python
 
-.PHONY: assets ontology cosmos colossal-cave-pua castalia-pua faerie-pua fetch-openmoji all-lines all-gray lines divination naturalist-pua botanical-art body-art animals-art toddler-art field-studies-art patterns-art materials-art sea-art dinosaurs-art field-plate-detail remove-ground animals-simple weather-simple materials-simple science-simple cross-category-simple art-batch art-batch2 art-batch3 art-batch4 art-batch5 people-art people-rich animate-svg check-animation laser-standard laser-pua laser-calibration check-laser outliers-simple brushify-pua trace-brush font color-font site check release-check recognition-ledger check-recognition-release check-release-inputs check-color-font check-pua check-pua-semantic check-pua-color check-standard-toddler check-catalog check-developmental contact-pua review-pua check-svg check-sumi-e check-sumi-e-benchmarks check-stroke-corpus
+.PHONY: assets ontology cosmos colossal-cave-pua castalia-pua faerie-pua fetch-openmoji all-lines all-gray lines divination naturalist-pua botanical-art body-art animals-art toddler-art field-studies-art patterns-art materials-art sea-art dinosaurs-art field-plate-detail remove-ground animals-simple weather-simple materials-simple science-simple cross-category-simple art-batch art-batch2 art-batch3 art-batch4 art-batch5 people-art people-rich animate-svg check-animation laser-standard laser-pua laser-calibration check-laser outliers-simple brushify-pua trace-brush font color-font site check release-check recognition-ledger check-recognition-release check-recognition-workflow check-release-inputs check-color-font check-pua check-pua-semantic check-pua-color check-standard-toddler check-catalog check-developmental contact-pua review-pua check-svg check-sumi-e check-sumi-e-benchmarks check-stroke-corpus
 
 fetch-openmoji:
 	$(PYTHON) scripts/fetch_openmoji.py
@@ -197,6 +197,7 @@ check:
 	$(MAKE) check-standard-toddler
 	$(MAKE) check-stroke-corpus
 	$(MAKE) check-catalog
+	$(MAKE) check-recognition-workflow
 	$(MAKE) check-developmental
 	$(MAKE) check-release-inputs
 	$(RUN) python scripts/check_font.py
@@ -215,6 +216,9 @@ recognition-ledger:
 
 check-recognition-release:
 	$(PYTHON) scripts/check_pua_recognition_evidence.py
+
+check-recognition-workflow:
+	$(PYTHON) scripts/check_recognition_workflow.py
 
 check-release-inputs:
 	$(PYTHON) scripts/check_release_inputs.py
