@@ -19,17 +19,18 @@ artwork is not offered for another attempt.
 
 ## Divide work without overlap
 
-The Assignment menu partitions the selected category into stable sets of 5,
-10, or 25 candidates. Choose a numbered assigned set and use its generated
-share link. A coordinator should give each observer a different link. Trial
-order is still randomized, and labels remain hidden.
+The Assignment menu partitions the complete ledger into one canonical global
+sequence of 10-candidate sets. Its membership does not depend on the Category
+or random-session size controls. Choose a numbered global set and use its
+generated share link. A coordinator should give each observer a different
+global-set link. Trial order is still randomized, and labels remain hidden.
 
 The default 10-object set produces 20 image trials. Across the current 1,142
 candidates there are 115 global sets. Smaller sets are appropriate when a child
 loses interest; never continue through fatigue simply to complete a batch.
 
-Random selection remains available for exploratory sessions, but numbered sets
-are the auditable choice for distributed completion. The exported JSON contains
+Category and size controls apply only to random exploratory sessions. Numbered
+global sets are the auditable choice for distributed completion. The exported JSON contains
 candidate IDs and exact ink/color hashes, not an authority to change the
 ledger.
 
