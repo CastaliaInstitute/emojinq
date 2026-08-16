@@ -35,6 +35,8 @@ def main() -> None:
         '<option value="blind">Label-blind test</option>',
         'name="guess"',
         "Label-blind guess:",
+        'blind ? "Guess this unlabeled glyph" : button.dataset.expectedAria',
+        'reviewTrigger.dataset.expectedAria = `Review ${item.label || item.name}`',
     )
     missing = [token for token in required if token not in page]
     if missing:
