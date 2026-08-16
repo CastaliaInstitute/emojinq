@@ -14,9 +14,12 @@ Emojinq PUA glyphs use an expressive sumi-e/naturalist language: a strong subjec
 
 ## Categories
 
-The current inventory contains 818 PUA glyphs across 18 categories:
+The current inventory contains 858 PUA glyphs across 22 categories:
 
-`animals`, `body`, `cosmos`, `dinosaurs`, `farm`, `flora`, `herbs`, `locations`, `materials`, `objects`, `patterns`, `people`, `plants`, `rockets`, `science`, `sea_creatures`, and `weather_sky`.
+`adventure`, `animals`, `body`, `brc`, `castalia`, `cave_locations`,
+`cosmos`, `dinosaurs`, `faerie`, `farm`, `flora`, `herbs`, `locations`,
+`materials`, `objects`, `patterns`, `people`, `plants`, `rockets`, `science`,
+`sea_creatures`, and `weather_sky`.
 
 The categories are reviewed through generated contact sheets in `build/pua-contact-sheets/`. Regenerate them with:
 
