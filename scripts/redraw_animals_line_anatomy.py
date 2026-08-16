@@ -63,8 +63,13 @@ def local(tag: str) -> str:
     return tag.rsplit("}", 1)[-1]
 
 
+def source_path(filename: str) -> Path:
+    value = Path(filename)
+    return SOURCE / f"{value.stem.upper()}{value.suffix.lower()}"
+
+
 def source_shapes(filename: str, width_scale: float) -> list[ET.Element]:
-    root = ET.parse(SOURCE / filename).getroot()
+    root = ET.parse(source_path(filename)).getroot()
     shapes: list[ET.Element] = []
     for element in root.iter():
         if local(element.tag) not in SHAPES:
@@ -124,7 +129,7 @@ def write(name: str, entries: list[tuple[str, str, float]]) -> None:
 
 
 def main() -> None:
-    missing = sorted({filename for entries in COMPOSITIONS.values() for filename, _, _ in entries if not (SOURCE / filename).exists()})
+    missing = sorted({filename for entries in COMPOSITIONS.values() for filename, _, _ in entries if not source_path(filename).exists()})
     if missing:
         raise SystemExit(f"missing OpenMoji sources: {', '.join(missing)}")
     for name, entries in COMPOSITIONS.items():

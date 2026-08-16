@@ -17,6 +17,11 @@ OUTPUT = ROOT / "assets/pua/farm"
 NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", NS)
 
+
+def source_path(filename: str) -> Path:
+    value = Path(filename)
+    return SOURCE / f"{value.stem.upper()}{value.suffix.lower()}"
+
 SUBJECTS = {
     "bee": "1f41d.svg",
     "chicken": "1f414.svg",
@@ -33,7 +38,7 @@ def local(tag: str) -> str:
 
 
 def source_shapes(filename: str) -> list[ET.Element]:
-    root = ET.parse(SOURCE / filename).getroot()
+    root = ET.parse(source_path(filename)).getroot()
     shapes: list[ET.Element] = []
     for element in root.iter():
         if local(element.tag) not in SHAPES:
@@ -77,7 +82,7 @@ def redraw(name: str, source: str) -> None:
 
 
 def main() -> None:
-    missing = [source for source in SUBJECTS.values() if not (SOURCE / source).exists()]
+    missing = [source for source in SUBJECTS.values() if not source_path(source).exists()]
     if missing:
         raise SystemExit(f"missing OpenMoji sources: {', '.join(missing)}")
     for name, source in SUBJECTS.items():

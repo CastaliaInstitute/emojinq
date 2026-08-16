@@ -17,6 +17,11 @@ OUTPUT = ROOT / "assets/pua/sea_creatures"
 NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", NS)
 
+
+def source_path(filename: str) -> Path:
+    value = Path(filename)
+    return SOURCE / f"{value.stem.upper()}{value.suffix.lower()}"
+
 SUBJECTS = {
     "coral": "1fab8.svg",
     "crab": "1f980.svg",
@@ -41,7 +46,7 @@ def redraw(name: str, filename: str) -> None:
     if not match:
         raise SystemExit(f"missing PUA code point in {target}")
 
-    source = ET.parse(SOURCE / filename).getroot()
+    source = ET.parse(source_path(filename)).getroot()
     root = ET.Element(f"{{{NS}}}svg", {
         "viewBox": "0 0 72 72",
         "role": "img",
