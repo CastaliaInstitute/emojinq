@@ -27,6 +27,9 @@
     .trial { text-align:center; }
     .canvas { display:grid; place-items:center; width:176px; height:176px; margin:1rem auto; border:1px solid var(--line); background:#fffefa; }
     .canvas img { display:block; width:32px; height:32px; object-fit:contain; }
+    .canvas span { display:grid; place-items:center; width:32px; height:32px; font-size:32px; line-height:1; font-variant-ligatures:common-ligatures; }
+    .canvas .ink-font { font-family:Emojinq,sans-serif; }
+    .canvas .color-font { font-family:"Emojinq Color",Emojinq,sans-serif; }
     .protocol { display:flex; grid-column:1 / -1; gap:.55rem; align-items:flex-start; color:var(--ink); }
     .protocol input { width:auto; margin-top:.2rem; }
     .guess { max-width:28rem; margin:auto; text-align:left; }
@@ -57,7 +60,7 @@
           <input id="age" required type="number" min="12" max="47" step="1" inputmode="numeric">
         </label>
         <label>Category
-          <select id="category"><option value="all">All pending categories</option></select>
+          <select id="category"><option value="all">All pending families and groups</option></select>
         </label>
         <label>Objects in this session
           <select id="batch"><option value="5">5</option><option value="10" selected>10</option><option value="25">25</option><option value="all">All remaining</option></select>
@@ -76,7 +79,7 @@
     <p class="meta" id="progress"></p>
     <h2 id="trial-title">What does this look like?</h2>
     <p id="variant-note"></p>
-    <div class="canvas"><img id="glyph" alt="" aria-label="Unlabeled 32 pixel glyph"></div>
+    <div class="canvas" id="glyph-canvas"></div>
     <form id="trial-form" class="guess">
       <label>Child’s words, verbatim
         <input id="guess" required maxlength="160" autocomplete="off">
@@ -104,10 +107,16 @@ make release-check</pre>
   </section>
 
   <script>
-    const LEDGER_URL = "../assets/pua-recognition-review.json";
     const STORAGE_KEY = "emojinq-recognition-session-v1";
     const params = new URLSearchParams(location.search);
     const releaseVersion = params.get("v") || params.get("release") || "current";
+    const LEDGER_URL = `../assets/pua-recognition-review.json?v=${encodeURIComponent(releaseVersion)}`;
+    const fontStyle = document.createElement("style");
+    fontStyle.textContent = `
+      @font-face { font-family:Emojinq; src:url("../fonts/Emojinq-Regular.ttf?v=${encodeURIComponent(releaseVersion)}") format("truetype"); font-display:swap; }
+      @font-face { font-family:"Emojinq Color"; src:url("../fonts/Emojinq-Color.ttf?v=${encodeURIComponent(releaseVersion)}") format("truetype"); font-display:swap; }
+    `;
+    document.head.append(fontStyle);
     const byId = id => document.getElementById(id);
     const setup = byId("setup");
     const trial = byId("trial");
@@ -128,25 +137,40 @@ make release-check</pre>
     };
     const save = () => localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
     const clearSaved = () => localStorage.removeItem(STORAGE_KEY);
-    const fingerprint = items => items.map(item => `${item.source}:${item.ink_sha256}:${item.color_sha256}`).join("|");
+    const fingerprint = items => items.map(item => `${item.id}:${item.ink_sha256}:${item.color_sha256}`).join("|");
     const sourceUrl = (item, variant) => {
       const color = variant === "color" && item.color_mode === "familiar-color";
       const root = color ? "../assets/pua-color/" : "../assets/pua/";
       return `${root}${item.source}?v=${encodeURIComponent(releaseVersion)}`;
     };
-    const sessionItem = source => ledger.items.find(item => item.source === source);
+    const sessionItem = id => ledger.items.find(item => item.id === id);
 
     function renderTrial() {
       setup.hidden = true;
       adjudicate.hidden = true;
       trial.hidden = false;
       const current = state.trials[state.trial_index];
-      const item = sessionItem(current.source);
+      const item = sessionItem(current.id);
       byId("progress").textContent = `Trial ${state.trial_index + 1} of ${state.trials.length}`;
       byId("variant-note").textContent = current.variant === "ink"
         ? "Ink presentation"
         : item.color_mode === "familiar-color" ? "Familiar-color sumi-e presentation" : "Color-font presentation · explicit ink fallback";
-      byId("glyph").src = sourceUrl(item, current.variant);
+      const canvas = byId("glyph-canvas");
+      canvas.replaceChildren();
+      if (item.family === "pua") {
+        const image = document.createElement("img");
+        image.src = sourceUrl(item, current.variant);
+        image.alt = "";
+        image.setAttribute("aria-label", "Unlabeled 32 pixel glyph");
+        canvas.append(image);
+      } else {
+        const glyph = document.createElement("span");
+        glyph.className = current.variant === "color" ? "color-font" : "ink-font";
+        glyph.textContent = String.fromCodePoint(...item.codepoints);
+        glyph.setAttribute("role", "img");
+        glyph.setAttribute("aria-label", "Unlabeled 32 pixel glyph");
+        canvas.append(glyph);
+      }
       byId("guess").value = "";
       byId("trial-protocol").checked = false;
       byId("guess").focus();
@@ -158,17 +182,17 @@ make release-check</pre>
       adjudicate.hidden = false;
       const results = byId("results");
       results.replaceChildren();
-      for (const source of state.sources) {
-        const item = sessionItem(source);
-        const record = state.records[source];
+      for (const id of state.ids) {
+        const item = sessionItem(id);
+        const record = state.records[id];
         const article = document.createElement("article");
         article.className = "result";
         article.innerHTML = `
           <h3>${item.expected}</h3>
           <dl><dt>Ink guess</dt><dd></dd><dt>Color/fallback guess</dt><dd></dd><dt>Color mode</dt><dd>${item.color_mode}</dd></dl>
           <div class="fields">
-            <label>Decision<select name="status:${source}" required><option value="">Choose…</option><option value="approved">Approved · both identify the object</option><option value="rejected">Rejected · redesign or retest</option></select></label>
-            <label>Notes<input name="notes:${source}" maxlength="500" placeholder="Synonym rationale or ambiguity"></label>
+            <label>Decision<select name="status:${id}" required><option value="">Choose…</option><option value="approved">Approved · both identify the object</option><option value="rejected">Rejected · redesign or retest</option></select></label>
+            <label>Notes<input name="notes:${id}" maxlength="500" placeholder="Synonym rationale or ambiguity"></label>
           </div>`;
         const guesses = article.querySelectorAll("dd");
         guesses[0].textContent = record.ink;
@@ -179,14 +203,14 @@ make release-check</pre>
 
     byId("setup-form").addEventListener("submit", event => {
       event.preventDefault();
-      const pending = ledger.items.filter(item => item.status !== "approved" && (category.value === "all" || item.source.startsWith(`${category.value}/`)));
+      const pending = ledger.items.filter(item => item.status !== "approved" && (category.value === "all" || `${item.family}|${item.group}` === category.value));
       const limit = byId("batch").value === "all" ? pending.length : Number(byId("batch").value);
       const selected = shuffled(pending).slice(0, limit);
       if (!selected.length) {
         status.textContent = "No pending candidates in that category.";
         return;
       }
-      const trials = shuffled(selected.flatMap(item => [{source:item.source,variant:"ink"},{source:item.source,variant:"color"}]));
+      const trials = shuffled(selected.flatMap(item => [{id:item.id,variant:"ink"},{id:item.id,variant:"color"}]));
       state = {
         version:1,
         session_id:crypto.randomUUID(),
@@ -198,10 +222,10 @@ make release-check</pre>
         review_scale_css_px:32,
         started_at:new Date().toISOString(),
         ledger_fingerprint:fingerprint(ledger.items),
-        sources:selected.map(item => item.source),
+        ids:selected.map(item => item.id),
         trials,
         trial_index:0,
-        records:Object.fromEntries(selected.map(item => [item.source,{}]))
+        records:Object.fromEntries(selected.map(item => [item.id,{}]))
       };
       save();
       renderTrial();
@@ -210,7 +234,7 @@ make release-check</pre>
     byId("trial-form").addEventListener("submit", event => {
       event.preventDefault();
       const current = state.trials[state.trial_index];
-      state.records[current.source][current.variant] = byId("guess").value.trim();
+      state.records[current.id][current.variant] = byId("guess").value.trim();
       state.trial_index += 1;
       save();
       if (state.trial_index < state.trials.length) renderTrial();
@@ -220,18 +244,20 @@ make release-check</pre>
     byId("adjudication-form").addEventListener("submit", event => {
       event.preventDefault();
       const form = new FormData(event.currentTarget);
-      const items = state.sources.map(source => {
-        const current = sessionItem(source);
+      const items = state.ids.map(id => {
+        const current = sessionItem(id);
         return {
-          source,
+          id,
+          family:current.family,
+          source:current.source,
           expected:current.expected,
           ink_sha256:current.ink_sha256,
           color_sha256:current.color_sha256,
           color_mode:current.color_mode,
-          ink_recognized_as:state.records[source].ink,
-          color_recognized_as:state.records[source].color,
-          status:form.get(`status:${source}`),
-          notes:form.get(`notes:${source}`) || ""
+          ink_recognized_as:state.records[id].ink,
+          color_recognized_as:state.records[id].color,
+          status:form.get(`status:${id}`),
+          notes:form.get(`notes:${id}`) || ""
         };
       });
       const payload = {
@@ -274,8 +300,12 @@ make release-check</pre>
       return response.json();
     }).then(data => {
       ledger = data;
-      const categories = [...new Set(ledger.items.filter(item => item.status !== "approved").map(item => item.source.split("/")[0]))].sort();
-      for (const name of categories) category.add(new Option(name.replaceAll("_", " "), name));
+      const categories = [...new Set(ledger.items.filter(item => item.status !== "approved").map(item => `${item.family}|${item.group}`))].sort();
+      for (const key of categories) {
+        const [family, group] = key.split("|");
+        const familyLabel = family === "gray-all" ? "Standard" : "PUA";
+        category.add(new Option(`${familyLabel} · ${group.replaceAll("_", " ")}`, key));
+      }
       const remaining = ledger.items.filter(item => item.status !== "approved").length;
       status.textContent = `${remaining} candidates still need real observations.`;
       byId("start").disabled = remaining === 0;

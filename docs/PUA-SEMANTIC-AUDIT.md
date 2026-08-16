@@ -9,8 +9,10 @@ answer:
 
 The source-level decisions live in `scripts/rank_developmental_vocabulary.py`.
 The resulting object-scale queue is written to
-`assets/pua-recognition-review.json`; it requires real label-blind observations
-from a child aged 12–47 months and never self-approves generated artwork.
+`assets/pua-recognition-review.json` alongside the standard Unicode candidates;
+it requires real label-blind observations from a child aged 12–47 months and
+never self-approves generated artwork. The legacy filename is retained for
+compatibility, but the ledger and deployed runner now cover both families.
 
 ## Manual taxonomy correction
 
@@ -58,7 +60,7 @@ font integrity. It does not prove that a child recognized a glyph. Only
 `make release-check`, with all current hash-bound observations approved, closes
 the recognition requirement.
 
-The deployed `docs/recognition.html` runner makes that evidence collectible
+The deployed `docs/recognition.html` runner makes standard and PUA evidence collectible
 without weakening the gate. It randomizes separate ink and color/fallback
 trials, renders the subject at exactly 32 CSS pixels, withholds every expected
 label until the observer has completed the batch, records verbatim guesses,
