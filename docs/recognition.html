@@ -65,11 +65,15 @@
         <label>Objects in this session
           <select id="batch"><option value="5">5</option><option value="10" selected>10</option><option value="25">25</option><option value="all">All remaining</option></select>
         </label>
+        <label>Assignment
+          <select id="assignment"><option value="random">Random pending objects</option></select>
+        </label>
         <label class="protocol"><input id="protocol" required type="checkbox"> I will hide every label and give no hint or answer choices before recording each guess.</label>
       </div>
       <div class="actions">
         <button type="submit" id="start">Start randomized trials</button>
         <button type="button" class="secondary" id="resume" hidden>Resume saved session</button>
+        <a id="assignment-link" hidden>Share this assigned-set link</a>
         <span class="status" id="setup-status" aria-live="polite">Loading current ledger…</span>
       </div>
     </form>
@@ -99,6 +103,12 @@
   </section>
 
   <section class="panel">
+    <h2>Coordinate multiple sessions</h2>
+    <p>Choose an assigned set and share its link when several families are collecting evidence. Set membership is stable for this ledger, so distinct links do not overlap. Rejected artwork is withheld until a changed asset hash returns it to pending.</p>
+    <p><a href="RECOGNITION-EVIDENCE.md">Read the evidence collection and import protocol →</a></p>
+  </section>
+
+  <section class="panel">
     <h2>Import boundary</h2>
     <p>This page cannot approve the release ledger. Keep the exported JSON with the project, validate it first, then import deliberately:</p>
     <pre>python scripts/import_pua_recognition_session.py session.json
@@ -123,6 +133,8 @@ make release-check</pre>
     const adjudicate = byId("adjudicate");
     const status = byId("setup-status");
     const category = byId("category");
+    const assignment = byId("assignment");
+    const assignmentLink = byId("assignment-link");
     let ledger = null;
     let state = null;
 
@@ -137,13 +149,44 @@ make release-check</pre>
     };
     const save = () => localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
     const clearSaved = () => localStorage.removeItem(STORAGE_KEY);
-    const fingerprint = items => items.map(item => `${item.id}:${item.ink_sha256}:${item.color_sha256}`).join("|");
+    const fingerprint = items => items.map(item => `${item.id}:${item.status}:${item.ink_sha256}:${item.color_sha256}`).join("|");
     const sourceUrl = (item, variant) => {
       const color = variant === "color" && item.color_mode === "familiar-color";
       const root = color ? "../assets/pua-color/" : "../assets/pua/";
       return `${root}${item.source}?v=${encodeURIComponent(releaseVersion)}`;
     };
     const sessionItem = id => ledger.items.find(item => item.id === id);
+    const matchesCategory = item => category.value === "all" || `${item.family}|${item.group}` === category.value;
+    const stableCategoryItems = () => ledger.items.filter(matchesCategory).sort((left, right) => left.id.localeCompare(right.id));
+
+    function refreshAssignmentLink() {
+      const match = assignment.value.match(/^set:(\d+)$/);
+      assignmentLink.hidden = !match;
+      if (!match) return;
+      const url = new URL(location.href);
+      url.searchParams.set("category", category.value);
+      url.searchParams.set("batch", byId("batch").value);
+      url.searchParams.set("set", String(Number(match[1]) + 1));
+      assignmentLink.href = url;
+    }
+
+    function refreshAssignments(requestedSet = null) {
+      const items = stableCategoryItems();
+      const requestedBatch = byId("batch").value;
+      const size = requestedBatch === "all" ? Math.max(items.length, 1) : Number(requestedBatch);
+      assignment.replaceChildren(new Option("Random pending objects", "random"));
+      const setCount = Math.ceil(items.length / size);
+      for (let index = 0; index < setCount; index += 1) {
+        const members = items.slice(index * size, (index + 1) * size);
+        const pending = members.filter(item => item.status === "pending").length;
+        const option = new Option(`Assigned set ${String(index + 1).padStart(3,"0")} of ${String(setCount).padStart(3,"0")} · ${pending} pending`, `set:${index}`);
+        option.disabled = pending === 0;
+        assignment.add(option);
+      }
+      const desired = requestedSet === null ? "random" : `set:${Number(requestedSet) - 1}`;
+      if ([...assignment.options].some(option => option.value === desired && !option.disabled)) assignment.value = desired;
+      refreshAssignmentLink();
+    }
 
     function renderTrial() {
       setup.hidden = true;
@@ -191,7 +234,7 @@ make release-check</pre>
           <h3>${item.expected}</h3>
           <dl><dt>Ink guess</dt><dd></dd><dt>Color/fallback guess</dt><dd></dd><dt>Color mode</dt><dd>${item.color_mode}</dd></dl>
           <div class="fields">
-            <label>Decision<select name="status:${id}" required><option value="">Choose…</option><option value="approved">Approved · both identify the object</option><option value="rejected">Rejected · redesign or retest</option></select></label>
+            <label>Decision<select name="status:${id}" required><option value="">Choose…</option><option value="approved">Approved · both identify the object</option><option value="rejected">Rejected · redesign required</option></select></label>
             <label>Notes<input name="notes:${id}" maxlength="500" placeholder="Synonym rationale or ambiguity"></label>
           </div>`;
         const guesses = article.querySelectorAll("dd");
@@ -203,11 +246,16 @@ make release-check</pre>
 
     byId("setup-form").addEventListener("submit", event => {
       event.preventDefault();
-      const pending = ledger.items.filter(item => item.status !== "approved" && (category.value === "all" || `${item.family}|${item.group}` === category.value));
+      const categoryItems = stableCategoryItems();
+      const pending = categoryItems.filter(item => item.status === "pending");
       const limit = byId("batch").value === "all" ? pending.length : Number(byId("batch").value);
-      const selected = shuffled(pending).slice(0, limit);
+      const assignmentSize = byId("batch").value === "all" ? categoryItems.length : Number(byId("batch").value);
+      const assignmentMatch = assignment.value.match(/^set:(\d+)$/);
+      const selected = assignmentMatch
+        ? categoryItems.slice(Number(assignmentMatch[1]) * assignmentSize, (Number(assignmentMatch[1]) + 1) * assignmentSize).filter(item => item.status === "pending")
+        : shuffled(pending).slice(0, limit);
       if (!selected.length) {
-        status.textContent = "No pending candidates in that category.";
+        status.textContent = "No pending candidates in that category or assigned set.";
         return;
       }
       const trials = shuffled(selected.flatMap(item => [{id:item.id,variant:"ink"},{id:item.id,variant:"color"}]));
@@ -222,6 +270,7 @@ make release-check</pre>
         review_scale_css_px:32,
         started_at:new Date().toISOString(),
         ledger_fingerprint:fingerprint(ledger.items),
+        assignment:assignment.value,
         ids:selected.map(item => item.id),
         trials,
         trial_index:0,
@@ -295,20 +344,31 @@ make release-check</pre>
       else renderAdjudication();
     });
 
+    category.addEventListener("change", () => refreshAssignments());
+    byId("batch").addEventListener("change", () => refreshAssignments());
+    assignment.addEventListener("change", refreshAssignmentLink);
+
     fetch(LEDGER_URL).then(response => {
       if (!response.ok) throw new Error(`ledger request failed (${response.status})`);
       return response.json();
     }).then(data => {
       ledger = data;
-      const categories = [...new Set(ledger.items.filter(item => item.status !== "approved").map(item => `${item.family}|${item.group}`))].sort();
+      const categories = [...new Set(ledger.items.map(item => `${item.family}|${item.group}`))].sort();
       for (const key of categories) {
         const [family, group] = key.split("|");
         const familyLabel = family === "gray-all" ? "Standard" : "PUA";
         category.add(new Option(`${familyLabel} · ${group.replaceAll("_", " ")}`, key));
       }
-      const remaining = ledger.items.filter(item => item.status !== "approved").length;
-      status.textContent = `${remaining} candidates still need real observations.`;
-      byId("start").disabled = remaining === 0;
+      const requestedCategory = params.get("category");
+      if ([...category.options].some(option => option.value === requestedCategory)) category.value = requestedCategory;
+      const requestedBatch = params.get("batch");
+      if ([...byId("batch").options].some(option => option.value === requestedBatch)) byId("batch").value = requestedBatch;
+      refreshAssignments(params.get("set"));
+      const pending = ledger.items.filter(item => item.status === "pending").length;
+      const approved = ledger.items.filter(item => item.status === "approved").length;
+      const rejected = ledger.items.filter(item => item.status === "rejected").length;
+      status.textContent = `${pending} pending · ${approved} approved · ${rejected} rejected awaiting redraw.`;
+      byId("start").disabled = pending === 0;
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) byId("resume").hidden = false;
     }).catch(error => {
