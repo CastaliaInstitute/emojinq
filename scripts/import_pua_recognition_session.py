@@ -73,6 +73,11 @@ def validate_session(session: dict, ledger_by_id: dict[str, dict], source_file: 
         if current is None:
             errors.append(f"{prefix}: id is not in the current recognition ledger")
             continue
+        if current.get("status") != "pending":
+            errors.append(
+                f"{prefix}: current ledger status is {current.get('status')}; "
+                "non-pending evidence cannot be overwritten until changed art resets it"
+            )
         if record_id in seen:
             errors.append(f"{prefix}: duplicate id in session")
             continue

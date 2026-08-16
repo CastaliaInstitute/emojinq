@@ -47,12 +47,21 @@ def main() -> None:
         "color_sha256:current.color_sha256",
         'method:"label-blind-object-scale-review"',
         "localStorage.setItem(STORAGE_KEY",
+        'item.status === "pending"',
+        '`${item.id}:${item.status}:${item.ink_sha256}:${item.color_sha256}`',
+        "Share this assigned-set link",
+        'assignment.value.match(/^set:',
+        'String(Number(match[1]) + 1)',
+        'Number(requestedSet) - 1',
+        'rejected awaiting redraw',
         "Export signed session JSON",
         "import_pua_recognition_session.py --write",
     )
     missing = [token for token in required if token not in page]
     if missing:
         raise SystemExit(f"recognition runner wiring missing: {', '.join(missing)}")
+    if 'item.status !== "approved"' in page:
+        raise SystemExit("recognition runner still offers unchanged rejected artwork for retest")
     scripts = re.findall(r"<script>(.*?)</script>", page, re.DOTALL)
     if len(scripts) != 1:
         raise SystemExit("recognition runner must contain exactly one inline script")
@@ -125,6 +134,14 @@ def main() -> None:
         pass
     else:
         raise SystemExit("recognition importer accepted stale art hashes")
+    completed_ledger = deepcopy(ledger_by_id)
+    completed_ledger[current["id"]]["status"] = "approved"
+    try:
+        importer.validate_session(session, completed_ledger, Path("duplicate.json"))
+    except ValueError:
+        pass
+    else:
+        raise SystemExit("recognition importer accepted an overwrite of non-pending evidence")
     families = {item["family"] for item in ledger["items"]}
     if families != {"gray-all", "pua"}:
         raise SystemExit(f"recognition ledger family scope is incomplete: {sorted(families)}")
