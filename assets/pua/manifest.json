@@ -6910,5 +6910,29 @@
       986253
     ],
     "label": "people/father"
+  },
+  {
+    "name": "F0C84",
+    "source": "people/baby.svg",
+    "codepoints": [
+      986244
+    ],
+    "label": "people/baby"
+  },
+  {
+    "name": "F0C88",
+    "source": "people/child.svg",
+    "codepoints": [
+      986248
+    ],
+    "label": "people/child"
+  },
+  {
+    "name": "F1131",
+    "source": "science/smell.svg",
+    "codepoints": [
+      987441
+    ],
+    "label": "science/smell"
   }
 ]
