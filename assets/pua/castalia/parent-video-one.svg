@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="Parent allowance: one video" data-pua="U+F1540" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" data-ink-path-units="normalized" data-ink-coverage="complete">
+ <ns0:title>Parent allowance — add one video</ns0:title>
+ <ns0:g fill="none" stroke="#302d28" stroke-linecap="round" stroke-linejoin="round">
+  <ns0:path d="M9 20 Q36 16 63 20 L61 55 Q36 59 11 54 Z" stroke-width="3.6" />
+  <ns0:path d="M29 28 L29 47 L46 37 Z" stroke-width="3.2" />
+  <ns0:path d="M51 12 L64 12 M57.5 5.5 L57.5 18.5" stroke-width="3.4" />
+  <ns0:path d="M15 25 Q34 21 55 24 M17 51 Q37 54 56 50" stroke-width="1.2" opacity=".6" />
+ </ns0:g>
+ <ns0:circle cx="13" cy="13" r="4.5" fill="#a34332" opacity=".82" />
+</ns0:svg>
