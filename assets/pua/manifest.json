@@ -6856,6 +6856,30 @@
     "label": "castalia/police-box"
   },
   {
+    "name": "F1540",
+    "source": "castalia/parent-video-one.svg",
+    "codepoints": [
+      988480
+    ],
+    "label": "castalia/parent-video-one"
+  },
+  {
+    "name": "F1541",
+    "source": "castalia/parent-minutes-five.svg",
+    "codepoints": [
+      988481
+    ],
+    "label": "castalia/parent-minutes-five"
+  },
+  {
+    "name": "F1542",
+    "source": "castalia/parent-minutes-fifteen.svg",
+    "codepoints": [
+      988482
+    ],
+    "label": "castalia/parent-minutes-fifteen"
+  },
+  {
     "name": "F15FF",
     "source": "objects/exit.svg",
     "codepoints": [

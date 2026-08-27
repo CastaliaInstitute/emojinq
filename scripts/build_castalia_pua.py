@@ -18,6 +18,9 @@ LEFT_HAND_CODEPOINT = 0xF1526
 RIGHT_HAND_CODEPOINT = 0xF1527
 PUPPET_SHOE_CODEPOINT = 0xF1528
 PIRATE_SHIP_CODEPOINT = 0xF1529
+PARENT_VIDEO_CODEPOINT = 0xF1540
+PARENT_FIVE_MINUTES_CODEPOINT = 0xF1541
+PARENT_FIFTEEN_MINUTES_CODEPOINT = 0xF1542
 
 SVG = """<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"
@@ -193,7 +196,22 @@ def main() -> None:
     (OUT / "puppet-shoe.svg").write_text(PUPPET_SHOE_SVG)
     (OUT / "pirate-ship.svg").write_text(PIRATE_SHIP_SVG)
     entries = json.loads(MANIFEST.read_text())
-    entries = [entry for entry in entries if not {ROOK_CODEPOINT, SEAL_CODEPOINT, SUBMARINE_CODEPOINT, MERMAID_CODEPOINT, PUNCH_CODEPOINT, JUDY_CODEPOINT, LEFT_HAND_CODEPOINT, RIGHT_HAND_CODEPOINT, PUPPET_SHOE_CODEPOINT, PIRATE_SHIP_CODEPOINT}.intersection(entry.get("codepoints", []))]
+    parent_glyphs = [
+        (PARENT_VIDEO_CODEPOINT, "parent-video-one.svg", "parent-video-one"),
+        (PARENT_FIVE_MINUTES_CODEPOINT, "parent-minutes-five.svg", "parent-minutes-five"),
+        (PARENT_FIFTEEN_MINUTES_CODEPOINT, "parent-minutes-fifteen.svg", "parent-minutes-fifteen"),
+    ]
+    for _, filename, _ in parent_glyphs:
+        if not (OUT / filename).exists():
+            raise FileNotFoundError(f"missing authored parental glyph: {OUT / filename}")
+    owned_codepoints = {
+        ROOK_CODEPOINT, SEAL_CODEPOINT, SUBMARINE_CODEPOINT, MERMAID_CODEPOINT,
+        PUNCH_CODEPOINT, JUDY_CODEPOINT, LEFT_HAND_CODEPOINT, RIGHT_HAND_CODEPOINT,
+        PUPPET_SHOE_CODEPOINT, PIRATE_SHIP_CODEPOINT,
+        PARENT_VIDEO_CODEPOINT, PARENT_FIVE_MINUTES_CODEPOINT,
+        PARENT_FIFTEEN_MINUTES_CODEPOINT,
+    }
+    entries = [entry for entry in entries if not owned_codepoints.intersection(entry.get("codepoints", []))]
     entries.extend([
         {"name": f"{ROOK_CODEPOINT:X}", "source": "castalia/rook-flame.svg", "codepoints": [ROOK_CODEPOINT], "label": "castalia/rook-flame"},
         {"name": f"{SEAL_CODEPOINT:X}", "source": "castalia/maker-seal.svg", "codepoints": [SEAL_CODEPOINT], "label": "castalia/maker-seal"},
@@ -205,10 +223,14 @@ def main() -> None:
         {"name": f"{RIGHT_HAND_CODEPOINT:X}", "source": "castalia/puppet-right-hand.svg", "codepoints": [RIGHT_HAND_CODEPOINT], "label": "castalia/puppet-right-hand"},
         {"name": f"{PUPPET_SHOE_CODEPOINT:X}", "source": "castalia/puppet-shoe.svg", "codepoints": [PUPPET_SHOE_CODEPOINT], "label": "castalia/puppet-shoe"},
         {"name": f"{PIRATE_SHIP_CODEPOINT:X}", "source": "castalia/pirate-ship.svg", "codepoints": [PIRATE_SHIP_CODEPOINT], "label": "castalia/pirate-ship"},
+        *[
+            {"name": f"{codepoint:X}", "source": f"castalia/{filename}", "codepoints": [codepoint], "label": f"castalia/{label}"}
+            for codepoint, filename, label in parent_glyphs
+        ],
     ])
     entries.sort(key=lambda entry: entry["codepoints"])
     MANIFEST.write_text(json.dumps(entries, indent=2) + "\n")
-    print("build_castalia_pua: wrote U+F1520–U+F1529")
+    print("build_castalia_pua: wrote Castalia identity, puppet, vessel, and parental allowance PUA glyphs")
 
 
 if __name__ == "__main__":
