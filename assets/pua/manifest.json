@@ -6886,5 +6886,29 @@
       988671
     ],
     "label": "objects/exit"
+  },
+  {
+    "name": "F0224",
+    "source": "body/back.svg",
+    "codepoints": [
+      983588
+    ],
+    "label": "body/back"
+  },
+  {
+    "name": "F0886",
+    "source": "objects/lace.svg",
+    "codepoints": [
+      985222
+    ],
+    "label": "objects/lace"
+  },
+  {
+    "name": "F0C8D",
+    "source": "people/father.svg",
+    "codepoints": [
+      986253
+    ],
+    "label": "people/father"
   }
 ]
