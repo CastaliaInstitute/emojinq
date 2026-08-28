@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / seed pod" data-pua="U+F0E18" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="brush-v1" data-ink-path-units="normalized" data-intentional-components="semantic-multipart-v1">
+  <title>plants / seed pod — open pod with seeds</title>
+  <g fill="none" stroke="#24231f" stroke-linecap="round" stroke-linejoin="round">
+    <!-- The split pod and individually visible seeds keep this distinct from a loose seed. -->
+    <path d="M18 48 C24 38 30 28 43 22 C51 18 58 20 61 24" stroke-width="4.2"/>
+    <path d="M18 48 C27 55 38 55 47 48 C54 42 58 34 61 24" stroke-width="4.2"/>
+    <path d="M18 48 C16 52 17 56 20 58" stroke-width="2.8"/>
+    <circle cx="29" cy="45" r="3.5" stroke-width="2.8"/>
+    <circle cx="37" cy="43" r="3.5" stroke-width="2.8"/>
+    <circle cx="45" cy="39" r="3.5" stroke-width="2.8"/>
+    <circle cx="51" cy="33" r="3.5" stroke-width="2.8"/>
+  </g>
+</svg>

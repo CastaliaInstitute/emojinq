@@ -3232,6 +3232,14 @@
     "label": "plants/watering"
   },
   {
+    "name": "F0E18",
+    "source": "plants/seed-pod.svg",
+    "codepoints": [
+      986648
+    ],
+    "label": "plants/seed-pod"
+  },
+  {
     "name": "F1000",
     "source": "science/adaptation.svg",
     "codepoints": [
