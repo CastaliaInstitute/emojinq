@@ -6942,5 +6942,941 @@
       987441
     ],
     "label": "science/smell"
+  },
+  {
+    "name": "F1600",
+    "source": "holiday/new-year-s-day.svg",
+    "codepoints": [
+      988672
+    ],
+    "label": "holiday/New Year's Day"
+  },
+  {
+    "name": "F1601",
+    "source": "holiday/perchta-day-perchtenlauf.svg",
+    "codepoints": [
+      988673
+    ],
+    "label": "holiday/Perchta Day (Perchtenlauf)"
+  },
+  {
+    "name": "F1602",
+    "source": "holiday/berchtoldstag.svg",
+    "codepoints": [
+      988674
+    ],
+    "label": "holiday/Berchtoldstag"
+  },
+  {
+    "name": "F1603",
+    "source": "holiday/candlemas-feast-of-the-presentation.svg",
+    "codepoints": [
+      988675
+    ],
+    "label": "holiday/Candlemas (Feast of the Presentation)"
+  },
+  {
+    "name": "F1604",
+    "source": "holiday/twelfth-night.svg",
+    "codepoints": [
+      988676
+    ],
+    "label": "holiday/Twelfth Night"
+  },
+  {
+    "name": "F1605",
+    "source": "holiday/epiphany-three-kings-day.svg",
+    "codepoints": [
+      988677
+    ],
+    "label": "holiday/Epiphany (Three Kings Day)"
+  },
+  {
+    "name": "F1606",
+    "source": "holiday/fete-de-papa-zaka-feast-of-the-farmer-loa.svg",
+    "codepoints": [
+      988678
+    ],
+    "label": "holiday/Fete de Papa Zaka - Feast of the Farmer Loa"
+  },
+  {
+    "name": "F1607",
+    "source": "holiday/fete-du-vodoun-benin-vodoun-festival.svg",
+    "codepoints": [
+      988679
+    ],
+    "label": "holiday/Fete du Vodoun (Benin Vodoun Festival)"
+  },
+  {
+    "name": "F1608",
+    "source": "holiday/feast-of-the-ass.svg",
+    "codepoints": [
+      988680
+    ],
+    "label": "holiday/Feast of the Ass"
+  },
+  {
+    "name": "F1609",
+    "source": "holiday/dondoyaki-bonfire.svg",
+    "codepoints": [
+      988681
+    ],
+    "label": "holiday/Dondoyaki Bonfire"
+  },
+  {
+    "name": "F160A",
+    "source": "holiday/old-twelfth-night-wassail.svg",
+    "codepoints": [
+      988682
+    ],
+    "label": "holiday/Old Twelfth Night Wassail"
+  },
+  {
+    "name": "F160B",
+    "source": "holiday/burns-night-supper.svg",
+    "codepoints": [
+      988683
+    ],
+    "label": "holiday/Burns Night Supper"
+  },
+  {
+    "name": "F160C",
+    "source": "holiday/lunar-new-year-chunjie.svg",
+    "codepoints": [
+      988684
+    ],
+    "label": "holiday/Lunar New Year (Chunjie)"
+  },
+  {
+    "name": "F160D",
+    "source": "holiday/losar-tibetan-new-year.svg",
+    "codepoints": [
+      988685
+    ],
+    "label": "holiday/Losar (Tibetan New Year)"
+  },
+  {
+    "name": "F160E",
+    "source": "holiday/imbolc-eve-la-fheile-bride.svg",
+    "codepoints": [
+      988686
+    ],
+    "label": "holiday/Imbolc Eve (La Fheile Bride)"
+  },
+  {
+    "name": "F160F",
+    "source": "holiday/imbolc-day-celebration.svg",
+    "codepoints": [
+      988687
+    ],
+    "label": "holiday/Imbolc Day Celebration"
+  },
+  {
+    "name": "F1610",
+    "source": "holiday/saint-valentine-s-day.svg",
+    "codepoints": [
+      988688
+    ],
+    "label": "holiday/Saint Valentine's Day"
+  },
+  {
+    "name": "F1611",
+    "source": "holiday/saint-patrick-s-day.svg",
+    "codepoints": [
+      988689
+    ],
+    "label": "holiday/Saint Patrick's Day"
+  },
+  {
+    "name": "F1612",
+    "source": "holiday/spring-equinox-ostara.svg",
+    "codepoints": [
+      988690
+    ],
+    "label": "holiday/Spring Equinox (Ostara)"
+  },
+  {
+    "name": "F1613",
+    "source": "holiday/nowruz.svg",
+    "codepoints": [
+      988691
+    ],
+    "label": "holiday/Nowruz"
+  },
+  {
+    "name": "F1614",
+    "source": "holiday/palm-sunday.svg",
+    "codepoints": [
+      988692
+    ],
+    "label": "holiday/Palm Sunday"
+  },
+  {
+    "name": "F1615",
+    "source": "holiday/passover.svg",
+    "codepoints": [
+      988693
+    ],
+    "label": "holiday/Passover"
+  },
+  {
+    "name": "F1616",
+    "source": "holiday/maundy-thursday.svg",
+    "codepoints": [
+      988694
+    ],
+    "label": "holiday/Maundy Thursday"
+  },
+  {
+    "name": "F1617",
+    "source": "holiday/good-friday.svg",
+    "codepoints": [
+      988695
+    ],
+    "label": "holiday/Good Friday"
+  },
+  {
+    "name": "F1618",
+    "source": "holiday/earth-day.svg",
+    "codepoints": [
+      988696
+    ],
+    "label": "holiday/Earth Day"
+  },
+  {
+    "name": "F1619",
+    "source": "holiday/independence-day-united-states.svg",
+    "codepoints": [
+      988697
+    ],
+    "label": "holiday/Independence Day (United States)"
+  },
+  {
+    "name": "F161A",
+    "source": "holiday/buddhist-ghost-festival-ullambana.svg",
+    "codepoints": [
+      988698
+    ],
+    "label": "holiday/Buddhist Ghost Festival (Ullambana)"
+  },
+  {
+    "name": "F161B",
+    "source": "holiday/autumn-equinox-mabon.svg",
+    "codepoints": [
+      988699
+    ],
+    "label": "holiday/Autumn Equinox (Mabon)"
+  },
+  {
+    "name": "F161C",
+    "source": "holiday/all-hallows-eve-halloween.svg",
+    "codepoints": [
+      988700
+    ],
+    "label": "holiday/All Hallows' Eve (Halloween)"
+  },
+  {
+    "name": "F161D",
+    "source": "holiday/dia-de-los-angelitos.svg",
+    "codepoints": [
+      988701
+    ],
+    "label": "holiday/Dia de los Angelitos"
+  },
+  {
+    "name": "F161E",
+    "source": "holiday/dia-de-los-muertos.svg",
+    "codepoints": [
+      988702
+    ],
+    "label": "holiday/Dia de los Muertos"
+  },
+  {
+    "name": "F161F",
+    "source": "holiday/martinstag-lantern-evening.svg",
+    "codepoints": [
+      988703
+    ],
+    "label": "holiday/Martinstag Lantern Evening"
+  },
+  {
+    "name": "F1620",
+    "source": "holiday/st-martin-s-day-martinstag.svg",
+    "codepoints": [
+      988704
+    ],
+    "label": "holiday/St. Martin's Day (Martinstag)"
+  },
+  {
+    "name": "F1621",
+    "source": "holiday/life-day-wookiee-tradition.svg",
+    "codepoints": [
+      988705
+    ],
+    "label": "holiday/Life Day (Wookiee Tradition)"
+  },
+  {
+    "name": "F1622",
+    "source": "holiday/st-catherine-s-day.svg",
+    "codepoints": [
+      988706
+    ],
+    "label": "holiday/St. Catherine's Day"
+  },
+  {
+    "name": "F1623",
+    "source": "holiday/thanksgiving-day-united-states.svg",
+    "codepoints": [
+      988707
+    ],
+    "label": "holiday/Thanksgiving Day (United States)"
+  },
+  {
+    "name": "F1624",
+    "source": "holiday/noaptea-lupilor.svg",
+    "codepoints": [
+      988708
+    ],
+    "label": "holiday/Noaptea Lupilor"
+  },
+  {
+    "name": "F1625",
+    "source": "holiday/st-andrew-s-day.svg",
+    "codepoints": [
+      988709
+    ],
+    "label": "holiday/St. Andrew's Day"
+  },
+  {
+    "name": "F1626",
+    "source": "holiday/first-sunday-of-advent.svg",
+    "codepoints": [
+      988710
+    ],
+    "label": "holiday/First Sunday of Advent"
+  },
+  {
+    "name": "F1627",
+    "source": "holiday/krampusnacht.svg",
+    "codepoints": [
+      988711
+    ],
+    "label": "holiday/Krampusnacht"
+  },
+  {
+    "name": "F1628",
+    "source": "holiday/st-nicholas-day.svg",
+    "codepoints": [
+      988712
+    ],
+    "label": "holiday/St. Nicholas Day"
+  },
+  {
+    "name": "F1629",
+    "source": "holiday/gita-jayanti.svg",
+    "codepoints": [
+      988713
+    ],
+    "label": "holiday/Gita Jayanti (गीता जयंती)"
+  },
+  {
+    "name": "F162A",
+    "source": "holiday/tiki-christmas-at-pearl-harbor.svg",
+    "codepoints": [
+      988714
+    ],
+    "label": "holiday/Tiki Christmas at Pearl Harbor"
+  },
+  {
+    "name": "F162B",
+    "source": "holiday/second-sunday-of-advent.svg",
+    "codepoints": [
+      988715
+    ],
+    "label": "holiday/Second Sunday of Advent"
+  },
+  {
+    "name": "F162C",
+    "source": "holiday/immaculada.svg",
+    "codepoints": [
+      988716
+    ],
+    "label": "holiday/Immaculada"
+  },
+  {
+    "name": "F162D",
+    "source": "holiday/sinterklaas-arrival-intocht.svg",
+    "codepoints": [
+      988717
+    ],
+    "label": "holiday/Sinterklaas Arrival (Intocht)"
+  },
+  {
+    "name": "F162E",
+    "source": "holiday/magic-flute.svg",
+    "codepoints": [
+      988718
+    ],
+    "label": "holiday/Magic Flute"
+  },
+  {
+    "name": "F162F",
+    "source": "holiday/lussinatta-st-lucia-s-vigil.svg",
+    "codepoints": [
+      988719
+    ],
+    "label": "holiday/Lussinatta (St. Lucia's Vigil)"
+  },
+  {
+    "name": "F1630",
+    "source": "holiday/feast-of-our-lady-of-guadalupe.svg",
+    "codepoints": [
+      988720
+    ],
+    "label": "holiday/Feast of Our Lady of Guadalupe"
+  },
+  {
+    "name": "F1631",
+    "source": "holiday/st-lucia-s-day.svg",
+    "codepoints": [
+      988721
+    ],
+    "label": "holiday/St. Lucia's Day"
+  },
+  {
+    "name": "F1632",
+    "source": "holiday/gaudete-sunday.svg",
+    "codepoints": [
+      988722
+    ],
+    "label": "holiday/Gaudete Sunday"
+  },
+  {
+    "name": "F1633",
+    "source": "holiday/hanukkah-festival-of-lights.svg",
+    "codepoints": [
+      988723
+    ],
+    "label": "holiday/Hanukkah (Festival of Lights)"
+  },
+  {
+    "name": "F1634",
+    "source": "holiday/saturnalia.svg",
+    "codepoints": [
+      988724
+    ],
+    "label": "holiday/Saturnalia"
+  },
+  {
+    "name": "F1635",
+    "source": "holiday/fourth-sunday-of-advent.svg",
+    "codepoints": [
+      988725
+    ],
+    "label": "holiday/Fourth Sunday of Advent"
+  },
+  {
+    "name": "F1636",
+    "source": "holiday/winter-solstice-yule.svg",
+    "codepoints": [
+      988726
+    ],
+    "label": "holiday/Winter Solstice (Yule)"
+  },
+  {
+    "name": "F1637",
+    "source": "holiday/polaris-meteor-watch-ufo-evening.svg",
+    "codepoints": [
+      988727
+    ],
+    "label": "holiday/Polaris Meteor Watch & UFO Evening"
+  },
+  {
+    "name": "F1638",
+    "source": "holiday/yalda-night.svg",
+    "codepoints": [
+      988728
+    ],
+    "label": "holiday/Yalda Night"
+  },
+  {
+    "name": "F1639",
+    "source": "holiday/la-noche-de-rabanos.svg",
+    "codepoints": [
+      988729
+    ],
+    "label": "holiday/La Noche de Rabanos"
+  },
+  {
+    "name": "F163A",
+    "source": "holiday/christmas-eve.svg",
+    "codepoints": [
+      988730
+    ],
+    "label": "holiday/Christmas Eve"
+  },
+  {
+    "name": "F163B",
+    "source": "holiday/christmas-day.svg",
+    "codepoints": [
+      988731
+    ],
+    "label": "holiday/Christmas Day"
+  },
+  {
+    "name": "F163C",
+    "source": "holiday/st-stephen-s-day-boxing-day.svg",
+    "codepoints": [
+      988732
+    ],
+    "label": "holiday/St. Stephen's Day (Boxing Day)"
+  },
+  {
+    "name": "F163D",
+    "source": "holiday/feast-of-the-holy-innocents-childermas-banquet.svg",
+    "codepoints": [
+      988733
+    ],
+    "label": "holiday/Feast of the Holy Innocents (Childermas Banquet)"
+  },
+  {
+    "name": "F163E",
+    "source": "holiday/broadmoor-brunch.svg",
+    "codepoints": [
+      988734
+    ],
+    "label": "holiday/Broadmoor Brunch"
+  },
+  {
+    "name": "F1700",
+    "source": "dinosaurs/amargasaurus.svg",
+    "codepoints": [
+      988928
+    ],
+    "label": "dinosaurs/amargasaurus"
+  },
+  {
+    "name": "F1701",
+    "source": "dinosaurs/apatosaurus.svg",
+    "codepoints": [
+      988929
+    ],
+    "label": "dinosaurs/apatosaurus"
+  },
+  {
+    "name": "F1702",
+    "source": "dinosaurs/baryonyx.svg",
+    "codepoints": [
+      988930
+    ],
+    "label": "dinosaurs/baryonyx"
+  },
+  {
+    "name": "F1703",
+    "source": "dinosaurs/carnotaurus.svg",
+    "codepoints": [
+      988931
+    ],
+    "label": "dinosaurs/carnotaurus"
+  },
+  {
+    "name": "F1704",
+    "source": "dinosaurs/ceratosaurus.svg",
+    "codepoints": [
+      988932
+    ],
+    "label": "dinosaurs/ceratosaurus"
+  },
+  {
+    "name": "F1705",
+    "source": "dinosaurs/chasmosaurus.svg",
+    "codepoints": [
+      988933
+    ],
+    "label": "dinosaurs/chasmosaurus"
+  },
+  {
+    "name": "F1706",
+    "source": "dinosaurs/cionodon.svg",
+    "codepoints": [
+      988934
+    ],
+    "label": "dinosaurs/cionodon"
+  },
+  {
+    "name": "F1707",
+    "source": "dinosaurs/deinonychus.svg",
+    "codepoints": [
+      988935
+    ],
+    "label": "dinosaurs/deinonychus"
+  },
+  {
+    "name": "F1708",
+    "source": "dinosaurs/dilophosaurus.svg",
+    "codepoints": [
+      988936
+    ],
+    "label": "dinosaurs/dilophosaurus"
+  },
+  {
+    "name": "F1709",
+    "source": "dinosaurs/dimetrodon.svg",
+    "codepoints": [
+      988937
+    ],
+    "label": "dinosaurs/dimetrodon"
+  },
+  {
+    "name": "F170A",
+    "source": "dinosaurs/diplodocus.svg",
+    "codepoints": [
+      988938
+    ],
+    "label": "dinosaurs/diplodocus"
+  },
+  {
+    "name": "F170B",
+    "source": "dinosaurs/dryosaurus.svg",
+    "codepoints": [
+      988939
+    ],
+    "label": "dinosaurs/dryosaurus"
+  },
+  {
+    "name": "F170C",
+    "source": "dinosaurs/edmontosaurus.svg",
+    "codepoints": [
+      988940
+    ],
+    "label": "dinosaurs/edmontosaurus"
+  },
+  {
+    "name": "F170D",
+    "source": "dinosaurs/einiosaurus.svg",
+    "codepoints": [
+      988941
+    ],
+    "label": "dinosaurs/einiosaurus"
+  },
+  {
+    "name": "F170E",
+    "source": "dinosaurs/eotrachodon.svg",
+    "codepoints": [
+      988942
+    ],
+    "label": "dinosaurs/eotrachodon"
+  },
+  {
+    "name": "F170F",
+    "source": "dinosaurs/fukuisaurus.svg",
+    "codepoints": [
+      988943
+    ],
+    "label": "dinosaurs/fukuisaurus"
+  },
+  {
+    "name": "F1710",
+    "source": "dinosaurs/giganotosaurus.svg",
+    "codepoints": [
+      988944
+    ],
+    "label": "dinosaurs/giganotosaurus"
+  },
+  {
+    "name": "F1711",
+    "source": "dinosaurs/gigantoraptor.svg",
+    "codepoints": [
+      988945
+    ],
+    "label": "dinosaurs/gigantoraptor"
+  },
+  {
+    "name": "F1712",
+    "source": "dinosaurs/gorgosaurus.svg",
+    "codepoints": [
+      988946
+    ],
+    "label": "dinosaurs/gorgosaurus"
+  },
+  {
+    "name": "F1713",
+    "source": "dinosaurs/hadrosaurus.svg",
+    "codepoints": [
+      988947
+    ],
+    "label": "dinosaurs/hadrosaurus"
+  },
+  {
+    "name": "F1714",
+    "source": "dinosaurs/hypsilophodon.svg",
+    "codepoints": [
+      988948
+    ],
+    "label": "dinosaurs/hypsilophodon"
+  },
+  {
+    "name": "F1715",
+    "source": "dinosaurs/hypsilophodon-variant-2.svg",
+    "codepoints": [
+      988949
+    ],
+    "label": "dinosaurs/hypsilophodon-variant-2"
+  },
+  {
+    "name": "F1716",
+    "source": "dinosaurs/iguanodon.svg",
+    "codepoints": [
+      988950
+    ],
+    "label": "dinosaurs/iguanodon"
+  },
+  {
+    "name": "F1717",
+    "source": "dinosaurs/kentrosaurus.svg",
+    "codepoints": [
+      988951
+    ],
+    "label": "dinosaurs/kentrosaurus"
+  },
+  {
+    "name": "F1718",
+    "source": "dinosaurs/kentrosaurus-variant-2.svg",
+    "codepoints": [
+      988952
+    ],
+    "label": "dinosaurs/kentrosaurus-variant-2"
+  },
+  {
+    "name": "F1719",
+    "source": "dinosaurs/lambeosaurus.svg",
+    "codepoints": [
+      988953
+    ],
+    "label": "dinosaurs/lambeosaurus"
+  },
+  {
+    "name": "F171A",
+    "source": "dinosaurs/mamenchisaurus.svg",
+    "codepoints": [
+      988954
+    ],
+    "label": "dinosaurs/mamenchisaurus"
+  },
+  {
+    "name": "F171B",
+    "source": "dinosaurs/matherosaurus.svg",
+    "codepoints": [
+      988955
+    ],
+    "label": "dinosaurs/matherosaurus"
+  },
+  {
+    "name": "F171C",
+    "source": "dinosaurs/megalosaurus.svg",
+    "codepoints": [
+      988956
+    ],
+    "label": "dinosaurs/megalosaurus"
+  },
+  {
+    "name": "F171D",
+    "source": "dinosaurs/nodosaurus.svg",
+    "codepoints": [
+      988957
+    ],
+    "label": "dinosaurs/nodosaurus"
+  },
+  {
+    "name": "F171E",
+    "source": "dinosaurs/pachycephalosaurus.svg",
+    "codepoints": [
+      988958
+    ],
+    "label": "dinosaurs/pachycephalosaurus"
+  },
+  {
+    "name": "F171F",
+    "source": "dinosaurs/pachyrhinosaurus.svg",
+    "codepoints": [
+      988959
+    ],
+    "label": "dinosaurs/pachyrhinosaurus"
+  },
+  {
+    "name": "F1720",
+    "source": "dinosaurs/plateosaurus.svg",
+    "codepoints": [
+      988960
+    ],
+    "label": "dinosaurs/plateosaurus"
+  },
+  {
+    "name": "F1721",
+    "source": "dinosaurs/postosuchus.svg",
+    "codepoints": [
+      988961
+    ],
+    "label": "dinosaurs/postosuchus"
+  },
+  {
+    "name": "F1722",
+    "source": "dinosaurs/protoceratops.svg",
+    "codepoints": [
+      988962
+    ],
+    "label": "dinosaurs/protoceratops"
+  },
+  {
+    "name": "F1723",
+    "source": "dinosaurs/raptor.svg",
+    "codepoints": [
+      988963
+    ],
+    "label": "dinosaurs/raptor"
+  },
+  {
+    "name": "F1724",
+    "source": "dinosaurs/rhabdodon.svg",
+    "codepoints": [
+      988964
+    ],
+    "label": "dinosaurs/rhabdodon"
+  },
+  {
+    "name": "F1725",
+    "source": "dinosaurs/saltasaurus.svg",
+    "codepoints": [
+      988965
+    ],
+    "label": "dinosaurs/saltasaurus"
+  },
+  {
+    "name": "F1726",
+    "source": "dinosaurs/styracosaurus.svg",
+    "codepoints": [
+      988966
+    ],
+    "label": "dinosaurs/styracosaurus"
+  },
+  {
+    "name": "F1727",
+    "source": "dinosaurs/therizinosaurus.svg",
+    "codepoints": [
+      988967
+    ],
+    "label": "dinosaurs/therizinosaurus"
+  },
+  {
+    "name": "F1728",
+    "source": "dinosaurs/uteodon.svg",
+    "codepoints": [
+      988968
+    ],
+    "label": "dinosaurs/uteodon"
+  },
+  {
+    "name": "F1800",
+    "source": "people/healer-torso.svg",
+    "codepoints": [
+      989184
+    ],
+    "label": "people/healer-torso"
+  },
+  {
+    "name": "F1801",
+    "source": "people/patient.svg",
+    "codepoints": [
+      989185
+    ],
+    "label": "people/patient"
+  },
+  {
+    "name": "F1802",
+    "source": "people/healer-patient.svg",
+    "codepoints": [
+      989186
+    ],
+    "label": "people/healer-patient"
+  },
+  {
+    "name": "F1803",
+    "source": "people/cook-torso.svg",
+    "codepoints": [
+      989187
+    ],
+    "label": "people/cook-torso"
+  },
+  {
+    "name": "F1804",
+    "source": "people/builder-torso.svg",
+    "codepoints": [
+      989188
+    ],
+    "label": "people/builder-torso"
+  },
+  {
+    "name": "F1805",
+    "source": "people/firefighter-torso.svg",
+    "codepoints": [
+      989189
+    ],
+    "label": "people/firefighter-torso"
+  },
+  {
+    "name": "F1806",
+    "source": "people/police-torso.svg",
+    "codepoints": [
+      989190
+    ],
+    "label": "people/police-torso"
+  },
+  {
+    "name": "F1807",
+    "source": "people/nurse-torso.svg",
+    "codepoints": [
+      989191
+    ],
+    "label": "people/nurse-torso"
+  },
+  {
+    "name": "F1808",
+    "source": "people/astronaut-torso.svg",
+    "codepoints": [
+      989192
+    ],
+    "label": "people/astronaut-torso"
+  },
+  {
+    "name": "F1809",
+    "source": "people/cleaner-torso.svg",
+    "codepoints": [
+      989193
+    ],
+    "label": "people/cleaner-torso"
+  },
+  {
+    "name": "F180A",
+    "source": "people/mechanic-torso.svg",
+    "codepoints": [
+      989194
+    ],
+    "label": "people/mechanic-torso"
+  },
+  {
+    "name": "F180C",
+    "source": "people/baker-torso.svg",
+    "codepoints": [
+      989196
+    ],
+    "label": "people/baker-torso"
+  },
+  {
+    "name": "F180B",
+    "source": "people/clothing-torso.svg",
+    "codepoints": [
+      989195
+    ],
+    "label": "people/clothing-torso"
   }
 ]

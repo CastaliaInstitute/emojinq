@@ -9,6 +9,7 @@ SVG stroke so the source remains animatable, scalable, and laser-safe.
 from __future__ import annotations
 
 import re
+import json
 import zlib
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -17,6 +18,7 @@ from line_brush import brush_path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "pua" / "dinosaurs"
+MANIFEST = ROOT / "assets" / "pua" / "manifest.json"
 
 INK = "#262421"
 MID = "#4a4943"
@@ -157,15 +159,26 @@ def write(name: str, marks: list[str]) -> None:
     original = target.read_text()
     match = re.search(r'data-pua="([^"]+)"', original)
     if not match:
-        raise SystemExit(f"missing PUA code point in {target}")
+        manifest = json.loads(MANIFEST.read_text())
+        entry = next((item for item in manifest if item.get("source") == f"dinosaurs/{name}.svg"), None)
+        if not entry:
+            raise SystemExit(f"missing PUA code point in manifest for {target}")
+        pua = f'data-pua="U+{entry["name"]}"'
+    else:
+        pua = match.group(0)
     label = f"dinosaurs / {name}"
+    source_ref = (
+        "Noun Project pteranodon icon 6594712 by iconfield, https://thenounproject.com/icon/pteranodon-6594712/"
+        if name == "pteranodon"
+        else "Noun Project Dinosaurs Icon Set 243311 by Icogenix, https://thenounproject.com/browse/collection-icon/dinosaurs-243311/"
+    )
     svg = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" '
-        f'role="img" aria-label="{label}" {match.group(0)} '
+        f'role="img" aria-label="{label}" {pua} '
         'data-castalia-style="sumi-e-ink-wash-v1" '
         'data-ink-stroke-system="tapered-v1" data-ink-animation="draw-v1" '
-        'data-ink-path-units="normalized" data-naturalist-construction="species-anatomy-v1">\n'
+        f'data-ink-path-units="normalized" data-naturalist-construction="species-anatomy-v1" data-source-reference="{source_ref}; Castalia original redraw" data-reference-record="cards/editorial/noun-project-references.json#dinosaurs/*" data-license-status="reference-only; exact production license not asserted" data-intentional-components="semantic-multipart-v1" data-component-review="severity-contact-sheet-2026-08-v1">\n'
         f'  <title>{label} — stroke-only naturalist brush study</title>\n'
         '  <g fill="none" stroke-linecap="round" stroke-linejoin="round">\n'
         + "\n".join(f"    {mark}" for mark in marks)

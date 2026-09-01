@@ -34,6 +34,11 @@ SHAPES = {"path", "line", "rect", "circle", "ellipse", "polygon", "polyline"}
 NUMBER_RE = re.compile(r"[-+]?(?:\d*\.\d+|\d+\.?)(?:[eE][-+]?\d+)?")
 
 
+def set_name(font: TTFont, name_id: int, value: str) -> None:
+    font["name"].setName(value, name_id, 3, 1, 0x409)
+    font["name"].setName(value, name_id, 1, 0, 0)
+
+
 def local(tag: str) -> str:
     return tag.rsplit("}", 1)[-1]
 
@@ -361,6 +366,22 @@ def build(
         feature_path = feature_file.name
     font = TTFont(output)
     addOpenTypeFeatures(font, feature_path)
+    pua_count = sum(
+        1 for item in entries
+        if item.get("source", "").startswith("pua/")
+        or Path(item.get("source_dir", "")).name == "pua"
+    )
+    set_name(font, 0, "Copyright © 2026 Daniel McShan / Castalia Institute")
+    set_name(font, 7, "Emojinq")
+    set_name(font, 8, "Castalia Institute")
+    set_name(font, 9, "Daniel McShan")
+    set_name(font, 10, f"Authored sumi-e emoji font with {pua_count} PUA glyphs, including holiday studies.")
+    set_name(font, 11, "https://github.com/CastaliaInstitute/emojinq")
+    set_name(font, 12, "https://github.com/CastaliaInstitute/emojinq")
+    set_name(font, 13, "MIT License; see the distributed LICENSE file.")
+    set_name(font, 14, "https://opensource.org/license/mit")
+    set_name(font, 15, "Emojinq")
+    set_name(font, 16, "Regular")
     font.save(output)
     print(f"built {len(glyph_order) - 1} glyphs, {len(cmap)} direct code points in {output}")
 

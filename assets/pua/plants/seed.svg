@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / seed" data-pua="U+F0E0B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="brush-v1" data-ink-path-units="normalized" data-intentional-components="semantic-multipart-v1">
-  <title>plants / seed — three bean seeds</title>
-  <g fill="none" stroke="#24231f" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M21 48 C13 42 14 29 23 24 C33 18 45 23 47 33 C49 44 40 53 30 54 C26 54 23 52 21 48Z" stroke-width="4.4"/>
-    <path d="M24 47 C29 44 33 39 35 32" stroke-width="2.7"/>
-    <path d="M47 22 C51 16 60 18 61 24 C62 30 56 34 51 31 C47 29 45 25 47 22Z" stroke-width="3.4"/>
-    <path d="M49 25 C52 25 55 24 57 22" stroke-width="1.9"/>
-    <path d="M46 48 C50 43 58 45 59 51 C60 57 54 61 49 58 C45 56 44 51 46 48Z" stroke-width="3.4"/>
-    <path d="M48 52 C51 52 54 51 56 49" stroke-width="1.9"/>
-  </g>
-</svg>
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="plants / seed" data-pua="U+F0E0B" data-castalia-style="sumi-e-ink-wash-v1" data-ink-stroke-system="tapered-v1" data-ink-animation="brush-v1" data-ink-path-units="normalized" data-intentional-components="semantic-multipart-v1" data-component-review="severity-contact-sheet-2026-08-v1" data-object-scale-candidate="pua-object-scale-candidate-v2" data-naturalist-construction="seed-and-sprout-observation-v1">
+  <ns0:title>plants / seed — three bean seeds</ns0:title>
+  <ns0:g fill="none" stroke="#24231f" stroke-linecap="round" stroke-linejoin="round">
+    <ns0:path d="M21 48 C13 42 14 29 23 24 C33 18 45 23 47 33 C49 44 40 53 30 54 C26 54 23 52 21 48Z" stroke-width="4.4" />
+    <ns0:path d="M24 47 C29 44 33 39 35 32" stroke-width="2.7" />
+    <ns0:path d="M47 22 C51 16 60 18 61 24 C62 30 56 34 51 31 C47 29 45 25 47 22Z" stroke-width="3.4" />
+    <ns0:path d="M49 25 C52 25 55 24 57 22" stroke-width="1.9" />
+    <ns0:path d="M46 48 C50 43 58 45 59 51 C60 57 54 61 49 58 C45 56 44 51 46 48Z" stroke-width="3.4" />
+    <ns0:path d="M48 52 C51 52 54 51 56 49" stroke-width="1.9" />
+  </ns0:g>
+</ns0:svg>

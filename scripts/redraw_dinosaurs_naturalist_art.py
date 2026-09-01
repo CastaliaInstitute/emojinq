@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import re
+import json
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -11,6 +12,20 @@ from sumi_brush import BrushPoint, dry_brush_paths, stroke_path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "pua" / "dinosaurs"
+MANIFEST = ROOT / "assets" / "pua" / "manifest.json"
+
+
+def pua_attribute(name: str, source: str) -> str:
+    """Read the stable private-use code point from the manifest when needed."""
+    match = re.search(r'data-pua="([^"]+)"', source)
+    if match:
+        return match.group(0)
+    manifest = json.loads(MANIFEST.read_text())
+    rel = f"dinosaurs/{name}.svg"
+    for entry in manifest:
+        if entry.get("source") == rel:
+            return f'data-pua="U+{entry["name"]}"'
+    raise SystemExit(f"missing PUA code point in manifest for {name}")
 
 
 def p(*values: tuple[float, float, float]) -> list[BrushPoint]:
@@ -46,11 +61,14 @@ def dab(cx, cy, rx, ry, fill="#262522") -> str:
 def write(name: str, marks: list[str]) -> None:
     target = OUT / f"{name}.svg"
     source = target.read_text()
-    cp = re.search(r'data-pua="([^"]+)"', source)
-    if not cp:
-        raise SystemExit(f"missing PUA code point in {target}")
+    cp = pua_attribute(name, source)
+    source_ref = (
+        "Noun Project pteranodon icon 6594712 by iconfield, https://thenounproject.com/icon/pteranodon-6594712/"
+        if name == "pteranodon"
+        else "Noun Project Dinosaurs Icon Set 243311 by Icogenix, https://thenounproject.com/browse/collection-icon/dinosaurs-243311/"
+    )
     target.write_text(f'''<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="dinosaurs / {name}" {cp.group(0)} data-castalia-style="sumi-e-naturalist-v2" data-ink-stroke-system="filled-brush-mass-v2" data-ink-animation="wash-v1" data-ink-path-units="normalized">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="dinosaurs / {name}" {cp} data-castalia-style="sumi-e-naturalist-v2" data-ink-stroke-system="filled-brush-mass-v2" data-ink-animation="wash-v1" data-ink-path-units="normalized" data-source-reference="{source_ref}; Castalia original redraw" data-reference-record="cards/editorial/noun-project-references.json#dinosaurs/*" data-license-status="reference-only; exact production license not asserted" data-naturalist-construction="full-bodied-{name}-v3" data-intentional-components="semantic-multipart-v1" data-component-review="severity-contact-sheet-2026-08-v1">
 <title>dinosaurs / {name} — naturalist sumi-e brush study</title>{''.join(marks)}</svg>
 ''')
 
@@ -180,6 +198,14 @@ def write_compsognathus() -> None:
     root.set("aria-label", "dinosaurs / compsognathus")
     root.set("data-pua", "U+F146A")
     root.set("data-source-codepoint", "U+1F996")
+    root.set("data-castalia-style", "sumi-e-naturalist-v2")
+    root.set("data-ink-stroke-system", "filled-brush-mass-v2")
+    root.set("data-source-reference", "Noun Project Dinosaurs Icon Set 243311 by Icogenix, https://thenounproject.com/browse/collection-icon/dinosaurs-243311/; Castalia original redraw")
+    root.set("data-reference-record", "cards/editorial/noun-project-references.json#dinosaurs/*")
+    root.set("data-license-status", "reference-only; exact production license not asserted")
+    root.set("data-naturalist-construction", "full-bodied-compsognathus-v3")
+    root.set("data-intentional-components", "semantic-multipart-v1")
+    root.set("data-component-review", "severity-contact-sheet-2026-08-v1")
     # The Unicode card carries generous general-purpose emoji margins. Scale
     # the anatomy optically for a small moving agent while retaining a safe
     # inset on every edge of the 72-unit Emojinq card.

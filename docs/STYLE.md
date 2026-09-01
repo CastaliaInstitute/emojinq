@@ -7,6 +7,7 @@ The scalable treatment is a vector brush system, not a raster texture effect:
 3. Use asymmetric contours, organic curve wobble, broken dry-brush edges, and selective structural marks; do not add a second contour merely to suggest depth.
 4. The canonical and engraving variants use neutral grayscale only. The explicitly named Color variant may use the source emoji's familiar hues as restrained translucent washes; it must never invent unrelated colors or replace the ink drawing.
 5. Favor premium naturalist observation over traceability or pictographic minimalism. Add anatomical, mechanical, botanical, or environmental detail when it makes the subject more beautiful and recognizable.
+5a. Beauty is a review gate, not a post-processing hope: adjacent role cards must not be interchangeable mannequins. Give each movable figure a specific silhouette, gesture, clothing or tool cue, and a deliberate focal brush mark; reject a batch that is merely technically valid but visually repetitive.
 6. Keep every mark in the same square viewBox and let stroke widths scale with the artwork.
 7. Standard OpenMoji conversion remains line-based, but deliberately authored brush studies use closed ribbon silhouettes when that is necessary to preserve the physical press-load-lift profile.
 8. The final SVG corpus contains only intentional brush geometry: either pressure-shaped centerlines or authored `ink-wash`/`ink-dry` ribbons whose silhouette records one brush gesture. Generic solid subject silhouettes and pictogram shading remain forbidden. Color fields are permitted only in the Color variant as subordinate washes beneath the complete ink construction. Do not centerline-recover an authored brush ribbon; that destroys its pressure profile and turns the gesture back into a traced line.
@@ -46,6 +47,37 @@ opacity tricks, gradient washes, or decorative duplicate contours; all visual
 weight must come from portable vector brush paths. A filled path is valid only
 when it is itself an authored `ink-wash` or `ink-dry` gesture in a neutral ink
 value, not when it is merely the closed silhouette of an object.
+
+## Figure composition gate
+
+People and animals intended to move through a game scene are isolated figures:
+full-bodied, grounded, and readable without a background. A role may use one
+small defining prop (for example, a stethoscope for a doctor or a book for a
+teacher), but the pose must remain usable as a movable character. Do not use
+stick figures, partial torsos, floating heads, or scene furniture to carry the
+meaning.
+
+Use multiple figures only when the relationship is the concept itself. Examples
+include healer/patient, guardian/child, offering, welcome, help, cooperation,
+and conflict. Those interaction glyphs must still show complete bodies,
+distinct silhouettes, and an unmistakable action; they are interaction marks,
+not replacements for the corresponding movable people.
+
+For animals, preserve the same separation: species cards are isolated agents,
+while scene interactions are authored as separate relationship compositions. A
+whale, turtle, seahorse, or dinosaur must remain recognizable before it is
+placed beside another agent.
+
+## Reference and provenance gate
+
+When a Noun Project silhouette is the clearest structural reference, stage the
+downloaded SVG through the authenticated web UI, record its collection or icon
+URL, icon ID, creator, access date, and license status, and keep the staged file
+alongside the audit record. The reference informs anatomy and pose; it is not
+production art. The published SVG must be a Castalia brush transformation and
+must retain a machine-readable reference record. Never claim a reference is
+licensed for redistribution until the exact production terms have been
+verified.
 
 The compiled TrueType font stores both centerlines and brush ribbons as filled
 outlines. The source SVG remains the canonical visual artifact, so its brush

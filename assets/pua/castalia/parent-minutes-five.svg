@@ -8,5 +8,5 @@
   <ns0:path d="M50 10 L63 10 M56.5 3.5 L56.5 16.5" stroke-width="3.4" />
   <ns0:path d="M24 24 L24 35 Q38 30 40 40 Q41 51 25 50" stroke-width="3.0" />
  </ns0:g>
- <ns0:circle cx="35" cy="37" r="2.8" fill="#a34332" />
+ <ns0:path class="ink-wash" d="M32.4 36.8 Q34.3 34.0 37.4 35.9 Q39.1 38.4 36.7 40.0 Q33.5 40.2 32.4 36.8 Z" fill="#77746a" data-ink-brush-pass="loaded-mass-v1" />
 </ns0:svg>
