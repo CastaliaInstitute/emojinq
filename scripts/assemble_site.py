@@ -30,6 +30,7 @@ def main() -> None:
     output.mkdir(parents=True)
 
     copy_tree(ROOT / "docs", output / "docs")
+    copy_tree(ROOT / "assets" / "animations", output / "assets" / "animations")
     for family in ("gray-all", "divination", "pua", "pua-color"):
         copy_tree(ROOT / "assets" / family, output / "assets" / family)
     for data_file in ("developmental-vocabulary.json", "pua-recognition-review.json"):
