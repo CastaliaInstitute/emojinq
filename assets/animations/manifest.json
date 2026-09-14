@@ -54,14 +54,14 @@
     {
       "name": "1F607",
       "category": "face",
-      "animation": "blink",
+      "animation": "laugh",
       "static": "color-all/1F607.svg",
       "source": "animations/generated/1F607.svg"
     },
     {
       "name": "1F608",
       "category": "face",
-      "animation": "blink",
+      "animation": "laugh",
       "static": "color-all/1F608.svg",
       "source": "animations/generated/1F608.svg"
     },
@@ -75,357 +75,357 @@
     {
       "name": "1F60A",
       "category": "face",
-      "animation": "blink",
+      "animation": "laugh",
       "static": "color-all/1F60A.svg",
       "source": "animations/generated/1F60A.svg"
     },
     {
       "name": "1F60B",
       "category": "face",
-      "animation": "blink",
+      "animation": "laugh",
       "static": "color-all/1F60B.svg",
       "source": "animations/generated/1F60B.svg"
     },
     {
       "name": "1F60C",
       "category": "face",
-      "animation": "blink",
+      "animation": "laugh",
       "static": "color-all/1F60C.svg",
       "source": "animations/generated/1F60C.svg"
     },
     {
       "name": "1F60D",
       "category": "face",
-      "animation": "blink",
+      "animation": "laugh",
       "static": "color-all/1F60D.svg",
       "source": "animations/generated/1F60D.svg"
     },
     {
       "name": "1F60E",
       "category": "face",
-      "animation": "blink",
+      "animation": "laugh",
       "static": "color-all/1F60E.svg",
       "source": "animations/generated/1F60E.svg"
     },
     {
       "name": "1F60F",
       "category": "face",
-      "animation": "blink",
+      "animation": "laugh",
       "static": "color-all/1F60F.svg",
       "source": "animations/generated/1F60F.svg"
     },
     {
       "name": "1F610",
       "category": "face",
-      "animation": "blink",
+      "animation": "look",
       "static": "color-all/1F610.svg",
       "source": "animations/generated/1F610.svg"
     },
     {
       "name": "1F611",
       "category": "face",
-      "animation": "blink",
+      "animation": "look",
       "static": "color-all/1F611.svg",
       "source": "animations/generated/1F611.svg"
     },
     {
       "name": "1F612",
       "category": "face",
-      "animation": "blink",
+      "animation": "look",
       "static": "color-all/1F612.svg",
       "source": "animations/generated/1F612.svg"
     },
     {
       "name": "1F613",
       "category": "face",
-      "animation": "blink",
+      "animation": "look",
       "static": "color-all/1F613.svg",
       "source": "animations/generated/1F613.svg"
     },
     {
       "name": "1F614",
       "category": "face",
-      "animation": "blink",
+      "animation": "look",
       "static": "color-all/1F614.svg",
       "source": "animations/generated/1F614.svg"
     },
     {
       "name": "1F615",
       "category": "face",
-      "animation": "blink",
+      "animation": "look",
       "static": "color-all/1F615.svg",
       "source": "animations/generated/1F615.svg"
     },
     {
       "name": "1F616",
       "category": "face",
-      "animation": "blink",
+      "animation": "look",
       "static": "color-all/1F616.svg",
       "source": "animations/generated/1F616.svg"
     },
     {
       "name": "1F617",
       "category": "face",
-      "animation": "blink",
+      "animation": "look",
       "static": "color-all/1F617.svg",
       "source": "animations/generated/1F617.svg"
     },
     {
       "name": "1F618",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F618.svg",
       "source": "animations/generated/1F618.svg"
     },
     {
       "name": "1F619",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F619.svg",
       "source": "animations/generated/1F619.svg"
     },
     {
       "name": "1F61A",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F61A.svg",
       "source": "animations/generated/1F61A.svg"
     },
     {
       "name": "1F61B",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F61B.svg",
       "source": "animations/generated/1F61B.svg"
     },
     {
       "name": "1F61C",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F61C.svg",
       "source": "animations/generated/1F61C.svg"
     },
     {
       "name": "1F61D",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F61D.svg",
       "source": "animations/generated/1F61D.svg"
     },
     {
       "name": "1F61E",
       "category": "face",
-      "animation": "blink",
+      "animation": "tear",
       "static": "color-all/1F61E.svg",
       "source": "animations/generated/1F61E.svg"
     },
     {
       "name": "1F61F",
       "category": "face",
-      "animation": "blink",
+      "animation": "tear",
       "static": "color-all/1F61F.svg",
       "source": "animations/generated/1F61F.svg"
     },
     {
       "name": "1F620",
       "category": "face",
-      "animation": "blink",
+      "animation": "tear",
       "static": "color-all/1F620.svg",
       "source": "animations/generated/1F620.svg"
     },
     {
       "name": "1F621",
       "category": "face",
-      "animation": "blink",
+      "animation": "tear",
       "static": "color-all/1F621.svg",
       "source": "animations/generated/1F621.svg"
     },
     {
       "name": "1F622",
       "category": "face",
-      "animation": "blink",
+      "animation": "tear",
       "static": "color-all/1F622.svg",
       "source": "animations/generated/1F622.svg"
     },
     {
       "name": "1F623",
       "category": "face",
-      "animation": "blink",
+      "animation": "tear",
       "static": "color-all/1F623.svg",
       "source": "animations/generated/1F623.svg"
     },
     {
       "name": "1F624",
       "category": "face",
-      "animation": "blink",
+      "animation": "tear",
       "static": "color-all/1F624.svg",
       "source": "animations/generated/1F624.svg"
     },
     {
       "name": "1F625",
       "category": "face",
-      "animation": "blink",
+      "animation": "tear",
       "static": "color-all/1F625.svg",
       "source": "animations/generated/1F625.svg"
     },
     {
       "name": "1F626",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F626.svg",
       "source": "animations/generated/1F626.svg"
     },
     {
       "name": "1F627",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F627.svg",
       "source": "animations/generated/1F627.svg"
     },
     {
       "name": "1F628",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F628.svg",
       "source": "animations/generated/1F628.svg"
     },
     {
       "name": "1F629",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F629.svg",
       "source": "animations/generated/1F629.svg"
     },
     {
       "name": "1F62A",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F62A.svg",
       "source": "animations/generated/1F62A.svg"
     },
     {
       "name": "1F62B",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F62B.svg",
       "source": "animations/generated/1F62B.svg"
     },
     {
       "name": "1F62C",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F62C.svg",
       "source": "animations/generated/1F62C.svg"
     },
     {
       "name": "1F62D",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F62D.svg",
       "source": "animations/generated/1F62D.svg"
     },
     {
       "name": "1F62E-200D-1F4A8",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F62E-200D-1F4A8.svg",
       "source": "animations/generated/1F62E-200D-1F4A8.svg"
     },
     {
       "name": "1F62E",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F62E.svg",
       "source": "animations/generated/1F62E.svg"
     },
     {
       "name": "1F62F",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F62F.svg",
       "source": "animations/generated/1F62F.svg"
     },
     {
       "name": "1F630",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F630.svg",
       "source": "animations/generated/1F630.svg"
     },
     {
       "name": "1F631",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F631.svg",
       "source": "animations/generated/1F631.svg"
     },
     {
       "name": "1F632",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F632.svg",
       "source": "animations/generated/1F632.svg"
     },
     {
       "name": "1F633",
       "category": "face",
-      "animation": "blink",
+      "animation": "sweat",
       "static": "color-all/1F633.svg",
       "source": "animations/generated/1F633.svg"
     },
     {
       "name": "1F634",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F634.svg",
       "source": "animations/generated/1F634.svg"
     },
     {
       "name": "1F635-200D-1F4AB",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F635-200D-1F4AB.svg",
       "source": "animations/generated/1F635-200D-1F4AB.svg"
     },
     {
       "name": "1F635",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F635.svg",
       "source": "animations/generated/1F635.svg"
     },
     {
       "name": "1F636-200D-1F32B-FE0F",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F636-200D-1F32B-FE0F.svg",
       "source": "animations/generated/1F636-200D-1F32B-FE0F.svg"
     },
     {
       "name": "1F636",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F636.svg",
       "source": "animations/generated/1F636.svg"
     },
     {
       "name": "1F637",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F637.svg",
       "source": "animations/generated/1F637.svg"
     },
     {
       "name": "1F638",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F638.svg",
       "source": "animations/generated/1F638.svg"
     },
     {
       "name": "1F639",
       "category": "face",
-      "animation": "blink",
+      "animation": "breathe",
       "static": "color-all/1F639.svg",
       "source": "animations/generated/1F639.svg"
     },

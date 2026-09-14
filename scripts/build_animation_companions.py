@@ -13,6 +13,25 @@ FACE_BEHAVIORS = {
     0x1F609: "wink", 0x1F914: "think", 0x1F9D0: "inspect", 0x1F979: "tear",
     0x1F972: "bittersweet", 0x1F644: "look", 0x263A: "breathe",
 }
+# Give the rest of the classic face sequence an expressive baseline tied to
+# its meaning, while preserving explicit overrides above.
+for _code in range(0x1F600, 0x1F64B):
+    if _code in FACE_BEHAVIORS:
+        continue
+    if _code in set(range(0x1F606, 0x1F610)):
+        FACE_BEHAVIORS[_code] = "laugh"
+    elif _code in set(range(0x1F610, 0x1F618)):
+        FACE_BEHAVIORS[_code] = "look"
+    elif _code in set(range(0x1F618, 0x1F61E)):
+        FACE_BEHAVIORS[_code] = "breathe"
+    elif _code in set(range(0x1F61E, 0x1F626)):
+        FACE_BEHAVIORS[_code] = "tear"
+    elif _code in set(range(0x1F626, 0x1F634)):
+        FACE_BEHAVIORS[_code] = "sweat"
+    elif _code in set(range(0x1F634, 0x1F63A)):
+        FACE_BEHAVIORS[_code] = "breathe"
+    else:
+        FACE_BEHAVIORS[_code] = "blink"
 STANDARD_ANIMAL_CODES = (set(range(0x1F400, 0x1F440)) | set(range(0x1F980, 0x1F9A3)) | set(range(0x1FAB6, 0x1FABA)))
 
 def wrapper(name: str, href: str, kind: str) -> str:
