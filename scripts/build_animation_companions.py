@@ -12,6 +12,7 @@ FACE_BEHAVIORS = {
     0x1F609: "wink", 0x1F914: "think", 0x1F9D0: "inspect", 0x1F979: "tear",
     0x1F972: "bittersweet", 0x1F644: "look", 0x263A: "breathe",
 }
+STANDARD_ANIMAL_CODES = (set(range(0x1F400, 0x1F440)) | set(range(0x1F980, 0x1F9A3)) | set(range(0x1FAB6, 0x1FABA)))
 
 def wrapper(name: str, href: str, kind: str) -> str:
     title = escape(name.replace("-", " ").title())
@@ -54,6 +55,17 @@ def main() -> None:
         if code not in FACE_CODES: continue
         kind = FACE_BEHAVIORS.get(code, "blink")
         (OUT / f"{path.stem}.svg").write_text(wrapper(path.stem, f"../../color-all/{path.name}", kind) + "\n", encoding="utf-8")
+        count += 1
+        continue
+    for path in sorted((ROOT / "assets" / "color-all").glob("*.svg")):
+        try: code = int(path.stem.split("-")[0], 16)
+        except ValueError: continue
+        if code not in STANDARD_ANIMAL_CODES: continue
+        if code in {0x1F426, 0x1F427, 0x1F428, 0x1F42D, 0x1F989, 0x1F99A}: kind = "wingbeat"
+        elif code in {0x1F41F, 0x1F420, 0x1F421, 0x1F422, 0x1F988, 0x1F99E}: kind = "swim"
+        elif code in {0x1F41D, 0x1F41E, 0x1F98B, 0x1F99F}: kind = "buzz"
+        else: kind = "stride"
+        (OUT / f"unicode-animal-{path.stem}.svg").write_text(wrapper(f"unicode animal {path.stem}", f"../../color-all/{path.name}", kind) + "\n", encoding="utf-8")
         count += 1
     for root in ("animals", "dinosaurs", "sea_creatures"):
         for path in sorted((ROOT / "assets" / "pua" / root).glob("*.svg")):
