@@ -35,7 +35,15 @@ def wrapper(name: str, href: str, kind: str) -> str:
         "look": "@keyframes m{0%,25%,100%{transform:translateX(0)}45%,60%{transform:translateX(-1px)}75%,90%{transform:translateX(1px)}}",
         "breathe": "@keyframes m{0%,100%{transform:scale(1)}50%{transform:scale(1.015)}}",
     }[kind]
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-6 -6 84 84" role="img" aria-label="{title} animated" data-emoji-animation="{kind}-v1"><title>{title} animated</title><image href="{href}" xlink:href="{href}" x="-6" y="-6" width="84" height="84"/><style>{motion}svg{{transform-origin:center;animation:m 3.8s ease-in-out infinite}}@media(prefers-reduced-motion:reduce){{svg{{animation:none}}}}</style></svg>'''
+    detail = {
+        "stride": '<g class="limbs" fill="none" stroke="#262421" stroke-width="1" stroke-linecap="round"><path d="M24 55l-2 7M31 55l2 7M43 55l-2 7M50 55l2 7"/><path d="M24 55l2 2M31 55l-2 2M43 55l2 2M50 55l-2 2"/></g>',
+        "heavy-stride": '<g class="limbs" fill="none" stroke="#262421" stroke-width="1.3" stroke-linecap="round"><path d="M23 54l-3 8M32 55l2 8M43 55l-2 8M51 54l3 8"/></g>',
+        "wingbeat": '<g class="wings" fill="none" stroke="#4a4943" stroke-width="1" stroke-linecap="round"><path d="M26 27q-8-7-10-1M48 27q8-7 10-1"/></g>',
+        "swim": '<path class="tail" d="M55 38q7-5 10 0q-7 5-10 0" fill="none" stroke="#4a4943" stroke-width="1"/>',
+        "buzz": '<g class="vibrate" fill="none" stroke="#4a4943" stroke-width=".8"><path d="M18 24l-3-2M54 24l3-2M18 28l-4 0M54 28l4 0"/></g>',
+    }.get(kind, '')
+    target = ".body,.limbs,.wings,.tail,.vibrate"
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-6 -6 84 84" role="img" aria-label="{title} animated" data-emoji-animation="{kind}-v1"><title>{title} animated</title><g class="body"><image href="{href}" xlink:href="{href}" x="-6" y="-6" width="84" height="84"/></g>{detail}<style>{motion}.body{{transform-origin:center;animation:m 3.8s ease-in-out infinite}}.limbs,.wings,.tail,.vibrate{{transform-box:fill-box;transform-origin:center;animation:m 3.8s ease-in-out infinite}}@media(prefers-reduced-motion:reduce){{.body,.limbs,.wings,.tail,.vibrate{{animation:none}}}}</style></svg>'''
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
