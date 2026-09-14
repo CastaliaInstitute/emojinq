@@ -35,7 +35,7 @@ def wrapper(name: str, href: str, kind: str) -> str:
         "look": "@keyframes m{0%,25%,100%{transform:translateX(0)}45%,60%{transform:translateX(-1px)}75%,90%{transform:translateX(1px)}}",
         "breathe": "@keyframes m{0%,100%{transform:scale(1)}50%{transform:scale(1.015)}}",
     }[kind]
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 84 84" role="img" aria-label="{title} animated" data-emoji-animation="{kind}-v1"><title>{title} animated</title><image href="{href}" x="-6" y="-6" width="84" height="84"/><style>{motion}svg{{transform-origin:center;animation:m 3.8s ease-in-out infinite}}@media(prefers-reduced-motion:reduce){{svg{{animation:none}}}}</style></svg>'''
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-6 -6 84 84" role="img" aria-label="{title} animated" data-emoji-animation="{kind}-v1"><title>{title} animated</title><image href="{href}" xlink:href="{href}" x="-6" y="-6" width="84" height="84"/><style>{motion}svg{{transform-origin:center;animation:m 3.8s ease-in-out infinite}}@media(prefers-reduced-motion:reduce){{svg{{animation:none}}}}</style></svg>'''
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
