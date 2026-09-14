@@ -1389,6 +1389,13 @@
       "source": "animations/generated/1F914.svg"
     },
     {
+      "name": "1F923",
+      "category": "face",
+      "animation": "roll",
+      "static": "color-all/1F923.svg",
+      "source": "animations/generated/1F923.svg"
+    },
+    {
       "name": "1F972",
       "category": "face",
       "animation": "bittersweet",

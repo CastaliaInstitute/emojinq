@@ -6,7 +6,7 @@ from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "animations" / "generated"
-FACE_CODES = set(range(0x1F600, 0x1F650)) | {0x263A, 0x1F914, 0x1F9D0, 0x1F979, 0x1F972}
+FACE_CODES = set(range(0x1F600, 0x1F650)) | {0x263A, 0x1F914, 0x1F923, 0x1F9D0, 0x1F979, 0x1F972}
 FACE_BEHAVIORS = {
     0x1F600: "blink", 0x1F601: "blink", 0x1F603: "blink", 0x1F604: "blink",
     0x1F605: "sweat", 0x1F606: "laugh", 0x1F602: "laugh", 0x1F923: "roll",
