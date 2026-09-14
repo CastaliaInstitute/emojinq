@@ -40,6 +40,7 @@ jobs:
           python scripts/build_all.py --source-dir .cache/openmoji/black/svg --mode line --output-dir assets/gray-all
           python scripts/build_color_assets.py
           python scripts/build_pua_color_variants.py
+          python scripts/build_animation_companions.py
 
       - name: Assemble exact Pages artifact
         run: python scripts/assemble_site.py

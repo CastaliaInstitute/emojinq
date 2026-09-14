@@ -1,0 +1,8 @@
+<!-- Face animation source catalog. Individual files are generated companions listed in README.md. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1" aria-hidden="true" data-emoji-animation="face-v1"><style>
+/* Shared face motion vocabulary: subtle, periodic, and reduced-motion safe. */
+@keyframes face-blink{0%,88%,100%{transform:scaleY(0)}92%,96%{transform:scaleY(1)}}
+@keyframes face-look{0%,25%,100%{transform:translateX(0)}42%,58%{transform:translateX(-2px)}75%,90%{transform:translateX(2px)}}
+@keyframes face-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(1px)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></svg>
