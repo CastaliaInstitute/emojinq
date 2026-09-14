@@ -19,6 +19,11 @@ def wrapper(name: str, href: str, kind: str) -> str:
         "blink": "@keyframes m{0%,89%,100%{transform:scaleY(1)}94%,97%{transform:scaleY(.08)}}",
         "bob": "@keyframes m{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.5px)}}",
         "walk": "@keyframes m{0%,100%{transform:translateX(0) rotate(0)}50%{transform:translateX(1px) rotate(1deg)}}",
+        "stride": "@keyframes m{0%,100%{transform:translate(0,0) rotate(-1deg)}25%{transform:translate(1px,-1px) rotate(1deg)}50%{transform:translate(2px,0) rotate(-1deg)}75%{transform:translate(1px,-1px) rotate(1deg)}}",
+        "wingbeat": "@keyframes m{0%,100%{transform:translateY(0) rotate(0)}35%{transform:translateY(-2px) rotate(-2deg)}65%{transform:translateY(1px) rotate(2deg)}}",
+        "swim": "@keyframes m{0%,100%{transform:translateX(-1px) rotate(-1deg)}50%{transform:translateX(2px) rotate(1deg)}}",
+        "buzz": "@keyframes m{0%,100%{transform:rotate(-1deg)}25%,75%{transform:rotate(1deg)}}",
+        "heavy-stride": "@keyframes m{0%,100%{transform:translateY(0) rotate(-1deg)}45%{transform:translateY(-1px) rotate(1deg)}55%{transform:translateY(1px) rotate(0)}}",
         "laugh": "@keyframes m{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-2px) rotate(1deg)}}",
         "roll": "@keyframes m{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}",
         "sweat": "@keyframes m{0%,100%{transform:translateY(0)}45%{transform:translateY(1px)}60%{transform:translateY(0)}}",
@@ -45,7 +50,12 @@ def main() -> None:
     for root in ("animals", "dinosaurs", "sea_creatures"):
         for path in sorted((ROOT / "assets" / "pua" / root).glob("*.svg")):
             target = OUT / f"{root}-{path.stem}.svg"
-            target.write_text(wrapper(f"{root} {path.stem}", f"../../pua/{root}/{path.name}", "walk") + "\n", encoding="utf-8")
+            if root == "dinosaurs": kind = "heavy-stride"
+            elif root == "sea_creatures": kind = "swim"
+            elif path.stem in {"bee", "fly", "mosquito"}: kind = "buzz"
+            elif path.stem in {"bird", "chicken", "duck", "owl", "rooster"}: kind = "wingbeat"
+            else: kind = "stride"
+            target.write_text(wrapper(f"{root} {path.stem}", f"../../pua/{root}/{path.name}", kind) + "\n", encoding="utf-8")
             count += 1
     print(f"built {count} animated companions in {OUT.relative_to(ROOT)}")
 
