@@ -73,7 +73,7 @@
     <small>SVG artwork above · OpenType sample below · generated assets are intended to be rasterized before embedded deployment</small>
   </main>
   <script>
-    fetch("../assets/animations/manifest.json").then(response => response.json()).then(catalog => {
+    fetch("../assets/animations/manifest.json?v=b75cf923").then(response => response.json()).then(catalog => {
       const grid = document.getElementById("companion-catalog");
       const status = document.getElementById("catalog-status");
       status.textContent = `${catalog.companions.length} animated companions · faces, animals, dinosaurs, and sea creatures`;
