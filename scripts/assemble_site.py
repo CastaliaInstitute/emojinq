@@ -31,7 +31,7 @@ def main() -> None:
 
     copy_tree(ROOT / "docs", output / "docs")
     copy_tree(ROOT / "assets" / "animations", output / "assets" / "animations")
-    for family in ("gray-all", "color-all", "generated", "divination", "pua", "pua-color"):
+    for family in ("gray-all", "color-all", "divination", "pua", "pua-color"):
         copy_tree(ROOT / "assets" / family, output / "assets" / family)
     for data_file in ("developmental-vocabulary.json", "pua-recognition-review.json"):
         shutil.copy2(ROOT / "assets" / data_file, output / "assets")
