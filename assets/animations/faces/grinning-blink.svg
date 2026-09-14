@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 84 84" role="img" aria-labelledby="title desc" data-emoji-animation="face-v1" data-animation="blink">
+  <title id="title">Grinning face, blinking</title><desc id="desc">A grinning face that blinks occasionally.</desc>
+  <image href="../../color-all/1F600.svg" x="-6" y="-6" width="84" height="84"/>
+  <g fill="none" stroke="#262421" stroke-linecap="round" stroke-width="1.25">
+    <path d="M23 30 Q27 27 31 30" class="blink-left"/><path d="M41 30 Q45 27 49 30" class="blink-right"/>
+  </g>
+  <style>
+    .blink-left,.blink-right { transform-box:fill-box; transform-origin:center; animation:face-blink 5.2s ease-in-out infinite; }
+    .blink-right { animation-delay:.06s; }
+    @keyframes face-blink { 0%,91%,100% { transform:scaleY(0); } 94%,97% { transform:scaleY(1); } }
+    @media (prefers-reduced-motion:reduce) { .blink-left,.blink-right { animation:none; } }
+  </style>
+</svg>

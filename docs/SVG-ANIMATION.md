@@ -23,3 +23,18 @@ svg[data-ink-animation="draw-v1"] .ink-stroke {
 
 The font build ignores animation metadata and continues to consume the same
 vector paths, so ESP32 and laser-oriented builds remain static and portable.
+
+## Face animation companions
+
+Face motion lives under `assets/animations/faces/`, beside—not inside—the
+static Unicode artwork. These SVGs use `data-emoji-animation="face-v1"` and
+layer small expressive overlays over the corresponding static color SVG.
+The first vocabulary is:
+
+- `grinning-blink.svg` — periodic two-eye blink
+- `winking.svg` — periodic wink
+- `looking-around.svg` — curious left/right pupil movement
+
+All three stop moving when `prefers-reduced-motion: reduce` is active. New
+face behaviors should follow the same contract, retain an accessible title and
+description, and avoid changing the source SVG used by font generation.

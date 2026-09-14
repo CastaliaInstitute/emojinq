@@ -20,6 +20,9 @@
     .emoji { width: 100%; max-width: 180px; aspect-ratio: 1; object-fit: contain; }
     .label { margin-top: 1rem; font: 700 .8rem/1 sans-serif; letter-spacing: .1em; text-transform: uppercase; }
     .font-sample { margin-top: 3rem; padding: 2rem; background: #252525; color: #f5f3ed; font: 8rem/1 Emojinq, sans-serif; letter-spacing: .08em; overflow: auto; white-space: nowrap; }
+    .animation-gallery { margin-top: 3rem; }
+    .animation-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .75rem; }
+    .animation-grid article { min-height: 190px; }
     .alphabet-sample { margin-top: 1rem; padding: 1rem; background: #252525; color: #f5f3ed; font: clamp(1.4rem,4vw,3rem)/1.25 Emojinq, sans-serif; letter-spacing: .04em; overflow:auto; white-space:nowrap; }
     small { display: block; margin-top: .8rem; color: var(--quiet); font-family: sans-serif; }
   </style>
@@ -44,6 +47,14 @@
         <article><img class="emoji" src="../assets/line/house.svg" alt="House"><div class="label">House</div></article>
         <article><img class="emoji" src="../assets/line/book.svg" alt="Book"><div class="label">Book</div></article>
         <article><img class="emoji" src="../assets/line/leaf.svg" alt="Leaf"><div class="label">Leaf</div></article>
+      </div>
+    </section>
+    <section class="animation-gallery" aria-labelledby="animation-heading">
+      <p class="eyebrow" id="animation-heading">Animated companions · face-v1</p>
+      <div class="animation-grid">
+        <article><img class="emoji" src="../assets/animations/faces/grinning-blink.svg" alt="Grinning face blinking"><div class="label">Blink</div></article>
+        <article><img class="emoji" src="../assets/animations/faces/winking.svg" alt="Winking face"><div class="label">Wink</div></article>
+        <article><img class="emoji" src="../assets/animations/faces/looking-around.svg" alt="Face looking around"><div class="label">Look around</div></article>
       </div>
     </section>
   <div class="font-sample" aria-label="Font sample">👤 📍 💡</div>
