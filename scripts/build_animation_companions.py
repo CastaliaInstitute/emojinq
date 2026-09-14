@@ -38,14 +38,29 @@ def wrapper(name: str, href: str, kind: str) -> str:
         "breathe": "@keyframes m{0%,100%{transform:scale(1)}50%{transform:scale(1.015)}}",
     }[kind]
     detail = {
+        "blink": '<g class="features" fill="none" stroke="#262421" stroke-width="1.2" stroke-linecap="round"><path class="blink-left" d="M25 31q3-2 6 0"/><path class="blink-right" d="M43 31q3-2 6 0"/></g>',
+        "wink": '<g class="features" fill="none" stroke="#262421" stroke-width="1.2" stroke-linecap="round"><path d="M25 31q3-2 6 0"/><path class="wink-eye" d="M43 31h6"/></g>',
+        "look": '<g class="features" fill="#262421"><circle class="pupil-left" cx="28" cy="31" r="1.2"/><circle class="pupil-right" cx="46" cy="31" r="1.2"/></g>',
+        "think": '<g class="features" fill="#262421"><circle class="pupil-left" cx="28" cy="31" r="1.2"/><circle class="pupil-right" cx="46" cy="31" r="1.2"/><circle class="thought" cx="58" cy="18" r="1.4"/><circle class="thought" cx="62" cy="14" r="2"/></g>',
+        "inspect": '<g class="features" fill="none" stroke="#262421" stroke-width="1.1"><circle cx="28" cy="31" r="2"/><circle cx="46" cy="31" r="2"/><path d="M49 33l3 3"/></g>',
+        "tear": '<g class="features" fill="#6b8fa3"><ellipse class="tear-left" cx="28" cy="34" rx="1.4" ry="2"/><ellipse class="tear-right" cx="46" cy="34" rx="1.4" ry="2"/></g>',
+        "sweat": '<g class="features" fill="#6b8fa3"><path class="sweat-drop" d="M55 25q3 4 0 6q-3-2 0-6z"/></g>',
         "stride": '<g class="limbs" fill="none" stroke="#262421" stroke-width="1" stroke-linecap="round"><path d="M24 55l-2 7M31 55l2 7M43 55l-2 7M50 55l2 7"/><path d="M24 55l2 2M31 55l-2 2M43 55l2 2M50 55l-2 2"/></g>',
         "heavy-stride": '<g class="limbs" fill="none" stroke="#262421" stroke-width="1.3" stroke-linecap="round"><path d="M23 54l-3 8M32 55l2 8M43 55l-2 8M51 54l3 8"/></g>',
         "wingbeat": '<g class="wings" fill="none" stroke="#4a4943" stroke-width="1" stroke-linecap="round"><path d="M26 27q-8-7-10-1M48 27q8-7 10-1"/></g>',
         "swim": '<path class="tail" d="M55 38q7-5 10 0q-7 5-10 0" fill="none" stroke="#4a4943" stroke-width="1"/>',
         "buzz": '<g class="vibrate" fill="none" stroke="#4a4943" stroke-width=".8"><path d="M18 24l-3-2M54 24l3-2M18 28l-4 0M54 28l4 0"/></g>',
     }.get(kind, '')
-    target = ".body,.limbs,.wings,.tail,.vibrate"
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-6 -6 84 84" role="img" aria-label="{title} animated" data-emoji-animation="{kind}-v1"><title>{title} animated</title><g class="body"><image href="{href}" xlink:href="{href}" x="-6" y="-6" width="84" height="84"/></g>{detail}<style>{motion}.body{{transform-origin:center;animation:m 3.8s ease-in-out infinite}}.limbs,.wings,.tail,.vibrate{{transform-box:fill-box;transform-origin:center;animation:m 3.8s ease-in-out infinite}}@media(prefers-reduced-motion:reduce){{.body,.limbs,.wings,.tail,.vibrate{{animation:none}}}}</style></svg>'''
+    feature_motion = {
+        "blink": ".features{animation:face-blink 3.8s ease-in-out infinite}@keyframes face-blink{0%,89%,100%{opacity:1}94%,97%{opacity:.1}}",
+        "wink": ".wink-eye{animation:face-wink 3.8s ease-in-out infinite}@keyframes face-wink{0%,70%,100%{transform:scaleY(1)}76%,84%{transform:scaleY(.08)}}",
+        "look": ".pupil-left,.pupil-right{animation:face-look 4.2s ease-in-out infinite}@keyframes face-look{0%,30%,100%{transform:translateX(0)}50%,65%{transform:translateX(2px)}80%{transform:translateX(-1px)}}",
+        "think": ".thought{animation:thought 2.4s ease-in-out infinite}@keyframes thought{0%,100%{opacity:.25}50%{opacity:1}}",
+        "tear": ".tear-left,.tear-right{animation:tear-drip 3.8s ease-in infinite}@keyframes tear-drip{0%,55%{transform:translateY(0);opacity:0}65%{opacity:1}90%{transform:translateY(13px);opacity:.8}100%{transform:translateY(18px);opacity:0}}",
+        "sweat": ".sweat-drop{animation:sweat-drop 3.8s ease-in infinite}@keyframes sweat-drop{0%,55%{transform:translateY(0);opacity:0}70%{opacity:1}100%{transform:translateY(12px);opacity:0}}",
+    }.get(kind, "")
+    target = ".body,.limbs,.wings,.tail,.vibrate,.features"
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-6 -6 84 84" role="img" aria-label="{title} animated" data-emoji-animation="{kind}-v1"><title>{title} animated</title><g class="body"><image href="{href}" xlink:href="{href}" x="-6" y="-6" width="84" height="84"/></g>{detail}<style>{motion}{feature_motion}.body{{transform-origin:center;animation:m 3.8s ease-in-out infinite}}.limbs,.wings,.tail,.vibrate{{transform-box:fill-box;transform-origin:center;animation:m 3.8s ease-in-out infinite}}@media(prefers-reduced-motion:reduce){{{target}{{animation:none}}}}</style></svg>'''
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
