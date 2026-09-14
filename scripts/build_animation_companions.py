@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build lightweight animated companions beside the static SVG catalogue."""
 from pathlib import Path
+import json
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -49,12 +50,14 @@ def wrapper(name: str, href: str, kind: str) -> str:
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     count = 0
+    records = []
     for path in sorted((ROOT / "assets" / "color-all").glob("*.svg")):
         try: code = int(path.stem.split("-")[0], 16)
         except ValueError: continue
         if code not in FACE_CODES: continue
         kind = FACE_BEHAVIORS.get(code, "blink")
         (OUT / f"{path.stem}.svg").write_text(wrapper(path.stem, f"../../color-all/{path.name}", kind) + "\n", encoding="utf-8")
+        records.append({"name": path.stem, "category": "face", "animation": kind, "static": f"color-all/{path.name}", "source": f"animations/generated/{path.stem}.svg"})
         count += 1
         continue
     for path in sorted((ROOT / "assets" / "color-all").glob("*.svg")):
@@ -66,6 +69,7 @@ def main() -> None:
         elif code in {0x1F41D, 0x1F41E, 0x1F98B, 0x1F99F}: kind = "buzz"
         else: kind = "stride"
         (OUT / f"unicode-animal-{path.stem}.svg").write_text(wrapper(f"unicode animal {path.stem}", f"../../color-all/{path.name}", kind) + "\n", encoding="utf-8")
+        records.append({"name": path.stem, "category": "animal", "animation": kind, "static": f"color-all/{path.name}", "source": f"animations/generated/unicode-animal-{path.stem}.svg"})
         count += 1
     for root in ("animals", "dinosaurs", "sea_creatures"):
         for path in sorted((ROOT / "assets" / "pua" / root).glob("*.svg")):
@@ -76,7 +80,9 @@ def main() -> None:
             elif path.stem in {"bird", "chicken", "duck", "owl", "rooster"}: kind = "wingbeat"
             else: kind = "stride"
             target.write_text(wrapper(f"{root} {path.stem}", f"../../pua/{root}/{path.name}", kind) + "\n", encoding="utf-8")
+            records.append({"name": path.stem, "category": root, "animation": kind, "static": f"pua/{root}/{path.name}", "source": f"animations/generated/{target.name}"})
             count += 1
+    (ROOT / "assets" / "animations" / "manifest.json").write_text(json.dumps({"schemaVersion": 1, "contract": "face-v1 / animal-v1", "companions": records}, indent=2) + "\n", encoding="utf-8")
     print(f"built {count} animated companions in {OUT.relative_to(ROOT)}")
 
 if __name__ == "__main__": main()

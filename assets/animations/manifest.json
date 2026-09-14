@@ -1,0 +1,2820 @@
+{
+  "schemaVersion": 1,
+  "contract": "face-v1 / animal-v1",
+  "companions": [
+    {
+      "name": "1F600",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F600.svg",
+      "source": "animations/generated/1F600.svg"
+    },
+    {
+      "name": "1F601",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F601.svg",
+      "source": "animations/generated/1F601.svg"
+    },
+    {
+      "name": "1F602",
+      "category": "face",
+      "animation": "laugh",
+      "static": "color-all/1F602.svg",
+      "source": "animations/generated/1F602.svg"
+    },
+    {
+      "name": "1F603",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F603.svg",
+      "source": "animations/generated/1F603.svg"
+    },
+    {
+      "name": "1F604",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F604.svg",
+      "source": "animations/generated/1F604.svg"
+    },
+    {
+      "name": "1F605",
+      "category": "face",
+      "animation": "sweat",
+      "static": "color-all/1F605.svg",
+      "source": "animations/generated/1F605.svg"
+    },
+    {
+      "name": "1F606",
+      "category": "face",
+      "animation": "laugh",
+      "static": "color-all/1F606.svg",
+      "source": "animations/generated/1F606.svg"
+    },
+    {
+      "name": "1F607",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F607.svg",
+      "source": "animations/generated/1F607.svg"
+    },
+    {
+      "name": "1F608",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F608.svg",
+      "source": "animations/generated/1F608.svg"
+    },
+    {
+      "name": "1F609",
+      "category": "face",
+      "animation": "wink",
+      "static": "color-all/1F609.svg",
+      "source": "animations/generated/1F609.svg"
+    },
+    {
+      "name": "1F60A",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F60A.svg",
+      "source": "animations/generated/1F60A.svg"
+    },
+    {
+      "name": "1F60B",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F60B.svg",
+      "source": "animations/generated/1F60B.svg"
+    },
+    {
+      "name": "1F60C",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F60C.svg",
+      "source": "animations/generated/1F60C.svg"
+    },
+    {
+      "name": "1F60D",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F60D.svg",
+      "source": "animations/generated/1F60D.svg"
+    },
+    {
+      "name": "1F60E",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F60E.svg",
+      "source": "animations/generated/1F60E.svg"
+    },
+    {
+      "name": "1F60F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F60F.svg",
+      "source": "animations/generated/1F60F.svg"
+    },
+    {
+      "name": "1F610",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F610.svg",
+      "source": "animations/generated/1F610.svg"
+    },
+    {
+      "name": "1F611",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F611.svg",
+      "source": "animations/generated/1F611.svg"
+    },
+    {
+      "name": "1F612",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F612.svg",
+      "source": "animations/generated/1F612.svg"
+    },
+    {
+      "name": "1F613",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F613.svg",
+      "source": "animations/generated/1F613.svg"
+    },
+    {
+      "name": "1F614",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F614.svg",
+      "source": "animations/generated/1F614.svg"
+    },
+    {
+      "name": "1F615",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F615.svg",
+      "source": "animations/generated/1F615.svg"
+    },
+    {
+      "name": "1F616",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F616.svg",
+      "source": "animations/generated/1F616.svg"
+    },
+    {
+      "name": "1F617",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F617.svg",
+      "source": "animations/generated/1F617.svg"
+    },
+    {
+      "name": "1F618",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F618.svg",
+      "source": "animations/generated/1F618.svg"
+    },
+    {
+      "name": "1F619",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F619.svg",
+      "source": "animations/generated/1F619.svg"
+    },
+    {
+      "name": "1F61A",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F61A.svg",
+      "source": "animations/generated/1F61A.svg"
+    },
+    {
+      "name": "1F61B",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F61B.svg",
+      "source": "animations/generated/1F61B.svg"
+    },
+    {
+      "name": "1F61C",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F61C.svg",
+      "source": "animations/generated/1F61C.svg"
+    },
+    {
+      "name": "1F61D",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F61D.svg",
+      "source": "animations/generated/1F61D.svg"
+    },
+    {
+      "name": "1F61E",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F61E.svg",
+      "source": "animations/generated/1F61E.svg"
+    },
+    {
+      "name": "1F61F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F61F.svg",
+      "source": "animations/generated/1F61F.svg"
+    },
+    {
+      "name": "1F620",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F620.svg",
+      "source": "animations/generated/1F620.svg"
+    },
+    {
+      "name": "1F621",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F621.svg",
+      "source": "animations/generated/1F621.svg"
+    },
+    {
+      "name": "1F622",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F622.svg",
+      "source": "animations/generated/1F622.svg"
+    },
+    {
+      "name": "1F623",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F623.svg",
+      "source": "animations/generated/1F623.svg"
+    },
+    {
+      "name": "1F624",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F624.svg",
+      "source": "animations/generated/1F624.svg"
+    },
+    {
+      "name": "1F625",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F625.svg",
+      "source": "animations/generated/1F625.svg"
+    },
+    {
+      "name": "1F626",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F626.svg",
+      "source": "animations/generated/1F626.svg"
+    },
+    {
+      "name": "1F627",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F627.svg",
+      "source": "animations/generated/1F627.svg"
+    },
+    {
+      "name": "1F628",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F628.svg",
+      "source": "animations/generated/1F628.svg"
+    },
+    {
+      "name": "1F629",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F629.svg",
+      "source": "animations/generated/1F629.svg"
+    },
+    {
+      "name": "1F62A",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F62A.svg",
+      "source": "animations/generated/1F62A.svg"
+    },
+    {
+      "name": "1F62B",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F62B.svg",
+      "source": "animations/generated/1F62B.svg"
+    },
+    {
+      "name": "1F62C",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F62C.svg",
+      "source": "animations/generated/1F62C.svg"
+    },
+    {
+      "name": "1F62D",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F62D.svg",
+      "source": "animations/generated/1F62D.svg"
+    },
+    {
+      "name": "1F62E-200D-1F4A8",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F62E-200D-1F4A8.svg",
+      "source": "animations/generated/1F62E-200D-1F4A8.svg"
+    },
+    {
+      "name": "1F62E",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F62E.svg",
+      "source": "animations/generated/1F62E.svg"
+    },
+    {
+      "name": "1F62F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F62F.svg",
+      "source": "animations/generated/1F62F.svg"
+    },
+    {
+      "name": "1F630",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F630.svg",
+      "source": "animations/generated/1F630.svg"
+    },
+    {
+      "name": "1F631",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F631.svg",
+      "source": "animations/generated/1F631.svg"
+    },
+    {
+      "name": "1F632",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F632.svg",
+      "source": "animations/generated/1F632.svg"
+    },
+    {
+      "name": "1F633",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F633.svg",
+      "source": "animations/generated/1F633.svg"
+    },
+    {
+      "name": "1F634",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F634.svg",
+      "source": "animations/generated/1F634.svg"
+    },
+    {
+      "name": "1F635-200D-1F4AB",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F635-200D-1F4AB.svg",
+      "source": "animations/generated/1F635-200D-1F4AB.svg"
+    },
+    {
+      "name": "1F635",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F635.svg",
+      "source": "animations/generated/1F635.svg"
+    },
+    {
+      "name": "1F636-200D-1F32B-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F636-200D-1F32B-FE0F.svg",
+      "source": "animations/generated/1F636-200D-1F32B-FE0F.svg"
+    },
+    {
+      "name": "1F636",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F636.svg",
+      "source": "animations/generated/1F636.svg"
+    },
+    {
+      "name": "1F637",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F637.svg",
+      "source": "animations/generated/1F637.svg"
+    },
+    {
+      "name": "1F638",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F638.svg",
+      "source": "animations/generated/1F638.svg"
+    },
+    {
+      "name": "1F639",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F639.svg",
+      "source": "animations/generated/1F639.svg"
+    },
+    {
+      "name": "1F63A",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F63A.svg",
+      "source": "animations/generated/1F63A.svg"
+    },
+    {
+      "name": "1F63B",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F63B.svg",
+      "source": "animations/generated/1F63B.svg"
+    },
+    {
+      "name": "1F63C",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F63C.svg",
+      "source": "animations/generated/1F63C.svg"
+    },
+    {
+      "name": "1F63D",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F63D.svg",
+      "source": "animations/generated/1F63D.svg"
+    },
+    {
+      "name": "1F63E",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F63E.svg",
+      "source": "animations/generated/1F63E.svg"
+    },
+    {
+      "name": "1F63F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F63F.svg",
+      "source": "animations/generated/1F63F.svg"
+    },
+    {
+      "name": "1F640",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F640.svg",
+      "source": "animations/generated/1F640.svg"
+    },
+    {
+      "name": "1F641",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F641.svg",
+      "source": "animations/generated/1F641.svg"
+    },
+    {
+      "name": "1F642-200D-2194-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F642-200D-2194-FE0F.svg",
+      "source": "animations/generated/1F642-200D-2194-FE0F.svg"
+    },
+    {
+      "name": "1F642-200D-2195-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F642-200D-2195-FE0F.svg",
+      "source": "animations/generated/1F642-200D-2195-FE0F.svg"
+    },
+    {
+      "name": "1F642",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F642.svg",
+      "source": "animations/generated/1F642.svg"
+    },
+    {
+      "name": "1F643",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F643.svg",
+      "source": "animations/generated/1F643.svg"
+    },
+    {
+      "name": "1F644",
+      "category": "face",
+      "animation": "look",
+      "static": "color-all/1F644.svg",
+      "source": "animations/generated/1F644.svg"
+    },
+    {
+      "name": "1F645-1F3FB-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FB-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F645-1F3FB-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F645-1F3FB-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FB-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F645-1F3FB-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F645-1F3FB",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FB.svg",
+      "source": "animations/generated/1F645-1F3FB.svg"
+    },
+    {
+      "name": "1F645-1F3FC-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FC-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F645-1F3FC-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F645-1F3FC-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FC-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F645-1F3FC-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F645-1F3FC",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FC.svg",
+      "source": "animations/generated/1F645-1F3FC.svg"
+    },
+    {
+      "name": "1F645-1F3FD-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FD-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F645-1F3FD-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F645-1F3FD-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FD-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F645-1F3FD-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F645-1F3FD",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FD.svg",
+      "source": "animations/generated/1F645-1F3FD.svg"
+    },
+    {
+      "name": "1F645-1F3FE-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FE-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F645-1F3FE-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F645-1F3FE-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FE-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F645-1F3FE-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F645-1F3FE",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FE.svg",
+      "source": "animations/generated/1F645-1F3FE.svg"
+    },
+    {
+      "name": "1F645-1F3FF-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FF-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F645-1F3FF-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F645-1F3FF-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FF-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F645-1F3FF-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F645-1F3FF",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-1F3FF.svg",
+      "source": "animations/generated/1F645-1F3FF.svg"
+    },
+    {
+      "name": "1F645-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F645-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F645-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F645-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F645",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F645.svg",
+      "source": "animations/generated/1F645.svg"
+    },
+    {
+      "name": "1F646-1F3FB-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FB-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F646-1F3FB-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F646-1F3FB-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FB-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F646-1F3FB-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F646-1F3FB",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FB.svg",
+      "source": "animations/generated/1F646-1F3FB.svg"
+    },
+    {
+      "name": "1F646-1F3FC-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FC-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F646-1F3FC-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F646-1F3FC-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FC-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F646-1F3FC-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F646-1F3FC",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FC.svg",
+      "source": "animations/generated/1F646-1F3FC.svg"
+    },
+    {
+      "name": "1F646-1F3FD-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FD-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F646-1F3FD-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F646-1F3FD-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FD-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F646-1F3FD-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F646-1F3FD",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FD.svg",
+      "source": "animations/generated/1F646-1F3FD.svg"
+    },
+    {
+      "name": "1F646-1F3FE-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FE-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F646-1F3FE-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F646-1F3FE-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FE-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F646-1F3FE-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F646-1F3FE",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FE.svg",
+      "source": "animations/generated/1F646-1F3FE.svg"
+    },
+    {
+      "name": "1F646-1F3FF-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FF-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F646-1F3FF-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F646-1F3FF-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FF-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F646-1F3FF-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F646-1F3FF",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-1F3FF.svg",
+      "source": "animations/generated/1F646-1F3FF.svg"
+    },
+    {
+      "name": "1F646-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F646-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F646-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F646-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F646",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F646.svg",
+      "source": "animations/generated/1F646.svg"
+    },
+    {
+      "name": "1F647-1F3FB-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FB-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F647-1F3FB-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F647-1F3FB-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FB-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F647-1F3FB-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F647-1F3FB",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FB.svg",
+      "source": "animations/generated/1F647-1F3FB.svg"
+    },
+    {
+      "name": "1F647-1F3FC-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FC-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F647-1F3FC-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F647-1F3FC-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FC-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F647-1F3FC-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F647-1F3FC",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FC.svg",
+      "source": "animations/generated/1F647-1F3FC.svg"
+    },
+    {
+      "name": "1F647-1F3FD-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FD-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F647-1F3FD-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F647-1F3FD-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FD-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F647-1F3FD-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F647-1F3FD",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FD.svg",
+      "source": "animations/generated/1F647-1F3FD.svg"
+    },
+    {
+      "name": "1F647-1F3FE-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FE-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F647-1F3FE-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F647-1F3FE-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FE-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F647-1F3FE-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F647-1F3FE",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FE.svg",
+      "source": "animations/generated/1F647-1F3FE.svg"
+    },
+    {
+      "name": "1F647-1F3FF-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FF-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F647-1F3FF-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F647-1F3FF-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FF-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F647-1F3FF-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F647-1F3FF",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-1F3FF.svg",
+      "source": "animations/generated/1F647-1F3FF.svg"
+    },
+    {
+      "name": "1F647-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F647-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F647-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F647-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F647",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F647.svg",
+      "source": "animations/generated/1F647.svg"
+    },
+    {
+      "name": "1F648",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F648.svg",
+      "source": "animations/generated/1F648.svg"
+    },
+    {
+      "name": "1F649",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F649.svg",
+      "source": "animations/generated/1F649.svg"
+    },
+    {
+      "name": "1F64A",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64A.svg",
+      "source": "animations/generated/1F64A.svg"
+    },
+    {
+      "name": "1F64B-1F3FB-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FB-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64B-1F3FB-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64B-1F3FB-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FB-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64B-1F3FB-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64B-1F3FB",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FB.svg",
+      "source": "animations/generated/1F64B-1F3FB.svg"
+    },
+    {
+      "name": "1F64B-1F3FC-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FC-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64B-1F3FC-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64B-1F3FC-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FC-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64B-1F3FC-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64B-1F3FC",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FC.svg",
+      "source": "animations/generated/1F64B-1F3FC.svg"
+    },
+    {
+      "name": "1F64B-1F3FD-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FD-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64B-1F3FD-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64B-1F3FD-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FD-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64B-1F3FD-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64B-1F3FD",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FD.svg",
+      "source": "animations/generated/1F64B-1F3FD.svg"
+    },
+    {
+      "name": "1F64B-1F3FE-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FE-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64B-1F3FE-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64B-1F3FE-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FE-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64B-1F3FE-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64B-1F3FE",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FE.svg",
+      "source": "animations/generated/1F64B-1F3FE.svg"
+    },
+    {
+      "name": "1F64B-1F3FF-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FF-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64B-1F3FF-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64B-1F3FF-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FF-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64B-1F3FF-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64B-1F3FF",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-1F3FF.svg",
+      "source": "animations/generated/1F64B-1F3FF.svg"
+    },
+    {
+      "name": "1F64B-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64B-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64B-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64B-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64B",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64B.svg",
+      "source": "animations/generated/1F64B.svg"
+    },
+    {
+      "name": "1F64C-1F3FB",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64C-1F3FB.svg",
+      "source": "animations/generated/1F64C-1F3FB.svg"
+    },
+    {
+      "name": "1F64C-1F3FC",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64C-1F3FC.svg",
+      "source": "animations/generated/1F64C-1F3FC.svg"
+    },
+    {
+      "name": "1F64C-1F3FD",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64C-1F3FD.svg",
+      "source": "animations/generated/1F64C-1F3FD.svg"
+    },
+    {
+      "name": "1F64C-1F3FE",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64C-1F3FE.svg",
+      "source": "animations/generated/1F64C-1F3FE.svg"
+    },
+    {
+      "name": "1F64C-1F3FF",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64C-1F3FF.svg",
+      "source": "animations/generated/1F64C-1F3FF.svg"
+    },
+    {
+      "name": "1F64C",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64C.svg",
+      "source": "animations/generated/1F64C.svg"
+    },
+    {
+      "name": "1F64D-1F3FB-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FB-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64D-1F3FB-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64D-1F3FB-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FB-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64D-1F3FB-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64D-1F3FB",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FB.svg",
+      "source": "animations/generated/1F64D-1F3FB.svg"
+    },
+    {
+      "name": "1F64D-1F3FC-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FC-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64D-1F3FC-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64D-1F3FC-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FC-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64D-1F3FC-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64D-1F3FC",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FC.svg",
+      "source": "animations/generated/1F64D-1F3FC.svg"
+    },
+    {
+      "name": "1F64D-1F3FD-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FD-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64D-1F3FD-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64D-1F3FD-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FD-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64D-1F3FD-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64D-1F3FD",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FD.svg",
+      "source": "animations/generated/1F64D-1F3FD.svg"
+    },
+    {
+      "name": "1F64D-1F3FE-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FE-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64D-1F3FE-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64D-1F3FE-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FE-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64D-1F3FE-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64D-1F3FE",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FE.svg",
+      "source": "animations/generated/1F64D-1F3FE.svg"
+    },
+    {
+      "name": "1F64D-1F3FF-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FF-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64D-1F3FF-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64D-1F3FF-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FF-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64D-1F3FF-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64D-1F3FF",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-1F3FF.svg",
+      "source": "animations/generated/1F64D-1F3FF.svg"
+    },
+    {
+      "name": "1F64D-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64D-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64D-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64D-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64D",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64D.svg",
+      "source": "animations/generated/1F64D.svg"
+    },
+    {
+      "name": "1F64E-1F3FB-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FB-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64E-1F3FB-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64E-1F3FB-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FB-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64E-1F3FB-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64E-1F3FB",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FB.svg",
+      "source": "animations/generated/1F64E-1F3FB.svg"
+    },
+    {
+      "name": "1F64E-1F3FC-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FC-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64E-1F3FC-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64E-1F3FC-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FC-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64E-1F3FC-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64E-1F3FC",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FC.svg",
+      "source": "animations/generated/1F64E-1F3FC.svg"
+    },
+    {
+      "name": "1F64E-1F3FD-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FD-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64E-1F3FD-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64E-1F3FD-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FD-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64E-1F3FD-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64E-1F3FD",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FD.svg",
+      "source": "animations/generated/1F64E-1F3FD.svg"
+    },
+    {
+      "name": "1F64E-1F3FE-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FE-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64E-1F3FE-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64E-1F3FE-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FE-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64E-1F3FE-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64E-1F3FE",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FE.svg",
+      "source": "animations/generated/1F64E-1F3FE.svg"
+    },
+    {
+      "name": "1F64E-1F3FF-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FF-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64E-1F3FF-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64E-1F3FF-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FF-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64E-1F3FF-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64E-1F3FF",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-1F3FF.svg",
+      "source": "animations/generated/1F64E-1F3FF.svg"
+    },
+    {
+      "name": "1F64E-200D-2640-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-200D-2640-FE0F.svg",
+      "source": "animations/generated/1F64E-200D-2640-FE0F.svg"
+    },
+    {
+      "name": "1F64E-200D-2642-FE0F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E-200D-2642-FE0F.svg",
+      "source": "animations/generated/1F64E-200D-2642-FE0F.svg"
+    },
+    {
+      "name": "1F64E",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64E.svg",
+      "source": "animations/generated/1F64E.svg"
+    },
+    {
+      "name": "1F64F-1F3FB",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64F-1F3FB.svg",
+      "source": "animations/generated/1F64F-1F3FB.svg"
+    },
+    {
+      "name": "1F64F-1F3FC",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64F-1F3FC.svg",
+      "source": "animations/generated/1F64F-1F3FC.svg"
+    },
+    {
+      "name": "1F64F-1F3FD",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64F-1F3FD.svg",
+      "source": "animations/generated/1F64F-1F3FD.svg"
+    },
+    {
+      "name": "1F64F-1F3FE",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64F-1F3FE.svg",
+      "source": "animations/generated/1F64F-1F3FE.svg"
+    },
+    {
+      "name": "1F64F-1F3FF",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64F-1F3FF.svg",
+      "source": "animations/generated/1F64F-1F3FF.svg"
+    },
+    {
+      "name": "1F64F",
+      "category": "face",
+      "animation": "blink",
+      "static": "color-all/1F64F.svg",
+      "source": "animations/generated/1F64F.svg"
+    },
+    {
+      "name": "1F914",
+      "category": "face",
+      "animation": "think",
+      "static": "color-all/1F914.svg",
+      "source": "animations/generated/1F914.svg"
+    },
+    {
+      "name": "1F972",
+      "category": "face",
+      "animation": "bittersweet",
+      "static": "color-all/1F972.svg",
+      "source": "animations/generated/1F972.svg"
+    },
+    {
+      "name": "1F979",
+      "category": "face",
+      "animation": "tear",
+      "static": "color-all/1F979.svg",
+      "source": "animations/generated/1F979.svg"
+    },
+    {
+      "name": "1F9D0",
+      "category": "face",
+      "animation": "inspect",
+      "static": "color-all/1F9D0.svg",
+      "source": "animations/generated/1F9D0.svg"
+    },
+    {
+      "name": "263A",
+      "category": "face",
+      "animation": "breathe",
+      "static": "color-all/263A.svg",
+      "source": "animations/generated/263A.svg"
+    },
+    {
+      "name": "1F400",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F400.svg",
+      "source": "animations/generated/unicode-animal-1F400.svg"
+    },
+    {
+      "name": "1F401",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F401.svg",
+      "source": "animations/generated/unicode-animal-1F401.svg"
+    },
+    {
+      "name": "1F402",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F402.svg",
+      "source": "animations/generated/unicode-animal-1F402.svg"
+    },
+    {
+      "name": "1F403",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F403.svg",
+      "source": "animations/generated/unicode-animal-1F403.svg"
+    },
+    {
+      "name": "1F404",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F404.svg",
+      "source": "animations/generated/unicode-animal-1F404.svg"
+    },
+    {
+      "name": "1F405",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F405.svg",
+      "source": "animations/generated/unicode-animal-1F405.svg"
+    },
+    {
+      "name": "1F406",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F406.svg",
+      "source": "animations/generated/unicode-animal-1F406.svg"
+    },
+    {
+      "name": "1F407",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F407.svg",
+      "source": "animations/generated/unicode-animal-1F407.svg"
+    },
+    {
+      "name": "1F408-200D-2B1B",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F408-200D-2B1B.svg",
+      "source": "animations/generated/unicode-animal-1F408-200D-2B1B.svg"
+    },
+    {
+      "name": "1F408",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F408.svg",
+      "source": "animations/generated/unicode-animal-1F408.svg"
+    },
+    {
+      "name": "1F409",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F409.svg",
+      "source": "animations/generated/unicode-animal-1F409.svg"
+    },
+    {
+      "name": "1F40A",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F40A.svg",
+      "source": "animations/generated/unicode-animal-1F40A.svg"
+    },
+    {
+      "name": "1F40B",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F40B.svg",
+      "source": "animations/generated/unicode-animal-1F40B.svg"
+    },
+    {
+      "name": "1F40C",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F40C.svg",
+      "source": "animations/generated/unicode-animal-1F40C.svg"
+    },
+    {
+      "name": "1F40D",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F40D.svg",
+      "source": "animations/generated/unicode-animal-1F40D.svg"
+    },
+    {
+      "name": "1F40E",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F40E.svg",
+      "source": "animations/generated/unicode-animal-1F40E.svg"
+    },
+    {
+      "name": "1F40F",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F40F.svg",
+      "source": "animations/generated/unicode-animal-1F40F.svg"
+    },
+    {
+      "name": "1F410",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F410.svg",
+      "source": "animations/generated/unicode-animal-1F410.svg"
+    },
+    {
+      "name": "1F411",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F411.svg",
+      "source": "animations/generated/unicode-animal-1F411.svg"
+    },
+    {
+      "name": "1F412",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F412.svg",
+      "source": "animations/generated/unicode-animal-1F412.svg"
+    },
+    {
+      "name": "1F413",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F413.svg",
+      "source": "animations/generated/unicode-animal-1F413.svg"
+    },
+    {
+      "name": "1F414",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F414.svg",
+      "source": "animations/generated/unicode-animal-1F414.svg"
+    },
+    {
+      "name": "1F415-200D-1F9BA",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F415-200D-1F9BA.svg",
+      "source": "animations/generated/unicode-animal-1F415-200D-1F9BA.svg"
+    },
+    {
+      "name": "1F415",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F415.svg",
+      "source": "animations/generated/unicode-animal-1F415.svg"
+    },
+    {
+      "name": "1F416",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F416.svg",
+      "source": "animations/generated/unicode-animal-1F416.svg"
+    },
+    {
+      "name": "1F417",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F417.svg",
+      "source": "animations/generated/unicode-animal-1F417.svg"
+    },
+    {
+      "name": "1F418",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F418.svg",
+      "source": "animations/generated/unicode-animal-1F418.svg"
+    },
+    {
+      "name": "1F419",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F419.svg",
+      "source": "animations/generated/unicode-animal-1F419.svg"
+    },
+    {
+      "name": "1F41A",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F41A.svg",
+      "source": "animations/generated/unicode-animal-1F41A.svg"
+    },
+    {
+      "name": "1F41B",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F41B.svg",
+      "source": "animations/generated/unicode-animal-1F41B.svg"
+    },
+    {
+      "name": "1F41C",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F41C.svg",
+      "source": "animations/generated/unicode-animal-1F41C.svg"
+    },
+    {
+      "name": "1F41D",
+      "category": "animal",
+      "animation": "buzz",
+      "static": "color-all/1F41D.svg",
+      "source": "animations/generated/unicode-animal-1F41D.svg"
+    },
+    {
+      "name": "1F41E",
+      "category": "animal",
+      "animation": "buzz",
+      "static": "color-all/1F41E.svg",
+      "source": "animations/generated/unicode-animal-1F41E.svg"
+    },
+    {
+      "name": "1F41F",
+      "category": "animal",
+      "animation": "swim",
+      "static": "color-all/1F41F.svg",
+      "source": "animations/generated/unicode-animal-1F41F.svg"
+    },
+    {
+      "name": "1F420",
+      "category": "animal",
+      "animation": "swim",
+      "static": "color-all/1F420.svg",
+      "source": "animations/generated/unicode-animal-1F420.svg"
+    },
+    {
+      "name": "1F421",
+      "category": "animal",
+      "animation": "swim",
+      "static": "color-all/1F421.svg",
+      "source": "animations/generated/unicode-animal-1F421.svg"
+    },
+    {
+      "name": "1F422",
+      "category": "animal",
+      "animation": "swim",
+      "static": "color-all/1F422.svg",
+      "source": "animations/generated/unicode-animal-1F422.svg"
+    },
+    {
+      "name": "1F423",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F423.svg",
+      "source": "animations/generated/unicode-animal-1F423.svg"
+    },
+    {
+      "name": "1F424",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F424.svg",
+      "source": "animations/generated/unicode-animal-1F424.svg"
+    },
+    {
+      "name": "1F425",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F425.svg",
+      "source": "animations/generated/unicode-animal-1F425.svg"
+    },
+    {
+      "name": "1F426-200D-1F525",
+      "category": "animal",
+      "animation": "wingbeat",
+      "static": "color-all/1F426-200D-1F525.svg",
+      "source": "animations/generated/unicode-animal-1F426-200D-1F525.svg"
+    },
+    {
+      "name": "1F426-200D-2B1B",
+      "category": "animal",
+      "animation": "wingbeat",
+      "static": "color-all/1F426-200D-2B1B.svg",
+      "source": "animations/generated/unicode-animal-1F426-200D-2B1B.svg"
+    },
+    {
+      "name": "1F426",
+      "category": "animal",
+      "animation": "wingbeat",
+      "static": "color-all/1F426.svg",
+      "source": "animations/generated/unicode-animal-1F426.svg"
+    },
+    {
+      "name": "1F427",
+      "category": "animal",
+      "animation": "wingbeat",
+      "static": "color-all/1F427.svg",
+      "source": "animations/generated/unicode-animal-1F427.svg"
+    },
+    {
+      "name": "1F428",
+      "category": "animal",
+      "animation": "wingbeat",
+      "static": "color-all/1F428.svg",
+      "source": "animations/generated/unicode-animal-1F428.svg"
+    },
+    {
+      "name": "1F429",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F429.svg",
+      "source": "animations/generated/unicode-animal-1F429.svg"
+    },
+    {
+      "name": "1F42A",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F42A.svg",
+      "source": "animations/generated/unicode-animal-1F42A.svg"
+    },
+    {
+      "name": "1F42B",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F42B.svg",
+      "source": "animations/generated/unicode-animal-1F42B.svg"
+    },
+    {
+      "name": "1F42C",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F42C.svg",
+      "source": "animations/generated/unicode-animal-1F42C.svg"
+    },
+    {
+      "name": "1F42D",
+      "category": "animal",
+      "animation": "wingbeat",
+      "static": "color-all/1F42D.svg",
+      "source": "animations/generated/unicode-animal-1F42D.svg"
+    },
+    {
+      "name": "1F42E",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F42E.svg",
+      "source": "animations/generated/unicode-animal-1F42E.svg"
+    },
+    {
+      "name": "1F42F",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F42F.svg",
+      "source": "animations/generated/unicode-animal-1F42F.svg"
+    },
+    {
+      "name": "1F430",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F430.svg",
+      "source": "animations/generated/unicode-animal-1F430.svg"
+    },
+    {
+      "name": "1F431-200D-1F4BB",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F431-200D-1F4BB.svg",
+      "source": "animations/generated/unicode-animal-1F431-200D-1F4BB.svg"
+    },
+    {
+      "name": "1F431",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F431.svg",
+      "source": "animations/generated/unicode-animal-1F431.svg"
+    },
+    {
+      "name": "1F432",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F432.svg",
+      "source": "animations/generated/unicode-animal-1F432.svg"
+    },
+    {
+      "name": "1F433",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F433.svg",
+      "source": "animations/generated/unicode-animal-1F433.svg"
+    },
+    {
+      "name": "1F434",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F434.svg",
+      "source": "animations/generated/unicode-animal-1F434.svg"
+    },
+    {
+      "name": "1F435",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F435.svg",
+      "source": "animations/generated/unicode-animal-1F435.svg"
+    },
+    {
+      "name": "1F436",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F436.svg",
+      "source": "animations/generated/unicode-animal-1F436.svg"
+    },
+    {
+      "name": "1F437",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F437.svg",
+      "source": "animations/generated/unicode-animal-1F437.svg"
+    },
+    {
+      "name": "1F438",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F438.svg",
+      "source": "animations/generated/unicode-animal-1F438.svg"
+    },
+    {
+      "name": "1F439",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F439.svg",
+      "source": "animations/generated/unicode-animal-1F439.svg"
+    },
+    {
+      "name": "1F43A",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F43A.svg",
+      "source": "animations/generated/unicode-animal-1F43A.svg"
+    },
+    {
+      "name": "1F43B-200D-2744-FE0F",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F43B-200D-2744-FE0F.svg",
+      "source": "animations/generated/unicode-animal-1F43B-200D-2744-FE0F.svg"
+    },
+    {
+      "name": "1F43B",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F43B.svg",
+      "source": "animations/generated/unicode-animal-1F43B.svg"
+    },
+    {
+      "name": "1F43C",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F43C.svg",
+      "source": "animations/generated/unicode-animal-1F43C.svg"
+    },
+    {
+      "name": "1F43D",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F43D.svg",
+      "source": "animations/generated/unicode-animal-1F43D.svg"
+    },
+    {
+      "name": "1F43E",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F43E.svg",
+      "source": "animations/generated/unicode-animal-1F43E.svg"
+    },
+    {
+      "name": "1F43F",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F43F.svg",
+      "source": "animations/generated/unicode-animal-1F43F.svg"
+    },
+    {
+      "name": "1F980",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F980.svg",
+      "source": "animations/generated/unicode-animal-1F980.svg"
+    },
+    {
+      "name": "1F981",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F981.svg",
+      "source": "animations/generated/unicode-animal-1F981.svg"
+    },
+    {
+      "name": "1F982",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F982.svg",
+      "source": "animations/generated/unicode-animal-1F982.svg"
+    },
+    {
+      "name": "1F983",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F983.svg",
+      "source": "animations/generated/unicode-animal-1F983.svg"
+    },
+    {
+      "name": "1F984",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F984.svg",
+      "source": "animations/generated/unicode-animal-1F984.svg"
+    },
+    {
+      "name": "1F985",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F985.svg",
+      "source": "animations/generated/unicode-animal-1F985.svg"
+    },
+    {
+      "name": "1F986",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F986.svg",
+      "source": "animations/generated/unicode-animal-1F986.svg"
+    },
+    {
+      "name": "1F987",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F987.svg",
+      "source": "animations/generated/unicode-animal-1F987.svg"
+    },
+    {
+      "name": "1F988",
+      "category": "animal",
+      "animation": "swim",
+      "static": "color-all/1F988.svg",
+      "source": "animations/generated/unicode-animal-1F988.svg"
+    },
+    {
+      "name": "1F989",
+      "category": "animal",
+      "animation": "wingbeat",
+      "static": "color-all/1F989.svg",
+      "source": "animations/generated/unicode-animal-1F989.svg"
+    },
+    {
+      "name": "1F98A",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F98A.svg",
+      "source": "animations/generated/unicode-animal-1F98A.svg"
+    },
+    {
+      "name": "1F98B",
+      "category": "animal",
+      "animation": "buzz",
+      "static": "color-all/1F98B.svg",
+      "source": "animations/generated/unicode-animal-1F98B.svg"
+    },
+    {
+      "name": "1F98C",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F98C.svg",
+      "source": "animations/generated/unicode-animal-1F98C.svg"
+    },
+    {
+      "name": "1F98D",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F98D.svg",
+      "source": "animations/generated/unicode-animal-1F98D.svg"
+    },
+    {
+      "name": "1F98E",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F98E.svg",
+      "source": "animations/generated/unicode-animal-1F98E.svg"
+    },
+    {
+      "name": "1F98F",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F98F.svg",
+      "source": "animations/generated/unicode-animal-1F98F.svg"
+    },
+    {
+      "name": "1F990",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F990.svg",
+      "source": "animations/generated/unicode-animal-1F990.svg"
+    },
+    {
+      "name": "1F991",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F991.svg",
+      "source": "animations/generated/unicode-animal-1F991.svg"
+    },
+    {
+      "name": "1F992",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F992.svg",
+      "source": "animations/generated/unicode-animal-1F992.svg"
+    },
+    {
+      "name": "1F993",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F993.svg",
+      "source": "animations/generated/unicode-animal-1F993.svg"
+    },
+    {
+      "name": "1F994",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F994.svg",
+      "source": "animations/generated/unicode-animal-1F994.svg"
+    },
+    {
+      "name": "1F995",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F995.svg",
+      "source": "animations/generated/unicode-animal-1F995.svg"
+    },
+    {
+      "name": "1F996",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F996.svg",
+      "source": "animations/generated/unicode-animal-1F996.svg"
+    },
+    {
+      "name": "1F997",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F997.svg",
+      "source": "animations/generated/unicode-animal-1F997.svg"
+    },
+    {
+      "name": "1F998",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F998.svg",
+      "source": "animations/generated/unicode-animal-1F998.svg"
+    },
+    {
+      "name": "1F999",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F999.svg",
+      "source": "animations/generated/unicode-animal-1F999.svg"
+    },
+    {
+      "name": "1F99A",
+      "category": "animal",
+      "animation": "wingbeat",
+      "static": "color-all/1F99A.svg",
+      "source": "animations/generated/unicode-animal-1F99A.svg"
+    },
+    {
+      "name": "1F99B",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F99B.svg",
+      "source": "animations/generated/unicode-animal-1F99B.svg"
+    },
+    {
+      "name": "1F99C",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F99C.svg",
+      "source": "animations/generated/unicode-animal-1F99C.svg"
+    },
+    {
+      "name": "1F99D",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F99D.svg",
+      "source": "animations/generated/unicode-animal-1F99D.svg"
+    },
+    {
+      "name": "1F99E",
+      "category": "animal",
+      "animation": "swim",
+      "static": "color-all/1F99E.svg",
+      "source": "animations/generated/unicode-animal-1F99E.svg"
+    },
+    {
+      "name": "1F99F",
+      "category": "animal",
+      "animation": "buzz",
+      "static": "color-all/1F99F.svg",
+      "source": "animations/generated/unicode-animal-1F99F.svg"
+    },
+    {
+      "name": "1F9A0",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F9A0.svg",
+      "source": "animations/generated/unicode-animal-1F9A0.svg"
+    },
+    {
+      "name": "1F9A1",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F9A1.svg",
+      "source": "animations/generated/unicode-animal-1F9A1.svg"
+    },
+    {
+      "name": "1F9A2",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1F9A2.svg",
+      "source": "animations/generated/unicode-animal-1F9A2.svg"
+    },
+    {
+      "name": "1FAB6",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1FAB6.svg",
+      "source": "animations/generated/unicode-animal-1FAB6.svg"
+    },
+    {
+      "name": "1FAB7",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1FAB7.svg",
+      "source": "animations/generated/unicode-animal-1FAB7.svg"
+    },
+    {
+      "name": "1FAB8",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1FAB8.svg",
+      "source": "animations/generated/unicode-animal-1FAB8.svg"
+    },
+    {
+      "name": "1FAB9",
+      "category": "animal",
+      "animation": "stride",
+      "static": "color-all/1FAB9.svg",
+      "source": "animations/generated/unicode-animal-1FAB9.svg"
+    },
+    {
+      "name": "bee",
+      "category": "animals",
+      "animation": "buzz",
+      "static": "pua/animals/bee.svg",
+      "source": "animations/generated/animals-bee.svg"
+    },
+    {
+      "name": "bird",
+      "category": "animals",
+      "animation": "wingbeat",
+      "static": "pua/animals/bird.svg",
+      "source": "animations/generated/animals-bird.svg"
+    },
+    {
+      "name": "calf",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/calf.svg",
+      "source": "animations/generated/animals-calf.svg"
+    },
+    {
+      "name": "cat",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/cat.svg",
+      "source": "animations/generated/animals-cat.svg"
+    },
+    {
+      "name": "chicken",
+      "category": "animals",
+      "animation": "wingbeat",
+      "static": "pua/animals/chicken.svg",
+      "source": "animations/generated/animals-chicken.svg"
+    },
+    {
+      "name": "colony",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/colony.svg",
+      "source": "animations/generated/animals-colony.svg"
+    },
+    {
+      "name": "cow",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/cow.svg",
+      "source": "animations/generated/animals-cow.svg"
+    },
+    {
+      "name": "deer",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/deer.svg",
+      "source": "animations/generated/animals-deer.svg"
+    },
+    {
+      "name": "dog",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/dog.svg",
+      "source": "animations/generated/animals-dog.svg"
+    },
+    {
+      "name": "duck",
+      "category": "animals",
+      "animation": "wingbeat",
+      "static": "pua/animals/duck.svg",
+      "source": "animations/generated/animals-duck.svg"
+    },
+    {
+      "name": "fish",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/fish.svg",
+      "source": "animations/generated/animals-fish.svg"
+    },
+    {
+      "name": "flock",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/flock.svg",
+      "source": "animations/generated/animals-flock.svg"
+    },
+    {
+      "name": "fox",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/fox.svg",
+      "source": "animations/generated/animals-fox.svg"
+    },
+    {
+      "name": "herd",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/herd.svg",
+      "source": "animations/generated/animals-herd.svg"
+    },
+    {
+      "name": "horse",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/horse.svg",
+      "source": "animations/generated/animals-horse.svg"
+    },
+    {
+      "name": "lamb",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/lamb.svg",
+      "source": "animations/generated/animals-lamb.svg"
+    },
+    {
+      "name": "migration",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/migration.svg",
+      "source": "animations/generated/animals-migration.svg"
+    },
+    {
+      "name": "owl",
+      "category": "animals",
+      "animation": "wingbeat",
+      "static": "pua/animals/owl.svg",
+      "source": "animations/generated/animals-owl.svg"
+    },
+    {
+      "name": "pack",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/pack.svg",
+      "source": "animations/generated/animals-pack.svg"
+    },
+    {
+      "name": "pig",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/pig.svg",
+      "source": "animations/generated/animals-pig.svg"
+    },
+    {
+      "name": "predator",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/predator.svg",
+      "source": "animations/generated/animals-predator.svg"
+    },
+    {
+      "name": "prey",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/prey.svg",
+      "source": "animations/generated/animals-prey.svg"
+    },
+    {
+      "name": "rabbit",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/rabbit.svg",
+      "source": "animations/generated/animals-rabbit.svg"
+    },
+    {
+      "name": "rooster",
+      "category": "animals",
+      "animation": "wingbeat",
+      "static": "pua/animals/rooster.svg",
+      "source": "animations/generated/animals-rooster.svg"
+    },
+    {
+      "name": "sheep",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/sheep.svg",
+      "source": "animations/generated/animals-sheep.svg"
+    },
+    {
+      "name": "squirrel",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/squirrel.svg",
+      "source": "animations/generated/animals-squirrel.svg"
+    },
+    {
+      "name": "territory",
+      "category": "animals",
+      "animation": "stride",
+      "static": "pua/animals/territory.svg",
+      "source": "animations/generated/animals-territory.svg"
+    },
+    {
+      "name": "amargasaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/amargasaurus.svg",
+      "source": "animations/generated/dinosaurs-amargasaurus.svg"
+    },
+    {
+      "name": "ankylosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/ankylosaurus.svg",
+      "source": "animations/generated/dinosaurs-ankylosaurus.svg"
+    },
+    {
+      "name": "apatosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/apatosaurus.svg",
+      "source": "animations/generated/dinosaurs-apatosaurus.svg"
+    },
+    {
+      "name": "baryonyx",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/baryonyx.svg",
+      "source": "animations/generated/dinosaurs-baryonyx.svg"
+    },
+    {
+      "name": "brachiosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/brachiosaurus.svg",
+      "source": "animations/generated/dinosaurs-brachiosaurus.svg"
+    },
+    {
+      "name": "carnotaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/carnotaurus.svg",
+      "source": "animations/generated/dinosaurs-carnotaurus.svg"
+    },
+    {
+      "name": "ceratosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/ceratosaurus.svg",
+      "source": "animations/generated/dinosaurs-ceratosaurus.svg"
+    },
+    {
+      "name": "chasmosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/chasmosaurus.svg",
+      "source": "animations/generated/dinosaurs-chasmosaurus.svg"
+    },
+    {
+      "name": "cionodon",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/cionodon.svg",
+      "source": "animations/generated/dinosaurs-cionodon.svg"
+    },
+    {
+      "name": "compsognathus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/compsognathus.svg",
+      "source": "animations/generated/dinosaurs-compsognathus.svg"
+    },
+    {
+      "name": "deinonychus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/deinonychus.svg",
+      "source": "animations/generated/dinosaurs-deinonychus.svg"
+    },
+    {
+      "name": "dilophosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/dilophosaurus.svg",
+      "source": "animations/generated/dinosaurs-dilophosaurus.svg"
+    },
+    {
+      "name": "dimetrodon",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/dimetrodon.svg",
+      "source": "animations/generated/dinosaurs-dimetrodon.svg"
+    },
+    {
+      "name": "diplodocus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/diplodocus.svg",
+      "source": "animations/generated/dinosaurs-diplodocus.svg"
+    },
+    {
+      "name": "dryosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/dryosaurus.svg",
+      "source": "animations/generated/dinosaurs-dryosaurus.svg"
+    },
+    {
+      "name": "edmontosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/edmontosaurus.svg",
+      "source": "animations/generated/dinosaurs-edmontosaurus.svg"
+    },
+    {
+      "name": "einiosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/einiosaurus.svg",
+      "source": "animations/generated/dinosaurs-einiosaurus.svg"
+    },
+    {
+      "name": "eotrachodon",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/eotrachodon.svg",
+      "source": "animations/generated/dinosaurs-eotrachodon.svg"
+    },
+    {
+      "name": "fossil",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/fossil.svg",
+      "source": "animations/generated/dinosaurs-fossil.svg"
+    },
+    {
+      "name": "fukuisaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/fukuisaurus.svg",
+      "source": "animations/generated/dinosaurs-fukuisaurus.svg"
+    },
+    {
+      "name": "giganotosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/giganotosaurus.svg",
+      "source": "animations/generated/dinosaurs-giganotosaurus.svg"
+    },
+    {
+      "name": "gigantoraptor",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/gigantoraptor.svg",
+      "source": "animations/generated/dinosaurs-gigantoraptor.svg"
+    },
+    {
+      "name": "gorgosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/gorgosaurus.svg",
+      "source": "animations/generated/dinosaurs-gorgosaurus.svg"
+    },
+    {
+      "name": "hadrosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/hadrosaurus.svg",
+      "source": "animations/generated/dinosaurs-hadrosaurus.svg"
+    },
+    {
+      "name": "hypsilophodon-variant-2",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/hypsilophodon-variant-2.svg",
+      "source": "animations/generated/dinosaurs-hypsilophodon-variant-2.svg"
+    },
+    {
+      "name": "hypsilophodon",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/hypsilophodon.svg",
+      "source": "animations/generated/dinosaurs-hypsilophodon.svg"
+    },
+    {
+      "name": "iguanodon",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/iguanodon.svg",
+      "source": "animations/generated/dinosaurs-iguanodon.svg"
+    },
+    {
+      "name": "kentrosaurus-variant-2",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/kentrosaurus-variant-2.svg",
+      "source": "animations/generated/dinosaurs-kentrosaurus-variant-2.svg"
+    },
+    {
+      "name": "kentrosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/kentrosaurus.svg",
+      "source": "animations/generated/dinosaurs-kentrosaurus.svg"
+    },
+    {
+      "name": "lambeosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/lambeosaurus.svg",
+      "source": "animations/generated/dinosaurs-lambeosaurus.svg"
+    },
+    {
+      "name": "mamenchisaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/mamenchisaurus.svg",
+      "source": "animations/generated/dinosaurs-mamenchisaurus.svg"
+    },
+    {
+      "name": "matherosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/matherosaurus.svg",
+      "source": "animations/generated/dinosaurs-matherosaurus.svg"
+    },
+    {
+      "name": "megalosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/megalosaurus.svg",
+      "source": "animations/generated/dinosaurs-megalosaurus.svg"
+    },
+    {
+      "name": "nodosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/nodosaurus.svg",
+      "source": "animations/generated/dinosaurs-nodosaurus.svg"
+    },
+    {
+      "name": "pachycephalosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/pachycephalosaurus.svg",
+      "source": "animations/generated/dinosaurs-pachycephalosaurus.svg"
+    },
+    {
+      "name": "pachyrhinosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/pachyrhinosaurus.svg",
+      "source": "animations/generated/dinosaurs-pachyrhinosaurus.svg"
+    },
+    {
+      "name": "parasaurolophus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/parasaurolophus.svg",
+      "source": "animations/generated/dinosaurs-parasaurolophus.svg"
+    },
+    {
+      "name": "plateosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/plateosaurus.svg",
+      "source": "animations/generated/dinosaurs-plateosaurus.svg"
+    },
+    {
+      "name": "postosuchus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/postosuchus.svg",
+      "source": "animations/generated/dinosaurs-postosuchus.svg"
+    },
+    {
+      "name": "protoceratops",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/protoceratops.svg",
+      "source": "animations/generated/dinosaurs-protoceratops.svg"
+    },
+    {
+      "name": "pteranodon",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/pteranodon.svg",
+      "source": "animations/generated/dinosaurs-pteranodon.svg"
+    },
+    {
+      "name": "raptor",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/raptor.svg",
+      "source": "animations/generated/dinosaurs-raptor.svg"
+    },
+    {
+      "name": "rhabdodon",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/rhabdodon.svg",
+      "source": "animations/generated/dinosaurs-rhabdodon.svg"
+    },
+    {
+      "name": "saltasaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/saltasaurus.svg",
+      "source": "animations/generated/dinosaurs-saltasaurus.svg"
+    },
+    {
+      "name": "spinosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/spinosaurus.svg",
+      "source": "animations/generated/dinosaurs-spinosaurus.svg"
+    },
+    {
+      "name": "stegosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/stegosaurus.svg",
+      "source": "animations/generated/dinosaurs-stegosaurus.svg"
+    },
+    {
+      "name": "styracosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/styracosaurus.svg",
+      "source": "animations/generated/dinosaurs-styracosaurus.svg"
+    },
+    {
+      "name": "therizinosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/therizinosaurus.svg",
+      "source": "animations/generated/dinosaurs-therizinosaurus.svg"
+    },
+    {
+      "name": "triceratops",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/triceratops.svg",
+      "source": "animations/generated/dinosaurs-triceratops.svg"
+    },
+    {
+      "name": "tyrannosaurus",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/tyrannosaurus.svg",
+      "source": "animations/generated/dinosaurs-tyrannosaurus.svg"
+    },
+    {
+      "name": "uteodon",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/uteodon.svg",
+      "source": "animations/generated/dinosaurs-uteodon.svg"
+    },
+    {
+      "name": "velociraptor",
+      "category": "dinosaurs",
+      "animation": "heavy-stride",
+      "static": "pua/dinosaurs/velociraptor.svg",
+      "source": "animations/generated/dinosaurs-velociraptor.svg"
+    },
+    {
+      "name": "coral",
+      "category": "sea_creatures",
+      "animation": "swim",
+      "static": "pua/sea_creatures/coral.svg",
+      "source": "animations/generated/sea_creatures-coral.svg"
+    },
+    {
+      "name": "crab",
+      "category": "sea_creatures",
+      "animation": "swim",
+      "static": "pua/sea_creatures/crab.svg",
+      "source": "animations/generated/sea_creatures-crab.svg"
+    },
+    {
+      "name": "dolphin",
+      "category": "sea_creatures",
+      "animation": "swim",
+      "static": "pua/sea_creatures/dolphin.svg",
+      "source": "animations/generated/sea_creatures-dolphin.svg"
+    },
+    {
+      "name": "jellyfish",
+      "category": "sea_creatures",
+      "animation": "swim",
+      "static": "pua/sea_creatures/jellyfish.svg",
+      "source": "animations/generated/sea_creatures-jellyfish.svg"
+    },
+    {
+      "name": "lobster",
+      "category": "sea_creatures",
+      "animation": "swim",
+      "static": "pua/sea_creatures/lobster.svg",
+      "source": "animations/generated/sea_creatures-lobster.svg"
+    },
+    {
+      "name": "manta",
+      "category": "sea_creatures",
+      "animation": "swim",
+      "static": "pua/sea_creatures/manta.svg",
+      "source": "animations/generated/sea_creatures-manta.svg"
+    },
+    {
+      "name": "nautilus",
+      "category": "sea_creatures",
+      "animation": "swim",
+      "static": "pua/sea_creatures/nautilus.svg",
+      "source": "animations/generated/sea_creatures-nautilus.svg"
+    },
+    {
+      "name": "octopus",
+      "category": "sea_creatures",
+      "animation": "swim",
+      "static": "pua/sea_creatures/octopus.svg",
+      "source": "animations/generated/sea_creatures-octopus.svg"
+    },
+    {
+      "name": "seahorse",
+      "category": "sea_creatures",
+      "animation": "swim",
+      "static": "pua/sea_creatures/seahorse.svg",
+      "source": "animations/generated/sea_creatures-seahorse.svg"
+    },
+    {
+      "name": "shark",
+      "category": "sea_creatures",
+      "animation": "swim",
+      "static": "pua/sea_creatures/shark.svg",
+      "source": "animations/generated/sea_creatures-shark.svg"
+    },
+    {
+      "name": "turtle",
+      "category": "sea_creatures",
+      "animation": "swim",
+      "static": "pua/sea_creatures/turtle.svg",
+      "source": "animations/generated/sea_creatures-turtle.svg"
+    },
+    {
+      "name": "whale",
+      "category": "sea_creatures",
+      "animation": "swim",
+      "static": "pua/sea_creatures/whale.svg",
+      "source": "animations/generated/sea_creatures-whale.svg"
+    }
+  ]
+}
