@@ -41,6 +41,7 @@ jobs:
           python scripts/build_color_assets.py
           python scripts/build_pua_color_variants.py
           python scripts/build_animation_companions.py
+          python scripts/check_animation_companions.py
 
       - name: Assemble exact Pages artifact
         run: python scripts/assemble_site.py
