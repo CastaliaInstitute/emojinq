@@ -23,6 +23,7 @@
     .animation-gallery { margin-top: 3rem; }
     .animation-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .75rem; }
     .animation-grid article { min-height: 190px; }
+    .catalog-status { margin: 1rem 0 .75rem; color: var(--quiet); font: .8rem/1.4 sans-serif; }
     .alphabet-sample { margin-top: 1rem; padding: 1rem; background: #252525; color: #f5f3ed; font: clamp(1.4rem,4vw,3rem)/1.25 Emojinq, sans-serif; letter-spacing: .04em; overflow:auto; white-space:nowrap; }
     small { display: block; margin-top: .8rem; color: var(--quiet); font-family: sans-serif; }
   </style>
@@ -64,10 +65,31 @@
         <article><img class="emoji" src="../assets/animations/generated/animals-dog.svg" alt="Dog walking animated"><div class="label">Dog walk</div></article>
         <article><img class="emoji" src="../assets/animations/generated/dinosaurs-tyrannosaurus.svg" alt="Tyrannosaurus walking animated"><div class="label">Dinosaur walk</div></article>
       </div>
+      <p class="catalog-status" id="catalog-status">Loading complete companion catalog…</p>
+      <div class="animation-grid" id="companion-catalog" aria-label="Complete animated companion catalog"></div>
     </section>
   <div class="font-sample" aria-label="Font sample">👤 📍 💡</div>
   <div class="alphabet-sample" aria-label="Emojinq alphabet sample">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789</div>
     <small>SVG artwork above · OpenType sample below · generated assets are intended to be rasterized before embedded deployment</small>
   </main>
+  <script>
+    fetch("../assets/animations/manifest.json").then(response => response.json()).then(catalog => {
+      const grid = document.getElementById("companion-catalog");
+      const status = document.getElementById("catalog-status");
+      status.textContent = `${catalog.companions.length} animated companions · faces, animals, dinosaurs, and sea creatures`;
+      for (const item of catalog.companions) {
+        const article = document.createElement("article");
+        const image = document.createElement("img");
+        image.className = "emoji";
+        image.src = `../assets/${item.source}`;
+        image.alt = `${item.name.replaceAll("-", " ")} animated`;
+        const label = document.createElement("div");
+        label.className = "label";
+        label.textContent = `${item.category} · ${item.animation}`;
+        article.append(image, label);
+        grid.append(article);
+      }
+    }).catch(() => { document.getElementById("catalog-status").textContent = "Animated companion catalog unavailable."; });
+  </script>
 </body>
 </html>
